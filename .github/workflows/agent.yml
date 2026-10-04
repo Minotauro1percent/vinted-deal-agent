@@ -2,7 +2,7 @@ name: Vinted Deal-Agent
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # alle 15 Min.: Telegram-Befehle lesen; gesucht wird stündlich
+    - cron: '7,22,37,52 * * * *'   # alle 15 Min.: Telegram-Befehle lesen; gesucht wird stündlich
   workflow_dispatch: {}      # manuell starten über den Tab "Actions"
   push:
     branches: [main]

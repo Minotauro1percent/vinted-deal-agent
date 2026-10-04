@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Version 1.0.4
+# Version 1.1.0
 """Vinted Deal-Agent für GitHub Actions.
 
 Läuft alle 15 Minuten (siehe .github/workflows/agent.yml):
@@ -187,7 +187,7 @@ def fetch_details(item):
 def search_url(query, w):
     q = {'search_text': query, 'order': 'newest_first', 'currency': 'EUR'}
     if w['maxPrice']:
-        q['price_to'] = str(w['maxPrice'])
+        q['price_to'] = f"{w['maxPrice']:g}"
     return '/catalog?' + urllib.parse.urlencode(q)
 
 # ---------------------------------------------------------------- Filter
@@ -388,7 +388,14 @@ def run_search(state, raw_watch):
         cands = {}
         key = lambda iid: f"{w['name']}|{iid}"          # „gesehen“ gilt pro Suche
         for q in w['queries']:
-            for it in parse_catalog(vinted_get(search_url(q, w))):
+            try:
+                page = vinted_get(search_url(q, w))
+            except Blocked:
+                raise
+            except Exception as e:                         # einzelne Anfrage kaputt -> überspringen
+                log(f"Suchanfrage übersprungen ({q}): {e}")
+                time.sleep(random.uniform(5, 10)); continue
+            for it in parse_catalog(page):
                 if key(it['id']) not in seen and it['id'] not in seen:
                     cands[it['id']] = it
             time.sleep(random.uniform(2.5, 5))
@@ -398,7 +405,14 @@ def run_search(state, raw_watch):
                 seen.add(key(it['id'])); continue
             if first and first_count >= FIRST_RUN_MAX_PER_ITEM:
                 seen.add(key(it['id'])); continue
-            it.update(fetch_details(it)); time.sleep(random.uniform(2, 4))
+            try:
+                it.update(fetch_details(it))
+            except Blocked:
+                raise
+            except Exception as e:
+                log(f"Details übersprungen ({it['id']}): {e}")
+                it.update({'desc': '', 'image': it.get('thumb', ''), 'uploaded': ''})
+            time.sleep(random.uniform(2, 4))
             seen.add(key(it['id']))
             if not matches(w, it, it['desc']):
                 continue
@@ -406,6 +420,8 @@ def run_search(state, raw_watch):
                 seen.add(it['id'])                          # gemeldet: nie wieder, auch nicht von anderen Suchen
                 found += 1; first_count += 1
         first_done.add(w['name'])
+        state['seen'] = list(seen)[-20000:]                 # nach jeder Suche sichern
+        state['first_run_done'] = sorted(first_done)
     state['seen'] = list(seen)[-20000:]
     state['first_run_done'] = sorted(first_done)
     return found
