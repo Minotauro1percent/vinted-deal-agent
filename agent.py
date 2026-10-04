@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Version 1.0.2
+# Version 1.0.3
 """Vinted Deal-Agent für GitHub Actions.
 
 Läuft alle 15 Minuten (siehe .github/workflows/agent.yml):
@@ -318,6 +318,9 @@ def watch_list_text(raw):
 def handle_commands(state, raw_watch):
     """Liest neue Telegram-Nachrichten und führt Befehle aus. Gibt True zurück, wenn watchlist.json geändert wurde."""
     res = tg('getUpdates', {'offset': state['tg_offset'] + 1, 'timeout': 0, 'allowed_updates': ['message']})
+    if not res.get('ok', True):
+        log('getUpdates fehlgeschlagen:', str(res.get('description'))[:200])
+    log(f"Telegram: {len(res.get('result', []))} neue Nachricht(en)")
     changed = False
     for u in res.get('result', []):
         state['tg_offset'] = max(state['tg_offset'], u['update_id'])
