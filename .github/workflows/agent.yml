@@ -1,4 +1,4 @@
-name: Vinted Deal-Agent
+name: Vinted Deal-Agent^
 
 on:
   schedule:
