@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Version 1.0.1
+# Version 1.0.2
 """Vinted Deal-Agent für GitHub Actions.
 
 Läuft alle 15 Minuten (siehe .github/workflows/agent.yml):
