@@ -1,15 +1,16 @@
-name: Vinted Deal-Agent^
+name: Vinted Deal-Agent
 
 on:
   schedule:
-    - cron: '7,22,37,52 * * * *'   # alle 15 Min.: Telegram-Befehle lesen; gesucht wird stündlich
-  workflow_dispatch: {}      # manuell starten über den Tab "Actions"
+    - cron: '7,22,37,52 * * * *'   # GitHub-Zeitplan (falls GitHub ihn ausführt)
+  workflow_dispatch: {}            # manuell, per Kette (siehe unten) oder per cron-job.org
   push:
     branches: [main]
     paths: ['agent.py', 'watchlist.json', '.github/workflows/agent.yml']
 
 permissions:
-  contents: write            # damit state.json gespeichert werden kann
+  contents: write                  # state.json speichern
+  actions: write                   # nächsten Lauf selbst starten
 
 concurrency:
   group: deal-agent
@@ -18,7 +19,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
 
@@ -39,3 +40,18 @@ jobs:
             git pull --rebase --autostash || true
             git push
           fi
+
+      # Kette: 15 Min. warten, dann den nächsten Lauf starten.
+      # So läuft der Agent weiter, auch wenn GitHubs Zeitplan ausfällt.
+      - name: Nächsten Lauf in 15 Minuten starten
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sleep 840
+          curl -sS -o /dev/null -w "dispatch: %{http_code}\n" -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2022-11-28" \
+            "https://api.github.com/repos/${{ github.repository }}/actions/workflows/agent.yml/dispatches" \
+            -d '{"ref":"main"}'
