@@ -1,7 +1,2 @@
-2026-10-04 20:30:33 UTC Telegram: 2 neue Nachricht(en)
-2026-10-04 20:30:33 UTC Befehl /status []
-2026-10-04 20:30:33 UTC Befehl /liste []
-2026-10-04 20:30:54 UTC Polo Ralph Lauren Zopfstrick-Pullover: 14 neue Kandidaten
-2026-10-04 20:31:14 UTC Barbour Wachsjacke: 21 neue Kandidaten
-2026-10-04 20:32:11 UTC Carhartt Detroit Jacket: 11 neue Kandidaten
-2026-10-04 20:33:09 UTC Fehler bei der Suche: RuntimeError('HTTP 500 für https://www.vinted.at/catalog?search_text=arcteryx+beta&order=newest_first&currency=EUR&price_to=60.0')
+2026-10-04 20:35:04 UTC Telegram: 0 neue Nachricht(en)
+2026-10-04 20:35:04 UTC Keine Suche fällig
