@@ -1,0 +1,41 @@
+name: Vinted Deal-Agent
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # alle 15 Min.: Telegram-Befehle lesen; gesucht wird stündlich
+  workflow_dispatch: {}      # manuell starten über den Tab "Actions"
+  push:
+    branches: [main]
+    paths: ['agent.py', 'watchlist.json', '.github/workflows/agent.yml']
+
+permissions:
+  contents: write            # damit state.json gespeichert werden kann
+
+concurrency:
+  group: deal-agent
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Agent ausführen
+        run: python3 agent.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: Zustand speichern
+        if: always()
+        run: |
+          git config user.name "deal-agent"
+          git config user.email "deal-agent@users.noreply.github.com"
+          git add state.json watchlist.json last_run.txt
+          if ! git diff --cached --quiet; then
+            git commit -m "Zustand aktualisiert [skip ci]"
+            git pull --rebase --autostash || true
+            git push
+          fi
