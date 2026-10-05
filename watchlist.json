@@ -56,7 +56,7 @@
     "id": "carhartt-detroit-jacket",
     "name": "Carhartt Detroit Jacket",
     "category": "kleidung",
-    "active": true,
+    "active": false,
     "queries": [
       "carhartt detroit jacket",
       "carhartt detroit"
