@@ -2,8 +2,8 @@
   "enabled": true,
   "default_interval_min": 60,
   "first_run_max": 3,
-  "shipping_est": 5.0,
+  "shipping_est": 5,
   "max_per_run": 15,
-  "force_all": 0,
+  "force_all": 1791200231,
   "force": {}
 }
