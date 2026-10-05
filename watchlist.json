@@ -176,37 +176,6 @@
     }
   },
   {
-    "id": "ugg-tasman",
-    "name": "UGG Tasman",
-    "category": "schuhe",
-    "active": true,
-    "queries": [
-      "ugg tasman"
-    ],
-    "brands": [
-      "UGG"
-    ],
-    "require": [
-      "tasman"
-    ],
-    "exclude": [
-      "kinder",
-      "kids",
-      "enfant",
-      "bambin",
-      "toddler"
-    ],
-    "sizes": [],
-    "colors": [],
-    "maxPrice": 45,
-    "resaleMin": 80,
-    "resaleMax": 110,
-    "minCondition": "Gut",
-    "schedule": {
-      "mode": "default"
-    }
-  },
-  {
     "id": "moon-boot",
     "name": "Moon Boot",
     "category": "schuhe",
