@@ -56,7 +56,7 @@
     "id": "barbour-wachsjacke",
     "name": "Barbour Wachsjacke",
     "category": "kleidung",
-    "active": true,
+    "active": false,
     "queries": [
       "barbour bedale",
       "barbour beaufort",
