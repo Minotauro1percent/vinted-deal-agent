@@ -170,7 +170,7 @@
     "maxPrice": 30,
     "resaleMin": 80,
     "resaleMax": 110,
-    "minCondition": "Gut",
+    "minCondition": "Sehr gut",
     "schedule": {
       "mode": "default"
     }
