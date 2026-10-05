@@ -144,39 +144,6 @@
     }
   },
   {
-    "id": "salomon-xt-6",
-    "name": "Salomon XT-6",
-    "category": "schuhe",
-    "active": false,
-    "queries": [
-      "salomon xt-6",
-      "salomon xt6"
-    ],
-    "brands": [
-      "Salomon"
-    ],
-    "require": [
-      "xt-6",
-      "xt6",
-      "xt 6"
-    ],
-    "exclude": [
-      "kinder",
-      "kids",
-      "enfant",
-      "bambin"
-    ],
-    "sizes": [],
-    "colors": [],
-    "maxPrice": 60,
-    "resaleMin": 110,
-    "resaleMax": 120,
-    "minCondition": "Gut",
-    "schedule": {
-      "mode": "default"
-    }
-  },
-  {
     "id": "onitsuka-tiger-mexico-66",
     "name": "Onitsuka Tiger Mexico 66",
     "category": "schuhe",
