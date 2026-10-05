@@ -176,36 +176,6 @@
     }
   },
   {
-    "id": "moon-boot",
-    "name": "Moon Boot",
-    "category": "schuhe",
-    "active": true,
-    "queries": [
-      "moon boot"
-    ],
-    "brands": [
-      "Moon Boot"
-    ],
-    "require": [],
-    "exclude": [
-      "kinder",
-      "kids",
-      "enfant",
-      "bambin",
-      "junior",
-      "chausson"
-    ],
-    "sizes": [],
-    "colors": [],
-    "maxPrice": 28,
-    "resaleMin": 55,
-    "resaleMax": 95,
-    "minCondition": "Gut",
-    "schedule": {
-      "mode": "default"
-    }
-  },
-  {
     "id": "longchamp-le-pliage",
     "name": "Longchamp Le Pliage",
     "category": "taschen",
