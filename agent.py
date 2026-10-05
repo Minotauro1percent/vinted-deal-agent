@@ -256,6 +256,9 @@ def lst(s):
 def norm(s):
     return re.sub(r'\s+', ' ', re.sub(r'[’`´]', "'", str(s or '').lower())).strip()
 
+def size_key(s):
+    return norm(s).replace(',', '.').replace('eu ', '').strip()
+
 def fnum(x, default=0.0):
     try:
         return float(str(x).replace(',', '.')) if str(x).strip() != '' else default
@@ -280,7 +283,7 @@ def compile_watch(w):
             'require': [norm(x) for x in lst(w.get('require'))], 'exclude': [norm(x) for x in lst(w.get('exclude'))],
             'minPrice': fnum(w.get('minPrice')), 'maxPrice': fnum(w.get('maxPrice')),
             'resale': [rmin, fnum(w.get('resaleMax'), rmin) or rmin],
-            'sizes': [norm(x) for x in lst(w.get('sizes'))], 'colors': [norm(x) for x in lst(w.get('colors'))],
+            'sizes': [size_key(x) for x in lst(w.get('sizes'))], 'colors': [norm(x) for x in lst(w.get('colors'))],
             'storage': [r for r in (storage_re(x) for x in lst(w.get('storage'))) if r],
             'storage_txt': lst(w.get('storage')), 'simFree': bool(w.get('simFree')),
             'minCondition': w.get('minCondition') or 'Gut', 'schedule': sched}
@@ -351,6 +354,23 @@ REWORK_RE = re.compile(r'\b(rework|reworked|patchwork|upcycl\w*|custom\w*)\b', r
 KIDSIZE_RE = re.compile(r'jahre|monate|\bans\b|\banni\b|years|months|\d+\s*cm\b', re.I)
 SIMFREE_TXT = re.compile(r'sim.?lock.?frei|ohne sim.?lock|simlock free|unlocked|entsperrt|désimlock|desimlock|sbloccat|libre', re.I)
 CLOTHING = {'kleidung', 'schuhe', 'taschen'}
+COLOR_WORDS = {'schwarz': 'black noir nero negro', 'weiß': 'weiss white blanc bianco blanco', 'grau': 'grey gray gris grigio',
+               'blau': 'blue bleu blu azul navy', 'rot': 'red rouge rosso rojo', 'grün': 'gruen green vert verde',
+               'braun': 'brown marron brun marrone', 'beige': 'sand camel', 'creme': 'cream ecru offwhite',
+               'gelb': 'yellow jaune giallo', 'orange': 'arancione', 'rosa': 'pink rose', 'pink': 'rosa',
+               'lila': 'purple violet viola flieder', 'khaki': 'olive oliv', 'mehrfarbig': 'bunt multicolor multicolore',
+               'silber': 'silver argent', 'gold': 'golden doré oro', 'türkis': 'turquoise teal petrol',
+               'burgunderrot': 'bordeaux burgundy weinrot', 'marineblau': 'navy dunkelblau', 'hellblau': 'light blue babyblau'}
+
+def color_ok(wanted, item_color, text):
+    """„Blau“ passt auch zu Hellblau/Marineblau. Ohne Farbangabe am Artikel wird Titel + Beschreibung geprüft."""
+    have = [norm(c) for c in lst(item_color)]
+    if have:
+        return any(c in h for c in wanted for h in have)
+    words = set()
+    for c in wanted:
+        words.add(c); words.update(COLOR_WORDS.get(c, '').split())
+    return any(re.search(r'(?<![a-zäöüß])' + re.escape(x) + r'\w*', text) for x in words if x)
 
 def matches(w, it, details=None):
     """True = Treffer · False = verwerfen · None = erst Detailseite laden."""
@@ -375,8 +395,10 @@ def matches(w, it, details=None):
         return False
     if CONDITION_RANK.get(it['condition'], 0) < CONDITION_RANK.get(w['minCondition'], 0):
         return False
-    if w['sizes'] and norm(it['size'].split('/')[0]) not in w['sizes'] and norm(it['size']) not in w['sizes']:
-        return False
+    if w['sizes']:
+        parts = [size_key(x) for x in [it['size']] + it['size'].split('/')]
+        if not any(p in w['sizes'] for p in parts):
+            return False
     if details is None:
         if w['require'] or w['colors'] or w['storage'] or w['simFree']:
             return None
@@ -385,10 +407,8 @@ def matches(w, it, details=None):
         return False
     if w['storage'] and not any(r.search(text) for r in w['storage']):
         return False
-    if w['colors']:
-        item_colors = [norm(c) for c in lst(details.get('color'))]
-        if not any(c in w['colors'] for c in item_colors):
-            return False
+    if w['colors'] and not color_ok(w['colors'], details.get('color'), text):
+        return False
     if w['simFree']:
         sl = norm(details.get('simlock'))
         if sl != 'freigegeben' and not (not sl and SIMFREE_TXT.search(text)):

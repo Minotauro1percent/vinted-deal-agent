@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vinted Deal-Agent</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%94%8E%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f5f6f8;--card:#fff;--ink:#16181d;--muted:#667085;--line:#e4e7ec;--soft:#f1f3f6;
+  --acc:#0b7a75;--acc-ink:#fff;--acc-soft:#e3f3f2;--warn:#b54708;--warn-soft:#fef0e6;--bad:#c4320a;--bad-soft:#fdece6;
+  --ok:#067647;--ok-soft:#e6f6ee;--shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08);
+  --r:14px;--rs:9px;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f1115;--card:#171a20;--ink:#e8eaee;--muted:#98a2b3;--line:#2a2f38;--soft:#1f232b;
+  --acc:#2bb3a9;--acc-ink:#04201e;--acc-soft:#123331;--warn:#f79009;--warn-soft:#33240f;--bad:#f97066;--bad-soft:#3a1a16;
+  --ok:#47cd89;--ok-soft:#10301f;--shadow:none;
+}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:var(--acc)}
+.wrap{max-width:780px;margin:0 auto;padding:16px 16px 96px}
+header.top{display:flex;align-items:center;gap:12px;margin:4px 0 16px}
+header.top h1{font-size:20px;margin:0;flex:1;letter-spacing:-.01em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;margin-bottom:14px}
+.card h2{font-size:15px;margin:0 0 12px;display:flex;align-items:center;gap:8px}
+.muted{color:var(--muted)}.small{font-size:13px}
+.row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.grow{flex:1;min-width:0}
+.btn{border:1px solid var(--line);background:var(--card);border-radius:var(--rs);padding:8px 13px;cursor:pointer;display:inline-flex;align-items:center;gap:6px;white-space:nowrap;min-height:38px}
+.btn:hover{background:var(--soft)}
+.btn.primary{background:var(--acc);border-color:var(--acc);color:var(--acc-ink);font-weight:600}
+.btn.primary:hover{filter:brightness(1.07)}
+.btn.danger{color:var(--bad);border-color:color-mix(in srgb,var(--bad) 35%,var(--line))}
+.btn.danger.armed{background:var(--bad);color:#fff;border-color:var(--bad)}
+.btn.ghost{border-color:transparent;background:transparent}
+.btn.sm{padding:5px 10px;min-height:32px;font-size:13.5px}
+.btn:disabled{opacity:.55;cursor:default}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:99px;padding:3px 10px;font-size:13px;font-weight:600}
+.pill.on{background:var(--ok-soft);color:var(--ok)}.pill.off{background:var(--warn-soft);color:var(--warn)}
+.pill .dot{width:8px;height:8px;border-radius:50%;background:currentColor}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:14px 0}
+.stat{background:var(--soft);border-radius:var(--rs);padding:10px 12px}
+.stat b{display:block;font-size:18px}
+.stat span{font-size:12.5px;color:var(--muted)}
+label.f{display:block;font-size:13px;font-weight:600;margin:14px 0 6px}
+label.f .hint{font-weight:400;color:var(--muted)}
+input[type=text],input[type=number],input[type=password],input[type=time],select{width:100%;border:1px solid var(--line);background:var(--card);border-radius:var(--rs);padding:9px 11px;min-height:40px}
+input:focus,select:focus,.tags:focus-within{outline:2px solid color-mix(in srgb,var(--acc) 55%,transparent);outline-offset:0;border-color:var(--acc)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+.grid4 label.f,.grid2 label.f{margin-top:8px}
+/* Schalter */
+.sw{position:relative;width:46px;height:28px;flex:none;display:inline-block}
+.sw input{opacity:0;width:0;height:0;position:absolute}
+.sw i{position:absolute;inset:0;background:var(--line);border-radius:99px;transition:.15s;cursor:pointer}
+.sw i:after{content:"";position:absolute;width:22px;height:22px;left:3px;top:3px;background:#fff;border-radius:50%;transition:.15s;box-shadow:0 1px 2px rgba(0,0,0,.25)}
+.sw input:checked+i{background:var(--acc)}
+.sw input:checked+i:after{transform:translateX(18px)}
+.sw input:focus-visible+i{outline:2px solid var(--acc);outline-offset:2px}
+/* Chips */
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:99px;padding:5px 12px;cursor:pointer;font-size:13.5px;display:inline-flex;align-items:center;gap:6px;min-height:32px;user-select:none}
+.chip[aria-pressed=true]{background:var(--acc-soft);border-color:var(--acc);color:var(--acc);font-weight:600}
+.sw-col{width:13px;height:13px;border-radius:50%;border:1px solid rgba(0,0,0,.18);flex:none}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.seg{display:flex;background:var(--soft);border-radius:var(--rs);padding:3px;gap:3px;flex-wrap:wrap}
+.seg button{border:0;background:transparent;border-radius:7px;padding:7px 12px;cursor:pointer;flex:1;white-space:nowrap;min-height:36px}
+.seg button[aria-pressed=true]{background:var(--card);box-shadow:var(--shadow);font-weight:600;color:var(--acc)}
+/* Tag-Eingabe */
+.tags{display:flex;flex-wrap:wrap;gap:6px;border:1px solid var(--line);border-radius:var(--rs);padding:6px;min-height:42px;background:var(--card);cursor:text}
+.tags .tag{background:var(--soft);border-radius:6px;padding:3px 4px 3px 9px;display:inline-flex;align-items:center;gap:2px;font-size:13.5px;max-width:100%}
+.tags .tag button{border:0;background:transparent;cursor:pointer;padding:0 5px;color:var(--muted);font-size:16px;line-height:1}
+.tags input{border:0;outline:0;flex:1;min-width:120px;padding:4px;background:transparent}
+/* Suchen-Liste */
+.watch{display:flex;gap:12px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line)}
+.watch:first-child{border-top:0;padding-top:4px}
+.watch .ic{width:40px;height:40px;border-radius:11px;background:var(--soft);display:grid;place-items:center;font-size:20px;flex:none}
+.watch.off .ic,.watch.off .main{opacity:.5}
+.watch .name{font-weight:650;overflow-wrap:anywhere}
+.watch .meta{font-size:13px;color:var(--muted);margin-top:2px;overflow-wrap:anywhere}
+.watch .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
+.badge{display:inline-block;font-size:12px;border-radius:6px;padding:1px 7px;background:var(--soft);color:var(--muted);margin-right:4px}
+.badge.acc{background:var(--acc-soft);color:var(--acc)}
+.badge.warn{background:var(--warn-soft);color:var(--warn)}
+/* Editor */
+dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%;margin:0}
+dialog::backdrop{background:rgba(10,12,16,.55)}
+.sheet{background:var(--card);max-width:720px;margin:24px auto;border-radius:18px;display:flex;flex-direction:column;max-height:calc(100% - 48px);overflow:hidden;border:1px solid var(--line)}
+.sheet .hd{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line)}
+.sheet .hd h2{margin:0;font-size:17px;flex:1}
+.sheet .bd{padding:4px 16px 20px;overflow:auto;flex:1}
+.sheet .ft{display:flex;gap:8px;padding:12px 16px;border-top:1px solid var(--line);background:var(--card);flex-wrap:wrap}
+fieldset{border:0;padding:0;margin:0}
+.sec{border-top:1px solid var(--line);margin-top:18px;padding-top:4px}
+.sec>h3{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:14px 0 0}
+.note{background:var(--soft);border-radius:var(--rs);padding:10px 12px;font-size:13.5px;margin-top:12px}
+.note.acc{background:var(--acc-soft)}
+.err{color:var(--bad);font-size:13px;margin-top:6px}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;opacity:0;transition:.2s;z-index:50;max-width:calc(100% - 32px);font-size:14px;pointer-events:none}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.toast.bad{background:var(--bad);color:#fff}
+pre.log{background:var(--soft);border-radius:var(--rs);padding:10px;font-size:12px;overflow:auto;max-height:300px;white-space:pre-wrap;word-break:break-word;margin:8px 0 0}
+details summary{cursor:pointer;color:var(--muted);font-size:13.5px}
+.fab{position:fixed;right:max(16px,calc(50% - 374px));bottom:max(16px,env(safe-area-inset-bottom));z-index:20;box-shadow:0 6px 20px rgba(0,0,0,.18);border-radius:99px;padding:12px 18px;min-height:48px}
+.timechips .chip{cursor:default}
+.timechips .chip button{border:0;background:transparent;cursor:pointer;color:inherit;padding:0 0 0 2px;font-size:15px}
+.empty{text-align:center;padding:28px 10px;color:var(--muted)}
+.steps{margin:8px 0 0;padding-left:20px}.steps li{margin:6px 0}
+.spinner{width:16px;height:16px;border:2px solid currentColor;border-right-color:transparent;border-radius:50%;animation:spin .7s linear infinite;display:inline-block}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (max-width:600px){
+  .wrap{padding:12px 12px 96px}
+  .card{padding:14px;border-radius:12px}
+  .grid4{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr 1fr;gap:6px}.stat{padding:8px}.stat b{font-size:16px}
+  .sheet{margin:0;border-radius:0;max-height:100%;height:100%;border:0}
+  .watch .acts .btn .lbl{display:none}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="top">
+    <h1>🔎 Vinted Deal-Agent</h1>
+    <span id="statusPill"></span>
+    <button class="btn ghost sm" id="reloadBtn" title="Neu laden" aria-label="Neu laden" hidden>⟳</button>
+  </header>
+  <main id="app"><div class="empty"><span class="spinner"></span></div></main>
+</div>
+<button class="btn primary fab" id="addBtn" hidden>＋ Neue Suche</button>
+<dialog id="editor"></dialog>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script>
+'use strict';
+/* ================================================================ Konstanten */
+const CATS = {
+  kleidung: {icon: '👕', label: 'Kleidung'},
+  schuhe:   {icon: '👟', label: 'Schuhe'},
+  taschen:  {icon: '👜', label: 'Taschen'},
+  technik:  {icon: '📱', label: 'Technik'},
+  sonstiges:{icon: '📦', label: 'Sonstiges'},
+};
+const CONDITIONS = ['Neu mit Etikett', 'Neu', 'Sehr gut', 'Gut', 'Zufriedenstellend'];
+const SIZES = {
+  kleidung: ['XXS', 'XS', 'S', 'M', 'L', 'XL', 'XXL', 'XXXL', '34', '36', '38', '40', '42', '44', '46', '48', '50', '52', '54'],
+  schuhe: ['35', '36', '37', '38', '39', '40', '41', '42', '43', '44', '45', '46', '47'],
+};
+const COLORS = [
+  ['Schwarz', '#111'], ['Grau', '#8a8f98'], ['Weiß', '#fff'], ['Creme', '#f3ead3'], ['Beige', '#d9c6a5'],
+  ['Braun', '#7a4b2a'], ['Khaki', '#8a8a5c'], ['Rot', '#d22'], ['Burgunderrot', '#7b1730'], ['Rosa', '#f6b8c8'],
+  ['Pink', '#e83e8c'], ['Lila', '#7d4bb5'], ['Hellblau', '#9fd0f5'], ['Blau', '#1f5fd1'], ['Marineblau', '#1b2a4e'],
+  ['Türkis', '#1fb5ad'], ['Grün', '#2e9a48'], ['Dunkelgrün', '#1d4d2b'], ['Gelb', '#f3d02c'], ['Orange', '#f08a24'],
+  ['Silber', 'linear-gradient(135deg,#eee,#9aa)'], ['Gold', 'linear-gradient(135deg,#f7e08a,#b8902b)'],
+  ['Mehrfarbig', 'conic-gradient(#e33,#fd3,#3c3,#39f,#a3f,#e33)'],
+];
+const STORAGE = ['64 GB', '128 GB', '256 GB', '512 GB', '1 TB'];
+const TECH_EXCLUDE = ['defekt', 'kaputt', 'ersatzteil', 'icloud', 'gesperrt', 'hülle', 'case', 'cover', 'panzerglas', 'schutzfolie', 'attrappe', 'displayschaden'];
+const TEMPLATES = {
+  kleidung: {exclude: ['kinder', 'kids', 'defekt', 'loch'], minCondition: 'Gut'},
+  schuhe:   {exclude: ['kinder', 'kids', 'defekt'], minCondition: 'Gut'},
+  taschen:  {exclude: ['defekt', 'kaputt'], minCondition: 'Gut'},
+  technik:  {exclude: TECH_EXCLUDE.slice(), minCondition: 'Sehr gut', simFree: true},
+  sonstiges:{exclude: ['defekt'], minCondition: 'Gut'},
+};
+const INTERVALS = [[15, 'alle 15 Min.'], [30, 'alle 30 Min.'], [45, 'alle 45 Min.'], [60, 'stündlich'], [120, 'alle 2 Std.'],
+  [180, 'alle 3 Std.'], [240, 'alle 4 Std.'], [360, 'alle 6 Std.'], [720, 'alle 12 Std.'], [1440, 'einmal am Tag']];
+const WD = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
+const TZ = 'Europe/Vienna';
+const DEFAULT_SETTINGS = {enabled: true, default_interval_min: 60, first_run_max: 3, shipping_est: 5, max_per_run: 15, force_all: 0, force: {}};
+
+/* ================================================================ Hilfen */
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'}[c]));
+const arr = v => Array.isArray(v) ? v.map(String).map(s => s.trim()).filter(Boolean) : String(v ?? '').split(',').map(s => s.trim()).filter(Boolean);
+const num = (v, d = 0) => { const n = parseFloat(String(v ?? '').replace(',', '.')); return isFinite(n) ? n : d; };
+const euro = n => (Math.round(n * 100) / 100).toLocaleString('de-AT', {minimumFractionDigits: n % 1 ? 2 : 0, maximumFractionDigits: 2}) + ' €';
+const nowS = () => Math.floor(Date.now() / 1000);
+function slug(s) {
+  return String(s).toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/ß/g, 'ss')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || Math.random().toString(16).slice(2, 10);
+}
+function toast(msg, bad = false) {
+  const t = $('#toast'); t.textContent = msg; t.className = 'toast show' + (bad ? ' bad' : '');
+  clearTimeout(toast.t); toast.t = setTimeout(() => t.className = 'toast', bad ? 6000 : 2600);
+}
+function lsGet(k) { try { return localStorage.getItem(k); } catch { return null; } }
+function lsSet(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch {} }
+
+/* ---------------------------------------------------------------- Zeit (Europe/Vienna) */
+const partsFmt = new Intl.DateTimeFormat('en-GB', {timeZone: TZ, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit'});
+function viennaParts(ms) {
+  const p = Object.fromEntries(partsFmt.formatToParts(new Date(ms)).map(x => [x.type, x.value]));
+  return {y: +p.year, m: +p.month, d: +p.day, h: +p.hour, mi: +p.minute, s: +p.second};
+}
+function tzOffset(ms) { const p = viennaParts(ms); return Date.UTC(p.y, p.m - 1, p.d, p.h, p.mi, p.s) - Math.floor(ms / 1000) * 1000; }
+function viennaTs(y, m, d, h, mi) {          // Wiener Ortszeit → Unix-Sekunden
+  const guess = Date.UTC(y, m - 1, d, h, mi);
+  let t = guess - tzOffset(guess); t = guess - tzOffset(t);
+  return Math.floor(t / 1000);
+}
+function parseHHMM(t) { const m = /^\s*(\d{1,2}):(\d{2})\s*$/.exec(t || ''); return m && +m[1] < 24 && +m[2] < 60 ? [+m[1], +m[2]] : null; }
+function slots(sched, fromS, dayRange) {
+  const days = new Set((sched.days || []).map(Number)); const times = (sched.times || []).map(parseHHMM).filter(Boolean);
+  const p = viennaParts(fromS * 1000); const out = [];
+  for (const off of dayRange) {
+    const dt = new Date(Date.UTC(p.y, p.m - 1, p.d + off));
+    const iso = dt.getUTCDay() || 7;
+    if (!days.has(iso)) continue;
+    for (const [h, mi] of times) out.push(viennaTs(dt.getUTCFullYear(), dt.getUTCMonth() + 1, dt.getUTCDate(), h, mi));
+  }
+  return out;
+}
+function nextSlot(sched, after) { const f = slots(sched, after, [0, 1, 2, 3, 4, 5, 6, 7, 8]).filter(s => s > after); return f.length ? Math.min(...f) : null; }
+function intervalMin(w, st) {
+  const s = w.schedule || {};
+  return Math.max(15, Math.round(s.mode === 'interval' ? num(s.everyMin, 60) : num(st.default_interval_min, 60)));
+}
+function nextRun(w, st, state) {
+  const last = (state.watch_last || {})[w.id] || 0, now = nowS();
+  if ((w.schedule || {}).mode === 'times') return nextSlot(w.schedule, Math.max(last, now));
+  return Math.max(now, last + intervalMin(w, st) * 60);
+}
+function intervalText(m) { const f = INTERVALS.find(x => x[0] === m); return f ? f[1] : (m % 60 ? `alle ${m} Min.` : `alle ${m / 60} Std.`); }
+function scheduleText(w, st) {
+  const s = w.schedule || {mode: 'default'};
+  if (s.mode === 'times') {
+    const days = [...new Set((s.days || []).map(Number))].sort();
+    const dtxt = days.length === 7 ? 'täglich' : days.join() === '1,2,3,4,5' ? 'Mo–Fr' : days.join() === '6,7' ? 'Sa+So' : days.map(d => WD[d - 1]).join(', ');
+    const tt = (s.times || []).filter(parseHHMM).sort().join(', ');
+    return (dtxt && tt) ? `${dtxt} ${tt}` : 'kein Termin';
+  }
+  return intervalText(intervalMin(w, st)) + (s.mode === 'interval' ? '' : ' (Standard)');
+}
+const dayFmt = new Intl.DateTimeFormat('de-AT', {timeZone: TZ, weekday: 'short', day: '2-digit', month: '2-digit', hour: '2-digit', minute: '2-digit'});
+function fmtWhen(ts) {
+  if (!ts) return '–';
+  const diff = ts - nowS(), a = Math.abs(diff);
+  if (a < 90) return diff >= 0 ? 'gleich' : 'gerade eben';
+  if (a < 3600) return diff > 0 ? `in ${Math.round(a / 60)} Min.` : `vor ${Math.round(a / 60)} Min.`;
+  if (a < 6 * 3600) { const h = Math.floor(a / 3600), m = Math.round(a % 3600 / 60); return (diff > 0 ? 'in ' : 'vor ') + h + ' Std.' + (m ? ` ${m} Min.` : ''); }
+  return dayFmt.format(new Date(ts * 1000)).replace(',', '');
+}
+
+/* ================================================================ GitHub */
+const S = {repo: '', token: '', watch: [], settings: {...DEFAULT_SETTINGS}, state: {}, log: '', filter: 'alle', busy: false};
+function b64decode(b) { const bin = atob(b.replace(/\s/g, '')); return new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0))); }
+function b64encode(s) { const bytes = new TextEncoder().encode(s); let bin = ''; for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000)); return btoa(bin); }
+async function gh(path, opts = {}) {
+  const r = await fetch(`https://api.github.com/repos/${S.repo}/${path}`, {
+    cache: 'no-store', ...opts,
+    headers: {Accept: 'application/vnd.github+json', Authorization: `Bearer ${S.token}`, 'X-GitHub-Api-Version': '2022-11-28', ...(opts.body ? {'Content-Type': 'application/json'} : {})},
+  });
+  if (!r.ok) { const e = new Error(`GitHub ${r.status}`); e.status = r.status; try { e.detail = (await r.json()).message; } catch {} throw e; }
+  return r.status === 204 ? null : r.json();
+}
+async function getFile(name, fallback) {
+  try {
+    const j = await gh(`contents/${name}?ref=main&_=${Date.now()}`);
+    const text = j.content ? b64decode(j.content) : '';
+    return {sha: j.sha, text};
+  } catch (e) { if (e.status === 404) return {sha: null, text: fallback}; throw e; }
+}
+async function getJSON(name, fallback) {
+  const f = await getFile(name, JSON.stringify(fallback));
+  try { return {sha: f.sha, data: JSON.parse(f.text)}; } catch { return {sha: f.sha, data: fallback}; }
+}
+/* Datei frisch laden, Änderung anwenden, speichern – bei Konflikt einmal wiederholen */
+async function update(name, fallback, mutate, message) {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    const f = await getJSON(name, fallback);
+    const data = mutate(structuredClone(f.data));
+    const body = {message: message + ' [Web]', content: b64encode(JSON.stringify(data, null, 2) + '\n'), branch: 'main'};
+    if (f.sha) body.sha = f.sha;
+    try { await gh(`contents/${name}`, {method: 'PUT', body: JSON.stringify(body)}); return data; }
+    catch (e) { if ((e.status === 409 || e.status === 422) && attempt < 2) { await new Promise(r => setTimeout(r, 600)); continue; } throw e; }
+  }
+}
+function errText(e) {
+  if (e.status === 401) return 'Token ungültig oder abgelaufen.';
+  if (e.status === 403) return 'Keine Berechtigung – braucht der Token „Contents: Read and write“ für dieses Repo?';
+  if (e.status === 404) return 'Repo nicht gefunden (Name prüfen, Token für dieses Repo freigegeben?).';
+  return (e.detail || e.message || 'Unbekannter Fehler') + '';
+}
+async function saveWatch(mutate, msg) {
+  S.watch = await update('watchlist.json', [], mutate, msg); render();
+}
+async function saveSettings(mutate, msg) {
+  S.settings = {...DEFAULT_SETTINGS, ...await update('settings.json', DEFAULT_SETTINGS, s => mutate({...DEFAULT_SETTINGS, ...s}), msg)}; render();
+}
+async function guarded(btn, fn, okMsg) {
+  if (S.busy) return; S.busy = true;
+  const old = btn && btn.innerHTML; if (btn) { btn.disabled = true; btn.innerHTML = '<span class="spinner"></span>'; }
+  try { await fn(); if (okMsg) toast(okMsg); return true; }
+  catch (e) { console.error(e); toast('Speichern fehlgeschlagen: ' + errText(e), true); return false; }
+  finally { S.busy = false; if (btn && btn.isConnected) { btn.disabled = false; btn.innerHTML = old; } }
+}
+
+/* ================================================================ Laden */
+function defaultRepo() {
+  const h = location.hostname;
+  if (h.endsWith('.github.io')) { const seg = location.pathname.split('/').filter(Boolean)[0]; if (seg) return `${h.split('.')[0]}/${seg}`; }
+  return 'Minotauro1percent/vinted-deal-agent';
+}
+async function loadAll(quiet) {
+  if (!quiet) $('#app').innerHTML = '<div class="empty"><span class="spinner"></span><p>Lade Daten aus GitHub …</p></div>';
+  const [w, s, st, lg] = await Promise.all([
+    getJSON('watchlist.json', []), getJSON('settings.json', DEFAULT_SETTINGS), getJSON('state.json', {}), getFile('last_run.txt', ''),
+  ]);
+  S.watch = Array.isArray(w.data) ? w.data : [];
+  S.watch.forEach(x => { if (!x.id) x.id = slug(x.name || ''); });
+  S.settings = {...DEFAULT_SETTINGS, ...s.data};
+  if (st.data && 'enabled' in st.data && !s.sha) S.settings.enabled = !!st.data.enabled;   // v1-Zustand
+  S.state = st.data || {}; S.log = lg.text || '';
+  S.loadedAt = Date.now();
+  render();
+}
+async function connect() {
+  S.repo = lsGet('vda_repo') || defaultRepo(); S.token = lsGet('vda_token') || '';
+  if (!S.token) return renderSetup();
+  try { await loadAll(); }
+  catch (e) { renderSetup(errText(e)); }
+}
+
+/* ================================================================ Ansicht: Einrichtung */
+function renderSetup(err) {
+  $('#addBtn').hidden = true; $('#reloadBtn').hidden = true; $('#statusPill').innerHTML = '';
+  $('#app').innerHTML = `
+  <section class="card">
+    <h2>🔐 Mit GitHub verbinden</h2>
+    <p class="muted small" style="margin-top:0">Die Oberfläche speichert deine Suchen direkt in dein Repo. Der Cloud-Agent liest sie bei jedem Lauf. Dafür braucht sie einmalig einen GitHub-Zugangsschlüssel (Token), der <b>nur in diesem Browser</b> gespeichert wird.</p>
+    <ol class="steps small">
+      <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Neuen Fine-grained Token erstellen</a> (Name z. B. „Deal-Agent Web“, Ablauf nach Wunsch)</li>
+      <li><b>Repository access:</b> „Only select repositories“ → <code>vinted-deal-agent</code></li>
+      <li><b>Permissions → Repository → Contents:</b> „Read and write“ (sonst nichts)</li>
+      <li>„Generate token“ → Token kopieren und hier einfügen</li>
+    </ol>
+    <label class="f" for="repoIn">Repository</label>
+    <input type="text" id="repoIn" value="${esc(S.repo || defaultRepo())}" autocomplete="off" spellcheck="false">
+    <label class="f" for="tokIn">Token <span class="hint">(beginnt mit github_pat_)</span></label>
+    <input type="password" id="tokIn" placeholder="github_pat_…" autocomplete="off" spellcheck="false">
+    ${err ? `<div class="err">${esc(err)}</div>` : ''}
+    <div class="row" style="margin-top:14px"><button class="btn primary" id="conBtn">Verbinden</button></div>
+  </section>`;
+  $('#conBtn').onclick = async () => {
+    const repo = $('#repoIn').value.trim().replace(/^https?:\/\/github\.com\//, '').replace(/\/$/, ''), tok = $('#tokIn').value.trim();
+    if (!/^[\w.-]+\/[\w.-]+$/.test(repo) || !tok) return renderSetup('Bitte Repository (Besitzer/Name) und Token eingeben.');
+    S.repo = repo; S.token = tok;
+    try { await loadAll(); lsSet('vda_repo', repo); lsSet('vda_token', tok); toast('Verbunden ✓'); }
+    catch (e) { S.token = ''; renderSetup(errText(e)); }
+  };
+  $('#tokIn').onkeydown = e => { if (e.key === 'Enter') $('#conBtn').click(); };
+}
+
+/* ================================================================ Ansicht: Übersicht */
+function lastRunTs() {
+  const m = /(\d{4}-\d{2}-\d{2}) (\d{2}:\d{2}:\d{2}) UTC/.exec(S.log.split('\n').filter(Boolean).pop() || '');
+  return m ? Math.floor(Date.parse(`${m[1]}T${m[2]}Z`) / 1000) : 0;
+}
+function pending(id) {
+  const f = num((S.settings.force || {})[id]), done = num((S.state.force_done || {})[id]);
+  const fa = num(S.settings.force_all), fad = num(S.state.force_all_done);
+  return f > done || fa > fad;
+}
+function watchMeta(w) {
+  const bits = [];
+  if (num(w.maxPrice)) bits.push((num(w.minPrice) ? `${euro(num(w.minPrice))}–` : 'bis ') + euro(num(w.maxPrice)));
+  const sz = arr(w.sizes), col = arr(w.colors), sto = arr(w.storage);
+  if (sz.length) bits.push('Gr. ' + sz.join(', '));
+  if (col.length) bits.push(col.join(', '));
+  if (sto.length) bits.push(sto.join(', '));
+  if (w.simFree) bits.push('SIM-frei');
+  if (w.minCondition) bits.push('ab ' + w.minCondition);
+  return bits.join(' · ');
+}
+function render() {
+  const st = S.settings, state = S.state;
+  $('#addBtn').hidden = false; $('#reloadBtn').hidden = false;
+  $('#statusPill').innerHTML = st.enabled ? '<span class="pill on"><span class="dot"></span>Läuft</span>' : '<span class="pill off"><span class="dot"></span>Pausiert</span>';
+  const stats = state.stats || {};
+  const active = S.watch.filter(w => w.active !== false);
+  const lr = lastRunTs();
+  const nexts = st.enabled ? active.map(w => [nextRun(w, st, state), w]).filter(x => x[0]).sort((a, b) => a[0] - b[0]) : [];
+  const cats = ['alle', ...Object.keys(CATS).filter(c => S.watch.some(w => (w.category || 'kleidung') === c))];
+  if (!cats.includes(S.filter)) S.filter = 'alle';
+  const list = S.watch.map((w, i) => [w, i]).filter(([w]) => S.filter === 'alle' || (w.category || 'kleidung') === S.filter);
+  const allPending = num(st.force_all) > num(state.force_all_done);
+
+  $('#app').innerHTML = `
+  <section class="card">
+    <div class="row">
+      <div class="grow">
+        <div style="font-weight:650">${st.enabled ? 'Agent ist eingeschaltet' : 'Agent ist pausiert'}</div>
+        <div class="small muted">Letzter Lauf ${esc(fmtWhen(lr))} · letzte Suche ${esc(fmtWhen(state.last_search))}</div>
+      </div>
+      <label class="sw" title="Agent ein/aus"><input type="checkbox" id="enSw" ${st.enabled ? 'checked' : ''} aria-label="Agent ein- oder ausschalten"><i></i></label>
+    </div>
+    <div class="stats">
+      <div class="stat"><b>${active.length}<span class="muted" style="font-size:13px;font-weight:400"> / ${S.watch.length}</span></b><span>aktive Suchen</span></div>
+      <div class="stat"><b>${num(stats.deals)}</b><span>Deals gesamt</span></div>
+      <div class="stat"><b>${num(stats.last_deals)}</b><span>Deals letzte Suche</span></div>
+    </div>
+    ${nexts.length ? `<div class="small"><b>Als Nächstes:</b> ${nexts.slice(0, 3).map(([t, w]) => `${esc(fmtWhen(t))} – ${esc(w.name)}`).join(' · ')}</div>` : ''}
+    <div class="row" style="margin-top:12px">
+      <button class="btn" id="allNow" ${allPending ? 'disabled' : ''}>${allPending ? '⏳ Wartet auf nächsten Lauf' : '▶ Alle jetzt suchen'}</button>
+      <span class="small muted grow">Änderungen gelten ab dem nächsten Lauf (spätestens nach ca. 15 Min.).</span>
+    </div>
+    <details style="margin-top:10px"><summary>Protokoll des letzten Laufs</summary><pre class="log">${esc(S.log.trim() || 'noch kein Lauf')}</pre></details>
+  </section>
+
+  <section class="card">
+    <h2>📋 Suchen <span class="muted small" style="font-weight:400">(${S.watch.length})</span></h2>
+    ${cats.length > 2 ? `<div class="tabs">${cats.map(c => `<button class="chip" data-filter="${c}" aria-pressed="${S.filter === c}">${c === 'alle' ? 'Alle' : CATS[c].icon + ' ' + CATS[c].label}</button>`).join('')}</div>` : ''}
+    <div id="wl">${list.length ? list.map(([w, i]) => {
+      const cat = CATS[w.category] || CATS.kleidung, on = w.active !== false, nx = on && st.enabled ? nextRun(w, st, state) : 0;
+      const last = (state.watch_last || {})[w.id];
+      return `<div class="watch ${on ? '' : 'off'}" data-i="${i}">
+        <div class="ic" aria-hidden="true">${cat.icon}</div>
+        <div class="grow main">
+          <div class="name">${esc(w.name || 'Ohne Namen')}</div>
+          <div class="meta">${esc(watchMeta(w))}</div>
+          <div class="meta" style="margin-top:5px"><span class="badge acc">🕒 ${esc(scheduleText(w, st))}</span>${pending(w.id) && on ? '<span class="badge warn">⏳ sucht beim nächsten Lauf</span>' : nx ? `<span class="badge">nächste ${esc(fmtWhen(nx))}</span>` : ''}${last ? `<span class="badge">zuletzt ${esc(fmtWhen(last))}</span>` : ''}</div>
+          <div class="acts">
+            <button class="btn sm" data-act="edit">✏️ <span class="lbl">Bearbeiten</span></button>
+            <button class="btn sm" data-act="now" title="Beim nächsten Lauf sofort suchen">▶ <span class="lbl">Jetzt suchen</span></button>
+            <button class="btn sm" data-act="dup" title="Duplizieren">⧉ <span class="lbl">Kopieren</span></button>
+            <button class="btn sm danger" data-act="del" title="Löschen">🗑 <span class="lbl">Löschen</span></button>
+          </div>
+        </div>
+        <label class="sw" title="Suche ein/aus"><input type="checkbox" data-act="toggle" ${on ? 'checked' : ''} aria-label="Suche ${esc(w.name)} ein- oder ausschalten"><i></i></label>
+      </div>`;
+    }).join('') : `<div class="empty">Noch keine Suchen. Leg mit „＋ Neue Suche“ los.</div>`}</div>
+  </section>
+
+  <section class="card">
+    <h2>⚙️ Allgemein</h2>
+    <div class="grid4">
+      <div><label class="f" for="gInt">Standard-Intervall</label><select id="gInt">${INTERVALS.map(([m, t]) => `<option value="${m}" ${num(st.default_interval_min) === m ? 'selected' : ''}>${t}</option>`).join('')}</select></div>
+      <div><label class="f" for="gFirst">Neue Suche: max. Deals</label><input type="number" id="gFirst" min="0" max="50" value="${num(st.first_run_max, 3)}"></div>
+      <div><label class="f" for="gMax">Max. Deals pro Suche</label><input type="number" id="gMax" min="1" max="100" value="${num(st.max_per_run, 15)}"></div>
+      <div><label class="f" for="gShip">Versand (Schätzung) €</label><input type="number" id="gShip" min="0" step="0.5" value="${num(st.shipping_est, 5)}"></div>
+    </div>
+    <p class="small muted">Das Standard-Intervall gilt für alle Suchen mit Zeitplan „Standard“. „Neue Suche: max. Deals“ verhindert, dass eine frische Suche beim ersten Lauf dutzende Meldungen schickt.</p>
+    <div class="row"><button class="btn primary" id="gSave">Speichern</button><span class="grow"></span>
+      <button class="btn ghost sm" id="logout">Abmelden</button></div>
+  </section>`;
+
+  $('#enSw').onchange = e => { const v = e.target.checked;
+    guarded(null, () => saveSettings(s => ({...s, enabled: v}), v ? 'Agent eingeschaltet' : 'Agent pausiert'), v ? 'Agent eingeschaltet ▶' : 'Agent pausiert ⏸').then(ok => { if (!ok) render(); }); };
+  $('#allNow').onclick = e => guarded(e.currentTarget, () => saveSettings(s => ({...s, force_all: nowS()}), 'Alle Suchen jetzt ausführen'), 'Alle Suchen laufen beim nächsten Lauf');
+  $('#gSave').onclick = e => {
+    const vals = {default_interval_min: Math.max(15, num($('#gInt').value, 60)), first_run_max: Math.max(0, Math.round(num($('#gFirst').value, 3))),
+      max_per_run: Math.max(1, Math.round(num($('#gMax').value, 15))), shipping_est: Math.max(0, num($('#gShip').value, 5))};
+    guarded(e.currentTarget, () => saveSettings(s => ({...s, ...vals}), 'Allgemeine Einstellungen'), 'Gespeichert ✓');
+  };
+  $('#logout').onclick = () => { lsSet('vda_token', null); S.token = ''; renderSetup(); };
+  document.querySelectorAll('[data-filter]').forEach(b => b.onclick = () => { S.filter = b.dataset.filter; render(); });
+  $('#wl').onclick = e => {
+    const b = e.target.closest('[data-act]'); if (!b || b.tagName === 'INPUT') return;
+    const i = +b.closest('.watch').dataset.i, w = S.watch[i], id = w.id;
+    if (b.dataset.act === 'edit') openEditor(w);
+    if (b.dataset.act === 'dup') { const c = structuredClone(w); c.name = (w.name || '') + ' (Kopie)'; delete c.id; openEditor(c, true); }
+    if (b.dataset.act === 'now') guarded(b, () => saveSettings(s => ({...s, force: {...(s.force || {}), [id]: nowS()}}), `Jetzt suchen: ${w.name}`), `„${w.name}“ sucht beim nächsten Lauf`);
+    if (b.dataset.act === 'del') {
+      if (!b.classList.contains('armed')) { b.classList.add('armed'); b.innerHTML = 'Wirklich löschen?'; setTimeout(() => { if (b.isConnected) { b.classList.remove('armed'); b.innerHTML = '🗑 <span class="lbl">Löschen</span>'; } }, 4000); return; }
+      guarded(b, () => saveWatch(list => list.filter(x => (x.id || slug(x.name || '')) !== id), `Suche gelöscht: ${w.name}`), `„${w.name}“ gelöscht`);
+    }
+  };
+  $('#wl').onchange = e => {
+    if (e.target.dataset.act !== 'toggle') return;
+    const i = +e.target.closest('.watch').dataset.i, w = S.watch[i], v = e.target.checked;
+    guarded(null, () => saveWatch(list => list.map(x => x.id === w.id ? {...x, active: v} : x), `Suche ${v ? 'an' : 'aus'}: ${w.name}`), `„${w.name}“ ${v ? 'eingeschaltet' : 'ausgeschaltet'}`).then(ok => { if (!ok) render(); });
+  };
+}
+
+/* ================================================================ Editor */
+function tagInput(el, values, placeholder) {
+  let vals = arr(values);
+  const draw = () => {
+    el.innerHTML = vals.map((v, i) => `<span class="tag">${esc(v)}<button type="button" data-i="${i}" aria-label="${esc(v)} entfernen">×</button></span>`).join('') +
+      `<input type="text" placeholder="${vals.length ? '' : esc(placeholder)}" aria-label="${esc(placeholder)}">`;
+    const inp = $('input', el);
+    inp.onkeydown = e => {
+      if ((e.key === 'Enter' || e.key === ',') && inp.value.trim()) { e.preventDefault(); add(inp.value); }
+      else if (e.key === 'Enter') e.preventDefault();
+      else if (e.key === 'Backspace' && !inp.value && vals.length) { vals.pop(); draw(); $('input', el).focus(); }
+    };
+    inp.onblur = () => { const v = inp.value; if (v.trim()) setTimeout(() => { if (inp.isConnected && inp.value === v) add(v, true); }); };
+    inp.onpaste = e => { const t = e.clipboardData.getData('text'); if (t.includes(',')) { e.preventDefault(); add(t); } };
+  };
+  const add = (text, noFocus) => { arr(text).forEach(v => { if (!vals.some(x => x.toLowerCase() === v.toLowerCase())) vals.push(v); }); draw(); if (!noFocus) $('input', el).focus(); };
+  el.onclick = e => { const b = e.target.closest('button[data-i]');
+    if (b) { const p = $('input', el).value.trim(); vals.splice(+b.dataset.i, 1); draw(); if (p) add(p, true); } $('input', el).focus(); };
+  draw();
+  return {get: () => { const p = $('input', el).value.trim(); if (p) add(p, true); return vals.slice(); }, set: v => { vals = arr(v); draw(); }};
+}
+function chipGroup(el, options, selected, render = o => esc(o)) {
+  let sel = new Set(arr(selected));
+  const extras = () => [...sel].filter(v => !options.some(o => (Array.isArray(o) ? o[0] : o).toLowerCase() === v.toLowerCase()));
+  const draw = () => {
+    const opts = [...options, ...extras()];
+    el.innerHTML = opts.map(o => { const v = Array.isArray(o) ? o[0] : o; const on = [...sel].some(x => x.toLowerCase() === v.toLowerCase());
+      return `<button type="button" class="chip" data-v="${esc(v)}" aria-pressed="${on}">${render(o)}</button>`; }).join('');
+  };
+  el.onclick = e => { const b = e.target.closest('.chip'); if (!b) return; const v = b.dataset.v;
+    const hit = [...sel].find(x => x.toLowerCase() === v.toLowerCase()); hit ? sel.delete(hit) : sel.add(v); draw(); };
+  draw();
+  return {get: () => [...sel], add: v => { arr(v).forEach(x => sel.add(x)); draw(); }, set: v => { sel = new Set(arr(v)); draw(); }};
+}
+function openEditor(orig, isNew = !orig) {
+  const dlg = $('#editor');
+  const w = structuredClone(orig || {});
+  let cat = w.category || 'kleidung';
+  if (!orig) Object.assign(w, {active: true, schedule: {mode: 'default'}, ...structuredClone(TEMPLATES[cat])});
+  const sched = {mode: 'default', everyMin: 60, days: [1], times: ['08:00'], ...(w.schedule || {})};
+  if (!Array.isArray(sched.days)) sched.days = [];
+  if (!Array.isArray(sched.times)) sched.times = [];
+  const st = S.settings;
+
+  dlg.innerHTML = `<form class="sheet" method="dialog" novalidate>
+    <div class="hd"><h2>${isNew ? 'Neue Suche' : 'Suche bearbeiten'}</h2>
+      <label class="row small" style="gap:8px">Aktiv <span class="sw"><input type="checkbox" id="eActive" ${w.active !== false ? 'checked' : ''}><i></i></span></label>
+      <button type="button" class="btn ghost sm" id="eClose" aria-label="Schließen">✕</button></div>
+    <div class="bd">
+      <label class="f">Kategorie</label>
+      <div class="seg" id="eCat">${Object.entries(CATS).map(([k, c]) => `<button type="button" data-v="${k}" aria-pressed="${k === cat}">${c.icon} ${c.label}</button>`).join('')}</div>
+
+      <label class="f" for="eName">Name <span class="hint">(erscheint in Telegram)</span></label>
+      <input type="text" id="eName" value="${esc(w.name || '')}" placeholder="z. B. Polo Ralph Lauren Zopfstrick">
+
+      <label class="f">Suchbegriffe <span class="hint">– so, wie du sie bei Vinted eintippen würdest. Mehrere = mehrere Suchen.</span></label>
+      <div class="tags" id="eQueries"></div>
+
+      <div class="sec"><h3>Preis</h3>
+        <div class="grid4">
+          <div><label class="f" for="eMin">ab €</label><input type="number" id="eMin" min="0" step="1" value="${num(w.minPrice) || ''}" placeholder="0"></div>
+          <div><label class="f" for="eMax">bis € <span class="hint">(Pflicht)</span></label><input type="number" id="eMax" min="0" step="1" value="${num(w.maxPrice) || ''}"></div>
+          <div><label class="f" for="eRmin">Wiederverkauf ab €</label><input type="number" id="eRmin" min="0" value="${num(w.resaleMin) || ''}" placeholder="optional"></div>
+          <div><label class="f" for="eRmax">bis €</label><input type="number" id="eRmax" min="0" value="${num(w.resaleMax) || ''}" placeholder="optional"></div>
+        </div>
+        <div class="small muted" style="margin-top:6px">Mit Wiederverkaufspreis rechnet Telegram dir die Gewinnspanne aus (inkl. Käuferschutz und Versand).</div>
+      </div>
+
+      <div class="sec" id="secClothes"><h3 id="sizeTitle">Größen</h3>
+        <div id="sizeBlock">
+        <label class="f">Größen <span class="hint">– leer = alle</span></label>
+        <div class="chips" id="eSizes"></div>
+        <div class="row" style="margin-top:8px"><input type="text" id="eSizeAdd" class="grow" placeholder="andere Größe, z. B. W32, 42,5, One Size" style="max-width:280px"><button type="button" class="btn sm" id="eSizeAddBtn">Hinzufügen</button></div>
+        </div>
+        <label class="f">Farben <span class="hint">– leer = alle. „Blau“ findet auch Hellblau und Marineblau.</span></label>
+        <div class="chips" id="eColors"></div>
+      </div>
+
+      <div class="sec" id="secTech"><h3>Technik</h3>
+        <label class="f">Speicher <span class="hint">– leer = egal</span></label>
+        <div class="chips" id="eStorage"></div>
+        <label class="row" style="margin-top:14px;gap:10px;cursor:pointer"><span class="sw"><input type="checkbox" id="eSim" ${w.simFree ? 'checked' : ''}><i></i></span><span><b>Nur ohne SIM-Lock</b><br><span class="small muted">„SIM-Lock: Freigegeben“ bei Vinted oder „simlockfrei/entsperrt“ im Text</span></span></label>
+        <label class="f">Farben <span class="hint">– leer = alle</span></label>
+        <div class="chips" id="eColorsT"></div>
+      </div>
+
+      <div class="sec"><h3>Filter</h3>
+        <label class="f">Marken <span class="hint">– muss exakt die Vinted-Marke sein. Leer = alle.</span></label>
+        <div class="tags" id="eBrands"></div>
+        <label class="f">Muss enthalten <span class="hint">– mind. eines dieser Wörter in Titel oder Beschreibung</span></label>
+        <div class="tags" id="eRequire"></div>
+        <label class="f">Ausschließen <span class="hint">– Artikel mit einem dieser Wörter werden ignoriert</span></label>
+        <div class="tags" id="eExclude"></div>
+        <label class="f" for="eCond">Zustand mindestens</label>
+        <select id="eCond">${CONDITIONS.map(c => `<option ${c === (w.minCondition || 'Gut') ? 'selected' : ''}>${c}</option>`).join('')}</select>
+      </div>
+
+      <div class="sec"><h3>Zeitplan</h3>
+        <div class="seg" id="eMode" style="margin-top:12px">
+          <button type="button" data-v="default">Standard</button>
+          <button type="button" data-v="interval">Eigenes Intervall</button>
+          <button type="button" data-v="times">Feste Zeiten</button>
+        </div>
+        <div id="mDefault" class="note">Sucht ${esc(intervalText(intervalMin({}, st)))} – wie unter „Allgemein“ eingestellt.</div>
+        <div id="mInterval"><label class="f" for="eEvery">Suchen</label>
+          <select id="eEvery">${INTERVALS.map(([m, t]) => `<option value="${m}">${t}</option>`).join('')}</select></div>
+        <div id="mTimes">
+          <label class="f">Vorlagen</label>
+          <div class="chips" id="ePresets">
+            <button type="button" class="chip" data-p="mo8">Jeden Montag 8:00</button>
+            <button type="button" class="chip" data-p="wk730">Werktags 7:30</button>
+            <button type="button" class="chip" data-p="d818">Täglich 8:00 + 18:00</button>
+            <button type="button" class="chip" data-p="we10">Wochenende 10:00</button>
+          </div>
+          <label class="f">Wochentage</label>
+          <div class="chips" id="eDays"></div>
+          <label class="f">Uhrzeiten</label>
+          <div class="chips timechips" id="eTimes"></div>
+          <div class="row" style="margin-top:8px"><input type="time" id="eTimeIn" value="08:00" style="max-width:150px"><button type="button" class="btn sm" id="eTimeAdd">＋ Uhrzeit</button></div>
+          <div class="small muted" style="margin-top:6px">Der Agent schaut alle ~15 Min. vorbei – die Suche startet also bis zu 15 Min. nach dem Termin. Zeitzone: Wien.</div>
+        </div>
+        <div class="note acc" id="eNext"></div>
+      </div>
+      <div class="err" id="eErr"></div>
+    </div>
+    <div class="ft">
+      ${!isNew ? '<button type="button" class="btn danger" id="eDel">🗑 Löschen</button>' : ''}
+      <span class="grow"></span>
+      <button type="button" class="btn" id="eCancel">Abbrechen</button>
+      <button type="submit" class="btn primary" id="eSave">${isNew ? 'Suche anlegen' : 'Speichern'}</button>
+    </div>
+  </form>`;
+
+  const q = tagInput($('#eQueries', dlg), w.queries || (orig ? [] : []), 'Begriff eingeben, Enter');
+  const brands = tagInput($('#eBrands', dlg), w.brands, 'z. B. Polo Ralph Lauren');
+  const req = tagInput($('#eRequire', dlg), w.require, 'z. B. zopf, cable');
+  const exc = tagInput($('#eExclude', dlg), w.exclude, 'z. B. kinder, defekt');
+  const colorChip = ([n, c]) => `<span class="sw-col" style="background:${c}"></span>${esc(n)}`;
+  let sizes, colors = chipGroup($('#eColors', dlg), COLORS, w.colors, colorChip);
+  const colorsT = chipGroup($('#eColorsT', dlg), COLORS, w.colors, colorChip);
+  const storage = chipGroup($('#eStorage', dlg), STORAGE, w.storage);
+  const days = chipGroup($('#eDays', dlg), WD.map((d, i) => [String(i + 1), d]), sched.days.map(String), o => o[1]);
+  let times = sched.times.filter(parseHHMM);
+
+  const drawTimes = () => {
+    times = [...new Set(times)].sort();
+    $('#eTimes', dlg).innerHTML = times.length ? times.map(t => `<span class="chip" aria-pressed="true">${t}<button type="button" data-t="${t}" aria-label="${t} entfernen">×</button></span>`).join('') : '<span class="small muted">noch keine Uhrzeit</span>';
+    updateNext();
+  };
+  $('#eTimes', dlg).onclick = e => { const b = e.target.closest('[data-t]'); if (b) { times = times.filter(t => t !== b.dataset.t); drawTimes(); } };
+  $('#eTimeAdd', dlg).onclick = () => { const v = $('#eTimeIn', dlg).value; if (parseHHMM(v)) { times.push(v.slice(0, 5)); drawTimes(); } };
+  $('#ePresets', dlg).onclick = e => {
+    const p = e.target.closest('[data-p]')?.dataset.p; if (!p) return;
+    const P = {mo8: [[1], ['08:00']], wk730: [[1, 2, 3, 4, 5], ['07:30']], d818: [[1, 2, 3, 4, 5, 6, 7], ['08:00', '18:00']], we10: [[6, 7], ['10:00']]}[p];
+    days.set(P[0].map(String)); times = P[1].slice(); drawTimes();
+  };
+  $('#eDays', dlg).addEventListener('click', () => setTimeout(updateNext));
+  $('#eEvery', dlg).value = String(INTERVALS.some(x => x[0] === num(sched.everyMin)) ? num(sched.everyMin) : 60);
+  $('#eEvery', dlg).onchange = updateNext;
+
+  let mode = sched.mode || 'default';
+  function setMode(m) {
+    mode = m;
+    dlg.querySelectorAll('#eMode button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === m));
+    $('#mDefault', dlg).hidden = m !== 'default'; $('#mInterval', dlg).hidden = m !== 'interval'; $('#mTimes', dlg).hidden = m !== 'times';
+    updateNext();
+  }
+  $('#eMode', dlg).onclick = e => { const b = e.target.closest('button'); if (b) setMode(b.dataset.v); };
+  function currentSchedule() {
+    if (mode === 'interval') return {mode, everyMin: num($('#eEvery', dlg).value, 60)};
+    if (mode === 'times') return {mode, days: days.get().map(Number).sort(), times: times.slice()};
+    return {mode: 'default'};
+  }
+  function updateNext() {
+    const s = currentSchedule(), probe = {id: w.id, schedule: s};
+    let txt;
+    if (s.mode === 'times' && (!s.days.length || !s.times.length)) txt = 'Bitte mindestens einen Wochentag und eine Uhrzeit wählen.';
+    else {
+      const t = s.mode === 'times' ? nextSlot(s, nowS()) : nextRun(probe, st, S.state);
+      txt = `🕒 ${scheduleText(probe, st)} · nächste Suche ${fmtWhen(t)}`;
+      if (s.mode === 'times' && t && t - nowS() < 6 * 3600) txt += ' (' + dayFmt.format(new Date(t * 1000)).replace(',', '') + ')';
+      if (!st.enabled) txt += ' – Agent ist gerade pausiert';
+    }
+    $('#eNext', dlg).textContent = txt;
+  }
+
+  function setCat(c) {
+    const prev = cat; cat = c;
+    dlg.querySelectorAll('#eCat button').forEach(b => b.setAttribute('aria-pressed', b.dataset.v === c));
+    const tech = c === 'technik', clothes = c === 'kleidung' || c === 'schuhe';
+    $('#secTech', dlg).hidden = !tech;
+    $('#secClothes', dlg).hidden = !(clothes || c === 'taschen');
+    $('#sizeTitle', dlg).textContent = c === 'taschen' ? 'Farben' : c === 'schuhe' ? 'Schuhgrößen & Farben' : 'Größen & Farben';
+    $('#sizeBlock', dlg).hidden = c === 'taschen';
+    const keep = sizes ? sizes.get() : arr(w.sizes);
+    sizes = chipGroup($('#eSizes', dlg), SIZES[c === 'schuhe' ? 'schuhe' : 'kleidung'], prev === c || !sizes ? keep : []);
+    if (prev !== c) {
+      // Kategorie gewechselt: passende Vorlage für „Ausschließen“ anbieten, wenn das Feld noch der alten Vorlage entspricht
+      const cur = exc.get().join('|'), old = (TEMPLATES[prev] || {}).exclude?.join('|');
+      if (!cur || cur === old) exc.set(TEMPLATES[c].exclude);
+      if (c === 'technik' && isNew) { $('#eSim', dlg).checked = true; $('#eCond', dlg).value = 'Sehr gut'; }
+    }
+    // Farben zwischen beiden Bereichen synchron halten
+    if (tech) colorsT.set(colors.get().length ? colors.get() : colorsT.get()); else colors.set(colorsT.get().length ? colorsT.get() : colors.get());
+  }
+  $('#eCat', dlg).onclick = e => { const b = e.target.closest('button'); if (b) setCat(b.dataset.v); };
+  $('#eSizeAddBtn', dlg).onclick = () => { const v = $('#eSizeAdd', dlg).value.trim(); if (v) { sizes.add(v); $('#eSizeAdd', dlg).value = ''; } };
+  $('#eSizeAdd', dlg).onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); $('#eSizeAddBtn', dlg).click(); } };
+
+  setCat(cat); setMode(mode); drawTimes();
+
+  const close = () => { dlg.close(); dlg.innerHTML = ''; };
+  $('#eClose', dlg).onclick = close; $('#eCancel', dlg).onclick = close;
+  dlg.onkeydown = e => { if (e.key === 'Escape') { e.preventDefault(); close(); } };
+  if ($('#eDel', dlg)) $('#eDel', dlg).onclick = e => {
+    const b = e.currentTarget;
+    if (!b.classList.contains('armed')) { b.classList.add('armed'); b.textContent = 'Wirklich löschen?'; return; }
+    guarded(b, () => saveWatch(list => list.filter(x => (x.id || slug(x.name || '')) !== w.id), `Suche gelöscht: ${w.name}`), `„${w.name}“ gelöscht`).then(ok => ok && close());
+  };
+  $('form', dlg).onsubmit = e => {
+    e.preventDefault();
+    const err = m => { $('#eErr', dlg).textContent = m; $('#eErr', dlg).scrollIntoView({block: 'nearest'}); };
+    const name = $('#eName', dlg).value.trim();
+    const out = {...w};
+    out.name = name; out.category = cat; out.active = $('#eActive', dlg).checked;
+    out.queries = q.get(); out.brands = brands.get(); out.require = req.get(); out.exclude = exc.get();
+    out.minPrice = num($('#eMin', dlg).value); out.maxPrice = num($('#eMax', dlg).value);
+    out.resaleMin = num($('#eRmin', dlg).value); out.resaleMax = num($('#eRmax', dlg).value) || out.resaleMin;
+    out.minCondition = $('#eCond', dlg).value;
+    const tech = cat === 'technik';
+    out.sizes = (cat === 'kleidung' || cat === 'schuhe') ? sizes.get() : [];
+    out.colors = tech ? colorsT.get() : cat === 'sonstiges' ? [] : colors.get();
+    out.storage = tech ? storage.get() : []; out.simFree = tech && $('#eSim', dlg).checked;
+    if (!tech) { delete out.storage; delete out.simFree; }
+    out.schedule = currentSchedule();
+    if (!name) return err('Bitte einen Namen eingeben.');
+    if (!out.queries.length) out.queries = [name];
+    if (!out.maxPrice) return err('Bitte einen Maximalpreis angeben.');
+    if (out.minPrice && out.minPrice > out.maxPrice) return err('„ab €“ ist größer als „bis €“.');
+    if (out.schedule.mode === 'times' && (!out.schedule.days.length || !out.schedule.times.length)) return err('Feste Zeiten: bitte mindestens einen Wochentag und eine Uhrzeit wählen.');
+    const ids = new Set(S.watch.map(x => x.id).filter(x => x !== w.id));
+    if (isNew) { let id = slug(name); while (ids.has(id)) id += '-2'; out.id = id; }
+    const order = ['id', 'name', 'category', 'active', 'queries', 'brands', 'require', 'exclude', 'sizes', 'colors', 'storage', 'simFree', 'minPrice', 'maxPrice', 'resaleMin', 'resaleMax', 'minCondition', 'schedule'];
+    const clean = Object.fromEntries([...order.filter(k => k in out).map(k => [k, out[k]]), ...Object.entries(out).filter(([k]) => !order.includes(k))]);
+    guarded($('#eSave', dlg), () => saveWatch(list => {
+      const i = list.findIndex(x => (x.id || slug(x.name || '')) === clean.id);
+      if (i >= 0 && !isNew) list[i] = clean; else list.push(clean);
+      return list;
+    }, `${isNew ? 'Neue Suche' : 'Suche geändert'}: ${name}`), isNew ? `„${name}“ angelegt ✓` : 'Gespeichert ✓').then(ok => ok && close());
+  };
+  dlg.showModal();
+  if (isNew) $('#eName', dlg).focus();
+}
+
+/* ================================================================ Start */
+$('#addBtn').onclick = () => openEditor(null, true);
+$('#reloadBtn').onclick = () => loadAll().then(() => toast('Aktualisiert')).catch(e => toast(errText(e), true));
+document.addEventListener('visibilitychange', () => { if (!document.hidden && S.token && Date.now() - (S.loadedAt || 0) > 60000 && !$('#editor').open) loadAll(true).catch(() => {}); });
+connect();
+</script>
+</body>
+</html>
