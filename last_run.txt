@@ -1,2 +1,14 @@
-2026-10-05 07:22:21 UTC Telegram: 0 neue Nachricht(en)
-2026-10-05 07:22:21 UTC Keine Suche fällig
+2026-10-05 07:36:34 UTC Telegram: 0 neue Nachricht(en)
+2026-10-05 07:36:50 UTC Polo Ralph Lauren Zopfstrick-Pullover: 3 neue Kandidaten
+2026-10-05 07:37:09 UTC Barbour Wachsjacke: 6 neue Kandidaten
+2026-10-05 07:37:32 UTC Carhartt Detroit Jacket: 3 neue Kandidaten
+2026-10-05 07:38:05 UTC Arc'teryx Jacke: 5 neue Kandidaten
+2026-10-05 07:38:31 UTC Salomon XT-6: 2 neue Kandidaten
+2026-10-05 07:38:46 UTC Onitsuka Tiger Mexico 66: 0 neue Kandidaten
+2026-10-05 07:38:54 UTC New Balance 9060: 9 neue Kandidaten
+2026-10-05 07:39:10 UTC Telegram-Fehler sendPhoto 400 {"ok":false,"error_code":400,"description":"Bad Request: wrong type of the web page content"}
+2026-10-05 07:40:01 UTC UGG Tasman: 1 neue Kandidaten
+2026-10-05 07:40:11 UTC Moon Boot: 4 neue Kandidaten
+2026-10-05 07:40:30 UTC Longchamp Le Pliage: 2 neue Kandidaten
+2026-10-05 07:40:52 UTC Patagonia Retro-X Fleece: 4 neue Kandidaten
+2026-10-05 07:41:15 UTC Suche fertig: 22 neue Deals
