@@ -174,39 +174,5 @@
     "schedule": {
       "mode": "default"
     }
-  },
-  {
-    "id": "patagonia-retro-x-fleece",
-    "name": "Patagonia Retro-X Fleece",
-    "category": "kleidung",
-    "active": true,
-    "queries": [
-      "patagonia retro x",
-      "patagonia retro-x"
-    ],
-    "brands": [
-      "Patagonia"
-    ],
-    "require": [
-      "retro"
-    ],
-    "exclude": [
-      "kinder",
-      "kids",
-      "enfant",
-      "bambin",
-      "boys",
-      "girls"
-    ],
-    "sizes": [],
-    "colors": [],
-    "minPrice": 0,
-    "maxPrice": 40,
-    "resaleMin": 75,
-    "resaleMax": 110,
-    "minCondition": "Gut",
-    "schedule": {
-      "mode": "default"
-    }
   }
 ]
