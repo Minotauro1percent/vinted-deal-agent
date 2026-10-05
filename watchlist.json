@@ -210,5 +210,40 @@
     "schedule": {
       "mode": "default"
     }
+  },
+  {
+    "id": "lacoste-polohemd",
+    "name": "Lacoste Polohemd",
+    "category": "kleidung",
+    "active": true,
+    "queries": [
+      "Polohemd",
+      "Ralph Lauren Polohemd",
+      "Polo Ralph Lauren"
+    ],
+    "brands": [
+      "Lacoste"
+    ],
+    "require": [
+      "polo",
+      "lacoste"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "defekt",
+      "loch",
+      "schmutzig"
+    ],
+    "sizes": [],
+    "colors": [],
+    "minPrice": 0,
+    "maxPrice": 10,
+    "resaleMin": 20,
+    "resaleMax": 35,
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   }
 ]
