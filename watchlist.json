@@ -144,38 +144,6 @@
     }
   },
   {
-    "id": "onitsuka-tiger-mexico-66",
-    "name": "Onitsuka Tiger Mexico 66",
-    "category": "schuhe",
-    "active": true,
-    "queries": [
-      "onitsuka tiger mexico 66",
-      "onitsuka mexico 66"
-    ],
-    "brands": [
-      "Onitsuka Tiger",
-      "Asics"
-    ],
-    "require": [
-      "mexico"
-    ],
-    "exclude": [
-      "kinder",
-      "kids",
-      "enfant",
-      "bambin"
-    ],
-    "sizes": [],
-    "colors": [],
-    "maxPrice": 40,
-    "resaleMin": 75,
-    "resaleMax": 110,
-    "minCondition": "Gut",
-    "schedule": {
-      "mode": "default"
-    }
-  },
-  {
     "id": "new-balance-9060",
     "name": "New Balance 9060",
     "category": "schuhe",
