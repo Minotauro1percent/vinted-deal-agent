@@ -245,5 +245,51 @@
     "schedule": {
       "mode": "default"
     }
+  },
+  {
+    "id": "xiaomi-17",
+    "name": "Xiaomi 17",
+    "category": "technik",
+    "active": true,
+    "queries": [
+      "Xiaomi 17"
+    ],
+    "brands": [
+      "Xiaomi"
+    ],
+    "require": [
+      "Xiaomi 17"
+    ],
+    "exclude": [
+      "defekt",
+      "kaputt",
+      "ersatzteil",
+      "icloud",
+      "gesperrt",
+      "hülle",
+      "case",
+      "cover",
+      "panzerglas",
+      "schutzfolie",
+      "attrappe",
+      "displayschaden",
+      "17T",
+      "17T pro",
+      "15T",
+      "15T pro",
+      "Redmi Note"
+    ],
+    "sizes": [],
+    "colors": [],
+    "storage": [],
+    "simFree": true,
+    "minPrice": 0,
+    "maxPrice": 549,
+    "resaleMin": 0,
+    "resaleMax": 0,
+    "minCondition": "Sehr gut",
+    "schedule": {
+      "mode": "default"
+    }
   }
 ]
