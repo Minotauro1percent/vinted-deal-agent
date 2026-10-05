@@ -53,55 +53,6 @@
     }
   },
   {
-    "id": "barbour-wachsjacke",
-    "name": "Barbour Wachsjacke",
-    "category": "kleidung",
-    "active": false,
-    "queries": [
-      "barbour bedale",
-      "barbour beaufort",
-      "barbour wachsjacke",
-      "barbour wax jacket"
-    ],
-    "brands": [
-      "Barbour",
-      "Barbour Heritage"
-    ],
-    "require": [
-      "bedale",
-      "beaufort",
-      "ashby",
-      "border",
-      "wax",
-      "wachs",
-      "cirée",
-      "ciree",
-      "cerat"
-    ],
-    "exclude": [
-      "kinder",
-      "kids",
-      "enfant",
-      "bambin",
-      "steppjacke",
-      "quilted",
-      "matelass",
-      "trapuntat",
-      "international",
-      "gilet",
-      "weste"
-    ],
-    "sizes": [],
-    "colors": [],
-    "maxPrice": 80,
-    "resaleMin": 145,
-    "resaleMax": 210,
-    "minCondition": "Gut",
-    "schedule": {
-      "mode": "default"
-    }
-  },
-  {
     "id": "carhartt-detroit-jacket",
     "name": "Carhartt Detroit Jacket",
     "category": "kleidung",
