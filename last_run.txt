@@ -1,14 +1,14 @@
-2026-10-05 09:38:44 UTC Telegram: 0 neue Nachricht(en)
-2026-10-05 09:38:59 UTC Polo Ralph Lauren Zopfstrick-Pullover: 4 neue Kandidaten
-2026-10-05 09:39:25 UTC Barbour Wachsjacke: 15 neue Kandidaten
-2026-10-05 09:39:46 UTC Details übersprungen (10191340133): HTTP 404 für https://www.vinted.at/items/10191340133-veste-homme-vintage-wilkes-akerman-couleur-noir-taille-m
-2026-10-05 09:40:25 UTC Carhartt Detroit Jacket: 5 neue Kandidaten
-2026-10-05 09:41:05 UTC Arc'teryx Jacke: 40 neue Kandidaten
-2026-10-05 09:42:52 UTC Salomon XT-6: 22 neue Kandidaten
-2026-10-05 09:44:13 UTC Onitsuka Tiger Mexico 66: 24 neue Kandidaten
-2026-10-05 09:45:45 UTC New Balance 9060: 18 neue Kandidaten
-2026-10-05 09:47:03 UTC UGG Tasman: 13 neue Kandidaten
-2026-10-05 09:47:48 UTC Moon Boot: 3 neue Kandidaten
-2026-10-05 09:47:56 UTC Longchamp Le Pliage: 4 neue Kandidaten
-2026-10-05 09:48:18 UTC Patagonia Retro-X Fleece: 20 neue Kandidaten
-2026-10-05 09:49:28 UTC Suche fertig: 39 neue Deals
+2026-10-05 10:03:39 UTC Telegram: 1 neue Nachricht(en)
+2026-10-05 10:03:39 UTC Befehl /suche []
+2026-10-05 10:03:59 UTC Polo Ralph Lauren Zopfstrick-Pullover: 2 neue Kandidaten
+2026-10-05 10:04:18 UTC Barbour Wachsjacke: 5 neue Kandidaten
+2026-10-05 10:04:42 UTC Carhartt Detroit Jacket: 5 neue Kandidaten
+2026-10-05 10:05:20 UTC Arc'teryx Jacke: 19 neue Kandidaten
+2026-10-05 10:06:13 UTC Salomon XT-6: 10 neue Kandidaten
+2026-10-05 10:06:56 UTC Onitsuka Tiger Mexico 66: 4 neue Kandidaten
+2026-10-05 10:07:10 UTC New Balance 9060: 7 neue Kandidaten
+2026-10-05 10:07:46 UTC UGG Tasman: 5 neue Kandidaten
+2026-10-05 10:08:05 UTC Moon Boot: 2 neue Kandidaten
+2026-10-05 10:08:14 UTC Longchamp Le Pliage: 3 neue Kandidaten
+2026-10-05 10:08:28 UTC Patagonia Retro-X Fleece: 8 neue Kandidaten
+2026-10-05 10:08:47 UTC Suche fertig: 15 neue Deals
