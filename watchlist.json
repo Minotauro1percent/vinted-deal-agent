@@ -174,5 +174,41 @@
     "schedule": {
       "mode": "default"
     }
+  },
+  {
+    "id": "ralph-lauren-polohemd",
+    "name": "Ralph Lauren Polohemd",
+    "category": "kleidung",
+    "active": true,
+    "queries": [
+      "Polohemd",
+      "Ralph Lauren Polohemd",
+      "Polo Ralph Lauren"
+    ],
+    "brands": [
+      "Polo Ralph Lauren"
+    ],
+    "require": [
+      "polo",
+      "ralph lauren"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "defekt",
+      "loch",
+      "schmutzig",
+      "association"
+    ],
+    "sizes": [],
+    "colors": [],
+    "minPrice": 0,
+    "maxPrice": 10,
+    "resaleMin": 20,
+    "resaleMax": 35,
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   }
 ]
