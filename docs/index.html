@@ -11,19 +11,21 @@
   --bg:#f5f6f8;--card:#fff;--ink:#16181d;--muted:#667085;--line:#e4e7ec;--soft:#f1f3f6;
   --acc:#0b7a75;--acc-ink:#fff;--acc-soft:#e3f3f2;--warn:#b54708;--warn-soft:#fef0e6;--bad:#c4320a;--bad-soft:#fdece6;
   --ok:#067647;--ok-soft:#e6f6ee;--shadow:0 1px 2px rgba(16,24,40,.06),0 1px 3px rgba(16,24,40,.08);
-  --r:14px;--rs:9px;
+  --r:14px;--rs:9px;color-scheme:light;
 }
 @media (prefers-color-scheme:dark){:root{
-  --bg:#0f1115;--card:#171a20;--ink:#e8eaee;--muted:#98a2b3;--line:#2a2f38;--soft:#1f232b;
+  --bg:#0f1115;--card:#181b22;--ink:#f2f4f7;--muted:#b9c0cc;--line:#343a46;--soft:#232833;color-scheme:dark;
   --acc:#2bb3a9;--acc-ink:#04201e;--acc-soft:#123331;--warn:#f79009;--warn-soft:#33240f;--bad:#f97066;--bad-soft:#3a1a16;
   --ok:#47cd89;--ok-soft:#10301f;--shadow:none;
 }}
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
-button,input,select,textarea{font:inherit;color:inherit}
+button,input,select,textarea{font:inherit;color:var(--ink)}
+::placeholder{color:var(--muted);opacity:.75}
+select option{background:var(--card);color:var(--ink)}
 a{color:var(--acc)}
-.wrap{max-width:780px;margin:0 auto;padding:16px 16px 96px}
+.wrap{max-width:1080px;margin:0 auto;padding:16px 16px 96px}
 header.top{display:flex;align-items:center;gap:12px;margin:4px 0 16px}
 header.top h1{font-size:20px;margin:0;flex:1;letter-spacing:-.01em}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow);padding:16px;margin-bottom:14px}
@@ -76,21 +78,34 @@ input:focus,select:focus,.tags:focus-within{outline:2px solid color-mix(in srgb,
 .tags .tag{background:var(--soft);border-radius:6px;padding:3px 4px 3px 9px;display:inline-flex;align-items:center;gap:2px;font-size:13.5px;max-width:100%}
 .tags .tag button{border:0;background:transparent;cursor:pointer;padding:0 5px;color:var(--muted);font-size:16px;line-height:1}
 .tags input{border:0;outline:0;flex:1;min-width:120px;padding:4px;background:transparent}
-/* Suchen-Liste */
-.watch{display:flex;gap:12px;align-items:flex-start;padding:14px 0;border-top:1px solid var(--line)}
-.watch:first-child{border-top:0;padding-top:4px}
-.watch .ic{width:40px;height:40px;border-radius:11px;background:var(--soft);display:grid;place-items:center;font-size:20px;flex:none}
-.watch.off .ic,.watch.off .main{opacity:.5}
-.watch .name{font-weight:650;overflow-wrap:anywhere}
-.watch .meta{font-size:13px;color:var(--muted);margin-top:2px;overflow-wrap:anywhere}
-.watch .acts{display:flex;gap:6px;flex-wrap:wrap;margin-top:9px}
-.badge{display:inline-block;font-size:12px;border-radius:6px;padding:1px 7px;background:var(--soft);color:var(--muted);margin-right:4px}
+/* Suchen-Kacheln */
+#wl{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+#wl .empty{grid-column:1/-1}
+.watch{min-width:0;overflow:hidden;display:flex;flex-direction:column;gap:8px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;transition:border-color .15s,box-shadow .15s}
+.watch:hover{border-color:color-mix(in srgb,var(--acc) 45%,var(--line));box-shadow:var(--shadow)}
+.watch .th{display:flex;gap:10px;align-items:flex-start}
+.watch .ic{width:38px;height:38px;border-radius:10px;background:var(--soft);display:grid;place-items:center;font-size:20px;flex:none}
+.watch .name{font-weight:650;line-height:1.3;overflow-wrap:anywhere;cursor:pointer}
+.watch .name:hover{color:var(--acc)}
+.watch .cat{font-size:12px;color:var(--muted)}
+.watch .price{font-size:20px;font-weight:700;letter-spacing:-.01em}
+.watch .price small{font-size:12.5px;font-weight:500;color:var(--muted)}
+.watch .meta{font-size:13px;color:var(--muted);overflow-wrap:anywhere;min-height:1.2em}
+.watch .badges{display:flex;flex-wrap:wrap;gap:4px}
+.watch .acts{display:flex;gap:6px;margin-top:auto;padding-top:4px}
+.watch .acts .btn{padding:5px 9px;flex:none}
+.watch .acts:has(.armed) [data-act=edit] .lbl{display:none}
+.watch .acts .btn[data-act=edit]{flex:1 1 auto;min-width:0;justify-content:center}
+.watch .acts .btn:not([data-act=edit]) .lbl{display:none}
+.watch.off{background:var(--soft)}
+.watch.off .ic,.watch.off .main-txt{opacity:.55}
+.badge{display:inline-block;font-size:12px;border-radius:6px;padding:2px 7px;background:var(--soft);color:var(--muted)}
 .badge.acc{background:var(--acc-soft);color:var(--acc)}
 .badge.warn{background:var(--warn-soft);color:var(--warn)}
 /* Editor */
-dialog{border:0;padding:0;background:transparent;max-width:none;max-height:none;width:100%;height:100%;margin:0}
+dialog{border:0;padding:0;background:transparent;color:var(--ink);max-width:none;max-height:none;width:100%;height:100%;margin:0}
 dialog::backdrop{background:rgba(10,12,16,.55)}
-.sheet{background:var(--card);max-width:720px;margin:24px auto;border-radius:18px;display:flex;flex-direction:column;max-height:calc(100% - 48px);overflow:hidden;border:1px solid var(--line)}
+.sheet{background:var(--card);color:var(--ink);max-width:720px;margin:24px auto;border-radius:18px;display:flex;flex-direction:column;max-height:calc(100% - 48px);overflow:hidden;border:1px solid var(--line)}
 .sheet .hd{display:flex;align-items:center;gap:10px;padding:14px 16px;border-bottom:1px solid var(--line)}
 .sheet .hd h2{margin:0;font-size:17px;flex:1}
 .sheet .bd{padding:4px 16px 20px;overflow:auto;flex:1}
@@ -106,7 +121,7 @@ fieldset{border:0;padding:0;margin:0}
 .toast.bad{background:var(--bad);color:#fff}
 pre.log{background:var(--soft);border-radius:var(--rs);padding:10px;font-size:12px;overflow:auto;max-height:300px;white-space:pre-wrap;word-break:break-word;margin:8px 0 0}
 details summary{cursor:pointer;color:var(--muted);font-size:13.5px}
-.fab{position:fixed;right:max(16px,calc(50% - 374px));bottom:max(16px,env(safe-area-inset-bottom));z-index:20;box-shadow:0 6px 20px rgba(0,0,0,.18);border-radius:99px;padding:12px 18px;min-height:48px}
+.fab{position:fixed;right:max(16px,calc(50% - 524px));bottom:max(16px,env(safe-area-inset-bottom));z-index:20;box-shadow:0 6px 20px rgba(0,0,0,.18);border-radius:99px;padding:12px 18px;min-height:48px}
 .timechips .chip{cursor:default}
 .timechips .chip button{border:0;background:transparent;cursor:pointer;color:inherit;padding:0 0 0 2px;font-size:15px}
 .empty{text-align:center;padding:28px 10px;color:var(--muted)}
@@ -119,7 +134,7 @@ details summary{cursor:pointer;color:var(--muted);font-size:13.5px}
   .grid4{grid-template-columns:1fr 1fr}
   .stats{grid-template-columns:1fr 1fr 1fr;gap:6px}.stat{padding:8px}.stat b{font-size:16px}
   .sheet{margin:0;border-radius:0;max-height:100%;height:100%;border:0}
-  .watch .acts .btn .lbl{display:none}
+  #wl{grid-template-columns:1fr}
 }
 </style>
 </head>
@@ -367,9 +382,9 @@ function pending(id) {
   const fa = num(S.settings.force_all), fad = num(S.state.force_all_done);
   return f > done || fa > fad;
 }
-function watchMeta(w) {
+function watchMeta(w, noPrice) {
   const bits = [];
-  if (num(w.maxPrice)) bits.push((num(w.minPrice) ? `${euro(num(w.minPrice))}–` : 'bis ') + euro(num(w.maxPrice)));
+  if (!noPrice && num(w.maxPrice)) bits.push((num(w.minPrice) ? `${euro(num(w.minPrice))}–` : 'bis ') + euro(num(w.maxPrice)));
   const sz = arr(w.sizes), col = arr(w.colors), sto = arr(w.storage);
   if (sz.length) bits.push('Gr. ' + sz.join(', '));
   if (col.length) bits.push(col.join(', '));
@@ -419,20 +434,24 @@ function render() {
     <div id="wl">${list.length ? list.map(([w, i]) => {
       const cat = CATS[w.category] || CATS.kleidung, on = w.active !== false, nx = on && st.enabled ? nextRun(w, st, state) : 0;
       const last = (state.watch_last || {})[w.id];
+      const lo = num(w.minPrice), hi = num(w.maxPrice);
       return `<div class="watch ${on ? '' : 'off'}" data-i="${i}">
-        <div class="ic" aria-hidden="true">${cat.icon}</div>
-        <div class="grow main">
-          <div class="name">${esc(w.name || 'Ohne Namen')}</div>
-          <div class="meta">${esc(watchMeta(w))}</div>
-          <div class="meta" style="margin-top:5px"><span class="badge acc">🕒 ${esc(scheduleText(w, st))}</span>${pending(w.id) && on ? '<span class="badge warn">⏳ sucht beim nächsten Lauf</span>' : nx ? `<span class="badge">nächste ${esc(fmtWhen(nx))}</span>` : ''}${last ? `<span class="badge">zuletzt ${esc(fmtWhen(last))}</span>` : ''}</div>
-          <div class="acts">
-            <button class="btn sm" data-act="edit">✏️ <span class="lbl">Bearbeiten</span></button>
-            <button class="btn sm" data-act="now" title="Beim nächsten Lauf sofort suchen">▶ <span class="lbl">Jetzt suchen</span></button>
-            <button class="btn sm" data-act="dup" title="Duplizieren">⧉ <span class="lbl">Kopieren</span></button>
-            <button class="btn sm danger" data-act="del" title="Löschen">🗑 <span class="lbl">Löschen</span></button>
-          </div>
+        <div class="th">
+          <div class="ic" aria-hidden="true">${cat.icon}</div>
+          <div class="grow main-txt"><div class="name" data-act="edit">${esc(w.name || 'Ohne Namen')}</div><div class="cat">${cat.label}${on ? '' : ' · aus'}</div></div>
+          <label class="sw" title="Suche ein/aus"><input type="checkbox" data-act="toggle" ${on ? 'checked' : ''} aria-label="Suche ${esc(w.name)} ein- oder ausschalten"><i></i></label>
         </div>
-        <label class="sw" title="Suche ein/aus"><input type="checkbox" data-act="toggle" ${on ? 'checked' : ''} aria-label="Suche ${esc(w.name)} ein- oder ausschalten"><i></i></label>
+        <div class="main-txt">
+          <div class="price">${hi ? (lo ? `${euro(lo)} – ${euro(hi)}` : `<small>bis</small> ${euro(hi)}`) : '–'}</div>
+          <div class="meta">${esc(watchMeta(w, true)) || '&nbsp;'}</div>
+        </div>
+        <div class="badges"><span class="badge acc">🕒 ${esc(scheduleText(w, st))}</span>${pending(w.id) && on ? '<span class="badge warn">⏳ sucht beim nächsten Lauf</span>' : nx ? `<span class="badge">nächste ${esc(fmtWhen(nx))}</span>` : ''}${last ? `<span class="badge">zuletzt ${esc(fmtWhen(last))}</span>` : ''}</div>
+        <div class="acts">
+          <button class="btn sm" data-act="edit">✏️ <span class="lbl">Bearbeiten</span></button>
+          <button class="btn sm" data-act="now" title="Jetzt suchen (beim nächsten Lauf)" aria-label="Jetzt suchen">▶ <span class="lbl">Jetzt suchen</span></button>
+          <button class="btn sm" data-act="dup" title="Kopieren" aria-label="Kopieren">⧉ <span class="lbl">Kopieren</span></button>
+          <button class="btn sm danger" data-act="del" title="Löschen" aria-label="Löschen">🗑 <span class="lbl">Löschen</span></button>
+        </div>
       </div>`;
     }).join('') : `<div class="empty">Noch keine Suchen. Leg mit „＋ Neue Suche“ los.</div>`}</div>
   </section>
@@ -467,7 +486,7 @@ function render() {
     if (b.dataset.act === 'dup') { const c = structuredClone(w); c.name = (w.name || '') + ' (Kopie)'; delete c.id; openEditor(c, true); }
     if (b.dataset.act === 'now') guarded(b, () => saveSettings(s => ({...s, force: {...(s.force || {}), [id]: nowS()}}), `Jetzt suchen: ${w.name}`), `„${w.name}“ sucht beim nächsten Lauf`);
     if (b.dataset.act === 'del') {
-      if (!b.classList.contains('armed')) { b.classList.add('armed'); b.innerHTML = 'Wirklich löschen?'; setTimeout(() => { if (b.isConnected) { b.classList.remove('armed'); b.innerHTML = '🗑 <span class="lbl">Löschen</span>'; } }, 4000); return; }
+      if (!b.classList.contains('armed')) { b.classList.add('armed'); b.innerHTML = 'Löschen?'; setTimeout(() => { if (b.isConnected) { b.classList.remove('armed'); b.innerHTML = '🗑 <span class="lbl">Löschen</span>'; } }, 4000); return; }
       guarded(b, () => saveWatch(list => list.filter(x => (x.id || slug(x.name || '')) !== id), `Suche gelöscht: ${w.name}`), `„${w.name}“ gelöscht`);
     }
   };

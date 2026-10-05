@@ -97,7 +97,7 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
 
   // 3) Bestehende Kleidungs-Suche bearbeiten: Größen, Farben, eigenes Intervall, zwei Uhrzeiten
   const rl = page.locator('.watch', {hasText: 'Ralph Lauren'}).first();
-  await rl.locator('[data-act="edit"]').click();
+  await rl.locator('button[data-act="edit"]').click();
   check(await page.isVisible('#secClothes') && !(await page.isVisible('#secTech')), 'Kleidung: Größen + Farben sichtbar');
   for (const s of ['M', 'L']) await page.click(`#eSizes .chip[data-v="${s}"]`);
   await page.fill('#eSizeAdd', '40'); await page.click('#eSizeAddBtn');
@@ -135,6 +135,7 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   const del = page.locator('.watch', {hasText: 'Longchamp'}).locator('[data-act="del"]');
   await del.click();
   check(J('watchlist.json').some(w => w.id === 'longchamp-le-pliage'), 'Löschen braucht Bestätigung');
+  check(await page.evaluate(() => [...document.querySelectorAll('.watch')].every(t => [...t.querySelectorAll('.acts .btn')].every(b => b.getBoundingClientRect().right <= t.getBoundingClientRect().right + 0.5))), 'Kacheln: alle Knöpfe innerhalb der Kachel (auch „Löschen?“)');
   await del.click();
   await page.waitForFunction(() => ![...document.querySelectorAll('.watch .name')].some(e => e.textContent.includes('Longchamp')));
   check(!J('watchlist.json').some(w => w.id === 'longchamp-le-pliage'), 'Suche gelöscht');
@@ -155,10 +156,21 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   await page.screenshot({path: path.join(OUT, '5-handy.png'), fullPage: false});
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > window.innerWidth);
   check(!overflow, 'Handy: kein horizontales Scrollen');
-  await page.locator('.watch', {hasText: 'Xiaomi'}).locator('[data-act="edit"]').click();
+  await page.locator('.watch', {hasText: 'Xiaomi'}).locator('button[data-act="edit"]').click();
   await page.screenshot({path: path.join(OUT, '6-handy-editor.png')});
   const ov2 = await page.evaluate(() => document.querySelector('.sheet').scrollWidth > window.innerWidth);
   check(!ov2, 'Handy-Editor passt in die Breite');
+  await page.click('#eCancel');
+
+  // 8) Dunkelmodus: Schrift im Editor muss hell sein
+  await page.setViewportSize({width: 1100, height: 900});
+  await page.emulateMedia({colorScheme: 'dark'});
+  await page.screenshot({path: path.join(OUT, '7-dunkel-kacheln.png')});
+  await page.locator('.watch', {hasText: 'New Balance'}).locator('button[data-act="edit"]').first().click();
+  const lum = c => { const [r, g, b] = c.match(/\d+/g).map(Number); return (0.299 * r + 0.587 * g + 0.114 * b) / 255; };
+  const cols = await page.evaluate(() => ['label.f', '#eName', '.seg button', '.chip'].map(s => getComputedStyle(document.querySelector('#editor ' + s)).color));
+  check(cols.every(c => lum(c) > 0.7), 'Dunkelmodus: Editor-Schrift hell ' + cols.join(' '));
+  await page.screenshot({path: path.join(OUT, '8-dunkel-editor.png')});
   await page.click('#eCancel');
 
   check(errors.length === 0, 'Keine JS-Fehler' + (errors.length ? ': ' + errors.join(' | ') : ''));
