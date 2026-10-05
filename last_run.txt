@@ -1,2 +1,16 @@
-2026-10-05 12:30:50 UTC Telegram: 0 neue Nachricht(en)
-2026-10-05 12:30:50 UTC Keine Suche fällig
+2026-10-05 12:45:00 UTC Telegram: 0 neue Nachricht(en)
+2026-10-05 12:45:00 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
+2026-10-05 12:45:20 UTC Polo Ralph Lauren Zopfstrick-Pullover: 7 neue Kandidaten
+2026-10-05 12:45:32 UTC Suche „Carhartt Detroit Jacket“
+2026-10-05 12:45:41 UTC Carhartt Detroit Jacket: 5 neue Kandidaten
+2026-10-05 12:45:56 UTC Suche „Arc'teryx Jacke“
+2026-10-05 12:46:14 UTC Arc'teryx Jacke: 21 neue Kandidaten
+2026-10-05 12:46:51 UTC Suche „New Balance 9060“
+2026-10-05 12:46:55 UTC New Balance 9060: 11 neue Kandidaten
+2026-10-05 12:47:17 UTC Suche „Ralph Lauren Polohemd“
+2026-10-05 12:47:31 UTC Ralph Lauren Polohemd: 189 neue Kandidaten
+2026-10-05 12:48:44 UTC Suche „Lacoste Polohemd“
+2026-10-05 12:49:00 UTC Lacoste Polohemd: 174 neue Kandidaten
+2026-10-05 12:49:17 UTC Suche „Xiaomi 17“
+2026-10-05 12:49:22 UTC Xiaomi 17: 5 neue Kandidaten
+2026-10-05 12:49:26 UTC Suche fertig: 30 neue Deals (7 Suchen)
