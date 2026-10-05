@@ -176,38 +176,6 @@
     }
   },
   {
-    "id": "longchamp-le-pliage",
-    "name": "Longchamp Le Pliage",
-    "category": "taschen",
-    "active": true,
-    "queries": [
-      "longchamp le pliage"
-    ],
-    "brands": [
-      "Longchamp"
-    ],
-    "require": [
-      "pliage"
-    ],
-    "exclude": [
-      "pochette",
-      "trousse",
-      "porte-monnaie",
-      "portemonnaie",
-      "wallet",
-      "portafoglio"
-    ],
-    "sizes": [],
-    "colors": [],
-    "maxPrice": 35,
-    "resaleMin": 65,
-    "resaleMax": 105,
-    "minCondition": "Gut",
-    "schedule": {
-      "mode": "default"
-    }
-  },
-  {
     "id": "patagonia-retro-x-fleece",
     "name": "Patagonia Retro-X Fleece",
     "category": "kleidung",
