@@ -94,7 +94,7 @@
     "id": "arc-teryx-jacke",
     "name": "Arc'teryx Jacke",
     "category": "kleidung",
-    "active": true,
+    "active": false,
     "queries": [
       "arcteryx jacke",
       "arcteryx jacket",
