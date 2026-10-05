@@ -1,2 +1,10 @@
-2026-10-05 22:16:52 UTC Telegram: 0 neue Nachricht(en)
-2026-10-05 22:16:52 UTC Keine Suche fällig
+2026-10-05 22:31:04 UTC Telegram: 0 neue Nachricht(en)
+2026-10-05 22:31:04 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
+2026-10-05 22:31:21 UTC Polo Ralph Lauren Zopfstrick-Pullover: 7 neue Kandidaten
+2026-10-05 22:31:21 UTC Suche „Ralph Lauren Polohemd“
+2026-10-05 22:31:36 UTC Ralph Lauren Polohemd: 75 neue Kandidaten
+2026-10-05 22:32:56 UTC Suche „Lacoste Polohemd“
+2026-10-05 22:33:10 UTC Lacoste Polohemd: 44 neue Kandidaten
+2026-10-05 22:33:15 UTC Suche „Xiaomi 17“
+2026-10-05 22:33:20 UTC Xiaomi 17: 0 neue Kandidaten
+2026-10-05 22:33:20 UTC Suche fertig: 16 neue Deals (4 Suchen)
