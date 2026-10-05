@@ -147,7 +147,7 @@
     "id": "salomon-xt-6",
     "name": "Salomon XT-6",
     "category": "schuhe",
-    "active": true,
+    "active": false,
     "queries": [
       "salomon xt-6",
       "salomon xt6"
