@@ -147,7 +147,7 @@
     "id": "new-balance-9060",
     "name": "New Balance 9060",
     "category": "schuhe",
-    "active": true,
+    "active": false,
     "queries": [
       "new balance 9060"
     ],
