@@ -1,145 +1,415 @@
 [
   {
+    "id": "polo-ralph-lauren-zopfstrick-pullover",
     "name": "Polo Ralph Lauren Zopfstrick-Pullover",
+    "category": "kleidung",
     "active": true,
-    "queries": "ralph lauren cable knit, ralph lauren zopfstrick, ralph lauren torsadé, ralph lauren trecce",
-    "brands": "Ralph Lauren, Polo Ralph Lauren",
-    "require": "cable, zopf, torsad, trecc, ochos, kabel",
-    "exclude": "kinder, kids, enfant, bambin, junior, cardigan, strickjacke, gilet, weste, pullunder, sans manches, ärmellos, smanicato, sin mangas, mütze, bonnet, cappello, polo shirt",
+    "queries": [
+      "ralph lauren cable knit",
+      "ralph lauren zopfstrick",
+      "ralph lauren torsadé",
+      "ralph lauren trecce"
+    ],
+    "brands": [
+      "Ralph Lauren",
+      "Polo Ralph Lauren"
+    ],
+    "require": [
+      "cable",
+      "zopf",
+      "torsad",
+      "trecc",
+      "ochos",
+      "kabel"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "junior",
+      "cardigan",
+      "strickjacke",
+      "gilet",
+      "weste",
+      "pullunder",
+      "sans manches",
+      "ärmellos",
+      "smanicato",
+      "sin mangas",
+      "mütze",
+      "bonnet",
+      "cappello",
+      "polo shirt"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 18,
     "resaleMin": 35,
     "resaleMax": 45,
-    "sizes": "",
-    "minCondition": "Sehr gut"
+    "minCondition": "Sehr gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "barbour-wachsjacke",
     "name": "Barbour Wachsjacke",
+    "category": "kleidung",
     "active": true,
-    "queries": "barbour bedale, barbour beaufort, barbour wachsjacke, barbour wax jacket",
-    "brands": "Barbour, Barbour Heritage",
-    "require": "bedale, beaufort, ashby, border, wax, wachs, cirée, ciree, cerat",
-    "exclude": "kinder, kids, enfant, bambin, steppjacke, quilted, matelass, trapuntat, international, gilet, weste",
+    "queries": [
+      "barbour bedale",
+      "barbour beaufort",
+      "barbour wachsjacke",
+      "barbour wax jacket"
+    ],
+    "brands": [
+      "Barbour",
+      "Barbour Heritage"
+    ],
+    "require": [
+      "bedale",
+      "beaufort",
+      "ashby",
+      "border",
+      "wax",
+      "wachs",
+      "cirée",
+      "ciree",
+      "cerat"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "steppjacke",
+      "quilted",
+      "matelass",
+      "trapuntat",
+      "international",
+      "gilet",
+      "weste"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 80,
     "resaleMin": 145,
     "resaleMax": 210,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "carhartt-detroit-jacket",
     "name": "Carhartt Detroit Jacket",
+    "category": "kleidung",
     "active": true,
-    "queries": "carhartt detroit jacket, carhartt detroit",
-    "brands": "Carhartt, Carhartt WIP",
-    "require": "detroit",
-    "exclude": "kinder, kids, enfant, bambin, hose, pant, casquette, mütze, beanie",
+    "queries": [
+      "carhartt detroit jacket",
+      "carhartt detroit"
+    ],
+    "brands": [
+      "Carhartt",
+      "Carhartt WIP"
+    ],
+    "require": [
+      "detroit"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "hose",
+      "pant",
+      "casquette",
+      "mütze",
+      "beanie"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 60,
     "resaleMin": 110,
     "resaleMax": 130,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "arc-teryx-jacke",
     "name": "Arc'teryx Jacke",
+    "category": "kleidung",
     "active": true,
-    "queries": "arcteryx jacke, arcteryx jacket, arcteryx beta, arcteryx atom",
-    "brands": "Arc'teryx, Arcteryx",
-    "require": "beta, atom, gamma, zeta, alpha, cerium, squamish, jacke, jacket, veste, giacca, chaqueta",
-    "exclude": "kinder, kids, enfant, bambin, mütze, beanie, toque, rucksack, backpack, tasche, t-shirt",
+    "queries": [
+      "arcteryx jacke",
+      "arcteryx jacket",
+      "arcteryx beta",
+      "arcteryx atom"
+    ],
+    "brands": [
+      "Arc'teryx",
+      "Arcteryx"
+    ],
+    "require": [
+      "beta",
+      "atom",
+      "gamma",
+      "zeta",
+      "alpha",
+      "cerium",
+      "squamish",
+      "jacke",
+      "jacket",
+      "veste",
+      "giacca",
+      "chaqueta"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "mütze",
+      "beanie",
+      "toque",
+      "rucksack",
+      "backpack",
+      "tasche",
+      "t-shirt"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 60,
     "resaleMin": 110,
     "resaleMax": 140,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "salomon-xt-6",
     "name": "Salomon XT-6",
+    "category": "schuhe",
     "active": true,
-    "queries": "salomon xt-6, salomon xt6",
-    "brands": "Salomon",
-    "require": "xt-6, xt6, xt 6",
-    "exclude": "kinder, kids, enfant, bambin",
+    "queries": [
+      "salomon xt-6",
+      "salomon xt6"
+    ],
+    "brands": [
+      "Salomon"
+    ],
+    "require": [
+      "xt-6",
+      "xt6",
+      "xt 6"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 60,
     "resaleMin": 110,
     "resaleMax": 120,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "onitsuka-tiger-mexico-66",
     "name": "Onitsuka Tiger Mexico 66",
+    "category": "schuhe",
     "active": true,
-    "queries": "onitsuka tiger mexico 66, onitsuka mexico 66",
-    "brands": "Onitsuka Tiger, Asics",
-    "require": "mexico",
-    "exclude": "kinder, kids, enfant, bambin",
+    "queries": [
+      "onitsuka tiger mexico 66",
+      "onitsuka mexico 66"
+    ],
+    "brands": [
+      "Onitsuka Tiger",
+      "Asics"
+    ],
+    "require": [
+      "mexico"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 40,
     "resaleMin": 75,
     "resaleMax": 110,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "new-balance-9060",
     "name": "New Balance 9060",
+    "category": "schuhe",
     "active": true,
-    "queries": "new balance 9060",
-    "brands": "New Balance",
-    "require": "9060",
-    "exclude": "kinder, kids, enfant, bambin, junior",
+    "queries": [
+      "new balance 9060"
+    ],
+    "brands": [
+      "New Balance"
+    ],
+    "require": [
+      "9060"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "junior"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 45,
     "resaleMin": 80,
     "resaleMax": 110,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "ugg-tasman",
     "name": "UGG Tasman",
+    "category": "schuhe",
     "active": true,
-    "queries": "ugg tasman",
-    "brands": "UGG",
-    "require": "tasman",
-    "exclude": "kinder, kids, enfant, bambin, toddler",
+    "queries": [
+      "ugg tasman"
+    ],
+    "brands": [
+      "UGG"
+    ],
+    "require": [
+      "tasman"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "toddler"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 45,
     "resaleMin": 80,
     "resaleMax": 110,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "moon-boot",
     "name": "Moon Boot",
+    "category": "schuhe",
     "active": true,
-    "queries": "moon boot",
-    "brands": "Moon Boot",
-    "require": "",
-    "exclude": "kinder, kids, enfant, bambin, junior, chausson",
+    "queries": [
+      "moon boot"
+    ],
+    "brands": [
+      "Moon Boot"
+    ],
+    "require": [],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "junior",
+      "chausson"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 28,
     "resaleMin": 55,
     "resaleMax": 95,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "longchamp-le-pliage",
     "name": "Longchamp Le Pliage",
+    "category": "taschen",
     "active": true,
-    "queries": "longchamp le pliage",
-    "brands": "Longchamp",
-    "require": "pliage",
-    "exclude": "pochette, trousse, porte-monnaie, portemonnaie, wallet, portafoglio",
+    "queries": [
+      "longchamp le pliage"
+    ],
+    "brands": [
+      "Longchamp"
+    ],
+    "require": [
+      "pliage"
+    ],
+    "exclude": [
+      "pochette",
+      "trousse",
+      "porte-monnaie",
+      "portemonnaie",
+      "wallet",
+      "portafoglio"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 35,
     "resaleMin": 65,
     "resaleMax": 105,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   },
   {
+    "id": "patagonia-retro-x-fleece",
     "name": "Patagonia Retro-X Fleece",
+    "category": "kleidung",
     "active": true,
-    "queries": "patagonia retro x, patagonia retro-x",
-    "brands": "Patagonia",
-    "require": "retro",
-    "exclude": "kinder, kids, enfant, bambin, boys, girls",
+    "queries": [
+      "patagonia retro x",
+      "patagonia retro-x"
+    ],
+    "brands": [
+      "Patagonia"
+    ],
+    "require": [
+      "retro"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "enfant",
+      "bambin",
+      "boys",
+      "girls"
+    ],
+    "sizes": [],
+    "colors": [],
     "maxPrice": 40,
     "resaleMin": 75,
     "resaleMax": 110,
-    "sizes": "",
-    "minCondition": "Gut"
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   }
 ]

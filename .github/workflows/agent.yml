@@ -6,7 +6,7 @@ on:
   workflow_dispatch: {}            # manuell, per Kette (siehe unten) oder per cron-job.org
   push:
     branches: [main]
-    paths: ['agent.py', 'watchlist.json', '.github/workflows/agent.yml']
+    paths: ['agent.py', 'watchlist.json', 'settings.json', '.github/workflows/agent.yml']
 
 permissions:
   contents: write                  # state.json speichern
@@ -34,7 +34,7 @@ jobs:
         run: |
           git config user.name "deal-agent"
           git config user.email "deal-agent@users.noreply.github.com"
-          git add state.json watchlist.json last_run.txt
+          git add state.json watchlist.json settings.json last_run.txt
           if ! git diff --cached --quiet; then
             git commit -m "Zustand aktualisiert [skip ci]"
             git pull --rebase --autostash || true
