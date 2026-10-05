@@ -404,6 +404,7 @@
     ],
     "sizes": [],
     "colors": [],
+    "minPrice": 0,
     "maxPrice": 40,
     "resaleMin": 75,
     "resaleMax": 110,
