@@ -1,11 +1,2 @@
-2026-10-06 12:11:58 UTC Telegram: 0 neue Nachricht(en)
-2026-10-06 12:11:58 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
-2026-10-06 12:12:18 UTC Polo Ralph Lauren Zopfstrick-Pullover: 8 neue Kandidaten
-2026-10-06 12:12:22 UTC Suche „Ralph Lauren Polohemd“
-2026-10-06 12:12:35 UTC Ralph Lauren Polohemd: 190 neue Kandidaten
-2026-10-06 12:13:44 UTC Telegram-Fehler sendPhoto 400 {"ok":false,"error_code":400,"description":"Bad Request: wrong type of the web page content"}
-2026-10-06 12:13:50 UTC Suche „Lacoste Polohemd“
-2026-10-06 12:14:04 UTC Lacoste Polohemd: 173 neue Kandidaten
-2026-10-06 12:14:30 UTC Suche „Xiaomi 17“
-2026-10-06 12:14:34 UTC Xiaomi 17: 3 neue Kandidaten
-2026-10-06 12:14:43 UTC Suche fertig: 21 neue Deals (4 Suchen)
+2026-10-06 12:28:55 UTC Telegram: 0 neue Nachricht(en)
+2026-10-06 12:28:55 UTC Keine Suche fällig
