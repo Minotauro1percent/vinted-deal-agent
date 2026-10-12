@@ -180,7 +180,7 @@
     "id": "ralph-lauren-polohemd",
     "name": "Ralph Lauren Polohemd",
     "category": "kleidung",
-    "active": true,
+    "active": false,
     "queries": [
       "Polohemd",
       "Ralph Lauren Polohemd",
