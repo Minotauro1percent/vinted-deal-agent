@@ -1,2 +1,7 @@
-2026-10-12 20:44:40 UTC Telegram: 0 neue Nachricht(en)
-2026-10-12 20:44:40 UTC Keine Suche fällig
+2026-10-12 20:58:51 UTC Telegram: 0 neue Nachricht(en)
+2026-10-12 20:58:51 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
+2026-10-12 20:59:14 UTC Polo Ralph Lauren Zopfstrick-Pullover: 113 neue Kandidaten
+2026-10-12 21:01:33 UTC Details übersprungen (10354818038): The read operation timed out
+2026-10-12 21:03:16 UTC Suche „Xiaomi 17“
+2026-10-12 21:03:21 UTC Xiaomi 17: 1 neue Kandidaten
+2026-10-12 21:03:25 UTC Suche fertig: 8 neue Deals (2 Suchen)
