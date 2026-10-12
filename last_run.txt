@@ -1,4 +1,6 @@
-2026-10-12 15:40:46 UTC Telegram: 0 neue Nachricht(en)
-2026-10-12 15:40:46 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
-2026-10-12 15:40:47 UTC Vinted blockiert: HTTP 403
-2026-10-12 15:40:48 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-12 15:55:00 UTC Telegram: 0 neue Nachricht(en)
+2026-10-12 15:55:00 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
+2026-10-12 15:55:24 UTC Polo Ralph Lauren Zopfstrick-Pullover: 136 neue Kandidaten
+2026-10-12 15:59:25 UTC Suche „Xiaomi 17“
+2026-10-12 15:59:30 UTC Xiaomi 17: 3 neue Kandidaten
+2026-10-12 15:59:30 UTC Suche fertig: 6 neue Deals (2 Suchen)
