@@ -216,7 +216,7 @@
     "id": "lacoste-polohemd",
     "name": "Lacoste Polohemd",
     "category": "kleidung",
-    "active": true,
+    "active": false,
     "queries": [
       "Polohemd",
       "Ralph Lauren Polohemd",
