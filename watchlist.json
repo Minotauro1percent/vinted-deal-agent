@@ -8,7 +8,8 @@
       "ralph lauren cable knit",
       "ralph lauren zopfstrick",
       "ralph lauren torsadé",
-      "ralph lauren trecce"
+      "ralph lauren trecce",
+      "ralph lauren sweater"
     ],
     "brands": [
       "Ralph Lauren",
@@ -45,12 +46,13 @@
     "sizes": [],
     "colors": [],
     "minPrice": 0,
-    "maxPrice": 20,
-    "resaleMin": 35,
+    "maxPrice": 25,
+    "resaleMin": 40,
     "resaleMax": 45,
-    "minCondition": "Sehr gut",
+    "minCondition": "Gut",
     "schedule": {
-      "mode": "default"
+      "mode": "interval",
+      "everyMin": 60
     }
   },
   {
