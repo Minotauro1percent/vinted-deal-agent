@@ -1,4 +1,2 @@
-2026-10-13 01:10:48 UTC Telegram-Fehler getUpdates 502 {"ok":false,"error_code":502,"description":"Bad Gateway"}
-2026-10-13 01:10:48 UTC getUpdates fehlgeschlagen: {"ok":false,"error_code":502,"description":"Bad Gateway"}
-2026-10-13 01:10:48 UTC Telegram: 0 neue Nachricht(en)
-2026-10-13 01:10:48 UTC Keine Suche fällig
+2026-10-13 01:25:00 UTC Telegram: 0 neue Nachricht(en)
+2026-10-13 01:25:00 UTC Keine Suche fällig
