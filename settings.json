@@ -5,5 +5,7 @@
   "shipping_est": 5,
   "max_per_run": 15,
   "force_all": 1791798274,
-  "force": {}
+  "force": {
+    "juicy-couture": 1792074620
+  }
 }
