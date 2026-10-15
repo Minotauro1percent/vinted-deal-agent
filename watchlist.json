@@ -294,5 +294,47 @@
     "schedule": {
       "mode": "default"
     }
+  },
+  {
+    "id": "juicy-couture",
+    "name": "Juicy Couture",
+    "category": "kleidung",
+    "active": true,
+    "queries": [
+      "Juicy Couture Sweater",
+      "Juicy Couture Weste",
+      "Juicy Couture Hoodie",
+      "Juicy Couture Jacket"
+    ],
+    "brands": [
+      "Juicy Couture"
+    ],
+    "require": [
+      "Juicy Couture",
+      "sweater",
+      "hoodie",
+      "jacket",
+      "weste"
+    ],
+    "exclude": [
+      "kinder",
+      "kids",
+      "defekt",
+      "loch",
+      "beschädigt",
+      "schmutzig",
+      "stark gebraucht",
+      "kaputt"
+    ],
+    "sizes": [],
+    "colors": [],
+    "minPrice": 0,
+    "maxPrice": 15,
+    "resaleMin": 30,
+    "resaleMax": 40,
+    "minCondition": "Gut",
+    "schedule": {
+      "mode": "default"
+    }
   }
 ]
