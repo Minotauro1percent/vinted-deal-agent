@@ -1,2 +1,3 @@
-2026-10-17 10:06:00 UTC Telegram: 0 neue Nachricht(en)
-2026-10-17 10:06:00 UTC Keine Suche fällig
+2026-10-17 10:20:09 UTC Telegram: 1 neue Nachricht(en)
+2026-10-17 10:20:09 UTC Befehl /stop []
+2026-10-17 10:20:09 UTC Pausiert
