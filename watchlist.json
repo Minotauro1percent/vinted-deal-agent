@@ -304,7 +304,9 @@
       "Juicy Couture Sweater",
       "Juicy Couture Weste",
       "Juicy Couture Hoodie",
-      "Juicy Couture Jacket"
+      "Juicy Couture Jacket",
+      "Juicy Couture Fur",
+      "Juicy Couture Fur Jacket"
     ],
     "brands": [
       "Juicy Couture"
@@ -314,7 +316,8 @@
       "sweater",
       "hoodie",
       "jacket",
-      "weste"
+      "weste",
+      "fur"
     ],
     "exclude": [
       "kinder",
@@ -324,12 +327,14 @@
       "beschädigt",
       "schmutzig",
       "stark gebraucht",
-      "kaputt"
+      "kaputt",
+      "tasche",
+      "shorts"
     ],
     "sizes": [],
     "colors": [],
     "minPrice": 0,
-    "maxPrice": 15,
+    "maxPrice": 20,
     "resaleMin": 30,
     "resaleMax": 40,
     "minCondition": "Gut",
