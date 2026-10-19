@@ -301,12 +301,9 @@
     "category": "kleidung",
     "active": true,
     "queries": [
-      "Juicy Couture Sweater",
-      "Juicy Couture Weste",
-      "Juicy Couture Hoodie",
-      "Juicy Couture Jacket",
       "Juicy Couture Fur",
-      "Juicy Couture Fur Jacket"
+      "Juicy Couture Fur Jacket",
+      "juicy couture fur weste"
     ],
     "brands": [
       "Juicy Couture"
@@ -329,7 +326,10 @@
       "stark gebraucht",
       "kaputt",
       "tasche",
-      "shorts"
+      "shorts",
+      "hose",
+      "trouser",
+      "bag"
     ],
     "sizes": [],
     "colors": [],
