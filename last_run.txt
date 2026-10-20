@@ -1,2 +1,9 @@
-2026-10-20 23:23:18 UTC Telegram: 0 neue Nachricht(en)
-2026-10-20 23:23:18 UTC Keine Suche fällig
+2026-10-20 23:37:30 UTC Telegram: 0 neue Nachricht(en)
+2026-10-20 23:37:30 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
+2026-10-20 23:37:55 UTC Polo Ralph Lauren Zopfstrick-Pullover: 13 neue Kandidaten
+2026-10-20 23:37:58 UTC Telegram-Fehler sendPhoto 400 {"ok":false,"error_code":400,"description":"Bad Request: failed to get HTTP URL content"}
+2026-10-20 23:38:19 UTC Suche „Xiaomi 17“
+2026-10-20 23:38:23 UTC Xiaomi 17: 5 neue Kandidaten
+2026-10-20 23:38:23 UTC Suche „Juicy Couture“
+2026-10-20 23:38:37 UTC Juicy Couture: 7 neue Kandidaten
+2026-10-20 23:38:37 UTC Suche fertig: 1 neue Deals (3 Suchen)
