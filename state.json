@@ -20047,6 +20047,17 @@
     "deals": 1883,
     "last_deals": 8
   },
+  "learn_target": "",
+  "learn_queue": [],
+  "bg": {},
+  "sent_feat": {},
+  "pending_cb": [],
+  "vision": {
+    "day": "",
+    "n": 0,
+    "usd": 0.0,
+    "total_usd": 0.0
+  },
   "commands_set": true,
-  "commands_version": 2
+  "commands_version": 3
 }
