@@ -9,5 +9,7 @@
     "juicy-couture": 1792411493
   },
   "night_mode": true,
-  "night_max": 3
+  "night_max": 3,
+  "night_from": "23:00",
+  "night_to": "06:00"
 }
