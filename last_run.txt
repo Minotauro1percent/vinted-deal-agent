@@ -1,4 +1,12 @@
-2026-10-21 21:06:59 UTC Telegram: 0 neue Nachricht(en)
-2026-10-21 21:06:59 UTC Suche „RalphLauren“
-2026-10-21 21:07:20 UTC RalphLauren: 188 neu, 79 in der Vorauswahl (Schwelle 0.50)
-2026-10-21 21:08:20 UTC Suche fertig: 15 neue Deals (1 Suchen)
+2026-10-21 21:12:32 UTC Telegram: 7 neue Nachricht(en)
+2026-10-21 21:12:33 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-21 21:12:33 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-21 21:12:34 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-21 21:12:35 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-21 21:12:35 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-21 21:12:36 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-21 21:12:36 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-21 21:12:37 UTC Feedback verarbeitet: ralphlauren
+2026-10-21 21:12:37 UTC Suche „RalphLauren“
+2026-10-21 21:12:55 UTC RalphLauren: 9 neu, 3 in der Vorauswahl (Schwelle 0.52)
+2026-10-21 21:13:07 UTC Suche fertig: 2 neue Deals (1 Suchen)
