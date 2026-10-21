@@ -1,5 +1,6 @@
-2026-10-21 21:38:01 UTC Telegram: 0 neue Nachricht(en)
-2026-10-21 21:38:01 UTC Suche „RalphLauren“
-2026-10-21 21:38:19 UTC RalphLauren: 6 neu, 2 in der Vorauswahl (Schwelle 0.50)
-2026-10-21 21:38:25 UTC Bildprüfung ok 10478045265 (75: Gleiche Marke und Logo, aber Rippstrick statt Zopfmuster)
-2026-10-21 21:38:29 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-21 21:42:41 UTC Telegram: 0 neue Nachricht(en)
+2026-10-21 21:42:41 UTC Suche „RalphLauren“
+2026-10-21 21:42:59 UTC RalphLauren: 7 neu, 3 in der Vorauswahl (Schwelle 0.50)
+2026-10-21 21:43:10 UTC Bildprüfung verwirft 10478094741 (72: Ralph Lauren Pony-Logo und Strick, aber kein Zopfmuster und Half-Zip)
+2026-10-21 21:43:16 UTC Bildprüfung ok 10478077644 (72: Ralph Lauren Strick mit Pony-Logo, aber anderes Muster (kein Zopfmuster))
+2026-10-21 21:43:17 UTC Suche fertig: 1 neue Deals (1 Suchen)
