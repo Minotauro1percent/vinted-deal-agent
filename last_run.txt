@@ -1,2 +1,9 @@
-2026-10-21 14:04:31 UTC Telegram: 0 neue Nachricht(en)
-2026-10-21 14:04:31 UTC Keine Suche fällig
+2026-10-21 14:18:45 UTC Telegram: 0 neue Nachricht(en)
+2026-10-21 14:18:45 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
+2026-10-21 14:19:06 UTC Polo Ralph Lauren Zopfstrick-Pullover: 106 neue Kandidaten
+2026-10-21 14:21:57 UTC Details übersprungen (10471243061): HTTP 404 für https://www.vinted.at/items/10471243061-ralph-lauren-strickpullover-creme
+2026-10-21 14:22:25 UTC Suche „Xiaomi 17“
+2026-10-21 14:22:31 UTC Xiaomi 17: 2 neue Kandidaten
+2026-10-21 14:22:31 UTC Suche „Juicy Couture“
+2026-10-21 14:22:45 UTC Juicy Couture: 10 neue Kandidaten
+2026-10-21 14:22:55 UTC Suche fertig: 2 neue Deals (3 Suchen)
