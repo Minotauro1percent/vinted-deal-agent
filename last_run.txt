@@ -1,7 +1,4 @@
-2026-10-21 21:00:26 UTC Telegram: 3 neue Nachricht(en)
-2026-10-21 21:00:26 UTC Befehl /lernen ['RalphLauren']
-2026-10-21 21:00:26 UTC 24 Link(s) für Lern-Suche ralphlauren vorgemerkt
-2026-10-21 21:00:26 UTC Befehl /fertig []
-2026-10-21 21:02:16 UTC Suche „RalphLauren“
-2026-10-21 21:02:33 UTC RalphLauren: 299 neu, 46 in der Vorauswahl (Schwelle 0.63)
-2026-10-21 21:02:46 UTC Suche fertig: 3 neue Deals (1 Suchen)
+2026-10-21 21:06:59 UTC Telegram: 0 neue Nachricht(en)
+2026-10-21 21:06:59 UTC Suche „RalphLauren“
+2026-10-21 21:07:20 UTC RalphLauren: 188 neu, 79 in der Vorauswahl (Schwelle 0.50)
+2026-10-21 21:08:20 UTC Suche fertig: 15 neue Deals (1 Suchen)
