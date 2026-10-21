@@ -299,7 +299,7 @@
     "id": "juicy-couture",
     "name": "Juicy Couture",
     "category": "kleidung",
-    "active": true,
+    "active": false,
     "queries": [
       "Juicy Couture Fur",
       "Juicy Couture Fur Jacket",
