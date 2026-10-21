@@ -106,6 +106,9 @@ input:focus,select:focus,.tags:focus-within{outline:2px solid color-mix(in srgb,
 .ex{display:flex;flex-direction:column;gap:3px;text-decoration:none;color:var(--ink);font-size:12px;line-height:1.25}
 .ex img,.ex .noimg{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;background:var(--soft);display:grid;place-items:center;font-size:26px}
 .ex span{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.watch.newtile{border-style:dashed;align-items:center;justify-content:center;text-align:center;cursor:pointer;min-height:180px;gap:6px;color:var(--ink);font:inherit}
+.watch.newtile:hover{background:var(--acc-soft)}
+.card h2 .btn{font-weight:500}
 /* Editor */
 dialog{border:0;padding:0;background:transparent;color:var(--ink);max-width:none;max-height:none;width:100%;height:100%;margin:0}
 dialog::backdrop{background:rgba(10,12,16,.55)}
@@ -412,9 +415,10 @@ function render() {
   const active = S.watch.filter(w => w.active !== false);
   const lr = lastRunTs();
   const nexts = st.enabled ? active.map(w => [nextRun(w, st, state), w]).filter(x => x[0]).sort((a, b) => a[0] - b[0]) : [];
-  const cats = ['alle', ...Object.keys(CATS).filter(c => S.watch.some(w => (w.category || 'kleidung') === c))];
+  const hasLearn = S.watch.some(w => w.type === 'lernen');
+  const cats = ['alle', ...(hasLearn ? ['lernen'] : []), ...Object.keys(CATS).filter(c => S.watch.some(w => w.type !== 'lernen' && (w.category || 'kleidung') === c))];
   if (!cats.includes(S.filter)) S.filter = 'alle';
-  const list = S.watch.map((w, i) => [w, i]).filter(([w]) => S.filter === 'alle' || (w.category || 'kleidung') === S.filter);
+  const list = S.watch.map((w, i) => [w, i]).filter(([w]) => S.filter === 'alle' || (S.filter === 'lernen' ? w.type === 'lernen' : w.type !== 'lernen' && (w.category || 'kleidung') === S.filter));
   const allPending = num(st.force_all) > num(state.force_all_done);
 
   $('#app').innerHTML = `
@@ -441,8 +445,8 @@ function render() {
   </section>
 
   <section class="card">
-    <h2>📋 Suchen <span class="muted small" style="font-weight:400">(${S.watch.length})</span></h2>
-    ${cats.length > 2 ? `<div class="tabs">${cats.map(c => `<button class="chip" data-filter="${c}" aria-pressed="${S.filter === c}">${c === 'alle' ? 'Alle' : CATS[c].icon + ' ' + CATS[c].label}</button>`).join('')}</div>` : ''}
+    <h2>📋 Suchen <span class="muted small" style="font-weight:400">(${S.watch.length})</span><span class="grow"></span><button class="btn sm" id="newLearn" title="Der Agent lernt aus Beispiel-Anzeigen, was du suchst">🧠 Neue Lern-Suche</button></h2>
+    ${cats.length > 1 ? `<div class="tabs">${cats.map(c => `<button class="chip" data-filter="${c}" aria-pressed="${S.filter === c}">${c === 'alle' ? 'Alle' : c === 'lernen' ? '🧠 Lern-Suchen' : CATS[c].icon + ' ' + CATS[c].label}</button>`).join('')}</div>` : ''}
     <div id="wl">${list.length ? list.map(([w, i]) => {
       const cat = CATS[w.category] || CATS.kleidung, on = w.active !== false, nx = on && st.enabled ? nextRun(w, st, state) : 0;
       const last = (state.watch_last || {})[w.id];
@@ -465,7 +469,7 @@ function render() {
           <button class="btn sm danger" data-act="del" title="Löschen" aria-label="Löschen">🗑 <span class="lbl">Löschen</span></button>
         </div>
       </div>`;
-    }).join('') : `<div class="empty">Noch keine Suchen. Leg mit „＋ Neue Suche“ los.</div>`}</div>
+    }).join('') + (!hasLearn && S.filter === 'alle' ? `<button class="watch newtile" id="newLearnTile"><span style="font-size:28px">🧠</span><b>Neue Lern-Suche</b><span class="small muted">Statt Filter einzustellen: Beispiel-Anzeigen schicken, der Agent lernt selbst, was du suchst.</span></button>` : '') : `<div class="empty">Noch keine Suchen. Leg mit „＋ Neue Suche“ los.</div>`}</div>
   </section>
 
   <section class="card">
@@ -491,6 +495,8 @@ function render() {
   };
   $('#logout').onclick = () => { lsSet('vda_token', null); S.token = ''; renderSetup(); };
   document.querySelectorAll('[data-filter]').forEach(b => b.onclick = () => { S.filter = b.dataset.filter; render(); });
+  $('#newLearn').onclick = () => openLearnEditor(null, true);
+  if ($('#newLearnTile')) $('#newLearnTile').onclick = () => openLearnEditor(null, true);
   $('#wl').onclick = e => {
     const b = e.target.closest('[data-act]'); if (!b || b.tagName === 'INPUT') return;
     const i = +b.closest('.watch').dataset.i, w = S.watch[i], id = w.id;

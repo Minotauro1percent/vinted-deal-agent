@@ -59,8 +59,9 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   await page.fill('#tokIn', 'github_pat_TEST'); await page.click('#conBtn');
   await page.waitForSelector('.watch');
   const n0 = J('watchlist.json').length;
-  check(await page.locator('.watch').count() === n0, `Liste zeigt alle ${n0} Suchen`);
+  check(await page.locator('.watch:not(.newtile)').count() === n0, `Liste zeigt alle ${n0} Suchen`);
   check(await page.evaluate(() => localStorage.getItem('vda_token')) === 'github_pat_TEST', 'Token nur lokal im Browser gespeichert');
+  check(await page.isVisible('#newLearn') && await page.isVisible('#newLearnTile'), 'Lern-Suche sichtbar: Knopf oben + Kachel');
   await page.screenshot({path: path.join(OUT, '1-uebersicht.png'), fullPage: true});
 
   // 2) Neue Technik-Suche mit festem Termin
@@ -93,7 +94,7 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   check(x && x.category === 'technik' && x.maxPrice === 600 && x.simFree === true, 'Neue Suche gespeichert (Kategorie, Preis, SIM)');
   check(x && JSON.stringify(x.storage) === '["256 GB","512 GB"]' && JSON.stringify(x.queries) === '["xiaomi 17","xiaomi 17 256gb"]', 'Speicher + Suchbegriffe gespeichert');
   check(x && JSON.stringify(x.schedule) === '{"mode":"times","days":[1],"times":["08:00"]}', 'Zeitplan „jeden Montag 8:00“ gespeichert');
-  check(await page.locator('.watch').count() === n0 + 1, 'Liste aktualisiert');
+  check(await page.locator('.watch:not(.newtile)').count() === n0 + 1, 'Liste aktualisiert');
 
   // 3) Bestehende Kleidungs-Suche bearbeiten: Größen, Farben, eigenes Intervall, zwei Uhrzeiten
   const rl = page.locator('.watch', {hasText: 'Ralph Lauren'}).first();
@@ -198,8 +199,7 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   await page.waitForFunction(() => !document.querySelector('#editor').open);
   const rlz = J('watchlist.json').find(w => w.id === 'rl-zopf');
   check(rlz.maxPrice === 22 && rlz.strictness === 1.15 && rlz.type === 'lernen' && rlz.schedule.mode === 'live', 'Lern-Suche gespeichert (Preis, Strenge)');
-  await page.click('#addBtn');
-  await page.click('#eToLearn');
+  await page.click('#newLearn');
   await page.fill('#lName', 'Sneaker Retro'); await page.fill('#lMax', '40');
   check((await page.textContent('#editor')).includes('/lernen Sneaker Retro') || (await page.textContent('#editor')).includes('/lernen'), 'Neue Lern-Suche erklärt den Telegram-Weg');
   await page.click('#lSave');
