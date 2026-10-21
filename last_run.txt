@@ -1,12 +1,14 @@
-2026-10-21 21:12:32 UTC Telegram: 7 neue Nachricht(en)
-2026-10-21 21:12:33 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-21 21:12:33 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-21 21:12:34 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-21 21:12:35 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-21 21:12:35 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-21 21:12:36 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-21 21:12:36 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-21 21:12:37 UTC Feedback verarbeitet: ralphlauren
-2026-10-21 21:12:37 UTC Suche „RalphLauren“
-2026-10-21 21:12:55 UTC RalphLauren: 9 neu, 3 in der Vorauswahl (Schwelle 0.52)
-2026-10-21 21:13:07 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-21 21:17:18 UTC Telegram: 0 neue Nachricht(en)
+2026-10-21 21:17:18 UTC Suche „Xiaomi 17“
+2026-10-21 21:17:21 UTC Xiaomi 17: 3 neue Kandidaten
+2026-10-21 21:17:25 UTC Suche „RalphLauren“
+2026-10-21 21:17:50 UTC RalphLauren: 18 neu, 11 in der Vorauswahl (Schwelle 0.52)
+2026-10-21 21:17:56 UTC Bildprüfung verwirft 10477885791 (0: )
+2026-10-21 21:18:07 UTC Bildprüfung verwirft 10477785082 (0: )
+2026-10-21 21:18:12 UTC Bildprüfung verwirft 10477786173 (0: )
+2026-10-21 21:18:16 UTC Bildprüfung verwirft 10477763058 (0: )
+2026-10-21 21:18:21 UTC Bildprüfung verwirft 10477886527 (0: )
+2026-10-21 21:18:28 UTC Bildprüfung verwirft 10477816886 (0: )
+2026-10-21 21:18:34 UTC Bildprüfung verwirft 10477790761 (0: )
+2026-10-21 21:18:38 UTC Bildprüfung verwirft 10477252445 (0: )
+2026-10-21 21:18:38 UTC Suche fertig: 0 neue Deals (2 Suchen)
