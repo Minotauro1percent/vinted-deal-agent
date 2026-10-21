@@ -186,6 +186,11 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   await page.locator('label.nightrow .sw').click();
   for (let i = 0; i < 50 && J('settings.json').night_mode !== false; i++) await page.waitForTimeout(100);
   check(J('settings.json').night_mode === false, 'Nachtmodus per Schalter aus');
+  await page.fill('#nightFrom', '23:00'); await page.locator('#nightFrom').dispatchEvent('change');
+  await page.fill('#nightTo', '07:00'); await page.locator('#nightTo').dispatchEvent('change');
+  for (let i = 0; i < 50 && J('settings.json').night_to !== '07:00'; i++) await page.waitForTimeout(100);
+  check(J('settings.json').night_from === '23:00' && J('settings.json').night_to === '07:00', 'Nachtmodus-Zeitplan 23–7 gespeichert');
+  await page.screenshot({path: path.join(OUT, '12-nachtplan.png')});
 
   // 9) Lern-Suche: Kachel, Editor mit Gelerntem, neue Lern-Suche anlegen
   await page.emulateMedia({colorScheme: 'light'});
@@ -205,12 +210,17 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   const ed = await page.textContent('#editor');
   check(ed.includes('ralph lauren cable knit') && ed.includes('cardigan') && ed.includes('32 Beispiele'), 'Lern-Editor zeigt Suchbegriffe, Meidet-Wörter, Anzahl');
   check(!(await page.isVisible('#lQWrap')), 'Eigene Suchbegriffe erst nach Einschalten sichtbar');
+  await page.click('#lExPre .chip[data-v="V-Ausschnitt"]');
+  await page.click('#lExPre .chip[data-v="Kinder"]');
+  await page.fill('#lExFree input', 'merino'); await page.keyboard.press('Enter');
   await page.click('#lStrict button[data-v="1.15"]');
   await page.fill('#lMax', '22');
   await page.screenshot({path: path.join(OUT, '9-lern-editor.png')});
   await page.click('#lSave');
   await page.waitForFunction(() => !document.querySelector('#editor').open);
   const rlz = J('watchlist.json').find(w => w.id === 'rl-zopf');
+  check(JSON.stringify(rlz.excludeRules) === '["V-Ausschnitt","Kinder","merino"]', 'Ausschlusskriterien gespeichert: ' + JSON.stringify(rlz.excludeRules));
+  check((await page.locator('.watch', {hasText: 'RL Zopf'}).textContent()).includes('ohne V-Ausschnitt'), 'Kachel zeigt Ausschlüsse');
   check(rlz.maxPrice === 22 && rlz.strictness === 1.15 && rlz.type === 'lernen' && rlz.schedule.mode === 'live', 'Lern-Suche gespeichert (Preis, Strenge)');
   await page.click('#newLearn');
   await page.fill('#lName', 'Sneaker Retro'); await page.fill('#lMax', '40');

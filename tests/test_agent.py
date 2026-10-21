@@ -253,5 +253,22 @@ check(st()['night_max'] == 5, '/nightmode 5 setzt Limit 5')
 updates.append(msg(43, '/nightmode aus')); NOW[0] += 60; s = run()
 check(st()['night_mode'] is False and any('Nachtmodus aus' in x for x in texts()), '/nightmode aus schaltet aus')
 
+# ------------------------------------------------------------------ 9) Nachtmodus-Zeitplan
+from datetime import datetime as _dt
+updates.append(msg(50, '/nightmode 23-7'))
+NOW[0] = _dt(2026, 10, 22, 12, 0, tzinfo=VIE).timestamp(); s = run()
+x = st()
+check(x['night_from'] == '23:00' and x['night_to'] == '07:00' and not x['night_mode'], '/nightmode 23-7 speichert Zeitplan')
+check(any('täglich 23:00–07:00' in m for m in texts()), 'Telegram bestätigt Zeitplan')
+check(not any('Nachtmodus:' in l for l in agent.RUN_LOG[-20:]), 'Mittags: Nachtmodus nicht aktiv')
+NOW[0] = _dt(2026, 10, 22, 23, 30, tzinfo=VIE).timestamp(); s = run()
+check(any('Nachtmodus:' in l for l in agent.RUN_LOG[-30:]), '23:30: Nachtmodus automatisch aktiv')
+NOW[0] = _dt(2026, 10, 23, 7, 10, tzinfo=VIE).timestamp(); agent.RUN_LOG.clear(); s = run()
+check(not any('Nachtmodus:' in l for l in agent.RUN_LOG), '07:10: wieder normal')
+updates.append(msg(51, '/status')); NOW[0] += 60; s = run()
+check(any('Zeitplan täglich 23:00–07:00' in m for m in texts()), '/status zeigt Zeitplan')
+updates.append(msg(52, '/nightmode aus')); NOW[0] += 60; s = run()
+check(st()['night_from'] == '' and not st()['night_mode'], '/nightmode aus löscht auch Zeitplan')
+
 print('\nALLE TESTS BESTANDEN' if ok else '\nES GIBT FEHLER')
 sys.exit(0 if ok else 1)

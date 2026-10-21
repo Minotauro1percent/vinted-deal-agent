@@ -110,7 +110,8 @@ input:focus,select:focus,.tags:focus-within{outline:2px solid color-mix(in srgb,
 .watch.newtile:hover{background:var(--acc-soft)}
 .card h2 .btn{font-weight:500}
 .pill.night{background:#2a2550;color:#c9c2ff}
-select.inline{width:auto;min-height:0;padding:1px 4px;display:inline-block;font-size:13px}
+select.inline,input.inline{width:auto;min-height:0;padding:1px 4px;display:inline-block;font-size:13px}
+@media (max-width:600px){.nightplan{margin-left:0!important}}
 /* Editor */
 dialog{border:0;padding:0;background:transparent;color:var(--ink);max-width:none;max-height:none;width:100%;height:100%;margin:0}
 dialog::backdrop{background:rgba(10,12,16,.55)}
@@ -196,7 +197,7 @@ const INTERVALS = [[15, 'alle 15 Min.'], [30, 'alle 30 Min.'], [45, 'alle 45 Min
   [180, 'alle 3 Std.'], [240, 'alle 4 Std.'], [360, 'alle 6 Std.'], [720, 'alle 12 Std.'], [1440, 'einmal am Tag']];
 const WD = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
 const TZ = 'Europe/Vienna';
-const DEFAULT_SETTINGS = {enabled: true, default_interval_min: 60, first_run_max: 3, shipping_est: 5, max_per_run: 15, force_all: 0, force: {}, night_mode: false, night_max: 3};
+const DEFAULT_SETTINGS = {enabled: true, default_interval_min: 60, first_run_max: 3, shipping_est: 5, max_per_run: 15, force_all: 0, force: {}, night_mode: false, night_max: 3, night_from: '', night_to: ''};
 
 /* ================================================================ Hilfen */
 const $ = (s, el = document) => el.querySelector(s);
@@ -250,6 +251,13 @@ function nextRun(w, st, state) {
   const last = (state.watch_last || {})[w.id] || 0, now = nowS();
   if ((w.schedule || {}).mode === 'times') return nextSlot(w.schedule, Math.max(last, now));
   return Math.max(now, last + intervalMin(w, st) * 60);
+}
+function nightNow(st) {
+  if (st.night_mode) return true;
+  const a = parseHHMM(st.night_from), b = parseHHMM(st.night_to);
+  if (!a || !b) return false;
+  const p = viennaParts(Date.now()), m = p.h * 60 + p.mi, x = a[0] * 60 + a[1], y = b[0] * 60 + b[1];
+  return x < y ? (m >= x && m < y) : (m >= x || m < y);
 }
 function intervalText(m) { const f = INTERVALS.find(x => x[0] === m); return f ? f[1] : (m % 60 ? `alle ${m} Min.` : `alle ${m / 60} Std.`); }
 function scheduleText(w, st) {
@@ -396,7 +404,9 @@ function pending(id) {
 function learnMeta(w) {
   const p = (S.profiles[w.id] || {}).profile, n = (S.profiles[w.id] || {}).examples?.length || 0;
   if (!p) return '<span class="badge warn">🧠 noch keine Beispiele – in Telegram: /lernen ' + esc(w.name) + '</span>';
-  return `🧠 ${n} Beispiele · meldet ab ${Math.round(p.threshold * 100)} % · ${w.vision === false ? 'ohne' : 'mit'} Bildprüfung`;
+  const ex = arr(w.excludeRules);
+  return `🧠 ${n} Beispiele · meldet ab ${Math.round(p.threshold * 100)} % · ${w.vision === false ? 'ohne' : 'mit'} Bildprüfung`
+    + (ex.length ? `<br>🚫 ohne ${esc(ex.slice(0, 4).join(', '))}${ex.length > 4 ? ' …' : ''}` : '');
 }
 function watchMeta(w, noPrice) {
   const bits = [];
@@ -413,7 +423,7 @@ function render() {
   const st = S.settings, state = S.state;
   $('#addBtn').hidden = false; $('#reloadBtn').hidden = false;
   $('#statusPill').innerHTML = (st.enabled ? '<span class="pill on"><span class="dot"></span>Läuft</span>' : '<span class="pill off"><span class="dot"></span>Pausiert</span>')
-    + (st.enabled && st.night_mode ? ' <span class="pill night">🌙 Nacht</span>' : '');
+    + (st.enabled && nightNow(st) ? ' <span class="pill night">🌙 Nacht</span>' : '');
   const stats = state.stats || {};
   const active = S.watch.filter(w => w.active !== false);
   const lr = lastRunTs();
@@ -443,6 +453,11 @@ function render() {
     <label class="row nightrow" style="margin-top:4px;gap:10px;cursor:pointer;flex-wrap:nowrap"><span class="sw"><input type="checkbox" id="nightSw" ${st.night_mode ? 'checked' : ''} aria-label="Nachtmodus"><i></i></span>
       <span class="grow"><b>🌙 Nachtmodus</b> <span class="small muted">– alle Suchen nur stündlich, höchstens
       <select id="nightMax" class="inline" aria-label="Artikel pro Stunde">${[1, 2, 3, 5, 10].map(n => `<option ${num(st.night_max, 3) === n ? 'selected' : ''}>${n}</option>`).join('')}</select> Artikel pro Stunde</span></span></label>
+    <div class="row small muted nightplan" style="margin:2px 0 0 56px;gap:6px">🕒 automatisch jede Nacht von
+      <input type="time" id="nightFrom" class="inline" value="${esc(st.night_from || '')}" aria-label="Nachtmodus ab"> bis
+      <input type="time" id="nightTo" class="inline" value="${esc(st.night_to || '')}" aria-label="Nachtmodus bis">
+      ${st.night_from && st.night_to ? `<button class="btn ghost sm" id="nightPlanOff" title="Zeitplan löschen">✕</button>` : '<span>(leer = kein Zeitplan)</span>'}
+      ${nightNow(st) && !st.night_mode ? '<span class="badge acc">gerade aktiv</span>' : ''}</div>
     <div class="row" style="margin-top:12px">
       <button class="btn" id="allNow" ${allPending ? 'disabled' : ''}>${allPending ? '⏳ Wartet auf nächsten Lauf' : '▶ Alle jetzt suchen'}</button>
       <span class="small muted grow">Änderungen gelten ab dem nächsten Lauf (meist nach wenigen Minuten).</span>
@@ -494,6 +509,12 @@ function render() {
   $('#nightSw').onchange = e => { const v = e.target.checked;
     guarded(null, () => saveSettings(s => ({...s, night_mode: v}), v ? 'Nachtmodus an' : 'Nachtmodus aus'), v ? 'Nachtmodus an 🌙' : 'Nachtmodus aus ☀️').then(ok => { if (!ok) render(); }); };
   $('#nightMax').onclick = e => e.preventDefault();
+  const savePlan = () => { const a = $('#nightFrom').value, b = $('#nightTo').value;
+    if ((a && !b) || (!a && b) || (a && a === b)) return;
+    guarded(null, () => saveSettings(s => ({...s, night_from: a, night_to: b}), a ? `Nachtmodus-Zeitplan ${a}–${b}` : 'Nachtmodus-Zeitplan gelöscht'),
+      a ? `Nachtmodus jede Nacht ${a}–${b} 🌙` : 'Zeitplan gelöscht').then(ok => { if (!ok) render(); }); };
+  $('#nightFrom').onchange = savePlan; $('#nightTo').onchange = savePlan;
+  if ($('#nightPlanOff')) $('#nightPlanOff').onclick = () => { $('#nightFrom').value = ''; $('#nightTo').value = ''; savePlan(); };
   $('#nightMax').onchange = e => { const n = +e.target.value;
     guarded(null, () => saveSettings(s => ({...s, night_max: n}), `Nachtmodus: ${n} pro Stunde`), `Nachtmodus: höchstens ${n} pro Stunde`).then(ok => { if (!ok) render(); }); };
   $('#enSw').onchange = e => { const v = e.target.checked;
@@ -784,6 +805,7 @@ function openEditor(orig, isNew = !orig) {
 }
 
 /* ================================================================ Lern-Suche */
+const EXCLUDE_PRESETS = ['V-Ausschnitt', 'Damen', 'Herren', 'Kinder', 'Cardigan / Strickjacke', 'Reißverschluss / Zip', 'Flecken / Löcher', 'Ohne Ärmel / Weste'];
 const STRICT = [[0.85, 'Locker', 'mehr Treffer, auch ähnliche'], [1, 'Normal', ''], [1.15, 'Streng', 'nur sehr Ähnliches']];
 function profileHtml(entry, w) {
   const p = entry && entry.profile;
@@ -825,6 +847,12 @@ function openLearnEditor(orig, isNew = !orig) {
       <label class="f">Strenge</label>
       <div class="seg" id="lStrict">${STRICT.map(([v, t, h]) => `<button type="button" data-v="${v}" aria-pressed="${Math.abs(v - strict) < 0.01}" title="${h}">${t}</button>`).join('')}</div>
       <label class="row" style="margin-top:14px;gap:10px;cursor:pointer;flex-wrap:nowrap"><span class="sw"><input type="checkbox" id="lVision" ${w.vision !== false ? 'checked' : ''}><i></i></span><span><b>Bildprüfung mit Claude</b><br><span class="small muted">vergleicht das Titelbild mit deinen Beispielen · braucht den Schlüssel ANTHROPIC_API_KEY · ca. 0,03 Cent pro geprüftem Bild</span></span></label>
+      <div class="sec"><h3>Meine Ausschlusskriterien</h3>
+        <div class="small muted" style="margin-top:8px">Zusätzlich zu dem, was der Agent gelernt hat: Anzeigen mit diesen Merkmalen werden nie gemeldet (Titel, Beschreibung, Vinted-Kategorie – in allen Sprachen). Die Bildprüfung achtet auch darauf.</div>
+        <div class="chips" id="lExPre" style="margin-top:10px"></div>
+        <label class="f">Eigene Wörter <span class="hint">– z. B. lauren, merino, oversize</span></label>
+        <div class="tags" id="lExFree"></div>
+      </div>
       <div class="sec"><h3>Gelernt</h3>${profileHtml(entry, w)}</div>
       <div class="sec"><h3>Suchbegriffe</h3>
         <label class="row" style="margin-top:12px;gap:10px;cursor:pointer;flex-wrap:nowrap"><span class="sw"><input type="checkbox" id="lManual" ${w.queriesManual ? 'checked' : ''}><i></i></span><span><b>Eigene Suchbegriffe verwenden</b><br><span class="small muted">sonst nimmt er die gelernten</span></span></label>
@@ -838,6 +866,9 @@ function openLearnEditor(orig, isNew = !orig) {
       <button type="button" class="btn" id="lCancel">Abbrechen</button>
       <button type="submit" class="btn primary" id="lSave">${isNew ? 'Lern-Suche anlegen' : 'Speichern'}</button>
     </div></form>`;
+  const exRules = arr(w.excludeRules);
+  const exPre = chipGroup($('#lExPre', dlg), EXCLUDE_PRESETS, exRules.filter(r => EXCLUDE_PRESETS.includes(r)), o => '🚫 ' + esc(o));
+  const exFree = tagInput($('#lExFree', dlg), exRules.filter(r => !EXCLUDE_PRESETS.includes(r)), 'Wort eingeben, Enter');
   const qi = tagInput($('#lQueries', dlg), w.queriesManual ? w.queries : (learnedQ.length ? learnedQ : w.queries), 'Begriff eingeben, Enter');
   const syncQ = () => { $('#lQWrap', dlg).hidden = !$('#lManual', dlg).checked; };
   $('#lManual', dlg).onchange = syncQ; syncQ();
@@ -858,7 +889,8 @@ function openLearnEditor(orig, isNew = !orig) {
     if (!name) return err('Bitte einen Namen eingeben.');
     const out = {...w, name, type: 'lernen', active: $('#lActive', dlg).checked, maxPrice: num($('#lMax', dlg).value),
       minPrice: num($('#lMin', dlg).value), vision: $('#lVision', dlg).checked, strictness: strict,
-      queriesManual: $('#lManual', dlg).checked, schedule: {mode: 'live'}};
+      queriesManual: $('#lManual', dlg).checked, schedule: {mode: 'live'},
+      excludeRules: [...exPre.get(), ...exFree.get()]};
     out.queries = out.queriesManual ? qi.get() : (w.queries || []);
     if (!out.maxPrice) return err('Bitte einen Höchstpreis angeben.');
     if (out.queriesManual && !out.queries.length) return err('Eigene Suchbegriffe: bitte mindestens einen eingeben.');

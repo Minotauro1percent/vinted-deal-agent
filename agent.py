@@ -43,7 +43,7 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
 
 DEFAULT_SETTINGS = {'enabled': True, 'default_interval_min': 60, 'first_run_max': 3, 'shipping_est': 5.0,
                     'max_per_run': 15, 'force_all': 0, 'force': {}, 'vision_daily_max': 150, 'vision_min': 60,
-                    'night_mode': False, 'night_max': 3}
+                    'night_mode': False, 'night_max': 3, 'night_from': '', 'night_to': ''}
 
 RUN_LOG = []
 
@@ -297,7 +297,8 @@ def compile_watch(w):
             'storage_txt': lst(w.get('storage')), 'simFree': bool(w.get('simFree')),
             'minCondition': w.get('minCondition') or 'Gut', 'schedule': sched,
             'type': w.get('type') or 'filter', 'vision': w.get('vision', True) is not False,
-            'strictness': fnum(w.get('strictness'), 1.0) or 1.0, 'queriesManual': bool(w.get('queriesManual'))}
+            'strictness': fnum(w.get('strictness'), 1.0) or 1.0, 'queriesManual': bool(w.get('queriesManual')),
+            'excludeRules': lst(w.get('excludeRules'))}
 
 # ---------------------------------------------------------------- Zeitpläne
 def parse_hhmm(t):
@@ -503,7 +504,8 @@ HELP = ("<b>Vinted Deal-Agent – Befehle</b>\n"
         "/lernen Name 20 – Lern-Suche „Name“ (bis 20 €) anlegen oder wählen, danach einfach Vinted-Links schicken\n"
         "/fertig – Lernen beenden, Zusammenfassung anzeigen\n"
         "/profil – was die Lern-Suchen gelernt haben\n"
-        "/nightmode – Nachtmodus: alle Suchen nur stündlich, höchstens 3 Artikel pro Stunde (/nightmode 5 für 5, /nightmode aus)\n"
+        "/nightmode – Nachtmodus: alle Suchen nur stündlich, höchstens 3 Artikel pro Stunde (/nightmode 5 für 5)\n"
+        "/nightmode 23-7 – Nachtmodus jede Nacht automatisch 23–7 Uhr · /nightmode aus\n"
         "👍 / 👎 unter einem Treffer – er lernt daraus\n\n"
         "Suchen, Größen, Farben und Zeitpläne bequem einstellen: in der Web-Oberfläche.\n"
         "Befehle werden beim nächsten Lauf verarbeitet (meist nach wenigen Minuten).")
@@ -512,7 +514,7 @@ BOT_COMMANDS = [('start', 'Agent einschalten'), ('stop', 'Agent pausieren'), ('s
                 ('suche', 'jetzt suchen'), ('liste', 'Suchen anzeigen'), ('limit', 'Max-Preis ändern: /limit 2 90'),
                 ('an', 'Suche einschalten: /an 3'), ('aus', 'Suche ausschalten: /aus 3'),
                 ('lernen', 'Lern-Suche: /lernen Name 20, dann Links schicken'), ('fertig', 'Lernen beenden'),
-                ('profil', 'Gelerntes anzeigen'), ('nightmode', 'Nachtmodus an/aus: /nightmode, /nightmode aus'), ('hilfe', 'Hilfe')]
+                ('profil', 'Gelerntes anzeigen'), ('nightmode', 'Nachtmodus: /nightmode, /nightmode 23-7, /nightmode aus'), ('hilfe', 'Hilfe')]
 
 def fmt_time(ts):
     if not ts:
@@ -566,24 +568,14 @@ def handle_commands(state, settings, raw_watch, now):
             settings['force_all'] = int(now); sch = True
             send('🔎 Alle Suchen werden jetzt ausgeführt' + ('.' if settings['enabled'] else ' (Agent bleibt pausiert).'))
         elif cmd in ('/nightmode', '/nachtmodus'):
-            arg = (args[0].lower() if args else '')
-            if arg in ('aus', 'off', '0', 'stop'):
-                settings['night_mode'] = False
-                send('☀️ Nachtmodus aus. Alle Suchen laufen wieder nach ihrem eigenen Zeitplan.')
-            else:
-                if arg.isdigit() and int(arg) > 0:
-                    settings['night_max'] = int(arg)
-                settings['night_mode'] = True
-                send(f"🌙 Nachtmodus an: alle Suchen nur noch stündlich, höchstens {int(fnum(settings.get('night_max'), 3))} Artikel pro Stunde "
-                     '(die besten zuerst). Ausschalten mit /nightmode aus')
-            sch = True
+            send(night_command(args, settings, now)); sch = True
         elif cmd == '/status':
             ws = [compile_watch(w) for w in raw_watch]
             act = [w for w in ws if w['active']]
             nxt = sorted((next_run_ts(w, settings, state, now) or 0, w['name']) for w in act)
             nxt_txt = '\n'.join(f"• {fmt_time(t)} – {esc(n)}" for t, n in nxt[:5] if t) or '–'
             send(f"{'▶️ Läuft' if settings['enabled'] else '⏸ Pausiert'}"
-                 + (f" · 🌙 Nachtmodus (stündlich, max. {int(fnum(settings.get('night_max'), 3))} Artikel)" if settings.get('night_mode') else '') + "\n"
+                 + (' · ' + night_text(settings) + (' – gerade aktiv' if night_active(settings, now) else ' – gerade nicht aktiv') if night_text(settings) else '') + "\n"
                  f"Letzte Suche: {fmt_time(state['last_search'])}\n"
                  f"Aktive Suchen: {len(act)} von {len(ws)}\n"
                  f"Deals letzte Suche: {state['stats']['last_deals']} · gesamt: {state['stats']['deals']}\n\n"
@@ -630,6 +622,60 @@ def handle_commands(state, settings, raw_watch, now):
     return wch, sch
 
 # ---------------------------------------------------------------- Suche
+def night_window(settings):
+    a, b = parse_hhmm(settings.get('night_from') or ''), parse_hhmm(settings.get('night_to') or '')
+    return (a, b) if a and b and a != b else None
+
+def night_active(settings, now):
+    """Nachtmodus gilt, wenn er von Hand an ist oder die Uhrzeit (Wien) im Zeitplan liegt, z. B. 23:00–07:00."""
+    if settings.get('night_mode'):
+        return True
+    win = night_window(settings)
+    if not win:
+        return False
+    t = datetime.fromtimestamp(now, TZ); m = t.hour * 60 + t.minute
+    a, b = win[0][0] * 60 + win[0][1], win[1][0] * 60 + win[1][1]
+    return a <= m < b if a < b else (m >= a or m < b)
+
+def night_text(settings):
+    win = night_window(settings)
+    mx = int(fnum(settings.get('night_max'), 3))
+    parts = []
+    if settings.get('night_mode'):
+        parts.append('an')
+    if win:
+        parts.append(f"Zeitplan täglich {win[0][0]:02d}:{win[0][1]:02d}–{win[1][0]:02d}:{win[1][1]:02d}")
+    return f"🌙 Nachtmodus ({', '.join(parts)}; stündlich, max. {mx} Artikel)" if parts else ''
+
+TIME_ARG_RE = re.compile(r'(\d{1,2})(?:[:.](\d{2}))?')
+
+def night_command(args, settings, now):
+    """/nightmode · /nightmode 5 · /nightmode 23-7 · /nightmode 23:00 07:00 5 · /nightmode aus"""
+    text = ' '.join(args).lower().strip()
+    if text in ('aus', 'off', '0', 'stop', 'ende'):
+        settings['night_mode'] = False; settings['night_from'] = settings['night_to'] = ''
+        return '☀️ Nachtmodus aus (auch der Zeitplan). Alle Suchen laufen wieder nach ihrem eigenen Zeitplan.'
+    if text in ('zeitplan aus', 'plan aus'):
+        settings['night_from'] = settings['night_to'] = ''
+        return '🕒 Nachtmodus-Zeitplan gelöscht.' + (' Der Nachtmodus ist aber noch von Hand an (/nightmode aus).' if settings.get('night_mode') else '')
+    times = [(int(h), int(m or 0)) for h, m in TIME_ARG_RE.findall(re.sub(r'\b(bis|von|uhr|-|–)\b', ' ', text.replace('-', ' ').replace('–', ' ')))]
+    # Form „23-7 5“: zwei Uhrzeiten (+ optional Anzahl) → Zeitplan; nur eine Zahl → Anzahl
+    if len(times) >= 2 and all(h < 24 and m < 60 for h, m in times[:2]):
+        (h1, m1), (h2, m2) = times[:2]
+        settings['night_from'], settings['night_to'] = f'{h1:02d}:{m1:02d}', f'{h2:02d}:{m2:02d}'
+        if len(times) >= 3 and times[2][0] > 0:
+            settings['night_max'] = times[2][0]
+        settings['night_mode'] = False
+        now_on = night_active(settings, now)
+        return (f"🕒 Nachtmodus-Zeitplan: täglich {settings['night_from']}–{settings['night_to']} Uhr, dann alle Suchen nur stündlich, "
+                f"höchstens {int(fnum(settings.get('night_max'), 3))} Artikel pro Stunde." + (' Gerade aktiv 🌙' if now_on else '')
+                + '\nZeitplan löschen: /nightmode zeitplan aus · alles aus: /nightmode aus')
+    if len(times) == 1 and times[0][0] > 0:
+        settings['night_max'] = times[0][0]
+    settings['night_mode'] = True
+    return (f"🌙 Nachtmodus an: alle Suchen nur noch stündlich, höchstens {int(fnum(settings.get('night_max'), 3))} Artikel pro Stunde "
+            '(die besten zuerst). Ausschalten mit /nightmode aus\nTipp: /nightmode 23-7 schaltet ihn jede Nacht automatisch ein.')
+
 def night_cap(cap, state):
     left = state.get('_night_left')
     return cap if left is None else min(cap, left)
@@ -977,6 +1023,8 @@ def run_learned(w, state, settings, seen, first_done, profs):
             continue
         if it['price'] > w['maxPrice'] or (w['minPrice'] and it['price'] < w['minPrice']):
             continue
+        if learn.exclusion_hit(w['excludeRules'], it['title']):
+            continue
         sc = learn.score(prof, learn.item_features(it), detail=False)['score']
         if sc >= thr * (0.6 if can_see else 0.75):          # mit Bildprüfung dürfen auch allgemeine Titel in die Vorauswahl
             scored.append((sc, it))
@@ -996,6 +1044,9 @@ def run_learned(w, state, settings, seen, first_done, profs):
             log(f'Details übersprungen ({it["id"]}): {e}'); continue
         time.sleep(random.uniform(2, 3.5))
         it.update(det)
+        hit = learn.exclusion_hit(w['excludeRules'], it['title'], it.get('desc', ''), it.get('category', ''))
+        if hit:
+            log(f"Ausgeschlossen {it['id']}: {hit}"); continue
         f = learn.item_features(it)
         res = learn.score(prof, f, detail=True)
         # Unter der Schwelle, aber Marke/Größe/Kategorie passen und nur der Text ist zu allgemein? → das Bild entscheidet
@@ -1008,7 +1059,8 @@ def run_learned(w, state, settings, seen, first_done, profs):
         vis = ''
         if w['vision'] and vision_ok(state, settings) and it.get('thumb'):
             try:
-                vs, why, cost = learn.vision_score(ANTHROPIC_KEY, example_photos(entry), it['thumb'], w['name'], fetch=fetch_bytes)
+                vs, why, cost = learn.vision_score(ANTHROPIC_KEY, example_photos(entry), it['thumb'], w['name'], fetch=fetch_bytes,
+                                                 avoid=w['excludeRules'])
                 v = state['vision']; v['n'] += 1; v['usd'] += cost; v['total_usd'] = v.get('total_usd', 0) + cost
                 need = 75 if rescue else int(fnum(settings.get('vision_min'), 60))
                 if vs is None:                             # Antwort nicht lesbar → Bild entscheidet nicht
@@ -1055,12 +1107,12 @@ def main():
         tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
         state['commands_set'] = True
         send('🤖 Deal-Agent läuft jetzt in der Cloud (GitHub).\n\n' + HELP)
-    if state.get('commands_version') == 3 and not DRY_RUN:          # Befehlsliste um /nightmode ergänzen
+    if state.get('commands_version') in (3, 4) and not DRY_RUN:     # Befehlsliste aktualisieren (Nachtmodus)
         tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
-        state['commands_version'] = 4
-    if state.get('commands_version') not in (3, 4) and state.get('commands_set') and not DRY_RUN:
+        state['commands_version'] = 5
+    if state.get('commands_version') not in (3, 4, 5) and state.get('commands_set') and not DRY_RUN:
         tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
-        state['commands_version'] = 4
+        state['commands_version'] = 5
         send('🧠 Neu: Lern-Suchen. Mit /lernen Name 20 anlegen und dann einfach Vinted-Links schicken – '
              'der Agent lernt daraus selbst Suchbegriffe und Merkmale. Unter Treffern kannst du mit 👍/👎 nachschärfen. /hilfe zeigt alles.')
 
@@ -1083,7 +1135,7 @@ def main():
             rebuild(profs, w['id'], w, state)
 
     todo = due_watches(raw_watch, state, settings, now)
-    if settings.get('night_mode') and settings['enabled']:
+    if night_active(settings, now) and settings['enabled']:
         forced = [(w, f) for w, f in todo if f]
         if now - state.get('night_last', 0) >= 3600 - TOLERANCE_S:          # neue Stunde: alle aktiven Suchen, Zähler zurück
             ids = {w['id'] for w, _ in forced}

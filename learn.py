@@ -259,6 +259,35 @@ def summary(prof, name=''):
             + (f"Meidet: {', '.join(prof.get('avoid', [])[:8])}\n" if prof.get('avoid') else '') +
             f"Meldet ab Ähnlichkeit {round(prof['threshold'] * 100)} %")
 
+# ------------------------------------------------------------------ Eigene Ausschlusskriterien
+# Schnellauswahl in der Web-Oberfläche → Wörter (alle Sprachen, die auf Vinted.at vorkommen) und Vinted-Kategorien
+EXCLUDE_PRESETS = {
+    'V-Ausschnitt': {'words': ['v-ausschnitt', 'v ausschnitt', 'v-neck', 'v neck', 'vneck', 'col v', 'col en v', 'scollo a v', 'cuello en v', 'cuello de pico'],
+                     'cats': ['v-ausschnitt']},
+    'Damen': {'words': ['femme', 'women', "women's", 'womens', 'donna', 'damen', 'mujer', 'ladies'], 'cats': ['damen']},
+    'Herren': {'words': ['homme', "men's", 'mens', 'uomo', 'herren', 'hombre'], 'cats': ['herren']},
+    'Kinder': {'words': ['kinder', 'enfant', 'kids', 'bambino', 'bambina', 'junior', 'boys', 'girls', 'jahre', 'ans'], 'cats': ['kinder', 'baby']},
+    'Cardigan / Strickjacke': {'words': ['cardigan', 'strickjacke', 'gilet', 'veste en maille'], 'cats': ['strickjacke', 'cardigan']},
+    'Reißverschluss / Zip': {'words': ['zip', 'reißverschluss', 'reissverschluss', 'zipper', 'troyer', 'quarter zip', 'half zip', 'demi-zip', 'zippe'], 'cats': []},
+    'Flecken / Löcher': {'words': ['fleck', 'flecken', 'loch', 'löcher', 'tache', 'taches', 'trou', 'trous', 'macchia', 'macchie', 'buco', 'stain', 'hole'], 'cats': []},
+    'Ohne Ärmel / Weste': {'words': ['ärmellos', 'armellos', 'weste', 'pullunder', 'sans manches', 'smanicato', 'sleeveless', 'vest'], 'cats': ['weste', 'pullunder']},
+}
+
+def exclusion_hit(rules, title='', desc='', category=''):
+    """Erste passende Ausschlussregel (Text) oder None. Freie Regeln sind einfache Wörter."""
+    text = ' ' + re.sub(r'[^a-z0-9äöüß\'\- ]+', ' ', fold(f'{title} {desc}')) + ' '
+    cat = fold(category)
+    for r in rules or []:
+        pre = EXCLUDE_PRESETS.get(r)
+        words = pre['words'] if pre else [r]
+        for w in words:
+            w = fold(w).strip()
+            if w and re.search(r'(?<![a-z0-9])' + re.escape(w) + r'(?![a-z0-9])', text):
+                return r
+        if pre and cat and any(fold(c) in cat for c in pre['cats']):
+            return r
+    return None
+
 # ------------------------------------------------------------------ Bildprüfung (Claude)
 VISION_MODEL = 'claude-haiku-5-5'
 PRICE_IN, PRICE_OUT = 0.10, 0.50       # US-$ pro Mio. Tokens (Haiku 5.5, Stand Okt. 2026)
@@ -281,7 +310,7 @@ def _img_block(url, fetch):
         return {'type': 'image', 'source': {'type': 'base64', 'media_type': _media_type(b), 'data': base64.b64encode(b).decode()}}
     return {'type': 'image', 'source': {'type': 'url', 'url': small_image(url)}}
 
-def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, timeout=40):
+def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, timeout=40, avoid=()):
     """Bewertet, wie gut das Kandidatenbild zu den Beispielbildern passt. → (score 0–100, grund, kosten_usd)"""
     content = [{'type': 'text', 'text': 'Beispielbilder von Artikeln, die der Nutzer sucht:'}]
     for u in example_urls[:4]:
@@ -294,6 +323,7 @@ def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, time
     content.append({'type': 'text', 'text': (
         'Wie gut passt die neue Anzeige zu den Beispielen? Achte auf Art des Artikels, Muster/Strick, Schnitt, Logo, '
         'Material und Stil – nicht auf Farbe, Hintergrund oder Fotoqualität. ' + (f'Gesucht wird: {desc_hint}. ' if desc_hint else '') +
+        (f'Der Nutzer will ausdrücklich NICHT: {", ".join(avoid)} – zeigt das Bild so etwas, gib höchstens 20 Punkte. ' if avoid else '') +
         'Antworte nur mit JSON: {"score": 0-100, "grund": "max. 8 Wörter"}')})
     body = {'model': VISION_MODEL, 'max_tokens': 400, 'messages': [{'role': 'user', 'content': content}]}
     req = urllib.request.Request('https://api.anthropic.com/v1/messages', data=json.dumps(body).encode(), headers={

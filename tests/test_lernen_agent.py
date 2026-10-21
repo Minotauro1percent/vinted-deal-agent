@@ -146,7 +146,7 @@ if cardigan_sent:
 # 5) Bildprüfung: mit Schlüssel, niedriger Wert blockiert, Tageslimit zählt
 agent.ANTHROPIC_KEY = 'sk-test'
 calls = []
-def fake_vision(key, ex_urls, cand, hint='', fetch=None, timeout=40):
+def fake_vision(key, ex_urls, cand, hint='', fetch=None, timeout=40, avoid=()):
     calls.append((ex_urls, cand)); return (30 if '106' in cand else 85), 'Zopfstrick passt', 0.0002
 learn.vision_score = fake_vision
 CATALOG_IDS.append('106')
@@ -178,5 +178,29 @@ check(s['learn_target'] == '', '/fertig beendet Lern-Modus')
 updates += [msg(30, 'https://www.vinted.at/items/101-x')]
 s = run()
 check(any('schon bekannt' in x for x in texts()), 'Bekannte Anzeige wird erkannt')
+
+# 8) Eigene Ausschlusskriterien (aus der Web-Oberfläche)
+wl8 = json.load(open(agent.WATCH_FILE))
+wl8[0]['excludeRules'] = ['V-Ausschnitt', 'Reißverschluss / Zip', 'loch']
+json.dump(wl8, open(agent.WATCH_FILE, 'w'))
+item('120', 'Ralph Lauren Cable Knit V-Neck Pullover', 'Ralph Lauren', 'M', 'Sehr gut', 15, 'Grau', 'Herren Strickpullover', 'cable knit')
+item('121', 'Ralph Lauren Cable Knit Pullover', 'Ralph Lauren', 'M', 'Sehr gut', 15, 'Grau', 'Herren Pullover mit V-Ausschnitt', 'cable knit')
+item('122', 'Ralph Lauren Cable Knit Pullover navy', 'Ralph Lauren', 'M', 'Sehr gut', 15, 'Marineblau', 'Herren Strickpullover', 'cable knit, kleines Loch am Ärmel')
+item('123', 'Ralph Lauren Cable Knit Half Zip', 'Ralph Lauren', 'M', 'Sehr gut', 15, 'Grau', 'Herren Strickpullover', 'cable knit')
+item('124', 'Ralph Lauren Cable Knit Pullover creme', 'Ralph Lauren', 'L', 'Sehr gut', 15, 'Creme', 'Herren Strickpullover', 'cable knit Zopfstrick')
+CATALOG_IDS[:] = ['120', '121', '122', '123', '124']
+avoid_seen = []
+def fake_vision2(key, ex_urls, cand, hint='', fetch=None, timeout=40, avoid=()):
+    avoid_seen.append(list(avoid)); return 90, 'Zopfstrick', 0.0002
+learn.vision_score = fake_vision2
+settings = json.load(open(agent.SETTINGS_FILE)); settings['vision_daily_max'] = 150; json.dump(settings, open(agent.SETTINGS_FILE, 'w'))
+s = run()
+caps = ' '.join(x['caption'] for x in photos())
+check('/items/120' not in caps, 'Ausschluss V-Ausschnitt (Titel „V-Neck“)')
+check('/items/121' not in caps, 'Ausschluss V-Ausschnitt (Vinted-Kategorie)')
+check('/items/122' not in caps, 'Ausschluss freies Wort „loch“ (Beschreibung)')
+check('/items/123' not in caps, 'Ausschluss Zip')
+check('/items/124' in caps, 'Passender Pulli ohne Ausschluss gemeldet')
+check(avoid_seen and 'V-Ausschnitt' in avoid_seen[-1], 'Bildprüfung bekommt die Ausschlüsse mit')
 
 print('\nALLE LERN-AGENT-TESTS BESTANDEN' if ok else '\nES GIBT FEHLER'); sys.exit(0 if ok else 1)
