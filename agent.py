@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-# Version 2.0.0
+# Version 3.0.0
 """Vinted Deal-Agent für GitHub Actions.
 
-Jeder Lauf (ca. alle 15 Minuten, siehe .github/workflows/agent.yml):
+Jeder Lauf (ca. alle 5–8 Minuten, siehe .github/workflows/agent.yml):
   1. liest neue Telegram-Befehle (/start, /stop, /status, /suche, /liste, /limit, /an, /aus, /hilfe)
   2. prüft für jede Suche ihren eigenen Zeitplan (Standard-Intervall, eigenes Intervall oder feste
      Wochentage + Uhrzeiten) und führt fällige Suchen aus
@@ -10,13 +10,16 @@ Jeder Lauf (ca. alle 15 Minuten, siehe .github/workflows/agent.yml):
   4. speichert Zustand (state.json) und Einstellungen (settings.json)
 
 Konfiguration:  watchlist.json (Suchen)  ·  settings.json (Agent an/aus, Standard-Intervall, Jetzt-suchen)
+Lern-Suchen:    profiles.json (Beispiel-Anzeigen + gelerntes Profil, siehe learn.py)
 Bearbeitet werden beide bequem über die Web-Oberfläche in docs/index.html (GitHub Pages).
-Nur Python-Standardbibliothek. GitHub-Secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+Nur Python-Standardbibliothek. GitHub-Secrets: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, optional ANTHROPIC_API_KEY (Bildprüfung)
 """
 import gzip, html, json, os, random, re, sys, time, uuid, urllib.error, urllib.parse, urllib.request, zlib
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from zoneinfo import ZoneInfo
+
+import learn
 
 BASE = os.environ.get('VINTED_DOMAIN', 'https://www.vinted.at')
 TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN', '').strip()
@@ -25,19 +28,21 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 STATE_FILE = os.path.join(HERE, 'state.json')
 WATCH_FILE = os.path.join(HERE, 'watchlist.json')
 SETTINGS_FILE = os.path.join(HERE, 'settings.json')
+PROFILES_FILE = os.path.join(HERE, 'profiles.json')
+ANTHROPIC_KEY = os.environ.get('ANTHROPIC_API_KEY', '').strip()
 DRY_RUN = os.environ.get('DRY_RUN') == '1'
 
 BUYER_FEE_FIXED, BUYER_FEE_PCT = 0.70, 0.05
 CONDITION_RANK = {'Neu, mit Etikett': 5, 'Neu mit Etikett': 5, 'Neu': 4, 'Sehr gut': 3, 'Gut': 2, 'Zufriedenstellend': 1}
 TZ = ZoneInfo('Europe/Vienna')
 WEEKDAYS = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
-TOLERANCE_S = 5 * 60          # Läufe kommen ca. alle 15 Min.; so wird „stündlich“ nicht zu „alle 75 Min.“
+TOLERANCE_S = 3 * 60          # Läufe kommen ca. alle 5–8 Min.; so wird „stündlich“ nicht zu „alle 65 Min.“
 
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
       'Chrome/129.0.0.0 Safari/537.36')
 
 DEFAULT_SETTINGS = {'enabled': True, 'default_interval_min': 60, 'first_run_max': 3, 'shipping_est': 5.0,
-                    'max_per_run': 15, 'force_all': 0, 'force': {}}
+                    'max_per_run': 15, 'force_all': 0, 'force': {}, 'vision_daily_max': 150, 'vision_min': 60}
 
 RUN_LOG = []
 
@@ -62,7 +67,9 @@ def save_json(path, data):
 def default_state():
     return {'tg_offset': 0, 'seen': [], 'first_run_done': [], 'watch_last': {}, 'last_search': 0,
             'force_all_done': 0, 'force_done': {}, 'blocked_notified': False,
-            'stats': {'searches': 0, 'deals': 0, 'last_deals': 0}}
+            'stats': {'searches': 0, 'deals': 0, 'last_deals': 0},
+            'learn_target': '', 'learn_queue': [], 'bg': {}, 'sent_feat': {}, 'pending_cb': [],
+            'vision': {'day': '', 'n': 0, 'usd': 0.0, 'total_usd': 0.0}}
 
 def slug(s):
     s = re.sub(r'[^a-z0-9]+', '-', str(s).lower()).strip('-')
@@ -226,7 +233,7 @@ class _DescParser(HTMLParser):
             self.buf.append(data)
 
 
-ATTR_RE = re.compile(r'\\?"code\\?":\\?"([a-z_]+)\\?",\\?"data\\?":\{[^}]*?\\?"title\\?":\\?"([^"\\]*)\\?",\\?"value\\?":\\?"([^"\\]*)')
+ATTR_RE = re.compile(r'\\?"code\\?":\\?"([a-z_]+)\\?",\\?"data\\?":\{[^}]*?\\?"title\\?":\\?"([^"\\]*)\\?"[^}]*?\\?"value\\?":\\?"([^"\\]*)')
 
 def fetch_details(item):
     page = vinted_get(urllib.parse.urlparse(item['url']).path)
@@ -235,7 +242,8 @@ def fetch_details(item):
     for code, title, value in ATTR_RE.findall(page):
         attrs.setdefault(code, value)
         attrs.setdefault('t:' + title.lower(), value)
-    return {'desc': ''.join(p.buf).strip(), 'image': p.og or item.get('thumb', ''),
+    cm = CATEGORY_RE.search(page)
+    return {'desc': ''.join(p.buf).strip(), 'image': p.og or item.get('thumb', ''), 'category': html.unescape(cm.group(1)) if cm else '',
             'uploaded': attrs.get('upload_date', ''), 'color': attrs.get('color', ''),
             'simlock': attrs.get('t:sim-lock', '')}
 
@@ -286,7 +294,9 @@ def compile_watch(w):
             'sizes': [size_key(x) for x in lst(w.get('sizes'))], 'colors': [norm(x) for x in lst(w.get('colors'))],
             'storage': [r for r in (storage_re(x) for x in lst(w.get('storage'))) if r],
             'storage_txt': lst(w.get('storage')), 'simFree': bool(w.get('simFree')),
-            'minCondition': w.get('minCondition') or 'Gut', 'schedule': sched}
+            'minCondition': w.get('minCondition') or 'Gut', 'schedule': sched,
+            'type': w.get('type') or 'filter', 'vision': w.get('vision', True) is not False,
+            'strictness': fnum(w.get('strictness'), 1.0) or 1.0, 'queriesManual': bool(w.get('queriesManual'))}
 
 # ---------------------------------------------------------------- Zeitpläne
 def parse_hhmm(t):
@@ -316,6 +326,8 @@ def next_slot(sched, after):
 
 def interval_min(w, settings):
     s = w['schedule']
+    if s.get('mode') == 'live':
+        return 0
     if s.get('mode') == 'interval':
         return max(15, int(fnum(s.get('everyMin'), 60)))
     return max(15, int(fnum(settings.get('default_interval_min'), 60)))
@@ -344,6 +356,8 @@ def schedule_text(w, settings):
         dtxt = 'täglich' if len(days) == 7 else ('Mo–Fr' if days == [1, 2, 3, 4, 5] else ', '.join(WEEKDAYS[d - 1] for d in days))
         times = ', '.join(t for t in s.get('times', []) if parse_hhmm(t))
         return f'{dtxt} {times}'.strip() or 'kein Termin'
+    if s.get('mode') == 'live':
+        return 'laufend (alle ~5 Min.)'
     m = interval_min(w, settings)
     txt = f'alle {m} Min.' if m < 60 or m % 60 else ('stündlich' if m == 60 else f'alle {m // 60} Std.')
     return txt + (' (Standard)' if s.get('mode') != 'interval' else '')
@@ -461,14 +475,18 @@ def build_message(w, it, shipping):
     lines.append(f"🔗 {it['url']}")
     return '\n'.join(lines)
 
-def send_deal(w, it, shipping):
+def send_deal(w, it, shipping, extra=None, buttons=None):
     text = build_message(w, it, shipping)
+    if extra:
+        head, _, tail = text.partition('\n')
+        text = head + '\n' + extra + '\n' + tail
+    markup = {'reply_markup': {'inline_keyboard': buttons}} if buttons else {}
     img = it.get('image') or it.get('thumb')
     if img:
-        r = tg('sendPhoto', {'chat_id': CHAT_ID, 'photo': img, 'caption': text[:1024], 'parse_mode': 'HTML'})
+        r = tg('sendPhoto', {'chat_id': CHAT_ID, 'photo': img, 'caption': text[:1024], 'parse_mode': 'HTML', **markup})
         if r.get('ok'):
             return True
-    return send(text).get('ok', False)
+    return tg('sendMessage', {'chat_id': CHAT_ID, 'text': text, 'parse_mode': 'HTML', 'disable_web_page_preview': True, **markup}).get('ok', False)
 
 # ---------------------------------------------------------------- Befehle
 HELP = ("<b>Vinted Deal-Agent – Befehle</b>\n"
@@ -480,12 +498,19 @@ HELP = ("<b>Vinted Deal-Agent – Befehle</b>\n"
         "/limit 2 90 – Max-Preis von Suche 2 auf 90 € setzen\n"
         "/aus 3 · /an 3 – Suche 3 aus- oder einschalten\n"
         "/hilfe – diese Übersicht\n\n"
+        "<b>Lern-Suchen</b>\n"
+        "/lernen Name 20 – Lern-Suche „Name“ (bis 20 €) anlegen oder wählen, danach einfach Vinted-Links schicken\n"
+        "/fertig – Lernen beenden, Zusammenfassung anzeigen\n"
+        "/profil – was die Lern-Suchen gelernt haben\n"
+        "👍 / 👎 unter einem Treffer – er lernt daraus\n\n"
         "Suchen, Größen, Farben und Zeitpläne bequem einstellen: in der Web-Oberfläche.\n"
-        "Befehle werden beim nächsten Lauf verarbeitet (spätestens nach ca. 15 Min.).")
+        "Befehle werden beim nächsten Lauf verarbeitet (meist nach wenigen Minuten).")
 
 BOT_COMMANDS = [('start', 'Agent einschalten'), ('stop', 'Agent pausieren'), ('status', 'Status anzeigen'),
                 ('suche', 'jetzt suchen'), ('liste', 'Suchen anzeigen'), ('limit', 'Max-Preis ändern: /limit 2 90'),
-                ('an', 'Suche einschalten: /an 3'), ('aus', 'Suche ausschalten: /aus 3'), ('hilfe', 'Hilfe')]
+                ('an', 'Suche einschalten: /an 3'), ('aus', 'Suche ausschalten: /aus 3'),
+                ('lernen', 'Lern-Suche: /lernen Name 20, dann Links schicken'), ('fertig', 'Lernen beenden'),
+                ('profil', 'Gelerntes anzeigen'), ('hilfe', 'Hilfe')]
 
 def fmt_time(ts):
     if not ts:
@@ -497,23 +522,33 @@ def watch_list_text(raw, settings):
     rows = []
     for i, w in enumerate(raw, 1):
         c = compile_watch(w)
-        flag = '✅' if c['active'] else '⏸'
+        flag = ('🧠' if c['type'] == 'lernen' else '✅') if c['active'] else '⏸'
         rows.append(f"{flag} <b>{i}</b> {esc(c['name'])} – bis {euro(c['maxPrice'])} · {esc(schedule_text(c, settings))}")
     return '<b>Deine Suchen</b>\n' + '\n'.join(rows) + '\n\nÄndern: /limit NR PREIS · /aus NR · /an NR'
 
 def handle_commands(state, settings, raw_watch, now):
     """Telegram-Befehle ausführen. Gibt (watch_geändert, settings_geändert) zurück."""
-    res = tg('getUpdates', {'offset': state['tg_offset'] + 1, 'timeout': 0, 'allowed_updates': ['message']})
+    res = tg('getUpdates', {'offset': state['tg_offset'] + 1, 'timeout': 0, 'allowed_updates': ['message', 'callback_query']})
     if not res.get('ok', True):
         log('getUpdates fehlgeschlagen:', str(res.get('description'))[:200])
     log(f"Telegram: {len(res.get('result', []))} neue Nachricht(en)")
     wch = sch = False
     for u in res.get('result', []):
         state['tg_offset'] = max(state['tg_offset'], u['update_id'])
+        cb = u.get('callback_query')
+        if cb:
+            if str((cb.get('message') or {}).get('chat', {}).get('id')) == CHAT_ID:
+                state['pending_cb'].append({'id': cb.get('id'), 'data': cb.get('data', ''),
+                                            'msg': (cb.get('message') or {}).get('message_id')})
+            continue
         msg = u.get('message') or {}
         if str(msg.get('chat', {}).get('id')) != CHAT_ID:
             continue
-        text = (msg.get('text') or '').strip()
+        text = (msg.get('text') or msg.get('caption') or '').strip()
+        links = find_links(text, msg)
+        if links and not text.startswith('/'):
+            wch |= queue_links(links, state, raw_watch)
+            continue
         if not text.startswith('/'):
             continue
         cmd, *args = text.split()
@@ -558,6 +593,21 @@ def handle_commands(state, settings, raw_watch, now):
                 w['active'] = cmd == '/an'
                 send(f"{'✅' if w['active'] else '⏸'} {esc(w['name'])} ist jetzt {'an' if w['active'] else 'aus'}.")
             wch = True
+        elif cmd == '/lernen':
+            wch |= cmd_lernen(args, state, raw_watch)
+        elif cmd == '/fertig':
+            sid = state.get('learn_target')
+            state['learn_target'] = ''
+            w = next((x for x in raw_watch if x.get('id') == sid), None)
+            send(f"✅ Lernen für „{esc(w['name'])}“ beendet. Die Zusammenfassung kommt nach dem Einlesen der Links." if w else 'Es war keine Lern-Suche aktiv.')
+            state['want_summary'] = sid or ''
+        elif cmd == '/profil':
+            profs = load_json(PROFILES_FILE, {})
+            ls = [w for w in raw_watch if w.get('type') == 'lernen']
+            if not ls:
+                send('Noch keine Lern-Suche. Anlegen mit /lernen Name 20')
+            for w in ls:
+                send(learn.summary((profs.get(w['id']) or {}).get('profile'), esc(w['name'])))
         elif cmd in ('/hilfe', '/help'):
             send(HELP)
         else:
@@ -580,7 +630,9 @@ def run_one(w, state, settings, seen, first_done):
         except Exception as e:
             log(f"Suchanfrage übersprungen ({q}): {e}")
             time.sleep(random.uniform(5, 10)); continue
-        for it in parse_catalog(page):
+        found = parse_catalog(page)
+        add_background(state, [it['title'] for it in found if key(it['id']) not in seen and it['id'] not in seen])
+        for it in found:
             if key(it['id']) not in seen and it['id'] not in seen:
                 cands[it['id']] = it
         time.sleep(random.uniform(2.5, 5))
@@ -620,6 +672,322 @@ def due_watches(watch, state, settings, now):
             out.append((w, forced))
     return out
 
+
+# ---------------------------------------------------------------- Lern-Suchen
+LINK_RE = re.compile(r'https?://[^\s<>"]*vinted[^\s<>"]*', re.I)
+ITEM_ID_RE = re.compile(r'/items/(\d+)')
+
+def find_links(text, msg=None):
+    urls = LINK_RE.findall(text or '')
+    for e in (msg or {}).get('entities', []) + (msg or {}).get('caption_entities', []):
+        if e.get('type') == 'text_link' and 'vinted' in e.get('url', ''):
+            urls.append(e['url'])
+    out = []
+    for u in urls:
+        u = u.rstrip(').,;!')
+        if u not in out:
+            out.append(u)
+    return out
+
+def learn_watch(raw_watch, sid):
+    return next((w for w in raw_watch if w.get('id') == sid and w.get('type') == 'lernen'), None)
+
+def cmd_lernen(args, state, raw_watch):
+    """/lernen Name [Preis] – Lern-Suche anlegen oder auswählen."""
+    ls = [w for w in raw_watch if w.get('type') == 'lernen']
+    if not args:
+        rows = '\n'.join(f"• {esc(w['name'])} – bis {euro(fnum(w.get('maxPrice')))}" for w in ls) or '(noch keine)'
+        send('<b>Lern-Suchen</b>\n' + rows + '\n\nNeue anlegen oder wählen: /lernen Name 20\n'
+             'Danach Vinted-Links schicken (auch viele auf einmal). Teurere Beispiele sind okay – der Preis kommt aus dem Limit.')
+        return False
+    price = None
+    if re.fullmatch(r'\d+([.,]\d+)?€?', args[-1]) and len(args) > 1:
+        price = fnum(args[-1].rstrip('€')); args = args[:-1]
+    name = ' '.join(args).strip()
+    w = next((x for x in ls if x['name'].lower() == name.lower() or x['id'] == slug(name)), None)
+    changed = False
+    if not w:
+        ids = {x.get('id') for x in raw_watch}
+        sid = slug(name)[:30]
+        while sid in ids:
+            sid += '-2'
+        w = {'id': sid, 'name': name, 'type': 'lernen', 'category': 'kleidung', 'active': True,
+             'maxPrice': price or 0, 'minCondition': 'Gut', 'vision': True, 'strictness': 1.0,
+             'schedule': {'mode': 'live'}}
+        raw_watch.append(w); changed = True
+    elif price:
+        w['maxPrice'] = price; changed = True
+    state['learn_target'] = w['id']
+    lim = fnum(w.get('maxPrice'))
+    send(f"🧠 Lern-Modus für „{esc(w['name'])}“" + (f" (bis {euro(lim)})" if lim else '') + '.\n'
+         'Schick mir jetzt Links zu Anzeigen, die genau so sind, wie du sie suchst – gern 20–40 Stück, auch mehrere pro Nachricht. '
+         'Ich lese sie beim nächsten Lauf ein (ca. 5 Min.).\nWenn du fertig bist: /fertig'
+         + ('' if lim else '\n\n⚠️ Noch kein Höchstpreis. Setzen mit /lernen ' + esc(w['name']) + ' 20'))
+    return changed
+
+def queue_links(links, state, raw_watch):
+    sid = state.get('learn_target')
+    ls = [w for w in raw_watch if w.get('type') == 'lernen']
+    if not learn_watch(raw_watch, sid):
+        if len(ls) == 1:
+            sid = ls[0]['id']
+        else:
+            send('Für welche Lern-Suche sind die Links? Erst /lernen Name schicken, dann die Links.'); return False
+    known = {q['url'] for q in state['learn_queue']}
+    new = [u for u in links if u not in known]
+    state['learn_queue'] += [{'sid': sid, 'url': u} for u in new]
+    log(f'{len(new)} Link(s) für Lern-Suche {sid} vorgemerkt')
+    return False
+
+def item_path(url):
+    m = ITEM_ID_RE.search(url)
+    if m:
+        return '/items/' + m.group(1)
+    try:                                              # Kurz-/Teilen-Link → weiterleiten lassen
+        req = urllib.request.Request(url, headers={'User-Agent': UA})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            m = ITEM_ID_RE.search(r.geturl())
+            return '/items/' + m.group(1) if m else None
+    except Exception:
+        return None
+
+BRAND_RE = re.compile(r'brand_dto\\?":\{[^}]*?\\?"title\\?":\\?"([^"\\]+)')
+CATEGORY_RE = re.compile(r'itemCondition\\?":\\?"[A-Za-z]+\\?"\},\\?"category\\?":\\?"([^"\\]+)')
+PRICE_RES = [re.compile(r'\\?"price\\?":\{\\?"amount\\?":\\?"([\d.]+)'), re.compile(r'product:price:amount"\s+content="([\d.]+)'),
+             re.compile(r'"priceCurrency"\s*:\s*"[A-Z]{3}"\s*,\s*"price"\s*:\s*"?([\d.]+)'),
+             re.compile(r'"price"\s*:\s*"?([\d.]+)"?\s*,\s*"priceCurrency"')]
+TITLE_RES = [re.compile(r'<meta property="og:title" content="([^"]+)"'), re.compile(r'<title>([^<]+)</title>')]
+
+def fetch_item_full(path):
+    """Alle Merkmale einer einzelnen Anzeige (für Beispiele)."""
+    page = vinted_get(path)
+    p = _DescParser(); p.feed(page)
+    attrs = {}
+    for code, title, value in ATTR_RE.findall(page):
+        attrs.setdefault(code, value); attrs.setdefault('t:' + title.lower(), value)
+    title = ''
+    for r in TITLE_RES:
+        m = r.search(page)
+        if m:
+            title = html.unescape(m.group(1)); break
+    title = re.sub(r'\s*[|–-]\s*Vinted.*$', '', title).strip()
+    price = 0.0
+    for r in PRICE_RES:
+        m = r.search(page)
+        if m:
+            price = float(m.group(1)); break
+    iid = ITEM_ID_RE.search(path).group(1)
+    bm, cm = BRAND_RE.search(page), CATEGORY_RE.search(page)
+    if not p.buf:                                     # Beschreibung notfalls aus og:description
+        m = re.search(r'<meta property="og:description" content="([^"]*)"', page)
+        if m:
+            p.buf = [html.unescape(m.group(1)).split(' - ', 1)[-1]]
+    return {'id': iid, 'url': BASE + path, 'title': title, 'category': html.unescape(cm.group(1)) if cm else '',
+            'brand': html.unescape(bm.group(1)) if bm else (attrs.get('brand') or attrs.get('t:marke', '')),
+            'size': attrs.get('size') or attrs.get('t:größe', ''),
+            'condition': attrs.get('status') or attrs.get('t:zustand', ''), 'price': price,
+            'color': attrs.get('color') or attrs.get('t:farbe', ''), 'desc': ''.join(p.buf).strip(),
+            'image': p.og, 'thumb': p.og}
+
+def profile_entry(profs, sid):
+    return profs.setdefault(sid, {'examples': [], 'negatives': [], 'profile': None})
+
+def rebuild(profs, sid, w, state):
+    e = profile_entry(profs, sid)
+    new = learn.build_profile(e['examples'], e['negatives'], (state['bg'].get('__all__') or {}),
+                              fnum(w.get('strictness'), 1.0) or 1.0)
+    if new != e.get('profile'):
+        e['profile'] = new
+        e['updated'] = int(time.time())
+
+def process_learn_queue(state, raw_watch, profs, max_links=40):
+    """Vorgemerkte Links einlesen → Beispiele. Gibt geänderte Such-IDs zurück."""
+    changed, report = set(), {}
+    queue, state['learn_queue'] = state['learn_queue'][:max_links], state['learn_queue'][max_links:]
+    for q in queue:
+        w = learn_watch(raw_watch, q['sid'])
+        if not w:
+            continue
+        r = report.setdefault(q['sid'], {'ok': 0, 'fail': 0, 'dup': 0})
+        path = item_path(q['url'])
+        if not path:
+            r['fail'] += 1; continue
+        e = profile_entry(profs, q['sid'])
+        iid = path.rsplit('/', 1)[1]
+        if any(x['id'] == iid for x in e['examples']):
+            r['dup'] += 1; continue
+        try:
+            it = fetch_item_full(path)
+        except Blocked:
+            state['learn_queue'].insert(0, q); raise
+        except Exception as ex:
+            log('Beispiel nicht lesbar', q['url'], ex); r['fail'] += 1; continue
+        if not it['title']:
+            r['fail'] += 1; continue
+        f = learn.item_features(it); f['source'] = 'link'; f['added'] = int(time.time())
+        e['examples'].append(f)
+        e['negatives'] = [x for x in e['negatives'] if x['id'] != iid]
+        r['ok'] += 1; changed.add(q['sid'])
+        time.sleep(random.uniform(2.5, 4.5))
+    for sid in changed | ({state.get('want_summary')} - {''}):
+        w = learn_watch(raw_watch, sid)
+        if w:
+            rebuild(profs, sid, w, state)
+    for sid, r in report.items():
+        w = learn_watch(raw_watch, sid)
+        more = sum(1 for q in state['learn_queue'] if q['sid'] == sid)
+        msg = f"📥 „{esc(w['name'])}“: {r['ok']} Anzeige(n) gelernt"
+        if r['dup']: msg += f", {r['dup']} schon bekannt"
+        if r['fail']: msg += f", {r['fail']} nicht lesbar (gelöscht oder kein Anzeigen-Link)"
+        if more: msg += f'. {more} weitere folgen beim nächsten Lauf'
+        send(msg + '.\n\n' + learn.summary(profs[sid]['profile'], esc(w['name'])))
+        if state.get('want_summary') == sid:
+            state['want_summary'] = ''
+    ws = state.get('want_summary')
+    if ws and ws not in report and learn_watch(raw_watch, ws):
+        send(learn.summary((profs.get(ws) or {}).get('profile'), esc(learn_watch(raw_watch, ws)['name'])))
+        state['want_summary'] = ''
+    return changed
+
+def process_callbacks(state, raw_watch, profs):
+    """👍/👎 unter Treffern → Beispiele bzw. Gegenbeispiele."""
+    changed = set()
+    for cb in state['pending_cb']:
+        parts = (cb.get('data') or '').split(':')
+        if len(parts) != 4 or parts[0] != 'fb':
+            continue
+        _, vote, sid, iid = parts
+        f = (state['sent_feat'].get(iid) or {}).get('f')
+        w = learn_watch(raw_watch, sid)
+        if not f or not w:
+            tg('answerCallbackQuery', {'callback_query_id': cb['id'], 'text': 'Diese Anzeige kenne ich nicht mehr.'}); continue
+        e = profile_entry(profs, sid)
+        e['examples'] = [x for x in e['examples'] if x['id'] != iid]
+        e['negatives'] = [x for x in e['negatives'] if x['id'] != iid]
+        (e['examples'] if vote == 'u' else e['negatives']).append({**f, 'source': 'telegram', 'added': int(time.time())})
+        changed.add(sid)
+        label = '👍 gemerkt – mehr davon' if vote == 'u' else '👎 gemerkt – weniger davon'
+        tg('answerCallbackQuery', {'callback_query_id': cb['id'], 'text': label})
+        if cb.get('msg'):
+            tg('editMessageReplyMarkup', {'chat_id': CHAT_ID, 'message_id': cb['msg'],
+                                          'reply_markup': {'inline_keyboard': [[{'text': label, 'callback_data': 'x'}]]}})
+    state['pending_cb'] = []
+    for sid in changed:
+        rebuild(profs, sid, learn_watch(raw_watch, sid), state)
+    if changed:
+        log(f'Feedback verarbeitet: {", ".join(changed)}')
+    return changed
+
+_img_cache = {}
+
+def fetch_bytes(url):
+    if url not in _img_cache:
+        req = urllib.request.Request(url, headers={'User-Agent': UA, 'Accept': 'image/*'})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            _img_cache[url] = r.read()
+    return _img_cache[url]
+
+def vision_ok(state, settings):
+    v = state['vision']
+    today = datetime.now(TZ).strftime('%Y-%m-%d')
+    if v.get('day') != today:
+        v.update(day=today, n=0, usd=0.0)
+    return bool(ANTHROPIC_KEY) and v['n'] < int(fnum(settings.get('vision_daily_max'), 150))
+
+def add_background(state, titles, sid='__all__'):
+    """Wörter normaler Anzeigen aus allen Suchen zählen – daran erkennt das Profil, was wirklich „typisch“ ist."""
+    bg = state['bg'].setdefault(sid, {})
+    for t in titles:
+        for tok in learn.tokens(t):
+            bg[tok] = bg.get(tok, 0) + 1
+        bg['__docs__'] = bg.get('__docs__', 0) + 1
+    if len(bg) > 4000:                                  # klein halten: seltene Wörter vergessen
+        keep = sorted(bg.items(), key=lambda kv: -kv[1])[:3000]
+        state['bg'][sid] = dict(keep) | {'__docs__': bg['__docs__']}
+
+def example_photos(entry, k=4):
+    ex = [x for x in entry['examples'] if x.get('photo')]
+    ex.sort(key=lambda x: (x.get('source') != 'telegram', -x.get('added', 0)))   # 👍 zuerst, dann neueste
+    return [x['photo'] for x in ex[:k]]
+
+def run_learned(w, state, settings, seen, first_done, profs):
+    entry = profs.get(w['id']) or {}
+    prof = entry.get('profile')
+    if not prof:
+        log(f"{w['name']}: noch keine Beispiele"); return 0
+    if not w['maxPrice']:
+        log(f"{w['name']}: kein Höchstpreis gesetzt"); return 0
+    first = w['id'] not in first_done
+    cap = int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15))
+    shipping = fnum(settings.get('shipping_est'), 5.0)
+    thr = prof['threshold']
+    queries = w['queries'] if w['queriesManual'] else (prof['queries'] or w['queries'])
+    key = lambda iid: f"{w['id']}|{iid}"
+    cands, titles = {}, []
+    for q in queries:
+        try:
+            page = vinted_get(search_url(q, w))
+        except Blocked:
+            raise
+        except Exception as e:
+            log(f'Suchanfrage übersprungen ({q}): {e}'); continue
+        for it in parse_catalog(page):
+            if key(it['id']) in seen or it['id'] in seen:
+                continue
+            titles.append(it['title'])
+            cands[it['id']] = it
+        time.sleep(random.uniform(2.5, 4.5))
+    add_background(state, titles)
+    scored = []
+    for it in cands.values():
+        seen.add(key(it['id']))
+        text = f"{it['title']} {it['brand']}"
+        if FAKE_RE.search(text) or REWORK_RE.search(text) or KIDSIZE_RE.search(it['size']):
+            continue
+        if it['price'] > w['maxPrice'] or (w['minPrice'] and it['price'] < w['minPrice']):
+            continue
+        sc = learn.score(prof, learn.item_features(it), detail=False)['score']
+        if sc >= thr * 0.75:
+            scored.append((sc, it))
+    scored.sort(key=lambda x: -x[0])
+    log(f"{w['name']}: {len(cands)} neu, {len(scored)} in der Vorauswahl (Schwelle {thr:.2f})")
+    sent = 0
+    for pre, it in scored:
+        if sent >= cap:
+            break
+        try:
+            det = fetch_details(it)
+        except Blocked:
+            raise
+        except Exception as e:
+            log(f'Details übersprungen ({it["id"]}): {e}'); continue
+        time.sleep(random.uniform(2, 3.5))
+        it.update(det)
+        f = learn.item_features(it)
+        res = learn.score(prof, f, detail=True)
+        if res['score'] < thr:
+            continue
+        vis = ''
+        if w['vision'] and vision_ok(state, settings) and it.get('thumb'):
+            try:
+                vs, why, cost = learn.vision_score(ANTHROPIC_KEY, example_photos(entry), it['thumb'], w['name'], fetch=fetch_bytes)
+                v = state['vision']; v['n'] += 1; v['usd'] += cost; v['total_usd'] = v.get('total_usd', 0) + cost
+                if vs < int(fnum(settings.get('vision_min'), 60)):
+                    log(f"Bildprüfung verwirft {it['id']} ({vs}: {why})"); continue
+                vis = f' · Bild {vs} %' + (f' ({esc(why)})' if why else '')
+            except Exception as e:
+                log('Bildprüfung fehlgeschlagen:', str(e)[:200])
+        extra = f"🧠 passt zu {round(res['score'] * 100)} %{vis}"
+        buttons = [[{'text': '👍 passt', 'callback_data': f"fb:u:{w['id']}:{it['id']}"},
+                    {'text': '👎 passt nicht', 'callback_data': f"fb:d:{w['id']}:{it['id']}"}]]
+        if send_deal(w, it, shipping, extra, buttons):
+            seen.add(it['id']); sent += 1
+            state['sent_feat'][it['id']] = {'sid': w['id'], 'f': f, 't': int(time.time())}
+    if len(state['sent_feat']) > 400:
+        state['sent_feat'] = dict(sorted(state['sent_feat'].items(), key=lambda kv: -kv[1]['t'])[:300])
+    first_done.add(w['id'])
+    return sent
+
 # ---------------------------------------------------------------- Hauptablauf
 def main():
     if not TOKEN or not CHAT_ID:
@@ -637,12 +1005,29 @@ def main():
         tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
         state['commands_set'] = True
         send('🤖 Deal-Agent läuft jetzt in der Cloud (GitHub).\n\n' + HELP)
-    if state.get('commands_version') != 2 and state.get('commands_set') and not DRY_RUN:
+    if state.get('commands_version') != 3 and state.get('commands_set') and not DRY_RUN:
         tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
-        state['commands_version'] = 2
+        state['commands_version'] = 3
+        send('🧠 Neu: Lern-Suchen. Mit /lernen Name 20 anlegen und dann einfach Vinted-Links schicken – '
+             'der Agent lernt daraus selbst Suchbegriffe und Merkmale. Unter Treffern kannst du mit 👍/👎 nachschärfen. /hilfe zeigt alles.')
 
     wc, sc = handle_commands(state, settings, raw_watch, now)
     watch_changed |= wc; settings_changed |= sc
+
+    profs = load_json(PROFILES_FILE, {})
+    profs_before = json.dumps(profs, sort_keys=True)
+    try:
+        process_callbacks(state, raw_watch, profs)
+        if state['learn_queue']:
+            process_learn_queue(state, raw_watch, profs)
+    except Blocked as e:
+        log('Vinted blockiert beim Einlesen der Beispiele:', e)
+    except Exception as e:
+        log('Fehler beim Lernen:', repr(e))
+    # Profile mit dem gewachsenen Hintergrund neu berechnen (billig, kein Netz)
+    for w in raw_watch:
+        if w.get('type') == 'lernen' and (profs.get(w['id']) or {}).get('examples'):
+            rebuild(profs, w['id'], w, state)
 
     todo = due_watches(raw_watch, state, settings, now)
     if todo:
@@ -651,7 +1036,10 @@ def main():
         try:
             for w, forced in todo:
                 log(f"Suche „{w['name']}“" + (' (sofort)' if forced else ''))
-                total += run_one(w, state, settings, seen, first_done)
+                if w['type'] == 'lernen':
+                    total += run_learned(w, state, settings, seen, first_done, profs)
+                else:
+                    total += run_one(w, state, settings, seen, first_done)
                 state['watch_last'][w['id']] = int(now)
                 if forced:
                     state['force_done'][w['id']] = int(now)
@@ -675,6 +1063,12 @@ def main():
     # aufräumen: Zustand gelöschter Suchen entfernen
     ids = {compile_watch(w)['id'] for w in raw_watch}
     state['watch_last'] = {k: v for k, v in state['watch_last'].items() if k in ids}
+    for k in list(profs):
+        if k not in ids:
+            profs.pop(k)
+    if json.dumps(profs, sort_keys=True, default=str) != profs_before:
+        # „updated“ ändert sich bei jedem Neuberechnen – nur speichern, wenn sich inhaltlich etwas tut
+        save_json(PROFILES_FILE, profs)
     if watch_changed:
         save_json(WATCH_FILE, raw_watch)
     if settings_changed:

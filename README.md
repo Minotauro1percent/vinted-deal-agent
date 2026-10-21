@@ -50,3 +50,15 @@ GitHub startet geplante Läufe manchmal ein paar Minuten später.
 - Blockiert Vinted die Cloud-Abfrage, kommt eine Telegram-Warnung. Der nächste Lauf versucht es erneut.
 - GitHub pausiert geplante Abläufe in Repos, an denen 60 Tage lang nichts passiert. Der Agent speichert
   bei jeder Suche seinen Zustand im Repo, das zählt als Aktivität.
+
+## Lern-Suchen (v3)
+Statt Filter einzustellen, zeigst du dem Agenten Beispiele:
+1. In Telegram: `/lernen RL Zopf 20` (Name, Höchstpreis)
+2. Links zu passenden Vinted-Anzeigen schicken – gern 20–40, auch teurere, mehrere pro Nachricht
+3. `/fertig` – er zeigt, was er gelernt hat (Marken, Kategorien, Größen, Farben, typische Wörter, eigene Suchbegriffe)
+
+Danach sucht er bei jedem Lauf (ca. alle 5–8 Min.) selbst und meldet nur Anzeigen, die deinen Beispielen ähnlich genug sind.
+Unter jedem Treffer: 👍 / 👎 – daraus lernt er weiter. Optional prüft Claude (Haiku 5.5) das Titelbild gegen deine Beispielbilder
+(GitHub-Secret `ANTHROPIC_API_KEY`, ca. 0,03 US-Cent pro geprüftem Bild, Tageslimit in `settings.json` → `vision_daily_max`).
+
+Code: `learn.py` (Profil, Punktzahl, Bildprüfung) · Daten: `profiles.json` · Tests: `tests/`

@@ -8,7 +8,7 @@ fs.mkdirSync(OUT, {recursive: true});
 
 const files = {};
 for (const f of ['watchlist.json', 'settings.json', 'state.json', 'last_run.txt']) {
-  const p = path.join(ROOT, f);
+  const p = path.join(ROOT, 'tests', 'fixtures', f);
   if (fs.existsSync(p)) files[f] = {text: fs.readFileSync(p, 'utf8'), sha: 'sha0'};
 }
 let shaN = 1, puts = [], conflictOnce = true;
@@ -172,6 +172,41 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   check(cols.every(c => lum(c) > 0.7), 'Dunkelmodus: Editor-Schrift hell ' + cols.join(' '));
   await page.screenshot({path: path.join(OUT, '8-dunkel-editor.png')});
   await page.click('#eCancel');
+
+  // 9) Lern-Suche: Kachel, Editor mit Gelerntem, neue Lern-Suche anlegen
+  await page.emulateMedia({colorScheme: 'light'});
+  const wl9 = J('watchlist.json');
+  wl9.push({id: 'rl-zopf', name: 'RL Zopf', type: 'lernen', category: 'kleidung', active: true, maxPrice: 20, vision: true, strictness: 1, schedule: {mode: 'live'}});
+  files['watchlist.json'] = {text: JSON.stringify(wl9), sha: 'sha-l1'};
+  const prof = {n: 32, n_neg: 2, brands: {'ralph lauren': 0.9, 'polo ralph lauren': 0.1}, categories: {'Herren Strickpullover': 1}, sizes: {m: 0.6, l: 0.4},
+    colors: {marineblau: 0.3, creme: 0.2}, conditions: {}, min_condition: 2, price: {min: 35, median: 48, max: 70},
+    weights: {'cable knit': 1.2, cable: 1.1, knit: 1.0, zopfstrick: 0.6, baumwolle: 0.4}, queries: ['ralph lauren cable knit', 'ralph lauren zopfstrick'],
+    avoid: ['cardigan'], threshold: 0.74, text_ref: 3};
+  files['profiles.json'] = {text: JSON.stringify({'rl-zopf': {examples: [{id: '1', url: 'https://www.vinted.at/items/1', title: 'Polo Ralph Lauren Cable Knit navy', price: 55, photo: '', source: 'link'}], negatives: [], profile: prof}}), sha: 'sha-p1'};
+  await page.click('#reloadBtn');
+  await page.waitForSelector('.watch:has-text("RL Zopf")');
+  const lt = page.locator('.watch', {hasText: 'RL Zopf'});
+  check((await lt.textContent()).includes('Lern-Suche') && (await lt.textContent()).includes('meldet ab 74 %') && (await lt.textContent()).includes('laufend'), 'Lern-Kachel: Beispiele, Schwelle, „laufend“');
+  await lt.locator('button[data-act="edit"]').click();
+  const ed = await page.textContent('#editor');
+  check(ed.includes('ralph lauren cable knit') && ed.includes('cardigan') && ed.includes('32 Beispiele'), 'Lern-Editor zeigt Suchbegriffe, Meidet-Wörter, Anzahl');
+  check(!(await page.isVisible('#lQWrap')), 'Eigene Suchbegriffe erst nach Einschalten sichtbar');
+  await page.click('#lStrict button[data-v="1.15"]');
+  await page.fill('#lMax', '22');
+  await page.screenshot({path: path.join(OUT, '9-lern-editor.png')});
+  await page.click('#lSave');
+  await page.waitForFunction(() => !document.querySelector('#editor').open);
+  const rlz = J('watchlist.json').find(w => w.id === 'rl-zopf');
+  check(rlz.maxPrice === 22 && rlz.strictness === 1.15 && rlz.type === 'lernen' && rlz.schedule.mode === 'live', 'Lern-Suche gespeichert (Preis, Strenge)');
+  await page.click('#addBtn');
+  await page.click('#eToLearn');
+  await page.fill('#lName', 'Sneaker Retro'); await page.fill('#lMax', '40');
+  check((await page.textContent('#editor')).includes('/lernen Sneaker Retro') || (await page.textContent('#editor')).includes('/lernen'), 'Neue Lern-Suche erklärt den Telegram-Weg');
+  await page.click('#lSave');
+  await page.waitForFunction(() => !document.querySelector('#editor').open);
+  const sn = J('watchlist.json').find(w => w.name === 'Sneaker Retro');
+  check(sn && sn.type === 'lernen' && sn.id === 'sneaker-retro' && sn.maxPrice === 40, 'Neue Lern-Suche über die Oberfläche angelegt');
+  await page.screenshot({path: path.join(OUT, '10-lern-kacheln.png'), fullPage: false});
 
   check(errors.length === 0, 'Keine JS-Fehler' + (errors.length ? ': ' + errors.join(' | ') : ''));
   fs.writeFileSync(path.join(OUT, 'watchlist.after.json'), files['watchlist.json'].text);

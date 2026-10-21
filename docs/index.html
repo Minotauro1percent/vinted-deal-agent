@@ -102,6 +102,10 @@ input:focus,select:focus,.tags:focus-within{outline:2px solid color-mix(in srgb,
 .badge{display:inline-block;font-size:12px;border-radius:6px;padding:2px 7px;background:var(--soft);color:var(--muted)}
 .badge.acc{background:var(--acc-soft);color:var(--acc)}
 .badge.warn{background:var(--warn-soft);color:var(--warn)}
+.exgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:8px;margin-top:10px}
+.ex{display:flex;flex-direction:column;gap:3px;text-decoration:none;color:var(--ink);font-size:12px;line-height:1.25}
+.ex img,.ex .noimg{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;background:var(--soft);display:grid;place-items:center;font-size:26px}
+.ex span{overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
 /* Editor */
 dialog{border:0;padding:0;background:transparent;color:var(--ink);max-width:none;max-height:none;width:100%;height:100%;margin:0}
 dialog::backdrop{background:rgba(10,12,16,.55)}
@@ -234,6 +238,7 @@ function slots(sched, fromS, dayRange) {
 function nextSlot(sched, after) { const f = slots(sched, after, [0, 1, 2, 3, 4, 5, 6, 7, 8]).filter(s => s > after); return f.length ? Math.min(...f) : null; }
 function intervalMin(w, st) {
   const s = w.schedule || {};
+  if (s.mode === 'live') return 0;
   return Math.max(15, Math.round(s.mode === 'interval' ? num(s.everyMin, 60) : num(st.default_interval_min, 60)));
 }
 function nextRun(w, st, state) {
@@ -244,6 +249,7 @@ function nextRun(w, st, state) {
 function intervalText(m) { const f = INTERVALS.find(x => x[0] === m); return f ? f[1] : (m % 60 ? `alle ${m} Min.` : `alle ${m / 60} Std.`); }
 function scheduleText(w, st) {
   const s = w.schedule || {mode: 'default'};
+  if (s.mode === 'live') return 'laufend (alle ~5 Min.)';
   if (s.mode === 'times') {
     const days = [...new Set((s.days || []).map(Number))].sort();
     const dtxt = days.length === 7 ? 'täglich' : days.join() === '1,2,3,4,5' ? 'Mo–Fr' : days.join() === '6,7' ? 'Sa+So' : days.map(d => WD[d - 1]).join(', ');
@@ -263,7 +269,7 @@ function fmtWhen(ts) {
 }
 
 /* ================================================================ GitHub */
-const S = {repo: '', token: '', watch: [], settings: {...DEFAULT_SETTINGS}, state: {}, log: '', filter: 'alle', busy: false};
+const S = {repo: '', token: '', watch: [], settings: {...DEFAULT_SETTINGS}, state: {}, profiles: {}, log: '', filter: 'alle', busy: false};
 function b64decode(b) { const bin = atob(b.replace(/\s/g, '')); return new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0))); }
 function b64encode(s) { const bytes = new TextEncoder().encode(s); let bin = ''; for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode(...bytes.subarray(i, i + 0x8000)); return btoa(bin); }
 async function gh(path, opts = {}) {
@@ -324,14 +330,14 @@ function defaultRepo() {
 }
 async function loadAll(quiet) {
   if (!quiet) $('#app').innerHTML = '<div class="empty"><span class="spinner"></span><p>Lade Daten aus GitHub …</p></div>';
-  const [w, s, st, lg] = await Promise.all([
-    getJSON('watchlist.json', []), getJSON('settings.json', DEFAULT_SETTINGS), getJSON('state.json', {}), getFile('last_run.txt', ''),
+  const [w, s, st, lg, pr] = await Promise.all([
+    getJSON('watchlist.json', []), getJSON('settings.json', DEFAULT_SETTINGS), getJSON('state.json', {}), getFile('last_run.txt', ''), getJSON('profiles.json', {}),
   ]);
   S.watch = Array.isArray(w.data) ? w.data : [];
   S.watch.forEach(x => { if (!x.id) x.id = slug(x.name || ''); });
   S.settings = {...DEFAULT_SETTINGS, ...s.data};
   if (st.data && 'enabled' in st.data && !s.sha) S.settings.enabled = !!st.data.enabled;   // v1-Zustand
-  S.state = st.data || {}; S.log = lg.text || '';
+  S.state = st.data || {}; S.log = lg.text || ''; S.profiles = pr.data || {};
   S.loadedAt = Date.now();
   render();
 }
@@ -382,6 +388,11 @@ function pending(id) {
   const fa = num(S.settings.force_all), fad = num(S.state.force_all_done);
   return f > done || fa > fad;
 }
+function learnMeta(w) {
+  const p = (S.profiles[w.id] || {}).profile, n = (S.profiles[w.id] || {}).examples?.length || 0;
+  if (!p) return '<span class="badge warn">🧠 noch keine Beispiele – in Telegram: /lernen ' + esc(w.name) + '</span>';
+  return `🧠 ${n} Beispiele · meldet ab ${Math.round(p.threshold * 100)} % · ${w.vision === false ? 'ohne' : 'mit'} Bildprüfung`;
+}
 function watchMeta(w, noPrice) {
   const bits = [];
   if (!noPrice && num(w.maxPrice)) bits.push((num(w.minPrice) ? `${euro(num(w.minPrice))}–` : 'bis ') + euro(num(w.maxPrice)));
@@ -420,10 +431,11 @@ function render() {
       <div class="stat"><b>${num(stats.deals)}</b><span>Deals gesamt</span></div>
       <div class="stat"><b>${num(stats.last_deals)}</b><span>Deals letzte Suche</span></div>
     </div>
+    ${(state.vision || {}).total_usd ? `<div class="small muted" style="margin-bottom:6px">🖼 Bildprüfung heute: ${num(state.vision.n)} Bilder · ca. ${(num(state.vision.usd) * 100).toFixed(2).replace('.', ',')} US-Cent · gesamt ${(num(state.vision.total_usd) * 100).toFixed(1).replace('.', ',')} US-Cent</div>` : ''}
     ${nexts.length ? `<div class="small"><b>Als Nächstes:</b> ${nexts.slice(0, 3).map(([t, w]) => `${esc(fmtWhen(t))} – ${esc(w.name)}`).join(' · ')}</div>` : ''}
     <div class="row" style="margin-top:12px">
       <button class="btn" id="allNow" ${allPending ? 'disabled' : ''}>${allPending ? '⏳ Wartet auf nächsten Lauf' : '▶ Alle jetzt suchen'}</button>
-      <span class="small muted grow">Änderungen gelten ab dem nächsten Lauf (spätestens nach ca. 15 Min.).</span>
+      <span class="small muted grow">Änderungen gelten ab dem nächsten Lauf (meist nach wenigen Minuten).</span>
     </div>
     <details style="margin-top:10px"><summary>Protokoll des letzten Laufs</summary><pre class="log">${esc(S.log.trim() || 'noch kein Lauf')}</pre></details>
   </section>
@@ -438,12 +450,12 @@ function render() {
       return `<div class="watch ${on ? '' : 'off'}" data-i="${i}">
         <div class="th">
           <div class="ic" aria-hidden="true">${cat.icon}</div>
-          <div class="grow main-txt"><div class="name" data-act="edit">${esc(w.name || 'Ohne Namen')}</div><div class="cat">${cat.label}${on ? '' : ' · aus'}</div></div>
+          <div class="grow main-txt"><div class="name" data-act="edit">${esc(w.name || 'Ohne Namen')}</div><div class="cat">${w.type === 'lernen' ? '🧠 Lern-Suche' : cat.label}${on ? '' : ' · aus'}</div></div>
           <label class="sw" title="Suche ein/aus"><input type="checkbox" data-act="toggle" ${on ? 'checked' : ''} aria-label="Suche ${esc(w.name)} ein- oder ausschalten"><i></i></label>
         </div>
         <div class="main-txt">
           <div class="price">${hi ? (lo ? `${euro(lo)} – ${euro(hi)}` : `<small>bis</small> ${euro(hi)}`) : '–'}</div>
-          <div class="meta">${esc(watchMeta(w, true)) || '&nbsp;'}</div>
+          <div class="meta">${w.type === 'lernen' ? learnMeta(w) : (esc(watchMeta(w, true)) || '&nbsp;')}</div>
         </div>
         <div class="badges"><span class="badge acc">🕒 ${esc(scheduleText(w, st))}</span>${pending(w.id) && on ? '<span class="badge warn">⏳ sucht beim nächsten Lauf</span>' : nx ? `<span class="badge">nächste ${esc(fmtWhen(nx))}</span>` : ''}${last ? `<span class="badge">zuletzt ${esc(fmtWhen(last))}</span>` : ''}</div>
         <div class="acts">
@@ -532,6 +544,7 @@ function chipGroup(el, options, selected, render = o => esc(o)) {
   return {get: () => [...sel], add: v => { arr(v).forEach(x => sel.add(x)); draw(); }, set: v => { sel = new Set(arr(v)); draw(); }};
 }
 function openEditor(orig, isNew = !orig) {
+  if (orig && orig.type === 'lernen') return openLearnEditor(orig, isNew);
   const dlg = $('#editor');
   const w = structuredClone(orig || {});
   let cat = w.category || 'kleidung';
@@ -546,6 +559,7 @@ function openEditor(orig, isNew = !orig) {
       <label class="row small" style="gap:8px">Aktiv <span class="sw"><input type="checkbox" id="eActive" ${w.active !== false ? 'checked' : ''}><i></i></span></label>
       <button type="button" class="btn ghost sm" id="eClose" aria-label="Schließen">✕</button></div>
     <div class="bd">
+      ${isNew ? '<div class="note acc row" style="margin-top:12px"><span class="grow">🧠 <b>Lern-Suche:</b> statt Filter einzustellen, schickst du Beispiel-Anzeigen und der Agent lernt selbst, was du suchst.</span><button type="button" class="btn sm" id="eToLearn">Lern-Suche anlegen</button></div>' : ''}
       <label class="f">Kategorie</label>
       <div class="seg" id="eCat">${Object.entries(CATS).map(([k, c]) => `<button type="button" data-v="${k}" aria-pressed="${k === cat}">${c.icon} ${c.label}</button>`).join('')}</div>
 
@@ -616,7 +630,7 @@ function openEditor(orig, isNew = !orig) {
           <label class="f">Uhrzeiten</label>
           <div class="chips timechips" id="eTimes"></div>
           <div class="row" style="margin-top:8px"><input type="time" id="eTimeIn" value="08:00" style="max-width:150px"><button type="button" class="btn sm" id="eTimeAdd">＋ Uhrzeit</button></div>
-          <div class="small muted" style="margin-top:6px">Der Agent schaut alle ~15 Min. vorbei – die Suche startet also bis zu 15 Min. nach dem Termin. Zeitzone: Wien.</div>
+          <div class="small muted" style="margin-top:6px">Der Agent schaut alle ~5–8 Min. vorbei – die Suche startet also kurz nach dem Termin. Zeitzone: Wien.</div>
         </div>
         <div class="note acc" id="eNext"></div>
       </div>
@@ -707,6 +721,7 @@ function openEditor(orig, isNew = !orig) {
   $('#eSizeAdd', dlg).onkeydown = e => { if (e.key === 'Enter') { e.preventDefault(); $('#eSizeAddBtn', dlg).click(); } };
 
   setCat(cat); setMode(mode); drawTimes();
+  if ($('#eToLearn', dlg)) $('#eToLearn', dlg).onclick = () => { dlg.close(); openLearnEditor(null, true); };
 
   const close = () => { dlg.close(); dlg.innerHTML = ''; };
   $('#eClose', dlg).onclick = close; $('#eCancel', dlg).onclick = close;
@@ -749,6 +764,97 @@ function openEditor(orig, isNew = !orig) {
   };
   dlg.showModal();
   if (isNew) $('#eName', dlg).focus();
+}
+
+/* ================================================================ Lern-Suche */
+const STRICT = [[0.85, 'Locker', 'mehr Treffer, auch ähnliche'], [1, 'Normal', ''], [1.15, 'Streng', 'nur sehr Ähnliches']];
+function profileHtml(entry, w) {
+  const p = entry && entry.profile;
+  if (!p) return `<div class="note">Noch keine Beispiele. So geht's:<ol class="steps small"><li>In Telegram an deinen Bot: <code>/lernen ${esc(w.name || 'Name')}</code></li><li>Links zu Vinted-Anzeigen schicken, die genau so sind, wie du sie suchst – am besten 20–40, auch teurere</li><li><code>/fertig</code> – der Agent zeigt, was er gelernt hat</li></ol></div>`;
+  const pct = (d, k) => Object.entries(d || {}).slice(0, k).map(([a, v]) => `<span class="badge">${esc(a)} ${Math.round(v * 100)} %</span>`).join(' ') || '–';
+  const words = Object.keys(p.weights || {}).filter(t => !t.includes(' ')).slice(0, 12);
+  const ex = (entry.examples || []).slice().reverse();
+  return `<div class="note acc">🧠 <b>${p.n} Beispiele</b>${p.n_neg ? `, ${p.n_neg} abgelehnt (👎)` : ''} · meldet ab <b>${Math.round(p.threshold * 100)} %</b> Ähnlichkeit</div>
+    <label class="f">Sucht selbst nach</label><div class="badges">${(p.queries || []).map(q => `<span class="badge acc">🔎 ${esc(q)}</span>`).join(' ') || '–'}</div>
+    <label class="f">Typische Wörter</label><div class="badges">${words.map(t => `<span class="badge">${esc(t)}</span>`).join(' ') || '–'}</div>
+    ${(p.avoid || []).length ? `<label class="f">Meidet (aus 👎)</label><div class="badges">${p.avoid.slice(0, 10).map(t => `<span class="badge warn">${esc(t)}</span>`).join(' ')}</div>` : ''}
+    <details style="margin-top:12px"><summary>Mehr anzeigen: Marken, Größen, Farben, Preise</summary>
+      <label class="f">Marken</label><div class="badges">${pct(p.brands, 4)}</div>
+      <label class="f">Größen</label><div class="badges">${pct(p.sizes, 8)}</div>
+      <label class="f">Farben</label><div class="badges">${pct(p.colors, 8)}</div>
+      <div class="small muted" style="margin-top:8px">Preise der Beispiele: ${euro(p.price.min)} – ${euro(p.price.max)} (Mitte ${euro(p.price.median)})</div>
+    </details>
+    <details style="margin-top:8px"><summary>Beispiele ansehen (${ex.length})</summary>
+      <div class="exgrid">${ex.map(x => `<a class="ex" href="${esc(x.url)}" target="_blank" rel="noopener">${x.photo ? `<img src="${esc(x.photo)}" alt="" loading="lazy" referrerpolicy="no-referrer">` : '<div class="noimg">👕</div>'}<span>${esc(x.title)}</span><b>${euro(x.price)}${x.source === 'telegram' ? ' · 👍' : ''}</b></a>`).join('')}</div>
+    </details>`;
+}
+function openLearnEditor(orig, isNew = !orig) {
+  const dlg = $('#editor');
+  const w = structuredClone(orig || {type: 'lernen', category: 'kleidung', active: true, vision: true, strictness: 1, schedule: {mode: 'live'}});
+  const entry = S.profiles[w.id] || null, learnedQ = (entry && entry.profile && entry.profile.queries) || [];
+  let strict = num(w.strictness, 1) || 1;
+  dlg.innerHTML = `<form class="sheet" method="dialog" novalidate>
+    <div class="hd"><h2>${isNew ? 'Neue Lern-Suche' : '🧠 Lern-Suche'}</h2>
+      <label class="row small" style="gap:8px">Aktiv <span class="sw"><input type="checkbox" id="lActive" ${w.active !== false ? 'checked' : ''}><i></i></span></label>
+      <button type="button" class="btn ghost sm" id="lClose" aria-label="Schließen">✕</button></div>
+    <div class="bd">
+      <label class="f" for="lName">Name <span class="hint">– damit wählst du sie in Telegram: /lernen Name</span></label>
+      <input type="text" id="lName" value="${esc(w.name || '')}" placeholder="z. B. RL Zopfstrick" ${isNew ? '' : 'readonly'}>
+      <div class="grid2">
+        <div><label class="f" for="lMax">Höchstpreis € <span class="hint">(Pflicht)</span></label><input type="number" id="lMax" min="0" value="${num(w.maxPrice) || ''}"></div>
+        <div><label class="f" for="lMin">ab €</label><input type="number" id="lMin" min="0" value="${num(w.minPrice) || ''}" placeholder="0"></div>
+      </div>
+      <div class="small muted" style="margin-top:6px">Die Beispiele dürfen teurer sein – gemeldet wird nur, was unter dem Höchstpreis liegt.</div>
+      <label class="f">Strenge</label>
+      <div class="seg" id="lStrict">${STRICT.map(([v, t, h]) => `<button type="button" data-v="${v}" aria-pressed="${Math.abs(v - strict) < 0.01}" title="${h}">${t}</button>`).join('')}</div>
+      <label class="row" style="margin-top:14px;gap:10px;cursor:pointer;flex-wrap:nowrap"><span class="sw"><input type="checkbox" id="lVision" ${w.vision !== false ? 'checked' : ''}><i></i></span><span><b>Bildprüfung mit Claude</b><br><span class="small muted">vergleicht das Titelbild mit deinen Beispielen · braucht den Schlüssel ANTHROPIC_API_KEY · ca. 0,03 Cent pro geprüftem Bild</span></span></label>
+      <div class="sec"><h3>Gelernt</h3>${profileHtml(entry, w)}</div>
+      <div class="sec"><h3>Suchbegriffe</h3>
+        <label class="row" style="margin-top:12px;gap:10px;cursor:pointer;flex-wrap:nowrap"><span class="sw"><input type="checkbox" id="lManual" ${w.queriesManual ? 'checked' : ''}><i></i></span><span><b>Eigene Suchbegriffe verwenden</b><br><span class="small muted">sonst nimmt er die gelernten</span></span></label>
+        <div id="lQWrap" style="margin-top:8px"><div class="tags" id="lQueries"></div></div>
+      </div>
+      <div class="err" id="lErr"></div>
+    </div>
+    <div class="ft">
+      ${!isNew ? '<button type="button" class="btn danger" id="lDel">🗑 Löschen</button>' : ''}
+      <span class="grow"></span>
+      <button type="button" class="btn" id="lCancel">Abbrechen</button>
+      <button type="submit" class="btn primary" id="lSave">${isNew ? 'Lern-Suche anlegen' : 'Speichern'}</button>
+    </div></form>`;
+  const qi = tagInput($('#lQueries', dlg), w.queriesManual ? w.queries : (learnedQ.length ? learnedQ : w.queries), 'Begriff eingeben, Enter');
+  const syncQ = () => { $('#lQWrap', dlg).hidden = !$('#lManual', dlg).checked; };
+  $('#lManual', dlg).onchange = syncQ; syncQ();
+  $('#lStrict', dlg).onclick = e => { const b = e.target.closest('button'); if (!b) return; strict = +b.dataset.v;
+    dlg.querySelectorAll('#lStrict button').forEach(x => x.setAttribute('aria-pressed', x === b)); };
+  const close = () => { dlg.close(); dlg.innerHTML = ''; };
+  $('#lClose', dlg).onclick = close; $('#lCancel', dlg).onclick = close;
+  dlg.onkeydown = e => { if (e.key === 'Escape') { e.preventDefault(); close(); } };
+  if ($('#lDel', dlg)) $('#lDel', dlg).onclick = e => {
+    const b = e.currentTarget;
+    if (!b.classList.contains('armed')) { b.classList.add('armed'); b.textContent = 'Wirklich löschen?'; return; }
+    guarded(b, () => saveWatch(list => list.filter(x => x.id !== w.id), `Lern-Suche gelöscht: ${w.name}`), `„${w.name}“ gelöscht`).then(ok => ok && close());
+  };
+  $('form', dlg).onsubmit = e => {
+    e.preventDefault();
+    const err = m => { $('#lErr', dlg).textContent = m; };
+    const name = $('#lName', dlg).value.trim();
+    if (!name) return err('Bitte einen Namen eingeben.');
+    const out = {...w, name, type: 'lernen', active: $('#lActive', dlg).checked, maxPrice: num($('#lMax', dlg).value),
+      minPrice: num($('#lMin', dlg).value), vision: $('#lVision', dlg).checked, strictness: strict,
+      queriesManual: $('#lManual', dlg).checked, schedule: {mode: 'live'}};
+    out.queries = out.queriesManual ? qi.get() : (w.queries || []);
+    if (!out.maxPrice) return err('Bitte einen Höchstpreis angeben.');
+    if (out.queriesManual && !out.queries.length) return err('Eigene Suchbegriffe: bitte mindestens einen eingeben.');
+    if (isNew) { const ids = new Set(S.watch.map(x => x.id)); let id = slug(name).slice(0, 30); while (ids.has(id)) id += '-2'; out.id = id;
+      if (S.watch.some(x => x.type === 'lernen' && x.name.toLowerCase() === name.toLowerCase())) return err('Es gibt schon eine Lern-Suche mit diesem Namen.'); }
+    guarded($('#lSave', dlg), () => saveWatch(list => {
+      const i = list.findIndex(x => x.id === out.id);
+      if (i >= 0 && !isNew) list[i] = out; else list.push(out);
+      return list;
+    }, `${isNew ? 'Neue Lern-Suche' : 'Lern-Suche geändert'}: ${name}`), isNew ? `„${name}“ angelegt – jetzt in Telegram /lernen ${name} schicken` : 'Gespeichert ✓').then(ok => ok && close());
+  };
+  dlg.showModal();
+  if (isNew) $('#lName', dlg).focus();
 }
 
 /* ================================================================ Start */

@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 tmp = tempfile.mkdtemp()
-shutil.copy(os.path.join(ROOT, 'agent.py'), tmp)
+shutil.copy(os.path.join(ROOT, 'agent.py'), tmp); shutil.copy(os.path.join(ROOT, 'learn.py'), tmp)
 os.environ.update(TELEGRAM_BOT_TOKEN='TEST', TELEGRAM_CHAT_ID='42')
 sys.path.insert(0, tmp)
 import agent
