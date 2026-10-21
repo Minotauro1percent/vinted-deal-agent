@@ -29,12 +29,20 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
+      - name: Einmaliger Test (nur solange tools/probe.py existiert)
+        if: hashFiles('tools/probe.py') != '' && hashFiles('debug/debug.log') == ''
+        continue-on-error: true
+        run: |
+          mkdir -p debug
+          timeout 120 python3 tools/probe.py > debug/debug.log 2>&1 || true
+
       - name: Zustand speichern
         if: always()
         run: |
           git config user.name "deal-agent"
           git config user.email "deal-agent@users.noreply.github.com"
           git add state.json watchlist.json settings.json last_run.txt
+          [ -d debug ] && git add debug || true
           if ! git diff --cached --quiet; then
             git commit -m "Zustand aktualisiert [skip ci]"
             git pull --rebase --autostash || true
