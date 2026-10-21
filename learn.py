@@ -25,9 +25,12 @@ pieces pièces voir photos photo bonne qualite qualité vends vend super belle b
 spedizione veloce vendo foto prezzo trattabile ottime ottimo condizioni
 shipping fast sale selling price photos please check other items bundle
 casual style tenue look outfit parfait parfaite idéal ideal
+pas avant hesitez hésitez largeur longueur mesure mesures epaule épaule aisselle aisselles dos manches manche sous plus tres très etat état bon bonne neuf jamais peu
+nicht noch kaum mal gerne einfach ganz siehe bild bilder länge breite achsel schulter
 '''.split())
 # Allgemeine Kleidungswörter: helfen nicht beim Unterscheiden (Zopfpulli vs. glatter Pulli)
 GENERIC = set('''
+logo brode brodee embroidered bestickt stick col rond neck crew ausschnitt rundhals collo
 pullover pulli pull sweater sweatshirt jumper maglione maglia jersey strickpullover herren damen homme femme men women man woman
 kinder kids enfant uomo donna size taille grosse groesse original originale
 '''.split())
@@ -126,7 +129,8 @@ def build_profile(examples, negatives=(), background=None, strictness=1.0):
             weights[t] = round(base * p, 4)
     weights = dict(sorted(weights.items(), key=lambda kv: -kv[1])[:80])
     # Wörter, die nur bei 👎 vorkommen (mind. 2×) und nie in den Beispielen → sprechen gegen eine Anzeige
-    avoid = sorted(t for t, c in neg_df.items() if c >= 2 and ' ' not in t and not tok_df.get(t) and t not in brand_words)[:40]
+    avoid = sorted(t for t, c in neg_df.items() if c >= 2 and ' ' not in t and not tok_df.get(t)
+                   and t not in brand_words and t not in color_words and t not in GENERIC)[:40]
     prof = {
         'n': n, 'n_neg': len(negatives),
         'brands': _share(brands, n), 'categories': _share(cats, n), 'sizes': _share(sizes, n), 'colors': _share(colors, n), 'conditions': _share(conds, n),
@@ -231,8 +235,8 @@ def score(prof, it, detail=False):
         s *= 0.5
         parts['meidet'] = hits[:3]
     # Kategorie, die bei den Beispielen nie vorkommt (z. B. Damen statt Herren), obwohl die Beispiele einheitlich sind
-    if parts.get('kategorie') == 0.0 and max(prof['categories'].values()) >= 0.6:
-        s *= 0.6
+    if parts.get('kategorie') == 0.0 and (max(prof['categories'].values()) >= 0.6 or prof['n'] >= 5):
+        s *= 0.55                                   # Kategorie kommt bei keinem Beispiel vor (z. B. T-Shirt statt Pullover)
     # Größe außerhalb dessen, was die Beispiele haben (nur wenn die Beispiele wenige Größen abdecken)
     if parts.get('größe') == 0.0 and len(prof['sizes']) <= 6:
         s *= 0.6
@@ -291,7 +295,7 @@ def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, time
         'Wie gut passt die neue Anzeige zu den Beispielen? Achte auf Art des Artikels, Muster/Strick, Schnitt, Logo, '
         'Material und Stil – nicht auf Farbe, Hintergrund oder Fotoqualität. ' + (f'Gesucht wird: {desc_hint}. ' if desc_hint else '') +
         'Antworte nur mit JSON: {"score": 0-100, "grund": "max. 8 Wörter"}')})
-    body = {'model': VISION_MODEL, 'max_tokens': 60, 'messages': [{'role': 'user', 'content': content}]}
+    body = {'model': VISION_MODEL, 'max_tokens': 400, 'messages': [{'role': 'user', 'content': content}]}
     req = urllib.request.Request('https://api.anthropic.com/v1/messages', data=json.dumps(body).encode(), headers={
         'x-api-key': api_key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json'})
     try:
@@ -302,6 +306,21 @@ def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, time
     u = res.get('usage', {})
     cost = (u.get('input_tokens', 0) * PRICE_IN + u.get('output_tokens', 0) * PRICE_OUT) / 1e6
     text = ''.join(c.get('text', '') for c in res.get('content', []) if c.get('type') == 'text')
-    m = re.search(r'\{.*\}', text, re.S)
-    data = json.loads(m.group(0)) if m else {}
-    return max(0, min(100, int(float(data.get('score', 0))))), str(data.get('grund', ''))[:80], cost
+    # Antwort lesen – robust: JSON, sonst erste Zahl. Nicht lesbar → None (dann entscheidet das Bild nicht).
+    score, why = None, ''
+    m = re.search(r'\{.*?\}', text, re.S)
+    if m:
+        try:
+            data = {k.lower(): v for k, v in json.loads(m.group(0)).items()}
+            score = int(float(data.get('score', data.get('punkte', data.get('wert')))))
+            why = str(data.get('grund', data.get('reason', '')))
+        except (ValueError, TypeError, json.JSONDecodeError):
+            score = None
+    if score is None:
+        n = re.search(r'\b(\d{1,3})\b', text)
+        if n:
+            score = int(n.group(1))
+    if score is None:
+        why = 'unlesbare Antwort: ' + re.sub(r'\s+', ' ', text)[:150] + f" (stop={res.get('stop_reason')})"
+        return None, why, cost
+    return max(0, min(100, score)), why[:80], cost

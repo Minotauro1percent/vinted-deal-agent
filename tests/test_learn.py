@@ -71,4 +71,17 @@ small = learn.build_profile(POS[:3], background=bg)
 check(small and small['queries'] and learn.score(small, good, True)['score'] >= small['threshold'], 'Schon mit 3 Beispielen brauchbar')
 u = 'https://images1.vinted.net/t/01_abc/f800/1700000.webp?s=x'
 check(learn.small_image(u) == u, 'Signierte Bild-URL bleibt unverändert')
+
+# Bildprüfung: Antwort robust auslesen (ohne Netz)
+import io, json as _json
+class _R:
+    def __init__(self, text): self.b = _json.dumps({'content': [{'type': 'text', 'text': text}], 'usage': {'input_tokens': 2000, 'output_tokens': 30}, 'stop_reason': 'end_turn'}).encode()
+    def read(self): return self.b
+    def __enter__(self): return self
+    def __exit__(self, *a): pass
+for text, want in [('{"score": 82, "grund": "Zopfstrick"}', 82), ('```json\n{"Score": 40, "Grund": "glatt"}\n```', 40),
+                   ('Bewertung: 15 – kein Zopfmuster', 15), ('Ich kann das nicht beurteilen.', None)]:
+    learn.urllib.request.urlopen = lambda req, timeout=40, _t=text: _R(_t)
+    sc, why, cost = learn.vision_score('k', ['https://x/a.jpg'], 'https://x/b.jpg', fetch=lambda u: b'\xff\xd8\xff' + b'0' * 10)
+    check(sc == want and cost > 0, f'Bildprüfung liest „{text[:25]}…“ → {sc}')
 print('\nALLE LERN-TESTS BESTANDEN' if ok else '\nES GIBT FEHLER'); sys.exit(0 if ok else 1)

@@ -986,9 +986,15 @@ def run_learned(w, state, settings, seen, first_done, profs):
                 vs, why, cost = learn.vision_score(ANTHROPIC_KEY, example_photos(entry), it['thumb'], w['name'], fetch=fetch_bytes)
                 v = state['vision']; v['n'] += 1; v['usd'] += cost; v['total_usd'] = v.get('total_usd', 0) + cost
                 need = 75 if rescue else int(fnum(settings.get('vision_min'), 60))
-                if vs < need:
+                if vs is None:                             # Antwort nicht lesbar → Bild entscheidet nicht
+                    log(f"Bildprüfung {it['id']}: {why}")
+                    if rescue:
+                        continue
+                elif vs < need:
                     log(f"Bildprüfung verwirft {it['id']} ({vs}: {why})"); continue
-                vis = f' · Bild {vs} %' + (f' ({esc(why)})' if why else '')
+                else:
+                    log(f"Bildprüfung ok {it['id']} ({vs}: {why})")
+                    vis = f' · Bild {vs} %' + (f' ({esc(why)})' if why else '')
             except Exception as e:
                 log('Bildprüfung fehlgeschlagen:', str(e)[:200])
                 if rescue:
