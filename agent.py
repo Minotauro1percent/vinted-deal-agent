@@ -42,7 +42,8 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
       'Chrome/129.0.0.0 Safari/537.36')
 
 DEFAULT_SETTINGS = {'enabled': True, 'default_interval_min': 60, 'first_run_max': 3, 'shipping_est': 5.0,
-                    'max_per_run': 15, 'force_all': 0, 'force': {}, 'vision_daily_max': 150, 'vision_min': 60}
+                    'max_per_run': 15, 'force_all': 0, 'force': {}, 'vision_daily_max': 150, 'vision_min': 60,
+                    'night_mode': False, 'night_max': 3}
 
 RUN_LOG = []
 
@@ -502,6 +503,7 @@ HELP = ("<b>Vinted Deal-Agent – Befehle</b>\n"
         "/lernen Name 20 – Lern-Suche „Name“ (bis 20 €) anlegen oder wählen, danach einfach Vinted-Links schicken\n"
         "/fertig – Lernen beenden, Zusammenfassung anzeigen\n"
         "/profil – was die Lern-Suchen gelernt haben\n"
+        "/nightmode – Nachtmodus: alle Suchen nur stündlich, höchstens 3 Artikel pro Stunde (/nightmode 5 für 5, /nightmode aus)\n"
         "👍 / 👎 unter einem Treffer – er lernt daraus\n\n"
         "Suchen, Größen, Farben und Zeitpläne bequem einstellen: in der Web-Oberfläche.\n"
         "Befehle werden beim nächsten Lauf verarbeitet (meist nach wenigen Minuten).")
@@ -510,7 +512,7 @@ BOT_COMMANDS = [('start', 'Agent einschalten'), ('stop', 'Agent pausieren'), ('s
                 ('suche', 'jetzt suchen'), ('liste', 'Suchen anzeigen'), ('limit', 'Max-Preis ändern: /limit 2 90'),
                 ('an', 'Suche einschalten: /an 3'), ('aus', 'Suche ausschalten: /aus 3'),
                 ('lernen', 'Lern-Suche: /lernen Name 20, dann Links schicken'), ('fertig', 'Lernen beenden'),
-                ('profil', 'Gelerntes anzeigen'), ('hilfe', 'Hilfe')]
+                ('profil', 'Gelerntes anzeigen'), ('nightmode', 'Nachtmodus an/aus: /nightmode, /nightmode aus'), ('hilfe', 'Hilfe')]
 
 def fmt_time(ts):
     if not ts:
@@ -563,12 +565,25 @@ def handle_commands(state, settings, raw_watch, now):
         elif cmd == '/suche':
             settings['force_all'] = int(now); sch = True
             send('🔎 Alle Suchen werden jetzt ausgeführt' + ('.' if settings['enabled'] else ' (Agent bleibt pausiert).'))
+        elif cmd in ('/nightmode', '/nachtmodus'):
+            arg = (args[0].lower() if args else '')
+            if arg in ('aus', 'off', '0', 'stop'):
+                settings['night_mode'] = False
+                send('☀️ Nachtmodus aus. Alle Suchen laufen wieder nach ihrem eigenen Zeitplan.')
+            else:
+                if arg.isdigit() and int(arg) > 0:
+                    settings['night_max'] = int(arg)
+                settings['night_mode'] = True
+                send(f"🌙 Nachtmodus an: alle Suchen nur noch stündlich, höchstens {int(fnum(settings.get('night_max'), 3))} Artikel pro Stunde "
+                     '(die besten zuerst). Ausschalten mit /nightmode aus')
+            sch = True
         elif cmd == '/status':
             ws = [compile_watch(w) for w in raw_watch]
             act = [w for w in ws if w['active']]
             nxt = sorted((next_run_ts(w, settings, state, now) or 0, w['name']) for w in act)
             nxt_txt = '\n'.join(f"• {fmt_time(t)} – {esc(n)}" for t, n in nxt[:5] if t) or '–'
-            send(f"{'▶️ Läuft' if settings['enabled'] else '⏸ Pausiert'}\n"
+            send(f"{'▶️ Läuft' if settings['enabled'] else '⏸ Pausiert'}"
+                 + (f" · 🌙 Nachtmodus (stündlich, max. {int(fnum(settings.get('night_max'), 3))} Artikel)" if settings.get('night_mode') else '') + "\n"
                  f"Letzte Suche: {fmt_time(state['last_search'])}\n"
                  f"Aktive Suchen: {len(act)} von {len(ws)}\n"
                  f"Deals letzte Suche: {state['stats']['last_deals']} · gesamt: {state['stats']['deals']}\n\n"
@@ -615,9 +630,18 @@ def handle_commands(state, settings, raw_watch, now):
     return wch, sch
 
 # ---------------------------------------------------------------- Suche
+def night_cap(cap, state):
+    left = state.get('_night_left')
+    return cap if left is None else min(cap, left)
+
+def night_used(state, n):
+    if state.get('_night_left') is not None:
+        state['_night_left'] = max(0, state['_night_left'] - n)
+        state['night_sent'] = int(state.get('night_sent', 0)) + n
+
 def run_one(w, state, settings, seen, first_done):
     first = w['id'] not in first_done
-    cap = int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15))
+    cap = night_cap(int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15)), state)
     shipping = fnum(settings.get('shipping_est'), 5.0)
     sent = 0
     key = lambda iid: f"{w['id']}|{iid}"
@@ -659,6 +683,7 @@ def run_one(w, state, settings, seen, first_done):
             seen.add(it['id'])
             sent += 1
     first_done.add(w['id'])
+    night_used(state, sent)
     return sent
 
 def due_watches(watch, state, settings, now):
@@ -918,7 +943,7 @@ def run_learned(w, state, settings, seen, first_done, profs):
     if not w['maxPrice']:
         log(f"{w['name']}: kein Höchstpreis gesetzt"); return 0
     first = w['id'] not in first_done
-    cap = int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15))
+    cap = night_cap(int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15)), state)
     shipping = fnum(settings.get('shipping_est'), 5.0)
     thr = prof['threshold']
     can_see = w['vision'] and vision_ok(state, settings)
@@ -1010,6 +1035,7 @@ def run_learned(w, state, settings, seen, first_done, profs):
     if len(state['sent_feat']) > 400:
         state['sent_feat'] = dict(sorted(state['sent_feat'].items(), key=lambda kv: -kv[1]['t'])[:300])
     first_done.add(w['id'])
+    night_used(state, sent)
     return sent
 
 # ---------------------------------------------------------------- Hauptablauf
@@ -1029,9 +1055,12 @@ def main():
         tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
         state['commands_set'] = True
         send('🤖 Deal-Agent läuft jetzt in der Cloud (GitHub).\n\n' + HELP)
-    if state.get('commands_version') != 3 and state.get('commands_set') and not DRY_RUN:
+    if state.get('commands_version') == 3 and not DRY_RUN:          # Befehlsliste um /nightmode ergänzen
         tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
-        state['commands_version'] = 3
+        state['commands_version'] = 4
+    if state.get('commands_version') not in (3, 4) and state.get('commands_set') and not DRY_RUN:
+        tg('setMyCommands', {'commands': [{'command': c, 'description': d} for c, d in BOT_COMMANDS]})
+        state['commands_version'] = 4
         send('🧠 Neu: Lern-Suchen. Mit /lernen Name 20 anlegen und dann einfach Vinted-Links schicken – '
              'der Agent lernt daraus selbst Suchbegriffe und Merkmale. Unter Treffern kannst du mit 👍/👎 nachschärfen. /hilfe zeigt alles.')
 
@@ -1054,11 +1083,25 @@ def main():
             rebuild(profs, w['id'], w, state)
 
     todo = due_watches(raw_watch, state, settings, now)
+    if settings.get('night_mode') and settings['enabled']:
+        forced = [(w, f) for w, f in todo if f]
+        if now - state.get('night_last', 0) >= 3600 - TOLERANCE_S:          # neue Stunde: alle aktiven Suchen, Zähler zurück
+            ids = {w['id'] for w, _ in forced}
+            todo = forced + [(w, False) for w in (compile_watch(x) for x in raw_watch) if w['active'] and w['id'] not in ids]
+            state['night_last'] = int(now); state['night_sent'] = 0
+        else:
+            todo = forced                                                   # dazwischen nur „Jetzt suchen“
+        todo.sort(key=lambda wf: wf[0]['type'] != 'lernen')                 # Lern-Suchen zuerst (beste Treffer)
+        state['_night_left'] = max(0, int(fnum(settings.get('night_max'), 3)) - int(state.get('night_sent', 0)))
+        if todo:
+            log(f"Nachtmodus: {len(todo)} Suche(n), noch {state['_night_left']} Artikel in dieser Stunde")
     if todo:
         seen, first_done = set(state['seen']), set(state['first_run_done'])
         total = 0
         try:
             for w, forced in todo:
+                if state.get('_night_left') == 0:
+                    log('Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde'); break
                 log(f"Suche „{w['name']}“" + (' (sofort)' if forced else ''))
                 if w['type'] == 'lernen':
                     total += run_learned(w, state, settings, seen, first_done, profs)
@@ -1084,6 +1127,7 @@ def main():
     else:
         log('Keine Suche fällig' if settings['enabled'] else 'Pausiert')
 
+    state.pop('_night_left', None)
     # aufräumen: Zustand gelöschter Suchen entfernen
     ids = {compile_watch(w)['id'] for w in raw_watch}
     state['watch_last'] = {k: v for k, v in state['watch_last'].items() if k in ids}

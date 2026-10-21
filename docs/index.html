@@ -109,6 +109,8 @@ input:focus,select:focus,.tags:focus-within{outline:2px solid color-mix(in srgb,
 .watch.newtile{border-style:dashed;align-items:center;justify-content:center;text-align:center;cursor:pointer;min-height:180px;gap:6px;color:var(--ink);font:inherit}
 .watch.newtile:hover{background:var(--acc-soft)}
 .card h2 .btn{font-weight:500}
+.pill.night{background:#2a2550;color:#c9c2ff}
+select.inline{width:auto;min-height:0;padding:1px 4px;display:inline-block;font-size:13px}
 /* Editor */
 dialog{border:0;padding:0;background:transparent;color:var(--ink);max-width:none;max-height:none;width:100%;height:100%;margin:0}
 dialog::backdrop{background:rgba(10,12,16,.55)}
@@ -194,7 +196,7 @@ const INTERVALS = [[15, 'alle 15 Min.'], [30, 'alle 30 Min.'], [45, 'alle 45 Min
   [180, 'alle 3 Std.'], [240, 'alle 4 Std.'], [360, 'alle 6 Std.'], [720, 'alle 12 Std.'], [1440, 'einmal am Tag']];
 const WD = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
 const TZ = 'Europe/Vienna';
-const DEFAULT_SETTINGS = {enabled: true, default_interval_min: 60, first_run_max: 3, shipping_est: 5, max_per_run: 15, force_all: 0, force: {}};
+const DEFAULT_SETTINGS = {enabled: true, default_interval_min: 60, first_run_max: 3, shipping_est: 5, max_per_run: 15, force_all: 0, force: {}, night_mode: false, night_max: 3};
 
 /* ================================================================ Hilfen */
 const $ = (s, el = document) => el.querySelector(s);
@@ -410,7 +412,8 @@ function watchMeta(w, noPrice) {
 function render() {
   const st = S.settings, state = S.state;
   $('#addBtn').hidden = false; $('#reloadBtn').hidden = false;
-  $('#statusPill').innerHTML = st.enabled ? '<span class="pill on"><span class="dot"></span>Läuft</span>' : '<span class="pill off"><span class="dot"></span>Pausiert</span>';
+  $('#statusPill').innerHTML = (st.enabled ? '<span class="pill on"><span class="dot"></span>Läuft</span>' : '<span class="pill off"><span class="dot"></span>Pausiert</span>')
+    + (st.enabled && st.night_mode ? ' <span class="pill night">🌙 Nacht</span>' : '');
   const stats = state.stats || {};
   const active = S.watch.filter(w => w.active !== false);
   const lr = lastRunTs();
@@ -437,6 +440,9 @@ function render() {
     </div>
     ${(state.vision || {}).total_usd ? `<div class="small muted" style="margin-bottom:6px">🖼 Bildprüfung heute: ${num(state.vision.n)} Bilder · ca. ${(num(state.vision.usd) * 100).toFixed(2).replace('.', ',')} US-Cent · gesamt ${(num(state.vision.total_usd) * 100).toFixed(1).replace('.', ',')} US-Cent</div>` : ''}
     ${nexts.length ? `<div class="small"><b>Als Nächstes:</b> ${nexts.slice(0, 3).map(([t, w]) => `${esc(fmtWhen(t))} – ${esc(w.name)}`).join(' · ')}</div>` : ''}
+    <label class="row nightrow" style="margin-top:4px;gap:10px;cursor:pointer;flex-wrap:nowrap"><span class="sw"><input type="checkbox" id="nightSw" ${st.night_mode ? 'checked' : ''} aria-label="Nachtmodus"><i></i></span>
+      <span class="grow"><b>🌙 Nachtmodus</b> <span class="small muted">– alle Suchen nur stündlich, höchstens
+      <select id="nightMax" class="inline" aria-label="Artikel pro Stunde">${[1, 2, 3, 5, 10].map(n => `<option ${num(st.night_max, 3) === n ? 'selected' : ''}>${n}</option>`).join('')}</select> Artikel pro Stunde</span></span></label>
     <div class="row" style="margin-top:12px">
       <button class="btn" id="allNow" ${allPending ? 'disabled' : ''}>${allPending ? '⏳ Wartet auf nächsten Lauf' : '▶ Alle jetzt suchen'}</button>
       <span class="small muted grow">Änderungen gelten ab dem nächsten Lauf (meist nach wenigen Minuten).</span>
@@ -485,6 +491,11 @@ function render() {
       <button class="btn ghost sm" id="logout">Abmelden</button></div>
   </section>`;
 
+  $('#nightSw').onchange = e => { const v = e.target.checked;
+    guarded(null, () => saveSettings(s => ({...s, night_mode: v}), v ? 'Nachtmodus an' : 'Nachtmodus aus'), v ? 'Nachtmodus an 🌙' : 'Nachtmodus aus ☀️').then(ok => { if (!ok) render(); }); };
+  $('#nightMax').onclick = e => e.preventDefault();
+  $('#nightMax').onchange = e => { const n = +e.target.value;
+    guarded(null, () => saveSettings(s => ({...s, night_max: n}), `Nachtmodus: ${n} pro Stunde`), `Nachtmodus: höchstens ${n} pro Stunde`).then(ok => { if (!ok) render(); }); };
   $('#enSw').onchange = e => { const v = e.target.checked;
     guarded(null, () => saveSettings(s => ({...s, enabled: v}), v ? 'Agent eingeschaltet' : 'Agent pausiert'), v ? 'Agent eingeschaltet ▶' : 'Agent pausiert ⏸').then(ok => { if (!ok) render(); }); };
   $('#allNow').onclick = e => guarded(e.currentTarget, () => saveSettings(s => ({...s, force_all: nowS()}), 'Alle Suchen jetzt ausführen'), 'Alle Suchen laufen beim nächsten Lauf');

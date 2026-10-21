@@ -174,6 +174,19 @@ const check = (c, label) => { console.log((c ? 'PASS ' : 'FAIL ') + label); ok =
   await page.screenshot({path: path.join(OUT, '8-dunkel-editor.png')});
   await page.click('#eCancel');
 
+  // 8b) Nachtmodus-Schalter
+  await page.setViewportSize({width: 1100, height: 900});
+  await page.locator('label.nightrow .sw').click();
+  for (let i = 0; i < 50 && J('settings.json').night_mode !== true; i++) await page.waitForTimeout(100);
+  check(J('settings.json').night_mode === true, 'Nachtmodus per Schalter an');
+  await page.selectOption('#nightMax', '5');
+  for (let i = 0; i < 50 && J('settings.json').night_max !== 5; i++) await page.waitForTimeout(100);
+  check(J('settings.json').night_max === 5 && J('settings.json').night_mode === true, 'Nachtmodus: Limit 5 gespeichert');
+  await page.screenshot({path: path.join(OUT, '11-nachtmodus.png')});
+  await page.locator('label.nightrow .sw').click();
+  for (let i = 0; i < 50 && J('settings.json').night_mode !== false; i++) await page.waitForTimeout(100);
+  check(J('settings.json').night_mode === false, 'Nachtmodus per Schalter aus');
+
   // 9) Lern-Suche: Kachel, Editor mit Gelerntem, neue Lern-Suche anlegen
   await page.emulateMedia({colorScheme: 'light'});
   const wl9 = J('watchlist.json');

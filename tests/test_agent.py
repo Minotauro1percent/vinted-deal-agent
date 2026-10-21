@@ -224,5 +224,34 @@ write(agent.WATCH_FILE, [x for x in wl() if x['id'] != 'moon-boot'])
 s = run()
 check('moon-boot' not in s['watch_last'], 'Gelöschte Suche aus Zustand entfernt')
 
+
+# ------------------------------------------------------------------ 8) Nachtmodus
+w8 = wl()
+for x in w8:
+    x['active'] = True
+write(agent.WATCH_FILE, w8)
+CARDS['ralph'] += [card(str(150 + i), f'Polo Ralph Lauren Zopfstrick {i}, Marke: Polo Ralph Lauren, Zustand: Sehr gut, Größe: M, 15.00 €, 16.45 €', f'/items/{150 + i}-rl') for i in range(5)]
+for i in range(5):
+    DETAIL[f'/items/{150 + i}-rl'] = ('Zopfstrick', 'Blau', '')
+updates.append(msg(40, '/nightmode'))
+NOW[0] += 600
+s = run()
+check(st()['night_mode'] is True and any('Nachtmodus an' in x for x in texts()), '/nightmode schaltet ein')
+check(len(photos()) <= 3, f'Nachtmodus: höchstens 3 Artikel in der Stunde ({len(photos())})')
+n1 = len(photos())
+NOW[0] += 900; s = run()
+check(not any(r.startswith('/catalog') for r in requests), 'Nachtmodus: 15 Min. später keine Suche')
+x = st(); x['force'] = {**x.get('force', {}), 'barbour': int(NOW[0])}; write(agent.SETTINGS_FILE, x)
+s = run()
+check(len(photos()) + n1 <= 3, 'Nachtmodus: auch „Jetzt suchen“ bleibt im Stundenlimit')
+NOW[0] += 3600; s = run()
+check(any(r.startswith('/catalog') for r in requests) and len(photos()) <= 3, 'Nächste Stunde: wieder bis zu 3')
+updates.append(msg(41, '/status')); NOW[0] += 60; s = run()
+check(any('🌙 Nachtmodus' in x for x in texts()), '/status zeigt Nachtmodus')
+updates.append(msg(42, '/nightmode 5')); NOW[0] += 60; s = run()
+check(st()['night_max'] == 5, '/nightmode 5 setzt Limit 5')
+updates.append(msg(43, '/nightmode aus')); NOW[0] += 60; s = run()
+check(st()['night_mode'] is False and any('Nachtmodus aus' in x for x in texts()), '/nightmode aus schaltet aus')
+
 print('\nALLE TESTS BESTANDEN' if ok else '\nES GIBT FEHLER')
 sys.exit(0 if ok else 1)
