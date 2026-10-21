@@ -19,6 +19,17 @@ the and with for from size new good very worn used only like perfect condition g
 le la les des du de et avec pour taille très tres bon etat état neuf porté porte un une
 il lo gli della con per taglia molto buono nuovo usato e di da
 st cm eur euro preis versand vb fest bitte gerne frage fragen keine tausch
+verkaufe verkauf schnell schneller sofort abholung privatverkauf rücknahme ruecknahme garantie tierfreier rauchfreier haushalt
+envoi rapide soigne soigné couleur porter sur mes autres articles annonce annonces achat lot prix negociable négociable dispo
+pieces pièces voir photos photo bonne qualite qualité vends vend super belle beau
+spedizione veloce vendo foto prezzo trattabile ottime ottimo condizioni
+shipping fast sale selling price photos please check other items bundle
+casual style tenue look outfit parfait parfaite idéal ideal
+'''.split())
+# Allgemeine Kleidungswörter: helfen nicht beim Unterscheiden (Zopfpulli vs. glatter Pulli)
+GENERIC = set('''
+pullover pulli pull sweater sweatshirt jumper maglione maglia jersey strickpullover herren damen homme femme men women man woman
+kinder kids enfant uomo donna size taille grosse groesse original originale
 '''.split())
 SIZE_ALIASES = {'xxs': 'xxs', 'xs': 'xs', 's': 's', 'm': 'm', 'l': 'l', 'xl': 'xl', 'xxl': 'xxl', '2xl': 'xxl', 'xxxl': 'xxxl', '3xl': 'xxxl'}
 CONDITION_RANK = {'neu mit etikett': 5, 'neu, mit etikett': 5, 'neu': 4, 'sehr gut': 3, 'gut': 2, 'zufriedenstellend': 1}
@@ -89,6 +100,9 @@ def build_profile(examples, negatives=(), background=None, strictness=1.0):
     brand_words = set()
     for b in brands:
         brand_words |= set(re.findall(r'[a-z0-9]+', b))
+    color_words = {w for c in colors for w in re.findall(r'[a-z]+', c)} | set(
+        'schwarz weiss grau blau rot grun beige braun creme rosa pink lila gelb orange navy black white grey gray blue red green brown '
+        'noir blanc gris bleu rouge vert marron nero bianco grigio blu rosso verde ecru'.split())
     neg_df = Counter()
     for e in negatives:
         neg_df.update(tokens(f"{e.get('title', '')} {e.get('desc', '')}"))
@@ -97,8 +111,8 @@ def build_profile(examples, negatives=(), background=None, strictness=1.0):
     for t, df in tok_df.items():
         if df < 2 and n >= 4:
             continue
-        if set(t.split()) <= brand_words:
-            continue                               # Marke zählt separat, nicht als „typisches Wort“
+        if set(t.split()) <= brand_words | GENERIC | color_words:
+            continue                               # Marke und allgemeine Wörter („Pullover“) zählen nicht als „typisch“
         p = (df + 0.5) / (n + 1)
         q = (bg.get(t, 0) + 0.5) / (n_bg + 1)
         # Grundgewicht = wie oft das Wort in den Beispielen vorkommt; Bonus (bis 4×), wenn es in normalen Anzeigen selten ist.
@@ -121,6 +135,7 @@ def build_profile(examples, negatives=(), background=None, strictness=1.0):
                   'max': prices[-1] if prices else 0},
         'weights': weights, 'brand_words': sorted(brand_words), 'avoid': avoid,
         'queries': make_queries(title_ngrams, brands, n),
+        'broad_queries': make_queries(title_ngrams, brands, n, distinctive=False, limit=2),
         'strictness': strictness,
     }
     # Selbstkalibrierung: Text-Rohwerte der Beispiele (ohne sich selbst wäre genauer, reicht so)
@@ -146,11 +161,12 @@ def _ngrams(title):
                 out.add(' '.join(g))
     return out
 
-def make_queries(title_ngrams, brands, n, limit=4):
-    """Suchbegriffe aus den häufigsten Wortgruppen der Titel, bei Bedarf mit der Hauptmarke davor."""
+def make_queries(title_ngrams, brands, n, limit=4, distinctive=True):
+    """Suchbegriffe aus den häufigsten Wortgruppen der Titel, bei Bedarf mit der Hauptmarke davor.
+    distinctive=True: nur Wortgruppen mit einem besonderen Wort (z. B. „cable knit“, „torsade“) – nicht nur „ralph lauren pullover“."""
     top_brand = brands.most_common(1)[0][0] if brands else ''
-    brand_words = set(re.findall(r'[a-z0-9]+', top_brand))
-    min_df = max(2, math.ceil(n * 0.15)) if n >= 4 else 1
+    brand_words = {w for b in brands for w in re.findall(r'[a-z0-9]+', b)}
+    min_df = max(2, math.ceil(n * 0.1)) if n >= 4 else 1
     cands = [(g, c) for g, c in title_ngrams.items() if c >= min_df]
     cands.sort(key=lambda gc: (-gc[1], -len(gc[0])))
     out = []
@@ -158,14 +174,19 @@ def make_queries(title_ngrams, brands, n, limit=4):
         words = set(g.split())
         if words <= brand_words:
             continue                               # nur die Marke allein ist zu breit
+        special = words - brand_words - GENERIC - STOP
+        if distinctive and not special:
+            continue
+        if not distinctive and special:
+            continue
         q = g if words & brand_words or not top_brand else f'{_short_brand(top_brand)} {g}'
         if any(q in o or o in q for o in out):
             continue
         out.append(q)
         if len(out) >= limit:
             break
-    if not out and top_brand:
-        out = [top_brand]
+    if not out and top_brand and not distinctive:
+        out = [_short_brand(top_brand)]
     return out
 
 def _short_brand(b):

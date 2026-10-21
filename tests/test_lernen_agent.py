@@ -105,7 +105,7 @@ check(wl and wl[0]['type'] == 'lernen' and wl[0]['maxPrice'] == 20 and wl[0]['sc
 profs = json.load(open(agent.PROFILES_FILE))
 p = profs['rl-zopf']['profile']; ex = profs['rl-zopf']['examples']
 check(len(ex) == 6, f'6 Beispiele gelernt, gelöschte Anzeige übersprungen: {len(ex)}')
-print('EX0', {k: ex[0][k] for k in ('brand','size','price','category','title')}); check(ex[0]['brand'] == 'ralph lauren' and ex[0]['size'] == 'M' and ex[0]['price'] == 55 and ex[0]['category'] == 'Herren Strickpullover', 'Felder aus Anzeigenseite: Marke, Größe, Preis, Kategorie')
+check(ex[0]['brand'] == 'ralph lauren' and ex[0]['size'] == 'M' and ex[0]['price'] == 55 and ex[0]['category'] == 'Herren Strickpullover', 'Felder aus Anzeigenseite: Marke, Größe, Preis, Kategorie')
 check(ex[1]['colors'] == ['creme'] and 'cable knit' in ex[1]['desc'] and ex[0]['photo'].startswith('https://img/9001/f800'), 'Farbe, Beschreibung, Bild')
 t = '\n'.join(texts())
 check('6 Anzeige(n) gelernt' in t and '1 nicht lesbar' in t, 'Telegram: Rückmeldung mit Zählung')
@@ -150,15 +150,21 @@ def fake_vision(key, ex_urls, cand, hint='', fetch=None, timeout=40):
     calls.append((ex_urls, cand)); return (30 if '106' in cand else 85), 'Zopfstrick passt', 0.0002
 learn.vision_score = fake_vision
 CATALOG_IDS.append('106')
+item('108', 'Ralph Lauren Pullover', 'Ralph Lauren', 'M', 'Sehr gut', 16, 'Grau', 'Herren Strickpullover', 'schöner Pulli')
+item('109', 'Ralph Lauren Pullover Herren', 'Ralph Lauren', 'L', 'Sehr gut', 14, 'Grau', 'Herren Strickpullover', 'warm')
+CATALOG_IDS += ['108']
 s = run()
+check(any('/items/108' in x['caption'] for x in photos()), 'Allgemeiner Titel, Bild passt (85) → über Bildprüfung gemeldet')
 check(calls and len(calls[0][0]) >= 1 and calls[0][1].startswith('https://img/106/310x430'), 'Bildprüfung: Beispielbilder + kleines Vorschaubild')
 check(not any('/items/106' in x['caption'] for x in photos()), 'Bildprüfung 30 % → nicht gemeldet')
-check(s['vision']['n'] == 1 and s['vision']['usd'] > 0, 'Bildprüfung wird gezählt (Kosten)')
+check(s['vision']['n'] >= 1 and s['vision']['usd'] > 0, 'Bildprüfung wird gezählt (Kosten)')
 settings = json.load(open(agent.SETTINGS_FILE)) if os.path.exists(agent.SETTINGS_FILE) else {}
 settings['vision_daily_max'] = 1; json.dump(settings, open(agent.SETTINGS_FILE, 'w'))
 ITEMS['107'] = dict(ITEMS['101'], id='107'); CATALOG_IDS.append('107')
 calls.clear(); s = run()
 check(not calls and any('/items/107' in x['caption'] for x in photos()), 'Tageslimit erreicht → ohne Bildprüfung weiter')
+CATALOG_IDS.append('109'); s = run()
+check(not any('/items/109' in x['caption'] for x in photos()), 'Allgemeiner Titel ohne Bildprüfung → nicht gemeldet')
 
 # 6) /profil, /fertig, Liste
 updates += [msg(20, '/profil'), msg(21, '/fertig'), msg(22, '/liste')]

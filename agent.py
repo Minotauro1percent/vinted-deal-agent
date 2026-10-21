@@ -921,7 +921,13 @@ def run_learned(w, state, settings, seen, first_done, profs):
     cap = int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15))
     shipping = fnum(settings.get('shipping_est'), 5.0)
     thr = prof['threshold']
-    queries = w['queries'] if w['queriesManual'] else (prof['queries'] or w['queries'])
+    can_see = w['vision'] and vision_ok(state, settings)
+    if w['queriesManual']:
+        queries = w['queries']
+    else:
+        # breite Begriffe („ralph lauren pullover“) nur mit Bildprüfung – sonst kämen zu viele unpassende Treffer
+        queries = list(prof.get('queries') or []) + (list(prof.get('broad_queries') or []) if can_see else [])
+        queries = queries or prof.get('broad_queries') or w['queries']
     key = lambda iid: f"{w['id']}|{iid}"
     cands, titles = {}, []
     for q in queries:
@@ -947,14 +953,16 @@ def run_learned(w, state, settings, seen, first_done, profs):
         if it['price'] > w['maxPrice'] or (w['minPrice'] and it['price'] < w['minPrice']):
             continue
         sc = learn.score(prof, learn.item_features(it), detail=False)['score']
-        if sc >= thr * 0.75:
+        if sc >= thr * (0.6 if can_see else 0.75):          # mit Bildprüfung dürfen auch allgemeine Titel in die Vorauswahl
             scored.append((sc, it))
     scored.sort(key=lambda x: -x[0])
     log(f"{w['name']}: {len(cands)} neu, {len(scored)} in der Vorauswahl (Schwelle {thr:.2f})")
-    sent = 0
+    sent, rescues = 0, 0
     for pre, it in scored:
         if sent >= cap:
             break
+        if pre < thr * 0.75 and rescues >= 8:              # höchstens 8 „Bild entscheidet“-Prüfungen pro Lauf
+            continue
         try:
             det = fetch_details(it)
         except Blocked:
@@ -965,18 +973,28 @@ def run_learned(w, state, settings, seen, first_done, profs):
         it.update(det)
         f = learn.item_features(it)
         res = learn.score(prof, f, detail=True)
-        if res['score'] < thr:
+        # Unter der Schwelle, aber Marke/Größe/Kategorie passen und nur der Text ist zu allgemein? → das Bild entscheidet
+        rescue = res['score'] < thr and res['score'] >= thr * 0.6 and res['parts'].get('marke', 1) >= 0.5 \
+            and res['parts'].get('kategorie', 1) > 0 and res['parts'].get('größe', 1) > 0
+        if res['score'] < thr and not rescue:
             continue
+        if rescue:
+            rescues += 1
         vis = ''
         if w['vision'] and vision_ok(state, settings) and it.get('thumb'):
             try:
                 vs, why, cost = learn.vision_score(ANTHROPIC_KEY, example_photos(entry), it['thumb'], w['name'], fetch=fetch_bytes)
                 v = state['vision']; v['n'] += 1; v['usd'] += cost; v['total_usd'] = v.get('total_usd', 0) + cost
-                if vs < int(fnum(settings.get('vision_min'), 60)):
+                need = 75 if rescue else int(fnum(settings.get('vision_min'), 60))
+                if vs < need:
                     log(f"Bildprüfung verwirft {it['id']} ({vs}: {why})"); continue
                 vis = f' · Bild {vs} %' + (f' ({esc(why)})' if why else '')
             except Exception as e:
                 log('Bildprüfung fehlgeschlagen:', str(e)[:200])
+                if rescue:
+                    continue
+        elif rescue:
+            continue                                   # ohne Bildprüfung keine Rettung über das Bild
         extra = f"🧠 passt zu {round(res['score'] * 100)} %{vis}"
         buttons = [[{'text': '👍 passt', 'callback_data': f"fb:u:{w['id']}:{it['id']}"},
                     {'text': '👎 passt nicht', 'callback_data': f"fb:d:{w['id']}:{it['id']}"}]]
