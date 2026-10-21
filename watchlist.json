@@ -346,7 +346,7 @@
     "type": "lernen",
     "category": "kleidung",
     "active": true,
-    "vision": false,
+    "vision": true,
     "strictness": 1,
     "schedule": {
       "mode": "live"
