@@ -341,5 +341,21 @@
     "schedule": {
       "mode": "default"
     }
+  },
+  {
+    "type": "lernen",
+    "category": "kleidung",
+    "active": true,
+    "vision": false,
+    "strictness": 1,
+    "schedule": {
+      "mode": "live"
+    },
+    "name": "RalphLauren",
+    "maxPrice": 24,
+    "minPrice": 0,
+    "queriesManual": false,
+    "queries": [],
+    "id": "ralphlauren"
   }
 ]
