@@ -1,2 +1,8 @@
-2026-10-21 01:18:52 UTC Telegram: 0 neue Nachricht(en)
-2026-10-21 01:18:52 UTC Keine Suche fällig
+2026-10-21 01:33:03 UTC Telegram: 0 neue Nachricht(en)
+2026-10-21 01:33:04 UTC Suche „Polo Ralph Lauren Zopfstrick-Pullover“
+2026-10-21 01:33:27 UTC Polo Ralph Lauren Zopfstrick-Pullover: 3 neue Kandidaten
+2026-10-21 01:33:33 UTC Suche „Xiaomi 17“
+2026-10-21 01:33:38 UTC Xiaomi 17: 1 neue Kandidaten
+2026-10-21 01:33:42 UTC Suche „Juicy Couture“
+2026-10-21 01:33:53 UTC Juicy Couture: 2 neue Kandidaten
+2026-10-21 01:33:53 UTC Suche fertig: 0 neue Deals (3 Suchen)
