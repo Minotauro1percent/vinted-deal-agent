@@ -7,5 +7,7 @@
   "force_all": 1792525027,
   "force": {
     "juicy-couture": 1792411493
-  }
+  },
+  "night_mode": true,
+  "night_max": 3
 }
