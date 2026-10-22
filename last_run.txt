@@ -1,4 +1,6 @@
-2026-10-22 07:27:28 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 07:27:28 UTC Suche „RalphLauren“
-2026-10-22 07:27:49 UTC RalphLauren: 2 neu, 1 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 07:27:52 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 07:32:03 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 07:32:04 UTC Suche „RalphLauren“
+2026-10-22 07:32:21 UTC RalphLauren: 7 neu, 4 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 07:32:30 UTC Bildprüfung verwirft 10480533560 (68: Gleicher Pullover-Typ und Logo, aber ohne Zopfmuster)
+2026-10-22 07:32:38 UTC Bildprüfung verwirft 10480517855 (12: Kein Zopfmuster, kein Pony-Logo, anderer Strick und Stil)
+2026-10-22 07:32:38 UTC Suche fertig: 0 neue Deals (1 Suchen)
