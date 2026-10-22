@@ -1,13 +1,8 @@
-2026-10-22 09:11:19 UTC Telegram: 5 neue Nachricht(en)
-2026-10-22 09:11:20 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:11:20 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:11:21 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:11:22 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:11:23 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:11:23 UTC Feedback verarbeitet: ralphlauren
-2026-10-22 09:11:23 UTC Suche „RalphLauren“
-2026-10-22 09:11:42 UTC RalphLauren: 21 neu, 6 in der Vorauswahl (Schwelle 0.53)
-2026-10-22 09:11:47 UTC Bildprüfung ok 10481398475 (92: Gleiche Marke, Zopfstrick, Pony-Logo; V-Ausschnitt wie Beispiel)
-2026-10-22 09:11:54 UTC Bildprüfung ok 10481371327 (62: Gleiche Marke und Logo, aber Halbzip statt Zopfstrick)
-2026-10-22 09:12:04 UTC Bildprüfung verwirft 10481358676 (25: Kein Zopfmuster und kein sichtbares Pony-Logo erkennbar)
-2026-10-22 09:12:10 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-22 09:17:01 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 09:17:01 UTC Suche „Xiaomi 17“
+2026-10-22 09:17:07 UTC Xiaomi 17: 7 neue Kandidaten
+2026-10-22 09:17:07 UTC Suche „RalphLauren“
+2026-10-22 09:17:24 UTC RalphLauren: 17 neu, 8 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 09:17:44 UTC Bildprüfung verwirft 10481452354 (62: Gleiche Marke und Logo, aber kein Zopfstrick, eher Sweatshirt)
+2026-10-22 09:17:57 UTC Bildprüfung verwirft 10481424466 (45: Gleiche Marke und Logo, aber anderer Artikel ohne Zopfstrick)
+2026-10-22 09:17:57 UTC Suche fertig: 0 neue Deals (2 Suchen)
