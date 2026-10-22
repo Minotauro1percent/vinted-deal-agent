@@ -1,6 +1,2 @@
-2026-10-22 06:03:14 UTC Telegram: 3 neue Nachricht(en)
-2026-10-22 06:03:14 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:03:15 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:03:16 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:03:16 UTC Feedback verarbeitet: ralphlauren
-2026-10-22 06:03:16 UTC Keine Suche fällig
+2026-10-22 06:07:27 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 06:07:27 UTC Keine Suche fällig
