@@ -1,7 +1,4 @@
-2026-10-22 06:25:38 UTC Telegram: 1 neue Nachricht(en)
-2026-10-22 06:25:39 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:25:39 UTC Feedback verarbeitet: ralphlauren
-2026-10-22 06:25:39 UTC Suche „RalphLauren“
-2026-10-22 06:25:58 UTC RalphLauren: 3 neu, 1 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 06:26:04 UTC Bildprüfung verwirft 10480186362 (45: Marke und Logo passen, aber Sweatshirt statt Zopfstrick-Pullover)
-2026-10-22 06:26:04 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 06:30:15 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 06:30:15 UTC Suche „RalphLauren“
+2026-10-22 06:30:31 UTC RalphLauren: 4 neu, 1 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 06:30:35 UTC Suche fertig: 0 neue Deals (1 Suchen)
