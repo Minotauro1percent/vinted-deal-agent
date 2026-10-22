@@ -1,13 +1,5 @@
-2026-10-22 22:01:35 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 22:01:35 UTC Suche „RalphLauren“
-2026-10-22 22:01:48 UTC RalphLauren: 127 neu, 72 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 22:01:53 UTC Bildprüfung ok 10490237337 (72: Gleiche Marke und Logo, Rundhals; aber Streifenmuster statt Zopfstrick)
-2026-10-22 22:01:59 UTC Bildprüfung verwirft 10490056187 (72: Gleiche Marke und Pullover, aber kein Zopfmuster; Rundhals passt.)
-2026-10-22 22:02:14 UTC Bildprüfung verwirft 10490223136 (12: Kurzarm, kein Zopfmuster, kein Logo, kein Ralph-Lauren-Stil)
-2026-10-22 22:02:20 UTC Bildprüfung verwirft 10490446243 (40: Marke passt, aber kein Zopfmuster und kein Pony-Logo)
-2026-10-22 22:02:29 UTC Bildprüfung verwirft 10490244448 (35: Anderer Strick ohne Zopfmuster und Pony-Logo, Marke unsicher)
-2026-10-22 22:02:34 UTC Bildprüfung verwirft 10490202104 (22: Kein Zopfmuster, kein Logo, andere Ärmel; Marke nicht erkennbar)
-2026-10-22 22:02:40 UTC Bildprüfung verwirft 10412316885 (68: Ralph-Lauren-Pullover mit Pony, aber glatter Strick statt Zopfmuster)
-2026-10-22 22:02:59 UTC Bildprüfung verwirft 10490907119 (62: Gleiches Logo und Pullover, aber glattes statt Zopfmuster)
-2026-10-22 22:03:07 UTC Bildprüfung verwirft 10490801763 (25: Kein Zopfmuster, kein sichtbares Logo, eher Sweatshirt als Strick)
-2026-10-22 22:03:07 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-22 22:07:19 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 22:07:19 UTC Suche „RalphLauren“
+2026-10-22 22:07:34 UTC RalphLauren: 5 neu, 3 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 22:07:43 UTC Bildprüfung ok 10490717466 (72: Ralph-Lauren-Pullover mit Rundhals, aber Streifenmuster statt Zopfmuster)
+2026-10-22 22:07:48 UTC Suche fertig: 1 neue Deals (1 Suchen)
