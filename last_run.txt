@@ -1,6 +1,6 @@
-2026-10-22 08:21:07 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 08:21:07 UTC Suche „RalphLauren“
-2026-10-22 08:21:27 UTC RalphLauren: 12 neu, 4 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 08:21:37 UTC Bildprüfung verwirft 10480899658 (35: Polo-Marke, aber gestreiftes Oberteil statt Zopfstrick-Pullover; anderes Logo)
-2026-10-22 08:21:46 UTC Bildprüfung verwirft 10480796877 (15: Ralph Lauren passt, aber klares Zopfmuster – ausgeschlossen)
-2026-10-22 08:21:46 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 08:25:59 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 08:25:59 UTC Suche „RalphLauren“
+2026-10-22 08:26:15 UTC RalphLauren: 8 neu, 3 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 08:26:25 UTC Bildprüfung 10480945379: unlesbare Antwort:  (stop=max_tokens)
+2026-10-22 08:26:32 UTC Bildprüfung verwirft 10480919917 (55: Ralph Lauren Stil, aber kein Zopfmuster und anderer Strick/Schnitt)
+2026-10-22 08:26:32 UTC Suche fertig: 0 neue Deals (1 Suchen)
