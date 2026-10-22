@@ -357,8 +357,6 @@
     "queriesManual": false,
     "queries": [],
     "id": "ralphlauren",
-    "excludeRules": [
-      "Kein Zopfmuster"
-    ]
+    "excludeRules": []
   }
 ]
