@@ -1,6 +1,7 @@
-2026-10-22 08:50:44 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 08:50:44 UTC Suche „RalphLauren“
-2026-10-22 08:51:01 UTC RalphLauren: 10 neu, 5 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 08:51:17 UTC Bildprüfung verwirft 10481168052 (30: Anderer Schnitt, kein Zopfmuster und kein sichtbares Logo)
-2026-10-22 08:51:24 UTC Bildprüfung ok 10471061948 (72: Gleiche Marke und Logo, aber ohne Zopfmuster)
-2026-10-22 08:51:24 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-22 08:55:35 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 08:55:35 UTC Suche „RalphLauren“
+2026-10-22 08:55:52 UTC RalphLauren: 19 neu, 10 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 08:56:22 UTC Bildprüfung verwirft 10481206356 (12: Andere Marken (Nike, Lacoste, Northwave), kein Ralph Lauren Zopfstrick)
+2026-10-22 08:56:28 UTC Bildprüfung verwirft 10481197574 (40: Marke passt, aber Sweatshirt statt Zopfstrick, anderes Logo)
+2026-10-22 08:56:34 UTC Bildprüfung ok 10481192006 (85: Gleicher Strickpullover-Typ mit Ralph-Lauren-Logo; Zopfmuster nicht sichtbar)
+2026-10-22 08:56:34 UTC Suche fertig: 1 neue Deals (1 Suchen)
