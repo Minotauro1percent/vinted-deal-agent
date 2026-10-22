@@ -8,8 +8,10 @@
   "force": {
     "juicy-couture": 1792411493
   },
-  "night_mode": true,
+  "vision_daily_max": 150,
+  "vision_min": 60,
+  "night_mode": false,
   "night_max": 3,
-  "night_from": "23:00",
-  "night_to": "06:00"
+  "night_from": "",
+  "night_to": ""
 }
