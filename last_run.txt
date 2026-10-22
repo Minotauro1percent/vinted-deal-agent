@@ -1,9 +1,7 @@
-2026-10-22 08:35:42 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 08:35:42 UTC Suche „RalphLauren“
-2026-10-22 08:36:02 UTC RalphLauren: 21 neu, 10 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 08:36:10 UTC Bildprüfung verwirft 10481009874 (15: Zopfmuster sichtbar, obwohl ausdrücklich unerwünscht)
-2026-10-22 08:36:20 UTC Bildprüfung verwirft 10481032801 (72: Ralph Lauren Pullover ohne Zopfmuster, aber Streifenmuster und anderer Stil)
-2026-10-22 08:36:26 UTC Bildprüfung 10481020600: unlesbare Antwort: {"score": (stop=max_tokens)
-2026-10-22 08:36:31 UTC Bildprüfung verwirft 10481038951 (10: Zopfmuster vorhanden, obwohl ausdrücklich ausgeschlossen)
-2026-10-22 08:36:48 UTC Bildprüfung verwirft 10480997175 (55: Gleiche Marke und Strick, aber Hoodie statt Zopfpullover, großes Logo)
-2026-10-22 08:36:48 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 08:41:00 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 08:41:00 UTC Suche „RalphLauren“
+2026-10-22 08:41:20 UTC RalphLauren: 13 neu, 6 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 08:41:33 UTC Bildprüfung verwirft 10481062859 (55: Ralph-Lauren-Logo und Rundhals, aber Waffelstrick statt Zopfmuster)
+2026-10-22 08:41:43 UTC Bildprüfung 10481043588: unlesbare Antwort:  (stop=max_tokens)
+2026-10-22 08:41:50 UTC Bildprüfung verwirft 10481046535 (25: )
+2026-10-22 08:41:50 UTC Suche fertig: 1 neue Deals (1 Suchen)
