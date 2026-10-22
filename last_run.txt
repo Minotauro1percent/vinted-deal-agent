@@ -1,36 +1,7 @@
-2026-10-22 06:20:05 UTC Telegram: 15 neue Nachricht(en)
-2026-10-22 06:20:05 UTC Befehl /nightmode ['aus']
-2026-10-22 06:20:06 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:06 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:07 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:07 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:08 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:08 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:09 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:09 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:09 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:10 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:11 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:11 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:12 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:12 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:13 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:13 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:13 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:14 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:14 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:15 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:15 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:16 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:16 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:17 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:17 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 06:20:17 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 06:20:17 UTC Feedback verarbeitet: ralphlauren
-2026-10-22 06:20:18 UTC Suche „Xiaomi 17“
-2026-10-22 06:20:22 UTC Xiaomi 17: 0 neue Kandidaten
-2026-10-22 06:20:22 UTC Suche „RalphLauren“
-2026-10-22 06:20:41 UTC RalphLauren: 21 neu, 12 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 06:20:57 UTC Bildprüfung ok 10480114845 (72: Gleicher Zopfstrick und Rundhals, aber anderes Logo und Material)
-2026-10-22 06:21:08 UTC Bildprüfung 10480177798: unlesbare Antwort:  (stop=max_tokens)
-2026-10-22 06:21:27 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-10-22 06:25:38 UTC Telegram: 1 neue Nachricht(en)
+2026-10-22 06:25:39 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 06:25:39 UTC Feedback verarbeitet: ralphlauren
+2026-10-22 06:25:39 UTC Suche „RalphLauren“
+2026-10-22 06:25:58 UTC RalphLauren: 3 neu, 1 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 06:26:04 UTC Bildprüfung verwirft 10480186362 (45: Marke und Logo passen, aber Sweatshirt statt Zopfstrick-Pullover)
+2026-10-22 06:26:04 UTC Suche fertig: 0 neue Deals (1 Suchen)
