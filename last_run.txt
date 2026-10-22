@@ -1,5 +1,6 @@
-2026-10-22 22:07:19 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 22:07:19 UTC Suche „RalphLauren“
-2026-10-22 22:07:34 UTC RalphLauren: 5 neu, 3 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 22:07:43 UTC Bildprüfung ok 10490717466 (72: Ralph-Lauren-Pullover mit Rundhals, aber Streifenmuster statt Zopfmuster)
-2026-10-22 22:07:48 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-22 22:12:00 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 22:12:01 UTC Suche „RalphLauren“
+2026-10-22 22:12:14 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 22:12:17 UTC Ausgeschlossen 10491030509: V-Ausschnitt
+2026-10-22 22:12:23 UTC Bildprüfung verwirft 10489704527 (62: Ralph Lauren Logo und Rundhals passen, aber Streifen statt Zopfmuster)
+2026-10-22 22:12:23 UTC Suche fertig: 0 neue Deals (1 Suchen)
