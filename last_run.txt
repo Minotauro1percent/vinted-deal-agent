@@ -1,6 +1,6 @@
-2026-10-22 22:52:46 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 22:52:46 UTC Suche „RalphLauren“
-2026-10-22 22:52:59 UTC RalphLauren: 2 neu, 2 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 22:53:05 UTC Bildprüfung ok 10491280259 (75: Zopfstrick und Ralph-Lauren-Marke passen; Bootausschnitt statt Rundhals, kein Po)
-2026-10-22 22:53:09 UTC Ausgeschlossen 10491264035: V-Ausschnitt
-2026-10-22 22:53:09 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-22 22:57:20 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 22:57:20 UTC Suche „RalphLauren“
+2026-10-22 22:57:35 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 22:57:42 UTC Bildprüfung verwirft 10491302121 (72: Ralph-Lauren-Marke, Zopfmuster, Bootsausschnitt; kein Pony-Logo)
+2026-10-22 22:57:48 UTC Bildprüfung verwirft 10491290865 (70: Zopfstrick und Marke passen, aber Troyer-Kragen statt Rundhals.)
+2026-10-22 22:57:48 UTC Suche fertig: 0 neue Deals (1 Suchen)
