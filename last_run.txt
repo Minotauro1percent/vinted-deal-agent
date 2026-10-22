@@ -1,19 +1,8 @@
-2026-10-22 09:42:28 UTC Telegram: 7 neue Nachricht(en)
-2026-10-22 09:42:28 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:42:29 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:42:29 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 09:42:29 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:42:30 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 09:42:30 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:42:31 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:42:31 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 09:42:31 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:42:32 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 09:42:32 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-22 09:42:32 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-22 09:42:32 UTC Feedback verarbeitet: ralphlauren
-2026-10-22 09:42:33 UTC Suche „RalphLauren“
-2026-10-22 09:42:49 UTC RalphLauren: 10 neu, 7 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 09:43:05 UTC Bildprüfung verwirft 10481698729 (35: Pullover und Strick passen, aber kein Zopfmuster und kein sichtbares Logo)
-2026-10-22 09:43:13 UTC Bildprüfung verwirft 10481704016 (35: Pullover ohne Zopfmuster und sichtbares Logo, Jeans von Carhartt)
-2026-10-22 09:43:17 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 09:47:28 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 09:47:28 UTC Suche „RalphLauren“
+2026-10-22 09:47:47 UTC RalphLauren: 11 neu, 8 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 09:47:59 UTC Bildprüfung verwirft 10481784053 (40: Marke ähnlich, aber kein Zopfmuster und anderer Stil)
+2026-10-22 09:48:12 UTC Bildprüfung verwirft 10481796729 (72: Gleiche Marke und Pullover-Schnitt, aber glatter Strick statt Zopfmuster)
+2026-10-22 09:48:16 UTC Bildprüfung ok 10481788004 (85: Gleiche Marke, Zopfstrick, Pony-Logo; nur V-Ausschnitt statt Rundhals)
+2026-10-22 09:48:26 UTC Bildprüfung verwirft 10481783433 (40: )
+2026-10-22 09:48:26 UTC Suche fertig: 1 neue Deals (1 Suchen)
