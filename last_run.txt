@@ -1,6 +1,6 @@
-2026-10-22 22:12:00 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 22:12:01 UTC Suche „RalphLauren“
-2026-10-22 22:12:14 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 22:12:17 UTC Ausgeschlossen 10491030509: V-Ausschnitt
-2026-10-22 22:12:23 UTC Bildprüfung verwirft 10489704527 (62: Ralph Lauren Logo und Rundhals passen, aber Streifen statt Zopfmuster)
-2026-10-22 22:12:23 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 22:16:35 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 22:16:35 UTC Suche „Xiaomi 17“
+2026-10-22 22:16:39 UTC Xiaomi 17: 2 neue Kandidaten
+2026-10-22 22:16:39 UTC Suche „RalphLauren“
+2026-10-22 22:16:52 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 22:16:59 UTC Suche fertig: 0 neue Deals (2 Suchen)
