@@ -1,8 +1,6 @@
-2026-10-22 07:17:33 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 07:17:33 UTC Suche „Xiaomi 17“
-2026-10-22 07:17:40 UTC Xiaomi 17: 5 neue Kandidaten
-2026-10-22 07:17:49 UTC Suche „RalphLauren“
-2026-10-22 07:18:08 UTC RalphLauren: 5 neu, 3 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 07:18:17 UTC Bildprüfung ok 10468077543 (85: Gleicher Zopfstrick, Polo-Logo und V-Ausschnitt wie Beispiele; nur ärmellos)
-2026-10-22 07:18:23 UTC Bildprüfung verwirft 10424252902 (18: Kein Zopfmuster, kein Pony-Logo, Stehkragen mit Knöpfen, Marke nicht erkennbar)
-2026-10-22 07:18:23 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-10-22 07:22:34 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 07:22:34 UTC Suche „RalphLauren“
+2026-10-22 07:22:54 UTC RalphLauren: 10 neu, 5 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 07:23:04 UTC Bildprüfung verwirft 10480463125 (42: Marke und Logo passen, aber Sweatshirt statt Zopfstrick.)
+2026-10-22 07:23:16 UTC Bildprüfung verwirft 10480449443 (68: Gleiche Marke, aber glatter Strick statt Zopfmuster)
+2026-10-22 07:23:16 UTC Suche fertig: 0 neue Deals (1 Suchen)
