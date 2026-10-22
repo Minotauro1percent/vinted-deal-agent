@@ -1,10 +1,13 @@
-2026-10-22 09:05:51 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 09:05:51 UTC Suche „RalphLauren“
-2026-10-22 09:06:10 UTC RalphLauren: 29 neu, 12 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 09:06:30 UTC Bildprüfung verwirft 10481296816 (35: Pullover mit Rundhals, aber kein Zopfmuster und unklares Logo)
-2026-10-22 09:06:35 UTC Bildprüfung verwirft 10481295668 (72: Gleiches Zopfmuster und Pony-Logo, aber wohl Decke statt Pullover)
-2026-10-22 09:06:41 UTC Bildprüfung verwirft 10481328410 (42: Gleiche Marke, aber Sweatshirt statt Zopfstrick-Pullover)
-2026-10-22 09:06:46 UTC Bildprüfung verwirft 10481325078 (62: )
-2026-10-22 09:06:53 UTC Bildprüfung ok 10466557392 (70: Gleicher Pullover-Typ und Logo, aber Waffelstrick statt Zopfmuster)
-2026-10-22 09:07:03 UTC Bildprüfung ok 10481291123 (93: Gleicher Strickmuster, Rundhals, Polo-Logo, Stil und Schnitt)
-2026-10-22 09:07:07 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-22 09:11:19 UTC Telegram: 5 neue Nachricht(en)
+2026-10-22 09:11:20 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 09:11:20 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 09:11:21 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 09:11:22 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 09:11:23 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 09:11:23 UTC Feedback verarbeitet: ralphlauren
+2026-10-22 09:11:23 UTC Suche „RalphLauren“
+2026-10-22 09:11:42 UTC RalphLauren: 21 neu, 6 in der Vorauswahl (Schwelle 0.53)
+2026-10-22 09:11:47 UTC Bildprüfung ok 10481398475 (92: Gleiche Marke, Zopfstrick, Pony-Logo; V-Ausschnitt wie Beispiel)
+2026-10-22 09:11:54 UTC Bildprüfung ok 10481371327 (62: Gleiche Marke und Logo, aber Halbzip statt Zopfstrick)
+2026-10-22 09:12:04 UTC Bildprüfung verwirft 10481358676 (25: Kein Zopfmuster und kein sichtbares Pony-Logo erkennbar)
+2026-10-22 09:12:10 UTC Suche fertig: 2 neue Deals (1 Suchen)
