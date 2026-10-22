@@ -1,4 +1,5 @@
-2026-10-22 10:58:58 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 10:58:59 UTC Suche „RalphLauren“
-2026-10-22 10:59:02 UTC RalphLauren: 1 neu, 0 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 10:59:02 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 11:03:13 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 11:03:13 UTC Suche „RalphLauren“
+2026-10-22 11:03:18 UTC Suchanfrage übersprungen (pull ralph lauren torsade): HTTP 500 für https://www.vinted.at/catalog?search_text=pull+ralph+lauren+torsade&order=newest_first&currency=EUR&price_to=24
+2026-10-22 11:03:18 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 11:03:18 UTC Suche fertig: 0 neue Deals (1 Suchen)
