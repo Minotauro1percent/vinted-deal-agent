@@ -323,7 +323,8 @@ def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, time
     content.append({'type': 'text', 'text': (
         'Wie gut passt die neue Anzeige zu den Beispielen? Achte auf Art des Artikels, Muster/Strick, Schnitt, Logo, '
         'Material und Stil – nicht auf Farbe, Hintergrund oder Fotoqualität. ' + (f'Gesucht wird: {desc_hint}. ' if desc_hint else '') +
-        (f'Der Nutzer will ausdrücklich NICHT: {", ".join(avoid)} – zeigt das Bild so etwas, gib höchstens 20 Punkte. ' if avoid else '') +
+        (f'Ausschlusskriterien des Nutzers (trifft eines davon auf die neue Anzeige zu, gib höchstens 20 Punkte): '
+         f'{"; ".join(avoid)}. ' if avoid else '') +
         'Antworte nur mit JSON: {"score": 0-100, "grund": "max. 8 Wörter"}')})
     body = {'model': VISION_MODEL, 'max_tokens': 400, 'messages': [{'role': 'user', 'content': content}]}
     req = urllib.request.Request('https://api.anthropic.com/v1/messages', data=json.dumps(body).encode(), headers={

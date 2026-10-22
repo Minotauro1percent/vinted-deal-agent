@@ -357,6 +357,8 @@
     "queriesManual": false,
     "queries": [],
     "id": "ralphlauren",
-    "excludeRules": []
+    "excludeRules": [
+      "V-Ausschnitt"
+    ]
   }
 ]

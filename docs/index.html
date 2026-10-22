@@ -252,6 +252,7 @@ function nextRun(w, st, state) {
   if ((w.schedule || {}).mode === 'times') return nextSlot(w.schedule, Math.max(last, now));
   return Math.max(now, last + intervalMin(w, st) * 60);
 }
+function viennaDay() { const p = viennaParts(Date.now()); return `${p.y}-${String(p.m).padStart(2, '0')}-${String(p.d).padStart(2, '0')}`; }
 function nightNow(st) {
   if (st.night_mode) return true;
   const a = parseHHMM(st.night_from), b = parseHHMM(st.night_to);
@@ -448,7 +449,7 @@ function render() {
       <div class="stat"><b>${num(stats.deals)}</b><span>Deals gesamt</span></div>
       <div class="stat"><b>${num(stats.last_deals)}</b><span>Deals letzte Suche</span></div>
     </div>
-    ${(state.vision || {}).total_usd ? `<div class="small muted" style="margin-bottom:6px">🖼 Bildprüfung heute: ${num(state.vision.n)} Bilder · ca. ${(num(state.vision.usd) * 100).toFixed(2).replace('.', ',')} US-Cent · gesamt ${(num(state.vision.total_usd) * 100).toFixed(1).replace('.', ',')} US-Cent</div>` : ''}
+    ${(state.vision || {}).total_usd ? `<div class="small muted" style="margin-bottom:6px">🖼 Bildprüfung heute: ${num(state.vision.n)}${state.vision.day === viennaDay() && num(state.vision.n) >= num(st.vision_daily_max, 150) ? ` von ${num(st.vision_daily_max, 150)} – <b style="color:var(--warn)">Tageslimit erreicht</b>, bis Mitternacht ohne Bildprüfung ·` : ''} Bilder · ca. ${(num(state.vision.usd) * 100).toFixed(2).replace('.', ',')} US-Cent · gesamt ${(num(state.vision.total_usd) * 100).toFixed(1).replace('.', ',')} US-Cent</div>` : ''}
     ${nexts.length ? `<div class="small"><b>Als Nächstes:</b> ${nexts.slice(0, 3).map(([t, w]) => `${esc(fmtWhen(t))} – ${esc(w.name)}`).join(' · ')}</div>` : ''}
     <label class="row nightrow" style="margin-top:4px;gap:10px;cursor:pointer;flex-wrap:nowrap"><span class="sw"><input type="checkbox" id="nightSw" ${st.night_mode ? 'checked' : ''} aria-label="Nachtmodus"><i></i></span>
       <span class="grow"><b>🌙 Nachtmodus</b> <span class="small muted">– alle Suchen nur stündlich, höchstens
@@ -501,6 +502,8 @@ function render() {
       <div><label class="f" for="gMax">Max. Deals pro Suche</label><input type="number" id="gMax" min="1" max="100" value="${num(st.max_per_run, 15)}"></div>
       <div><label class="f" for="gShip">Versand (Schätzung) €</label><input type="number" id="gShip" min="0" step="0.5" value="${num(st.shipping_est, 5)}"></div>
     </div>
+    <div class="grid4"><div><label class="f" for="gVis">Bildprüfung: max. Bilder pro Tag</label><input type="number" id="gVis" min="0" step="50" value="${num(st.vision_daily_max, 150)}"></div>
+      <div style="grid-column:span 3;align-self:end" class="small muted">ca. 0,03 US-Cent pro Bild → 150 Bilder ≈ 4,5 Cent, 400 ≈ 12 Cent pro Tag</div></div>
     <p class="small muted">Das Standard-Intervall gilt für alle Suchen mit Zeitplan „Standard“. „Neue Suche: max. Deals“ verhindert, dass eine frische Suche beim ersten Lauf dutzende Meldungen schickt.</p>
     <div class="row"><button class="btn primary" id="gSave">Speichern</button><span class="grow"></span>
       <button class="btn ghost sm" id="logout">Abmelden</button></div>
@@ -522,7 +525,8 @@ function render() {
   $('#allNow').onclick = e => guarded(e.currentTarget, () => saveSettings(s => ({...s, force_all: nowS()}), 'Alle Suchen jetzt ausführen'), 'Alle Suchen laufen beim nächsten Lauf');
   $('#gSave').onclick = e => {
     const vals = {default_interval_min: Math.max(15, num($('#gInt').value, 60)), first_run_max: Math.max(0, Math.round(num($('#gFirst').value, 3))),
-      max_per_run: Math.max(1, Math.round(num($('#gMax').value, 15))), shipping_est: Math.max(0, num($('#gShip').value, 5))};
+      max_per_run: Math.max(1, Math.round(num($('#gMax').value, 15))), shipping_est: Math.max(0, num($('#gShip').value, 5)),
+      vision_daily_max: Math.max(0, Math.round(num($('#gVis').value, 150)))};
     guarded(e.currentTarget, () => saveSettings(s => ({...s, ...vals}), 'Allgemeine Einstellungen'), 'Gespeichert ✓');
   };
   $('#logout').onclick = () => { lsSet('vda_token', null); S.token = ''; renderSetup(); };
@@ -850,7 +854,7 @@ function openLearnEditor(orig, isNew = !orig) {
       <div class="sec"><h3>Meine Ausschlusskriterien</h3>
         <div class="small muted" style="margin-top:8px">Zusätzlich zu dem, was der Agent gelernt hat: Anzeigen mit diesen Merkmalen werden nie gemeldet (Titel, Beschreibung, Vinted-Kategorie – in allen Sprachen). Die Bildprüfung achtet auch darauf.</div>
         <div class="chips" id="lExPre" style="margin-top:10px"></div>
-        <label class="f">Eigene Wörter <span class="hint">– z. B. lauren, merino, oversize</span></label>
+        <label class="f">Eigene Kriterien <span class="hint">– einzelne Wörter (z. B. merino, oversize) filtern den Text; Beschreibungen (z. B. „kein Zopfmuster“, „nur Rundhals“) prüft die Bildprüfung</span></label>
         <div class="tags" id="lExFree"></div>
       </div>
       <div class="sec"><h3>Gelernt</h3>${profileHtml(entry, w)}</div>

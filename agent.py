@@ -962,8 +962,12 @@ def vision_ok(state, settings):
     v = state['vision']
     today = datetime.now(TZ).strftime('%Y-%m-%d')
     if v.get('day') != today:
-        v.update(day=today, n=0, usd=0.0)
-    return bool(ANTHROPIC_KEY) and v['n'] < int(fnum(settings.get('vision_daily_max'), 150))
+        v.update(day=today, n=0, usd=0.0, limit_hit=False)
+    ok = bool(ANTHROPIC_KEY) and v['n'] < int(fnum(settings.get('vision_daily_max'), 150))
+    if ANTHROPIC_KEY and not ok and not v.get('limit_hit'):
+        v['limit_hit'] = True
+        log('Bildprüfung: Tageslimit erreicht – bis Mitternacht ohne Bildprüfung')
+    return ok
 
 def add_background(state, titles, sid='__all__'):
     """Wörter normaler Anzeigen aus allen Suchen zählen – daran erkennt das Profil, was wirklich „typisch“ ist."""
