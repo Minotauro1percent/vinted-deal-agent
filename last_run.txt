@@ -1,10 +1,11 @@
-2026-10-22 10:08:07 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 10:08:07 UTC Suche „RalphLauren“
-2026-10-22 10:08:23 UTC RalphLauren: 15 neu, 11 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 10:08:36 UTC Bildprüfung ok 10482019273 (95: Gleicher Stil: Zopfstrick, Rundhals, Polo-Ralph-Lauren-Pony-Logo)
-2026-10-22 10:08:40 UTC Bildprüfung verwirft 10481972054 (15: V-Ausschnitt, glatter Strick, kein sichtbares Logo, keine Zopfmuster)
-2026-10-22 10:08:49 UTC Bildprüfung verwirft 10482000941 (72: Gleiche Marke und Logo, aber grobes Glattstrick statt Zopfmuster)
-2026-10-22 10:08:59 UTC Bildprüfung verwirft 10482030000 (65: Marke und Logo passen, aber Schalkragen statt Zopfstrick.)
-2026-10-22 10:09:09 UTC Bildprüfung verwirft 10482020119 (55: Marke und Logo passen, aber Sweatshirt statt Zopfstrick.)
-2026-10-22 10:09:14 UTC Bildprüfung ok 10482003803 (93: Ralph-Lauren-Zopfstrickpullover mit Rundhals und Pony-Logo, passt stilistisch)
-2026-10-22 10:09:14 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-22 10:13:25 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 10:13:25 UTC Suche „RalphLauren“
+2026-10-22 10:13:42 UTC RalphLauren: 21 neu, 12 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 10:13:54 UTC Bildprüfung ok 10482105060 (88: Gleiche Marke, Zopfstrick und Pony-Logo; nur V-Ausschnitt abweichend)
+2026-10-22 10:14:00 UTC Bildprüfung verwirft 10482068121 (55: Gleiche Marke und Logo, aber Sweatshirt statt Zopfstrick)
+2026-10-22 10:14:12 UTC Bildprüfung verwirft 10482107662 (68: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
+2026-10-22 10:14:12 UTC Details übersprungen (10482099170): HTTP 404 für https://www.vinted.at/items/10482099170-polo-ralph-lauren-pullover
+2026-10-22 10:14:17 UTC Bildprüfung verwirft 10482080947 (70: Gleiche Marke und Pullover-Typ, aber glatter Strick statt Zopfmuster)
+2026-10-22 10:14:23 UTC Bildprüfung ok 10482065537 (93: Gleicher Zopfstrick, Rundhals und Polo-Logo, typischer Ralph-Lauren-Stil)
+2026-10-22 10:14:29 UTC Bildprüfung ok 10482048219 (85: Gleicher Pullover-Typ und Logo, aber glatter Strick statt Zopfmuster)
+2026-10-22 10:14:33 UTC Suche fertig: 3 neue Deals (1 Suchen)
