@@ -1,11 +1,7 @@
-2026-10-22 09:52:37 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 09:52:37 UTC Suche „RalphLauren“
-2026-10-22 09:52:56 UTC RalphLauren: 18 neu, 14 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 09:53:01 UTC Bildprüfung verwirft 10481822123 (62: Zopfstrick wie Beispiele, aber Kurzarm und kein sichtbares Logo)
-2026-10-22 09:53:06 UTC Bildprüfung verwirft 10481816318 (12: Falsche Marke (Tommy Hilfiger), kein Zopfmuster, V-Ausschnitt statt Rundhals)
-2026-10-22 09:53:17 UTC Bildprüfung verwirft 10481859072 (55: Gleiche Marke und Logo, aber Sweatshirt statt Zopfstrick)
-2026-10-22 09:53:22 UTC Bildprüfung ok 10481828195 (92: Gleiche Marke und Zopfstrick-Pullover, nur V-Ausschnitt statt Rundhals)
-2026-10-22 09:53:32 UTC Bildprüfung verwirft 10481825491 (62: Gleiche Marke und Logo, aber kein Zopfmuster-Strick, eher Langarmshirt)
-2026-10-22 09:53:46 UTC Bildprüfung verwirft 10478392420 (35: Marke passt, aber Sweatshirt statt Zopfstrick-Pullover, anderes Logo)
-2026-10-22 09:53:51 UTC Bildprüfung ok 10481864024 (88: Gleicher Strick-Zopfmuster-Pullover und Pony-Logo, nur V-Ausschnitt)
-2026-10-22 09:54:00 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-22 09:58:11 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 09:58:11 UTC Suche „RalphLauren“
+2026-10-22 09:58:28 UTC RalphLauren: 11 neu, 8 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 09:58:34 UTC Bildprüfung ok 10481893939 (62: Zopfstrick passt, aber kein sichtbares Logo und lockerer Schnitt)
+2026-10-22 09:58:50 UTC Bildprüfung verwirft 10464419871 (74: Zopfstrick und Brand-Stil passen, aber V-Ausschnitt und fehlendes Pony-Logo)
+2026-10-22 09:58:58 UTC Bildprüfung ok 10481907265 (93: Ralph-Lauren-Zopfstrick mit Pony-Logo, passt zu allen Beispielen)
+2026-10-22 09:59:01 UTC Suche fertig: 2 neue Deals (1 Suchen)
