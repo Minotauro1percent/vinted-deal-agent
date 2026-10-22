@@ -1,2 +1,11 @@
-2026-10-22 05:53:32 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 05:53:32 UTC Keine Suche fällig
+2026-10-22 05:57:44 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 05:57:44 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-22 05:57:44 UTC Suche „RalphLauren“
+2026-10-22 05:58:05 UTC RalphLauren: 36 neu, 21 in der Vorauswahl (Schwelle 0.50)
+2026-10-22 05:58:18 UTC Bildprüfung ok 10479903521 (95: Ralph-Lauren-Zopfstrickpullover mit Pony-Logo, passend zu den Beispielen)
+2026-10-22 05:58:41 UTC Bildprüfung verwirft 10480006255 (70: Gleiche Marke und Logo, aber ohne Zopfmuster.)
+2026-10-22 05:58:50 UTC Bildprüfung verwirft 10479977021 (25: Keine Zopfmuster, kein sichtbares Logo, anderer Strick und Stil)
+2026-10-22 05:58:56 UTC Bildprüfung ok 10479913821 (72: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
+2026-10-22 05:59:02 UTC Bildprüfung ok 10480061854 (93: Ralph Lauren Zopfstrick-Pullover mit Pony-Logo, passend zu Beispielen)
+2026-10-22 05:59:03 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-22 05:59:03 UTC Suche fertig: 3 neue Deals (2 Suchen)
