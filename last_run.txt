@@ -1,6 +1,5 @@
-2026-10-22 08:25:59 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 08:25:59 UTC Suche „RalphLauren“
-2026-10-22 08:26:15 UTC RalphLauren: 8 neu, 3 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 08:26:25 UTC Bildprüfung 10480945379: unlesbare Antwort:  (stop=max_tokens)
-2026-10-22 08:26:32 UTC Bildprüfung verwirft 10480919917 (55: Ralph Lauren Stil, aber kein Zopfmuster und anderer Strick/Schnitt)
-2026-10-22 08:26:32 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 08:30:44 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 08:30:45 UTC Suche „RalphLauren“
+2026-10-22 08:31:04 UTC RalphLauren: 13 neu, 6 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 08:31:23 UTC Bildprüfung verwirft 10480981198 (50: Gleiche Marke, aber Sweatshirt statt Strick; großes Logo)
+2026-10-22 08:31:26 UTC Suche fertig: 0 neue Deals (1 Suchen)
