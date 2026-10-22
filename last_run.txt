@@ -1,5 +1,9 @@
-2026-10-22 07:02:48 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 07:02:48 UTC Suche „RalphLauren“
-2026-10-22 07:03:04 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 07:03:14 UTC Bildprüfung verwirft 10480364466 (45: Marke passt, aber kein Zopfmuster und Logo)
-2026-10-22 07:03:14 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 07:07:24 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 07:07:24 UTC Suche „RalphLauren“
+2026-10-22 07:07:42 UTC RalphLauren: 14 neu, 8 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 07:07:48 UTC Bildprüfung ok 10480377667 (88: Gleiche Art, Zopfstrick und Logo; Lauren-Label von Ralph Lauren)
+2026-10-22 07:07:58 UTC Bildprüfung verwirft 10480387433 (62: Gleiche Marke und Pullover, aber Streifen statt Zopfmuster)
+2026-10-22 07:08:04 UTC Bildprüfung ok 10480388050 (78: Gleiche Marke und Pulli-Typ, aber glatter Strick statt Zopfmuster)
+2026-10-22 07:08:11 UTC Bildprüfung verwirft 10480363765 (35: Pullover, aber anderes Muster, Blockstreifen und unklares Logo)
+2026-10-22 07:08:21 UTC Bildprüfung verwirft 10467932398 (60: Marke und Pullover passen, aber kein Zopfstrick)
+2026-10-22 07:08:23 UTC Suche fertig: 2 neue Deals (1 Suchen)
