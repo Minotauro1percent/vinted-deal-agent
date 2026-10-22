@@ -1,8 +1,6 @@
-2026-10-22 07:46:47 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 07:46:47 UTC Suche „RalphLauren“
-2026-10-22 07:47:07 UTC RalphLauren: 12 neu, 8 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 07:47:13 UTC Bildprüfung ok 10480600843 (80: Gleicher Zopfstrick und Schnitt, aber kein Pony-Logo sichtbar)
-2026-10-22 07:47:18 UTC Bildprüfung verwirft 10480613315 (72: Gleiche Marke und Pullover, aber kein Zopfmuster)
-2026-10-22 07:47:30 UTC Bildprüfung ok 10480605348 (75: Gleiche Marke Polo Ralph Lauren, Strick/Schnitt auf Bild nicht erkennbar)
-2026-10-22 07:47:39 UTC Bildprüfung verwirft 10480626158 (68: Marke und Logo passen, aber kein Zopfmuster, feinerer Strick)
-2026-10-22 07:47:42 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-22 07:51:52 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 07:51:52 UTC Suche „RalphLauren“
+2026-10-22 07:52:08 UTC RalphLauren: 13 neu, 7 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 07:52:20 UTC Bildprüfung verwirft 10480655406 (55: Gleiche Marke und Pullovertyp, aber anderes Strickmuster, Logo und Material.)
+2026-10-22 07:52:26 UTC Bildprüfung verwirft 10480651989 (25: Gestreiftes Rippstrick statt Zopfmuster, anderes Logo, Polo Jeans Company)
+2026-10-22 07:52:34 UTC Suche fertig: 0 neue Deals (1 Suchen)
