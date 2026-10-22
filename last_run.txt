@@ -1,2 +1,10 @@
-2026-10-22 00:56:44 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 00:56:44 UTC Keine Suche fällig
+2026-10-22 01:00:53 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 01:00:53 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-22 01:00:53 UTC Suche „RalphLauren“
+2026-10-22 01:01:10 UTC RalphLauren: 11 neu, 7 in der Vorauswahl (Schwelle 0.50)
+2026-10-22 01:01:17 UTC Bildprüfung verwirft 10478894393 (50: Passender Strickstil, aber kein sichtbares Ralph-Lauren-Logo)
+2026-10-22 01:01:23 UTC Bildprüfung verwirft 10479122127 (45: Marke passt, aber kein Zopfmuster, Reißverschluss-Kragen, anderer Stil)
+2026-10-22 01:01:28 UTC Bildprüfung verwirft 10479149228 (6: Anderer Stil, kein Zopfmuster, kein Polo-Logo, vermutlich Stone Island)
+2026-10-22 01:01:43 UTC Suche „Xiaomi 17“
+2026-10-22 01:01:48 UTC Xiaomi 17: 1 neue Kandidaten
+2026-10-22 01:01:48 UTC Suche fertig: 0 neue Deals (2 Suchen)
