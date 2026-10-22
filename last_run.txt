@@ -1,5 +1,6 @@
-2026-10-22 22:43:29 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 22:43:29 UTC Suche „RalphLauren“
-2026-10-22 22:43:43 UTC RalphLauren: 4 neu, 4 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 22:43:48 UTC Bildprüfung verwirft 10491228736 (45: Marke und Logo passen, aber Sweatshirt statt Zopfstrick)
-2026-10-22 22:43:58 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 22:48:09 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 22:48:09 UTC Suche „RalphLauren“
+2026-10-22 22:48:22 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 22:48:28 UTC Bildprüfung verwirft 10491253137 (72: Zopfstrick und Ralph-Lauren-Marke passen, aber Bootausschnitt und kein Pony-Logo)
+2026-10-22 22:48:34 UTC Bildprüfung verwirft 10491238808 (30: Pullover, aber Rippstrick statt Zopfmuster, Kapuzen-Knopfkragen, kein Pony-Logo)
+2026-10-22 22:48:34 UTC Suche fertig: 0 neue Deals (1 Suchen)
