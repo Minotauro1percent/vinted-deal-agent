@@ -1,6 +1,7 @@
-2026-10-22 09:32:13 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 09:32:13 UTC Suche „RalphLauren“
-2026-10-22 09:32:30 UTC RalphLauren: 19 neu, 11 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 09:32:52 UTC Bildprüfung verwirft 10469871232 (45: Marke passt, aber Sweatshirt statt Zopfstrick, anderes Material)
-2026-10-22 09:32:59 UTC Bildprüfung verwirft 10481168052 (35: Feinstrick ohne Zopfmuster und ohne sichtbares Pony-Logo)
-2026-10-22 09:33:08 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-22 09:37:18 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 09:37:18 UTC Suche „RalphLauren“
+2026-10-22 09:37:39 UTC RalphLauren: 12 neu, 9 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 09:38:02 UTC Bildprüfung verwirft 10481637334 (42: Gleiche Marke und Strickpullover, aber kein Zopfmuster und großes Monogramm)
+2026-10-22 09:38:11 UTC Bildprüfung ok 10481647868 (72: Gleicher Marken-Pullover, aber ohne Zopfmuster, feinerer Strick)
+2026-10-22 09:38:16 UTC Bildprüfung ok 10481631340 (93: Gleicher Strickpullover-Typ, Zopfmuster, Polo-Pony-Logo, ähnlicher Stil)
+2026-10-22 09:38:17 UTC Suche fertig: 2 neue Deals (1 Suchen)
