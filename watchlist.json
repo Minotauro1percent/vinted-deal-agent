@@ -356,6 +356,9 @@
     "minPrice": 0,
     "queriesManual": false,
     "queries": [],
-    "id": "ralphlauren"
+    "id": "ralphlauren",
+    "excludeRules": [
+      "Kein Zopfmuster"
+    ]
   }
 ]
