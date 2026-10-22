@@ -1,11 +1,26 @@
-2026-10-22 10:13:25 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 10:13:25 UTC Suche „RalphLauren“
-2026-10-22 10:13:42 UTC RalphLauren: 21 neu, 12 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 10:13:54 UTC Bildprüfung ok 10482105060 (88: Gleiche Marke, Zopfstrick und Pony-Logo; nur V-Ausschnitt abweichend)
-2026-10-22 10:14:00 UTC Bildprüfung verwirft 10482068121 (55: Gleiche Marke und Logo, aber Sweatshirt statt Zopfstrick)
-2026-10-22 10:14:12 UTC Bildprüfung verwirft 10482107662 (68: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
-2026-10-22 10:14:12 UTC Details übersprungen (10482099170): HTTP 404 für https://www.vinted.at/items/10482099170-polo-ralph-lauren-pullover
-2026-10-22 10:14:17 UTC Bildprüfung verwirft 10482080947 (70: Gleiche Marke und Pullover-Typ, aber glatter Strick statt Zopfmuster)
-2026-10-22 10:14:23 UTC Bildprüfung ok 10482065537 (93: Gleicher Zopfstrick, Rundhals und Polo-Logo, typischer Ralph-Lauren-Stil)
-2026-10-22 10:14:29 UTC Bildprüfung ok 10482048219 (85: Gleicher Pullover-Typ und Logo, aber glatter Strick statt Zopfmuster)
-2026-10-22 10:14:33 UTC Suche fertig: 3 neue Deals (1 Suchen)
+2026-10-22 10:18:44 UTC Telegram: 9 neue Nachricht(en)
+2026-10-22 10:18:45 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:46 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:46 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:47 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:48 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-22 10:18:48 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:49 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-22 10:18:49 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:50 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:50 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-22 10:18:50 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:51 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-22 10:18:51 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 10:18:51 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-22 10:18:51 UTC Feedback verarbeitet: ralphlauren
+2026-10-22 10:18:52 UTC Suche „Xiaomi 17“
+2026-10-22 10:18:55 UTC Xiaomi 17: 1 neue Kandidaten
+2026-10-22 10:18:55 UTC Suche „RalphLauren“
+2026-10-22 10:19:08 UTC RalphLauren: 26 neu, 21 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 10:19:15 UTC Bildprüfung verwirft 10482136704 (68: Zopfmuster und Marke passen, aber kurzärmliges Shirt statt Pullover)
+2026-10-22 10:19:22 UTC Bildprüfung ok 10482166923 (92: Gleicher Strickstil, Polo-Logo und Marke; nur Ausschnitt abweichend)
+2026-10-22 10:19:23 UTC Details übersprungen (10482169874): HTTP 404 für https://www.vinted.at/items/10482169874-pull-dhiver-blanc
+2026-10-22 10:19:39 UTC Bildprüfung verwirft 10482148081 (55: Zopfstrick passt, aber Rollkragen und kein sichtbares Logo)
+2026-10-22 10:19:48 UTC Bildprüfung verwirft 10482117097 (35: Rippstrick statt Zopfmuster, Knöpfe, kein sichtbares Pony-Logo)
+2026-10-22 10:20:26 UTC Suche fertig: 2 neue Deals (2 Suchen)
