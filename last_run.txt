@@ -1,6 +1,6 @@
-2026-10-22 23:15:13 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 23:15:13 UTC Suche „Xiaomi 17“
-2026-10-22 23:15:17 UTC Xiaomi 17: 1 neue Kandidaten
-2026-10-22 23:15:17 UTC Suche „RalphLauren“
-2026-10-22 23:15:29 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.55)
-2026-10-22 23:15:36 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-22 23:19:47 UTC Telegram: 0 neue Nachricht(en)
+2026-10-22 23:19:47 UTC Suche „RalphLauren“
+2026-10-22 23:20:01 UTC RalphLauren: 5 neu, 3 in der Vorauswahl (Schwelle 0.55)
+2026-10-22 23:20:10 UTC Bildprüfung verwirft 10491410425 (70: Gleiche Marke und Logo, aber Waffelstrick statt Zopfmuster.)
+2026-10-22 23:20:17 UTC Bildprüfung verwirft 10491403189 (30: Marke passt, aber Sweatshirt statt Zopfstrick, anderes Logo)
+2026-10-22 23:20:17 UTC Suche fertig: 0 neue Deals (1 Suchen)
