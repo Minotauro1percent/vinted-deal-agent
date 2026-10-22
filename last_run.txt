@@ -1,9 +1,11 @@
-2026-10-22 07:07:24 UTC Telegram: 0 neue Nachricht(en)
-2026-10-22 07:07:24 UTC Suche „RalphLauren“
-2026-10-22 07:07:42 UTC RalphLauren: 14 neu, 8 in der Vorauswahl (Schwelle 0.52)
-2026-10-22 07:07:48 UTC Bildprüfung ok 10480377667 (88: Gleiche Art, Zopfstrick und Logo; Lauren-Label von Ralph Lauren)
-2026-10-22 07:07:58 UTC Bildprüfung verwirft 10480387433 (62: Gleiche Marke und Pullover, aber Streifen statt Zopfmuster)
-2026-10-22 07:08:04 UTC Bildprüfung ok 10480388050 (78: Gleiche Marke und Pulli-Typ, aber glatter Strick statt Zopfmuster)
-2026-10-22 07:08:11 UTC Bildprüfung verwirft 10480363765 (35: Pullover, aber anderes Muster, Blockstreifen und unklares Logo)
-2026-10-22 07:08:21 UTC Bildprüfung verwirft 10467932398 (60: Marke und Pullover passen, aber kein Zopfstrick)
-2026-10-22 07:08:23 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-22 07:12:34 UTC Telegram: 2 neue Nachricht(en)
+2026-10-22 07:12:34 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 07:12:35 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-22 07:12:35 UTC Feedback verarbeitet: ralphlauren
+2026-10-22 07:12:35 UTC Suche „RalphLauren“
+2026-10-22 07:12:54 UTC RalphLauren: 9 neu, 5 in der Vorauswahl (Schwelle 0.52)
+2026-10-22 07:13:00 UTC Bildprüfung ok 10480402642 (88: Gleiche Marke, Zopfstrick und Pony-Logo; nur Half-Zip-Schnitt weicht ab.)
+2026-10-22 07:13:05 UTC Bildprüfung verwirft 10480404521 (72: Gleiche Marke und Logo, aber feiner Strick ohne Zopfmuster)
+2026-10-22 07:13:11 UTC Bildprüfung verwirft 10480403487 (55: Pullover und Logo ähnlich, aber kein Zopfmuster und andere Details)
+2026-10-22 07:13:21 UTC Bildprüfung verwirft 10480396043 (72: Zopfstrick und V-Ausschnitt passen, aber Pullunder statt Pullover, kein Logo sic)
+2026-10-22 07:13:21 UTC Suche fertig: 1 neue Deals (1 Suchen)
