@@ -1,8 +1,10 @@
-2026-10-23 10:11:25 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 10:11:25 UTC Suche „RalphLauren“
-2026-10-23 10:11:39 UTC RalphLauren: 12 neu, 6 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 10:11:45 UTC Bildprüfung verwirft 10494722988 (40: Strickpullover, aber kein Ralph-Lauren-Logo und anderes Muster)
-2026-10-23 10:11:52 UTC Bildprüfung ok 10494722777 (70: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
-2026-10-23 10:12:03 UTC Bildprüfung verwirft 10494708001 (62: Ralph Lauren Logo passt, aber glatter Strick statt Zopfmuster)
-2026-10-23 10:12:05 UTC Ausgeschlossen 10494719268: V-Ausschnitt
-2026-10-23 10:12:09 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-23 10:16:19 UTC Telegram: 2 neue Nachricht(en)
+2026-10-23 10:16:19 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-23 10:16:20 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-23 10:16:21 UTC Feedback verarbeitet: ralphlauren
+2026-10-23 10:16:21 UTC Suche „RalphLauren“
+2026-10-23 10:16:34 UTC RalphLauren: 12 neu, 8 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 10:16:43 UTC Ausgeschlossen 10494798086: Kinder
+2026-10-23 10:16:49 UTC Bildprüfung ok 10494794643 (85: Zopfstrick, Ralph-Lauren-Logo, passender Stil; nur Rollkragen statt Rundhals)
+2026-10-23 10:17:03 UTC Bildprüfung 10483550365: unlesbare Antwort:  (stop=max_tokens)
+2026-10-23 10:17:06 UTC Suche fertig: 1 neue Deals (1 Suchen)
