@@ -1,4 +1,6 @@
-2026-10-23 10:50:40 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 10:50:40 UTC Suche „RalphLauren“
-2026-10-23 10:50:45 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 10:50:45 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 10:54:57 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 10:54:57 UTC Suche „Xiaomi 17“
+2026-10-23 10:55:02 UTC Xiaomi 17: 6 neue Kandidaten
+2026-10-23 10:55:02 UTC Suche „RalphLauren“
+2026-10-23 10:55:07 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 10:55:07 UTC Suche fertig: 0 neue Deals (2 Suchen)
