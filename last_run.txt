@@ -1,5 +1,15 @@
-2026-10-23 09:21:59 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 09:21:59 UTC Suche „RalphLauren“
-2026-10-23 09:22:12 UTC RalphLauren: 12 neu, 4 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 09:22:22 UTC Ausgeschlossen 10494187455: V-Ausschnitt
-2026-10-23 09:22:26 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 09:26:38 UTC Telegram: 4 neue Nachricht(en)
+2026-10-23 09:26:38 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-23 09:26:39 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-23 09:26:39 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-23 09:26:40 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-23 09:26:40 UTC Feedback verarbeitet: ralphlauren
+2026-10-23 09:26:41 UTC Suche „RalphLauren“
+2026-10-23 09:26:54 UTC RalphLauren: 11 neu, 7 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 09:26:57 UTC Ausgeschlossen 10494026098: V-Ausschnitt
+2026-10-23 09:27:01 UTC Ausgeschlossen 10494238070: V-Ausschnitt
+2026-10-23 09:27:11 UTC Bildprüfung verwirft 10494227905 (35: Ralph Lauren, aber Sweatshirt statt Strick, Bärenmotiv statt Zopfmuster)
+2026-10-23 09:27:14 UTC Ausgeschlossen 10494226354: V-Ausschnitt
+2026-10-23 09:27:17 UTC Ausgeschlossen 10494224146: V-Ausschnitt
+2026-10-23 09:27:20 UTC Ausgeschlossen 10494219097: V-Ausschnitt
+2026-10-23 09:27:20 UTC Suche fertig: 0 neue Deals (1 Suchen)
