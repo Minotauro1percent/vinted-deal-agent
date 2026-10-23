@@ -1,6 +1,4 @@
-2026-10-23 14:26:37 UTC Telegram: 1 neue Nachricht(en)
-2026-10-23 14:26:38 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-23 14:26:38 UTC Feedback verarbeitet: ralphlauren
-2026-10-23 14:26:38 UTC Suche „RalphLauren“
-2026-10-23 14:26:42 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 14:26:42 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 14:30:55 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 14:30:55 UTC Suche „RalphLauren“
+2026-10-23 14:31:00 UTC RalphLauren: 4 neu, 2 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 14:31:07 UTC Suche fertig: 0 neue Deals (1 Suchen)
