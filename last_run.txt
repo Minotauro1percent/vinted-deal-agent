@@ -1,10 +1,2 @@
-2026-10-23 23:20:31 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 23:20:32 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-23 23:20:32 UTC Suche „RalphLauren“
-2026-10-23 23:20:45 UTC RalphLauren: 17 neu, 7 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 23:20:51 UTC Ausgeschlossen 10503850870: Kinder
-2026-10-23 23:20:56 UTC Bildprüfung verwirft 10503740792 (72: Gleiche Marke und Logo, aber anderes Strickmuster (kein Zopfmuster))
-2026-10-23 23:21:04 UTC Bildprüfung ok 10503616127 (65: Ralph-Lauren-Logo und Rundhals passen; aber glatter Strick statt Zopfmuster)
-2026-10-23 23:21:12 UTC Suche „Xiaomi 17“
-2026-10-23 23:21:16 UTC Xiaomi 17: 0 neue Kandidaten
-2026-10-23 23:21:16 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-10-23 23:25:28 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 23:25:28 UTC Keine Suche fällig
