@@ -1,13 +1,14 @@
-2026-10-23 07:47:04 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 07:47:04 UTC Suche „RalphLauren“
-2026-10-23 07:47:18 UTC RalphLauren: 17 neu, 13 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 07:47:24 UTC Bildprüfung verwirft 10493212584 (12: Kein Zopfstrick, kein Polo-Logo, Stehkragen mit Kordeln statt Schnitt der Beispi)
-2026-10-23 07:47:28 UTC Ausgeschlossen 10481564850: V-Ausschnitt
-2026-10-23 07:47:35 UTC Bildprüfung verwirft 10493259102 (40: Strickoberteil mit Rundhals, kurzen Ärmeln; Stil und Logo weichen ab)
-2026-10-23 07:47:39 UTC Ausgeschlossen 10493207847: V-Ausschnitt
-2026-10-23 07:47:53 UTC Bildprüfung verwirft 10493195049 (50: Marke passt, aber anderer Strick, kein Zopfmuster, kein Pony-Logo)
-2026-10-23 07:48:00 UTC Ausgeschlossen 10493186433: V-Ausschnitt
-2026-10-23 07:48:05 UTC Bildprüfung verwirft 10493202173 (50: Zopfstrick passt, aber kein Logo und Ausschnitt abweichend)
-2026-10-23 07:48:11 UTC Bildprüfung verwirft 10493177453 (15: V-Ausschnitt ist Ausschlusskriterium; Streifen-Leinenlook weicht stark ab)
-2026-10-23 07:48:16 UTC Ausgeschlossen 10493230981: V-Ausschnitt
-2026-10-23 07:48:16 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 07:52:30 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 07:52:30 UTC Suche „RalphLauren“
+2026-10-23 07:52:42 UTC RalphLauren: 24 neu, 17 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 07:52:51 UTC Ausgeschlossen 10493327868: V-Ausschnitt
+2026-10-23 07:52:59 UTC Bildprüfung verwirft 10493312944 (12: Kein Zopfmuster, kein sichtbares Logo, nicht Ralph Lauren-typisch)
+2026-10-23 07:53:09 UTC Bildprüfung verwirft 10493308041 (55: )
+2026-10-23 07:53:17 UTC Bildprüfung verwirft 10493282733 (40: Pullover, aber Rippstrick statt Zopfmuster und kein sichtbares Logo)
+2026-10-23 07:53:23 UTC Bildprüfung verwirft 10493300272 (10: )
+2026-10-23 07:53:26 UTC Ausgeschlossen 10493295307: V-Ausschnitt
+2026-10-23 07:53:39 UTC Bildprüfung verwirft 10423172036 (42: Ralph Lauren passt, aber kein Zopfmuster und glatter Strick)
+2026-10-23 07:53:44 UTC Bildprüfung verwirft 10481870693 (70: Gleiche Marke und Logo, aber ohne Zopfmuster)
+2026-10-23 07:53:48 UTC Ausgeschlossen 10493313707: Kinder
+2026-10-23 07:53:54 UTC Ausgeschlossen 10493278164: V-Ausschnitt
+2026-10-23 07:53:54 UTC Suche fertig: 0 neue Deals (1 Suchen)
