@@ -1,12 +1,13 @@
-2026-10-23 07:41:35 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 07:41:35 UTC Suche „RalphLauren“
-2026-10-23 07:41:48 UTC RalphLauren: 20 neu, 15 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 07:41:57 UTC Bildprüfung ok 10493168888 (88: Zopfstrick, Polo-Logo, Rundhals, Erwachsenenmodell; passt stilistisch gut)
-2026-10-23 07:42:01 UTC Ausgeschlossen 10481527729: Kinder
-2026-10-23 07:42:16 UTC Bildprüfung verwirft 10493152006 (40: Strick vorhanden, aber kein Zopfmuster, kein Logo sichtbar)
-2026-10-23 07:42:19 UTC Ausgeschlossen 10493146554: V-Ausschnitt
-2026-10-23 07:42:26 UTC Bildprüfung verwirft 10493146364 (15: Gestreiftes Oberteil statt Zopfstrick; Logo und Marke nicht erkennbar)
-2026-10-23 07:42:39 UTC Ausgeschlossen 10493121277: V-Ausschnitt
-2026-10-23 07:42:46 UTC Ausgeschlossen 10493130223: V-Ausschnitt
-2026-10-23 07:42:50 UTC Bildprüfung verwirft 10493148027 (62: Marke passt; anderes Muster (kein Zopfstrick), aber Rundhals und Logo ähnlich)
-2026-10-23 07:42:50 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-23 07:47:04 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 07:47:04 UTC Suche „RalphLauren“
+2026-10-23 07:47:18 UTC RalphLauren: 17 neu, 13 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 07:47:24 UTC Bildprüfung verwirft 10493212584 (12: Kein Zopfstrick, kein Polo-Logo, Stehkragen mit Kordeln statt Schnitt der Beispi)
+2026-10-23 07:47:28 UTC Ausgeschlossen 10481564850: V-Ausschnitt
+2026-10-23 07:47:35 UTC Bildprüfung verwirft 10493259102 (40: Strickoberteil mit Rundhals, kurzen Ärmeln; Stil und Logo weichen ab)
+2026-10-23 07:47:39 UTC Ausgeschlossen 10493207847: V-Ausschnitt
+2026-10-23 07:47:53 UTC Bildprüfung verwirft 10493195049 (50: Marke passt, aber anderer Strick, kein Zopfmuster, kein Pony-Logo)
+2026-10-23 07:48:00 UTC Ausgeschlossen 10493186433: V-Ausschnitt
+2026-10-23 07:48:05 UTC Bildprüfung verwirft 10493202173 (50: Zopfstrick passt, aber kein Logo und Ausschnitt abweichend)
+2026-10-23 07:48:11 UTC Bildprüfung verwirft 10493177453 (15: V-Ausschnitt ist Ausschlusskriterium; Streifen-Leinenlook weicht stark ab)
+2026-10-23 07:48:16 UTC Ausgeschlossen 10493230981: V-Ausschnitt
+2026-10-23 07:48:16 UTC Suche fertig: 0 neue Deals (1 Suchen)
