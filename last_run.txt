@@ -1,4 +1,5 @@
-2026-10-23 01:51:48 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 01:51:48 UTC Suche „RalphLauren“
-2026-10-23 01:52:00 UTC RalphLauren: 1 neu, 0 in der Vorauswahl (Schwelle 0.55)
-2026-10-23 01:52:00 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 01:56:11 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 01:56:11 UTC Suche „RalphLauren“
+2026-10-23 01:56:25 UTC RalphLauren: 2 neu, 1 in der Vorauswahl (Schwelle 0.55)
+2026-10-23 01:56:29 UTC Ausgeschlossen 10492113723: V-Ausschnitt
+2026-10-23 01:56:29 UTC Suche fertig: 0 neue Deals (1 Suchen)
