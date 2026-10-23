@@ -1,5 +1,6 @@
-2026-10-23 06:56:25 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 06:56:25 UTC Suche „RalphLauren“
-2026-10-23 06:56:38 UTC RalphLauren: 6 neu, 2 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 06:56:49 UTC Bildprüfung verwirft 10493021729 (50: Pullover und Marke passen, aber kein Zopfstrick)
-2026-10-23 06:56:49 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 07:01:02 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 07:01:02 UTC Suche „Xiaomi 17“
+2026-10-23 07:01:07 UTC Xiaomi 17: 1 neue Kandidaten
+2026-10-23 07:01:07 UTC Suche „RalphLauren“
+2026-10-23 07:01:22 UTC RalphLauren: 4 neu, 0 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 07:01:22 UTC Suche fertig: 0 neue Deals (2 Suchen)
