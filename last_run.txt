@@ -1,5 +1,8 @@
-2026-10-23 08:13:47 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 08:13:47 UTC Suche „RalphLauren“
-2026-10-23 08:14:03 UTC RalphLauren: 5 neu, 2 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 08:14:10 UTC Bildprüfung verwirft 10493506242 (8: Kurzarm-Shirt statt Strickpullover, kein Logo, anderer Stil)
-2026-10-23 08:14:14 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 08:18:26 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 08:18:26 UTC Suche „RalphLauren“
+2026-10-23 08:18:41 UTC RalphLauren: 5 neu, 4 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 08:18:47 UTC Bildprüfung verwirft 10483846206 (35: Zopfstrick passt, aber kein Logo, Rollkragen und grober Handstrick-Look)
+2026-10-23 08:18:54 UTC Bildprüfung verwirft 10493574075 (50: )
+2026-10-23 08:19:00 UTC Bildprüfung verwirft 10493545321 (45: Schal statt Pullover; Strickmuster passt, Logo nicht eindeutig Ralph Lauren)
+2026-10-23 08:19:06 UTC Bildprüfung verwirft 10493559043 (55: Gleiche Marke und Pulloverart, aber kein Zopfmuster)
+2026-10-23 08:19:06 UTC Suche fertig: 0 neue Deals (1 Suchen)
