@@ -1,6 +1,5 @@
-2026-10-23 01:11:45 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 01:11:45 UTC Suche „Xiaomi 17“
-2026-10-23 01:11:50 UTC Xiaomi 17: 2 neue Kandidaten
-2026-10-23 01:11:53 UTC Suche „RalphLauren“
-2026-10-23 01:12:07 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.55)
-2026-10-23 01:12:07 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-23 01:16:18 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 01:16:18 UTC Suche „RalphLauren“
+2026-10-23 01:16:30 UTC RalphLauren: 3 neu, 1 in der Vorauswahl (Schwelle 0.55)
+2026-10-23 01:16:33 UTC Details übersprungen (10491946492): HTTP 503 für https://www.vinted.at/items/10491946492-pull-sans-manches
+2026-10-23 01:16:33 UTC Suche fertig: 0 neue Deals (1 Suchen)
