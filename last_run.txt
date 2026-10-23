@@ -1,13 +1,8 @@
-2026-10-23 07:58:05 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 07:58:05 UTC Suche „Xiaomi 17“
-2026-10-23 07:58:09 UTC Xiaomi 17: 1 neue Kandidaten
-2026-10-23 07:58:09 UTC Suche „RalphLauren“
-2026-10-23 07:58:23 UTC RalphLauren: 19 neu, 13 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 07:58:28 UTC Bildprüfung verwirft 10493413862 (72: Ralph Lauren Pullover, Rundhals und Logo passen; kein Zopfmuster sichtbar)
-2026-10-23 07:58:37 UTC Bildprüfung verwirft 10493407016 (30: Strickjacke ohne Zopfmuster und Logo, Stil weicht ab)
-2026-10-23 07:58:46 UTC Bildprüfung verwirft 10493392893 (18: Kein Zopfstrick, anderer Schnitt und Stil; Logo nicht erkennbar)
-2026-10-23 07:58:58 UTC Bildprüfung verwirft 10493363732 (40: Pullover, aber kein Zopfmuster, kein sichtbares Logo, Stehkragen statt Rundhals)
-2026-10-23 07:59:03 UTC Bildprüfung verwirft 10493342697 (12: Streifenmuster statt Zopfstrick, kein Logo, anderer Stil)
-2026-10-23 07:59:17 UTC Bildprüfung verwirft 10493383213 (55: Ralph Lauren Logo und Stil passen, aber kein Zopfmuster)
-2026-10-23 07:59:24 UTC Bildprüfung verwirft 10493365209 (45: )
-2026-10-23 07:59:24 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-23 08:03:35 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 08:03:35 UTC Suche „RalphLauren“
+2026-10-23 08:03:49 UTC RalphLauren: 18 neu, 8 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 08:03:58 UTC Bildprüfung verwirft 10493441929 (22: Kein Zopfmuster, kein sichtbares Logo, Halbreißverschluss statt Beispielstil)
+2026-10-23 08:04:07 UTC Bildprüfung verwirft 10493426649 (30: Pullover passt, aber kein Zopfmuster und kein sichtbares Logo)
+2026-10-23 08:04:19 UTC Bildprüfung ok 10493453717 (60: Ralph Lauren Logo passt, aber kein Zopfmuster und Shawl-Kragen statt Pullover)
+2026-10-23 08:04:24 UTC Ausgeschlossen 10493446013: Kinder
+2026-10-23 08:04:24 UTC Suche fertig: 1 neue Deals (1 Suchen)
