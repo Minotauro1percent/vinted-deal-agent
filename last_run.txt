@@ -1,8 +1,14 @@
-2026-10-23 10:21:17 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 10:21:17 UTC Suche „RalphLauren“
-2026-10-23 10:21:32 UTC RalphLauren: 9 neu, 5 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 10:21:40 UTC Bildprüfung verwirft 10494828331 (60: )
-2026-10-23 10:21:45 UTC Bildprüfung verwirft 10494844921 (45: )
-2026-10-23 10:21:52 UTC Bildprüfung verwirft 10494842326 (62: Richtige Marke und Logo, aber feiner Strick statt Zopfmuster)
-2026-10-23 10:22:01 UTC Bildprüfung verwirft 10494827161 (40: Anderer Strickstil: glatter Pullover mit Knopfleiste, kein Zopfmuster)
-2026-10-23 10:22:01 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 10:26:14 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 10:26:14 UTC Suche „RalphLauren“
+2026-10-23 10:26:28 UTC RalphLauren: 20 neu, 12 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 10:26:33 UTC Bildprüfung verwirft 10494866955 (12: Kein Zopfmuster, kein Logo sichtbar, anderer Stil (Hemdkragen-Layering))
+2026-10-23 10:26:40 UTC Bildprüfung ok 10494915258 (92: Ralph-Lauren-Zopfstrick, Rundhals, Logo passt; kein V-Ausschnitt, kein Kinderart)
+2026-10-23 10:26:51 UTC Bildprüfung verwirft 10493753300 (45: Gleiche Marke möglich, aber Rippstrick statt Zopfmuster, kein Pony-Logo sichtbar)
+2026-10-23 10:26:58 UTC Bildprüfung verwirft 10494900495 (65: )
+2026-10-23 10:27:05 UTC Bildprüfung ok 10494925097 (75: Ralph-Lauren-Pullover mit Pony-Logo, aber Streifen statt Zopfmuster)
+2026-10-23 10:27:13 UTC Bildprüfung ok 10494920854 (88: Polo-Zopfstrick mit Pony-Logo, Rundhals, kein V-Ausschnitt, keine Kinderangabe)
+2026-10-23 10:27:18 UTC Ausgeschlossen 10494890618: V-Ausschnitt
+2026-10-23 10:27:25 UTC Ausgeschlossen 10494882050: V-Ausschnitt
+2026-10-23 10:27:29 UTC Ausgeschlossen 10494873007: V-Ausschnitt
+2026-10-23 10:27:32 UTC Ausgeschlossen 10494868148: V-Ausschnitt
+2026-10-23 10:27:32 UTC Suche fertig: 3 neue Deals (1 Suchen)
