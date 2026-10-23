@@ -1,15 +1,6 @@
-2026-10-23 09:56:22 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 09:56:22 UTC Suche „Xiaomi 17“
-2026-10-23 09:56:26 UTC Xiaomi 17: 3 neue Kandidaten
-2026-10-23 09:56:26 UTC Suche „RalphLauren“
-2026-10-23 09:56:39 UTC RalphLauren: 22 neu, 12 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 09:56:49 UTC Bildprüfung ok 10494565578 (60: Ralph Lauren Logo passt, aber glatter Pullover statt Zopfstrick)
-2026-10-23 09:56:56 UTC Bildprüfung verwirft 10494554369 (45: Ralph Lauren Logo passt, aber kein Zopfstrick, Sweatshirt-Stil)
-2026-10-23 09:57:01 UTC Bildprüfung verwirft 10494586121 (40: )
-2026-10-23 09:57:07 UTC Bildprüfung verwirft 10494574117 (10: Kinderkleid; Ausschlusskriterium Kinder trifft zu)
-2026-10-23 09:57:11 UTC Ausgeschlossen 10494561681: V-Ausschnitt
-2026-10-23 09:57:15 UTC Ausgeschlossen 10491034987: V-Ausschnitt
-2026-10-23 09:57:21 UTC Bildprüfung verwirft 10494543936 (50: Gleiche Marke und Pullovertyp, aber ohne Zopfmuster und mit anderem Logo)
-2026-10-23 09:57:27 UTC Bildprüfung ok 10494542971 (92: Ralph-Lauren-Zopfstrickpullover mit Logo, Rundhals, passt stilistisch gut)
-2026-10-23 09:57:34 UTC Ausgeschlossen 10494539588: V-Ausschnitt
-2026-10-23 09:57:38 UTC Suche fertig: 2 neue Deals (2 Suchen)
+2026-10-23 10:01:51 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 10:01:51 UTC Suche „RalphLauren“
+2026-10-23 10:02:04 UTC RalphLauren: 8 neu, 3 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 10:02:11 UTC Bildprüfung ok 10494620594 (65: Marke und Logo passen, aber kein Zopfmuster und feinerer Strick)
+2026-10-23 10:02:20 UTC Bildprüfung verwirft 10494600849 (8: Zebramuster statt Zopfstrick, kein Ralph-Lauren-Logo, anderer Stil)
+2026-10-23 10:02:20 UTC Suche fertig: 1 neue Deals (1 Suchen)
