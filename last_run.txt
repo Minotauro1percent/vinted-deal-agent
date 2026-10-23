@@ -1,10 +1,4 @@
-2026-10-23 10:36:48 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 10:36:48 UTC Suche „RalphLauren“
-2026-10-23 10:37:00 UTC RalphLauren: 18 neu, 12 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 10:37:07 UTC Bildprüfung verwirft 10495016752 (25: Feinrippstoff statt Zopfmuster, dünn, 3/4-Ärmel, kein klares Polo-Logo)
-2026-10-23 10:37:10 UTC Ausgeschlossen 10495040215: V-Ausschnitt
-2026-10-23 10:37:16 UTC Bildprüfung verwirft 10495031062 (25: Anderer Strick und Kragen, kein sichtbares Ralph-Lauren-Logo)
-2026-10-23 10:37:25 UTC Bildprüfung ok 10495026783 (88: Zopfstrick-Rundhals mit Polo-Logo, passt zu Beispielen)
-2026-10-23 10:37:33 UTC Bildprüfung: Tageslimit erreicht – bis Mitternacht ohne Bildprüfung
-2026-10-23 10:37:49 UTC Ausgeschlossen 10495001161: V-Ausschnitt
-2026-10-23 10:37:51 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-23 10:42:04 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 10:42:04 UTC Suche „RalphLauren“
+2026-10-23 10:42:11 UTC RalphLauren: 1 neu, 0 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 10:42:11 UTC Suche fertig: 0 neue Deals (1 Suchen)
