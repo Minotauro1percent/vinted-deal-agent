@@ -1,8 +1,4 @@
-2026-10-23 22:12:04 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 22:12:04 UTC Suche „RalphLauren“
-2026-10-23 22:12:20 UTC RalphLauren: 14 neu, 6 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 22:12:28 UTC Bildprüfung ok 10503515055 (72: Zopfmuster und Rundhals passen, kein Pony-Logo sichtbar, dünnerer Strick)
-2026-10-23 22:12:36 UTC Ausgeschlossen 10503509379: Kinder
-2026-10-23 22:12:40 UTC Ausgeschlossen 10503508177: V-Ausschnitt
-2026-10-23 22:12:46 UTC Bildprüfung verwirft 10503488251 (62: Ralph Lauren Pullover mit Logo, aber ohne Zopfmuster; Stil ähnlich)
-2026-10-23 22:12:50 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-23 22:17:01 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 22:17:01 UTC Suche „RalphLauren“
+2026-10-23 22:17:02 UTC Vinted blockiert: HTTP 403
+2026-10-23 22:17:02 UTC Suche fertig: 0 neue Deals (1 Suchen)
