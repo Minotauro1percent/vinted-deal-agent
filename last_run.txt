@@ -1,5 +1,8 @@
-2026-10-23 09:02:24 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 09:02:24 UTC Suche „RalphLauren“
-2026-10-23 09:02:38 UTC RalphLauren: 13 neu, 4 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 09:02:48 UTC Ausgeschlossen 10493968756: V-Ausschnitt
-2026-10-23 09:02:52 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 09:07:03 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 09:07:03 UTC Suche „RalphLauren“
+2026-10-23 09:07:20 UTC RalphLauren: 7 neu, 4 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 09:07:28 UTC Bildprüfung verwirft 10494027373 (30: Zopfstrick passt, aber kein Logo, grober Look und Stehkragen)
+2026-10-23 09:07:34 UTC Bildprüfung verwirft 10494022289 (45: Marke und Logo passen, aber Sweatshirt statt Zopfstrick)
+2026-10-23 09:07:37 UTC Ausgeschlossen 10494045094: V-Ausschnitt
+2026-10-23 09:07:41 UTC Ausgeschlossen 10494032865: V-Ausschnitt
+2026-10-23 09:07:41 UTC Suche fertig: 0 neue Deals (1 Suchen)
