@@ -1,5 +1,4 @@
-2026-10-23 04:18:48 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 04:18:48 UTC Suche „RalphLauren“
-2026-10-23 04:19:01 UTC RalphLauren: 1 neu, 1 in der Vorauswahl (Schwelle 0.55)
-2026-10-23 04:19:07 UTC Bildprüfung verwirft 10492548879 (25: Anderer Artikeltyp: Jersey-Shirt statt Zopfstrick, kein Pony-Logo)
-2026-10-23 04:19:07 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 04:23:27 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 04:23:28 UTC Suche „RalphLauren“
+2026-10-23 04:23:42 UTC RalphLauren: 1 neu, 0 in der Vorauswahl (Schwelle 0.55)
+2026-10-23 04:23:42 UTC Suche fertig: 0 neue Deals (1 Suchen)
