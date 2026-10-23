@@ -1,6 +1,41 @@
-2026-10-23 21:58:47 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 21:58:47 UTC Suche „Xiaomi 17“
-2026-10-23 21:58:51 UTC Xiaomi 17: 2 neue Kandidaten
-2026-10-23 21:58:54 UTC Suche „RalphLauren“
-2026-10-23 21:58:58 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 21:58:58 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-23 22:03:10 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 22:03:10 UTC Suche „RalphLauren“
+2026-10-23 22:03:25 UTC RalphLauren: 130 neu, 62 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 22:03:34 UTC Bildprüfung 10503182928: unlesbare Antwort:  (stop=max_tokens)
+2026-10-23 22:03:42 UTC Bildprüfung verwirft 10503095239 (25: )
+2026-10-23 22:03:48 UTC Bildprüfung verwirft 10503467198 (62: Zopfstrick wie Beispiele, aber kein Logo sichtbar, Marke unklar)
+2026-10-23 22:03:59 UTC Bildprüfung verwirft 10503224614 (35: Gleiche Marke, aber anderes Strickmuster, kein Zopfmuster, kein Logo sichtbar)
+2026-10-23 22:04:12 UTC Bildprüfung verwirft 10503114615 (62: Gleiche Marke und Logo, aber schlichter Strick statt Zopfmuster)
+2026-10-23 22:04:18 UTC Ausgeschlossen 10500981145: V-Ausschnitt
+2026-10-23 22:04:27 UTC Bildprüfung verwirft 10502767813 (35: Gleiche Marke, aber Sweatshirt statt Zopfstrick; Kinderbezug unklar)
+2026-10-23 22:04:34 UTC Bildprüfung verwirft 10502769596 (35: Marke passt, aber gestreift statt Zopfmuster und ohne Polo-Logo)
+2026-10-23 22:04:40 UTC Ausgeschlossen 10502600409: V-Ausschnitt
+2026-10-23 22:04:55 UTC Bildprüfung ok 10502455181 (65: Zopfmuster und Baumwollstrick passen, aber Puffärmel und kein Pony-Logo)
+2026-10-23 22:05:23 UTC Ausgeschlossen 10502228943: V-Ausschnitt
+2026-10-23 22:05:32 UTC Bildprüfung verwirft 10503403407 (50: Marke und Logo passen, aber Waffelstrick statt Zopfmuster)
+2026-10-23 22:05:37 UTC Bildprüfung verwirft 10503376720 (15: V-Ausschnitt ist ein Ausschlusskriterium; zudem kein Zopfmuster und kein sichtba)
+2026-10-23 22:05:41 UTC Ausgeschlossen 10503382787: V-Ausschnitt
+2026-10-23 22:05:50 UTC Bildprüfung verwirft 10503360710 (45: Gleiche Marke und Logo, aber glatter Sweatshirt statt Zopfstrick)
+2026-10-23 22:05:53 UTC Ausgeschlossen 10503309421: V-Ausschnitt
+2026-10-23 22:06:02 UTC Bildprüfung ok 10503175197 (60: Marke und Logo passen, aber kein Zopfmuster wie in den Beispielen)
+2026-10-23 22:06:09 UTC Bildprüfung verwirft 10503153722 (68: Ralph Lauren Pullover mit Logo, aber ohne Zopfmuster)
+2026-10-23 22:06:13 UTC Ausgeschlossen 10500276224: V-Ausschnitt
+2026-10-23 22:06:19 UTC Bildprüfung ok 10503061335 (60: Marke passt, aber glatter Jersey statt Zopfstrick, rrundhals)
+2026-10-23 22:06:26 UTC Ausgeschlossen 10502908314: V-Ausschnitt
+2026-10-23 22:06:29 UTC Ausgeschlossen 10502847598: V-Ausschnitt
+2026-10-23 22:06:33 UTC Ausgeschlossen 10502821984: V-Ausschnitt
+2026-10-23 22:06:39 UTC Ausgeschlossen 10502772176: V-Ausschnitt
+2026-10-23 22:06:45 UTC Bildprüfung verwirft 10472803380 (40: Marke passt, aber Sweatshirt statt Zopfstrick, anderes Motiv)
+2026-10-23 22:06:56 UTC Ausgeschlossen 10502568740: Kinder
+2026-10-23 22:07:02 UTC Bildprüfung verwirft 10502713363 (50: Gleiche Marke und Logo, aber Sweatshirt statt Zopfstrick.)
+2026-10-23 22:07:05 UTC Ausgeschlossen 10502671309: V-Ausschnitt
+2026-10-23 22:07:12 UTC Bildprüfung verwirft 10502394730 (10: V-Ausschnitt ist Ausschlusskriterium; kein Zopfmuster)
+2026-10-23 22:07:19 UTC Ausgeschlossen 10502409912: Kinder
+2026-10-23 22:07:25 UTC Bildprüfung verwirft 10502458459 (25: Glatter Feinstrick statt Zopfmuster, Logo passt, Schnitt unklar)
+2026-10-23 22:07:31 UTC Bildprüfung ok 10502403883 (85: Ralph Lauren Zopf-Pullover mit Pony-Logo, Rundhals; Kindergröße nicht sicher erk)
+2026-10-23 22:07:36 UTC Ausgeschlossen 10502426478: V-Ausschnitt
+2026-10-23 22:07:39 UTC Ausgeschlossen 10502409478: Kinder
+2026-10-23 22:07:43 UTC Ausgeschlossen 10502304476: V-Ausschnitt
+2026-10-23 22:07:47 UTC Ausgeschlossen 10502344917: V-Ausschnitt
+2026-10-23 22:07:52 UTC Bildprüfung verwirft 10502348087 (18: Kein Zopfmuster, kein Logo sichtbar, anderer Stil als Beispiele)
+2026-10-23 22:07:52 UTC Suche fertig: 5 neue Deals (1 Suchen)
