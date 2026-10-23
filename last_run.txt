@@ -1,5 +1,4 @@
-2026-10-23 01:29:34 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 01:29:34 UTC Suche „RalphLauren“
-2026-10-23 01:29:45 UTC RalphLauren: 2 neu, 1 in der Vorauswahl (Schwelle 0.55)
-2026-10-23 01:29:51 UTC Bildprüfung verwirft 10491988452 (55: Ralph Lauren Logo und Rundhals passen, aber kein Zopfmuster)
-2026-10-23 01:29:51 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 01:34:01 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 01:34:02 UTC Suche „RalphLauren“
+2026-10-23 01:34:15 UTC RalphLauren: 1 neu, 1 in der Vorauswahl (Schwelle 0.55)
+2026-10-23 01:34:18 UTC Suche fertig: 0 neue Deals (1 Suchen)
