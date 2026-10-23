@@ -1,10 +1,5 @@
-2026-10-23 08:57:22 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 08:57:22 UTC Suche „Xiaomi 17“
-2026-10-23 08:57:26 UTC Xiaomi 17: 2 neue Kandidaten
-2026-10-23 08:57:29 UTC Suche „RalphLauren“
-2026-10-23 08:57:41 UTC RalphLauren: 11 neu, 7 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 08:57:47 UTC Bildprüfung verwirft 10493927645 (45: Gleiche Marke, aber andere Strickart (Rippe statt Zopf) und anderes Logo)
-2026-10-23 08:57:51 UTC Ausgeschlossen 10493901869: V-Ausschnitt
-2026-10-23 08:58:01 UTC Bildprüfung verwirft 10493927134 (10: V-Ausschnitt trifft Ausschlusskriterium zu; glatter Strick, kein Zopfmuster.)
-2026-10-23 08:58:05 UTC Ausgeschlossen 10493917568: V-Ausschnitt
-2026-10-23 08:58:12 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-23 09:02:24 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 09:02:24 UTC Suche „RalphLauren“
+2026-10-23 09:02:38 UTC RalphLauren: 13 neu, 4 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 09:02:48 UTC Ausgeschlossen 10493968756: V-Ausschnitt
+2026-10-23 09:02:52 UTC Suche fertig: 0 neue Deals (1 Suchen)
