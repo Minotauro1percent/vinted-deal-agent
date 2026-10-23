@@ -358,7 +358,8 @@
     "queries": [],
     "id": "ralphlauren",
     "excludeRules": [
-      "V-Ausschnitt"
+      "V-Ausschnitt",
+      "Kinder"
     ]
   }
 ]
