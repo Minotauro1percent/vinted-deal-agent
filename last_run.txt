@@ -1,5 +1,4 @@
-2026-10-23 01:16:18 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 01:16:18 UTC Suche „RalphLauren“
-2026-10-23 01:16:30 UTC RalphLauren: 3 neu, 1 in der Vorauswahl (Schwelle 0.55)
-2026-10-23 01:16:33 UTC Details übersprungen (10491946492): HTTP 503 für https://www.vinted.at/items/10491946492-pull-sans-manches
-2026-10-23 01:16:33 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 01:20:44 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 01:20:44 UTC Suche „RalphLauren“
+2026-10-23 01:20:58 UTC RalphLauren: 1 neu, 1 in der Vorauswahl (Schwelle 0.55)
+2026-10-23 01:21:02 UTC Suche fertig: 0 neue Deals (1 Suchen)
