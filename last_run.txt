@@ -1,5 +1,4 @@
-2026-10-23 01:02:48 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 01:02:48 UTC Suche „RalphLauren“
-2026-10-23 01:03:01 UTC RalphLauren: 3 neu, 1 in der Vorauswahl (Schwelle 0.55)
-2026-10-23 01:03:08 UTC Bildprüfung verwirft 10491871611 (50: Gleiche Marke, aber Sweatshirt statt Zopfstrick; kein V-Ausschnitt.)
-2026-10-23 01:03:08 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 01:07:19 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 01:07:19 UTC Suche „RalphLauren“
+2026-10-23 01:07:32 UTC RalphLauren: 1 neu, 0 in der Vorauswahl (Schwelle 0.55)
+2026-10-23 01:07:32 UTC Suche fertig: 0 neue Deals (1 Suchen)
