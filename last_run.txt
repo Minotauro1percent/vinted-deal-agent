@@ -1,14 +1,5 @@
-2026-10-23 08:08:35 UTC Telegram: 2 neue Nachricht(en)
-2026-10-23 08:08:36 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-23 08:08:37 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-23 08:08:37 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
-2026-10-23 08:08:37 UTC Feedback verarbeitet: ralphlauren
-2026-10-23 08:08:37 UTC Suche „RalphLauren“
-2026-10-23 08:08:52 UTC RalphLauren: 13 neu, 8 in der Vorauswahl (Schwelle 0.50)
-2026-10-23 08:08:57 UTC Bildprüfung verwirft 10493497888 (10: V-Ausschnitt ist ein Ausschlusskriterium; zudem kein Zopfmuster)
-2026-10-23 08:09:15 UTC Bildprüfung verwirft 10493474381 (62: Ralph Lauren Pony-Logo passt, aber glatter Strick statt Zopfmuster)
-2026-10-23 08:09:21 UTC Bildprüfung verwirft 10493474049 (55: Marke und Strick passen, aber kein Zopfmuster und anderer Kragenstil)
-2026-10-23 08:09:26 UTC Ausgeschlossen 10493467186: V-Ausschnitt
-2026-10-23 08:09:29 UTC Ausgeschlossen 10493465097: V-Ausschnitt
-2026-10-23 08:09:34 UTC Bildprüfung verwirft 10493188164 (65: Gleiche Marke und Pony-Logo, aber glatter Strick statt Zopfmuster)
-2026-10-23 08:09:34 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-23 08:13:47 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 08:13:47 UTC Suche „RalphLauren“
+2026-10-23 08:14:03 UTC RalphLauren: 5 neu, 2 in der Vorauswahl (Schwelle 0.50)
+2026-10-23 08:14:10 UTC Bildprüfung verwirft 10493506242 (8: Kurzarm-Shirt statt Strickpullover, kein Logo, anderer Stil)
+2026-10-23 08:14:14 UTC Suche fertig: 0 neue Deals (1 Suchen)
