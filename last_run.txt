@@ -1,10 +1,5 @@
-2026-10-23 09:31:30 UTC Telegram: 0 neue Nachricht(en)
-2026-10-23 09:31:31 UTC Suche „RalphLauren“
-2026-10-23 09:31:44 UTC RalphLauren: 18 neu, 10 in der Vorauswahl (Schwelle 0.52)
-2026-10-23 09:32:00 UTC Bildprüfung verwirft 10494257968 (25: Kein Zopfmuster, kein sichtbares Logo, schlichter Schnitt, aber kein Ausschlussk)
-2026-10-23 09:32:04 UTC Ausgeschlossen 10494294087: V-Ausschnitt
-2026-10-23 09:32:10 UTC Ausgeschlossen 10494265383: V-Ausschnitt
-2026-10-23 09:32:13 UTC Ausgeschlossen 10494263099: V-Ausschnitt
-2026-10-23 09:32:18 UTC Bildprüfung ok 10494287711 (88: Zopfstrick, Polo-Logo, Rundhals, passt zu Beispielen)
-2026-10-23 09:32:25 UTC Bildprüfung verwirft 10494285545 (40: Ralph-Lauren-Stil, aber kein Zopfmuster und anderes Wappen-Logo)
-2026-10-23 09:32:25 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-23 09:36:36 UTC Telegram: 0 neue Nachricht(en)
+2026-10-23 09:36:36 UTC Suche „RalphLauren“
+2026-10-23 09:36:49 UTC RalphLauren: 10 neu, 7 in der Vorauswahl (Schwelle 0.52)
+2026-10-23 09:37:02 UTC Ausgeschlossen 10494361920: V-Ausschnitt
+2026-10-23 09:37:12 UTC Suche fertig: 0 neue Deals (1 Suchen)
