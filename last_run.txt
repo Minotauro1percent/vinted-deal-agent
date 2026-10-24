@@ -1,2 +1,30 @@
-2026-10-24 09:09:25 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 09:09:25 UTC Keine Suche fällig
+2026-10-24 09:13:36 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 09:13:37 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-24 09:13:37 UTC Suche „RalphLauren“
+2026-10-24 09:13:49 UTC RalphLauren: 140 neu, 80 in der Vorauswahl (Schwelle 0.52)
+2026-10-24 09:13:58 UTC Bildprüfung verwirft 10502410248 (55: Gleiche Marke und Strick, aber Rippstrick statt Zopfmuster, ohne Pony-Logo)
+2026-10-24 09:14:04 UTC Ausgeschlossen 10506233146: Kinder
+2026-10-24 09:14:07 UTC Ausgeschlossen 10506117653: V-Ausschnitt
+2026-10-24 09:14:27 UTC Bildprüfung 10506438010: unlesbare Antwort: {"score": (stop=max_tokens)
+2026-10-24 09:14:36 UTC Bildprüfung verwirft 10506333824 (72: Pullover mit Polo-Logo, aber glattes Strickbild statt Zopfmuster)
+2026-10-24 09:14:44 UTC Bildprüfung verwirft 10506286442 (35: Kurzarm-Strick ohne Zopfmuster und sichtbares Logo, nur entfernt ähnlich)
+2026-10-24 09:14:57 UTC Bildprüfung verwirft 10506200950 (68: Gleiche Marke und Logo, aber anderes Strickmuster ohne Zopfmuster)
+2026-10-24 09:15:07 UTC Ausgeschlossen 10506181078: V-Ausschnitt
+2026-10-24 09:15:11 UTC Bildprüfung verwirft 10506162330 (65: Ralph Lauren Label passt; Strick, Schnitt und Muster nicht erkennbar)
+2026-10-24 09:15:21 UTC Ausgeschlossen 10506004115: V-Ausschnitt
+2026-10-24 09:15:24 UTC Ausgeschlossen 10506023758: V-Ausschnitt
+2026-10-24 09:15:30 UTC Bildprüfung verwirft 10505964284 (40: Gleiche Marke, aber grober Strickmuster statt Zopfmuster, kein Pony-Logo sichtba)
+2026-10-24 09:15:36 UTC Bildprüfung verwirft 10505971271 (72: )
+2026-10-24 09:15:43 UTC Bildprüfung verwirft 10505937066 (35: Marke passt, aber kein Zopfmuster und wohl Kindergröße)
+2026-10-24 09:15:46 UTC Ausgeschlossen 10505947962: V-Ausschnitt
+2026-10-24 09:15:58 UTC Bildprüfung ok 10506528591 (62: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
+2026-10-24 09:16:02 UTC Ausgeschlossen 10506505708: V-Ausschnitt
+2026-10-24 09:16:05 UTC Ausgeschlossen 10506493706: V-Ausschnitt
+2026-10-24 09:16:11 UTC Bildprüfung ok 10506488356 (92: Zopfstrick, Rundhals, Polo-Pony-Logo, passt zu den Beispielen)
+2026-10-24 09:16:15 UTC Ausgeschlossen 10506467904: Kinder
+2026-10-24 09:16:25 UTC Bildprüfung verwirft 10506443751 (15: Zopfstrick passt, aber wohl V-Ausschnitt-Cardigan (Ausschlusskriterium))
+2026-10-24 09:16:31 UTC Bildprüfung 10506424068: unlesbare Antwort:  (stop=max_tokens)
+2026-10-24 09:16:37 UTC Bildprüfung verwirft 10506423756 (35: Marke passt, aber Hoodie statt Zopfstrick und anderes Logo)
+2026-10-24 09:16:43 UTC Bildprüfung ok 10506419190 (85: Zopfstrick, Rundhals, Polo-Logo und Baumwolle wie in den Beispielen)
+2026-10-24 09:16:43 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-24 09:16:43 UTC Suche fertig: 3 neue Deals (2 Suchen)
