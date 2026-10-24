@@ -1,2 +1,17 @@
-2026-10-24 18:59:09 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 18:59:10 UTC Keine Suche fällig
+2026-10-24 19:03:19 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 19:03:19 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-24 19:03:19 UTC Suche „RalphLauren“
+2026-10-24 19:03:29 UTC RalphLauren: 131 neu, 59 in der Vorauswahl (Schwelle 0.52)
+2026-10-24 19:03:33 UTC Ausgeschlossen 10515941966: V-Ausschnitt
+2026-10-24 19:03:40 UTC Ausgeschlossen 10515825277: V-Ausschnitt
+2026-10-24 19:04:10 UTC Ausgeschlossen 10515925624: V-Ausschnitt
+2026-10-24 19:04:13 UTC Ausgeschlossen 10515907167: Kinder
+2026-10-24 19:04:26 UTC Ausgeschlossen 10515746659: V-Ausschnitt
+2026-10-24 19:05:13 UTC Ausgeschlossen 10515402465: V-Ausschnitt
+2026-10-24 19:05:22 UTC Ausgeschlossen 10515168494: V-Ausschnitt
+2026-10-24 19:05:25 UTC Ausgeschlossen 10515998537: V-Ausschnitt
+2026-10-24 19:05:38 UTC Ausgeschlossen 10515857807: V-Ausschnitt
+2026-10-24 19:05:41 UTC Ausgeschlossen 10441954429: V-Ausschnitt
+2026-10-24 19:05:51 UTC Ausgeschlossen 10515801518: V-Ausschnitt
+2026-10-24 19:05:58 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-24 19:05:58 UTC Suche fertig: 3 neue Deals (2 Suchen)
