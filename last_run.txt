@@ -1,2 +1,29 @@
-2026-10-24 08:12:06 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 08:12:06 UTC Keine Suche fällig
+2026-10-24 08:16:18 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 08:16:18 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-24 08:16:18 UTC Suche „RalphLauren“
+2026-10-24 08:16:34 UTC RalphLauren: 100 neu, 45 in der Vorauswahl (Schwelle 0.52)
+2026-10-24 08:16:41 UTC Bildprüfung verwirft 10505694585 (5: )
+2026-10-24 08:16:48 UTC Ausgeschlossen 10505901222: V-Ausschnitt
+2026-10-24 08:16:55 UTC Ausgeschlossen 10505850937: V-Ausschnitt
+2026-10-24 08:16:59 UTC Ausgeschlossen 10505824148: Kinder
+2026-10-24 08:17:16 UTC Bildprüfung ok 10505740297 (75: Gleiche Marke, Logo und Strick; aber kein Zopfmuster)
+2026-10-24 08:17:20 UTC Ausgeschlossen 10505733681: V-Ausschnitt
+2026-10-24 08:17:29 UTC Bildprüfung verwirft 10505727572 (68: Marke und Logo passen; Rippstrick statt Zopfmuster, Knopfleiste)
+2026-10-24 08:17:33 UTC Ausgeschlossen 10505687057: V-Ausschnitt
+2026-10-24 08:17:46 UTC Bildprüfung verwirft 10505569045 (35: Gleiche Art, aber kein Zopfmuster und kein Polo-Pony-Logo)
+2026-10-24 08:17:48 UTC Ausgeschlossen 10505554250: V-Ausschnitt
+2026-10-24 08:18:00 UTC Ausgeschlossen 10505438303: V-Ausschnitt
+2026-10-24 08:18:04 UTC Ausgeschlossen 10505901674: V-Ausschnitt
+2026-10-24 08:18:12 UTC Bildprüfung verwirft 10505885782 (40: Marke passt, aber gestreift statt Zopfmuster, anderes Logo)
+2026-10-24 08:18:22 UTC Bildprüfung verwirft 10497736858 (45: Gleiche Marke, aber Sweatshirt mit Bär statt Zopfstrick mit Pony)
+2026-10-24 08:18:25 UTC Ausgeschlossen 10505838649: V-Ausschnitt
+2026-10-24 08:18:31 UTC Bildprüfung ok 10505823339 (88: Polo-Zopfstrick-Rundhals wie Beispiele; kein V-Ausschnitt, Erwachsenenmodell)
+2026-10-24 08:18:34 UTC Ausgeschlossen 10505800227: V-Ausschnitt
+2026-10-24 08:18:43 UTC Bildprüfung verwirft 10505769300 (10: V-Ausschnitt ist Ausschlusskriterium; zudem kein Zopfmuster.)
+2026-10-24 08:18:47 UTC Ausgeschlossen 10505728132: V-Ausschnitt
+2026-10-24 08:18:50 UTC Ausgeschlossen 10505699000: V-Ausschnitt
+2026-10-24 08:18:54 UTC Ausgeschlossen 10505716260: Kinder
+2026-10-24 08:18:57 UTC Ausgeschlossen 10505639828: V-Ausschnitt
+2026-10-24 08:19:06 UTC Bildprüfung ok 10505631936 (85: Gleicher Strickmuster-Stil, Marke Ralph Lauren, kein V-Ausschnitt)
+2026-10-24 08:19:07 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-24 08:19:07 UTC Suche fertig: 3 neue Deals (2 Suchen)
