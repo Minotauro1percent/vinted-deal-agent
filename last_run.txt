@@ -1,2 +1,17 @@
-2026-10-24 21:57:17 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 21:57:17 UTC Keine Suche fällig
+2026-10-24 22:01:26 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 22:01:27 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-24 22:01:27 UTC Suche „RalphLauren“
+2026-10-24 22:01:37 UTC RalphLauren: 42 neu, 23 in der Vorauswahl (Schwelle 0.52)
+2026-10-24 22:01:44 UTC Bildprüfung ok 10517796496 (60: Marke passt, aber Rippstrick statt Zopfmuster und Etikett statt Pony-Logo)
+2026-10-24 22:01:50 UTC Ausgeschlossen 10517835856: V-Ausschnitt
+2026-10-24 22:01:57 UTC Ausgeschlossen 10517657303: Kinder
+2026-10-24 22:02:05 UTC Bildprüfung verwirft 10517424438 (10: V-Ausschnitt ist ausgeschlossen; zudem kein Pony-Logo, Rippstrick statt Zopfmust)
+2026-10-24 22:02:08 UTC Ausgeschlossen 10517407985: V-Ausschnitt
+2026-10-24 22:02:22 UTC Ausgeschlossen 10517813764: V-Ausschnitt
+2026-10-24 22:02:32 UTC Bildprüfung verwirft 10517755755 (55: Ralph Lauren Logo passt, aber kein Zopfmuster wie in den Beispielen)
+2026-10-24 22:02:40 UTC Bildprüfung ok 10517692935 (75: Zopfstrick und Rundhals passen; Logo und Marke nicht erkennbar)
+2026-10-24 22:02:45 UTC Ausgeschlossen 10517667242: V-Ausschnitt
+2026-10-24 22:02:49 UTC Ausgeschlossen 10517661026: V-Ausschnitt
+2026-10-24 22:02:56 UTC Bildprüfung 10517644858: unlesbare Antwort:  (stop=max_tokens)
+2026-10-24 22:02:57 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-24 22:02:57 UTC Suche fertig: 3 neue Deals (2 Suchen)
