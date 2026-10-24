@@ -1,25 +1,2 @@
-2026-10-24 12:09:06 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 12:09:06 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-24 12:09:06 UTC Suche „RalphLauren“
-2026-10-24 12:09:19 UTC RalphLauren: 145 neu, 68 in der Vorauswahl (Schwelle 0.52)
-2026-10-24 12:09:23 UTC Ausgeschlossen 10508290346: V-Ausschnitt
-2026-10-24 12:09:26 UTC Ausgeschlossen 10508470848: V-Ausschnitt
-2026-10-24 12:09:33 UTC Bildprüfung verwirft 10508390338 (72: Gleiche Marke und Rundhals-Pullover, aber kein Zopfmuster)
-2026-10-24 12:09:38 UTC Bildprüfung verwirft 10508443611 (35: Gleiche Marke, aber anderer Strick, Halbzip statt Rundhals, kein Logo)
-2026-10-24 12:09:54 UTC Bildprüfung ok 10508742035 (92: Gleicher Zopfstrick-Pullover, Rundhals und Ralph-Lauren-Pony-Logo wie Beispiele)
-2026-10-24 12:10:14 UTC Bildprüfung 10508928375: unlesbare Antwort:  (stop=max_tokens)
-2026-10-24 12:10:21 UTC Ausgeschlossen 10508868969: V-Ausschnitt
-2026-10-24 12:10:27 UTC Ausgeschlossen 10508783546: V-Ausschnitt
-2026-10-24 12:10:33 UTC Bildprüfung verwirft 10489100669 (15: Rippstrick statt Zopfmuster, kein Logo, anderer Schnitt, Marke nicht erkennbar)
-2026-10-24 12:10:38 UTC Bildprüfung verwirft 10508730085 (35: Gleiche Marke, aber Sweatshirt statt Zopfstrick und anderes Logo)
-2026-10-24 12:10:43 UTC Bildprüfung verwirft 10508717845 (55: Gleiche Marke und Logo, aber Sweatshirt statt Zopfstrick)
-2026-10-24 12:10:53 UTC Ausgeschlossen 10508678924: V-Ausschnitt
-2026-10-24 12:11:00 UTC Bildprüfung verwirft 10508566749 (40: Marke passt, aber Sweatshirt statt Zopfstrick, anderes Logo)
-2026-10-24 12:11:06 UTC Bildprüfung ok 10508470611 (60: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
-2026-10-24 12:11:14 UTC Bildprüfung verwirft 10508445805 (15: Kindergröße (5/6), kein Zopfmuster, anderer Strick als Beispiele)
-2026-10-24 12:11:22 UTC Bildprüfung verwirft 10508435822 (62: Ralph Lauren Pullover, aber glatter Strick statt Zopfmuster)
-2026-10-24 12:11:25 UTC Ausgeschlossen 10508405381: V-Ausschnitt
-2026-10-24 12:11:29 UTC Ausgeschlossen 10508367213: V-Ausschnitt
-2026-10-24 12:11:36 UTC Bildprüfung ok 10508330935 (75: Gleiche Marke, Logo und Rundhals, aber kein Zopfmuster)
-2026-10-24 12:11:37 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-10-24 12:11:37 UTC Suche fertig: 3 neue Deals (2 Suchen)
+2026-10-24 12:15:48 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 12:15:48 UTC Keine Suche fällig
