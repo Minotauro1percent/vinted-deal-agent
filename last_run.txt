@@ -1,13 +1,2 @@
-2026-10-24 23:01:27 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 23:01:27 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-24 23:01:27 UTC Suche „RalphLauren“
-2026-10-24 23:01:36 UTC RalphLauren: 22 neu, 14 in der Vorauswahl (Schwelle 0.52)
-2026-10-24 23:01:49 UTC Ausgeschlossen 10518201253: V-Ausschnitt
-2026-10-24 23:01:53 UTC Bildprüfung ok 10518083123 (92: Gleicher Strick-Zopfmuster, Rundhals, Polo-Logo, Ralph Lauren; keine Ausschlussk)
-2026-10-24 23:02:00 UTC Bildprüfung verwirft 10518001844 (60: Ralph Lauren Logo passt, aber kein Zopfmuster wie bei den Beispielen)
-2026-10-24 23:02:08 UTC Bildprüfung ok 10518270731 (88: Ralph-Lauren-Zopfstrick mit Logo, passt zu Beispielen)
-2026-10-24 23:02:15 UTC Ausgeschlossen 10518181565: V-Ausschnitt
-2026-10-24 23:02:21 UTC Bildprüfung verwirft 10518085923 (70: Gleiche Marke und Pullover, aber feinstrick statt Zopfmuster)
-2026-10-24 23:02:30 UTC Suche „Xiaomi 17“
-2026-10-24 23:02:34 UTC Xiaomi 17: 32 neue Kandidaten
-2026-10-24 23:02:40 UTC Suche fertig: 3 neue Deals (2 Suchen)
+2026-10-24 23:06:50 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 23:06:50 UTC Keine Suche fällig
