@@ -1,2 +1,16 @@
-2026-10-24 11:04:51 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 11:04:51 UTC Keine Suche fällig
+2026-10-24 11:09:01 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 11:09:01 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-24 11:09:01 UTC Suche „RalphLauren“
+2026-10-24 11:09:16 UTC RalphLauren: 150 neu, 80 in der Vorauswahl (Schwelle 0.52)
+2026-10-24 11:09:23 UTC Bildprüfung ok 10495187363 (60: )
+2026-10-24 11:09:29 UTC Bildprüfung verwirft 10507870268 (10: V-Ausschnitt ist Ausschlusskriterium; zudem kein Zopfmuster.)
+2026-10-24 11:09:36 UTC Bildprüfung verwirft 10507526249 (55: Gleiche Marke und Logo-Stil, aber Streifen statt Zopfmuster)
+2026-10-24 11:09:43 UTC Ausgeschlossen 10508039993: V-Ausschnitt
+2026-10-24 11:09:49 UTC Bildprüfung 10507591523: unlesbare Antwort:  (stop=max_tokens)
+2026-10-24 11:09:56 UTC Bildprüfung verwirft 10507726076 (35: Marke ähnlich, aber keine Zopfstrick-Optik, kein Pony-Logo, Knopfleiste)
+2026-10-24 11:10:02 UTC Bildprüfung verwirft 10508162552 (25: Kein Zopfmuster, kein sichtbares Logo, feiner Strick)
+2026-10-24 11:10:07 UTC Bildprüfung verwirft 10508128829 (72: Ralph Lauren Pullover mit Logo, aber ohne Zopfmuster)
+2026-10-24 11:10:14 UTC Bildprüfung verwirft 10508101528 (35: Pullover passt, aber kein Zopfmuster und kein Pony-Logo erkennbar.)
+2026-10-24 11:10:20 UTC Bildprüfung ok 10508099965 (90: Ralph Lauren Zopf-Strickpullover, Rundhals, Pony-Logo, passt stilistisch gut)
+2026-10-24 11:10:21 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-24 11:10:21 UTC Suche fertig: 3 neue Deals (2 Suchen)
