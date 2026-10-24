@@ -1,2 +1,23 @@
-2026-10-24 07:10:56 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 07:10:56 UTC Keine Suche fällig
+2026-10-24 07:15:10 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 07:15:10 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-24 07:15:10 UTC Suche „RalphLauren“
+2026-10-24 07:15:24 UTC RalphLauren: 53 neu, 35 in der Vorauswahl (Schwelle 0.52)
+2026-10-24 07:15:28 UTC Ausgeschlossen 10505362817: V-Ausschnitt
+2026-10-24 07:15:35 UTC Bildprüfung verwirft 10500224612 (68: Gleiche Marke und Logo, Rundhals-Strick, aber Rippmuster statt Zopfmuster)
+2026-10-24 07:15:40 UTC Bildprüfung verwirft 10505396866 (10: Ausschlusskriterium V-Ausschnitt erfüllt; kein Zopfmuster)
+2026-10-24 07:15:49 UTC Bildprüfung verwirft 10505376023 (62: Passende Marke und Logo, aber Waffelstrick statt Zopfmuster)
+2026-10-24 07:15:59 UTC Bildprüfung verwirft 10505340983 (62: Gleiche Marke und Logo, aber T-Shirt statt Strickpullover.)
+2026-10-24 07:16:27 UTC Bildprüfung verwirft 10496235381 (25: Marke passt, aber Sweatshirt mit Teddybär statt Zopfstrick mit Pony-Logo)
+2026-10-24 07:16:49 UTC Bildprüfung verwirft 10505404931 (25: Sweatshirt statt Zopfstrick; Stil und Muster weichen deutlich ab)
+2026-10-24 07:16:52 UTC Ausgeschlossen 10505380528: Kinder
+2026-10-24 07:16:55 UTC Ausgeschlossen 10505346561: V-Ausschnitt
+2026-10-24 07:17:08 UTC Bildprüfung verwirft 10505265910 (12: Kein Ralph-Lauren-Logo, kein Zopfmuster, anderer Stil (Lagenlook))
+2026-10-24 07:17:18 UTC Ausgeschlossen 10493944133: V-Ausschnitt
+2026-10-24 07:17:22 UTC Ausgeschlossen 10494007578: V-Ausschnitt
+2026-10-24 07:17:25 UTC Ausgeschlossen 10493982185: V-Ausschnitt
+2026-10-24 07:17:29 UTC Ausgeschlossen 10494041982: V-Ausschnitt
+2026-10-24 07:17:35 UTC Bildprüfung ok 10505190452 (91: Zopfstrick, Rundhals, Ralph-Lauren-Pony-Logo; passt stilistisch sehr gut)
+2026-10-24 07:17:42 UTC Bildprüfung verwirft 10505188369 (45: Marke und Logo passen, aber Sweatshirt statt Zopfstrick)
+2026-10-24 07:17:45 UTC Suche „Xiaomi 17“
+2026-10-24 07:17:51 UTC Xiaomi 17: 1 neue Kandidaten
+2026-10-24 07:17:51 UTC Suche fertig: 1 neue Deals (2 Suchen)
