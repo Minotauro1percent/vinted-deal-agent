@@ -1,7 +1,2 @@
-2026-10-24 02:18:44 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 02:18:45 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-24 02:18:45 UTC Suche „RalphLauren“
-2026-10-24 02:18:58 UTC RalphLauren: 6 neu, 1 in der Vorauswahl (Schwelle 0.52)
-2026-10-24 02:19:01 UTC Suche „Xiaomi 17“
-2026-10-24 02:19:05 UTC Xiaomi 17: 0 neue Kandidaten
-2026-10-24 02:19:05 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-24 02:23:16 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 02:23:16 UTC Keine Suche fällig
