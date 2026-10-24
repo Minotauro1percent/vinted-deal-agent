@@ -1,4 +1,10 @@
-2026-10-24 01:10:50 UTC Telegram-Fehler getUpdates 502 {"ok":false,"error_code":502,"description":"Bad Gateway"}
-2026-10-24 01:10:50 UTC getUpdates fehlgeschlagen: {"ok":false,"error_code":502,"description":"Bad Gateway"}
-2026-10-24 01:10:50 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 01:10:50 UTC Keine Suche fällig
+2026-10-24 01:19:43 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 01:19:43 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-24 01:19:43 UTC Suche „RalphLauren“
+2026-10-24 01:19:57 UTC RalphLauren: 16 neu, 3 in der Vorauswahl (Schwelle 0.52)
+2026-10-24 01:20:03 UTC Bildprüfung ok 10504223344 (72: Gleicher Strickstil und Polo-Logo, aber Kindergröße möglich)
+2026-10-24 01:20:08 UTC Bildprüfung verwirft 10504308080 (50: Marke und Logo passen, aber glattes Sweatshirt statt Zopfstrick)
+2026-10-24 01:20:12 UTC Ausgeschlossen 10504217050: V-Ausschnitt
+2026-10-24 01:20:12 UTC Suche „Xiaomi 17“
+2026-10-24 01:20:16 UTC Xiaomi 17: 2 neue Kandidaten
+2026-10-24 01:20:16 UTC Suche fertig: 1 neue Deals (2 Suchen)
