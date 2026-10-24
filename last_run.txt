@@ -1,11 +1,2 @@
-2026-10-24 13:10:16 UTC Telegram: 0 neue Nachricht(en)
-2026-10-24 13:10:16 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-24 13:10:16 UTC Suche „RalphLauren“
-2026-10-24 13:10:30 UTC RalphLauren: 156 neu, 92 in der Vorauswahl (Schwelle 0.52)
-2026-10-24 13:10:44 UTC Bildprüfung ok 10510000526 (68: Zopfstrick und Ralph-Lauren-Label passen, aber kein Pony-Logo und anderer Schnit)
-2026-10-24 13:10:48 UTC Ausgeschlossen 10509865072: V-Ausschnitt
-2026-10-24 13:10:52 UTC Ausgeschlossen 10509650588: Kinder
-2026-10-24 13:11:02 UTC Bildprüfung ok 10510040080 (85: Gleicher Strick-Zopfmuster-Rundhals, Ralph Lauren, aber anderes Wappen-Logo)
-2026-10-24 13:11:07 UTC Bildprüfung ok 10509976162 (85: Zopfstrick-Pullover mit Rundhals und Ralph-Lauren-Logo, passt stilistisch gut)
-2026-10-24 13:11:09 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-10-24 13:11:09 UTC Suche fertig: 3 neue Deals (2 Suchen)
+2026-10-24 13:15:19 UTC Telegram: 0 neue Nachricht(en)
+2026-10-24 13:15:19 UTC Keine Suche fällig
