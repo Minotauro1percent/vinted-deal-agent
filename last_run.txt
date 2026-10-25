@@ -1,2 +1,16 @@
-2026-10-25 12:54:33 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 12:54:33 UTC Keine Suche fällig
+2026-10-25 12:58:44 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 12:58:45 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 12:58:45 UTC Suche „RalphLauren“
+2026-10-25 12:58:54 UTC RalphLauren: 152 neu, 84 in der Vorauswahl (Schwelle 0.60)
+2026-10-25 12:59:00 UTC Bildprüfung verwirft 10524823295 (22: Strickpullover, aber Hoodie ohne Zopfmuster und ohne erkennbares Ralph-Lauren-Lo)
+2026-10-25 12:59:05 UTC Bildprüfung ok 10514058611 (88: Ralph Lauren Zopf-Strick, Rundhals, Pony-Logo, passender Stil)
+2026-10-25 12:59:11 UTC Ausgeschlossen 10525413073: V-Ausschnitt
+2026-10-25 12:59:20 UTC Bildprüfung verwirft 10525430412 (55: Marke und Logo passen, aber Sweatshirt statt Zopfstrick.)
+2026-10-25 12:59:27 UTC Bildprüfung verwirft 10525033214 (35: Strickpullover mit Rundhals, aber Rippstrick statt Zopfmuster und kein Logo sich)
+2026-10-25 12:59:33 UTC Bildprüfung ok 10525109511 (85: Zopfstrick-Rundhals wie Beispiele, Ralph-Lauren-Etikett, kein Kinder-/V-Ausschni)
+2026-10-25 12:59:43 UTC Bildprüfung verwirft 10525547551 (25: Gleiche Marke, aber Sweatshirt statt Zopfstrick, anderes Logo)
+2026-10-25 12:59:48 UTC Bildprüfung verwirft 10525527733 (58: Ralph Lauren Logo passt, aber kein Zopfmuster, eher Sweatshirt-Stil)
+2026-10-25 12:59:54 UTC Bildprüfung verwirft 10525505766 (35: Strick ohne Zopfmuster, kein sichtbares Pony-Logo, Schulterknöpfe untypisch)
+2026-10-25 13:00:03 UTC Bildprüfung ok 10525488700 (92: Zopfstrick-Pullover, Rundhals, Polo-Logo, passt stilistisch zu den Beispielen)
+2026-10-25 13:00:05 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-25 13:00:05 UTC Suche fertig: 3 neue Deals (2 Suchen)
