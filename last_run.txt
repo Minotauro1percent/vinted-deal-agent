@@ -1,11 +1,2 @@
-2026-10-25 19:58:03 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 19:58:03 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-25 19:58:03 UTC Suche „RalphLauren“
-2026-10-25 19:58:20 UTC RalphLauren: 147 neu, 83 in der Vorauswahl (Schwelle 0.52)
-2026-10-25 19:58:40 UTC Bildprüfung ok 10534293792 (88: Zopfstrick, Rundhals und Polo-Logo passen; Kinderhinweis nicht erkennbar)
-2026-10-25 19:58:48 UTC Ausgeschlossen 10534185969: V-Ausschnitt
-2026-10-25 19:58:56 UTC Bildprüfung ok 10533703304 (60: Zopfstrick passt, aber kein sichtbares Logo und anderer Ausschnitt)
-2026-10-25 19:59:07 UTC Bildprüfung verwirft 10507232083 (72: Gleiche Marke und Logo, aber ohne Zopfmuster)
-2026-10-25 19:59:21 UTC Bildprüfung 10534200026: unlesbare Antwort:  (stop=max_tokens)
-2026-10-25 19:59:22 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-10-25 19:59:22 UTC Suche fertig: 3 neue Deals (2 Suchen)
+2026-10-25 20:03:32 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 20:03:32 UTC Keine Suche fällig
