@@ -1,2 +1,22 @@
-2026-10-25 09:52:10 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 09:52:10 UTC Keine Suche fällig
+2026-10-25 09:56:22 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 09:56:22 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 09:56:22 UTC Suche „RalphLauren“
+2026-10-25 09:56:30 UTC RalphLauren: 162 neu, 87 in der Vorauswahl (Schwelle 0.65)
+2026-10-25 09:56:37 UTC Bildprüfung verwirft 10521778575 (52: Marke und Pony-Logo passen, aber kein Zopfmuster, eher dünnes Langarmshirt)
+2026-10-25 09:56:43 UTC Bildprüfung ok 10521857107 (62: Marke passt, aber kein Zopfmuster, eher glatter Pullover)
+2026-10-25 09:56:54 UTC Bildprüfung verwirft 10521872778 (60: Gleiche Marke und Strickpulli, aber Streifenmuster statt Zopfmuster und kein Pon)
+2026-10-25 09:57:06 UTC Bildprüfung 10521819072: unlesbare Antwort:  (stop=max_tokens)
+2026-10-25 09:57:31 UTC Bildprüfung verwirft 10521712129 (15: V-Ausschnitt ist Ausschlusskriterium; sonst ähnlicher Ralph-Lauren-Pullover)
+2026-10-25 09:57:34 UTC Ausgeschlossen 10521697937: V-Ausschnitt
+2026-10-25 09:57:37 UTC Ausgeschlossen 10521690250: V-Ausschnitt
+2026-10-25 09:57:43 UTC Bildprüfung verwirft 10521527932 (35: Marke passt, aber Sweatshirt statt Zopfstrick und anderes Logo)
+2026-10-25 09:57:47 UTC Ausgeschlossen 10521515145: V-Ausschnitt
+2026-10-25 09:57:52 UTC Bildprüfung verwirft 10521484503 (55: Gleiche Marke und Logo, aber glatt statt Zopfmuster)
+2026-10-25 09:57:55 UTC Ausgeschlossen 10521469286: V-Ausschnitt
+2026-10-25 09:58:01 UTC Bildprüfung 10521484527: unlesbare Antwort:  (stop=max_tokens)
+2026-10-25 09:58:07 UTC Bildprüfung ok 10521482647 (92: Gleicher Strickzopfmuster, Rundhals-Schnitt und Pony-Logo wie in den Beispielen)
+2026-10-25 09:58:12 UTC Ausgeschlossen 10521459041: V-Ausschnitt
+2026-10-25 09:58:24 UTC Bildprüfung verwirft 10521413941 (72: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
+2026-10-25 09:58:24 UTC Suche „Xiaomi 17“
+2026-10-25 09:58:29 UTC Xiaomi 17: 1 neue Kandidaten
+2026-10-25 09:58:29 UTC Suche fertig: 2 neue Deals (2 Suchen)
