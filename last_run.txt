@@ -1,2 +1,19 @@
-2026-10-25 18:53:38 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 18:53:38 UTC Keine Suche fällig
+2026-10-25 18:57:50 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 18:57:50 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 18:57:50 UTC Suche „RalphLauren“
+2026-10-25 18:58:00 UTC RalphLauren: 149 neu, 72 in der Vorauswahl (Schwelle 0.63)
+2026-10-25 18:58:05 UTC Bildprüfung verwirft 10528307500 (68: Gleiche Marke und Logo, Rundhals, aber kein Zopfmuster)
+2026-10-25 18:58:09 UTC Ausgeschlossen 10532969927: V-Ausschnitt
+2026-10-25 18:58:15 UTC Bildprüfung verwirft 10533454126 (68: Zopfmuster und Marke passen, aber Schnitt mit Schulterknöpfen weicht ab)
+2026-10-25 18:58:21 UTC Bildprüfung ok 10526383403 (82: )
+2026-10-25 18:58:27 UTC Bildprüfung ok 10526446737 (88: Gleicher Zopfstrick-Rundhals-Stil, Ralph-Lauren-Logo; Lauren-Sublabel)
+2026-10-25 18:58:35 UTC Ausgeschlossen 10533430986: V-Ausschnitt
+2026-10-25 18:58:40 UTC Bildprüfung verwirft 10533438330 (15: V-Ausschnitt ist Ausschlusskriterium; kein Zopfmuster, aber Ralph-Lauren-Logo vo)
+2026-10-25 18:58:44 UTC Ausgeschlossen 10533342428: Kinder
+2026-10-25 18:58:52 UTC Ausgeschlossen 10533334881: V-Ausschnitt
+2026-10-25 18:59:02 UTC Bildprüfung 10533278813: unlesbare Antwort: {" (stop=max_tokens)
+2026-10-25 18:59:08 UTC Bildprüfung verwirft 10533237563 (55: Marke und Rundhals passen, aber Sweatshirt statt Zopfstrick)
+2026-10-25 18:59:17 UTC Ausgeschlossen 10533183837: V-Ausschnitt
+2026-10-25 18:59:23 UTC Bildprüfung ok 10533162329 (75: Gleiche Marke, Rundhals und Logo; aber glatter Feinstrick statt Zopfmuster)
+2026-10-25 18:59:23 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-25 18:59:23 UTC Suche fertig: 3 neue Deals (2 Suchen)
