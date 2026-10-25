@@ -1,23 +1,2 @@
-2026-10-25 17:00:15 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 17:00:16 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-25 17:00:16 UTC Suche „RalphLauren“
-2026-10-25 17:00:26 UTC RalphLauren: 150 neu, 79 in der Vorauswahl (Schwelle 0.63)
-2026-10-25 17:00:32 UTC Bildprüfung verwirft 10530953122 (62: Marke passt, aber andere Strickart (grob statt Zopfmuster), Logo nicht sichtbar)
-2026-10-25 17:00:37 UTC Bildprüfung 10530487650: unlesbare Antwort:  (stop=max_tokens)
-2026-10-25 17:00:53 UTC Bildprüfung verwirft 10531041818 (40: Ähnlicher Zopfstrick, aber kein RL-Logo erkennbar)
-2026-10-25 17:01:00 UTC Ausgeschlossen 10530472881: V-Ausschnitt
-2026-10-25 17:01:06 UTC Bildprüfung verwirft 10530952780 (55: Marke und Logo passen, aber kein Zopfmuster und andere Details)
-2026-10-25 17:01:12 UTC Ausgeschlossen 10531089181: V-Ausschnitt
-2026-10-25 17:01:23 UTC Ausgeschlossen 10531005702: V-Ausschnitt
-2026-10-25 17:01:25 UTC Ausgeschlossen 10524403294: V-Ausschnitt
-2026-10-25 17:01:35 UTC Bildprüfung verwirft 10530964447 (15: Sweatshirt statt Strickpullover, Polo-Schriftzug statt Pony-Logo, anderer Stil)
-2026-10-25 17:01:37 UTC Ausgeschlossen 10530959993: V-Ausschnitt
-2026-10-25 17:01:45 UTC Bildprüfung ok 10530950656 (92: Ralph Lauren Zopfstrick-Pullover mit Rundhals und Pony-Logo, passend zu Beispiel)
-2026-10-25 17:02:05 UTC Bildprüfung ok 10530911950 (68: Gleiches Logo und Pullover-Typ, aber Waffelstrick statt Zopfmuster)
-2026-10-25 17:02:23 UTC Bildprüfung verwirft 10530850392 (62: Ralph Lauren Pullover mit Rundhals und Pony-Logo, aber ohne Zopfmuster)
-2026-10-25 17:02:33 UTC Bildprüfung 10530767883: unlesbare Antwort:  (stop=max_tokens)
-2026-10-25 17:02:37 UTC Ausgeschlossen 10530787622: V-Ausschnitt
-2026-10-25 17:02:46 UTC Bildprüfung verwirft 10530719440 (68: Gleiche Marke und Logo, aber ohne Zopfmuster)
-2026-10-25 17:02:46 UTC Suche „Xiaomi 17“
-2026-10-25 17:02:51 UTC Xiaomi 17: 1 neue Kandidaten
-2026-10-25 17:02:51 UTC Suche fertig: 2 neue Deals (2 Suchen)
+2026-10-25 17:07:03 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 17:07:03 UTC Keine Suche fällig
