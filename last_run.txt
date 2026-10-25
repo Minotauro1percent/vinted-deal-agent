@@ -1,14 +1,2 @@
-2026-10-25 04:57:30 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 04:57:30 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-25 04:57:30 UTC Suche „RalphLauren“
-2026-10-25 04:57:39 UTC RalphLauren: 9 neu, 7 in der Vorauswahl (Schwelle 0.52)
-2026-10-25 04:57:45 UTC Bildprüfung verwirft 10519487737 (55: Gleiche Marke und Logo, aber anderes Strickmuster (Waffelstrick statt Zopfmuster)
-2026-10-25 04:57:50 UTC Bildprüfung verwirft 10519441816 (12: Sweatshirt ohne Zopfmuster, kein sichtbares Ralph-Lauren-Logo)
-2026-10-25 04:57:58 UTC Bildprüfung verwirft 10519526382 (18: Anderes Muster (Norweger statt Zopfstrick), kein sichtbares Ralph-Lauren-Logo)
-2026-10-25 04:58:01 UTC Ausgeschlossen 10519513909: V-Ausschnitt
-2026-10-25 04:58:06 UTC Bildprüfung ok 10519478667 (60: Gleiche Marke und Logo, aber Sweatshirt statt Zopfstrick)
-2026-10-25 04:58:13 UTC Bildprüfung verwirft 10519477957 (62: Marke und Logo passen, aber glatter Sweater statt Zopfstrick)
-2026-10-25 04:58:19 UTC Bildprüfung 10519466434: unlesbare Antwort:  (stop=max_tokens)
-2026-10-25 04:58:19 UTC Suche „Xiaomi 17“
-2026-10-25 04:58:24 UTC Xiaomi 17: 0 neue Kandidaten
-2026-10-25 04:58:24 UTC Suche fertig: 2 neue Deals (2 Suchen)
+2026-10-25 05:02:36 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 05:02:36 UTC Keine Suche fällig
