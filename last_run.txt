@@ -1,2 +1,21 @@
-2026-10-25 13:54:35 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 13:54:35 UTC Keine Suche fällig
+2026-10-25 13:58:47 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 13:58:47 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 13:58:47 UTC Suche „RalphLauren“
+2026-10-25 13:58:59 UTC RalphLauren: 156 neu, 82 in der Vorauswahl (Schwelle 0.60)
+2026-10-25 13:59:04 UTC Ausgeschlossen 10526821534: V-Ausschnitt
+2026-10-25 13:59:12 UTC Bildprüfung ok 10526132585 (72: )
+2026-10-25 13:59:18 UTC Bildprüfung verwirft 10526057524 (40: Zopfstrick passt, aber kein Logo und anderer Schnitt)
+2026-10-25 13:59:23 UTC Bildprüfung verwirft 10526139887 (10: Kein Zopfmuster, kein Logo, V-Ausschnitt ist Ausschlusskriterium)
+2026-10-25 13:59:30 UTC Bildprüfung verwirft 10526056104 (45: Gleiche Marke (Lauren), aber anderes Strickmuster, kein Logo, lockerer Schnitt)
+2026-10-25 13:59:35 UTC Bildprüfung ok 10526304705 (72: Gleiche Marke und Logo, aber kein Zopfmuster sichtbar)
+2026-10-25 13:59:42 UTC Bildprüfung verwirft 10526563972 (72: Gleiche Marke und Logo, Rundhals, aber kein Zopfmuster)
+2026-10-25 13:59:45 UTC Ausgeschlossen 10526213204: V-Ausschnitt
+2026-10-25 13:59:53 UTC Ausgeschlossen 10526261927: V-Ausschnitt
+2026-10-25 13:59:59 UTC Bildprüfung 10522314796: unlesbare Antwort: { (stop=max_tokens)
+2026-10-25 14:00:02 UTC Ausgeschlossen 10526794494: Kinder
+2026-10-25 14:00:07 UTC Bildprüfung verwirft 10526772801 (18: Kein Ralph-Lauren-Logo, kein Zopfmuster, anderer Strick und Schnitt)
+2026-10-25 14:00:10 UTC Ausgeschlossen 10526723028: V-Ausschnitt
+2026-10-25 14:00:15 UTC Bildprüfung verwirft 10526720223 (45: Gleiche Marke (Lauren), aber kein Zopfmuster, kurze Ärmel, kein Pony-Logo)
+2026-10-25 14:00:22 UTC Bildprüfung ok 10526705556 (68: Ralph Lauren Pullover mit Logo, aber ohne Zopfmuster)
+2026-10-25 14:00:22 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-25 14:00:22 UTC Suche fertig: 3 neue Deals (2 Suchen)
