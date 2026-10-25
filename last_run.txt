@@ -1,12 +1,2 @@
-2026-10-25 06:55:59 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 06:55:59 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-25 06:55:59 UTC Suche „RalphLauren“
-2026-10-25 06:56:08 UTC RalphLauren: 19 neu, 9 in der Vorauswahl (Schwelle 0.52)
-2026-10-25 06:56:11 UTC Ausgeschlossen 10519820241: V-Ausschnitt
-2026-10-25 06:56:18 UTC Bildprüfung 10519774302: unlesbare Antwort:  (stop=max_tokens)
-2026-10-25 06:56:22 UTC Details übersprungen (10519858683): HTTP 404 für https://www.vinted.at/items/10519858683-herren-hoodie-polo-ralph-lauren
-2026-10-25 06:56:25 UTC Ausgeschlossen 10519786686: V-Ausschnitt
-2026-10-25 06:56:31 UTC Ausgeschlossen 10519748993: V-Ausschnitt
-2026-10-25 06:56:37 UTC Suche „Xiaomi 17“
-2026-10-25 06:56:41 UTC Xiaomi 17: 1 neue Kandidaten
-2026-10-25 06:56:41 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-10-25 07:00:51 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 07:00:51 UTC Keine Suche fällig
