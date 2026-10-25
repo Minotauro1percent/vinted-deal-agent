@@ -1,2 +1,9 @@
-2026-10-25 03:54:28 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 03:54:28 UTC Keine Suche fällig
+2026-10-25 03:58:38 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 03:58:38 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 03:58:38 UTC Suche „RalphLauren“
+2026-10-25 03:58:48 UTC RalphLauren: 2 neu, 2 in der Vorauswahl (Schwelle 0.52)
+2026-10-25 03:58:51 UTC Ausgeschlossen 10519350280: V-Ausschnitt
+2026-10-25 03:58:57 UTC Bildprüfung verwirft 10519336583 (10: V-Ausschnitt ist ein Ausschlusskriterium; kein Zopfmuster)
+2026-10-25 03:58:57 UTC Suche „Xiaomi 17“
+2026-10-25 03:59:01 UTC Xiaomi 17: 0 neue Kandidaten
+2026-10-25 03:59:01 UTC Suche fertig: 0 neue Deals (2 Suchen)
