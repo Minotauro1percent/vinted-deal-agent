@@ -1,2 +1,20 @@
-2026-10-25 14:54:53 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 14:54:53 UTC Keine Suche fällig
+2026-10-25 14:59:02 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 14:59:02 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 14:59:02 UTC Suche „RalphLauren“
+2026-10-25 14:59:11 UTC RalphLauren: 155 neu, 79 in der Vorauswahl (Schwelle 0.63)
+2026-10-25 14:59:14 UTC Ausgeschlossen 10528237044: V-Ausschnitt
+2026-10-25 14:59:17 UTC Ausgeschlossen 10527825984: V-Ausschnitt
+2026-10-25 14:59:24 UTC Ausgeschlossen 10527856754: V-Ausschnitt
+2026-10-25 14:59:30 UTC Ausgeschlossen 10527632395: V-Ausschnitt
+2026-10-25 14:59:36 UTC Bildprüfung ok 10527550467 (92: Zopfstrick, Rundhals, Pony-Logo und Stil passen; keine Ausschlusskriterien.)
+2026-10-25 14:59:43 UTC Bildprüfung verwirft 10528024353 (55: Marke passt, aber Half-Zip und kein Zopfstrick.)
+2026-10-25 14:59:55 UTC Ausgeschlossen 10528219945: V-Ausschnitt
+2026-10-25 15:00:01 UTC Bildprüfung verwirft 10511587889 (10: Ringelmuster statt Zopfstrick; V-Ausschnitt wirkt ausschlusskriterienrelevant)
+2026-10-25 15:00:05 UTC Bildprüfung verwirft 10528140264 (22: Sweatshirt statt Zopfstrick, anderes Logo; nur Marke passt)
+2026-10-25 15:00:08 UTC Ausgeschlossen 10528128039: V-Ausschnitt
+2026-10-25 15:00:17 UTC Bildprüfung verwirft 10528006200 (25: Rollkragen mit Streifen, kein Zopfmuster, kein sichtbares RL-Logo)
+2026-10-25 15:00:29 UTC Bildprüfung ok 10527967862 (92: Ralph Lauren Zopfstrick-Pullover mit Logo, Rundhals, passt stilistisch)
+2026-10-25 15:00:33 UTC Ausgeschlossen 10527967164: Kinder
+2026-10-25 15:00:39 UTC Bildprüfung ok 10527964021 (72: )
+2026-10-25 15:00:39 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-10-25 15:00:39 UTC Suche fertig: 3 neue Deals (2 Suchen)
