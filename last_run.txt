@@ -1,2 +1,21 @@
-2026-10-25 10:52:54 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 10:52:55 UTC Keine Suche fällig
+2026-10-25 10:57:06 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 10:57:06 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 10:57:06 UTC Suche „RalphLauren“
+2026-10-25 10:57:15 UTC RalphLauren: 151 neu, 81 in der Vorauswahl (Schwelle 0.65)
+2026-10-25 10:57:21 UTC Bildprüfung verwirft 10523054437 (35: Marke passt, aber Grafikmuster statt Zopfstrick und kein typisches Pony-Logo)
+2026-10-25 10:57:28 UTC Bildprüfung verwirft 10522970114 (55: Marke und Logo passen, aber kein Zopfmuster wie bei den Beispielen)
+2026-10-25 10:57:49 UTC Ausgeschlossen 10522969203: V-Ausschnitt
+2026-10-25 10:57:59 UTC Bildprüfung verwirft 10522946418 (30: Kein Cable-Knit, kein sichtbares Logo, nur Polo-artiger Kragen)
+2026-10-25 10:58:04 UTC Bildprüfung verwirft 10522946293 (30: )
+2026-10-25 10:58:10 UTC Bildprüfung ok 10522910143 (88: Gleicher Strickmuster, Rundhals, Pony-Logo und Ralph-Lauren-Stil; keine Kinderke)
+2026-10-25 10:58:15 UTC Ausgeschlossen 10522906003: V-Ausschnitt
+2026-10-25 10:58:20 UTC Bildprüfung verwirft 10522894224 (60: Gleiche Marke und Logo, aber Waffelstrick statt Zopfmuster)
+2026-10-25 10:58:23 UTC Ausgeschlossen 10522883691: V-Ausschnitt
+2026-10-25 10:58:27 UTC Ausgeschlossen 10522880791: V-Ausschnitt
+2026-10-25 10:58:41 UTC Bildprüfung ok 10522807103 (92: Gleicher Zopfstrick, Rundhals, Pony-Logo, Ralph Lauren; Erwachsenenschnitt)
+2026-10-25 10:58:51 UTC Bildprüfung verwirft 10522765946 (65: Gleiche Marke und Pullover-Typ, aber ohne Zopfmuster und andere Optik)
+2026-10-25 10:58:55 UTC Ausgeschlossen 10522750941: V-Ausschnitt
+2026-10-25 10:59:05 UTC Bildprüfung 10522681254: unlesbare Antwort:  (stop=max_tokens)
+2026-10-25 10:59:05 UTC Suche „Xiaomi 17“
+2026-10-25 10:59:10 UTC Xiaomi 17: 3 neue Kandidaten
+2026-10-25 10:59:10 UTC Suche fertig: 2 neue Deals (2 Suchen)
