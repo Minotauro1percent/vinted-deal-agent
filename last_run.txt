@@ -1,2 +1,26 @@
-2026-10-25 08:51:17 UTC Telegram: 0 neue Nachricht(en)
-2026-10-25 08:51:17 UTC Keine Suche fällig
+2026-10-25 08:55:27 UTC Telegram: 0 neue Nachricht(en)
+2026-10-25 08:55:28 UTC Nachtmodus: 2 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-25 08:55:28 UTC Suche „RalphLauren“
+2026-10-25 08:55:35 UTC RalphLauren: 131 neu, 73 in der Vorauswahl (Schwelle 0.65)
+2026-10-25 08:55:45 UTC Bildprüfung verwirft 10498991516 (35: Gleiche Marke möglich, aber anderes Strickmuster und kein sichtbares Logo)
+2026-10-25 08:55:57 UTC Bildprüfung 10520087269: unlesbare Antwort:  (stop=max_tokens)
+2026-10-25 08:56:03 UTC Bildprüfung ok 10520712858 (72: Ralph Lauren Pullover, Baumwolle, Rundhals; aber kein Zopfmuster sichtbar)
+2026-10-25 08:56:07 UTC Ausgeschlossen 10520666246: V-Ausschnitt
+2026-10-25 08:56:17 UTC Bildprüfung verwirft 10520883272 (10: Kein Zopfmuster, anderes Logo, Marke unklar; Strick eher fein)
+2026-10-25 08:56:22 UTC Bildprüfung verwirft 10520878291 (45: Ralph-Lauren-Pullover, aber anderes Muster und kein sichtbares Logo)
+2026-10-25 08:56:26 UTC Ausgeschlossen 10520871017: Kinder
+2026-10-25 08:56:32 UTC Ausgeschlossen 10520848634: V-Ausschnitt
+2026-10-25 08:56:35 UTC Ausgeschlossen 10520725845: V-Ausschnitt
+2026-10-25 08:56:44 UTC Bildprüfung verwirft 10520772619 (15: )
+2026-10-25 08:56:47 UTC Ausgeschlossen 10520744297: V-Ausschnitt
+2026-10-25 08:56:50 UTC Ausgeschlossen 10520690245: Kinder
+2026-10-25 08:56:53 UTC Ausgeschlossen 10520183066: V-Ausschnitt
+2026-10-25 08:57:01 UTC Bildprüfung verwirft 10520622338 (45: Marke passt, aber kein Zopfmuster und anderes Logo/Stil)
+2026-10-25 08:57:08 UTC Bildprüfung verwirft 10520150157 (25: Kein Ralph-Lauren-Logo, Rippstrick statt Zopfmuster, anderer Schnitt und Kragen)
+2026-10-25 08:57:15 UTC Ausgeschlossen 10520528554: V-Ausschnitt
+2026-10-25 08:57:30 UTC Bildprüfung verwirft 10506909214 (40: Marke passt, aber T-Shirt statt Zopfstrick, anderer Stil)
+2026-10-25 08:57:36 UTC Bildprüfung verwirft 10520476416 (45: Strickpullover mit Zopfmuster, aber kein erkennbares Ralph-Lauren-Logo)
+2026-10-25 08:57:46 UTC Bildprüfung verwirft 10520404555 (68: Ralph Lauren, Rundhals und Pony-Logo, aber kein Zopfmuster)
+2026-10-25 08:57:46 UTC Suche „Xiaomi 17“
+2026-10-25 08:57:50 UTC Xiaomi 17: 4 neue Kandidaten
+2026-10-25 08:57:50 UTC Suche fertig: 1 neue Deals (2 Suchen)
