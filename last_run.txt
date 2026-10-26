@@ -1,5 +1,5 @@
-2026-10-26 23:45:01 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 23:45:01 UTC Suche „RalphLauren“
-2026-10-26 23:45:09 UTC RalphLauren: 1 neu, 1 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 23:45:16 UTC Bildprüfung verwirft 10551024692 (62: Gleiche Marke und Logo, aber ohne Zopfmuster-Strick)
-2026-10-26 23:45:16 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-26 23:49:25 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 23:49:26 UTC Suche „RalphLauren“
+2026-10-26 23:49:34 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 23:49:43 UTC Bildprüfung verwirft 10549634692 (45: Gleiche Marke und Logo, aber feiner Strick statt Zopfmuster)
+2026-10-26 23:49:43 UTC Suche fertig: 0 neue Deals (1 Suchen)
