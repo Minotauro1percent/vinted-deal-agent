@@ -1,10 +1,5 @@
-2026-10-26 18:00:55 UTC Telegram: 2 neue Nachricht(en)
-2026-10-26 18:00:55 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-26 18:00:56 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-10-26 18:00:57 UTC Feedback verarbeitet: ralphlauren
-2026-10-26 18:00:57 UTC Suche „RalphLauren“
-2026-10-26 18:01:06 UTC RalphLauren: 15 neu, 10 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 18:01:12 UTC Ausgeschlossen 10547033254: V-Ausschnitt
-2026-10-26 18:01:28 UTC Ausgeschlossen 10547049630: V-Ausschnitt
-2026-10-26 18:01:35 UTC Ausgeschlossen 10547012054: V-Ausschnitt
-2026-10-26 18:01:39 UTC Suche fertig: 3 neue Deals (1 Suchen)
+2026-10-26 18:05:54 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 18:05:54 UTC Suche „RalphLauren“
+2026-10-26 18:06:03 UTC RalphLauren: 20 neu, 12 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 18:06:36 UTC Ausgeschlossen 10547042610: V-Ausschnitt
+2026-10-26 18:06:45 UTC Suche fertig: 3 neue Deals (1 Suchen)
