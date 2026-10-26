@@ -1,14 +1,11 @@
-2026-10-26 16:35:57 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 16:35:57 UTC Suche „RalphLauren“
-2026-10-26 16:36:05 UTC RalphLauren: 21 neu, 16 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 16:36:12 UTC Bildprüfung 10545708297: unlesbare Antwort: {"score": (stop=max_tokens)
-2026-10-26 16:36:18 UTC Bildprüfung verwirft 10545705341 (72: Gleicher Zopfstrick und Stil, aber Zip-Cardigan statt Pullover)
-2026-10-26 16:36:27 UTC Bildprüfung verwirft 10545720502 (25: Kein Zopfmuster, Schalkragen mit Schnalle, Logo nicht erkennbar)
-2026-10-26 16:36:34 UTC Bildprüfung ok 10545697253 (78: Zopfstrick, Rundhals und Preppy-Stil passen; Logo nicht klar erkennbar)
-2026-10-26 16:36:46 UTC Bildprüfung verwirft 10545662029 (22: Kein Zopfmuster, anderer Schnitt und Stil, Marke nicht erkennbar)
-2026-10-26 16:36:52 UTC Bildprüfung verwirft 10545657768 (40: Gleiche Marke und Logo, aber gestreiftes Jersey statt Zopfmuster-Strick)
-2026-10-26 16:36:59 UTC Bildprüfung verwirft 10545638492 (42: Marke passt, aber kariertes Muster statt Zopfstrick)
-2026-10-26 16:37:08 UTC Bildprüfung verwirft 10545649994 (20: )
-2026-10-26 16:37:17 UTC Bildprüfung verwirft 10545706499 (8: Sweatshirt statt Zopfstrick, Kindergröße 146-152)
-2026-10-26 16:37:27 UTC Bildprüfung verwirft 10545640997 (45: Gleiche Marke und Logo, aber kein Zopfstrick, sondern glattes Shirt)
-2026-10-26 16:37:27 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-26 16:41:40 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 16:41:40 UTC Suche „RalphLauren“
+2026-10-26 16:41:48 UTC RalphLauren: 25 neu, 17 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 16:41:56 UTC Ausgeschlossen 10545811689: V-Ausschnitt
+2026-10-26 16:42:02 UTC Ausgeschlossen 10545801943: V-Ausschnitt
+2026-10-26 16:42:09 UTC Bildprüfung verwirft 10545796378 (68: Ralph Lauren Pullover mit Pony-Logo, aber glatter Strick statt Zopfmuster)
+2026-10-26 16:42:16 UTC Bildprüfung verwirft 10545787784 (8: Gestreiftes Oberteil ohne Zopfmuster und ohne sichtbares Ralph-Lauren-Logo)
+2026-10-26 16:42:41 UTC Bildprüfung verwirft 10545806178 (45: Gleiche Marke, aber Schalkragen statt Zopfmuster-Rundhals; anderer Stil)
+2026-10-26 16:42:45 UTC Ausgeschlossen 10545764377: V-Ausschnitt
+2026-10-26 16:42:55 UTC Bildprüfung verwirft 10545735531 (42: Zopfmuster passt, aber kein Ralph-Lauren-Logo erkennbar; Marke wirkt anders)
+2026-10-26 16:42:59 UTC Suche fertig: 0 neue Deals (1 Suchen)
