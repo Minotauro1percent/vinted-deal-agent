@@ -1,11 +1,14 @@
-2026-10-26 17:03:51 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 17:03:51 UTC Suche „RalphLauren“
-2026-10-26 17:04:01 UTC RalphLauren: 22 neu, 11 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 17:04:10 UTC Bildprüfung verwirft 10546172434 (72: Gleiche Marke und Logo, Rundhals, aber kein Zopfmuster)
-2026-10-26 17:04:13 UTC Ausgeschlossen 10546151208: V-Ausschnitt
-2026-10-26 17:04:18 UTC Bildprüfung verwirft 10546133514 (12: Kein Zopfmuster, kein Pony-Logo, anderer Stil (Rippstrick mit Knöpfen))
-2026-10-26 17:04:24 UTC Bildprüfung verwirft 10544539100 (72: Gleiche Marke und Pullover-Schnitt, aber feinerer Strick statt Zopfmuster)
-2026-10-26 17:04:44 UTC Bildprüfung verwirft 10546146359 (10: V-Ausschnitt und glattes Jersey statt Zopfstrick; Ausschlusskriterium)
-2026-10-26 17:04:51 UTC Bildprüfung verwirft 10546114723 (65: Gleiche Marke und Pony-Logo, aber anderes Strickmuster (kein Zopfmuster))
-2026-10-26 17:04:56 UTC Bildprüfung ok 10546099337 (68: Gleiche Marke und Logo, Rundhals, aber kein Zopfmuster)
-2026-10-26 17:04:58 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-26 17:09:13 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 17:09:13 UTC Suche „RalphLauren“
+2026-10-26 17:09:24 UTC RalphLauren: 26 neu, 17 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 17:09:30 UTC Bildprüfung verwirft 10546259183 (10: Anderer Stil: kurzärmlig, Lochmuster, kein Logo, kein Zopfmuster)
+2026-10-26 17:09:40 UTC Bildprüfung verwirft 10546243264 (10: Anderes Strickmuster (offen, kein Zopfmuster), kein Logo sichtbar)
+2026-10-26 17:09:50 UTC Bildprüfung ok 10546234653 (68: Gleiche Marke und Logo, aber Rippstrick statt Zopfmuster)
+2026-10-26 17:10:03 UTC Ausgeschlossen 10546215452: V-Ausschnitt
+2026-10-26 17:10:11 UTC Bildprüfung verwirft 10546208573 (68: Gleiche Marke und Pullover, aber kein Zopfmuster, anderer Strick)
+2026-10-26 17:10:21 UTC Bildprüfung verwirft 10546258393 (65: Gleiche Marke und Logo, aber kein Zopfmuster, feiner Strick)
+2026-10-26 17:10:24 UTC Ausgeschlossen 10546247840: Kinder
+2026-10-26 17:10:27 UTC Ausgeschlossen 10546196638: V-Ausschnitt
+2026-10-26 17:10:30 UTC Ausgeschlossen 10546236793: V-Ausschnitt
+2026-10-26 17:10:33 UTC Ausgeschlossen 10546223956: V-Ausschnitt
+2026-10-26 17:10:36 UTC Suche fertig: 1 neue Deals (1 Suchen)
