@@ -20031,7 +20031,7 @@
     "juicy-couture": 1792613908,
     "ralphlauren": 1793038543
   },
-  "last_search": 1793038543,
+  "last_search": 1793038880,
   "force_all_done": 1793028227,
   "force_done": {
     "polo-ralph-lauren-zopfstrick-pullover": 1792525027,
@@ -20044,11 +20044,11 @@
     "juicy-couture": 1792525027,
     "ralphlauren": 1793028227
   },
-  "blocked_notified": false,
+  "blocked_notified": true,
   "stats": {
-    "searches": 865,
+    "searches": 866,
     "deals": 2163,
-    "last_deals": 2
+    "last_deals": 0
   },
   "learn_target": "",
   "learn_queue": [],

@@ -1,5 +1,4 @@
-2026-10-26 18:15:43 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 18:15:43 UTC Suche „RalphLauren“
-2026-10-26 18:15:51 UTC RalphLauren: 14 neu, 8 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 18:16:18 UTC Ausgeschlossen 10547246551: Kinder
-2026-10-26 18:16:18 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-26 18:21:21 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 18:21:21 UTC Suche „RalphLauren“
+2026-10-26 18:21:21 UTC Vinted blockiert: HTTP 403
+2026-10-26 18:21:22 UTC Suche fertig: 0 neue Deals (1 Suchen)
