@@ -1,10 +1,13 @@
-2026-10-26 16:52:53 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 16:52:53 UTC Suche „RalphLauren“
-2026-10-26 16:53:02 UTC RalphLauren: 21 neu, 11 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 16:53:09 UTC Bildprüfung verwirft 10545911637 (45: Gleiche Marke und Logo, aber anderer Kragen und kein Zopfmuster)
-2026-10-26 16:53:16 UTC Bildprüfung verwirft 10545989252 (45: Strickoberteil wie die Beispiele, aber kurzarmig mit Puffärmeln, anderer Stil)
-2026-10-26 16:53:28 UTC Bildprüfung ok 10545942757 (90: Zopfstrick-Rundhals-Pullover mit Ralph-Lauren-Pony, passt zu Beispielen)
-2026-10-26 16:53:33 UTC Ausgeschlossen 10545930331: V-Ausschnitt
-2026-10-26 16:53:43 UTC Bildprüfung verwirft 10545922005 (35: Rippstrick statt Zopfmuster, kein sichtbares Pony-Logo, Marke unklar)
-2026-10-26 16:53:55 UTC Bildprüfung ok 10545938457 (92: Ralph-Lauren-Zopfstrick mit Pony-Logo, Rundhals, kein Ausschlusskriterium)
-2026-10-26 16:53:56 UTC Suche fertig: 2 neue Deals (1 Suchen)
+2026-10-26 16:58:10 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 16:58:10 UTC Suche „RalphLauren“
+2026-10-26 16:58:20 UTC RalphLauren: 28 neu, 17 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 16:58:30 UTC Bildprüfung verwirft 10546077920 (35: Anderer Strick (offen, kein Zopfmuster), kein Logo sichtbar, Markenbezug unklar)
+2026-10-26 16:58:35 UTC Bildprüfung verwirft 10546048166 (10: V-Ausschnitt ist Ausschlusskriterium; Streifenmuster und Schnitt weichen ab)
+2026-10-26 16:58:48 UTC Ausgeschlossen 10546023604: V-Ausschnitt
+2026-10-26 16:58:53 UTC Bildprüfung ok 10546022828 (92: Zopfstrick, Rundhals, Polo-Logo und Baumwolle wie in den Beispielen)
+2026-10-26 16:59:06 UTC Bildprüfung verwirft 10546011265 (50: Zopfstrick passt, aber kein Logo sichtbar und anderer Ausschnitt)
+2026-10-26 16:59:13 UTC Bildprüfung verwirft 10546089049 (25: Gestreiftes Oberteil, kein Zopfstrick; Logo nicht erkennbar)
+2026-10-26 16:59:26 UTC Bildprüfung ok 10543019530 (85: Gleiche Marke, Zopfstrick und Logo; Halbzip statt Rundhals.)
+2026-10-26 16:59:34 UTC Bildprüfung verwirft 10546028806 (10: Gerippt mit Rüschen, kein Zopfmuster; wirkt wie Kinderkleidung)
+2026-10-26 16:59:38 UTC Ausgeschlossen 10546005603: V-Ausschnitt
+2026-10-26 16:59:38 UTC Suche fertig: 2 neue Deals (1 Suchen)
