@@ -1,7 +1,5 @@
-2026-10-26 17:45:20 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 17:45:20 UTC Suche „RalphLauren“
-2026-10-26 17:45:30 UTC RalphLauren: 17 neu, 12 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 17:45:47 UTC Ausgeschlossen 10546786635: V-Ausschnitt
-2026-10-26 17:45:52 UTC Ausgeschlossen 8960277109: V-Ausschnitt
-2026-10-26 17:45:56 UTC Ausgeschlossen 10546824713: V-Ausschnitt
-2026-10-26 17:46:09 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-26 17:50:21 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 17:50:22 UTC Suche „RalphLauren“
+2026-10-26 17:50:31 UTC RalphLauren: 26 neu, 13 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 17:50:44 UTC Ausgeschlossen 10546894170: Kinder
+2026-10-26 17:51:18 UTC Suche fertig: 2 neue Deals (1 Suchen)
