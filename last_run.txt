@@ -1,8 +1,10 @@
-2026-10-26 16:07:38 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 16:07:38 UTC Suche „RalphLauren“
-2026-10-26 16:07:49 UTC RalphLauren: 21 neu, 10 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 16:07:58 UTC Ausgeschlossen 10545232762: V-Ausschnitt
-2026-10-26 16:08:04 UTC Bildprüfung verwirft 10545232220 (55: Marke und Logo passen, aber Streifenmuster statt Zopfstrick)
-2026-10-26 16:08:19 UTC Bildprüfung ok 10545249955 (60: )
-2026-10-26 16:08:25 UTC Bildprüfung verwirft 10545245594 (72: Gleiche Marke und Strickpullover, aber glatter Strick statt Zopfmuster)
-2026-10-26 16:08:31 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-26 16:12:45 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 16:12:45 UTC Suche „RalphLauren“
+2026-10-26 16:12:56 UTC RalphLauren: 17 neu, 11 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 16:12:59 UTC Ausgeschlossen 10545297514: V-Ausschnitt
+2026-10-26 16:13:01 UTC Ausgeschlossen 10545340407: Kinder
+2026-10-26 16:13:04 UTC Ausgeschlossen 10545322814: V-Ausschnitt
+2026-10-26 16:13:15 UTC Bildprüfung verwirft 10545313805 (55: Marke und Logo passen, aber kein Zopfstrick, eher Waffelshirt)
+2026-10-26 16:13:21 UTC Bildprüfung verwirft 10545304094 (10: V-Ausschnitt ist Ausschlusskriterium; kein Zopfmuster, glatter Pullover)
+2026-10-26 16:13:27 UTC Ausgeschlossen 10545336807: V-Ausschnitt
+2026-10-26 16:13:36 UTC Suche fertig: 0 neue Deals (1 Suchen)
