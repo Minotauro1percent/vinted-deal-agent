@@ -1,8 +1,7 @@
-2026-10-26 17:25:04 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 17:25:04 UTC Suche „Xiaomi 17“
-2026-10-26 17:25:09 UTC Xiaomi 17: 2 neue Kandidaten
-2026-10-26 17:25:09 UTC Suche „RalphLauren“
-2026-10-26 17:25:17 UTC RalphLauren: 21 neu, 15 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 17:25:30 UTC Ausgeschlossen 10546447702: V-Ausschnitt
-2026-10-26 17:26:05 UTC Ausgeschlossen 10546443300: V-Ausschnitt
-2026-10-26 17:26:09 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-10-26 17:30:21 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 17:30:21 UTC Suche „RalphLauren“
+2026-10-26 17:30:30 UTC RalphLauren: 26 neu, 15 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 17:31:04 UTC Ausgeschlossen 10546517671: V-Ausschnitt
+2026-10-26 17:31:07 UTC Ausgeschlossen 10546512233: V-Ausschnitt
+2026-10-26 17:31:25 UTC Ausgeschlossen 10546512393: V-Ausschnitt
+2026-10-26 17:31:25 UTC Suche fertig: 1 neue Deals (1 Suchen)
