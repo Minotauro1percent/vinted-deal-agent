@@ -1,16 +1,14 @@
-2026-10-26 16:30:16 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 16:30:16 UTC Suche „RalphLauren“
-2026-10-26 16:30:25 UTC RalphLauren: 27 neu, 17 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 16:30:37 UTC Bildprüfung verwirft 10545602635 (15: Kein Zopfmuster, kein Polo-Logo, keine Markenhinweise erkennbar)
-2026-10-26 16:30:46 UTC Bildprüfung verwirft 10545599080 (40: Gleiche Marke, aber Sweatshirt statt Zopfstrick, anderes Logo und Motiv)
-2026-10-26 16:30:55 UTC Bildprüfung verwirft 10545591321 (25: Anderes Muster (Streifen statt Zopfstrick), kein sichtbares Logo, abweichender S)
-2026-10-26 16:31:04 UTC Bildprüfung verwirft 10541606791 (35: Sweatshirt statt Strickpullover, anderes Logo, kein Zopfmuster)
-2026-10-26 16:31:11 UTC Bildprüfung verwirft 10545549439 (35: Kein Zopfmuster, kein sichtbares Logo, feinerer Strick als die Beispiele)
-2026-10-26 16:31:18 UTC Bildprüfung verwirft 10545542413 (30: Kapuzenpullover, anderes Strickmuster, kein Pony-Logo sichtbar)
-2026-10-26 16:31:21 UTC Ausgeschlossen 10545535195: Kinder
-2026-10-26 16:31:28 UTC Bildprüfung verwirft 10545531668 (22: Halbzip statt Rundhals, kein Zopfmuster, kein sichtbares Logo)
-2026-10-26 16:31:32 UTC Ausgeschlossen 10545624129: V-Ausschnitt
-2026-10-26 16:31:35 UTC Ausgeschlossen 10545612950: V-Ausschnitt
-2026-10-26 16:31:38 UTC Ausgeschlossen 10545596036: V-Ausschnitt
-2026-10-26 16:31:45 UTC Ausgeschlossen 10545557138: V-Ausschnitt
-2026-10-26 16:31:45 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-26 16:35:57 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 16:35:57 UTC Suche „RalphLauren“
+2026-10-26 16:36:05 UTC RalphLauren: 21 neu, 16 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 16:36:12 UTC Bildprüfung 10545708297: unlesbare Antwort: {"score": (stop=max_tokens)
+2026-10-26 16:36:18 UTC Bildprüfung verwirft 10545705341 (72: Gleicher Zopfstrick und Stil, aber Zip-Cardigan statt Pullover)
+2026-10-26 16:36:27 UTC Bildprüfung verwirft 10545720502 (25: Kein Zopfmuster, Schalkragen mit Schnalle, Logo nicht erkennbar)
+2026-10-26 16:36:34 UTC Bildprüfung ok 10545697253 (78: Zopfstrick, Rundhals und Preppy-Stil passen; Logo nicht klar erkennbar)
+2026-10-26 16:36:46 UTC Bildprüfung verwirft 10545662029 (22: Kein Zopfmuster, anderer Schnitt und Stil, Marke nicht erkennbar)
+2026-10-26 16:36:52 UTC Bildprüfung verwirft 10545657768 (40: Gleiche Marke und Logo, aber gestreiftes Jersey statt Zopfmuster-Strick)
+2026-10-26 16:36:59 UTC Bildprüfung verwirft 10545638492 (42: Marke passt, aber kariertes Muster statt Zopfstrick)
+2026-10-26 16:37:08 UTC Bildprüfung verwirft 10545649994 (20: )
+2026-10-26 16:37:17 UTC Bildprüfung verwirft 10545706499 (8: Sweatshirt statt Zopfstrick, Kindergröße 146-152)
+2026-10-26 16:37:27 UTC Bildprüfung verwirft 10545640997 (45: Gleiche Marke und Logo, aber kein Zopfstrick, sondern glattes Shirt)
+2026-10-26 16:37:27 UTC Suche fertig: 2 neue Deals (1 Suchen)
