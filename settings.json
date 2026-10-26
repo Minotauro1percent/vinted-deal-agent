@@ -1,16 +1,16 @@
 {
-  "enabled": false,
+  "enabled": true,
   "default_interval_min": 60,
   "first_run_max": 3,
   "shipping_est": 5,
   "max_per_run": 15,
-  "force_all": 1792525027,
+  "force_all": 1793028227,
   "force": {
     "juicy-couture": 1792411493
   },
   "vision_daily_max": 150,
   "vision_min": 60,
-  "night_mode": true,
+  "night_mode": false,
   "night_max": 3,
   "night_from": "",
   "night_to": ""
