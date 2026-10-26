@@ -1,15 +1,10 @@
-2026-10-26 16:47:11 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 16:47:11 UTC Suche „RalphLauren“
-2026-10-26 16:47:20 UTC RalphLauren: 23 neu, 18 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 16:47:28 UTC Ausgeschlossen 10545894825: V-Ausschnitt
-2026-10-26 16:47:34 UTC Bildprüfung verwirft 10545874824 (12: Kein Zopfmuster, kein Logo, anderer Stil; Marke nicht erkennbar)
-2026-10-26 16:47:39 UTC Bildprüfung verwirft 10545871842 (45: Marke passt, aber glatter Half-Zip statt Zopfstrick-Rundhals)
-2026-10-26 16:47:45 UTC Bildprüfung verwirft 10545863483 (55: Strickpullover wie die Beispiele, aber kein Pony-Logo erkennbar)
-2026-10-26 16:47:59 UTC Bildprüfung verwirft 10545845483 (15: Kein Zopfmuster, kein sichtbares Logo, anderer Stil und Schnitt)
-2026-10-26 16:48:03 UTC Ausgeschlossen 10545835216: V-Ausschnitt
-2026-10-26 16:48:14 UTC Ausgeschlossen 10545895301: V-Ausschnitt
-2026-10-26 16:48:19 UTC Bildprüfung verwirft 10545888806 (68: Gleiche Marke und Logo, aber Waffelstrick statt Zopfmuster)
-2026-10-26 16:48:25 UTC Bildprüfung verwirft 10545882725 (55: Ralph Lauren Logo passt, aber kein Zopfmuster, nur Feinstrick)
-2026-10-26 16:48:28 UTC Ausgeschlossen 10545876952: Kinder
-2026-10-26 16:48:41 UTC Bildprüfung ok 10545829002 (62: )
-2026-10-26 16:48:42 UTC Suche fertig: 1 neue Deals (1 Suchen)
+2026-10-26 16:52:53 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 16:52:53 UTC Suche „RalphLauren“
+2026-10-26 16:53:02 UTC RalphLauren: 21 neu, 11 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 16:53:09 UTC Bildprüfung verwirft 10545911637 (45: Gleiche Marke und Logo, aber anderer Kragen und kein Zopfmuster)
+2026-10-26 16:53:16 UTC Bildprüfung verwirft 10545989252 (45: Strickoberteil wie die Beispiele, aber kurzarmig mit Puffärmeln, anderer Stil)
+2026-10-26 16:53:28 UTC Bildprüfung ok 10545942757 (90: Zopfstrick-Rundhals-Pullover mit Ralph-Lauren-Pony, passt zu Beispielen)
+2026-10-26 16:53:33 UTC Ausgeschlossen 10545930331: V-Ausschnitt
+2026-10-26 16:53:43 UTC Bildprüfung verwirft 10545922005 (35: Rippstrick statt Zopfmuster, kein sichtbares Pony-Logo, Marke unklar)
+2026-10-26 16:53:55 UTC Bildprüfung ok 10545938457 (92: Ralph-Lauren-Zopfstrick mit Pony-Logo, Rundhals, kein Ausschlusskriterium)
+2026-10-26 16:53:56 UTC Suche fertig: 2 neue Deals (1 Suchen)
