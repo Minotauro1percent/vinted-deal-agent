@@ -1,53 +1,15 @@
-2026-10-26 15:52:26 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 15:52:26 UTC Suche „RalphLauren“
-2026-10-26 15:52:34 UTC RalphLauren: 107 neu, 69 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 15:52:45 UTC Bildprüfung verwirft 10544829915 (45: Ralph-Lauren-Label, aber anderes Strickmuster und kein Pony-Logo)
-2026-10-26 15:52:51 UTC Bildprüfung verwirft 10544721955 (45: Pullover, aber kein Zopfmuster und kein sichtbares Logo)
-2026-10-26 15:52:58 UTC Bildprüfung 10544697087: unlesbare Antwort:  (stop=max_tokens)
-2026-10-26 15:53:04 UTC Bildprüfung verwirft 10543008880 (25: Ralph-Lauren-Marke, aber Hoodie, Rippstrick und kein Pony-Logo)
-2026-10-26 15:53:10 UTC Bildprüfung verwirft 10544548194 (45: Marke passt, aber kein Zopfmuster, kein sichtbares Logo, anderer Stil)
-2026-10-26 15:53:15 UTC Bildprüfung verwirft 10544596436 (62: Zopfmuster passt, aber Off-Shoulder-Schnitt und kein sichtbares Logo)
-2026-10-26 15:53:23 UTC Ausgeschlossen 10544937987: V-Ausschnitt
-2026-10-26 15:53:29 UTC Ausgeschlossen 10544918161: V-Ausschnitt
-2026-10-26 15:53:34 UTC Ausgeschlossen 10544868638: V-Ausschnitt
-2026-10-26 15:53:38 UTC Ausgeschlossen 10544862060: V-Ausschnitt
-2026-10-26 15:53:41 UTC Ausgeschlossen 10544857117: Kinder
-2026-10-26 15:53:47 UTC Bildprüfung ok 10544846043 (92: Gleicher Strickmuster, Rundhals und Polo-Logo wie in den Beispielen)
-2026-10-26 15:53:59 UTC Ausgeschlossen 10544815921: V-Ausschnitt
-2026-10-26 15:54:03 UTC Ausgeschlossen 10544785808: V-Ausschnitt
-2026-10-26 15:54:09 UTC Ausgeschlossen 10544754730: V-Ausschnitt
-2026-10-26 15:54:16 UTC Bildprüfung verwirft 10544767509 (5: V-Ausschnitt (Ausschlusskriterium), kein Ralph-Lauren-Logo erkennbar)
-2026-10-26 15:54:22 UTC Bildprüfung verwirft 10538568220 (70: Zopfstrick und Brand passen, aber Kapuze und kein Pony-Logo)
-2026-10-26 15:54:28 UTC Ausgeschlossen 10544733504: V-Ausschnitt
-2026-10-26 15:54:31 UTC Ausgeschlossen 10544694678: V-Ausschnitt
-2026-10-26 15:54:38 UTC Bildprüfung ok 10544695481 (92: Ralph Lauren Zopfstrick mit Pony-Logo, Rundhals, passt zu Beispielen)
-2026-10-26 15:54:55 UTC Bildprüfung ok 10544610111 (72: Ralph Lauren Logo und Rundhals passen, aber kein Zopfmuster)
-2026-10-26 15:55:08 UTC Bildprüfung verwirft 10544611679 (40: Ähnlicher Zopfstrick und Rundhals, aber kein Ralph-Lauren-Logo erkennbar)
-2026-10-26 15:55:14 UTC Bildprüfung ok 10544564345 (78: Gleiche Marke, Rundhals und Pony-Logo; aber ohne Zopfmuster.)
-2026-10-26 15:55:18 UTC Ausgeschlossen 10544558053: V-Ausschnitt
-2026-10-26 15:55:24 UTC Ausgeschlossen 10544989625: V-Ausschnitt
-2026-10-26 15:55:27 UTC Ausgeschlossen 10544983955: V-Ausschnitt
-2026-10-26 15:55:30 UTC Ausgeschlossen 10544968918: V-Ausschnitt
-2026-10-26 15:55:36 UTC Bildprüfung ok 10544953866 (65: Gleiche Marke und Logo, aber Sweatshirt statt Zopfstrick)
-2026-10-26 15:55:44 UTC Bildprüfung 10544937004: unlesbare Antwort:  (stop=max_tokens)
-2026-10-26 15:55:51 UTC Bildprüfung verwirft 10544934924 (38: Marke passt, aber Sweatshirt statt Zopfstrick und anderes Logo)
-2026-10-26 15:55:57 UTC Bildprüfung ok 10544931715 (72: Gleicher Pullover-Typ und Logo, aber ohne Zopfmuster)
-2026-10-26 15:56:07 UTC Ausgeschlossen 10544881791: V-Ausschnitt
-2026-10-26 15:56:17 UTC Bildprüfung verwirft 10544838802 (72: Gleicher Pullover-Typ und Logo, aber kein Zopfmuster)
-2026-10-26 15:56:22 UTC Bildprüfung ok 10544829832 (92: Zopfstrick-Rundhals mit Ralph-Lauren-Logo, passt zu den Beispielen)
-2026-10-26 15:56:29 UTC Bildprüfung ok 10544821290 (72: Ralph Lauren, Rundhals-Strickpullover, aber Flaggenmuster statt Zopfstrick)
-2026-10-26 15:56:36 UTC Bildprüfung verwirft 10544828182 (18: Anderes Muster (Flagge statt Zopfstrick), vermutlich U.S. Polo Assn., kein Pony-)
-2026-10-26 15:56:40 UTC Ausgeschlossen 10544823776: V-Ausschnitt
-2026-10-26 15:56:49 UTC Bildprüfung verwirft 10544811247 (68: Ralph Lauren Pullover, aber kein Zopfmuster; Logo und Rundhals passen)
-2026-10-26 15:56:56 UTC Bildprüfung ok 10544759983 (75: Ralph Lauren Strickpullover mit Logo, Rundhals; aber ohne Zopfmuster)
-2026-10-26 15:57:04 UTC Bildprüfung ok 10544757332 (65: Gleiche Marke und Pulloverform, aber Streifenmuster statt Zopfstrick)
-2026-10-26 15:57:10 UTC Bildprüfung verwirft 10544755251 (50: Marke und Logo passen, aber Sweatshirt statt Zopfstrick)
-2026-10-26 15:57:16 UTC Bildprüfung verwirft 10544756300 (35: Marke und Logo passen, aber Jacke statt Zopfstrick-Pullover.)
-2026-10-26 15:57:20 UTC Ausgeschlossen 10544688237: V-Ausschnitt
-2026-10-26 15:57:25 UTC Bildprüfung verwirft 10544699149 (10: Kindergröße, anderer Stil: Flaggenmotiv statt Zopfmuster)
-2026-10-26 15:57:31 UTC Ausgeschlossen 10544667352: V-Ausschnitt
-2026-10-26 15:57:37 UTC Bildprüfung verwirft 10544660632 (35: Gleiche Marke, aber Half-Zip-Sweatshirt statt Zopfstrick-Pullover)
-2026-10-26 15:57:42 UTC Bildprüfung ok 10544596041 (62: Gleiche Marke und Logo, aber glatter Sweat statt Zopfstrick)
-2026-10-26 15:57:47 UTC Ausgeschlossen 10544555599: V-Ausschnitt
-2026-10-26 15:57:52 UTC Bildprüfung ok 10544570084 (92: Zopfstrick, Ralph-Lauren-Pony-Logo, Rundhals, Erwachsenenschnitt – passt gut)
-2026-10-26 15:57:53 UTC Suche fertig: 13 neue Deals (1 Suchen)
+2026-10-26 16:02:04 UTC Telegram: 0 neue Nachricht(en)
+2026-10-26 16:02:04 UTC Suche „RalphLauren“
+2026-10-26 16:02:13 UTC RalphLauren: 31 neu, 17 in der Vorauswahl (Schwelle 0.52)
+2026-10-26 16:02:20 UTC Bildprüfung verwirft 10545149216 (72: Ralph Lauren Pony-Logo und Rundhals passen, aber kein Zopfmuster.)
+2026-10-26 16:02:23 UTC Ausgeschlossen 10545036447: V-Ausschnitt
+2026-10-26 16:02:26 UTC Ausgeschlossen 10545071770: V-Ausschnitt
+2026-10-26 16:02:30 UTC Ausgeschlossen 10544020797: V-Ausschnitt
+2026-10-26 16:02:34 UTC Bildprüfung ok 10545130043 (88: Zopfstrick-Rundhals wie Beispiele, Logo sichtbar, Stil passt)
+2026-10-26 16:02:52 UTC Ausgeschlossen 10545024846: V-Ausschnitt
+2026-10-26 16:02:56 UTC Ausgeschlossen 10542315241: Kinder
+2026-10-26 16:03:00 UTC Ausgeschlossen 10545158325: V-Ausschnitt
+2026-10-26 16:03:07 UTC Bildprüfung ok 10545141871 (85: Zopfstrick, Rundhals, Pony-Logo, passender Stil; Kindergröße unklar)
+2026-10-26 16:03:14 UTC Bildprüfung verwirft 10545126985 (15: Ralph Lauren Zopf-Strick, aber vermutlich V-Ausschnitt (Ausschlusskriterium))
+2026-10-26 16:03:24 UTC Ausgeschlossen 10545029258: V-Ausschnitt
+2026-10-26 16:03:24 UTC Suche fertig: 2 neue Deals (1 Suchen)
