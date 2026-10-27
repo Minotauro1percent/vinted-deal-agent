@@ -1,23 +1,2 @@
-2026-10-27 08:02:48 UTC Telegram: 0 neue Nachricht(en)
-2026-10-27 08:02:48 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-27 08:02:48 UTC Suche „RalphLauren“
-2026-10-27 08:02:57 UTC RalphLauren: 70 neu, 31 in der Vorauswahl (Schwelle 0.52)
-2026-10-27 08:03:04 UTC Ausgeschlossen 10549466614: V-Ausschnitt
-2026-10-27 08:03:08 UTC Ausgeschlossen 10552920271: Kinder
-2026-10-27 08:03:24 UTC Ausgeschlossen 10552856198: V-Ausschnitt
-2026-10-27 08:03:30 UTC Bildprüfung verwirft 10552849356 (35: Gleiche Marke, aber Rippstrick statt Zopfmuster und großes Flaggenlogo)
-2026-10-27 08:03:39 UTC Bildprüfung verwirft 10552839052 (72: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
-2026-10-27 08:03:48 UTC Bildprüfung verwirft 10552824278 (55: Gleiche Marke und Logo, aber glatter Stoff statt Zopfstrick)
-2026-10-27 08:03:57 UTC Bildprüfung verwirft 10552766804 (40: Gleiche Marke, aber Sweatshirt statt Zopfstrick und großes Logo)
-2026-10-27 08:04:01 UTC Ausgeschlossen 10552706514: V-Ausschnitt
-2026-10-27 08:04:09 UTC Bildprüfung verwirft 10552656149 (60: Marke und Pony-Logo passen, aber Waffelstrick und Hoodie weichen ab)
-2026-10-27 08:04:16 UTC Ausgeschlossen 10552934764: V-Ausschnitt
-2026-10-27 08:04:23 UTC Bildprüfung ok 10552929373 (60: Marke und Logo passen, aber kein Zopfmuster wie in den Beispielen)
-2026-10-27 08:04:30 UTC Bildprüfung verwirft 10552929127 (15: Ausschlusskriterium V-Ausschnitt trifft zu; sonst ähnlicher Zopfstrick)
-2026-10-27 08:04:38 UTC Bildprüfung verwirft 10552910345 (72: Ralph Lauren Pony-Logo und Rundhals, aber glatter Strick statt Zopfmuster)
-2026-10-27 08:04:57 UTC Ausgeschlossen 10552646271: V-Ausschnitt
-2026-10-27 08:05:01 UTC Suche „Juicy Couture“
-2026-10-27 08:05:01 UTC Juicy Couture: noch keine Beispiele
-2026-10-27 08:05:01 UTC Suche „Xiaomi 17“
-2026-10-27 08:05:04 UTC Xiaomi 17: 0 neue Kandidaten
-2026-10-27 08:05:04 UTC Suche fertig: 1 neue Deals (3 Suchen)
+2026-10-27 08:09:16 UTC Telegram: 0 neue Nachricht(en)
+2026-10-27 08:09:16 UTC Keine Suche fällig
