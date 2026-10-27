@@ -1,31 +1,5 @@
-2026-10-27 13:04:56 UTC Telegram: 0 neue Nachricht(en)
-2026-10-27 13:04:56 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-27 13:04:56 UTC Suche „RalphLauren“
-2026-10-27 13:05:04 UTC RalphLauren: 153 neu, 75 in der Vorauswahl (Schwelle 0.52)
-2026-10-27 13:05:08 UTC Ausgeschlossen 10556266796: Kinder
-2026-10-27 13:05:15 UTC Bildprüfung ok 10556229671 (72: Gleiche Marke und Logo, aber anderes Strickmuster (kein Zopfmuster).)
-2026-10-27 13:05:32 UTC Ausgeschlossen 10556320308: V-Ausschnitt
-2026-10-27 13:05:43 UTC Bildprüfung verwirft 10556263485 (50: )
-2026-10-27 13:05:50 UTC Bildprüfung verwirft 10556253388 (68: Gleiche Marke und Logo, aber Waffelstrick statt Zopfmuster)
-2026-10-27 13:05:57 UTC Bildprüfung verwirft 10556219669 (30: Pullover, aber kein Zopfmuster, Halbzip statt Rundhals, kein Logo sichtbar)
-2026-10-27 13:06:07 UTC Ausgeschlossen 10556217586: Kinder
-2026-10-27 13:06:14 UTC Bildprüfung 10556210391: unlesbare Antwort:  (stop=max_tokens)
-2026-10-27 13:06:19 UTC Bildprüfung verwirft 10556207180 (35: Gleiche Marke, aber anderer Stil: Paisleymuster statt Zopfstrick, kein Pony-Logo)
-2026-10-27 13:06:25 UTC Bildprüfung verwirft 10556198103 (15: Ausschlusskriterium erfüllt: V-Ausschnitt statt Rundhals, kein Zopfmuster)
-2026-10-27 13:06:32 UTC Ausgeschlossen 10556140692: V-Ausschnitt
-2026-10-27 13:06:37 UTC Bildprüfung verwirft 10544075778 (35: Anderes Muster (Streifen statt Zopfmuster), kein Pony-Logo, nur Polo-Label)
-2026-10-27 13:06:46 UTC Bildprüfung verwirft 10556092238 (15: Anderer Typ (Polo-Shirt, Kurzarm, Zipper), kein Zopfstrick, Logo abweichend)
-2026-10-27 13:06:52 UTC Bildprüfung verwirft 10556075706 (68: Gleicher Pullover-Typ und Logo, aber ohne Zopfmuster)
-2026-10-27 13:06:55 UTC Ausgeschlossen 10556065866: V-Ausschnitt
-2026-10-27 13:07:01 UTC Bildprüfung verwirft 10556056709 (72: Gleiche Marke und Logo, Rundhals, aber feinstrick statt Zopfmuster)
-2026-10-27 13:07:11 UTC Bildprüfung verwirft 10556048811 (12: Kein Zopfmuster, kein Pony-Logo, anderes Etikett, feiner Strick)
-2026-10-27 13:07:31 UTC Ausgeschlossen 10555835279: V-Ausschnitt
-2026-10-27 13:07:38 UTC Bildprüfung verwirft 10555836840 (35: Marke passt, aber kein Zopfmuster, anderes Logo, Sweatshirt statt Strick)
-2026-10-27 13:07:43 UTC Bildprüfung verwirft 10555788882 (55: Gleiche Marke und Logo, aber kein Zopfstrick, sondern Sweatware)
-2026-10-27 13:07:50 UTC Bildprüfung verwirft 10555773203 (40: Marke passt, aber Rippstrick statt Zopfmuster und kein Pony-Logo)
-2026-10-27 13:07:56 UTC Bildprüfung ok 10555766393 (70: Gleiche Marke und Pullover-Typ, aber ohne Zopfmuster)
-2026-10-27 13:08:10 UTC Bildprüfung verwirft 10555707180 (12: Kapuzenpullover ohne Zopfmuster, ohne sichtbares Logo, kein Ralph Lauren erkennb)
-2026-10-27 13:08:19 UTC Bildprüfung verwirft 10555651961 (30: Anderes Strickmuster, anderes Logo, Marke nicht eindeutig Ralph Lauren)
-2026-10-27 13:08:26 UTC Bildprüfung ok 10555610713 (68: Gleiche Marke und Logo, aber ohne Zopfmuster; Kindergröße möglich)
-2026-10-27 13:08:26 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-10-27 13:08:26 UTC Suche fertig: 3 neue Deals (3 Suchen)
+2026-10-27 13:12:38 UTC Telegram: 2 neue Nachricht(en)
+2026-10-27 13:12:38 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-27 13:12:39 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-27 13:12:40 UTC Feedback verarbeitet: ralphlauren
+2026-10-27 13:12:40 UTC Keine Suche fällig
