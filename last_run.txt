@@ -1,10 +1,2 @@
-2026-10-27 05:02:47 UTC Telegram: 0 neue Nachricht(en)
-2026-10-27 05:02:47 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-27 05:02:47 UTC Suche „RalphLauren“
-2026-10-27 05:02:56 UTC RalphLauren: 9 neu, 4 in der Vorauswahl (Schwelle 0.52)
-2026-10-27 05:03:12 UTC Bildprüfung verwirft 10552294746 (12: Kein Zopfmuster, kein Pony-Logo, anderer Stil und Schnitt)
-2026-10-27 05:03:12 UTC Suche „Juicy Couture“
-2026-10-27 05:03:12 UTC Juicy Couture: noch keine Beispiele
-2026-10-27 05:03:12 UTC Suche „Xiaomi 17“
-2026-10-27 05:03:17 UTC Xiaomi 17: 0 neue Kandidaten
-2026-10-27 05:03:17 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-10-27 05:07:28 UTC Telegram: 0 neue Nachricht(en)
+2026-10-27 05:07:29 UTC Keine Suche fällig
