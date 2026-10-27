@@ -1,2 +1,19 @@
-2026-10-27 06:58:10 UTC Telegram: 0 neue Nachricht(en)
-2026-10-27 06:58:11 UTC Keine Suche fällig
+2026-10-27 07:02:21 UTC Telegram: 0 neue Nachricht(en)
+2026-10-27 07:02:21 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-27 07:02:21 UTC Suche „RalphLauren“
+2026-10-27 07:02:29 UTC RalphLauren: 54 neu, 23 in der Vorauswahl (Schwelle 0.52)
+2026-10-27 07:02:35 UTC Bildprüfung verwirft 10552581687 (45: Gleiche Marke und Schnitt, aber anderes Strickmuster und großes Printlogo)
+2026-10-27 07:02:40 UTC Bildprüfung verwirft 10552577019 (22: Kein Cable-Knit-Muster, kein Logo sichtbar, abweichender Stil)
+2026-10-27 07:02:47 UTC Ausgeschlossen 10545745244: V-Ausschnitt
+2026-10-27 07:02:52 UTC Bildprüfung verwirft 10552525134 (5: V-Ausschnitt ist Ausschlusskriterium; kein Zopfmuster, kein Logo)
+2026-10-27 07:03:06 UTC Bildprüfung verwirft 10552615767 (68: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
+2026-10-27 07:03:11 UTC Bildprüfung verwirft 10552601723 (60: Gleiche Marke und Logo, aber glatter Sweatshirt statt Zopfstrick)
+2026-10-27 07:03:18 UTC Bildprüfung ok 10552595330 (88: Zopfstrick, Rundhals und Pony-Logo wie in den Beispielen)
+2026-10-27 07:03:27 UTC Bildprüfung verwirft 10552592778 (65: Ralph Lauren Pullover mit Pony-Logo, aber ohne Zopfmuster)
+2026-10-27 07:03:33 UTC Bildprüfung ok 10552532792 (92: Zopfstrick, Rundhals und Polo-Logo passen zu den Beispielen)
+2026-10-27 07:03:50 UTC Ausgeschlossen 10552478702: V-Ausschnitt
+2026-10-27 07:04:04 UTC Suche „Juicy Couture“
+2026-10-27 07:04:04 UTC Juicy Couture: noch keine Beispiele
+2026-10-27 07:04:04 UTC Suche „Xiaomi 17“
+2026-10-27 07:04:08 UTC Xiaomi 17: 0 neue Kandidaten
+2026-10-27 07:04:08 UTC Suche fertig: 2 neue Deals (3 Suchen)
