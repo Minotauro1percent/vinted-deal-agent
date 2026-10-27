@@ -1,2 +1,40 @@
-2026-10-27 08:59:43 UTC Telegram: 0 neue Nachricht(en)
-2026-10-27 08:59:43 UTC Keine Suche fällig
+2026-10-27 09:03:53 UTC Telegram: 0 neue Nachricht(en)
+2026-10-27 09:03:53 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-27 09:03:53 UTC Suche „RalphLauren“
+2026-10-27 09:04:01 UTC RalphLauren: 93 neu, 50 in der Vorauswahl (Schwelle 0.52)
+2026-10-27 09:04:04 UTC Ausgeschlossen 10553356639: V-Ausschnitt
+2026-10-27 09:04:16 UTC Bildprüfung ok 10553311079 (60: Zopfstrick passt, aber kein Logo sichtbar und anderer Ausschnitt)
+2026-10-27 09:04:20 UTC Details übersprungen (10553416142): HTTP 404 für https://www.vinted.at/items/10553416142-pull-ralph-lauren-beige-bon-etat-taille-s
+2026-10-27 09:04:27 UTC Bildprüfung verwirft 10553400810 (15: Rippstrick statt Zopfmuster, kein sichtbares Logo, Schalkragen mit V-Anmutung)
+2026-10-27 09:04:32 UTC Bildprüfung verwirft 10553370580 (22: Pullover, aber kein Zopfmuster und kein sichtbares Ralph-Lauren-Logo)
+2026-10-27 09:04:39 UTC Bildprüfung verwirft 10553349715 (55: )
+2026-10-27 09:04:44 UTC Bildprüfung verwirft 10553273066 (45: Marke passt, aber Rippstrick statt Zopfmuster, Logo kaum sichtbar)
+2026-10-27 09:04:54 UTC Bildprüfung verwirft 10553252661 (40: )
+2026-10-27 09:05:00 UTC Ausgeschlossen 10553241306: V-Ausschnitt
+2026-10-27 09:05:10 UTC Bildprüfung verwirft 10553199586 (40: Gleiche Marke und Strick, aber Streifenmuster statt Zopfmuster)
+2026-10-27 09:05:16 UTC Bildprüfung verwirft 10553193923 (55: Marke und Logo passen, aber Waffelstrick statt Zopfmuster)
+2026-10-27 09:05:23 UTC Ausgeschlossen 10553141329: V-Ausschnitt
+2026-10-27 09:05:40 UTC Bildprüfung verwirft 10552997077 (68: Gleiche Marke, Logo und Pullover, aber kein Zopfmuster)
+2026-10-27 09:05:44 UTC Bildprüfung verwirft 10552972117 (40: Ähnlicher Zopfstrick und Stil, aber kein sichtbares Ralph-Lauren-Logo)
+2026-10-27 09:05:48 UTC Ausgeschlossen 10553392280: V-Ausschnitt
+2026-10-27 09:05:54 UTC Ausgeschlossen 10553386111: V-Ausschnitt
+2026-10-27 09:06:01 UTC Bildprüfung 10553324999: unlesbare Antwort:  (stop=max_tokens)
+2026-10-27 09:06:06 UTC Bildprüfung verwirft 10553271484 (10: Gestreiftes Shirt statt Zopfstrick, V-Ausschnitt, Logo nicht eindeutig Ralph Lau)
+2026-10-27 09:06:11 UTC Bildprüfung verwirft 10553244712 (62: Zopfstrick und Pony-Logo passen, Marke und Material weichen ab)
+2026-10-27 09:06:19 UTC Ausgeschlossen 10553205119: V-Ausschnitt
+2026-10-27 09:06:22 UTC Ausgeschlossen 10553197016: V-Ausschnitt
+2026-10-27 09:06:29 UTC Ausgeschlossen 10553179963: V-Ausschnitt
+2026-10-27 09:06:32 UTC Ausgeschlossen 10553085507: V-Ausschnitt
+2026-10-27 09:06:42 UTC Ausgeschlossen 10553065768: V-Ausschnitt
+2026-10-27 09:06:48 UTC Bildprüfung verwirft 10553060722 (35: )
+2026-10-27 09:06:51 UTC Ausgeschlossen 10553014221: V-Ausschnitt
+2026-10-27 09:06:55 UTC Ausgeschlossen 10553002614: V-Ausschnitt
+2026-10-27 09:07:05 UTC Bildprüfung verwirft 10552985038 (72: Gleiche Marke und Logo, aber glatter Strick statt Zopfmuster)
+2026-10-27 09:07:12 UTC Bildprüfung verwirft 10552986450 (25: Pullover, aber kein Zopfmuster, Logo nicht sichtbar)
+2026-10-27 09:07:15 UTC Ausgeschlossen 10552973939: V-Ausschnitt
+2026-10-27 09:07:20 UTC Bildprüfung ok 10552972628 (70: Gleiche Marke, Logo und Pullover-Typ, aber glatter Strick statt Zopfmuster.)
+2026-10-27 09:07:32 UTC Suche „Juicy Couture“
+2026-10-27 09:07:32 UTC Juicy Couture: noch keine Beispiele
+2026-10-27 09:07:32 UTC Suche „Xiaomi 17“
+2026-10-27 09:07:36 UTC Xiaomi 17: 0 neue Kandidaten
+2026-10-27 09:07:36 UTC Suche fertig: 2 neue Deals (3 Suchen)
