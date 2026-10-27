@@ -1,17 +1,2 @@
-2026-10-27 10:02:19 UTC Telegram: 0 neue Nachricht(en)
-2026-10-27 10:02:19 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-27 10:02:19 UTC Suche „RalphLauren“
-2026-10-27 10:02:28 UTC RalphLauren: 126 neu, 63 in der Vorauswahl (Schwelle 0.52)
-2026-10-27 10:02:38 UTC Bildprüfung ok 10553437213 (72: Gleicher Strickpullover-Typ und Zopfmuster, aber anderes Logo und Stil)
-2026-10-27 10:02:45 UTC Bildprüfung verwirft 10553701507 (55: Gleiche Marke und Rundhals, aber glatter Strick statt Zopfmuster)
-2026-10-27 10:03:04 UTC Ausgeschlossen 10553979375: V-Ausschnitt
-2026-10-27 10:03:19 UTC Ausgeschlossen 10553918872: V-Ausschnitt
-2026-10-27 10:03:33 UTC Bildprüfung verwirft 10553831518 (10: Kein Zopfmuster, V-Ausschnitt, Logo unklar; Ausschlusskriterium)
-2026-10-27 10:03:40 UTC Ausgeschlossen 10552783928: V-Ausschnitt
-2026-10-27 10:03:44 UTC Ausgeschlossen 10553731564: V-Ausschnitt
-2026-10-27 10:03:53 UTC Bildprüfung 10553739254: unlesbare Antwort:  (stop=max_tokens)
-2026-10-27 10:04:05 UTC Bildprüfung verwirft 10553702759 (35: Gleiche Marke, aber Sweatshirt statt Zopfstrick, anderes Logo)
-2026-10-27 10:04:08 UTC Ausgeschlossen 10553625679: V-Ausschnitt
-2026-10-27 10:04:24 UTC Bildprüfung ok 10543615653 (88: Gleicher Zopfstrick-Pullover, Rundhals, Ralph-Lauren-Logo, Baumwolle; passt gut)
-2026-10-27 10:04:26 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-10-27 10:04:26 UTC Suche fertig: 3 neue Deals (3 Suchen)
+2026-10-27 10:08:37 UTC Telegram: 0 neue Nachricht(en)
+2026-10-27 10:08:37 UTC Keine Suche fällig
