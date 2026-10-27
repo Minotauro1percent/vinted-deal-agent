@@ -1,8 +1,10 @@
-2026-10-27 00:02:54 UTC Telegram: 2 neue Nachricht(en)
-2026-10-27 00:02:54 UTC Befehl /lernen []
-2026-10-27 00:02:54 UTC Befehl /lernen ['Juicy', 'Couture']
-2026-10-27 00:02:55 UTC Suche „RalphLauren“
-2026-10-27 00:03:04 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.52)
-2026-10-27 00:03:04 UTC Suche „Juicy Couture“
-2026-10-27 00:03:04 UTC Juicy Couture: noch keine Beispiele
-2026-10-27 00:03:04 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-10-27 00:07:16 UTC Telegram: 1 neue Nachricht(en)
+2026-10-27 00:07:16 UTC Befehl /nightmode []
+2026-10-27 00:07:16 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-10-27 00:07:16 UTC Suche „RalphLauren“
+2026-10-27 00:07:24 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.52)
+2026-10-27 00:07:24 UTC Suche „Juicy Couture“
+2026-10-27 00:07:24 UTC Juicy Couture: noch keine Beispiele
+2026-10-27 00:07:24 UTC Suche „Xiaomi 17“
+2026-10-27 00:07:27 UTC Xiaomi 17: 0 neue Kandidaten
+2026-10-27 00:07:27 UTC Suche fertig: 0 neue Deals (3 Suchen)
