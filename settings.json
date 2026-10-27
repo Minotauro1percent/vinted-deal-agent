@@ -1,5 +1,5 @@
 {
-  "enabled": true,
+  "enabled": false,
   "default_interval_min": 60,
   "first_run_max": 3,
   "shipping_est": 5,

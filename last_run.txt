@@ -1,35 +1,12 @@
-2026-10-27 14:03:10 UTC Telegram: 0 neue Nachricht(en)
-2026-10-27 14:03:11 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-10-27 14:03:11 UTC Suche „RalphLauren“
-2026-10-27 14:03:20 UTC RalphLauren: 153 neu, 81 in der Vorauswahl (Schwelle 0.52)
-2026-10-27 14:03:23 UTC Ausgeschlossen 10556538197: V-Ausschnitt
-2026-10-27 14:03:30 UTC Bildprüfung verwirft 10556529204 (15: )
-2026-10-27 14:03:37 UTC Bildprüfung verwirft 10556445928 (15: Kinderschnitt mit Schulterknöpfen, kein Zopfmuster, Logo abweichend)
-2026-10-27 14:03:44 UTC Bildprüfung verwirft 10556843721 (65: )
-2026-10-27 14:03:51 UTC Bildprüfung verwirft 10514159556 (35: Pullover, aber kein Zopfmuster, Polokragen, kein sichtbares Logo)
-2026-10-27 14:04:00 UTC Bildprüfung ok 10553211855 (65: )
-2026-10-27 14:04:06 UTC Bildprüfung verwirft 10557045288 (68: Gleiche Marke und Logo, Rundhals, aber kein Zopfmuster)
-2026-10-27 14:04:16 UTC Bildprüfung verwirft 10557074650 (72: Gleicher Zopfstrick und Schnitt, Logo aber nicht sichtbar)
-2026-10-27 14:04:23 UTC Bildprüfung 10557071729: unlesbare Antwort:  (stop=max_tokens)
-2026-10-27 14:04:30 UTC Ausgeschlossen 10557008170: Kinder
-2026-10-27 14:04:38 UTC Ausgeschlossen 10556962562: V-Ausschnitt
-2026-10-27 14:04:41 UTC Ausgeschlossen 10545554651: V-Ausschnitt
-2026-10-27 14:04:47 UTC Bildprüfung verwirft 10545811691 (35: Marke passt, aber Halbreißverschluss statt Zopfstrick-Rundhals, anderer Stil)
-2026-10-27 14:05:17 UTC Ausgeschlossen 10556688070: V-Ausschnitt
-2026-10-27 14:05:21 UTC Ausgeschlossen 10556722813: Kinder
-2026-10-27 14:05:24 UTC Ausgeschlossen 10556684540: V-Ausschnitt
-2026-10-27 14:05:31 UTC Bildprüfung verwirft 10556629712 (45: Marke und Logo passen, aber kein Zopfmuster und anderer Schnitt)
-2026-10-27 14:05:34 UTC Ausgeschlossen 10556675900: V-Ausschnitt
-2026-10-27 14:05:37 UTC Ausgeschlossen 10555355731: Kinder
-2026-10-27 14:05:43 UTC Bildprüfung verwirft 10556253278 (65: Ralph Lauren Logo und Rundhals passen, aber kein Zopfmuster)
-2026-10-27 14:05:46 UTC Ausgeschlossen 10556651534: Kinder
-2026-10-27 14:05:52 UTC Bildprüfung verwirft 10556599788 (55: Gleiche Marke, aber anderes Strickmuster und kein Pony-Logo)
-2026-10-27 14:05:58 UTC Bildprüfung ok 10556556140 (75: Gleicher Typ und Logo, aber anderes Strickmuster (kein Zopfmuster))
-2026-10-27 14:06:06 UTC Bildprüfung verwirft 10556514518 (50: )
-2026-10-27 14:06:15 UTC Bildprüfung 10556582881: unlesbare Antwort:  (stop=max_tokens)
-2026-10-27 14:06:23 UTC Ausgeschlossen 10556528045: V-Ausschnitt
-2026-10-27 14:06:26 UTC Ausgeschlossen 10556512184: V-Ausschnitt
-2026-10-27 14:06:35 UTC Bildprüfung verwirft 10555063613 (62: Ralph Lauren, Rundhals, Logo passend; aber kein Zopfmuster)
-2026-10-27 14:06:54 UTC Bildprüfung ok 10557100357 (92: Ralph Lauren Zopf-Strick mit Logo, Rundhals, passt zu Beispielen)
-2026-10-27 14:06:56 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-10-27 14:06:56 UTC Suche fertig: 3 neue Deals (3 Suchen)
+2026-10-27 14:11:08 UTC Telegram: 8 neue Nachricht(en)
+2026-10-27 14:11:08 UTC Befehl /stop []
+2026-10-27 14:11:09 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-27 14:11:11 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-27 14:11:11 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-27 14:11:12 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-27 14:11:12 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-27 14:11:12 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-27 14:11:12 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-10-27 14:11:13 UTC Telegram-Fehler editMessageReplyMarkup 400 {"ok":false,"error_code":400,"description":"Bad Request: message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message"}
+2026-10-27 14:11:14 UTC Feedback verarbeitet: ralphlauren
+2026-10-27 14:11:14 UTC Pausiert
