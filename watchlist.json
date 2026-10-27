@@ -361,5 +361,19 @@
       "V-Ausschnitt",
       "Kinder"
     ]
+  },
+  {
+    "id": "juicy-couture-2",
+    "name": "Juicy Couture",
+    "type": "lernen",
+    "category": "kleidung",
+    "active": true,
+    "maxPrice": 0,
+    "minCondition": "Gut",
+    "vision": true,
+    "strictness": 1.0,
+    "schedule": {
+      "mode": "live"
+    }
   }
 ]

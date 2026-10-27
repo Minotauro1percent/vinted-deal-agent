@@ -1,4 +1,8 @@
-2026-10-26 23:58:33 UTC Telegram: 0 neue Nachricht(en)
-2026-10-26 23:58:33 UTC Suche „RalphLauren“
-2026-10-26 23:58:41 UTC RalphLauren: 1 neu, 1 in der Vorauswahl (Schwelle 0.52)
-2026-10-26 23:58:44 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-10-27 00:02:54 UTC Telegram: 2 neue Nachricht(en)
+2026-10-27 00:02:54 UTC Befehl /lernen []
+2026-10-27 00:02:54 UTC Befehl /lernen ['Juicy', 'Couture']
+2026-10-27 00:02:55 UTC Suche „RalphLauren“
+2026-10-27 00:03:04 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.52)
+2026-10-27 00:03:04 UTC Suche „Juicy Couture“
+2026-10-27 00:03:04 UTC Juicy Couture: noch keine Beispiele
+2026-10-27 00:03:04 UTC Suche fertig: 0 neue Deals (2 Suchen)
