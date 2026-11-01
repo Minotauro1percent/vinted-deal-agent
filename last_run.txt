@@ -1,3 +1,13 @@
-2026-11-01 21:34:03 UTC Telegram: 1 neue Nachricht(en)
-2026-11-01 21:34:03 UTC Befehl /status []
-2026-11-01 21:34:04 UTC Pausiert
+2026-11-01 21:38:15 UTC Telegram: 1 neue Nachricht(en)
+2026-11-01 21:38:15 UTC Befehl /start []
+2026-11-01 21:38:16 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-11-01 21:38:16 UTC Suche „RalphLauren“ (sofort)
+2026-11-01 21:38:25 UTC RalphLauren: 162 neu, 80 in der Vorauswahl (Schwelle 0.56)
+2026-11-01 21:38:33 UTC Bildprüfung 10628784790: unlesbare Antwort: {"mer (stop=max_tokens)
+2026-11-01 21:38:36 UTC Ausgeschlossen 10628588327: V-Ausschnitt
+2026-11-01 21:38:43 UTC Bildprüfung 10627944985: unlesbare Antwort: {"merkmal": "Zopfstrick- (stop=max_tokens)
+2026-11-01 21:38:49 UTC Bildprüfung 10627970355: unlesbare Antwort:  (stop=max_tokens)
+2026-11-01 21:38:58 UTC Bildprüfung verwirft 10627243672 (35: )
+2026-11-01 21:39:05 UTC Bildprüfung 10627901035: unlesbare Antwort:  (stop=max_tokens)
+2026-11-01 21:39:05 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-11-01 21:39:05 UTC Suche fertig: 3 neue Deals (3 Suchen)
