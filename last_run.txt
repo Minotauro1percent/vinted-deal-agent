@@ -1,2 +1,3 @@
-2026-11-01 21:29:51 UTC Telegram: 5 neue Nachricht(en)
-2026-11-01 21:29:52 UTC Pausiert
+2026-11-01 21:34:03 UTC Telegram: 1 neue Nachricht(en)
+2026-11-01 21:34:03 UTC Befehl /status []
+2026-11-01 21:34:04 UTC Pausiert
