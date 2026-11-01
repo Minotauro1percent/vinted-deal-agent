@@ -546,7 +546,16 @@ def handle_commands(state, settings, raw_watch, now):
                                             'msg': (cb.get('message') or {}).get('message_id')})
             continue
         msg = u.get('message') or {}
-        if str(msg.get('chat', {}).get('id')) != CHAT_ID:
+        chat = msg.get('chat', {})
+        first = ((msg.get('text') or '').strip().split() or [''])[0].split('@')[0].lower()
+        if first == '/chatid':                         # funktioniert in jedem Chat: zeigt dessen ID (z. B. für eine Gruppe)
+            name = chat.get('title') or chat.get('first_name') or ''
+            tg('sendMessage', {'chat_id': chat.get('id'), 'parse_mode': 'HTML', 'text':
+                f"🆔 Chat-ID{(' von „' + esc(name) + '“') if name else ''}: <code>{chat.get('id')}</code>\n"
+                + ('✅ Das ist der Chat, an den der Agent gerade schickt.' if str(chat.get('id')) == CHAT_ID else
+                   'Um den Agenten hierher schicken zu lassen: diese Zahl (mit Minus) als GitHub-Secret TELEGRAM_CHAT_ID eintragen.')})
+            continue
+        if str(chat.get('id')) != CHAT_ID:
             continue
         text = (msg.get('text') or msg.get('caption') or '').strip()
         links = find_links(text, msg)

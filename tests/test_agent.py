@@ -270,5 +270,13 @@ check(any('Zeitplan täglich 23:00–07:00' in m for m in texts()), '/status zei
 updates.append(msg(52, '/nightmode aus')); NOW[0] += 60; s = run()
 check(st()['night_from'] == '' and not st()['night_mode'], '/nightmode aus löscht auch Zeitplan')
 
+# ------------------------------------------------------------------ 10) /chatid in fremdem Chat (Gruppe)
+updates.append({'update_id': 60, 'message': {'chat': {'id': -100123, 'title': 'Vinted Gruppe', 'type': 'group'}, 'text': '/chatid@VintedBot'}})
+updates.append({'update_id': 61, 'message': {'chat': {'id': -100123, 'title': 'Vinted Gruppe', 'type': 'group'}, 'text': '/stop'}})
+NOW[0] += 60; s = run()
+ids = [p for m, p in sent if m == 'sendMessage' and p.get('chat_id') == -100123]
+check(ids and '-100123' in ids[0]['text'], '/chatid antwortet in der Gruppe mit ihrer ID')
+check(st()['enabled'] is True, 'Andere Befehle aus fremden Chats werden weiter ignoriert')
+
 print('\nALLE TESTS BESTANDEN' if ok else '\nES GIBT FEHLER')
 sys.exit(0 if ok else 1)
