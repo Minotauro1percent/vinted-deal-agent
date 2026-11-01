@@ -80,7 +80,12 @@ class _R:
     def __enter__(self): return self
     def __exit__(self, *a): pass
 for text, want in [('{"score": 82, "grund": "Zopfstrick"}', 82), ('```json\n{"Score": 40, "Grund": "glatt"}\n```', 40),
-                   ('Bewertung: 15 – kein Zopfmuster', 15), ('Ich kann das nicht beurteilen.', None)]:
+                   ('Bewertung: 15 – kein Zopfmuster', 15), ('Ich kann das nicht beurteilen.', None),
+                   ('{"merkmal": "Zopfstrick", "hat_merkmal": false, "score": 75, "grund": "glatter Strick"}', 25),
+                   ('{"merkmal": "Zopfstrick", "hat_merkmal": true, "score": 88, "grund": "Zopfmuster, Rundhals"}', 88),
+                   ('{"score": 72, "grund": "Gleiche Marke und Logo, aber kein Zopfmuster"}', 25),
+                   ('{"score": 70, "grund": "glatter Strick statt Zopfmuster"}', 25),
+                   ('{"score": 85, "grund": "Zopfstrick, Halbzip statt Rundhals"}', 85)]:
     learn.urllib.request.urlopen = lambda req, timeout=40, _t=text: _R(_t)
     sc, why, cost = learn.vision_score('k', ['https://x/a.jpg'], 'https://x/b.jpg', fetch=lambda u: b'\xff\xd8\xff' + b'0' * 10)
     check(sc == want and cost > 0, f'Bildprüfung liest „{text[:25]}…“ → {sc}')

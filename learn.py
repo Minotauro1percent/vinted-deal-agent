@@ -321,11 +321,14 @@ def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, time
     content.append({'type': 'text', 'text': 'Neue Anzeige:'})
     content.append(_img_block(cand_url, fetch))
     content.append({'type': 'text', 'text': (
-        'Wie gut passt die neue Anzeige zu den Beispielen? Achte auf Art des Artikels, Muster/Strick, Schnitt, Logo, '
-        'Material und Stil – nicht auf Farbe, Hintergrund oder Fotoqualität. ' + (f'Gesucht wird: {desc_hint}. ' if desc_hint else '') +
+        'Schritt 1: Was ist das wichtigste gemeinsame Merkmal der Beispiele, das sie von ähnlichen Artikeln unterscheidet '
+        '(z. B. ein bestimmtes Muster, eine Strickart, ein Schnitt)? Marke und Logo zählen hier NICHT. '
+        'Schritt 2: Hat die neue Anzeige genau dieses Merkmal? Ein ähnlicher Artikel ohne dieses Merkmal (z. B. glatter Strick statt Zopfmuster) hat es NICHT. '
+        'Schritt 3: Gesamtwertung, wie gut die neue Anzeige passt (Art des Artikels, Muster/Strick, Schnitt, Logo, Material, Stil – '
+        'nicht Farbe, Hintergrund oder Fotoqualität). ' + (f'Gesucht wird: {desc_hint}. ' if desc_hint else '') +
         (f'Ausschlusskriterien des Nutzers (trifft eines davon auf die neue Anzeige zu, gib höchstens 20 Punkte): '
          f'{"; ".join(avoid)}. ' if avoid else '') +
-        'Antworte nur mit JSON: {"score": 0-100, "grund": "max. 8 Wörter"}')})
+        'Antworte nur mit JSON: {"merkmal": "1–3 Wörter", "hat_merkmal": true/false, "score": 0-100, "grund": "max. 8 Wörter"}')})
     body = {'model': VISION_MODEL, 'max_tokens': 400, 'messages': [{'role': 'user', 'content': content}]}
     req = urllib.request.Request('https://api.anthropic.com/v1/messages', data=json.dumps(body).encode(), headers={
         'x-api-key': api_key, 'anthropic-version': '2023-06-01', 'content-type': 'application/json'})
@@ -345,6 +348,13 @@ def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, time
             data = {k.lower(): v for k, v in json.loads(m.group(0)).items()}
             score = int(float(data.get('score', data.get('punkte', data.get('wert')))))
             why = str(data.get('grund', data.get('reason', '')))
+            has = data.get('hat_merkmal', data.get('has_feature'))
+            if has is False or str(has).lower() in ('false', 'nein', 'no'):
+                # Kernmerkmal fehlt (z. B. kein Zopfmuster) → nie melden, egal wie gut Marke/Logo passen
+                score = min(score, 25)
+                why = f"ohne {data.get('merkmal') or 'Hauptmerkmal'}: {why}"
+            elif has is None and re.search(r'\b(kein(e|en)?|ohne)\s+\S*(muster|strick)|statt\s+\S*(muster|strick)|\banderes?\s+\S*(muster|strick)', why, re.I):
+                score = min(score, 25)                  # Sicherheitsnetz: Begründung sagt selbst, dass das Muster fehlt
         except (ValueError, TypeError, json.JSONDecodeError):
             score = None
     if score is None:
