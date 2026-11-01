@@ -1,2 +1,25 @@
-2026-11-01 22:33:33 UTC Telegram: 0 neue Nachricht(en)
-2026-11-01 22:33:33 UTC Keine Suche fällig
+2026-11-01 22:37:44 UTC Telegram: 0 neue Nachricht(en)
+2026-11-01 22:37:44 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-11-01 22:37:44 UTC Suche „RalphLauren“
+2026-11-01 22:37:54 UTC RalphLauren: 75 neu, 55 in der Vorauswahl (Schwelle 0.56)
+2026-11-01 22:38:01 UTC Bildprüfung 10629202213: unlesbare Antwort:  (stop=max_tokens)
+2026-11-01 22:38:04 UTC Ausgeschlossen 10629360819: V-Ausschnitt
+2026-11-01 22:38:10 UTC Bildprüfung verwirft 10629306868 (25: ohne Zopfstrickmuster: Glatter Strick statt Zopfmuster, sonst passende Marke und)
+2026-11-01 22:38:16 UTC Bildprüfung 10628871281: unlesbare Antwort:  (stop=max_tokens)
+2026-11-01 22:38:20 UTC Ausgeschlossen 10515047603: Kinder
+2026-11-01 22:38:23 UTC Ausgeschlossen 10629347235: V-Ausschnitt
+2026-11-01 22:38:41 UTC Ausgeschlossen 10629132051: V-Ausschnitt
+2026-11-01 22:39:04 UTC Bildprüfung verwirft 10628962139 (25: ohne Zopfmuster-Strick: Marke passt, aber glatter Strick statt Zopfmuster.)
+2026-11-01 22:39:14 UTC Bildprüfung verwirft 10628915694 (10: ohne Zopfmuster: Rippstrick statt Zopfmuster, kein sichtbares Ralph-Lauren-Logo)
+2026-11-01 22:39:20 UTC Bildprüfung verwirft 10628875585 (35: )
+2026-11-01 22:39:24 UTC Ausgeschlossen 10628851441: V-Ausschnitt
+2026-11-01 22:39:29 UTC Bildprüfung verwirft 10625137128 (25: ohne Zopfstrickmuster: Glatter Sweatshirt-Stoff ohne Zopfmuster, aber Ralph Laur)
+2026-11-01 22:39:35 UTC Bildprüfung verwirft 10628834941 (10: ohne Zopfmuster: V-Ausschnitt als Ausschlusskriterium; glatter Strick statt Zopf)
+2026-11-01 22:39:40 UTC Bildprüfung ok 10628911271 (92: )
+2026-11-01 22:39:53 UTC Bildprüfung verwirft 10629355362 (25: ohne Zopfstrick-Muster: Marke passt, aber glatter Strick statt Zopfmuster.)
+2026-11-01 22:39:58 UTC Bildprüfung 10629340786: unlesbare Antwort:  (stop=max_tokens)
+2026-11-01 22:39:58 UTC Suche „Juicy Couture“
+2026-11-01 22:39:58 UTC Juicy Couture: noch keine Beispiele
+2026-11-01 22:39:58 UTC Suche „Xiaomi 17“
+2026-11-01 22:40:02 UTC Xiaomi 17: 73 neue Kandidaten
+2026-11-01 22:40:59 UTC Suche fertig: 1 neue Deals (3 Suchen)
