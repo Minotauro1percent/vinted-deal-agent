@@ -1,8 +1,6 @@
-2026-11-02 20:16:15 UTC Telegram: 0 neue Nachricht(en)
-2026-11-02 20:16:15 UTC Suche „Xiaomi 17“
-2026-11-02 20:16:21 UTC Xiaomi 17: 0 neue Kandidaten
-2026-11-02 20:16:21 UTC Suche „RalphLauren“
-2026-11-02 20:16:30 UTC RalphLauren: 12 neu, 0 in der Vorauswahl (Schwelle 0.58)
-2026-11-02 20:16:30 UTC Suche „Juicy Couture“
-2026-11-02 20:16:30 UTC Juicy Couture: noch keine Beispiele
-2026-11-02 20:16:30 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-02 20:20:43 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 20:20:44 UTC Suche „RalphLauren“
+2026-11-02 20:20:52 UTC RalphLauren: 10 neu, 0 in der Vorauswahl (Schwelle 0.58)
+2026-11-02 20:20:52 UTC Suche „Juicy Couture“
+2026-11-02 20:20:52 UTC Juicy Couture: noch keine Beispiele
+2026-11-02 20:20:52 UTC Suche fertig: 0 neue Deals (2 Suchen)
