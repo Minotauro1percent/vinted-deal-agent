@@ -1,24 +1,2 @@
-2026-11-02 12:26:50 UTC Telegram: 0 neue Nachricht(en)
-2026-11-02 12:26:51 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-11-02 12:26:51 UTC Suche „RalphLauren“
-2026-11-02 12:27:01 UTC RalphLauren: 130 neu, 76 in der Vorauswahl (Schwelle 0.57)
-2026-11-02 12:27:09 UTC Bildprüfung 10634357545: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 12:27:27 UTC Bildprüfung verwirft 10634541274 (25: ohne Zopfmuster: Marke passt, aber Waffelstrick statt Zopfmuster, Wappenlogo)
-2026-11-02 12:27:33 UTC Ausgeschlossen 10634496286: V-Ausschnitt
-2026-11-02 12:27:40 UTC Bildprüfung 10634423944: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 12:27:47 UTC Bildprüfung 10634372730: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkmal (stop=max_tokens)
-2026-11-02 12:27:53 UTC Ausgeschlossen 10634271426: V-Ausschnitt
-2026-11-02 12:27:57 UTC Ausgeschlossen 10634267204: V-Ausschnitt
-2026-11-02 12:28:04 UTC Bildprüfung ok 10634259023 (88: )
-2026-11-02 12:28:11 UTC Ausgeschlossen 10634215415: V-Ausschnitt
-2026-11-02 12:28:15 UTC Ausgeschlossen 10634205337: V-Ausschnitt
-2026-11-02 12:28:17 UTC Ausgeschlossen 10634168978: V-Ausschnitt
-2026-11-02 12:28:24 UTC Bildprüfung 10634192534: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 12:28:30 UTC Bildprüfung verwirft 10634165250 (40: )
-2026-11-02 12:28:34 UTC Ausgeschlossen 10634160031: V-Ausschnitt
-2026-11-02 12:28:41 UTC Bildprüfung verwirft 10634140712 (25: ohne Zopfstrick-Muster: Ralph-Lauren-Pullover mit Rundhals, aber glatter Strick )
-2026-11-02 12:28:41 UTC Suche „Juicy Couture“
-2026-11-02 12:28:41 UTC Juicy Couture: noch keine Beispiele
-2026-11-02 12:28:41 UTC Suche „Xiaomi 17“
-2026-11-02 12:28:46 UTC Xiaomi 17: 0 neue Kandidaten
-2026-11-02 12:28:46 UTC Suche fertig: 1 neue Deals (3 Suchen)
+2026-11-02 12:32:58 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 12:32:58 UTC Keine Suche fällig
