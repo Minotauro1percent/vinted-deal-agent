@@ -1,25 +1,2 @@
-2026-11-02 11:28:47 UTC Telegram: 0 neue Nachricht(en)
-2026-11-02 11:28:47 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-11-02 11:28:47 UTC Suche „RalphLauren“
-2026-11-02 11:28:55 UTC RalphLauren: 124 neu, 71 in der Vorauswahl (Schwelle 0.57)
-2026-11-02 11:29:02 UTC Bildprüfung ok 10633566742 (80: Zopfstrick und Pullover-Schnitt passen, Lauren-Label, kein V-Ausschnitt)
-2026-11-02 11:29:14 UTC Ausgeschlossen 10633733501: V-Ausschnitt
-2026-11-02 11:29:18 UTC Ausgeschlossen 10633722582: V-Ausschnitt
-2026-11-02 11:29:26 UTC Ausgeschlossen 10633659411: V-Ausschnitt
-2026-11-02 11:29:31 UTC Bildprüfung 10633641272: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 11:29:36 UTC Bildprüfung verwirft 10633620251 (10: )
-2026-11-02 11:29:41 UTC Bildprüfung verwirft 10633589789 (25: ohne Zopfmuster-Strick: Marke passt, aber glatter Strick statt Zopfmuster)
-2026-11-02 11:29:47 UTC Bildprüfung 10633596249: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 11:30:03 UTC Bildprüfung verwirft 10633491857 (25: ohne Zopfmuster-Strick: Glatter Sweatstoff statt Zopfstrick, aber richtige Marke)
-2026-11-02 11:30:09 UTC Bildprüfung verwirft 10633418137 (68: Zopfstrick und Rundhals passen, Logo nicht sichtbar, goldene Knöpfe)
-2026-11-02 11:30:23 UTC Bildprüfung 10633347304: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 11:30:48 UTC Bildprüfung verwirft 10633214349 (25: ohne Zopfmuster (Zopfstrick): Glatter Strick ohne Zopfmuster, aber Lauren-Marke )
-2026-11-02 11:30:54 UTC Bildprüfung verwirft 10633208222 (25: ohne Zopfstrick-Muster: Sweatshirt mit Reißverschluss, glatter Stoff, kein Zopfm)
-2026-11-02 11:30:58 UTC Ausgeschlossen 10633226510: V-Ausschnitt
-2026-11-02 11:31:04 UTC Bildprüfung verwirft 10633141136 (25: ohne Zopfmuster-Strick: Sweatshirt statt Zopfstrick, aber gleiche Marke Ralph La)
-2026-11-02 11:31:13 UTC Bildprüfung 10633799187: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 11:31:13 UTC Suche „Juicy Couture“
-2026-11-02 11:31:13 UTC Juicy Couture: noch keine Beispiele
-2026-11-02 11:31:13 UTC Suche „Xiaomi 17“
-2026-11-02 11:31:17 UTC Xiaomi 17: 2 neue Kandidaten
-2026-11-02 11:31:17 UTC Suche fertig: 2 neue Deals (3 Suchen)
+2026-11-02 11:35:29 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 11:35:29 UTC Keine Suche fällig
