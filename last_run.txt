@@ -1,2 +1,5 @@
-2026-11-02 23:46:57 UTC Telegram: 0 neue Nachricht(en)
-2026-11-02 23:46:57 UTC Keine Suche fällig
+2026-11-02 23:51:08 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 23:51:08 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-11-02 23:51:08 UTC Suche „RalphLauren“
+2026-11-02 23:51:09 UTC Vinted blockiert: HTTP 403
+2026-11-02 23:51:09 UTC Suche fertig: 0 neue Deals (3 Suchen)
