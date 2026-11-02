@@ -1,2 +1,27 @@
-2026-11-02 14:17:46 UTC Telegram: 0 neue Nachricht(en)
-2026-11-02 14:17:47 UTC Keine Suche fällig
+2026-11-02 14:22:00 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 14:22:00 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-11-02 14:22:00 UTC Suche „RalphLauren“
+2026-11-02 14:22:08 UTC RalphLauren: 138 neu, 66 in der Vorauswahl (Schwelle 0.57)
+2026-11-02 14:22:11 UTC Ausgeschlossen 10636090804: V-Ausschnitt
+2026-11-02 14:22:15 UTC Ausgeschlossen 10635561765: V-Ausschnitt
+2026-11-02 14:22:28 UTC Bildprüfung 10636113705: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", " (stop=max_tokens)
+2026-11-02 14:22:35 UTC Bildprüfung verwirft 10636085243 (25: ohne Zopfmuster: Passendes Logo und Pullover, aber kein Zopfmuster, sondern Stru)
+2026-11-02 14:22:44 UTC Bildprüfung verwirft 10636074032 (25: )
+2026-11-02 14:22:56 UTC Bildprüfung verwirft 10635979958 (25: ohne Zopfmuster-Strick: Marke und Logo passen, aber glatter Strick statt Zopfmus)
+2026-11-02 14:23:09 UTC Bildprüfung verwirft 10635783311 (5: ohne Zopfstrick-Muster: Glatter Stoff ohne Zopfmuster, vermutlich V-Ausschnitt)
+2026-11-02 14:23:15 UTC Bildprüfung verwirft 10635760107 (25: ohne Zopfmuster-Strick: Glatter Sweatshirt-Stoff statt Zopfmuster, aber Marke pa)
+2026-11-02 14:23:21 UTC Bildprüfung 10635758651: unlesbare Antwort:  (stop=max_tokens)
+2026-11-02 14:23:28 UTC Bildprüfung verwirft 10635675135 (25: ohne Zopfmuster: Glatter Feinstrick statt Zopfmuster, sonst Ralph Lauren Rundhal)
+2026-11-02 14:23:33 UTC Bildprüfung verwirft 10635612717 (25: ohne Zopfmuster (Zopfstrick): Feiner, glatter Strick ohne Zopfmuster; Logo passt)
+2026-11-02 14:23:41 UTC Ausgeschlossen 10635613782: V-Ausschnitt
+2026-11-02 14:23:45 UTC Ausgeschlossen 10635556736: Kinder
+2026-11-02 14:23:51 UTC Bildprüfung verwirft 10635516475 (25: ohne Zopfmuster: Glatter Strick statt Zopfmuster, sonst Marke und Rundhals passe)
+2026-11-02 14:23:54 UTC Ausgeschlossen 10635465602: Kinder
+2026-11-02 14:23:58 UTC Ausgeschlossen 10635327967: V-Ausschnitt
+2026-11-02 14:24:04 UTC Ausgeschlossen 10636147115: Kinder
+2026-11-02 14:24:10 UTC Bildprüfung verwirft 10636130967 (25: ohne Zopfstrick: Pullover mit Logo, aber Waffelstrick statt Zopfmuster)
+2026-11-02 14:24:10 UTC Suche „Juicy Couture“
+2026-11-02 14:24:10 UTC Juicy Couture: noch keine Beispiele
+2026-11-02 14:24:10 UTC Suche „Xiaomi 17“
+2026-11-02 14:24:15 UTC Xiaomi 17: 3 neue Kandidaten
+2026-11-02 14:24:17 UTC Suche fertig: 0 neue Deals (3 Suchen)
