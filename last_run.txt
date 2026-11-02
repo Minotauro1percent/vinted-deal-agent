@@ -1,25 +1,18 @@
-2026-11-02 17:23:51 UTC Telegram: 2 neue Nachricht(en)
-2026-11-02 17:23:51 UTC Befehl /nightmode []
-2026-11-02 17:23:51 UTC Befehl /nightmode ['aus']
-2026-11-02 17:23:52 UTC Suche „RalphLauren“
-2026-11-02 17:24:03 UTC RalphLauren: 38 neu, 22 in der Vorauswahl (Schwelle 0.58)
-2026-11-02 17:24:07 UTC Ausgeschlossen 10638929125: V-Ausschnitt
-2026-11-02 17:24:11 UTC Ausgeschlossen 10627718376: V-Ausschnitt
-2026-11-02 17:24:17 UTC Bildprüfung 10638902508: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 17:24:22 UTC Bildprüfung verwirft 10638911916 (35: )
-2026-11-02 17:24:28 UTC Bildprüfung 10638913768: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 17:24:32 UTC Ausgeschlossen 10638905546: V-Ausschnitt
-2026-11-02 17:24:36 UTC Ausgeschlossen 10638535835: V-Ausschnitt
-2026-11-02 17:24:40 UTC Ausgeschlossen 10638886787: V-Ausschnitt
-2026-11-02 17:24:48 UTC Bildprüfung 10638883530: unlesbare Antwort:  (stop=max_tokens)
-2026-11-02 17:24:55 UTC Ausgeschlossen 10638844550: V-Ausschnitt
-2026-11-02 17:25:05 UTC Bildprüfung 10638920355: unlesbare Antwort: {"merkmal": " (stop=max_tokens)
-2026-11-02 17:25:10 UTC Bildprüfung 10638893144: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_ (stop=max_tokens)
-2026-11-02 17:25:14 UTC Ausgeschlossen 10638878311: V-Ausschnitt
-2026-11-02 17:25:20 UTC Bildprüfung verwirft 10638871812 (25: ohne Zopfmuster-Strick: Glatter Strick mit Schalkragen, kein Zopfmuster; Marke p)
-2026-11-02 17:25:31 UTC Ausgeschlossen 10638850504: V-Ausschnitt
-2026-11-02 17:25:41 UTC Bildprüfung verwirft 10638780093 (25: ohne Zopfmuster: Rippstrick statt Zopfmuster; Marke und Pullover-Typ passen.)
-2026-11-02 17:25:45 UTC Ausgeschlossen 10638578684: V-Ausschnitt
-2026-11-02 17:25:45 UTC Suche „Juicy Couture“
-2026-11-02 17:25:45 UTC Juicy Couture: noch keine Beispiele
-2026-11-02 17:25:45 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-02 17:30:07 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 17:30:07 UTC Suche „RalphLauren“
+2026-11-02 17:30:17 UTC RalphLauren: 28 neu, 15 in der Vorauswahl (Schwelle 0.57)
+2026-11-02 17:30:24 UTC Bildprüfung verwirft 10637534786 (20: ohne Zopfmuster (Cable Knit): Pullover mit Rippstrick statt Zopfmuster, kein Log)
+2026-11-02 17:30:27 UTC Ausgeschlossen 10638965553: Kinder
+2026-11-02 17:30:30 UTC Ausgeschlossen 10639016040: V-Ausschnitt
+2026-11-02 17:30:36 UTC Bildprüfung verwirft 10638994355 (70: Zopfstrick und Rundhals passen, Logo nicht sichtbar)
+2026-11-02 17:30:39 UTC Ausgeschlossen 10638979662: V-Ausschnitt
+2026-11-02 17:30:45 UTC Bildprüfung verwirft 10430613916 (25: ohne Zopfmuster: Glatter Strick statt Zopfmuster; Marke und Logo passen.)
+2026-11-02 17:30:51 UTC Bildprüfung ok 10638964179 (85: Zopfmuster vorhanden, Rundhals, Stil passt; Logo abweichend)
+2026-11-02 17:30:58 UTC Ausgeschlossen 10638948642: V-Ausschnitt
+2026-11-02 17:31:04 UTC Ausgeschlossen 10639031985: V-Ausschnitt
+2026-11-02 17:31:07 UTC Ausgeschlossen 10639027351: V-Ausschnitt
+2026-11-02 17:31:17 UTC Bildprüfung verwirft 10638986461 (30: )
+2026-11-02 17:31:23 UTC Bildprüfung verwirft 10638976669 (25: ohne Zopfmuster-Strick: Ralph-Lauren-Logo vorhanden, aber glatter Strick statt Z)
+2026-11-02 17:31:23 UTC Suche „Juicy Couture“
+2026-11-02 17:31:23 UTC Juicy Couture: noch keine Beispiele
+2026-11-02 17:31:23 UTC Suche fertig: 1 neue Deals (2 Suchen)
