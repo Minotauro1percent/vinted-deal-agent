@@ -1,17 +1,11 @@
-2026-11-02 17:50:34 UTC Telegram: 0 neue Nachricht(en)
-2026-11-02 17:50:34 UTC Suche „RalphLauren“
-2026-11-02 17:50:42 UTC RalphLauren: 17 neu, 14 in der Vorauswahl (Schwelle 0.58)
-2026-11-02 17:50:46 UTC Ausgeschlossen 10639341094: Kinder
-2026-11-02 17:50:48 UTC Ausgeschlossen 10639335195: V-Ausschnitt
-2026-11-02 17:50:52 UTC Ausgeschlossen 10639318041: V-Ausschnitt
-2026-11-02 17:50:54 UTC Ausgeschlossen 10639315592: V-Ausschnitt
-2026-11-02 17:51:04 UTC Bildprüfung verwirft 10639343215 (12: )
-2026-11-02 17:51:10 UTC Bildprüfung verwirft 10639332241 (25: ohne Zopfmuster-Strick: Marke passt, aber Sweatshirt statt Zopfstrick, anderes M)
-2026-11-02 17:51:13 UTC Ausgeschlossen 10639328160: V-Ausschnitt
-2026-11-02 17:51:19 UTC Ausgeschlossen 10639301496: V-Ausschnitt
-2026-11-02 17:51:26 UTC Bildprüfung verwirft 10639297887 (20: ohne Zopfmuster: Querrippenstrick statt Zopfmuster, lockerer Bootausschnitt, pas)
-2026-11-02 17:51:31 UTC Bildprüfung verwirft 10639286332 (25: ohne Zopfmuster: Ralph Lauren Pullover, aber glatter Strick ohne Zopfmuster)
-2026-11-02 17:51:40 UTC Bildprüfung verwirft 10639251657 (25: ohne Zopfmuster-Strick: Glatter Sweatshirt-Stoff statt Zopfstrick; Marke und Log)
-2026-11-02 17:51:40 UTC Suche „Juicy Couture“
-2026-11-02 17:51:40 UTC Juicy Couture: noch keine Beispiele
-2026-11-02 17:51:40 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-02 17:55:59 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 17:55:59 UTC Suche „RalphLauren“
+2026-11-02 17:56:08 UTC RalphLauren: 14 neu, 10 in der Vorauswahl (Schwelle 0.58)
+2026-11-02 17:56:21 UTC Bildprüfung verwirft 10639378432 (25: ohne Zopfstrick-Muster: Marke und Rundhals passen, aber glatter Strick statt Zop)
+2026-11-02 17:56:30 UTC Bildprüfung verwirft 10639345297 (12: )
+2026-11-02 17:56:34 UTC Ausgeschlossen 10639395238: V-Ausschnitt
+2026-11-02 17:56:37 UTC Bildprüfung: Tageslimit erreicht – bis Mitternacht ohne Bildprüfung
+2026-11-02 17:56:40 UTC Ausgeschlossen 10639391554: V-Ausschnitt
+2026-11-02 17:56:46 UTC Suche „Juicy Couture“
+2026-11-02 17:56:46 UTC Juicy Couture: noch keine Beispiele
+2026-11-02 17:56:46 UTC Suche fertig: 0 neue Deals (2 Suchen)
