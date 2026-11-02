@@ -1,12 +1,17 @@
-2026-11-02 17:45:24 UTC Telegram: 0 neue Nachricht(en)
-2026-11-02 17:45:25 UTC Suche „RalphLauren“
-2026-11-02 17:45:35 UTC RalphLauren: 16 neu, 9 in der Vorauswahl (Schwelle 0.58)
-2026-11-02 17:45:41 UTC Bildprüfung ok 10639206025 (92: Zopfstrick, Rundhals, Polo-Logo, Erwachsenenschnitt; passt sehr gut.)
-2026-11-02 17:45:53 UTC Bildprüfung verwirft 10638716072 (25: ohne Zopfmuster (Kabelstrick): Glatter Feinstrick statt Zopfmuster; sonst Pullov)
-2026-11-02 17:45:56 UTC Ausgeschlossen 10639205428: V-Ausschnitt
-2026-11-02 17:46:03 UTC Bildprüfung verwirft 10639197481 (45: )
-2026-11-02 17:46:14 UTC Ausgeschlossen 10639239454: V-Ausschnitt
-2026-11-02 17:46:21 UTC Bildprüfung verwirft 10639224886 (12: )
-2026-11-02 17:46:21 UTC Suche „Juicy Couture“
-2026-11-02 17:46:21 UTC Juicy Couture: noch keine Beispiele
-2026-11-02 17:46:21 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-02 17:50:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-02 17:50:34 UTC Suche „RalphLauren“
+2026-11-02 17:50:42 UTC RalphLauren: 17 neu, 14 in der Vorauswahl (Schwelle 0.58)
+2026-11-02 17:50:46 UTC Ausgeschlossen 10639341094: Kinder
+2026-11-02 17:50:48 UTC Ausgeschlossen 10639335195: V-Ausschnitt
+2026-11-02 17:50:52 UTC Ausgeschlossen 10639318041: V-Ausschnitt
+2026-11-02 17:50:54 UTC Ausgeschlossen 10639315592: V-Ausschnitt
+2026-11-02 17:51:04 UTC Bildprüfung verwirft 10639343215 (12: )
+2026-11-02 17:51:10 UTC Bildprüfung verwirft 10639332241 (25: ohne Zopfmuster-Strick: Marke passt, aber Sweatshirt statt Zopfstrick, anderes M)
+2026-11-02 17:51:13 UTC Ausgeschlossen 10639328160: V-Ausschnitt
+2026-11-02 17:51:19 UTC Ausgeschlossen 10639301496: V-Ausschnitt
+2026-11-02 17:51:26 UTC Bildprüfung verwirft 10639297887 (20: ohne Zopfmuster: Querrippenstrick statt Zopfmuster, lockerer Bootausschnitt, pas)
+2026-11-02 17:51:31 UTC Bildprüfung verwirft 10639286332 (25: ohne Zopfmuster: Ralph Lauren Pullover, aber glatter Strick ohne Zopfmuster)
+2026-11-02 17:51:40 UTC Bildprüfung verwirft 10639251657 (25: ohne Zopfmuster-Strick: Glatter Sweatshirt-Stoff statt Zopfstrick; Marke und Log)
+2026-11-02 17:51:40 UTC Suche „Juicy Couture“
+2026-11-02 17:51:40 UTC Juicy Couture: noch keine Beispiele
+2026-11-02 17:51:40 UTC Suche fertig: 0 neue Deals (2 Suchen)
