@@ -1,10 +1,11 @@
-2026-11-03 12:21:08 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 12:21:08 UTC Suche „RalphLauren“
-2026-11-03 12:21:16 UTC RalphLauren: 7 neu, 4 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 12:21:22 UTC Bildprüfung 10648234986: unlesbare Antwort:  (stop=max_tokens)
-2026-11-03 12:21:26 UTC Ausgeschlossen 10648237294: Kinder
-2026-11-03 12:21:28 UTC Ausgeschlossen 10648197674: V-Ausschnitt
-2026-11-03 12:21:32 UTC Ausgeschlossen 10648210933: V-Ausschnitt
-2026-11-03 12:21:32 UTC Suche „Juicy Couture“
-2026-11-03 12:21:32 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 12:21:32 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-03 12:25:43 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 12:25:44 UTC Suche „RalphLauren“
+2026-11-03 12:25:54 UTC RalphLauren: 10 neu, 8 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 12:26:04 UTC Ausgeschlossen 10648255546: V-Ausschnitt
+2026-11-03 12:26:12 UTC Ausgeschlossen 10648291137: V-Ausschnitt
+2026-11-03 12:26:19 UTC Bildprüfung verwirft 10648275966 (25: ohne Zopfmuster: Glatter Strick ohne Zopfmuster, Logo passt nicht zu Ralph Laure)
+2026-11-03 12:26:24 UTC Bildprüfung verwirft 10648219253 (15: )
+2026-11-03 12:26:28 UTC Ausgeschlossen 10648233717: V-Ausschnitt
+2026-11-03 12:26:28 UTC Suche „Juicy Couture“
+2026-11-03 12:26:28 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 12:26:28 UTC Suche fertig: 0 neue Deals (2 Suchen)
