@@ -1,12 +1,8 @@
-2026-11-03 11:06:52 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 11:06:52 UTC Suche „RalphLauren“
-2026-11-03 11:07:00 UTC RalphLauren: 15 neu, 9 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 11:07:05 UTC Bildprüfung verwirft 10647370593 (15: ohne Zopfmuster-Strick: Rippstrick mit Stehkragen und Reißverschluss statt Zopfm)
-2026-11-03 11:07:08 UTC Ausgeschlossen 10647367387: V-Ausschnitt
-2026-11-03 11:07:14 UTC Bildprüfung verwirft 10647353950 (35: )
-2026-11-03 11:07:20 UTC Bildprüfung verwirft 10647345076 (35: )
-2026-11-03 11:07:25 UTC Bildprüfung 10647338762: unlesbare Antwort:  (stop=max_tokens)
-2026-11-03 11:07:41 UTC Bildprüfung ok 10647317858 (92: Zopfmuster, Rundhals und Polo-Logo passen; kein Ausschlusskriterium erkennbar.)
-2026-11-03 11:07:42 UTC Suche „Juicy Couture“
-2026-11-03 11:07:42 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 11:07:42 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-03 11:11:53 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 11:11:53 UTC Suche „RalphLauren“
+2026-11-03 11:12:01 UTC RalphLauren: 7 neu, 4 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 11:12:11 UTC Bildprüfung 10647390692: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick (stop=max_tokens)
+2026-11-03 11:12:20 UTC Bildprüfung verwirft 10647419716 (15: )
+2026-11-03 11:12:20 UTC Suche „Juicy Couture“
+2026-11-03 11:12:20 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 11:12:20 UTC Suche fertig: 0 neue Deals (2 Suchen)
