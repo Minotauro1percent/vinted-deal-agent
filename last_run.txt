@@ -1,12 +1,10 @@
-2026-11-03 10:41:44 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 10:41:44 UTC Suche „RalphLauren“
-2026-11-03 10:41:53 UTC RalphLauren: 11 neu, 8 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 10:41:56 UTC Ausgeschlossen 10647073878: V-Ausschnitt
-2026-11-03 10:42:01 UTC Ausgeschlossen 10647072761: V-Ausschnitt
-2026-11-03 10:42:09 UTC Ausgeschlossen 10647039197: Kinder
-2026-11-03 10:42:15 UTC Bildprüfung 10647050050: unlesbare Antwort: {"merkmal": "Zopfstr (stop=max_tokens)
-2026-11-03 10:42:18 UTC Ausgeschlossen 10647046024: V-Ausschnitt
-2026-11-03 10:42:26 UTC Ausgeschlossen 10647036803: V-Ausschnitt
-2026-11-03 10:42:26 UTC Suche „Juicy Couture“
-2026-11-03 10:42:26 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 10:42:26 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-03 10:46:38 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 10:46:38 UTC Suche „RalphLauren“
+2026-11-03 10:46:47 UTC RalphLauren: 19 neu, 9 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 10:46:57 UTC Bildprüfung 10647090569: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 10:47:09 UTC Bildprüfung verwirft 10647131536 (25: ohne Zopfmuster-Strick: Pullover mit Logo, aber Norwegermuster statt Zopfstrick)
+2026-11-03 10:47:13 UTC Ausgeschlossen 10647127960: V-Ausschnitt
+2026-11-03 10:47:22 UTC Ausgeschlossen 10647068724: V-Ausschnitt
+2026-11-03 10:47:22 UTC Suche „Juicy Couture“
+2026-11-03 10:47:22 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 10:47:22 UTC Suche fertig: 0 neue Deals (2 Suchen)
