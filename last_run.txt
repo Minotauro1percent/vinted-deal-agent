@@ -1,13 +1,15 @@
-2026-11-03 10:51:34 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 10:51:34 UTC Suche „RalphLauren“
-2026-11-03 10:51:44 UTC RalphLauren: 20 neu, 13 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 10:51:47 UTC Ausgeschlossen 10647140071: V-Ausschnitt
-2026-11-03 10:51:59 UTC Bildprüfung verwirft 10647158972 (10: ohne Zopfmuster-Strick: Glatter Strick statt Zopfmuster, anderes Wappen-Logo, an)
-2026-11-03 10:52:08 UTC Ausgeschlossen 10647194929: V-Ausschnitt
-2026-11-03 10:52:13 UTC Bildprüfung verwirft 10647195009 (10: ohne Zopfmuster: Glatter Strick statt Zopfmuster; V-Ausschnitt ausgeschlossen.)
-2026-11-03 10:52:18 UTC Bildprüfung verwirft 10647173824 (25: ohne Zopfmuster-Strick: Waffelstrick statt Zopfmuster; gleiche Marke und Rundhal)
-2026-11-03 10:52:26 UTC Bildprüfung ok 10647156531 (85: Zopfstrick, Rundhals, Pony-Logo; Schnitt nicht eindeutig erkennbar)
-2026-11-03 10:52:33 UTC Ausgeschlossen 10647155317: V-Ausschnitt
-2026-11-03 10:52:33 UTC Suche „Juicy Couture“
-2026-11-03 10:52:33 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 10:52:33 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-03 10:56:44 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 10:56:44 UTC Suche „RalphLauren“
+2026-11-03 10:56:53 UTC RalphLauren: 18 neu, 12 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 10:57:00 UTC Bildprüfung verwirft 10647258404 (25: ohne Zopfmuster: Marke passt, aber glatter Strick statt Zopfmuster)
+2026-11-03 10:57:03 UTC Ausgeschlossen 10647256260: V-Ausschnitt
+2026-11-03 10:57:08 UTC Ausgeschlossen 10647238274: V-Ausschnitt
+2026-11-03 10:57:14 UTC Bildprüfung verwirft 10647222685 (25: )
+2026-11-03 10:57:26 UTC Bildprüfung verwirft 10647252024 (25: ohne Zopfmuster-Strick: Glatter Sweatstoff statt Zopfstrick, aber Ralph-Lauren-L)
+2026-11-03 10:57:29 UTC Ausgeschlossen 10647240892: V-Ausschnitt
+2026-11-03 10:57:34 UTC Bildprüfung verwirft 10647238764 (25: ohne Zopfmuster (Strick): Gleicher Pullovertyp und Marke, aber kein Zopfmuster)
+2026-11-03 10:57:40 UTC Bildprüfung verwirft 10647225828 (25: ohne Zopfstrick-Muster: Ralph Lauren Pullover, Rundhals, aber glatter Strick ohn)
+2026-11-03 10:57:46 UTC Bildprüfung 10647208869: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkmal": true, "score":  (stop=max_tokens)
+2026-11-03 10:57:46 UTC Suche „Juicy Couture“
+2026-11-03 10:57:46 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 10:57:46 UTC Suche fertig: 0 neue Deals (2 Suchen)
