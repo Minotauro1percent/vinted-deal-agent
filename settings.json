@@ -10,7 +10,7 @@
   },
   "vision_daily_max": 150,
   "vision_min": 60,
-  "night_mode": false,
+  "night_mode": true,
   "night_max": 3,
   "night_from": "",
   "night_to": ""
