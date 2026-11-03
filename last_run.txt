@@ -1,10 +1,2 @@
-2026-11-03 02:50:18 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 02:50:18 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
-2026-11-03 02:50:18 UTC Suche „RalphLauren“
-2026-11-03 02:50:26 UTC RalphLauren: 3 neu, 3 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 02:50:39 UTC Bildprüfung ok 10644327297 (88: Weißer Zopfstrickpullover, Rundhals, Logo; Art und Muster passen.)
-2026-11-03 02:50:39 UTC Suche „Juicy Couture“
-2026-11-03 02:50:39 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 02:50:39 UTC Suche „Xiaomi 17“
-2026-11-03 02:50:45 UTC Xiaomi 17: 1 neue Kandidaten
-2026-11-03 02:50:45 UTC Suche fertig: 1 neue Deals (3 Suchen)
+2026-11-03 02:54:55 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 02:54:55 UTC Keine Suche fällig
