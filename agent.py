@@ -42,7 +42,7 @@ UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
       'Chrome/129.0.0.0 Safari/537.36')
 
 DEFAULT_SETTINGS = {'enabled': True, 'default_interval_min': 60, 'first_run_max': 3, 'shipping_est': 5.0,
-                    'max_per_run': 15, 'force_all': 0, 'force': {}, 'vision_daily_max': 150, 'vision_min': 60,
+                    'max_per_run': 15, 'force_all': 0, 'force': {}, 'vision_daily_max': 150, 'vision_min': 60, 'learn_max_per_run': 5,
                     'night_mode': False, 'night_max': 3, 'night_from': '', 'night_to': ''}
 
 RUN_LOG = []
@@ -329,7 +329,7 @@ def next_slot(sched, after):
 def interval_min(w, settings):
     s = w['schedule']
     if s.get('mode') == 'live':
-        return 0
+        return 10                                          # Lern-Suchen: alle ~10 Min.
     if s.get('mode') == 'interval':
         return max(15, int(fnum(s.get('everyMin'), 60)))
     return max(15, int(fnum(settings.get('default_interval_min'), 60)))
@@ -359,7 +359,7 @@ def schedule_text(w, settings):
         times = ', '.join(t for t in s.get('times', []) if parse_hhmm(t))
         return f'{dtxt} {times}'.strip() or 'kein Termin'
     if s.get('mode') == 'live':
-        return 'laufend (alle ~5 Min.)'
+        return 'laufend (alle ~10 Min.)'
     m = interval_min(w, settings)
     txt = f'alle {m} Min.' if m < 60 or m % 60 else ('stündlich' if m == 60 else f'alle {m // 60} Std.')
     return txt + (' (Standard)' if s.get('mode') != 'interval' else '')
@@ -945,6 +945,7 @@ def process_callbacks(state, raw_watch, profs):
         e['examples'] = [x for x in e['examples'] if x['id'] != iid]
         e['negatives'] = [x for x in e['negatives'] if x['id'] != iid]
         (e['examples'] if vote == 'u' else e['negatives']).append({**f, 'source': 'telegram', 'added': int(time.time())})
+        learn.add_outcome(e, f, vote == 'u', weight=2)
         changed.add(sid)
         label = '👍 gemerkt – mehr davon' if vote == 'u' else '👎 gemerkt – weniger davon'
         tg('answerCallbackQuery', {'callback_query_id': cb['id'], 'text': label})
@@ -968,7 +969,7 @@ def fetch_bytes(url):
     return _img_cache[url]
 
 def vision_ok(state, settings):
-    """Darf jetzt ein Bild geprüft werden? Tageslimit + gleichmäßig über den Tag verteilt (max. ~1/16 pro Stunde)."""
+    """Darf jetzt ein Bild geprüft werden? (Tageslimit; die Verteilung über den Tag macht vision_allowance pro Lauf.)"""
     v = state['vision']
     t = datetime.now(TZ)
     today, hour = t.strftime('%Y-%m-%d'), t.strftime('%Y-%m-%d %H')
@@ -977,12 +978,19 @@ def vision_ok(state, settings):
     if v.get('hour') != hour:
         v.update(hour=hour, hn=0)
     daily = int(fnum(settings.get('vision_daily_max'), 150))
-    per_hour = max(5, -(-daily // 16))
-    ok = bool(ANTHROPIC_KEY) and v['n'] < daily and v.get('hn', 0) < per_hour
+    ok = bool(ANTHROPIC_KEY) and v['n'] < daily
     if ANTHROPIC_KEY and v['n'] >= daily and not v.get('limit_hit'):
         v['limit_hit'] = True
         log('Bildprüfung: Tageslimit erreicht – Lern-Suchen mit Bildprüfung pausieren bis Mitternacht')
     return ok
+
+def vision_allowance(state, settings):
+    """Wie viele Bildprüfungen darf dieser Lauf? Rest bis Mitternacht ÷ verbleibende 10-Min.-Runden, doppelter Puffer."""
+    v = state['vision']
+    left = max(0, int(fnum(settings.get('vision_daily_max'), 150)) - v.get('n', 0))
+    t = datetime.now(TZ)
+    runs_left = max(1, ((24 * 60) - (t.hour * 60 + t.minute)) // 10)
+    return min(left, max(4, -(-2 * left // runs_left)))
 
 def vision_count(state, cost):
     v = state['vision']
@@ -1017,14 +1025,17 @@ def run_learned(w, state, settings, seen, first_done, profs):
     if not w['maxPrice']:
         log(f"{w['name']}: kein Höchstpreis gesetzt"); return 0
     first = w['id'] not in first_done
-    cap = night_cap(int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15)), state)
+    cap = night_cap(int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('learn_max_per_run'), 5)), state)
     shipping = fnum(settings.get('shipping_est'), 5.0)
     thr = prof['threshold']
+    if learn.seed_outcomes(entry):
+        log(f"{w['name']}: Lernmodell mit {len(entry['vlog'])} 👍/👎-Urteilen gestartet")
+    model = learn.outcome_model(entry)
     needs_eye = w['vision'] and bool(ANTHROPIC_KEY)          # mit Schlüssel: ohne Bildprüfung wird nichts gemeldet
     can_see = needs_eye and vision_ok(state, settings)
     if needs_eye and not can_see:
         v = state['vision']
-        log(f"{w['name']}: Bildprüfung gerade nicht möglich ({'Tageslimit' if v.get('limit_hit') else 'Stundenkontingent'}) – Suche wartet")
+        log(f"{w['name']}: Bildprüfung gerade nicht möglich (Tageslimit) – Suche wartet")
         if v.get('limit_hit') and not v.get('notified'):
             v['notified'] = True
             send(f"⏸ Bildprüfung: Tageslimit ({int(fnum(settings.get('vision_daily_max'), 150))} Bilder) erreicht. "
@@ -1071,14 +1082,23 @@ def run_learned(w, state, settings, seen, first_done, profs):
         if FAKE_RE.search(f"{it['title']} {it['brand']}") or KIDSIZE_RE.search(it['size']) or it['price'] > w['maxPrice'] \
                 or learn.exclusion_hit(w['excludeRules'], it['title']):
             seen.add(key(it['id']))
-    scored.sort(key=lambda x: -x[0])
-    log(f"{w['name']}: {len(cands)} neu, {len(scored)} in der Vorauswahl (Schwelle {thr:.2f})")
-    sent, rescues = 0, 0
+    # Nach Trefferchance sortieren: Text-Ähnlichkeit × gelernte Chance, dass das Bild passt
+    ranked, dropped = [], 0
     for pre, it in scored:
+        pp = learn.pass_prob(model, it, use_desc=False)
+        if pp is not None and pp < 0.08:                    # auf echten 👍/👎 geprüft: ~2/3 der 👎 raus, ~8 % der 👍 verloren
+            seen.add(key(it['id'])); dropped += 1; continue      # laut bisherigen Bild-Urteilen fast sicher kein Treffer
+        ranked.append((pre * (0.3 + (pp if pp is not None else 0.5)), pre, pp, it))
+    ranked.sort(key=lambda x: -x[0])
+    budget = vision_allowance(state, settings) if needs_eye else 10 ** 6
+    log(f"{w['name']}: {len(cands)} neu, {len(scored)} in der Vorauswahl (Schwelle {thr:.2f})"
+        + (f", {dropped} per Lernmodell aussortiert" if dropped else '') + (f", Bild-Budget {budget}" if needs_eye else ''))
+    sent, rescues, checks = 0, 0, 0
+    for _, pre, pp, it in ranked:
         if sent >= cap:
-            break                                          # Rest bleibt ungesehen → nächster Lauf
-        if needs_eye and not vision_ok(state, settings):
-            log(f"{w['name']}: Bildprüfungs-Kontingent dieser Stunde aufgebraucht – Rest im nächsten Lauf"); break
+            break                                          # genug Treffer – Rest bleibt ungesehen → nächster Lauf
+        if needs_eye and (checks >= budget or not vision_ok(state, settings)):
+            log(f"{w['name']}: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf"); break
         if pre < thr * 0.75 and rescues >= 3:              # höchstens 3 „Bild entscheidet“-Prüfungen pro Lauf
             continue
         seen.add(key(it['id']))
@@ -1109,8 +1129,10 @@ def run_learned(w, state, settings, seen, first_done, profs):
             try:
                 vs, why, cost = learn.vision_score(ANTHROPIC_KEY, example_photos(entry), it['thumb'], w['name'], fetch=fetch_bytes,
                                                  avoid=w['excludeRules'], neg_urls=negative_photos(entry))
-                vision_count(state, cost)
+                vision_count(state, cost); checks += 1
                 need = 75 if rescue else int(fnum(settings.get('vision_min'), 60))
+                if vs is not None:
+                    learn.add_outcome(entry, it, vs >= need)
                 if vs is None:                             # Antwort nicht lesbar → lieber nicht melden
                     log(f"Bildprüfung {it['id']}: {why}"); continue
                 elif vs < need:

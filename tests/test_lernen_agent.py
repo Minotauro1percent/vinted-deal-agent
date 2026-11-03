@@ -85,7 +85,7 @@ def cb(uid, data, mid=500):
 NOW = [1792600000.0]
 agent.time.time = lambda: NOW[0]
 def run():
-    sent.clear(); requests.clear(); agent.main(); NOW[0] += 360
+    sent.clear(); requests.clear(); agent.main(); NOW[0] += 660
     return json.load(open(agent.STATE_FILE))
 def texts():
     return [p.get('text', '') for m, p in sent if m == 'sendMessage']

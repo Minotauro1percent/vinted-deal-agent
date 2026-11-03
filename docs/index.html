@@ -197,7 +197,7 @@ const INTERVALS = [[15, 'alle 15 Min.'], [30, 'alle 30 Min.'], [45, 'alle 45 Min
   [180, 'alle 3 Std.'], [240, 'alle 4 Std.'], [360, 'alle 6 Std.'], [720, 'alle 12 Std.'], [1440, 'einmal am Tag']];
 const WD = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So'];
 const TZ = 'Europe/Vienna';
-const DEFAULT_SETTINGS = {enabled: true, default_interval_min: 60, first_run_max: 3, shipping_est: 5, max_per_run: 15, force_all: 0, force: {}, night_mode: false, night_max: 3, night_from: '', night_to: ''};
+const DEFAULT_SETTINGS = {enabled: true, default_interval_min: 60, first_run_max: 3, shipping_est: 5, max_per_run: 15, learn_max_per_run: 5, force_all: 0, force: {}, night_mode: false, night_max: 3, night_from: '', night_to: ''};
 
 /* ================================================================ Hilfen */
 const $ = (s, el = document) => el.querySelector(s);
@@ -263,7 +263,7 @@ function nightNow(st) {
 function intervalText(m) { const f = INTERVALS.find(x => x[0] === m); return f ? f[1] : (m % 60 ? `alle ${m} Min.` : `alle ${m / 60} Std.`); }
 function scheduleText(w, st) {
   const s = w.schedule || {mode: 'default'};
-  if (s.mode === 'live') return 'laufend (alle ~5 Min.)';
+  if (s.mode === 'live') return 'laufend (alle ~10 Min.)';
   if (s.mode === 'times') {
     const days = [...new Set((s.days || []).map(Number))].sort();
     const dtxt = days.length === 7 ? 'täglich' : days.join() === '1,2,3,4,5' ? 'Mo–Fr' : days.join() === '6,7' ? 'Sa+So' : days.map(d => WD[d - 1]).join(', ');
@@ -503,7 +503,8 @@ function render() {
       <div><label class="f" for="gShip">Versand (Schätzung) €</label><input type="number" id="gShip" min="0" step="0.5" value="${num(st.shipping_est, 5)}"></div>
     </div>
     <div class="grid4"><div><label class="f" for="gVis">Bildprüfung: max. Bilder pro Tag</label><input type="number" id="gVis" min="0" step="50" value="${num(st.vision_daily_max, 150)}"></div>
-      <div style="grid-column:span 3;align-self:end" class="small muted">ca. 0,03 US-Cent pro Bild → 150 Bilder ≈ 4,5 Cent, 400 ≈ 12 Cent pro Tag</div></div>
+      <div><label class="f" for="gLearnMax">Lern-Suche: max. Treffer pro Runde</label><input type="number" id="gLearnMax" min="1" max="30" value="${num(st.learn_max_per_run, 5)}"></div>
+      <div style="grid-column:span 2;align-self:end" class="small muted">ca. 0,03 US-Cent pro Bild → 150 Bilder ≈ 4,5 Cent, 400 ≈ 12 Cent pro Tag. Lern-Suchen laufen alle ~10 Min.</div></div>
     <p class="small muted">Das Standard-Intervall gilt für alle Suchen mit Zeitplan „Standard“. „Neue Suche: max. Deals“ verhindert, dass eine frische Suche beim ersten Lauf dutzende Meldungen schickt.</p>
     <div class="row"><button class="btn primary" id="gSave">Speichern</button><span class="grow"></span>
       <button class="btn ghost sm" id="logout">Abmelden</button></div>
@@ -526,7 +527,7 @@ function render() {
   $('#gSave').onclick = e => {
     const vals = {default_interval_min: Math.max(15, num($('#gInt').value, 60)), first_run_max: Math.max(0, Math.round(num($('#gFirst').value, 3))),
       max_per_run: Math.max(1, Math.round(num($('#gMax').value, 15))), shipping_est: Math.max(0, num($('#gShip').value, 5)),
-      vision_daily_max: Math.max(0, Math.round(num($('#gVis').value, 150)))};
+      vision_daily_max: Math.max(0, Math.round(num($('#gVis').value, 150))), learn_max_per_run: Math.max(1, Math.round(num($('#gLearnMax').value, 5)))};
     guarded(e.currentTarget, () => saveSettings(s => ({...s, ...vals}), 'Allgemeine Einstellungen'), 'Gespeichert ✓');
   };
   $('#logout').onclick = () => { lsSet('vda_token', null); S.token = ''; renderSetup(); };

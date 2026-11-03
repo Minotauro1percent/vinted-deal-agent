@@ -89,4 +89,18 @@ for text, want in [('{"score": 82, "grund": "Zopfstrick"}', 82), ('```json\n{"Sc
     learn.urllib.request.urlopen = lambda req, timeout=40, _t=text: _R(_t)
     sc, why, cost = learn.vision_score('k', ['https://x/a.jpg'], 'https://x/b.jpg', fetch=lambda u: b'\xff\xd8\xff' + b'0' * 10)
     check(sc == want and cost > 0, f'Bildprüfung liest „{text[:25]}…“ → {sc}')
+
+# Lernmodell aus Bild-Urteilen
+e = {'examples': [], 'negatives': []}
+for i in range(30):
+    learn.add_outcome(e, {'id': f'p{i}', 'title': f'Ralph Lauren cable knit pullover zopf {i}', 'category': 'Herren Strickpullover'}, True)
+    learn.add_outcome(e, {'id': f'n{i}', 'title': f'Ralph Lauren felpa sweatshirt cotone {i}', 'category': 'Herren Sweatshirts'}, False)
+m = learn.outcome_model(e)
+check(m['ready'], 'Lernmodell bereit ab 40 Urteilen')
+pg = learn.pass_prob(m, {'title': 'Polo Ralph Lauren cable knit zopf', 'category': ''}, use_desc=False)
+pb = learn.pass_prob(m, {'title': 'Felpa Polo Ralph Lauren sweatshirt', 'category': ''}, use_desc=False)
+check(pg > 0.8 and pb < 0.08, f'Lernmodell: Zopfpulli {pg:.2f}, Felpa {pb:.2f}')
+check(learn.pass_prob(learn.outcome_model({'vlog': []}), {'title': 'x'}) is None, 'Zu wenig Daten → keine Schätzung')
+e2 = {'examples': [{'id': 'a', 'title': 'cable knit', 'source': 'telegram'}, {'id': 'b', 'title': 'link', 'source': 'link'}], 'negatives': [{'id': 'c', 'title': 'felpa'}]}
+check(learn.seed_outcomes(e2) and len(e2['vlog']) == 2 and not learn.seed_outcomes(e2), 'Startwerte aus 👍/👎, nur einmal')
 print('\nALLE LERN-TESTS BESTANDEN' if ok else '\nES GIBT FEHLER'); sys.exit(0 if ok else 1)

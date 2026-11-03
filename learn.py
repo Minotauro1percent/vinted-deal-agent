@@ -259,6 +259,64 @@ def summary(prof, name=''):
             + (f"Meidet: {', '.join(prof.get('avoid', [])[:8])}\n" if prof.get('avoid') else '') +
             f"Meldet ab Ähnlichkeit {round(prof['threshold'] * 100)} %")
 
+# ------------------------------------------------------------------ Lernen aus den Bild-Urteilen
+# Jede Bildprüfung (passt / passt nicht) und jedes 👍/👎 wird mit den Wörtern der Anzeige gespeichert.
+# Daraus schätzt ein kleines Bayes-Modell VOR der Bildprüfung, wie wahrscheinlich das Foto passt –
+# so werden Anzeigen wie „Felpa“ oder „Sweatshirt“ gar nicht erst ans Bild geschickt.
+def outcome_tokens(it):
+    toks = [t for t in tokens(f"{it.get('title', '')} {it.get('desc', '')}") if ' ' not in t]
+    return sorted(set(toks))[:60]
+
+def add_outcome(entry, it, ok, weight=1, keep=500):
+    log = entry.setdefault('vlog', [])
+    iid = str(it.get('id', ''))
+    log[:] = [x for x in log if x.get('id') != iid or not iid]
+    log.append({'id': iid, 't': outcome_tokens(it), 'c': (it.get('category') or '').strip(), 'ok': bool(ok), 'w': weight})
+    del log[:-keep]
+
+def seed_outcomes(entry):
+    """Startwerte: 👍/👎 aus Telegram sind echte Urteile → Lernmodell muss nicht bei null anfangen."""
+    if 'vlog' in entry:
+        return False
+    entry['vlog'] = []
+    for x in entry.get('examples', []):
+        if x.get('source') == 'telegram':
+            add_outcome(entry, x, True, weight=2)
+    for x in entry.get('negatives', []):
+        add_outcome(entry, x, False, weight=2)
+    return True
+
+def outcome_model(entry):
+    log = entry.get('vlog') or []
+    m = {'ok': 0.0, 'no': 0.0, 'tok': {}, 'cat': {}}
+    for x in log:
+        k = 'ok' if x['ok'] else 'no'
+        w = x.get('w', 1)
+        m[k] += w
+        for t in x['t']:
+            m['tok'].setdefault(t, [0.0, 0.0])[0 if x['ok'] else 1] += w
+        if x.get('c'):
+            m['cat'].setdefault(x['c'], [0.0, 0.0])[0 if x['ok'] else 1] += w
+    m['ready'] = m['ok'] >= 8 and m['no'] >= 8 and len(log) >= 40
+    return m
+
+def pass_prob(m, it, use_desc=True):
+    """Geschätzte Chance, dass die Bildprüfung „passt“ sagt (0–1). Ohne genug Daten: None."""
+    if not m or not m.get('ready'):
+        return None
+    no, ok = m['no'], m['ok']
+    lo = math.log((ok + 1) / (no + 1))
+    src = {'title': it.get('title', ''), 'desc': it.get('desc', '') if use_desc else ''}
+    for t in outcome_tokens(src):
+        c = m['tok'].get(t)
+        if c and c[0] + c[1] >= 2:
+            lo += math.log((c[0] + 0.5) / (ok + 1)) - math.log((c[1] + 0.5) / (no + 1))
+    c = m['cat'].get((it.get('category') or '').strip())
+    if c and c[0] + c[1] >= 2:
+        lo += math.log((c[0] + 0.5) / (ok + 1)) - math.log((c[1] + 0.5) / (no + 1))
+    lo = max(-12.0, min(12.0, lo))
+    return 1 / (1 + math.exp(-lo))
+
 # ------------------------------------------------------------------ Eigene Ausschlusskriterien
 # Schnellauswahl in der Web-Oberfläche → Wörter (alle Sprachen, die auf Vinted.at vorkommen) und Vinted-Kategorien
 EXCLUDE_PRESETS = {
