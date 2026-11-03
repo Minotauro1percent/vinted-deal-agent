@@ -359,7 +359,10 @@
     "id": "ralphlauren",
     "excludeRules": [
       "V-Ausschnitt",
-      "Kinder"
+      "Kinder",
+      "Flecken / Löcher",
+      "Ohne Ärmel / Weste",
+      "ohne Logo"
     ]
   },
   {
