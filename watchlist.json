@@ -371,7 +371,7 @@
     "maxPrice": 0,
     "minCondition": "Gut",
     "vision": true,
-    "strictness": 1.0,
+    "strictness": 1,
     "schedule": {
       "mode": "live"
     }
