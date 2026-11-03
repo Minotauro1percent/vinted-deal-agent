@@ -1,10 +1,10 @@
-2026-11-03 11:36:30 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 11:36:30 UTC Suche „RalphLauren“
-2026-11-03 11:36:39 UTC RalphLauren: 17 neu, 8 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 11:36:46 UTC Ausgeschlossen 10647707716: V-Ausschnitt
-2026-11-03 11:36:52 UTC Bildprüfung verwirft 10647693895 (25: ohne Zopfstrick-Muster: Glatter Strick, kurze Ärmel, kein Zopfmuster; Marke pass)
-2026-11-03 11:36:59 UTC Ausgeschlossen 10647694943: V-Ausschnitt
-2026-11-03 11:37:05 UTC Ausgeschlossen 10647681935: V-Ausschnitt
-2026-11-03 11:37:09 UTC Suche „Juicy Couture“
-2026-11-03 11:37:09 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 11:37:09 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-03 11:41:20 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 11:41:20 UTC Suche „RalphLauren“
+2026-11-03 11:41:29 UTC RalphLauren: 13 neu, 4 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 11:41:36 UTC Bildprüfung 10647722994: unlesbare Antwort: {"merkmal": "Zopfstrick", "hat_merkmal (stop=max_tokens)
+2026-11-03 11:41:43 UTC Bildprüfung ok 10647748571 (88: Zopfstrick, Rundhals, Polo Ralph Lauren Etikett; Erwachsenengröße wirkt plausibe)
+2026-11-03 11:41:49 UTC Bildprüfung 10647744311: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 11:41:54 UTC Bildprüfung ok 10647732597 (92: Grauer Zopfstrickpullover mit Rundhals, Erwachsenengröße, passender Stil)
+2026-11-03 11:41:54 UTC Suche „Juicy Couture“
+2026-11-03 11:41:54 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 11:41:54 UTC Suche fertig: 3 neue Deals (2 Suchen)
