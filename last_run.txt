@@ -1,10 +1,15 @@
-2026-11-03 11:41:20 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 11:41:20 UTC Suche „RalphLauren“
-2026-11-03 11:41:29 UTC RalphLauren: 13 neu, 4 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 11:41:36 UTC Bildprüfung 10647722994: unlesbare Antwort: {"merkmal": "Zopfstrick", "hat_merkmal (stop=max_tokens)
-2026-11-03 11:41:43 UTC Bildprüfung ok 10647748571 (88: Zopfstrick, Rundhals, Polo Ralph Lauren Etikett; Erwachsenengröße wirkt plausibe)
-2026-11-03 11:41:49 UTC Bildprüfung 10647744311: unlesbare Antwort:  (stop=max_tokens)
-2026-11-03 11:41:54 UTC Bildprüfung ok 10647732597 (92: Grauer Zopfstrickpullover mit Rundhals, Erwachsenengröße, passender Stil)
-2026-11-03 11:41:54 UTC Suche „Juicy Couture“
-2026-11-03 11:41:54 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 11:41:54 UTC Suche fertig: 3 neue Deals (2 Suchen)
+2026-11-03 11:46:04 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 11:46:04 UTC Suche „RalphLauren“
+2026-11-03 11:46:13 UTC RalphLauren: 18 neu, 13 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 11:46:21 UTC Bildprüfung 10647790760: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 11:46:27 UTC Bildprüfung 10647572085: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 11:46:34 UTC Ausgeschlossen 10647780065: V-Ausschnitt
+2026-11-03 11:46:46 UTC Bildprüfung 10647814393: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 11:46:50 UTC Ausgeschlossen 10647808333: V-Ausschnitt
+2026-11-03 11:46:57 UTC Bildprüfung verwirft 10647785843 (10: Zopfmuster vorhanden, aber V-Ausschnitt (Ausschlusskriterium))
+2026-11-03 11:47:03 UTC Bildprüfung 10647782438: unlesbare Antwort: {"merkmal": "Zopfmuster", "hat_merkmal": false, "score (stop=max_tokens)
+2026-11-03 11:47:08 UTC Bildprüfung ok 10647766344 (92: Zopfstrick, Rundhals, Polo-Logo, passt zu den Beispielen)
+2026-11-03 11:47:15 UTC Bildprüfung verwirft 10647761633 (25: ohne Zopfstrick-Muster: Glatter Sweatshirt-Stoff, kein Zopfmuster; nur Logo pass)
+2026-11-03 11:47:15 UTC Suche „Juicy Couture“
+2026-11-03 11:47:15 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 11:47:15 UTC Suche fertig: 3 neue Deals (2 Suchen)
