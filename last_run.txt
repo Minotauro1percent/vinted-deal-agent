@@ -1,15 +1,12 @@
-2026-11-03 10:56:44 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 10:56:44 UTC Suche „RalphLauren“
-2026-11-03 10:56:53 UTC RalphLauren: 18 neu, 12 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 10:57:00 UTC Bildprüfung verwirft 10647258404 (25: ohne Zopfmuster: Marke passt, aber glatter Strick statt Zopfmuster)
-2026-11-03 10:57:03 UTC Ausgeschlossen 10647256260: V-Ausschnitt
-2026-11-03 10:57:08 UTC Ausgeschlossen 10647238274: V-Ausschnitt
-2026-11-03 10:57:14 UTC Bildprüfung verwirft 10647222685 (25: )
-2026-11-03 10:57:26 UTC Bildprüfung verwirft 10647252024 (25: ohne Zopfmuster-Strick: Glatter Sweatstoff statt Zopfstrick, aber Ralph-Lauren-L)
-2026-11-03 10:57:29 UTC Ausgeschlossen 10647240892: V-Ausschnitt
-2026-11-03 10:57:34 UTC Bildprüfung verwirft 10647238764 (25: ohne Zopfmuster (Strick): Gleicher Pullovertyp und Marke, aber kein Zopfmuster)
-2026-11-03 10:57:40 UTC Bildprüfung verwirft 10647225828 (25: ohne Zopfstrick-Muster: Ralph Lauren Pullover, Rundhals, aber glatter Strick ohn)
-2026-11-03 10:57:46 UTC Bildprüfung 10647208869: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkmal": true, "score":  (stop=max_tokens)
-2026-11-03 10:57:46 UTC Suche „Juicy Couture“
-2026-11-03 10:57:46 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 10:57:46 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-03 11:01:57 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 11:01:57 UTC Suche „RalphLauren“
+2026-11-03 11:02:05 UTC RalphLauren: 15 neu, 8 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 11:02:09 UTC Details übersprungen (10647316336): HTTP 404 für https://www.vinted.at/items/10647316336-pull-ralph-lauren
+2026-11-03 11:02:15 UTC Bildprüfung verwirft 10647303249 (10: ohne Zopfmuster: Glatter Streifenstrick statt Zopfmuster, kein sichtbares Logo, )
+2026-11-03 11:02:21 UTC Bildprüfung 10647296511: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 11:02:27 UTC Bildprüfung 10647280051: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 11:02:37 UTC Bildprüfung 10647301188: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 11:02:41 UTC Ausgeschlossen 10647265805: V-Ausschnitt
+2026-11-03 11:02:41 UTC Suche „Juicy Couture“
+2026-11-03 11:02:41 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 11:02:41 UTC Suche fertig: 1 neue Deals (2 Suchen)
