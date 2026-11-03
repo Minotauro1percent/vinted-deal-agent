@@ -1,10 +1,13 @@
-2026-11-03 10:46:38 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 10:46:38 UTC Suche „RalphLauren“
-2026-11-03 10:46:47 UTC RalphLauren: 19 neu, 9 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 10:46:57 UTC Bildprüfung 10647090569: unlesbare Antwort:  (stop=max_tokens)
-2026-11-03 10:47:09 UTC Bildprüfung verwirft 10647131536 (25: ohne Zopfmuster-Strick: Pullover mit Logo, aber Norwegermuster statt Zopfstrick)
-2026-11-03 10:47:13 UTC Ausgeschlossen 10647127960: V-Ausschnitt
-2026-11-03 10:47:22 UTC Ausgeschlossen 10647068724: V-Ausschnitt
-2026-11-03 10:47:22 UTC Suche „Juicy Couture“
-2026-11-03 10:47:22 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 10:47:22 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-03 10:51:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 10:51:34 UTC Suche „RalphLauren“
+2026-11-03 10:51:44 UTC RalphLauren: 20 neu, 13 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 10:51:47 UTC Ausgeschlossen 10647140071: V-Ausschnitt
+2026-11-03 10:51:59 UTC Bildprüfung verwirft 10647158972 (10: ohne Zopfmuster-Strick: Glatter Strick statt Zopfmuster, anderes Wappen-Logo, an)
+2026-11-03 10:52:08 UTC Ausgeschlossen 10647194929: V-Ausschnitt
+2026-11-03 10:52:13 UTC Bildprüfung verwirft 10647195009 (10: ohne Zopfmuster: Glatter Strick statt Zopfmuster; V-Ausschnitt ausgeschlossen.)
+2026-11-03 10:52:18 UTC Bildprüfung verwirft 10647173824 (25: ohne Zopfmuster-Strick: Waffelstrick statt Zopfmuster; gleiche Marke und Rundhal)
+2026-11-03 10:52:26 UTC Bildprüfung ok 10647156531 (85: Zopfstrick, Rundhals, Pony-Logo; Schnitt nicht eindeutig erkennbar)
+2026-11-03 10:52:33 UTC Ausgeschlossen 10647155317: V-Ausschnitt
+2026-11-03 10:52:33 UTC Suche „Juicy Couture“
+2026-11-03 10:52:33 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 10:52:33 UTC Suche fertig: 1 neue Deals (2 Suchen)
