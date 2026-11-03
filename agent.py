@@ -968,15 +968,25 @@ def fetch_bytes(url):
     return _img_cache[url]
 
 def vision_ok(state, settings):
+    """Darf jetzt ein Bild geprüft werden? Tageslimit + gleichmäßig über den Tag verteilt (max. ~1/16 pro Stunde)."""
     v = state['vision']
-    today = datetime.now(TZ).strftime('%Y-%m-%d')
+    t = datetime.now(TZ)
+    today, hour = t.strftime('%Y-%m-%d'), t.strftime('%Y-%m-%d %H')
     if v.get('day') != today:
-        v.update(day=today, n=0, usd=0.0, limit_hit=False)
-    ok = bool(ANTHROPIC_KEY) and v['n'] < int(fnum(settings.get('vision_daily_max'), 150))
-    if ANTHROPIC_KEY and not ok and not v.get('limit_hit'):
+        v.update(day=today, n=0, usd=0.0, limit_hit=False, notified=False)
+    if v.get('hour') != hour:
+        v.update(hour=hour, hn=0)
+    daily = int(fnum(settings.get('vision_daily_max'), 150))
+    per_hour = max(5, -(-daily // 16))
+    ok = bool(ANTHROPIC_KEY) and v['n'] < daily and v.get('hn', 0) < per_hour
+    if ANTHROPIC_KEY and v['n'] >= daily and not v.get('limit_hit'):
         v['limit_hit'] = True
-        log('Bildprüfung: Tageslimit erreicht – bis Mitternacht ohne Bildprüfung')
+        log('Bildprüfung: Tageslimit erreicht – Lern-Suchen mit Bildprüfung pausieren bis Mitternacht')
     return ok
+
+def vision_count(state, cost):
+    v = state['vision']
+    v['n'] += 1; v['hn'] = v.get('hn', 0) + 1; v['usd'] += cost; v['total_usd'] = v.get('total_usd', 0) + cost
 
 def add_background(state, titles, sid='__all__'):
     """Wörter normaler Anzeigen aus allen Suchen zählen – daran erkennt das Profil, was wirklich „typisch“ ist."""
@@ -994,6 +1004,11 @@ def example_photos(entry, k=4):
     ex.sort(key=lambda x: (x.get('source') != 'telegram', -x.get('added', 0)))   # 👍 zuerst, dann neueste
     return [x['photo'] for x in ex[:k]]
 
+def negative_photos(entry, k=2):
+    """Die neuesten 👎-Bilder – zeigen der Bildprüfung, was der Nutzer NICHT will."""
+    neg = sorted((x for x in entry.get('negatives', []) if x.get('photo')), key=lambda x: -x.get('added', 0))
+    return [x['photo'] for x in neg[:k]]
+
 def run_learned(w, state, settings, seen, first_done, profs):
     entry = profs.get(w['id']) or {}
     prof = entry.get('profile')
@@ -1005,7 +1020,17 @@ def run_learned(w, state, settings, seen, first_done, profs):
     cap = night_cap(int(fnum(settings.get('first_run_max'), 3)) if first else int(fnum(settings.get('max_per_run'), 15)), state)
     shipping = fnum(settings.get('shipping_est'), 5.0)
     thr = prof['threshold']
-    can_see = w['vision'] and vision_ok(state, settings)
+    needs_eye = w['vision'] and bool(ANTHROPIC_KEY)          # mit Schlüssel: ohne Bildprüfung wird nichts gemeldet
+    can_see = needs_eye and vision_ok(state, settings)
+    if needs_eye and not can_see:
+        v = state['vision']
+        log(f"{w['name']}: Bildprüfung gerade nicht möglich ({'Tageslimit' if v.get('limit_hit') else 'Stundenkontingent'}) – Suche wartet")
+        if v.get('limit_hit') and not v.get('notified'):
+            v['notified'] = True
+            send(f"⏸ Bildprüfung: Tageslimit ({int(fnum(settings.get('vision_daily_max'), 150))} Bilder) erreicht. "
+                 f"„{esc(w['name'])}“ meldet bis Mitternacht nichts, damit keine Pullis ohne Prüfung durchrutschen. "
+                 'Limit erhöhen: Web-Oberfläche → Allgemein.')
+        return 0
     if w['queriesManual']:
         queries = w['queries']
     else:
@@ -1030,7 +1055,6 @@ def run_learned(w, state, settings, seen, first_done, profs):
     add_background(state, titles)
     scored = []
     for it in cands.values():
-        seen.add(key(it['id']))
         text = f"{it['title']} {it['brand']}"
         if FAKE_RE.search(text) or REWORK_RE.search(text) or KIDSIZE_RE.search(it['size']):
             continue
@@ -1041,14 +1065,23 @@ def run_learned(w, state, settings, seen, first_done, profs):
         sc = learn.score(prof, learn.item_features(it), detail=False)['score']
         if sc >= thr * (0.6 if can_see else 0.75):          # mit Bildprüfung dürfen auch allgemeine Titel in die Vorauswahl
             scored.append((sc, it))
+        else:
+            seen.add(key(it['id']))
+    for it in cands.values():                             # alles, was hier rausfällt, ist erledigt
+        if FAKE_RE.search(f"{it['title']} {it['brand']}") or KIDSIZE_RE.search(it['size']) or it['price'] > w['maxPrice'] \
+                or learn.exclusion_hit(w['excludeRules'], it['title']):
+            seen.add(key(it['id']))
     scored.sort(key=lambda x: -x[0])
     log(f"{w['name']}: {len(cands)} neu, {len(scored)} in der Vorauswahl (Schwelle {thr:.2f})")
     sent, rescues = 0, 0
     for pre, it in scored:
         if sent >= cap:
-            break
-        if pre < thr * 0.75 and rescues >= 8:              # höchstens 8 „Bild entscheidet“-Prüfungen pro Lauf
+            break                                          # Rest bleibt ungesehen → nächster Lauf
+        if needs_eye and not vision_ok(state, settings):
+            log(f"{w['name']}: Bildprüfungs-Kontingent dieser Stunde aufgebraucht – Rest im nächsten Lauf"); break
+        if pre < thr * 0.75 and rescues >= 3:              # höchstens 3 „Bild entscheidet“-Prüfungen pro Lauf
             continue
+        seen.add(key(it['id']))
         try:
             det = fetch_details(it)
         except Blocked:
@@ -1070,25 +1103,23 @@ def run_learned(w, state, settings, seen, first_done, profs):
         if rescue:
             rescues += 1
         vis = ''
-        if w['vision'] and vision_ok(state, settings) and it.get('thumb'):
+        if needs_eye:
+            if not it.get('thumb'):
+                continue
             try:
                 vs, why, cost = learn.vision_score(ANTHROPIC_KEY, example_photos(entry), it['thumb'], w['name'], fetch=fetch_bytes,
-                                                 avoid=w['excludeRules'])
-                v = state['vision']; v['n'] += 1; v['usd'] += cost; v['total_usd'] = v.get('total_usd', 0) + cost
+                                                 avoid=w['excludeRules'], neg_urls=negative_photos(entry))
+                vision_count(state, cost)
                 need = 75 if rescue else int(fnum(settings.get('vision_min'), 60))
-                if vs is None:                             # Antwort nicht lesbar → Bild entscheidet nicht
-                    log(f"Bildprüfung {it['id']}: {why}")
-                    if rescue:
-                        continue
+                if vs is None:                             # Antwort nicht lesbar → lieber nicht melden
+                    log(f"Bildprüfung {it['id']}: {why}"); continue
                 elif vs < need:
                     log(f"Bildprüfung verwirft {it['id']} ({vs}: {why})"); continue
                 else:
                     log(f"Bildprüfung ok {it['id']} ({vs}: {why})")
                     vis = f' · Bild {vs} %' + (f' ({esc(why)})' if why else '')
             except Exception as e:
-                log('Bildprüfung fehlgeschlagen:', str(e)[:200])
-                if rescue:
-                    continue
+                log('Bildprüfung fehlgeschlagen:', str(e)[:200]); continue
         elif rescue:
             continue                                   # ohne Bildprüfung keine Rettung über das Bild
         extra = f"🧠 passt zu {round(res['score'] * 100)} %{vis}"

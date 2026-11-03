@@ -146,7 +146,7 @@ if cardigan_sent:
 # 5) Bildprüfung: mit Schlüssel, niedriger Wert blockiert, Tageslimit zählt
 agent.ANTHROPIC_KEY = 'sk-test'
 calls = []
-def fake_vision(key, ex_urls, cand, hint='', fetch=None, timeout=40, avoid=()):
+def fake_vision(key, ex_urls, cand, hint='', fetch=None, timeout=40, avoid=(), neg_urls=()):
     calls.append((ex_urls, cand)); return (30 if '106' in cand else 85), 'Zopfstrick passt', 0.0002
 learn.vision_score = fake_vision
 CATALOG_IDS.append('106')
@@ -162,7 +162,14 @@ settings = json.load(open(agent.SETTINGS_FILE)) if os.path.exists(agent.SETTINGS
 settings['vision_daily_max'] = 1; json.dump(settings, open(agent.SETTINGS_FILE, 'w'))
 ITEMS['107'] = dict(ITEMS['101'], id='107'); CATALOG_IDS.append('107')
 calls.clear(); s = run()
-check(not calls and any('/items/107' in x['caption'] for x in photos()), 'Tageslimit erreicht → ohne Bildprüfung weiter')
+check(not calls and not any('/items/107' in x['caption'] for x in photos()), 'Tageslimit erreicht → nichts ohne Bildprüfung melden')
+check(any('Tageslimit' in m for m in texts()), 'Hinweis in Telegram, dass die Lern-Suche bis Mitternacht wartet')
+s = run()
+check(sum('Tageslimit' in m for m in texts()) == 0, 'Hinweis nur einmal pro Tag')
+settings = json.load(open(agent.SETTINGS_FILE)); settings['vision_daily_max'] = 150; json.dump(settings, open(agent.SETTINGS_FILE, 'w'))
+s = run()
+check(any('/items/107' in x['caption'] for x in photos()), 'Nach dem Limit: zurückgehaltene Anzeige wird geprüft und gemeldet (nicht verloren)')
+agent.ANTHROPIC_KEY = ''                    # ohne Schlüssel: nur Text (allgemeine Titel nie)
 CATALOG_IDS.append('109'); s = run()
 check(not any('/items/109' in x['caption'] for x in photos()), 'Allgemeiner Titel ohne Bildprüfung → nicht gemeldet')
 
@@ -180,6 +187,11 @@ s = run()
 check(any('schon bekannt' in x for x in texts()), 'Bekannte Anzeige wird erkannt')
 
 # 8) Eigene Ausschlusskriterien (aus der Web-Oberfläche)
+agent.ANTHROPIC_KEY = 'sk-test'
+profs8 = json.load(open(agent.PROFILES_FILE))
+profs8['rl-zopf']['negatives'].append(learn.item_features({'id': '777', 'title': 'Ralph Lauren Sweatshirt', 'brand': 'Ralph Lauren', 'size': 'M',
+    'condition': 'Gut', 'price': 10, 'thumb': 'https://img/777/310x430/n.webp'}) | {'source': 'telegram', 'added': 1})
+json.dump(profs8, open(agent.PROFILES_FILE, 'w'))
 wl8 = json.load(open(agent.WATCH_FILE))
 wl8[0]['excludeRules'] = ['V-Ausschnitt', 'Reißverschluss / Zip', 'loch']
 json.dump(wl8, open(agent.WATCH_FILE, 'w'))
@@ -189,8 +201,9 @@ item('122', 'Ralph Lauren Cable Knit Pullover navy', 'Ralph Lauren', 'M', 'Sehr 
 item('123', 'Ralph Lauren Cable Knit Half Zip', 'Ralph Lauren', 'M', 'Sehr gut', 15, 'Grau', 'Herren Strickpullover', 'cable knit')
 item('124', 'Ralph Lauren Cable Knit Pullover creme', 'Ralph Lauren', 'L', 'Sehr gut', 15, 'Creme', 'Herren Strickpullover', 'cable knit Zopfstrick')
 CATALOG_IDS[:] = ['120', '121', '122', '123', '124']
-avoid_seen = []
-def fake_vision2(key, ex_urls, cand, hint='', fetch=None, timeout=40, avoid=()):
+avoid_seen = []; negs_seen = []
+def fake_vision2(key, ex_urls, cand, hint='', fetch=None, timeout=40, avoid=(), neg_urls=()):
+    negs_seen.append(list(neg_urls))
     avoid_seen.append(list(avoid)); return 90, 'Zopfstrick', 0.0002
 learn.vision_score = fake_vision2
 settings = json.load(open(agent.SETTINGS_FILE)); settings['vision_daily_max'] = 150; json.dump(settings, open(agent.SETTINGS_FILE, 'w'))
@@ -202,5 +215,6 @@ check('/items/122' not in caps, 'Ausschluss freies Wort „loch“ (Beschreibung
 check('/items/123' not in caps, 'Ausschluss Zip')
 check('/items/124' in caps, 'Passender Pulli ohne Ausschluss gemeldet')
 check(avoid_seen and 'V-Ausschnitt' in avoid_seen[-1], 'Bildprüfung bekommt die Ausschlüsse mit')
+check(negs_seen and negs_seen[-1], '👎-Bilder gehen an die Bildprüfung')
 
 print('\nALLE LERN-AGENT-TESTS BESTANDEN' if ok else '\nES GIBT FEHLER'); sys.exit(0 if ok else 1)

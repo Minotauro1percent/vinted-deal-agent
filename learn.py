@@ -310,7 +310,7 @@ def _img_block(url, fetch):
         return {'type': 'image', 'source': {'type': 'base64', 'media_type': _media_type(b), 'data': base64.b64encode(b).decode()}}
     return {'type': 'image', 'source': {'type': 'url', 'url': small_image(url)}}
 
-def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, timeout=40, avoid=()):
+def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, timeout=40, avoid=(), neg_urls=()):
     """Bewertet, wie gut das Kandidatenbild zu den Beispielbildern passt. → (score 0–100, grund, kosten_usd)"""
     content = [{'type': 'text', 'text': 'Beispielbilder von Artikeln, die der Nutzer sucht:'}]
     for u in example_urls[:4]:
@@ -318,11 +318,21 @@ def vision_score(api_key, example_urls, cand_url, desc_hint='', fetch=None, time
             content.append(_img_block(u, fetch))
         except Exception:
             pass
+    negs = []
+    for u in list(neg_urls)[:2]:
+        try:
+            negs.append(_img_block(u, fetch))
+        except Exception:
+            pass
+    if negs:
+        content.append({'type': 'text', 'text': 'Diese hat der Nutzer abgelehnt (👎) – so etwas will er NICHT:'})
+        content += negs
     content.append({'type': 'text', 'text': 'Neue Anzeige:'})
     content.append(_img_block(cand_url, fetch))
     content.append({'type': 'text', 'text': (
         'Schritt 1: Was ist das wichtigste gemeinsame Merkmal der Beispiele, das sie von ähnlichen Artikeln unterscheidet '
         '(z. B. ein bestimmtes Muster, eine Strickart, ein Schnitt)? Marke und Logo zählen hier NICHT. '
+        + ('Ähnelt die neue Anzeige eher den abgelehnten Bildern als den Beispielen, gib höchstens 30 Punkte. ' if negs else '') +
         'Schritt 2: Hat die neue Anzeige genau dieses Merkmal? Ein ähnlicher Artikel ohne dieses Merkmal (z. B. glatter Strick statt Zopfmuster) hat es NICHT. '
         'Schritt 3: Gesamtwertung, wie gut die neue Anzeige passt (Art des Artikels, Muster/Strick, Schnitt, Logo, Material, Stil – '
         'nicht Farbe, Hintergrund oder Fotoqualität). ' + (f'Gesucht wird: {desc_hint}. ' if desc_hint else '') +
