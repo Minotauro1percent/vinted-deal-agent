@@ -1,6 +1,7 @@
-2026-11-03 16:27:40 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 16:27:40 UTC Suche „RalphLauren“
-2026-11-03 16:27:49 UTC RalphLauren: 20 neu, 0 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 16:27:49 UTC Suche „Juicy Couture“
-2026-11-03 16:27:49 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 16:27:49 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-03 16:32:03 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 16:32:04 UTC Suche „RalphLauren“
+2026-11-03 16:32:18 UTC Suchanfrage übersprungen (ralph lauren pullover): HTTP 500 für https://www.vinted.at/catalog?search_text=ralph+lauren+pullover&order=newest_first&currency=EUR&price_to=24
+2026-11-03 16:32:18 UTC RalphLauren: 8 neu, 0 in der Vorauswahl (Schwelle 0.66)
+2026-11-03 16:32:18 UTC Suche „Juicy Couture“
+2026-11-03 16:32:18 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 16:32:18 UTC Suche fertig: 0 neue Deals (2 Suchen)
