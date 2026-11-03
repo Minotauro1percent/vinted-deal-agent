@@ -1,6 +1,7 @@
-2026-11-03 21:21:22 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 21:21:22 UTC Suche „RalphLauren“
-2026-11-03 21:21:32 UTC RalphLauren: 6 neu, 0 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 21:21:32 UTC Suche „Juicy Couture“
-2026-11-03 21:21:32 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 21:21:32 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-03 21:26:04 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 21:26:04 UTC Suche „RalphLauren“
+2026-11-03 21:26:14 UTC RalphLauren: 15 neu, 2 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 21:26:22 UTC Ausgeschlossen 10655824855: Kinder
+2026-11-03 21:26:22 UTC Suche „Juicy Couture“
+2026-11-03 21:26:22 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 21:26:22 UTC Suche fertig: 1 neue Deals (2 Suchen)
