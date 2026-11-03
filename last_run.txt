@@ -1,11 +1,10 @@
-2026-11-03 10:31:42 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 10:31:42 UTC Suche „RalphLauren“
-2026-11-03 10:31:53 UTC RalphLauren: 13 neu, 7 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 10:32:00 UTC Bildprüfung 10638382893: unlesbare Antwort:  (stop=max_tokens)
-2026-11-03 10:32:10 UTC Bildprüfung verwirft 10646921088 (25: ohne Zopfmuster: Glatter Strick statt Zopfmuster; Marke und Schnitt passen.)
-2026-11-03 10:32:15 UTC Bildprüfung verwirft 10631319027 (30: )
-2026-11-03 10:32:21 UTC Bildprüfung verwirft 10646941683 (35: )
-2026-11-03 10:32:34 UTC Ausgeschlossen 10646918599: V-Ausschnitt
-2026-11-03 10:32:37 UTC Suche „Juicy Couture“
-2026-11-03 10:32:37 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 10:32:37 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-03 10:36:50 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 10:36:50 UTC Suche „RalphLauren“
+2026-11-03 10:36:58 UTC RalphLauren: 10 neu, 8 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 10:37:05 UTC Bildprüfung 10647009221: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkmal": (stop=max_tokens)
+2026-11-03 10:37:08 UTC Ausgeschlossen 10647004740: V-Ausschnitt
+2026-11-03 10:37:14 UTC Bildprüfung verwirft 10646991434 (25: ohne Zopfstrickmuster: Marke passt, aber Sweatshirt statt Zopfstrick mit Teddy-P)
+2026-11-03 10:37:19 UTC Bildprüfung verwirft 10646987095 (12: ohne Zopfmuster: Glatter Streifenstrick statt Zopfmuster, kein Logo sichtbar)
+2026-11-03 10:37:32 UTC Suche „Juicy Couture“
+2026-11-03 10:37:32 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 10:37:32 UTC Suche fertig: 0 neue Deals (2 Suchen)
