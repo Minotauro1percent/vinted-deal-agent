@@ -1,2 +1,20 @@
-2026-11-03 06:43:43 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 06:43:43 UTC Keine Suche fällig
+2026-11-03 06:47:56 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 06:47:56 UTC Nachtmodus: 3 Suche(n), noch 3 Artikel in dieser Stunde
+2026-11-03 06:47:56 UTC Suche „RalphLauren“
+2026-11-03 06:48:05 UTC RalphLauren: 36 neu, 19 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 06:48:12 UTC Bildprüfung verwirft 10645314144 (25: ohne Zopfstrickmuster: Glatter Feinstrick statt Zopfmuster; Marke und Rundhals p)
+2026-11-03 06:48:21 UTC Bildprüfung 10638375543: unlesbare Antwort: {"merkmal": "Zopfstrick-Muster", "hat_merkmal": false, "score (stop=max_tokens)
+2026-11-03 06:48:27 UTC Bildprüfung verwirft 10645300229 (25: ohne Zopfmuster-Strick: Glattes Sweatshirt statt Zopfstrick, aber gleiche Marke )
+2026-11-03 06:48:34 UTC Bildprüfung 10645280047: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 06:48:38 UTC Ausgeschlossen 10645275382: Kinder
+2026-11-03 06:48:44 UTC Bildprüfung 10645273048: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 06:48:54 UTC Bildprüfung 10645248255: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 06:49:13 UTC Bildprüfung ok 10645319849 (92: Zopfstrick, Rundhals, Polo-Logo, Erwachsenengröße; Material abweichend)
+2026-11-03 06:49:21 UTC Bildprüfung 10645313000: unlesbare Antwort:  (stop=max_tokens)
+2026-11-03 06:49:29 UTC Bildprüfung verwirft 10645286838 (25: ohne Zopfstrickmuster: Ralph Lauren, aber Sweatshirt statt Zopfstrick)
+2026-11-03 06:49:35 UTC Bildprüfung 10645252718: unlesbare Antwort: {"merkmal": "Zopfstrickmuster", "hat_merkmal": false, " (stop=max_tokens)
+2026-11-03 06:49:39 UTC Suche „Juicy Couture“
+2026-11-03 06:49:39 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 06:49:39 UTC Suche „Xiaomi 17“
+2026-11-03 06:49:44 UTC Xiaomi 17: 0 neue Kandidaten
+2026-11-03 06:49:44 UTC Suche fertig: 2 neue Deals (3 Suchen)
