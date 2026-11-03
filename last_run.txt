@@ -1,13 +1,13 @@
-2026-11-03 11:26:19 UTC Telegram: 0 neue Nachricht(en)
-2026-11-03 11:26:19 UTC Suche „RalphLauren“
-2026-11-03 11:26:27 UTC RalphLauren: 18 neu, 8 in der Vorauswahl (Schwelle 0.58)
-2026-11-03 11:26:31 UTC Ausgeschlossen 10646631094: V-Ausschnitt
-2026-11-03 11:26:37 UTC Bildprüfung verwirft 10647555238 (25: ohne Zopfstrick-Muster: Glatter Strick mit Querrippen, Fledermausschnitt, kein Z)
-2026-11-03 11:26:41 UTC Ausgeschlossen 10647595348: Kinder
-2026-11-03 11:26:47 UTC Bildprüfung 10647589843: unlesbare Antwort: {" (stop=max_tokens)
-2026-11-03 11:26:50 UTC Ausgeschlossen 10618805829: Kinder
-2026-11-03 11:26:59 UTC Bildprüfung ok 10647544996 (85: )
-2026-11-03 11:27:03 UTC Ausgeschlossen 10647541831: V-Ausschnitt
-2026-11-03 11:27:03 UTC Suche „Juicy Couture“
-2026-11-03 11:27:03 UTC Juicy Couture: noch keine Beispiele
-2026-11-03 11:27:03 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-03 11:31:14 UTC Telegram: 0 neue Nachricht(en)
+2026-11-03 11:31:14 UTC Suche „RalphLauren“
+2026-11-03 11:31:24 UTC RalphLauren: 16 neu, 12 in der Vorauswahl (Schwelle 0.58)
+2026-11-03 11:31:30 UTC Bildprüfung verwirft 10647648083 (25: ohne Zopfstrick-Muster: Marke passt, aber Sweatshirt statt Zopfstrickpullover)
+2026-11-03 11:31:33 UTC Ausgeschlossen 10647633696: V-Ausschnitt
+2026-11-03 11:31:43 UTC Bildprüfung ok 10647650016 (92: Zopfstrick, Rundhals, Ralph-Lauren-Logo; keine Ausschlusskriterien erkennbar)
+2026-11-03 11:31:49 UTC Bildprüfung ok 10647638913 (88: Zopfstrick, Rundhals, RL-Monogramm; Kindergröße nicht erkennbar)
+2026-11-03 11:31:59 UTC Bildprüfung verwirft 10647634724 (20: ohne Zopfmuster-Strick: Sweatshirt statt Zopfstrick, anderes Logo und Stil)
+2026-11-03 11:32:08 UTC Bildprüfung verwirft 10647617420 (25: ohne Zopfstrick-Muster: Glatter Sweatstoff statt Zopfmuster, aber Logo und Rundh)
+2026-11-03 11:32:16 UTC Bildprüfung ok 10647606334 (80: Zopfstrick und Rundhals passen, aber Kurzarm und Streifen weichen ab)
+2026-11-03 11:32:19 UTC Suche „Juicy Couture“
+2026-11-03 11:32:19 UTC Juicy Couture: noch keine Beispiele
+2026-11-03 11:32:19 UTC Suche fertig: 3 neue Deals (2 Suchen)
