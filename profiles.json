@@ -7373,6 +7373,60 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10659235890",
+        "t": [
+          "bouloche",
+          "demander",
+          "infos",
+          "lauren",
+          "mais",
+          "pull",
+          "ralph",
+          "ralphlauren"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10659228699",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10658840358",
+        "t": [
+          "48h",
+          "article",
+          "avez",
+          "ceux",
+          "contacter",
+          "defauts",
+          "dernieres",
+          "dimensions",
+          "indiquees",
+          "lauren",
+          "presente",
+          "pull",
+          "questions",
+          "ralph",
+          "seront",
+          "shopping",
+          "sont",
+          "visibles",
+          "vous"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
