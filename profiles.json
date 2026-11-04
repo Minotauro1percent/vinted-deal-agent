@@ -8610,6 +8610,39 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10666746431",
+        "t": [
+          "dupe",
+          "frauen",
+          "polo",
+          "pullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10666746888",
+        "t": [
+          "bleu",
+          "dimensions",
+          "lauren",
+          "livraison",
+          "logo",
+          "lyocell",
+          "marine",
+          "matiere",
+          "nylon",
+          "pull",
+          "ralph",
+          "soie",
+          "torsade"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
