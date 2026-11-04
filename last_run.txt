@@ -1,9 +1,2 @@
-2026-11-04 18:06:18 UTC Telegram: 0 neue Nachricht(en)
-2026-11-04 18:06:19 UTC Suche „RalphLauren“
-2026-11-04 18:06:26 UTC RalphLauren: 57 neu, 34 in der Vorauswahl (Schwelle 0.66), 4 per Lernmodell aussortiert, Bild-Budget 18
-2026-11-04 18:06:32 UTC Bildprüfung verwirft 10666485931 (5: ohne Zopfmuster: Ärmelloses Top, gestreift statt Zopfmuster, Ausschlusskriterium)
-2026-11-04 18:06:39 UTC Bildprüfung verwirft 10666401910 (8: ohne Zopfmuster: Rippstrick statt Zopfmuster, kein sichtbares Logo)
-2026-11-04 18:06:45 UTC Bildprüfung verwirft 10666431549 (15: ohne Zopfstrick-Muster: Glatter Sweatstoff statt Zopfmuster; ähnelt abgelehntem )
-2026-11-04 18:06:45 UTC Suche „Juicy Couture“
-2026-11-04 18:06:45 UTC Juicy Couture: noch keine Beispiele
-2026-11-04 18:06:45 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-04 18:11:03 UTC Telegram: 0 neue Nachricht(en)
+2026-11-04 18:11:03 UTC Keine Suche fällig
