@@ -1,2 +1,14 @@
-2026-11-04 18:11:03 UTC Telegram: 0 neue Nachricht(en)
-2026-11-04 18:11:03 UTC Keine Suche fällig
+2026-11-04 18:15:14 UTC Telegram: 0 neue Nachricht(en)
+2026-11-04 18:15:14 UTC Suche „RalphLauren“
+2026-11-04 18:15:23 UTC RalphLauren: 56 neu, 42 in der Vorauswahl (Schwelle 0.66), 6 per Lernmodell aussortiert, Bild-Budget 19
+2026-11-04 18:15:29 UTC Bildprüfung 10666521479: unlesbare Antwort:  (stop=max_tokens)
+2026-11-04 18:15:40 UTC Ausgeschlossen 10666541046: Flecken / Löcher
+2026-11-04 18:15:43 UTC Ausgeschlossen 10666636491: V-Ausschnitt
+2026-11-04 18:16:00 UTC Bildprüfung verwirft 10666253445 (20: ohne Zopfmuster: Glatter Strick statt Zopfmuster; ähnelt abgelehntem Pullover, L)
+2026-11-04 18:16:03 UTC Ausgeschlossen 10666563039: V-Ausschnitt
+2026-11-04 18:16:11 UTC Ausgeschlossen 10666428286: V-Ausschnitt
+2026-11-04 18:16:18 UTC Bildprüfung 10666485901: unlesbare Antwort:  (stop=max_tokens)
+2026-11-04 18:16:25 UTC Bildprüfung 10666284248: unlesbare Antwort:  (stop=max_tokens)
+2026-11-04 18:16:25 UTC Suche „Juicy Couture“
+2026-11-04 18:16:25 UTC Juicy Couture: noch keine Beispiele
+2026-11-04 18:16:25 UTC Suche fertig: 0 neue Deals (2 Suchen)
