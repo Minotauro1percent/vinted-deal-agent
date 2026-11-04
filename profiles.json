@@ -6625,6 +6625,48 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10656664710",
+        "t": [
+          "bequem",
+          "echt",
+          "fallt",
+          "lauren",
+          "mangel",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10651700241",
+        "t": [
+          "antracite",
+          "blu",
+          "classico",
+          "color",
+          "costine",
+          "girocollo",
+          "inferiore",
+          "lauren",
+          "lunghe",
+          "maglione",
+          "maniche",
+          "melange",
+          "modello",
+          "orlo",
+          "polo",
+          "polsini",
+          "ralph",
+          "scollo",
+          "scuro"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
