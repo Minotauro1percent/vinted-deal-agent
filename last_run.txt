@@ -1,14 +1,2 @@
-2026-11-04 02:17:46 UTC Telegram: 0 neue Nachricht(en)
-2026-11-04 02:17:46 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
-2026-11-04 02:17:46 UTC Suche „RalphLauren“
-2026-11-04 02:17:56 UTC RalphLauren: 33 neu, 27 in der Vorauswahl (Schwelle 0.66), 1 per Lernmodell aussortiert, Bild-Budget 7
-2026-11-04 02:18:10 UTC Ausgeschlossen 10656749429: V-Ausschnitt
-2026-11-04 02:18:16 UTC Bildprüfung verwirft 10656568206 (15: )
-2026-11-04 02:18:23 UTC Bildprüfung verwirft 10656236299 (15: ohne Zopfmuster-Strick: Glatter Strick ohne Zopfmuster, Kurzarm, ähnelt abgelehn)
-2026-11-04 02:18:26 UTC Ausgeschlossen 10656045876: V-Ausschnitt
-2026-11-04 02:18:33 UTC Bildprüfung 10655927866: unlesbare Antwort:  (stop=max_tokens)
-2026-11-04 02:18:33 UTC Suche „Juicy Couture“
-2026-11-04 02:18:33 UTC Juicy Couture: noch keine Beispiele
-2026-11-04 02:18:33 UTC Suche „Xiaomi 17“
-2026-11-04 02:18:37 UTC Xiaomi 17: 2 neue Kandidaten
-2026-11-04 02:18:37 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-04 02:22:48 UTC Telegram: 0 neue Nachricht(en)
+2026-11-04 02:22:48 UTC Keine Suche fällig
