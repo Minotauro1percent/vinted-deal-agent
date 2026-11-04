@@ -1,2 +1,19 @@
-2026-11-04 18:58:00 UTC Telegram: 0 neue Nachricht(en)
-2026-11-04 18:58:00 UTC Keine Suche fällig
+2026-11-04 19:02:15 UTC Telegram: 0 neue Nachricht(en)
+2026-11-04 19:02:15 UTC Suche „RalphLauren“
+2026-11-04 19:02:25 UTC RalphLauren: 49 neu, 32 in der Vorauswahl (Schwelle 0.66), 6 per Lernmodell aussortiert, Bild-Budget 21
+2026-11-04 19:02:29 UTC Ausgeschlossen 10667147404: V-Ausschnitt
+2026-11-04 19:02:39 UTC Ausgeschlossen 10667305801: V-Ausschnitt
+2026-11-04 19:02:45 UTC Bildprüfung verwirft 10667300541 (10: )
+2026-11-04 19:02:51 UTC Ausgeschlossen 10667038246: Flecken / Löcher
+2026-11-04 19:02:57 UTC Bildprüfung verwirft 10666945975 (15: ohne Zopfmuster (Strickart): Glatter Feinstrick statt Zopfmuster; ähnelt abgeleh)
+2026-11-04 19:03:01 UTC Ausgeschlossen 10665931653: V-Ausschnitt
+2026-11-04 19:03:14 UTC Bildprüfung verwirft 10667277998 (22: ohne Zopfmuster-Strick: Glatter Strick ohne Zopfmuster, ähnelt abgelehntem Pullo)
+2026-11-04 19:03:17 UTC Ausgeschlossen 10667171996: V-Ausschnitt
+2026-11-04 19:03:29 UTC Ausgeschlossen 10667107016: Flecken / Löcher
+2026-11-04 19:03:42 UTC Bildprüfung ok 10667250703 (85: Zopfstrick wie in den Beispielen, Rundhals, Polo-Label sichtbar)
+2026-11-04 19:03:54 UTC Bildprüfung 10666971177: unlesbare Antwort:  (stop=max_tokens)
+2026-11-04 19:04:00 UTC Ausgeschlossen 10667333718: Flecken / Löcher
+2026-11-04 19:04:08 UTC Bildprüfung verwirft 10667211364 (5: ohne Zopfmuster (Cable-Knit): Glatter Strick, kein Zopfmuster, kein sichtbares L)
+2026-11-04 19:04:08 UTC Suche „Juicy Couture“
+2026-11-04 19:04:08 UTC Juicy Couture: noch keine Beispiele
+2026-11-04 19:04:08 UTC Suche fertig: 1 neue Deals (2 Suchen)
