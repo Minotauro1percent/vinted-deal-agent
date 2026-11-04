@@ -1,2 +1,23 @@
-2026-11-04 15:50:26 UTC Telegram: 0 neue Nachricht(en)
-2026-11-04 15:50:26 UTC Keine Suche fällig
+2026-11-04 15:54:39 UTC Telegram: 0 neue Nachricht(en)
+2026-11-04 15:54:39 UTC Suche „RalphLauren“
+2026-11-04 15:54:48 UTC RalphLauren: 112 neu, 71 in der Vorauswahl (Schwelle 0.66), 20 per Lernmodell aussortiert, Bild-Budget 16
+2026-11-04 15:54:55 UTC Bildprüfung verwirft 10664505324 (15: ohne Zopfmuster-Strick: Glatter Strick ohne Zopfmuster, ähnelt den abgelehnten B)
+2026-11-04 15:54:58 UTC Ausgeschlossen 10664532233: Flecken / Löcher
+2026-11-04 15:55:06 UTC Ausgeschlossen 10664535947: V-Ausschnitt
+2026-11-04 15:55:12 UTC Bildprüfung verwirft 10664329990 (20: ohne Zopfmuster: Glatter Strick statt Zopfmuster, Halbreißverschluss, Logo vorha)
+2026-11-04 15:55:15 UTC Ausgeschlossen 10664265134: V-Ausschnitt
+2026-11-04 15:55:26 UTC Bildprüfung 10664370925: unlesbare Antwort: {"merkmal": "Zopfmuster (Cable-Knit)", "hat_merkmal": false, (stop=max_tokens)
+2026-11-04 15:55:35 UTC Bildprüfung verwirft 10664477765 (15: ohne Zopfmuster-Strick: Glatter Sweatshirt-Stoff statt Zopfstrick; ähnelt abgele)
+2026-11-04 15:55:41 UTC Bildprüfung 10664149076: unlesbare Antwort:  (stop=max_tokens)
+2026-11-04 15:55:47 UTC Bildprüfung verwirft 10647173921 (15: ohne Zopfmuster (Kabelstrick): Glatter Feinstrick ohne Zopfmuster, ähnelt dem ab)
+2026-11-04 15:55:51 UTC Ausgeschlossen 10664045914: V-Ausschnitt
+2026-11-04 15:55:57 UTC Ausgeschlossen 10664558611: V-Ausschnitt
+2026-11-04 15:56:10 UTC Ausgeschlossen 10664171418: V-Ausschnitt
+2026-11-04 15:56:14 UTC Ausgeschlossen 10664174795: Flecken / Löcher
+2026-11-04 15:56:21 UTC Ausgeschlossen 10664180015: Kinder
+2026-11-04 15:56:25 UTC Ausgeschlossen 10664080142: Flecken / Löcher
+2026-11-04 15:56:28 UTC Ausgeschlossen 10664042205: V-Ausschnitt
+2026-11-04 15:56:37 UTC Bildprüfung verwirft 10663753569 (15: ohne Zopfmuster: Glatter Strick ohne Zopfmuster, ähnelt abgelehntem Beispiel)
+2026-11-04 15:56:37 UTC Suche „Juicy Couture“
+2026-11-04 15:56:37 UTC Juicy Couture: noch keine Beispiele
+2026-11-04 15:56:37 UTC Suche fertig: 0 neue Deals (2 Suchen)
