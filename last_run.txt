@@ -1,14 +1,2 @@
-2026-11-04 07:35:02 UTC Telegram: 0 neue Nachricht(en)
-2026-11-04 07:35:02 UTC Suche „RalphLauren“
-2026-11-04 07:35:11 UTC RalphLauren: 22 neu, 17 in der Vorauswahl (Schwelle 0.66), Bild-Budget 8
-2026-11-04 07:35:14 UTC Ausgeschlossen 10658805404: V-Ausschnitt
-2026-11-04 07:35:18 UTC Ausgeschlossen 10658812303: V-Ausschnitt
-2026-11-04 07:35:25 UTC Bildprüfung verwirft 10658809055 (15: ohne Zopfmuster: Glatter Strick statt Zopfmuster, ähnelt abgelehnten Bildern)
-2026-11-04 07:35:38 UTC Bildprüfung 10658759390: unlesbare Antwort:  (stop=max_tokens)
-2026-11-04 07:35:46 UTC Bildprüfung verwirft 10658723507 (5: ohne Zopfmuster-Strick: Kein Zopfmuster, kein sichtbares Logo, Fransen; ähnelt a)
-2026-11-04 07:35:49 UTC Details übersprungen (10658836730): HTTP 404 für https://www.vinted.at/items/10658836730-pull-ralph-lauren
-2026-11-04 07:35:52 UTC Ausgeschlossen 10658834701: V-Ausschnitt
-2026-11-04 07:35:59 UTC Bildprüfung 10658809905: unlesbare Antwort:  (stop=max_tokens)
-2026-11-04 07:35:59 UTC Suche „Juicy Couture“
-2026-11-04 07:35:59 UTC Juicy Couture: noch keine Beispiele
-2026-11-04 07:35:59 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-04 07:40:11 UTC Telegram: 0 neue Nachricht(en)
+2026-11-04 07:40:11 UTC Keine Suche fällig
