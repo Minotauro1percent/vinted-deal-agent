@@ -1,4 +1,10 @@
-2026-11-04 20:41:47 UTC Telegram: 0 neue Nachricht(en)
-2026-11-04 20:41:48 UTC Suche „Xiaomi 17“
-2026-11-04 20:41:53 UTC Xiaomi 17: 6 neue Kandidaten
-2026-11-04 20:42:00 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-11-04 20:46:12 UTC Telegram: 0 neue Nachricht(en)
+2026-11-04 20:46:12 UTC Suche „RalphLauren“
+2026-11-04 20:46:21 UTC RalphLauren: 13 neu, 9 in der Vorauswahl (Schwelle 0.66), 2 per Lernmodell aussortiert, Bild-Budget 31
+2026-11-04 20:46:28 UTC Bildprüfung ok 10668796337 (92: Zopfstrick, Rundhals, Ralph-Lauren-Logo; passt zu den Beispielen)
+2026-11-04 20:46:32 UTC Ausgeschlossen 10668711508: Kinder
+2026-11-04 20:46:39 UTC Bildprüfung verwirft 10668781612 (12: ohne Zopfmuster-Strick: Glatter Strick mit Halbreißverschluss statt Zopfmuster; )
+2026-11-04 20:46:45 UTC Ausgeschlossen 10668765742: Flecken / Löcher
+2026-11-04 20:46:56 UTC Suche „Juicy Couture“
+2026-11-04 20:46:56 UTC Juicy Couture: noch keine Beispiele
+2026-11-04 20:46:56 UTC Suche fertig: 1 neue Deals (2 Suchen)
