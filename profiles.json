@@ -8846,6 +8846,33 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10667455695",
+        "t": [
+          "caldo",
+          "indossato",
+          "lauren",
+          "maglione",
+          "paio",
+          "polo",
+          "ralph",
+          "volte"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10667365289",
+        "t": [
+          "kragenpullover",
+          "lauren",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
