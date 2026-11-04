@@ -6531,6 +6531,34 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10656568206",
+        "t": [
+          "authentique",
+          "defaut",
+          "envoie",
+          "kaki",
+          "lauren",
+          "pull",
+          "ralph",
+          "sans"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10656236299",
+        "t": [
+          "fois",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
