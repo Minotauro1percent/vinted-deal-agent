@@ -8356,6 +8356,48 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10666112796",
+        "t": [
+          "collo",
+          "donna",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10666014030",
+        "t": [
+          "collo",
+          "donna",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10665994383",
+        "t": [
+          "donna",
+          "girocollo",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
