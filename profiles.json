@@ -9426,6 +9426,60 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10668568682",
+        "t": [
+          "alltag",
+          "brust",
+          "den",
+          "design",
+          "dunkelblauer",
+          "fur",
+          "klassischen",
+          "kleinen",
+          "lauren",
+          "logo",
+          "muster",
+          "perfekt",
+          "polo",
+          "ralph",
+          "schoner",
+          "strickpullover",
+          "winter",
+          "zeitlose",
+          "zopf"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10668627674",
+        "t": [
+          "auffalligen",
+          "befindet",
+          "brust",
+          "design",
+          "gebrauchsspuren",
+          "guten",
+          "klassisches",
+          "lauren",
+          "logo",
+          "nutzung",
+          "oft",
+          "polo",
+          "pullover",
+          "ralph",
+          "rotem",
+          "schwarz",
+          "selten",
+          "sich",
+          "wurde"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
       }
     ]
   }
