@@ -8458,6 +8458,39 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10666141356",
+        "t": [
+          "che",
+          "guardate",
+          "lauren",
+          "macchietta",
+          "maglione",
+          "piccola",
+          "poiche",
+          "polo",
+          "presenta",
+          "ralph",
+          "segnalato",
+          "ultima",
+          "una"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10665811094",
+        "t": [
+          "a10",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
