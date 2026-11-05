@@ -11996,6 +11996,39 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10675417586",
+        "t": [
+          "coste",
+          "cotone",
+          "invernale",
+          "maglia",
+          "maglione",
+          "pesante",
+          "poche",
+          "volte"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10675421970",
+        "t": [
+          "capuche",
+          "dimensions",
+          "etiquette",
+          "lauren",
+          "mais",
+          "petit",
+          "pull",
+          "ralph",
+          "superbe"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
