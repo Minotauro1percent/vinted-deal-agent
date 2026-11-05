@@ -12923,6 +12923,60 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 2
+      },
+      {
+        "id": "10676854335",
+        "t": [
+          "come",
+          "cotone",
+          "lauren",
+          "lunghezza",
+          "maglione",
+          "maniche",
+          "misure",
+          "ralph",
+          "spalle"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676784794",
+        "t": [
+          "lauren",
+          "mais",
+          "pull",
+          "ralph",
+          "xxl"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676858603",
+        "t": [
+          "lang",
+          "lauren",
+          "oversize",
+          "pullover",
+          "ralph"
+        ],
+        "c": "",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10676781850",
+        "t": [
+          "lauren",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
