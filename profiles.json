@@ -13780,6 +13780,17 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10680112459",
+        "t": [
+          "ralph",
+          "shirt",
+          "sweat"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
