@@ -1,9 +1,2 @@
-2026-11-05 10:13:56 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 10:13:56 UTC Suche „RalphLauren“
-2026-11-05 10:14:06 UTC RalphLauren: 18 neu, 7 in der Vorauswahl (Schwelle 0.66), 2 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-05 10:14:09 UTC Ausgeschlossen 10673467201: Flecken / Löcher
-2026-11-05 10:14:21 UTC Bildprüfung verwirft 10673507855 (12: ohne Zopfmuster: Kein Zopfmuster erkennbar; Größe 14-16 deutet auf Kinderware hi)
-2026-11-05 10:14:25 UTC Ausgeschlossen 10673466592: Flecken / Löcher
-2026-11-05 10:14:25 UTC Suche „Juicy Couture“
-2026-11-05 10:14:25 UTC Juicy Couture: noch keine Beispiele
-2026-11-05 10:14:25 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-05 10:18:38 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 10:18:38 UTC Keine Suche fällig
