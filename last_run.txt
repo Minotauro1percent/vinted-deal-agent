@@ -1,18 +1,4 @@
-2026-11-05 14:46:35 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 14:46:35 UTC Suche „RalphLauren“
-2026-11-05 14:46:42 UTC RalphLauren: 32 neu, 21 in der Vorauswahl (Schwelle 0.50), 6 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-05 14:46:50 UTC Bildprüfung verwirft 10676665555 (10: ohne Zopfmuster-Strick: Kein Zopfmuster, zerknittertes Material, kein sichtbares)
-2026-11-05 14:46:54 UTC Ausgeschlossen 10676639294: Flecken / Löcher
-2026-11-05 14:47:00 UTC Ausgeschlossen 10676707876: V-Ausschnitt
-2026-11-05 14:47:04 UTC Ausgeschlossen 10676673662: Kinder
-2026-11-05 14:47:07 UTC Ausgeschlossen 10676627973: V-Ausschnitt
-2026-11-05 14:47:12 UTC Ausgeschlossen 10676741921: V-Ausschnitt
-2026-11-05 14:47:15 UTC Ausgeschlossen 10676755313: Flecken / Löcher
-2026-11-05 14:47:22 UTC Ausgeschlossen 10676695505: Flecken / Löcher
-2026-11-05 14:47:29 UTC Bildprüfung verwirft 10676690820 (15: ohne Zopfmuster: Glatter Strick statt Zopfmuster, wie bei abgelehnter Anzeige.)
-2026-11-05 14:47:39 UTC Bildprüfung verwirft 10676732612 (12: ohne Zopfmuster (Strick): Glatter Stoff ohne Zopfmuster, ähnelt abgelehntem Mode)
-2026-11-05 14:47:48 UTC Bildprüfung 10676731253: unlesbare Antwort:  (stop=max_tokens)
-2026-11-05 14:47:55 UTC Bildprüfung 10676738914: unlesbare Antwort: {"merkmal (stop=max_tokens)
-2026-11-05 14:47:55 UTC Suche „Juicy Couture“
-2026-11-05 14:47:55 UTC Juicy Couture: noch keine Beispiele
-2026-11-05 14:47:55 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-05 14:52:08 UTC Telegram: 1 neue Nachricht(en)
+2026-11-05 14:52:08 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
+2026-11-05 14:52:09 UTC Feedback verarbeitet: ralphlauren
+2026-11-05 14:52:09 UTC Keine Suche fällig
