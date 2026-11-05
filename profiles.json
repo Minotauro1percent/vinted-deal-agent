@@ -13283,6 +13283,20 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10678024885",
+        "t": [
+          "lana",
+          "lauren",
+          "maglione",
+          "polo",
+          "ralph",
+          "rosso"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
