@@ -11890,6 +11890,27 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10675163287",
+        "t": [
+          "lauren",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10675221969",
+        "t": [
+          "maglia",
+          "nera"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
