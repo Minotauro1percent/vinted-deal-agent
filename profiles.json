@@ -14279,6 +14279,65 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10681835649",
+        "t": [
+          "alcott",
+          "bianco",
+          "caldo",
+          "maglione"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10681810838",
+        "t": [
+          "basic",
+          "brust",
+          "bundchen",
+          "details",
+          "dezent",
+          "dunkelgrau",
+          "dunkelgrun",
+          "dunklem",
+          "erganzen",
+          "fur",
+          "gebraucht",
+          "gerippte",
+          "gesticktes",
+          "grau",
+          "herbst",
+          "klassischer",
+          "lauren",
+          "logo",
+          "material",
+          "meliert",
+          "mix",
+          "oliv",
+          "pflegeetikett",
+          "polo",
+          "pony",
+          "ralph",
+          "rundhalsausschnitt",
+          "saum",
+          "strickpullover",
+          "ton",
+          "vermutlich",
+          "weicher",
+          "winter",
+          "woll",
+          "wolle",
+          "wollstrick",
+          "zeitloses",
+          "zopfmuster",
+          "zopfstrick"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
       }
     ]
   }
