@@ -1,4 +1,19 @@
-2026-11-05 17:25:54 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 17:25:54 UTC Suche „Xiaomi 17“
-2026-11-05 17:25:59 UTC Xiaomi 17: 1 neue Kandidaten
-2026-11-05 17:25:59 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-11-05 17:30:15 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 17:30:15 UTC Suche „RalphLauren“
+2026-11-05 17:30:23 UTC RalphLauren: 45 neu, 29 in der Vorauswahl (Schwelle 0.50), 11 per Lernmodell aussortiert, Bild-Budget 8
+2026-11-05 17:30:26 UTC Ausgeschlossen 10678983150: V-Ausschnitt
+2026-11-05 17:30:30 UTC Ausgeschlossen 10678908332: Flecken / Löcher
+2026-11-05 17:30:37 UTC Bildprüfung 10677633257: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 17:30:40 UTC Ausgeschlossen 10678959849: V-Ausschnitt
+2026-11-05 17:30:46 UTC Ausgeschlossen 10678934651: V-Ausschnitt
+2026-11-05 17:30:52 UTC Ausgeschlossen 10678975128: V-Ausschnitt
+2026-11-05 17:30:58 UTC Ausgeschlossen 10678884003: V-Ausschnitt
+2026-11-05 17:31:08 UTC Ausgeschlossen 10678945785: Flecken / Löcher
+2026-11-05 17:31:14 UTC Bildprüfung ok 10678998653 (92: Navy Zopfstrick-Pullover mit Rundhals und Pony-Logo, passt zu Suche)
+2026-11-05 17:31:19 UTC Ausgeschlossen 10678949762: V-Ausschnitt
+2026-11-05 17:31:26 UTC Bildprüfung verwirft 10678925976 (5: ohne Zopfstrick: Glatter Strick statt Zopfmuster; V-Ausschnitt ist ausgeschlosse)
+2026-11-05 17:31:34 UTC Bildprüfung verwirft 10678925202 (10: ohne Zopfstrick: Glatter Sweat-Halbzip statt Zopfstrickpullover, Art des Artikel)
+2026-11-05 17:31:40 UTC Bildprüfung verwirft 10678964653 (10: ohne Zopfmuster: Grobstrick ohne Zopfmuster, kein sichtbares Logo, Marke unklar)
+2026-11-05 17:31:40 UTC Suche „Juicy Couture“
+2026-11-05 17:31:40 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 17:31:40 UTC Suche fertig: 1 neue Deals (2 Suchen)
