@@ -11010,6 +11010,21 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10673742664",
+        "t": [
+          "blu",
+          "lauren",
+          "piccolo",
+          "pullover",
+          "ralph",
+          "spalle",
+          "veste"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
