@@ -11113,6 +11113,73 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10674043576",
+        "t": [
+          "armellange",
+          "beigefugt",
+          "besseren",
+          "brust",
+          "brustweite",
+          "casualstyle",
+          "einschatzung",
+          "etikett",
+          "fotos",
+          "gelb",
+          "gepflegt",
+          "gestreift",
+          "grossel",
+          "hellblau",
+          "herrenmode",
+          "klassischen",
+          "kleinem",
+          "lange",
+          "lauren",
+          "laut",
+          "logo",
+          "masse",
+          "modell",
+          "muster",
+          "nichtraucherhaushalt",
+          "polo",
+          "poloralphlauren",
+          "pullover",
+          "ralph",
+          "ralphlauren",
+          "rundhalsausschnitt",
+          "schoner",
+          "streifen",
+          "zollstock"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10674080838",
+        "t": [
+          "guter",
+          "lauten",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10673948070",
+        "t": [
+          "bleu",
+          "lauren",
+          "presque",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
