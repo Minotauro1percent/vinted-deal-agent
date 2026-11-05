@@ -13791,6 +13791,80 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10680354156",
+        "t": [
+          "martina"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10680403085",
+        "t": [
+          "arancione",
+          "bene",
+          "blu",
+          "brand",
+          "che",
+          "colore",
+          "contrasto",
+          "cotone",
+          "cotton",
+          "elegante",
+          "elettrico",
+          "fit",
+          "iconico",
+          "ideale",
+          "lauren",
+          "leggero",
+          "logo",
+          "maglione",
+          "materiale",
+          "morbidissimo",
+          "pelle",
+          "perfetto",
+          "pima",
+          "polo",
+          "ralph",
+          "ricamato",
+          "ricercati",
+          "slim",
+          "stagioni",
+          "sulla",
+          "taglio",
+          "tutte",
+          "veste",
+          "vestibilita"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10680426046",
+        "t": [
+          "car",
+          "choisir",
+          "coton",
+          "dans",
+          "departement",
+          "enormement",
+          "lauren",
+          "merci",
+          "mon",
+          "noir",
+          "pull",
+          "ralph",
+          "soucis",
+          "transporteur",
+          "vinted"
+        ],
+        "c": "",
+        "ok": false,
+        "w": 1
       }
     ]
   }
