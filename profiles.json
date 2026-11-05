@@ -12977,6 +12977,53 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10676972841",
+        "t": [
+          "come",
+          "condizini",
+          "lauren",
+          "longsleeve",
+          "lunghezza",
+          "majiche",
+          "misure",
+          "over",
+          "perfetta",
+          "questa",
+          "ralph",
+          "spalle",
+          "stagione",
+          "una",
+          "veste"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676954897",
+        "t": [
+          "geworden",
+          "klein",
+          "lauren",
+          "mir",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676895426",
+        "t": [
+          "maglia",
+          "maglioni"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
       }
     ]
   }
