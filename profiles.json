@@ -11025,6 +11025,35 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10673901607",
+        "t": [
+          "beige",
+          "cotele",
+          "lauren",
+          "maille",
+          "polo",
+          "pull",
+          "ralph",
+          "xxl"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10673936859",
+        "t": [
+          "cotone",
+          "lauren",
+          "maglione",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
