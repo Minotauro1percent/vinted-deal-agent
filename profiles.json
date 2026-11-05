@@ -13159,6 +13159,18 @@
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
         "w": 1
+      },
+      {
+        "id": "10677659654",
+        "t": [
+          "lauren",
+          "marque",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
