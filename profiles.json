@@ -13446,6 +13446,34 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10678585494",
+        "t": [
+          "aber",
+          "genutzter",
+          "guten",
+          "lauren",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10678539785",
+        "t": [
+          "lauren",
+          "polo",
+          "pullover",
+          "ralph",
+          "schoner",
+          "strickpullover"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
       }
     ]
   }
