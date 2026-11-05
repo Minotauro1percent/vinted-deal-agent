@@ -2801,46 +2801,46 @@
         "torsade": 0.0842,
         "torsade gris": 0.0794,
         "envoie": 0.0794,
-        "brand ralph": 0.0794,
         "all": 0.0794,
         "brand": 0.0794,
-        "cableknit": 0.0794,
-        "ralphlauren poloralphlauren": 0.0794,
+        "brand ralph": 0.0794,
         "una": 0.0794,
-        "perfetto": 0.0794,
         "trecce cable": 0.0794,
         "iconico": 0.0794,
+        "ralphlauren poloralphlauren": 0.0794,
+        "perfetto": 0.0794,
+        "cableknit": 0.0794,
         "lauren cable": 0.0794,
         "matiere coton": 0.0794,
         "blanc casse": 0.0794,
         "casse": 0.0794,
-        "chaque": 0.0794,
+        "doux": 0.0794,
+        "doux maille": 0.0794,
         "basique": 0.0794,
+        "chaque": 0.0794,
         "frais": 0.0794,
         "peut": 0.0794,
-        "doux maille": 0.0794,
-        "doux": 0.0794,
         "confortable": 0.0794,
         "derriere": 0.0794,
-        "brust": 0.0794,
-        "hohen kragen": 0.0794,
         "befindet": 0.0794,
-        "schwarzen": 0.0794,
-        "durch": 0.0794,
-        "interesse": 0.0794,
-        "interesse melden": 0.0794,
-        "logo brust": 0.0794,
-        "klassisches": 0.0794,
-        "kragen": 0.0794,
-        "hohen": 0.0794,
+        "brust": 0.0794,
         "befindet sich": 0.0794,
+        "hohen kragen": 0.0794,
+        "logo brust": 0.0794,
+        "interesse melden": 0.0794,
+        "hohen": 0.0794,
+        "interesse": 0.0794,
         "schwarzen ralph": 0.0794,
         "reissverschluss": 0.0794,
+        "durch": 0.0794,
+        "schwarzen": 0.0794,
+        "klassisches": 0.0794,
         "pullover befindet": 0.0794,
+        "kragen": 0.0794,
         "wurde": 0.0794,
         "retreci": 0.0794,
         "comme": 0.0794,
-        "hat": 0.0794
+        "dem": 0.0794
       },
       "brand_words": [
         "lauren",
@@ -2898,7 +2898,7 @@
       "text_ref": 0.243,
       "threshold": 0.5
     },
-    "updated": 1793885049,
+    "updated": 1793885301,
     "vlog": [
       {
         "id": "10473535736",
@@ -12039,6 +12039,56 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10675570715",
+        "t": [
+          "dunkelblauer",
+          "dunkelrotem",
+          "lauren",
+          "logo",
+          "ralph",
+          "rundhalsausschnittt",
+          "strickpullover"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10675691394",
+        "t": [
+          "longue"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10675642359",
+        "t": [
+          "girocollo",
+          "lana",
+          "maglia",
+          "perfette",
+          "pochissimo",
+          "uomo"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10675673080",
+        "t": [
+          "homme",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
