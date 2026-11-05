@@ -1,7 +1,10 @@
-2026-11-05 21:28:57 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 21:28:57 UTC Suche „RalphLauren“
-2026-11-05 21:28:57 UTC Bildprüfung: Tageslimit erreicht – Lern-Suchen mit Bildprüfung pausieren bis Mitternacht
-2026-11-05 21:28:57 UTC RalphLauren: Bildprüfung gerade nicht möglich (Tageslimit) – Suche wartet
-2026-11-05 21:28:58 UTC Suche „Juicy Couture“
-2026-11-05 21:28:58 UTC Juicy Couture: noch keine Beispiele
-2026-11-05 21:28:58 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-05 21:33:08 UTC Telegram: 1 neue Nachricht(en)
+2026-11-05 21:33:08 UTC Befehl /nightmode []
+2026-11-05 21:33:09 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-05 21:33:09 UTC Suche „RalphLauren“
+2026-11-05 21:33:09 UTC RalphLauren: Bildprüfung gerade nicht möglich (Tageslimit) – Suche wartet
+2026-11-05 21:33:09 UTC Suche „Juicy Couture“
+2026-11-05 21:33:09 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 21:33:09 UTC Suche „Xiaomi 17“
+2026-11-05 21:33:14 UTC Xiaomi 17: 0 neue Kandidaten
+2026-11-05 21:33:14 UTC Suche fertig: 0 neue Deals (3 Suchen)
