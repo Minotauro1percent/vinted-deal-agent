@@ -13946,6 +13946,51 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10680586915",
+        "t": [
+          "blu",
+          "chiaro",
+          "lauren",
+          "maglione",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10680605026",
+        "t": [
+          "brode",
+          "celebre",
+          "chic",
+          "col",
+          "cotelees",
+          "details",
+          "finitions",
+          "gris",
+          "joli",
+          "lauren",
+          "logo",
+          "longues",
+          "marque",
+          "noir",
+          "partait",
+          "poitrine",
+          "polo",
+          "pony",
+          "preppy",
+          "pull",
+          "ralph",
+          "rond",
+          "streetwear"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
