@@ -1,2 +1,14 @@
-2026-11-05 13:53:33 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 13:53:33 UTC Keine Suche fällig
+2026-11-05 13:57:44 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 13:57:45 UTC Suche „RalphLauren“
+2026-11-05 13:57:53 UTC RalphLauren: 20 neu, 11 in der Vorauswahl (Schwelle 0.50), 1 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-05 13:58:00 UTC Bildprüfung verwirft 10676078343 (25: ohne Zopfmuster: Gestreift statt Zopfmuster, dünner Stoff, nicht typisch für ges)
+2026-11-05 13:58:03 UTC Ausgeschlossen 10676040539: Kinder
+2026-11-05 13:58:09 UTC Bildprüfung verwirft 10648752777 (20: ohne Zopfmuster: Gestreifter glatter Strick statt Zopfmuster, ähnelt abgelehntem)
+2026-11-05 13:58:18 UTC Bildprüfung ok 10676033756 (92: Weißer Zopfstrickpullover mit Rundhals und Polo-Logo, passt zu den Beispielen.)
+2026-11-05 13:58:28 UTC Bildprüfung verwirft 10675981561 (15: ohne Zopfmuster-Strick: Glatter Strick ohne Zopfmuster, ähnelt den abgelehnten B)
+2026-11-05 13:58:31 UTC Ausgeschlossen 10676043444: V-Ausschnitt
+2026-11-05 13:58:37 UTC Bildprüfung verwirft 10675998437 (10: ohne Zopfmuster: V-Ausschnitt und glattes Strickbild, kein Zopfmuster)
+2026-11-05 13:58:44 UTC Bildprüfung verwirft 10676008522 (20: )
+2026-11-05 13:58:44 UTC Suche „Juicy Couture“
+2026-11-05 13:58:44 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 13:58:44 UTC Suche fertig: 1 neue Deals (2 Suchen)
