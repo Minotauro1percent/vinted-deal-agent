@@ -11613,6 +11613,44 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10675005722",
+        "t": [
+          "maglione",
+          "piccolo",
+          "polo",
+          "rosso",
+          "veste"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10674675644",
+        "t": [
+          "12ans",
+          "bleu",
+          "col",
+          "coton",
+          "de10",
+          "garcon",
+          "gris",
+          "joli",
+          "lauren",
+          "logo",
+          "p46",
+          "polo",
+          "pull",
+          "ralph",
+          "raye",
+          "rouge",
+          "zippe"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
