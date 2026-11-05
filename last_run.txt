@@ -1,5 +1,19 @@
-2026-11-05 14:32:16 UTC Telegram: 1 neue Nachricht(en)
-2026-11-05 14:32:18 UTC Feedback verarbeitet: ralphlauren
-2026-11-05 14:32:18 UTC Suche „Xiaomi 17“
-2026-11-05 14:32:24 UTC Xiaomi 17: 1 neue Kandidaten
-2026-11-05 14:32:24 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-11-05 14:36:37 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 14:36:37 UTC Suche „RalphLauren“
+2026-11-05 14:36:46 UTC RalphLauren: 35 neu, 23 in der Vorauswahl (Schwelle 0.50), 5 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-05 14:36:52 UTC Bildprüfung ok 10676599378 (92: Zopfmuster, Rundhals, Logo vorhanden, Ralph Lauren, keine Ausschlusskriterien)
+2026-11-05 14:36:57 UTC Ausgeschlossen 10676497366: V-Ausschnitt
+2026-11-05 14:37:03 UTC Bildprüfung ok 10676502094 (85: )
+2026-11-05 14:37:07 UTC Ausgeschlossen 10676510384: Flecken / Löcher
+2026-11-05 14:37:10 UTC Ausgeschlossen 10676579931: V-Ausschnitt
+2026-11-05 14:37:13 UTC Ausgeschlossen 10669323791: V-Ausschnitt
+2026-11-05 14:37:19 UTC Bildprüfung 10676581417: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 14:37:27 UTC Ausgeschlossen 10676602460: V-Ausschnitt
+2026-11-05 14:37:39 UTC Bildprüfung ok 10676552106 (92: Zopfstrick, Rundhals, Polo-Logo; passt zu den Beispielen)
+2026-11-05 14:37:50 UTC Bildprüfung 10676533764: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 14:37:56 UTC Bildprüfung ok 10676486966 (88: Zopfstrick, Rundhals, Logo vorhanden, Stil passt zu Beispielen)
+2026-11-05 14:38:00 UTC Ausgeschlossen 10676486608: Flecken / Löcher
+2026-11-05 14:38:06 UTC Bildprüfung 10676573072: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 14:38:09 UTC Suche „Juicy Couture“
+2026-11-05 14:38:09 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 14:38:09 UTC Suche fertig: 4 neue Deals (2 Suchen)

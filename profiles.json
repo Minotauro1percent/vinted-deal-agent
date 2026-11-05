@@ -12730,6 +12730,89 @@
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
         "w": 2
+      },
+      {
+        "id": "10676599378",
+        "t": [
+          "acqua",
+          "bellissimo",
+          "capo",
+          "chiaro",
+          "color",
+          "contrasto",
+          "cotone",
+          "firmato",
+          "iconico",
+          "lauren",
+          "lilla",
+          "maglione",
+          "originale",
+          "pastello",
+          "petto",
+          "pony",
+          "ralph",
+          "ricamato",
+          "sul",
+          "trecce",
+          "verde",
+          "viola"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10676502094",
+        "t": [
+          "50cm",
+          "bas",
+          "cachemire",
+          "laine",
+          "mode",
+          "pull",
+          "utilise"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10676552106",
+        "t": [
+          "gelber",
+          "gestrickter",
+          "hellblauen",
+          "lauren",
+          "pferd",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10676486966",
+        "t": [
+          "chat",
+          "classico",
+          "dorato",
+          "girocollo",
+          "info",
+          "lauren",
+          "logo",
+          "maggiori",
+          "maglia",
+          "maglione",
+          "modello",
+          "pullover",
+          "ralph",
+          "scrivimi",
+          "trecce"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
       }
     ]
   }
