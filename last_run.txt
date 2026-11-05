@@ -1,2 +1,10 @@
-2026-11-05 15:11:30 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 15:11:30 UTC Keine Suche fällig
+2026-11-05 15:15:45 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 15:15:45 UTC Suche „RalphLauren“
+2026-11-05 15:15:54 UTC RalphLauren: 44 neu, 19 in der Vorauswahl (Schwelle 0.50), 12 per Lernmodell aussortiert, Bild-Budget 8
+2026-11-05 15:15:59 UTC Bildprüfung verwirft 10677134720 (10: ohne Zopfmuster-Strick: Glatter Strick statt Zopfmuster, zudem V-Ausschnitt)
+2026-11-05 15:16:05 UTC Bildprüfung 10677151217: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 15:16:12 UTC Ausgeschlossen 10676953365: Flecken / Löcher
+2026-11-05 15:16:17 UTC Bildprüfung ok 10677119979 (90: Ralph Lauren Zopfstrick-Pullover mit Rundhals und Logo, passt gut)
+2026-11-05 15:16:26 UTC Suche „Juicy Couture“
+2026-11-05 15:16:26 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 15:16:26 UTC Suche fertig: 1 neue Deals (2 Suchen)

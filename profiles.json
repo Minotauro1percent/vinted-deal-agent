@@ -13024,6 +13024,30 @@
         "c": "Damen Strickpullover",
         "ok": true,
         "w": 1
+      },
+      {
+        "id": "10677134720",
+        "t": [
+          "lauren",
+          "noir",
+          "polo",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10677119979",
+        "t": [
+          "girocollo",
+          "pullover",
+          "uomo"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
       }
     ]
   }
