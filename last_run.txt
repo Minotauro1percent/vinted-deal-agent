@@ -1,2 +1,11 @@
-2026-11-05 07:26:49 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 07:26:49 UTC Keine Suche fällig
+2026-11-05 07:31:00 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 07:31:00 UTC Suche „RalphLauren“
+2026-11-05 07:31:11 UTC RalphLauren: 15 neu, 8 in der Vorauswahl (Schwelle 0.66), 3 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-05 07:31:17 UTC Bildprüfung verwirft 10672180974 (15: Zopfmuster passt, aber kein sichtbares Logo; Ausschlusskriterium greift)
+2026-11-05 07:31:23 UTC Bildprüfung verwirft 10672181483 (72: Zopfstrick und Ralph-Lauren-Logo, aber Halbreißverschluss statt Rundhals)
+2026-11-05 07:31:29 UTC Bildprüfung verwirft 10672180383 (15: ohne Zopfmuster-Strick: Feinstrick ohne Zopfmuster, Lauren-Wappenlogo statt Pony)
+2026-11-05 07:31:29 UTC Details übersprungen (10672191222): HTTP 503 für https://www.vinted.at/items/10672191222-maglione-ralph-lauren-non-acquistare
+2026-11-05 07:31:32 UTC Ausgeschlossen 10672168268: V-Ausschnitt
+2026-11-05 07:31:32 UTC Suche „Juicy Couture“
+2026-11-05 07:31:32 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 07:31:32 UTC Suche fertig: 0 neue Deals (2 Suchen)
