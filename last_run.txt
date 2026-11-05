@@ -1,4 +1,19 @@
-2026-11-05 12:37:47 UTC Telegram: 1 neue Nachricht(en)
-2026-11-05 12:37:48 UTC Telegram-Fehler answerCallbackQuery 400 {"ok":false,"error_code":400,"description":"Bad Request: query is too old and response timeout expired or query ID is invalid"}
-2026-11-05 12:37:48 UTC Feedback verarbeitet: ralphlauren
-2026-11-05 12:37:49 UTC Keine Suche fällig
+2026-11-05 12:42:01 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 12:42:01 UTC Suche „RalphLauren“
+2026-11-05 12:42:09 UTC RalphLauren: 34 neu, 15 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-05 12:42:16 UTC Bildprüfung verwirft 10675080704 (8: )
+2026-11-05 12:42:22 UTC Bildprüfung ok 10675062500 (92: Zopfstrick, Rundhals, Logo sichtbar, keine Ausschlusskriterien erkennbar)
+2026-11-05 12:42:28 UTC Bildprüfung ok 10675070882 (92: Gelber Zopfstrick, Rundhals, Logo; passt zu den Beispielen)
+2026-11-05 12:42:32 UTC Ausgeschlossen 10675097494: V-Ausschnitt
+2026-11-05 12:42:37 UTC Bildprüfung verwirft 10663697645 (20: ohne Zopfmuster: Waffel-Thermostrick statt Zopfmuster, ähnelt abgelehnten glatte)
+2026-11-05 12:42:40 UTC Ausgeschlossen 10675086574: V-Ausschnitt
+2026-11-05 12:42:46 UTC Bildprüfung verwirft 10674640267 (15: ohne Zopfmuster (Zopfstrick): Glatter Strick ohne erkennbares Zopfmuster, ähnelt)
+2026-11-05 12:42:53 UTC Bildprüfung 10674876032: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 12:42:56 UTC Ausgeschlossen 10674860334: V-Ausschnitt
+2026-11-05 12:42:59 UTC Ausgeschlossen 10675072736: V-Ausschnitt
+2026-11-05 12:43:05 UTC Bildprüfung verwirft 10674688461 (15: ohne Zopfmuster: Kein Zopfmuster, flauschiger Strick und kurzer Schnitt.)
+2026-11-05 12:43:10 UTC Bildprüfung verwirft 10674872891 (15: ohne Zopfmuster-Strick: Glatter Strick ohne Zopfmuster, ähnelt den abgelehnten B)
+2026-11-05 12:43:16 UTC Bildprüfung verwirft 10674781811 (15: ohne Zopfmuster-Strick: Glatter Sweatshirt-Stoff statt Zopfstrick, ähnelt abgele)
+2026-11-05 12:43:17 UTC Suche „Juicy Couture“
+2026-11-05 12:43:17 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 12:43:17 UTC Suche fertig: 2 neue Deals (2 Suchen)
