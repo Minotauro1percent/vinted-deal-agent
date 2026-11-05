@@ -13474,6 +13474,34 @@
         "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10678681669",
+        "t": [
+          "acceso",
+          "bellissimo",
+          "colore",
+          "fucsia",
+          "girocollo",
+          "iconico",
+          "intrecciata",
+          "lauren",
+          "lavorazione",
+          "logo",
+          "lunghe",
+          "maglione",
+          "maniche",
+          "originale",
+          "petto",
+          "polo",
+          "ralph",
+          "ricamato",
+          "sul",
+          "trecce"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
       }
     ]
   }
