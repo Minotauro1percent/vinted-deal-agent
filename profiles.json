@@ -11438,6 +11438,41 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10674691047",
+        "t": [
+          "blue",
+          "capo",
+          "colore",
+          "cotone",
+          "discrete",
+          "elettrico",
+          "fit",
+          "lauren",
+          "maglione",
+          "marca",
+          "polo",
+          "ralph",
+          "slim",
+          "uomo"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10674675246",
+        "t": [
+          "lauren",
+          "maille",
+          "polo",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
