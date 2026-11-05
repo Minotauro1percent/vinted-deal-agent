@@ -14068,6 +14068,36 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10681443937",
+        "t": [
+          "cotone",
+          "golf",
+          "pullover"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10681293870",
+        "t": [
+          "donc",
+          "grand",
+          "lauren",
+          "logo",
+          "mais",
+          "noir",
+          "plutot",
+          "pull",
+          "ralph",
+          "ralphlauren",
+          "rouge"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
