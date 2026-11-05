@@ -1,13 +1,2 @@
-2026-11-05 08:52:38 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 08:52:39 UTC Suche „RalphLauren“
-2026-11-05 08:52:48 UTC RalphLauren: 24 neu, 12 in der Vorauswahl (Schwelle 0.66), 2 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-05 08:52:59 UTC Bildprüfung verwirft 10672723607 (10: )
-2026-11-05 08:53:08 UTC Ausgeschlossen 10672602279: V-Ausschnitt
-2026-11-05 08:53:12 UTC Ausgeschlossen 10672641113: Flecken / Löcher
-2026-11-05 08:53:17 UTC Bildprüfung verwirft 10672612741 (5: ohne Zopfmuster-Strick: Kein Zopfmuster, kein sichtbares Ralph-Lauren-Logo; Auss)
-2026-11-05 08:53:21 UTC Details übersprungen (10672721582): HTTP 503 für https://www.vinted.at/items/10672721582-ralph-lauren-pullover-gr-m-in-grun
-2026-11-05 08:53:24 UTC Ausgeschlossen 10672654466: Flecken / Löcher
-2026-11-05 08:53:29 UTC Bildprüfung 10672595924: unlesbare Antwort:  (stop=max_tokens)
-2026-11-05 08:53:29 UTC Suche „Juicy Couture“
-2026-11-05 08:53:29 UTC Juicy Couture: noch keine Beispiele
-2026-11-05 08:53:29 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-05 08:57:40 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 08:57:40 UTC Keine Suche fällig
