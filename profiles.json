@@ -14185,6 +14185,43 @@
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
         "w": 1
+      },
+      {
+        "id": "10681578888",
+        "t": [
+          "brode",
+          "cachemire",
+          "col",
+          "confectionne",
+          "distinctif",
+          "est",
+          "laine",
+          "notre",
+          "poitrine",
+          "poney",
+          "pull",
+          "rehausse",
+          "rond",
+          "texture",
+          "torsade",
+          "tricot"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10681622217",
+        "t": [
+          "lauren",
+          "maglioncino",
+          "polo",
+          "ralph",
+          "rosso"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
