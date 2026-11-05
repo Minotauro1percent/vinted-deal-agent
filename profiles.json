@@ -10061,6 +10061,25 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10671899125",
+        "t": [
+          "active",
+          "blanc",
+          "casse",
+          "col",
+          "lauren",
+          "lrl",
+          "montant",
+          "noir",
+          "pull",
+          "ralph",
+          "zippe"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
