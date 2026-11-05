@@ -1,2 +1,9 @@
-2026-11-05 01:06:24 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 01:06:24 UTC Keine Suche fällig
+2026-11-05 01:10:35 UTC Telegram-Fehler getUpdates 429 {"ok":false,"error_code":429,"description":"Too Many Requests: retry after 5","parameters":{"retry_after":5}}
+2026-11-05 01:10:35 UTC getUpdates fehlgeschlagen: {"ok":false,"error_code":429,"description":"Too Many Requests: retry after 5","parameters":{"retry_after":5}}
+2026-11-05 01:10:35 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 01:10:35 UTC Suche „RalphLauren“
+2026-11-05 01:10:46 UTC RalphLauren: 4 neu, 2 in der Vorauswahl (Schwelle 0.66), 1 per Lernmodell aussortiert, Bild-Budget 6
+2026-11-05 01:10:50 UTC Ausgeschlossen 10670824435: V-Ausschnitt
+2026-11-05 01:10:50 UTC Suche „Juicy Couture“
+2026-11-05 01:10:50 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 01:10:50 UTC Suche fertig: 0 neue Deals (2 Suchen)
