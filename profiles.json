@@ -13048,6 +13048,59 @@
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
         "w": 1
+      },
+      {
+        "id": "10677246431",
+        "t": [
+          "beige",
+          "bleu",
+          "brode",
+          "col",
+          "coton",
+          "lauren",
+          "logo",
+          "longues",
+          "maille",
+          "marine",
+          "marque",
+          "motif",
+          "poitrine",
+          "polo",
+          "pull",
+          "ralph",
+          "rond",
+          "torsadee"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10677202019",
+        "t": [
+          "girocollo",
+          "lauren",
+          "mai",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10677184580",
+        "t": [
+          "caballero",
+          "coudieres",
+          "envoie",
+          "gris",
+          "pull",
+          "similicuir"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
       }
     ]
   }
