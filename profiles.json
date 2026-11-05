@@ -10861,6 +10861,43 @@
         "c": "",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10673204279",
+        "t": [
+          "coton",
+          "depart",
+          "lauren",
+          "marque",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10673172059",
+        "t": [
+          "benissimo",
+          "caldo",
+          "donna",
+          "elle",
+          "felpato",
+          "girocollo",
+          "misura",
+          "perfetto",
+          "ragazza",
+          "stampa",
+          "stato",
+          "tascone",
+          "tenuto",
+          "veste",
+          "vestito"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
