@@ -13733,6 +13733,17 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10679822415",
+        "t": [
+          "donna",
+          "maglione",
+          "polo"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
       }
     ]
   }
