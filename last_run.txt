@@ -1,8 +1,2 @@
-2026-11-05 06:46:44 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 06:46:44 UTC Suche „RalphLauren“
-2026-11-05 06:46:54 UTC RalphLauren: 8 neu, 3 in der Vorauswahl (Schwelle 0.66), Bild-Budget 8
-2026-11-05 06:47:02 UTC Bildprüfung verwirft 10672016602 (5: ohne Zopfmuster: Kein Zopfmuster, Fransen statt Strick, kein sichtbares Ralph-La)
-2026-11-05 06:47:02 UTC Details übersprungen (10672013726): HTTP 404 für https://www.vinted.at/items/10672013726-maglione-ralph-lauren-non-acquistare
-2026-11-05 06:47:06 UTC Suche „Juicy Couture“
-2026-11-05 06:47:06 UTC Juicy Couture: noch keine Beispiele
-2026-11-05 06:47:06 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-05 06:51:17 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 06:51:17 UTC Keine Suche fällig
