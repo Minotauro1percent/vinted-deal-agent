@@ -13101,6 +13101,44 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10677334588",
+        "t": [
+          "cotton",
+          "excellent",
+          "lauren",
+          "measurements",
+          "mens",
+          "ralph",
+          "small",
+          "zip"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10677301966",
+        "t": [
+          "design",
+          "fur",
+          "lauren",
+          "logo",
+          "outfits",
+          "perfekt",
+          "polo",
+          "pullover",
+          "ralph",
+          "rotem",
+          "schlichtes",
+          "schwarz",
+          "schwarzer",
+          "streetwear"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
