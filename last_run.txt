@@ -1,4 +1,15 @@
-2026-11-05 18:23:16 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 18:23:16 UTC Suche „Xiaomi 17“
-2026-11-05 18:23:21 UTC Xiaomi 17: 8 neue Kandidaten
-2026-11-05 18:23:24 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-11-05 18:27:36 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 18:27:37 UTC Suche „RalphLauren“
+2026-11-05 18:27:44 UTC RalphLauren: 44 neu, 16 in der Vorauswahl (Schwelle 0.50), 3 per Lernmodell aussortiert, Bild-Budget 8
+2026-11-05 18:27:51 UTC Bildprüfung 10679725951: unlesbare Antwort: {"merkmal": "Zopfm (stop=max_tokens)
+2026-11-05 18:27:59 UTC Bildprüfung verwirft 10679682443 (12: )
+2026-11-05 18:28:05 UTC Ausgeschlossen 10679723685: V-Ausschnitt
+2026-11-05 18:28:11 UTC Bildprüfung verwirft 10679660933 (20: )
+2026-11-05 18:28:17 UTC Bildprüfung 10679759754: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 18:28:26 UTC Bildprüfung 10679775828: unlesbare Antwort: {"merkmal (stop=max_tokens)
+2026-11-05 18:28:32 UTC Bildprüfung 10679759677: unlesbare Antwort: {"merkmal": "Zopfmuster", "hat_ (stop=max_tokens)
+2026-11-05 18:28:36 UTC Bildprüfung verwirft 10679759993 (5: ohne Zopfmuster (Strickart): Gestreifter Rippstrick, kein Zopfmuster; kein Logo )
+2026-11-05 18:28:45 UTC Bildprüfung 10679695522: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 18:28:45 UTC Suche „Juicy Couture“
+2026-11-05 18:28:45 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 18:28:45 UTC Suche fertig: 0 neue Deals (2 Suchen)
