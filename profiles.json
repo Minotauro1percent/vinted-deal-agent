@@ -11408,6 +11408,36 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10674606919",
+        "t": [
+          "lauren",
+          "melden",
+          "pullover",
+          "ralp",
+          "weiteren"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10674498934",
+        "t": [
+          "armel",
+          "beim",
+          "etwas",
+          "kragen",
+          "lauren",
+          "polo",
+          "pullover",
+          "ralph",
+          "verfarbt"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
