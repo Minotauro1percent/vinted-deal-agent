@@ -1,2 +1,18 @@
-2026-11-05 14:12:19 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 14:12:19 UTC Keine Suche fällig
+2026-11-05 14:16:37 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 14:16:37 UTC Suche „RalphLauren“
+2026-11-05 14:16:47 UTC RalphLauren: 34 neu, 25 in der Vorauswahl (Schwelle 0.50), 10 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-05 14:16:52 UTC Bildprüfung ok 10676275765 (72: Zopfstrick und Logo passen, aber Kurzarm statt Langarm)
+2026-11-05 14:17:00 UTC Ausgeschlossen 10676305238: V-Ausschnitt
+2026-11-05 14:17:03 UTC Ausgeschlossen 10676265093: V-Ausschnitt
+2026-11-05 14:17:13 UTC Bildprüfung verwirft 10676270135 (12: ohne Zopfmuster: Glatter Strick ohne Zopfmuster, ähnelt abgelehntem Stil)
+2026-11-05 14:17:23 UTC Bildprüfung verwirft 10676235918 (15: )
+2026-11-05 14:17:29 UTC Bildprüfung 10676320378: unlesbare Antwort:  (stop=max_tokens)
+2026-11-05 14:17:35 UTC Bildprüfung verwirft 10676249632 (15: ohne Zopfmuster: Glatter Strick mit Knopfleiste, kein Zopfmuster; ähnelt abgeleh)
+2026-11-05 14:17:39 UTC Ausgeschlossen 10676257940: V-Ausschnitt
+2026-11-05 14:17:42 UTC Ausgeschlossen 10676253593: V-Ausschnitt
+2026-11-05 14:17:48 UTC Bildprüfung verwirft 10676215134 (15: ohne Zopfmuster: Glatter Strick ohne Zopfmuster, ähnelt abgelehnten Beispielen)
+2026-11-05 14:17:52 UTC Ausgeschlossen 10676291244: V-Ausschnitt
+2026-11-05 14:17:57 UTC Bildprüfung verwirft 10676244486 (20: ohne Zopfmuster: Glatter Stoff mit Schalkragen statt Zopfstrick; ähnelt abgelehn)
+2026-11-05 14:17:57 UTC Suche „Juicy Couture“
+2026-11-05 14:17:57 UTC Juicy Couture: noch keine Beispiele
+2026-11-05 14:17:57 UTC Suche fertig: 1 neue Deals (2 Suchen)

@@ -12461,6 +12461,132 @@
         "c": "",
         "ok": true,
         "w": 1
+      },
+      {
+        "id": "10676275765",
+        "t": [
+          "agreable",
+          "blanc",
+          "bord",
+          "brode",
+          "classique",
+          "col",
+          "cotes",
+          "coton",
+          "cotton",
+          "coupe",
+          "courtes",
+          "details",
+          "doux",
+          "ecru",
+          "femme",
+          "finitions",
+          "lauren",
+          "leger",
+          "logo",
+          "maille",
+          "mailles",
+          "marque",
+          "matiere",
+          "modele",
+          "noir",
+          "pima",
+          "poitrine",
+          "polo",
+          "poney",
+          "pull",
+          "ralph",
+          "rond",
+          "torsade",
+          "torsadee",
+          "torsadees"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10676270135",
+        "t": [
+          "bzw",
+          "fur",
+          "geeignet",
+          "langarmshirt",
+          "lauren",
+          "ralph",
+          "schwarz",
+          "selten",
+          "stretchig",
+          "sweatshirt",
+          "unterwegs",
+          "zuhause"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676235918",
+        "t": [
+          "donna",
+          "lauren",
+          "maglioncino",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676249632",
+        "t": [
+          "bouton",
+          "boutons",
+          "col",
+          "laine",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676215134",
+        "t": [
+          "arm",
+          "blauen",
+          "dem",
+          "etwas",
+          "geben",
+          "gewisse",
+          "guter",
+          "lauren",
+          "pullover",
+          "ralph",
+          "streifen"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10676244486",
+        "t": [
+          "boutons",
+          "chale",
+          "col",
+          "coton",
+          "lauren",
+          "laurens",
+          "ralph",
+          "rouge",
+          "sweat"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
