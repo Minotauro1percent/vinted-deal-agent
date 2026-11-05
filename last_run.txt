@@ -1,14 +1,2 @@
-2026-11-05 15:34:21 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 15:34:21 UTC Suche „RalphLauren“
-2026-11-05 15:34:30 UTC RalphLauren: 29 neu, 17 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 8
-2026-11-05 15:34:33 UTC Ausgeschlossen 10677281431: Flecken / Löcher
-2026-11-05 15:34:36 UTC Ausgeschlossen 10677335449: Flecken / Löcher
-2026-11-05 15:34:43 UTC Bildprüfung 10674619552: unlesbare Antwort: {"merkmal": "Zopfmuster (Cable-Knit)", "hat_merkmal (stop=max_tokens)
-2026-11-05 15:34:49 UTC Bildprüfung verwirft 10677334588 (12: ohne Zopfstrick: Glatter Halbzip-Pullover mit Stehkragen, kein Zopfmuster)
-2026-11-05 15:35:05 UTC Bildprüfung verwirft 10677301966 (12: ohne Zopfstrickmuster: Glatter Sweatstoff statt Zopfstrick, ähnelt den abgelehnt)
-2026-11-05 15:35:12 UTC Ausgeschlossen 10677357342: V-Ausschnitt
-2026-11-05 15:35:15 UTC Ausgeschlossen 10677312258: Flecken / Löcher
-2026-11-05 15:35:23 UTC Ausgeschlossen 10677417559: Kinder
-2026-11-05 15:35:23 UTC Suche „Juicy Couture“
-2026-11-05 15:35:23 UTC Juicy Couture: noch keine Beispiele
-2026-11-05 15:35:23 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-05 15:39:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-05 15:39:34 UTC Keine Suche fällig
