@@ -13139,6 +13139,26 @@
         "c": "Herren Sweater",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10677416284",
+        "t": [
+          "bianco",
+          "caldo",
+          "comodo",
+          "consigliato",
+          "davvero",
+          "lauren",
+          "maglione",
+          "panna",
+          "polo",
+          "ralph",
+          "tiene",
+          "veste"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
       }
     ]
   }
