@@ -1,2 +1,10 @@
-2026-11-06 21:26:52 UTC Telegram: 0 neue Nachricht(en)
-2026-11-06 21:26:52 UTC Keine Suche fällig
+2026-11-06 21:31:04 UTC Telegram: 0 neue Nachricht(en)
+2026-11-06 21:31:05 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-06 21:31:05 UTC Suche „RalphLauren“
+2026-11-06 21:31:14 UTC RalphLauren: 103 neu, 61 in der Vorauswahl (Schwelle 0.50), 26 per Lernmodell aussortiert, Bild-Budget 62
+2026-11-06 21:31:22 UTC Bildprüfung 10694124232: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkm (stop=max_tokens)
+2026-11-06 21:31:29 UTC Ausgeschlossen 10694491736: Flecken / Löcher
+2026-11-06 21:31:32 UTC Ausgeschlossen 10694041430: V-Ausschnitt
+2026-11-06 21:31:37 UTC Bildprüfung ok 10694049003 (92: Zopfstrick, Rundhals, Pony-Logo, keine Ausschlusskriterien erkennbar)
+2026-11-06 21:31:38 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-11-06 21:31:38 UTC Suche fertig: 1 neue Deals (3 Suchen)

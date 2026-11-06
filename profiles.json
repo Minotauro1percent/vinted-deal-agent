@@ -2935,20 +2935,6 @@
     "updated": 1793997388,
     "vlog": [
       {
-        "id": "10544695481",
-        "t": [
-          "blanc",
-          "coton",
-          "femme",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10544570084",
         "t": [
           "brauner",
@@ -14784,6 +14770,18 @@
           "rose",
           "saumon",
           "tresse"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10694049003",
+        "t": [
+          "hellblau",
+          "lauren",
+          "pullover",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": true,
