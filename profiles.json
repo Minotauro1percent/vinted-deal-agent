@@ -2935,31 +2935,6 @@
     "updated": 1794004637,
     "vlog": [
       {
-        "id": "10547352521",
-        "t": [
-          "beige",
-          "bleu",
-          "brode",
-          "col",
-          "ecru",
-          "fermeture",
-          "lauren",
-          "logo",
-          "marine",
-          "motif",
-          "poitrine",
-          "pull",
-          "ralph",
-          "torsades",
-          "zip",
-          "zippe",
-          "zippee"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10547371530",
         "t": [
           "creme",
@@ -14828,6 +14803,20 @@
           "pregiato",
           "profilo",
           "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10695535920",
+        "t": [
+          "envoie",
+          "fin",
+          "lauren",
+          "pull",
+          "ralph",
+          "tricot"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
