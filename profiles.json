@@ -14573,6 +14573,41 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10684870361",
+        "t": [
+          "acquistate",
+          "bordeaux",
+          "color",
+          "donna",
+          "lauren",
+          "lino",
+          "misure",
+          "non",
+          "offerte",
+          "polo",
+          "pullover",
+          "questo",
+          "ralph",
+          "valuto"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10685309762",
+        "t": [
+          "lauren",
+          "mais",
+          "polo",
+          "ralph",
+          "sweat"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
       }
     ]
   }
