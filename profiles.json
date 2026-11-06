@@ -2935,17 +2935,6 @@
     "updated": 1793994073,
     "vlog": [
       {
-        "id": "10532110273",
-        "t": [
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10544695481",
         "t": [
           "blanc",
@@ -14783,6 +14772,21 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10693335712",
+        "t": [
+          "excellent",
+          "lauren",
+          "pull",
+          "ralph",
+          "rose",
+          "saumon",
+          "tresse"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
