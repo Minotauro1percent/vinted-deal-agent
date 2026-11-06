@@ -2935,77 +2935,6 @@
     "updated": 1793980005,
     "vlog": [
       {
-        "id": "10482019273",
-        "t": [
-          "inutilizzo",
-          "lauren",
-          "maglione",
-          "polo",
-          "ralph",
-          "trecce"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": true,
-        "w": 2
-      },
-      {
-        "id": "10492696290",
-        "t": [
-          "cashmere",
-          "lauren",
-          "maglione",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
-        "id": "10490694340",
-        "t": [
-          "ajustee",
-          "apporte",
-          "automne",
-          "chemise",
-          "chic",
-          "cles",
-          "col",
-          "contacter",
-          "cotele",
-          "coupe",
-          "dessous",
-          "devant",
-          "dore",
-          "doree",
-          "dressing",
-          "eclair",
-          "femme",
-          "fermeture",
-          "flatteuse",
-          "hesite",
-          "hiver",
-          "informations",
-          "maille",
-          "marque",
-          "montant",
-          "mots",
-          "noir",
-          "preppy",
-          "pull",
-          "qui",
-          "rehausse",
-          "torsade",
-          "torsadee",
-          "total",
-          "touche",
-          "zip",
-          "zippe"
-        ],
-        "c": "",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10482166923",
         "t": [
           "achete",
@@ -14786,6 +14715,54 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10690801406",
+        "t": [
+          "comprate",
+          "fate",
+          "lauren",
+          "maglioncino",
+          "non",
+          "offerte",
+          "piaciuto",
+          "ralph",
+          "serie",
+          "stato",
+          "visto"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10690669750",
+        "t": [
+          "blanc",
+          "endroits",
+          "lauren",
+          "peluches",
+          "pull",
+          "quelques",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10690529771",
+        "t": [
+          "donna",
+          "girocollo",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]

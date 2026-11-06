@@ -1,2 +1,39 @@
-2026-11-06 16:37:10 UTC Telegram: 0 neue Nachricht(en)
-2026-11-06 16:37:10 UTC Keine Suche fällig
+2026-11-06 16:41:22 UTC Telegram: 0 neue Nachricht(en)
+2026-11-06 16:41:23 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-06 16:41:23 UTC Suche „RalphLauren“
+2026-11-06 16:41:32 UTC RalphLauren: 148 neu, 82 in der Vorauswahl (Schwelle 0.50), 23 per Lernmodell aussortiert, Bild-Budget 17
+2026-11-06 16:41:42 UTC Bildprüfung 10690783075: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:41:45 UTC Ausgeschlossen 10690410217: Flecken / Löcher
+2026-11-06 16:41:52 UTC Bildprüfung 10690743673: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:41:55 UTC Ausgeschlossen 10690674059: V-Ausschnitt
+2026-11-06 16:42:01 UTC Bildprüfung 10690697302: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:42:06 UTC Bildprüfung 10690851854: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:42:12 UTC Bildprüfung 10645539947: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:42:24 UTC Ausgeschlossen 10690993763: V-Ausschnitt
+2026-11-06 16:42:30 UTC Bildprüfung 10690960655: unlesbare Antwort: {"merkmal": "Zopf (stop=max_tokens)
+2026-11-06 16:42:36 UTC Bildprüfung verwirft 10690801406 (15: )
+2026-11-06 16:42:40 UTC Ausgeschlossen 10690550602: Flecken / Löcher
+2026-11-06 16:42:45 UTC Ausgeschlossen 10690943728: V-Ausschnitt
+2026-11-06 16:42:51 UTC Bildprüfung 10690611623: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:42:55 UTC Ausgeschlossen 10690948951: V-Ausschnitt
+2026-11-06 16:42:58 UTC Ausgeschlossen 10690854951: V-Ausschnitt
+2026-11-06 16:43:04 UTC Bildprüfung verwirft 10690669750 (12: ohne Zopfmuster-Strick: Sweatshirt aus glattem Stoff, kein Zopfstrick, großes Bo)
+2026-11-06 16:43:08 UTC Ausgeschlossen 10690851676: V-Ausschnitt
+2026-11-06 16:43:11 UTC Ausgeschlossen 10690638101: V-Ausschnitt
+2026-11-06 16:43:14 UTC Ausgeschlossen 10690401258: V-Ausschnitt
+2026-11-06 16:43:17 UTC Ausgeschlossen 10690649683: Flecken / Löcher
+2026-11-06 16:43:23 UTC Bildprüfung 10690592962: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:43:28 UTC Bildprüfung verwirft 10690529771 (8: ohne Zopfmuster-Strick: Glatter Strick, kein Zopfmuster, kein sichtbares Logo, B)
+2026-11-06 16:43:47 UTC Bildprüfung 10690650617: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:43:52 UTC Bildprüfung 10690932409: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:43:56 UTC Ausgeschlossen 10690892987: V-Ausschnitt
+2026-11-06 16:44:02 UTC Bildprüfung 10690854401: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:44:08 UTC Bildprüfung 10690756266: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:44:14 UTC Bildprüfung 10690699232: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:44:21 UTC Bildprüfung 10690653026: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 16:44:21 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-06 16:44:21 UTC Suche „Juicy Couture“
+2026-11-06 16:44:21 UTC Juicy Couture: noch keine Beispiele
+2026-11-06 16:44:21 UTC Suche „Xiaomi 17“
+2026-11-06 16:44:25 UTC Xiaomi 17: 1 neue Kandidaten
+2026-11-06 16:44:25 UTC Suche fertig: 0 neue Deals (3 Suchen)
