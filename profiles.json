@@ -14519,6 +14519,40 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10682767290",
+        "t": [
+          "accroc",
+          "comme",
+          "coton",
+          "dernieres",
+          "laurent",
+          "leger",
+          "pima",
+          "premium",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10682591749",
+        "t": [
+          "authentique",
+          "defaut",
+          "envoie",
+          "lauren",
+          "pull",
+          "ralph",
+          "rouge",
+          "sans"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
       }
     ]
   }
