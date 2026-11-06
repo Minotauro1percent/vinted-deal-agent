@@ -1,2 +1,26 @@
-2026-11-05 23:18:35 UTC Telegram: 0 neue Nachricht(en)
-2026-11-05 23:18:35 UTC Keine Suche fällig
+2026-11-06 02:46:57 UTC Telegram: 0 neue Nachricht(en)
+2026-11-06 02:46:58 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-06 02:46:58 UTC Suche „RalphLauren“
+2026-11-06 02:47:40 UTC RalphLauren: 137 neu, 79 in der Vorauswahl (Schwelle 0.50), 20 per Lernmodell aussortiert, Bild-Budget 7
+2026-11-06 02:47:49 UTC Bildprüfung verwirft 10683268928 (8: ohne Zopfmuster-Strick: Glatter Stoff ohne Zopfmuster, kein sichtbares Logo, ähn)
+2026-11-06 02:47:56 UTC Bildprüfung verwirft 10683234355 (15: )
+2026-11-06 02:48:19 UTC Bildprüfung 10682112455: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 02:48:53 UTC Ausgeschlossen 10683133021: V-Ausschnitt
+2026-11-06 02:48:56 UTC Ausgeschlossen 10683190140: Flecken / Löcher
+2026-11-06 02:49:00 UTC Ausgeschlossen 10682249759: Flecken / Löcher
+2026-11-06 02:49:06 UTC Bildprüfung 10682199128: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 02:49:11 UTC Bildprüfung 10682494884: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 02:49:18 UTC Bildprüfung 10681227810: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 02:49:22 UTC Ausgeschlossen 10682970173: Flecken / Löcher
+2026-11-06 02:49:25 UTC Ausgeschlossen 10682138283: V-Ausschnitt
+2026-11-06 02:49:28 UTC Ausgeschlossen 10682067692: V-Ausschnitt
+2026-11-06 02:49:46 UTC Ausgeschlossen 10683041415: Flecken / Löcher
+2026-11-06 02:49:50 UTC Ausgeschlossen 10682371432: V-Ausschnitt
+2026-11-06 02:49:52 UTC Ausgeschlossen 10682236521: V-Ausschnitt
+2026-11-06 02:49:58 UTC Bildprüfung verwirft 10682133933 (15: )
+2026-11-06 02:49:58 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-06 02:49:58 UTC Suche „Juicy Couture“
+2026-11-06 02:49:58 UTC Juicy Couture: noch keine Beispiele
+2026-11-06 02:49:58 UTC Suche „Xiaomi 17“
+2026-11-06 02:50:03 UTC Xiaomi 17: 1 neue Kandidaten
+2026-11-06 02:50:03 UTC Suche fertig: 0 neue Deals (3 Suchen)
