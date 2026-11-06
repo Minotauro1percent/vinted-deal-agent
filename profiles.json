@@ -2935,73 +2935,6 @@
     "updated": 1793976373,
     "vlog": [
       {
-        "id": "10480586636",
-        "t": [
-          "black",
-          "fur",
-          "herbst",
-          "lauren",
-          "longsleeve",
-          "ralph",
-          "winterpulli"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
-        "id": "10481631340",
-        "t": [
-          "rosa",
-          "schoner",
-          "strickpulli"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
-        "id": "10482065537",
-        "t": [
-          "indossato",
-          "lauren",
-          "maglione",
-          "paio",
-          "perfette",
-          "ralph",
-          "volte"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
-        "id": "10482105060",
-        "t": [
-          "achete",
-          "avez",
-          "besoin",
-          "blanc",
-          "contacter",
-          "dans",
-          "dernier",
-          "est",
-          "hiver",
-          "informations",
-          "mais",
-          "mon",
-          "placard",
-          "pull",
-          "reste",
-          "souhaite",
-          "vendre",
-          "vous"
-        ],
-        "c": "",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10482019273",
         "t": [
           "inutilizzo",
@@ -14738,6 +14671,118 @@
           "kleiner",
           "polo",
           "pullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10689598828",
+        "t": [
+          "femme",
+          "hiver",
+          "pulls"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10689858968",
+        "t": [
+          "100cotone",
+          "accurato",
+          "ama",
+          "articolo",
+          "autunno",
+          "bellissimo",
+          "brand",
+          "capo",
+          "chi",
+          "classica",
+          "classico",
+          "classicstyle",
+          "colore",
+          "come",
+          "composizione",
+          "cotone",
+          "dal",
+          "design",
+          "dettagli",
+          "difetto",
+          "esclusivamente",
+          "etichetta",
+          "fotografie",
+          "girocollo",
+          "grigio",
+          "iconico",
+          "ideale",
+          "imballaggio",
+          "interna",
+          "intramontabile",
+          "inverno",
+          "lato",
+          "lauren",
+          "logo",
+          "lunghe",
+          "maglione",
+          "maglioneuomo",
+          "maniche",
+          "melange",
+          "menswear",
+          "modello",
+          "money",
+          "mostrato",
+          "nelle",
+          "old",
+          "oldmoney",
+          "originale",
+          "perfetto",
+          "petto",
+          "polo",
+          "poloralphlauren",
+          "polovintage",
+          "pony",
+          "presenta",
+          "ralph",
+          "ralphlauren",
+          "rapida",
+          "ricamato",
+          "riguarda",
+          "rosso"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10690077240",
+        "t": [
+          "lauren",
+          "maglione",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10689798476",
+        "t": [
+          "color",
+          "crema",
+          "elegante",
+          "indossato",
+          "lauren",
+          "maglioncino",
+          "maglione",
+          "mai",
+          "marca",
+          "perfette",
+          "polo",
+          "ralph",
+          "rosso",
+          "simbolo"
         ],
         "c": "Damen Strickpullover",
         "ok": true,
