@@ -14745,6 +14745,24 @@
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
+      },
+      {
+        "id": "10686996310",
+        "t": [
+          "celeste",
+          "colore",
+          "lauren",
+          "maglione",
+          "marca",
+          "pochissimo",
+          "polo",
+          "ralph",
+          "sbagliata",
+          "tiffany"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": true,
+        "w": 1
       }
     ]
   }
