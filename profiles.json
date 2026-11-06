@@ -2935,80 +2935,6 @@
     "updated": 1793972934,
     "vlog": [
       {
-        "id": "10479903521",
-        "t": [
-          "beaucoup",
-          "bien",
-          "brode",
-          "col",
-          "contacter",
-          "correspond",
-          "desormais",
-          "disponibles",
-          "general",
-          "joli",
-          "lauren",
-          "lavage",
-          "logo",
-          "maille",
-          "mais",
-          "merci",
-          "orange",
-          "poitrine",
-          "pull",
-          "question",
-          "ralph",
-          "retreci",
-          "rond",
-          "torsadee",
-          "torsades",
-          "toute",
-          "verifier"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
-        "id": "10480061854",
-        "t": [
-          "bambino",
-          "bimbo",
-          "bordeaux",
-          "brand",
-          "classico",
-          "color",
-          "colore",
-          "del",
-          "dettagli",
-          "elegante",
-          "evidenti",
-          "informazioni",
-          "intramontabile",
-          "lauren",
-          "lievi",
-          "maglia",
-          "maglione",
-          "misure",
-          "non",
-          "perfetto",
-          "pochissimo",
-          "presentare",
-          "puo",
-          "ralph",
-          "scrivimi",
-          "segni",
-          "stagione",
-          "stile",
-          "tempo",
-          "trecce",
-          "ulteriori"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10480586636",
         "t": [
           "black",
@@ -14784,6 +14710,37 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10688594466",
+        "t": [
+          "basso",
+          "cavallino",
+          "crostine",
+          "decorazione",
+          "esclusiva",
+          "macchietta",
+          "maglione",
+          "piccola",
+          "sulle",
+          "viola"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10689003422",
+        "t": [
+          "etwas",
+          "fallt",
+          "kleiner",
+          "polo",
+          "pullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]

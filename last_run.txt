@@ -1,2 +1,20 @@
-2026-11-06 14:36:26 UTC Telegram: 0 neue Nachricht(en)
-2026-11-06 14:36:26 UTC Keine Suche fällig
+2026-11-06 14:40:38 UTC Telegram: 0 neue Nachricht(en)
+2026-11-06 14:40:38 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-06 14:40:38 UTC Suche „RalphLauren“
+2026-11-06 14:40:48 UTC RalphLauren: 140 neu, 66 in der Vorauswahl (Schwelle 0.50), 12 per Lernmodell aussortiert, Bild-Budget 13
+2026-11-06 14:40:50 UTC Ausgeschlossen 10688859814: V-Ausschnitt
+2026-11-06 14:40:57 UTC Bildprüfung 10688575772: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 14:41:02 UTC Bildprüfung 10688953259: unlesbare Antwort:  (stop=max_tokens)
+2026-11-06 14:41:05 UTC Ausgeschlossen 10688828753: V-Ausschnitt
+2026-11-06 14:41:08 UTC Ausgeschlossen 10688983764: V-Ausschnitt
+2026-11-06 14:41:19 UTC Bildprüfung 10688629252: unlesbare Antwort: {"merkmal": "Zopfstrick-Muster", "hat_merk (stop=max_tokens)
+2026-11-06 14:41:22 UTC Ausgeschlossen 10687486435: V-Ausschnitt
+2026-11-06 14:41:25 UTC Ausgeschlossen 10688854425: V-Ausschnitt
+2026-11-06 14:41:28 UTC Ausgeschlossen 10685215058: Kinder
+2026-11-06 14:41:33 UTC Bildprüfung verwirft 10688594466 (10: )
+2026-11-06 14:41:48 UTC Ausgeschlossen 10689295408: V-Ausschnitt
+2026-11-06 14:41:51 UTC Ausgeschlossen 10687377825: V-Ausschnitt
+2026-11-06 14:41:55 UTC Ausgeschlossen 10688968343: Flecken / Löcher
+2026-11-06 14:42:00 UTC Bildprüfung ok 10689003422 (92: Grauer Zopfstrick-Rundhals mit Pony-Logo, passt klar zu den Beispielen.)
+2026-11-06 14:42:01 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-11-06 14:42:01 UTC Suche fertig: 1 neue Deals (3 Suchen)
