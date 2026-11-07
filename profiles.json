@@ -2935,25 +2935,6 @@
     "updated": 1794042249,
     "vlog": [
       {
-        "id": "10551220403",
-        "t": [
-          "aimez",
-          "comment",
-          "convient",
-          "jusqu",
-          "lauren",
-          "pull",
-          "ralph",
-          "rouge",
-          "selon",
-          "tresse",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10557100357",
         "t": [
           "colore",
@@ -14848,6 +14829,18 @@
           "ralph",
           "sich",
           "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10698381888",
+        "t": [
+          "maglioncino",
+          "ottima",
+          "qualita",
+          "rosso"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
