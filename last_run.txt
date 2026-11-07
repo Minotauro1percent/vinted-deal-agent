@@ -1,8 +1,2 @@
-2026-11-07 14:57:57 UTC Telegram: 0 neue Nachricht(en)
-2026-11-07 14:57:57 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
-2026-11-07 14:57:57 UTC Suche „RalphLauren“
-2026-11-07 14:58:06 UTC RalphLauren: 156 neu, 81 in der Vorauswahl (Schwelle 0.50), 50 per Lernmodell aussortiert, Bild-Budget 14
-2026-11-07 14:58:12 UTC Bildprüfung 10702876690: unlesbare Antwort:  (stop=max_tokens)
-2026-11-07 14:58:17 UTC Bildprüfung ok 10703246640 (90: )
-2026-11-07 14:58:17 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-11-07 14:58:17 UTC Suche fertig: 1 neue Deals (3 Suchen)
+2026-11-07 15:02:29 UTC Telegram: 0 neue Nachricht(en)
+2026-11-07 15:02:30 UTC Keine Suche fällig
