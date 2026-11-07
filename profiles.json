@@ -2935,34 +2935,6 @@
     "updated": 1794038627,
     "vlog": [
       {
-        "id": "10552595330",
-        "t": [
-          "gekauft",
-          "hat",
-          "irgendwas",
-          "jedoch",
-          "lachsfarben",
-          "lauren",
-          "mag",
-          "materials",
-          "mein",
-          "peeling",
-          "pink",
-          "pullis",
-          "pullover",
-          "ralph",
-          "set",
-          "sich",
-          "sohn",
-          "uberall",
-          "weiteren",
-          "zwischen"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10551220403",
         "t": [
           "aimez",
@@ -14860,6 +14832,24 @@
           "turquoise"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10697918684",
+        "t": [
+          "aber",
+          "armel",
+          "guter",
+          "lauren",
+          "lost",
+          "nahen",
+          "naht",
+          "ralph",
+          "sich",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
