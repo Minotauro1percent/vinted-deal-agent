@@ -2935,52 +2935,6 @@
     "updated": 1794056563,
     "vlog": [
       {
-        "id": "10464421642",
-        "t": [
-          "48h",
-          "article",
-          "attention",
-          "attentivement",
-          "col",
-          "compte",
-          "correspond",
-          "dernieres",
-          "devant",
-          "ecru",
-          "environ",
-          "etiquette",
-          "femme",
-          "homme",
-          "indiquee",
-          "indiquees",
-          "lauren",
-          "logo",
-          "maille",
-          "manque",
-          "merci",
-          "particulier",
-          "petites",
-          "plusieurs",
-          "polo",
-          "prendre",
-          "presente",
-          "pull",
-          "ralph",
-          "regarder",
-          "regardez",
-          "rond",
-          "satisfaisant",
-          "taches",
-          "torsadee",
-          "tric",
-          "unisexe",
-          "visibles"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10464408585",
         "t": [
           "ample",
@@ -14852,6 +14806,26 @@
           "veste"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10702146818",
+        "t": [
+          "anteriore",
+          "colore",
+          "donna",
+          "giallo",
+          "girocollo",
+          "laterale",
+          "lauren",
+          "logo",
+          "maglione",
+          "marca",
+          "misure",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
