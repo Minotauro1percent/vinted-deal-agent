@@ -2935,43 +2935,6 @@
     "updated": 1794024407,
     "vlog": [
       {
-        "id": "10547395197",
-        "t": [
-          "buco",
-          "cotone",
-          "cucibile",
-          "facilmente",
-          "macchia",
-          "maglione",
-          "piccola",
-          "piccolo",
-          "presenta",
-          "una",
-          "veste"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
-        "id": "10552532792",
-        "t": [
-          "colletto",
-          "fascia",
-          "inferiore",
-          "lauren",
-          "leggermente",
-          "maglione",
-          "polsini",
-          "ralph",
-          "uomo",
-          "usurato"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10552595330",
         "t": [
           "gekauft",
@@ -14871,6 +14834,32 @@
           "privato"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10697025703",
+        "t": [
+          "61cm",
+          "pullover",
+          "strick"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10697054754",
+        "t": [
+          "bordeaux",
+          "lauren",
+          "lots",
+          "polo",
+          "ralph",
+          "sweet",
+          "turquoise"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
