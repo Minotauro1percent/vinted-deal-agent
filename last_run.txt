@@ -1,2 +1,19 @@
-2026-11-07 11:52:03 UTC Telegram: 0 neue Nachricht(en)
-2026-11-07 11:52:03 UTC Keine Suche fällig
+2026-11-07 11:56:14 UTC Telegram: 0 neue Nachricht(en)
+2026-11-07 11:56:15 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-07 11:56:15 UTC Suche „RalphLauren“
+2026-11-07 11:56:22 UTC RalphLauren: 153 neu, 87 in der Vorauswahl (Schwelle 0.50), 46 per Lernmodell aussortiert, Bild-Budget 11
+2026-11-07 11:56:29 UTC Bildprüfung verwirft 10700150230 (15: ohne Zopfmuster-Strick: Glatter Strick statt Zopfmuster, ähnelt den abgelehnten )
+2026-11-07 11:56:38 UTC Bildprüfung 10700381827: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:56:41 UTC Ausgeschlossen 10699918993: V-Ausschnitt
+2026-11-07 11:56:50 UTC Bildprüfung 10700241088: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:56:55 UTC Bildprüfung 10699549543: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:57:01 UTC Bildprüfung 10700296366: unlesbare Antwort: {"merkmal": "Zop (stop=max_tokens)
+2026-11-07 11:57:04 UTC Ausgeschlossen 10699613669: Kinder
+2026-11-07 11:57:07 UTC Ausgeschlossen 10700110614: Kinder
+2026-11-07 11:57:13 UTC Bildprüfung 10699959794: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:57:15 UTC Ausgeschlossen 10699900949: Flecken / Löcher
+2026-11-07 11:57:21 UTC Bildprüfung 10699857440: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:57:26 UTC Ausgeschlossen 10700148975: V-Ausschnitt
+2026-11-07 11:57:31 UTC Bildprüfung ok 10700373084 (92: Zopfstrick, Rundhals, Polo-Logo, keine Ausschlusskriterien erkennbar)
+2026-11-07 11:57:32 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-11-07 11:57:32 UTC Suche fertig: 1 neue Deals (3 Suchen)
