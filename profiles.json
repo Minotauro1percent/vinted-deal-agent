@@ -2935,38 +2935,6 @@
     "updated": 1794077955,
     "vlog": [
       {
-        "id": "10479913821",
-        "t": [
-          "absente",
-          "agreable",
-          "brode",
-          "chic",
-          "chine",
-          "classique",
-          "col",
-          "contacter",
-          "correspond",
-          "coupe",
-          "decontracte",
-          "douce",
-          "etiquette",
-          "gris",
-          "joli",
-          "lauren",
-          "logo",
-          "maille",
-          "poitrine",
-          "pull",
-          "question",
-          "ralph",
-          "toute",
-          "turquoise"
-        ],
-        "c": "Damen Pullover mit V-Ausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10480114845",
         "t": [
           "blaupullover",
@@ -14734,6 +14702,25 @@
           "talla"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10707698082",
+        "t": [
+          "anzeigen",
+          "befindet",
+          "besten",
+          "durchstobern",
+          "gern",
+          "lauren",
+          "meinen",
+          "pullover",
+          "ralph",
+          "sich",
+          "weiteren"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
