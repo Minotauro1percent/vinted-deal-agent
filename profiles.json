@@ -2935,76 +2935,6 @@
     "updated": 1794052903,
     "vlog": [
       {
-        "id": "10477240522",
-        "t": [
-          "90s",
-          "blancs",
-          "bleu",
-          "boutons",
-          "brode",
-          "classique",
-          "coton",
-          "homme",
-          "intemporel",
-          "lauren",
-          "logo",
-          "menswear",
-          "money",
-          "old",
-          "oldmoney",
-          "poitrine",
-          "polo",
-          "poloralphlauren",
-          "preppy",
-          "ralph",
-          "ralphlauren",
-          "rouge",
-          "vinted"
-        ],
-        "c": "Herren Polohemden",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10477373287",
-        "t": [
-          "48h",
-          "blanc",
-          "bleu",
-          "brode",
-          "classique",
-          "col",
-          "coupe",
-          "descriptions",
-          "detail",
-          "detaillees",
-          "dimension",
-          "ecrire",
-          "emballage",
-          "expedition",
-          "fit",
-          "gris",
-          "hesite",
-          "homme",
-          "lauren",
-          "lave",
-          "logo",
-          "polo",
-          "polohomme",
-          "poloralphlauren",
-          "propre",
-          "question",
-          "ralph",
-          "repasse",
-          "rouge",
-          "slim",
-          "transparentes"
-        ],
-        "c": "Herren Polohemden",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10464421642",
         "t": [
           "48h",
@@ -14895,6 +14825,34 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10701072909",
+        "t": [
+          "lauren",
+          "maglione",
+          "perfette",
+          "polo",
+          "ralph",
+          "uomo"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10700072567",
+        "t": [
+          "lauren",
+          "maglione",
+          "nero",
+          "piccolo",
+          "ralph",
+          "veste"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
