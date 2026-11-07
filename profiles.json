@@ -2935,103 +2935,6 @@
     "updated": 1794063750,
     "vlog": [
       {
-        "id": "10465016374",
-        "t": [
-          "abonner",
-          "aset32",
-          "aucun",
-          "brode",
-          "broderie",
-          "cette",
-          "chic",
-          "classique",
-          "comme",
-          "constate",
-          "contacter",
-          "corde",
-          "coton",
-          "croisees",
-          "defaut",
-          "ecru",
-          "femme",
-          "font",
-          "iconique",
-          "integrale",
-          "lauren",
-          "laurenralphlauren",
-          "lots",
-          "maille",
-          "merci",
-          "monogramme",
-          "piece",
-          "poitrine",
-          "preppy",
-          "pull",
-          "pullecru",
-          "pullencoton",
-          "pullenmaille",
-          "pulltorsade",
-          "question",
-          "ralph",
-          "ralphlauren",
-          "reduction",
-          "relief",
-          "rll",
-          "shopping",
-          "torsade",
-          "torsadee",
-          "torsades",
-          "visite",
-          "votre",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10455322937",
-        "t": [
-          "cable",
-          "etikett",
-          "fotos",
-          "knit",
-          "lauren",
-          "laut",
-          "logo",
-          "pullover",
-          "ralph",
-          "schwarz",
-          "schwarzer",
-          "sport",
-          "violettem"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10473452925",
-        "t": [
-          "col",
-          "coton",
-          "femme",
-          "lauren",
-          "laurenralphlauren",
-          "maille",
-          "oldmoney",
-          "pull",
-          "ralph",
-          "ralphlauren",
-          "rose",
-          "torsade",
-          "torsadee"
-        ],
-        "c": "Damen Pullover mit V-Ausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10478101808",
         "t": [
           "armelbundchen",
@@ -14847,6 +14750,49 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10704021603",
+        "t": [
+          "breiten",
+          "creme",
+          "cremefarbenen",
+          "gestreift",
+          "lauren",
+          "navy",
+          "navyblauen",
+          "pullover",
+          "ralph",
+          "streifen"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10704210450",
+        "t": [
+          "kaki",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10704225698",
+        "t": [
+          "lana",
+          "lauren",
+          "maglioncino",
+          "nero",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
