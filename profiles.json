@@ -2935,22 +2935,6 @@
     "updated": 1794088386,
     "vlog": [
       {
-        "id": "10480605348",
-        "t": [
-          "comme",
-          "fils",
-          "gris",
-          "lauren",
-          "mon",
-          "pul",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10480714242",
         "t": [
           "aucun",
@@ -14631,6 +14615,20 @@
           "verde"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10710242830",
+        "t": [
+          "lauren",
+          "maglione",
+          "originale",
+          "polo",
+          "ralph",
+          "stile"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
