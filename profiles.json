@@ -2935,23 +2935,6 @@
     "updated": 1794045874,
     "vlog": [
       {
-        "id": "10557100357",
-        "t": [
-          "colore",
-          "conto",
-          "discrete",
-          "lauren",
-          "pullover",
-          "ralph",
-          "scambiato",
-          "tiene",
-          "verde"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10477098296",
         "t": [
           "brode",
@@ -14843,6 +14826,30 @@
           "rosso"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10698892446",
+        "t": [
+          "beige",
+          "biete",
+          "bildern",
+          "creme",
+          "den",
+          "entnommen",
+          "hallo",
+          "hier",
+          "ich",
+          "lauren",
+          "meinen",
+          "melden",
+          "polo",
+          "pullover",
+          "ralph",
+          "wird"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }

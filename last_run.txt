@@ -1,2 +1,33 @@
-2026-11-07 10:54:42 UTC Telegram: 0 neue Nachricht(en)
-2026-11-07 10:54:42 UTC Keine Suche fällig
+2026-11-07 10:58:54 UTC Telegram: 0 neue Nachricht(en)
+2026-11-07 10:58:54 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-07 10:58:54 UTC Suche „RalphLauren“
+2026-11-07 10:59:03 UTC RalphLauren: 143 neu, 79 in der Vorauswahl (Schwelle 0.50), 39 per Lernmodell aussortiert, Bild-Budget 11
+2026-11-07 10:59:10 UTC Bildprüfung 10699276664: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 10:59:18 UTC Ausgeschlossen 10698931335: V-Ausschnitt
+2026-11-07 10:59:25 UTC Bildprüfung 10699248980: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 10:59:29 UTC Ausgeschlossen 10699052256: V-Ausschnitt
+2026-11-07 10:59:35 UTC Bildprüfung 10699237919: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 10:59:41 UTC Bildprüfung 10699293004: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 10:59:52 UTC Bildprüfung 10699534245: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 10:59:55 UTC Ausgeschlossen 10699386221: V-Ausschnitt
+2026-11-07 11:00:05 UTC Bildprüfung 10699430318: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:00:09 UTC Ausgeschlossen 10699225234: V-Ausschnitt
+2026-11-07 11:00:12 UTC Ausgeschlossen 10699294531: V-Ausschnitt
+2026-11-07 11:00:24 UTC Bildprüfung 10699342525: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:00:36 UTC Bildprüfung verwirft 10698892446 (10: ohne Zopfmuster-Strick: Glatter Strick, V-Ausschnitt; Ausschlusskriterium trifft)
+2026-11-07 11:00:38 UTC Ausgeschlossen 10698569202: V-Ausschnitt
+2026-11-07 11:00:51 UTC Ausgeschlossen 10699202694: V-Ausschnitt
+2026-11-07 11:00:57 UTC Bildprüfung 10698928363: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:01:03 UTC Ausgeschlossen 10698927280: V-Ausschnitt
+2026-11-07 11:01:10 UTC Ausgeschlossen 10698656161: Kinder
+2026-11-07 11:01:16 UTC Bildprüfung 10698593606: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:01:19 UTC Ausgeschlossen 10699449441: V-Ausschnitt
+2026-11-07 11:01:23 UTC Ausgeschlossen 10699307484: V-Ausschnitt
+2026-11-07 11:01:26 UTC Ausgeschlossen 10698961297: V-Ausschnitt
+2026-11-07 11:01:39 UTC Bildprüfung 10698923153: unlesbare Antwort:  (stop=max_tokens)
+2026-11-07 11:01:39 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-07 11:01:39 UTC Suche „Juicy Couture“
+2026-11-07 11:01:39 UTC Juicy Couture: noch keine Beispiele
+2026-11-07 11:01:39 UTC Suche „Xiaomi 17“
+2026-11-07 11:01:44 UTC Xiaomi 17: 2 neue Kandidaten
+2026-11-07 11:01:48 UTC Suche fertig: 0 neue Deals (3 Suchen)
