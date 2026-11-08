@@ -2952,19 +2952,6 @@
     "updated": 1794169809,
     "vlog": [
       {
-        "id": "10502455181",
-        "t": [
-          "blanc",
-          "lauren",
-          "marque",
-          "pulls",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10503182928",
         "t": [
           "hiver",
@@ -14729,6 +14716,24 @@
           "verlasse"
         ],
         "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10726885693",
+        "t": [
+          "bellissima",
+          "colore",
+          "come",
+          "lauren",
+          "nelle",
+          "perfette",
+          "polo",
+          "prime",
+          "ralph",
+          "viole"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
