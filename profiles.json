@@ -2952,24 +2952,6 @@
     "updated": 1794138068,
     "vlog": [
       {
-        "id": "10491280259",
-        "t": [
-          "authentic",
-          "condtion",
-          "gokd",
-          "lauren",
-          "light",
-          "pink",
-          "ralph",
-          "sweat",
-          "sweater",
-          "woman"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10490717466",
         "t": [
           "details",
@@ -14716,6 +14698,19 @@
         "c": "Damen Strickpullover",
         "ok": false,
         "w": 2
+      },
+      {
+        "id": "10716458544",
+        "t": [
+          "erhalten",
+          "herren",
+          "lauren",
+          "pullover",
+          "ralph"
+        ],
+        "c": "",
+        "ok": false,
+        "w": 1
       }
     ]
   }

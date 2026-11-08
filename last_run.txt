@@ -1,2 +1,27 @@
-2026-11-08 12:31:15 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 12:31:15 UTC Keine Suche fällig
+2026-11-08 12:35:26 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 12:35:26 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-08 12:35:26 UTC Suche „RalphLauren“
+2026-11-08 12:35:36 UTC RalphLauren: 165 neu, 95 in der Vorauswahl (Schwelle 0.50), 53 per Lernmodell aussortiert, Bild-Budget 12
+2026-11-08 12:35:39 UTC Ausgeschlossen 10660300009: Flecken / Löcher
+2026-11-08 12:35:46 UTC Bildprüfung 10716668759: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:35:52 UTC Bildprüfung 10716323570: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:35:58 UTC Bildprüfung 10716513277: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:36:04 UTC Bildprüfung 10716404278: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:36:07 UTC Ausgeschlossen 10716652966: V-Ausschnitt
+2026-11-08 12:36:16 UTC Bildprüfung 10716598215: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:36:19 UTC Details übersprungen (10716826490): HTTP 404 für https://www.vinted.at/items/10716826490-maglione-polo-ralph-lauren-mezza-zip-viola-m
+2026-11-08 12:36:27 UTC Bildprüfung 10716789444: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:36:37 UTC Bildprüfung 10716690030: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:36:40 UTC Ausgeschlossen 10646728730: Flecken / Löcher
+2026-11-08 12:36:50 UTC Bildprüfung 10716599151: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:36:59 UTC Ausgeschlossen 10716410630: V-Ausschnitt
+2026-11-08 12:37:04 UTC Bildprüfung verwirft 10716458544 (5: ohne Zopfmuster-Strick: V-Ausschnitt, glatter Strick ohne Zopfmuster)
+2026-11-08 12:37:09 UTC Bildprüfung 10716169570: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:37:21 UTC Bildprüfung 10716337673: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:37:30 UTC Bildprüfung 10716550431: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 12:37:30 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-08 12:37:30 UTC Suche „Juicy Couture“
+2026-11-08 12:37:30 UTC Juicy Couture: noch keine Beispiele
+2026-11-08 12:37:30 UTC Suche „Xiaomi 17“
+2026-11-08 12:37:33 UTC Xiaomi 17: 1 neue Kandidaten
+2026-11-08 12:37:33 UTC Suche fertig: 0 neue Deals (3 Suchen)
