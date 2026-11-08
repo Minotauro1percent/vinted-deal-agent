@@ -1,2 +1,15 @@
-2026-11-08 17:20:45 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 17:20:46 UTC Keine Suche fällig
+2026-11-08 17:24:55 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 17:24:55 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-08 17:24:55 UTC Suche „RalphLauren“
+2026-11-08 17:25:05 UTC RalphLauren: 139 neu, 55 in der Vorauswahl (Schwelle 0.50), 34 per Lernmodell aussortiert, Bild-Budget 18
+2026-11-08 17:25:09 UTC Ausgeschlossen 10723065547: V-Ausschnitt
+2026-11-08 17:25:15 UTC Bildprüfung 10723104902: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 17:25:18 UTC Ausgeschlossen 10723046911: V-Ausschnitt
+2026-11-08 17:25:22 UTC Ausgeschlossen 10723085484: Ohne Ärmel / Weste
+2026-11-08 17:25:25 UTC Ausgeschlossen 10722952236: Flecken / Löcher
+2026-11-08 17:25:28 UTC Ausgeschlossen 10722960855: Flecken / Löcher
+2026-11-08 17:25:34 UTC Bildprüfung 10722835260: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 17:25:40 UTC Bildprüfung verwirft 10720644878 (5: )
+2026-11-08 17:25:45 UTC Bildprüfung ok 10679870206 (92: Grauer Zopfstrick-Pullover mit Rundhals und Ralph-Lauren-Logo)
+2026-11-08 17:25:46 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-11-08 17:25:46 UTC Suche fertig: 1 neue Deals (3 Suchen)
