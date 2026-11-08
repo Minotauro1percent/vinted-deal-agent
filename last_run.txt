@@ -1,2 +1,7 @@
-2026-11-08 07:34:54 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 07:34:54 UTC Keine Suche fällig
+2026-11-08 07:39:05 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 07:39:05 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-08 07:39:05 UTC Suche „RalphLauren“
+2026-11-08 07:39:14 UTC RalphLauren: 41 neu, 18 in der Vorauswahl (Schwelle 0.50), 6 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-08 07:39:24 UTC Bildprüfung ok 10712316365 (92: Zopfstrick, Rundhals, Pony-Logo, langärmlig, keine Ausschlusskriterien erkennbar)
+2026-11-08 07:39:24 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-11-08 07:39:24 UTC Suche fertig: 1 neue Deals (3 Suchen)

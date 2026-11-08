@@ -2935,47 +2935,6 @@
     "updated": 1794120276,
     "vlog": [
       {
-        "id": "10481113755",
-        "t": [
-          "ans",
-          "blanc",
-          "bleu",
-          "brode",
-          "chic",
-          "chino",
-          "cles",
-          "col",
-          "coton",
-          "emblematique",
-          "enfant",
-          "facile",
-          "fines",
-          "garcon",
-          "jean",
-          "joli",
-          "lauren",
-          "logo",
-          "marine",
-          "marque",
-          "matiere",
-          "modele",
-          "mots",
-          "poitrine",
-          "polo",
-          "preppy",
-          "pull",
-          "ralph",
-          "raye",
-          "rayures",
-          "rond",
-          "vert",
-          "vertes"
-        ],
-        "c": "Kinder Pullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10471061948",
         "t": [
           "56cm",
@@ -14701,6 +14660,19 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10712316365",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "torsade",
+          "violet"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": true,
         "w": 1
       }
     ]
