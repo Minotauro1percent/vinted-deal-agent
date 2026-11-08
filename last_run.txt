@@ -1,2 +1,41 @@
-2026-11-08 14:29:02 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 14:29:02 UTC Keine Suche fällig
+2026-11-08 14:33:12 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 14:33:12 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-08 14:33:12 UTC Suche „RalphLauren“
+2026-11-08 14:33:21 UTC RalphLauren: 159 neu, 85 in der Vorauswahl (Schwelle 0.50), 42 per Lernmodell aussortiert, Bild-Budget 14
+2026-11-08 14:33:25 UTC Ausgeschlossen 10718981943: V-Ausschnitt
+2026-11-08 14:33:31 UTC Bildprüfung 10719102955: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:33:37 UTC Ausgeschlossen 10718558839: V-Ausschnitt
+2026-11-08 14:33:40 UTC Ausgeschlossen 10718622857: V-Ausschnitt
+2026-11-08 14:33:43 UTC Ausgeschlossen 10718711387: Flecken / Löcher
+2026-11-08 14:33:47 UTC Ausgeschlossen 10718721760: Kinder
+2026-11-08 14:33:50 UTC Ausgeschlossen 10718429974: V-Ausschnitt
+2026-11-08 14:33:54 UTC Ausgeschlossen 10719267838: Flecken / Löcher
+2026-11-08 14:34:01 UTC Bildprüfung 10719050174: unlesbare Antwort: {"merkmal": "Zopfstrick mit Rundhals", (stop=max_tokens)
+2026-11-08 14:34:07 UTC Bildprüfung 10718758638: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:34:13 UTC Bildprüfung 10710897356: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:34:24 UTC Ausgeschlossen 10718631032: Kinder
+2026-11-08 14:34:27 UTC Ausgeschlossen 10718758087: V-Ausschnitt
+2026-11-08 14:34:33 UTC Bildprüfung 10718517734: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:34:39 UTC Bildprüfung 10718667329: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:34:42 UTC Ausgeschlossen 10719161717: V-Ausschnitt
+2026-11-08 14:34:51 UTC Bildprüfung 10718673467: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:34:56 UTC Bildprüfung 10719086122: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:35:02 UTC Bildprüfung 10718882986: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:35:08 UTC Bildprüfung 10718922935: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:35:11 UTC Ausgeschlossen 10718640543: Flecken / Löcher
+2026-11-08 14:35:14 UTC Ausgeschlossen 10718138856: V-Ausschnitt
+2026-11-08 14:35:17 UTC Ausgeschlossen 10719087329: Kinder
+2026-11-08 14:35:24 UTC Ausgeschlossen 10718807298: Kinder
+2026-11-08 14:35:27 UTC Ausgeschlossen 10718275795: Flecken / Löcher
+2026-11-08 14:35:34 UTC Bildprüfung 10718839874: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:35:40 UTC Ausgeschlossen 10718971572: V-Ausschnitt
+2026-11-08 14:35:47 UTC Bildprüfung 10719135054: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 14:35:47 UTC Details übersprungen (10719103275): HTTP 404 für https://www.vinted.at/items/10719103275-lot-de-vetements-sm
+2026-11-08 14:36:04 UTC Ausgeschlossen 10718907806: V-Ausschnitt
+2026-11-08 14:36:07 UTC Ausgeschlossen 10719062243: V-Ausschnitt
+2026-11-08 14:36:14 UTC Ausgeschlossen 10718542467: V-Ausschnitt
+2026-11-08 14:36:14 UTC Suche „Juicy Couture“
+2026-11-08 14:36:14 UTC Juicy Couture: noch keine Beispiele
+2026-11-08 14:36:14 UTC Suche „Xiaomi 17“
+2026-11-08 14:36:19 UTC Xiaomi 17: 5 neue Kandidaten
+2026-11-08 14:36:22 UTC Suche fertig: 0 neue Deals (3 Suchen)
