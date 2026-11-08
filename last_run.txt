@@ -1,2 +1,16 @@
-2026-11-08 18:20:12 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 18:20:12 UTC Keine Suche fällig
+2026-11-08 18:24:21 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 18:24:22 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-08 18:24:22 UTC Suche „RalphLauren“
+2026-11-08 18:24:29 UTC RalphLauren: 143 neu, 76 in der Vorauswahl (Schwelle 0.50), 36 per Lernmodell aussortiert, Bild-Budget 22
+2026-11-08 18:24:33 UTC Ausgeschlossen 10724143298: V-Ausschnitt
+2026-11-08 18:24:36 UTC Ausgeschlossen 10723947702: V-Ausschnitt
+2026-11-08 18:24:44 UTC Bildprüfung verwirft 10724445764 (25: )
+2026-11-08 18:24:50 UTC Bildprüfung 10723789482: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 18:24:54 UTC Ausgeschlossen 10723929653: V-Ausschnitt
+2026-11-08 18:25:00 UTC Bildprüfung verwirft 10724427039 (3: )
+2026-11-08 18:25:06 UTC Bildprüfung verwirft 10723751066 (5: ohne Zopfmuster-Strick: Gestreifter Cardigan mit Kapuze, kein Zopfmuster, kein s)
+2026-11-08 18:25:16 UTC Bildprüfung 10724024041: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 18:25:19 UTC Ausgeschlossen 10723945375: V-Ausschnitt
+2026-11-08 18:25:24 UTC Bildprüfung ok 10723892657 (85: )
+2026-11-08 18:25:26 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
+2026-11-08 18:25:26 UTC Suche fertig: 1 neue Deals (3 Suchen)
