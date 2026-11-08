@@ -2952,30 +2952,6 @@
     "updated": 1794141704,
     "vlog": [
       {
-        "id": "10490717466",
-        "t": [
-          "details",
-          "farben",
-          "gestreift",
-          "lauren",
-          "logo",
-          "mangel",
-          "melden",
-          "polo",
-          "pullover",
-          "ralph",
-          "ralphi",
-          "ralphlauren",
-          "rot",
-          "schwarz",
-          "vorhanden",
-          "weiss"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10490237337",
         "t": [
           "accrocs",
@@ -14709,6 +14685,18 @@
           "ralph"
         ],
         "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10717858683",
+        "t": [
+          "einwandfreier",
+          "hochwertig",
+          "material",
+          "pullover"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
