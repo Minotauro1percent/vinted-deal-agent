@@ -1,9 +1,2 @@
-2026-11-08 05:41:03 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 05:41:03 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
-2026-11-08 05:41:03 UTC Suche „RalphLauren“
-2026-11-08 05:41:14 UTC RalphLauren: 3 neu, 2 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 8
-2026-11-08 05:41:14 UTC Suche „Juicy Couture“
-2026-11-08 05:41:14 UTC Juicy Couture: noch keine Beispiele
-2026-11-08 05:41:14 UTC Suche „Xiaomi 17“
-2026-11-08 05:41:17 UTC Xiaomi 17: 0 neue Kandidaten
-2026-11-08 05:41:17 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-08 05:45:30 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 05:45:30 UTC Keine Suche fällig
