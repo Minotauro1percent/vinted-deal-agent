@@ -1,2 +1,53 @@
-2026-11-08 20:17:55 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 20:17:56 UTC Keine Suche fällig
+2026-11-08 20:22:07 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 20:22:07 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-08 20:22:07 UTC Suche „RalphLauren“
+2026-11-08 20:22:17 UTC RalphLauren: 144 neu, 96 in der Vorauswahl (Schwelle 0.50), 48 per Lernmodell aussortiert, Bild-Budget 35
+2026-11-08 20:22:20 UTC Ausgeschlossen 10726567669: Kinder
+2026-11-08 20:22:27 UTC Bildprüfung 10725814174: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:22:30 UTC Ausgeschlossen 10726161051: V-Ausschnitt
+2026-11-08 20:22:33 UTC Ausgeschlossen 10726699012: V-Ausschnitt
+2026-11-08 20:22:36 UTC Ausgeschlossen 10726166783: V-Ausschnitt
+2026-11-08 20:22:43 UTC Bildprüfung 10726488393: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:22:46 UTC Ausgeschlossen 10726180068: V-Ausschnitt
+2026-11-08 20:22:49 UTC Ausgeschlossen 10726261167: V-Ausschnitt
+2026-11-08 20:22:52 UTC Ausgeschlossen 10726068247: V-Ausschnitt
+2026-11-08 20:22:59 UTC Bildprüfung 10726398127: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:23:06 UTC Ausgeschlossen 10726046921: V-Ausschnitt
+2026-11-08 20:23:12 UTC Bildprüfung 10726632630: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:23:16 UTC Ausgeschlossen 10712855328: V-Ausschnitt
+2026-11-08 20:23:23 UTC Bildprüfung 10726587848: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:23:28 UTC Bildprüfung 10726523548: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:23:37 UTC Bildprüfung 10723535245: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:23:40 UTC Ausgeschlossen 10726216986: V-Ausschnitt
+2026-11-08 20:23:43 UTC Ausgeschlossen 10726640570: Flecken / Löcher
+2026-11-08 20:23:46 UTC Ausgeschlossen 10726273206: V-Ausschnitt
+2026-11-08 20:23:52 UTC Bildprüfung 10726607693: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:23:58 UTC Bildprüfung 10726554697: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:24:01 UTC Ausgeschlossen 10726140431: V-Ausschnitt
+2026-11-08 20:24:07 UTC Bildprüfung 10726675303: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:24:10 UTC Ausgeschlossen 10726479594: Kinder
+2026-11-08 20:24:13 UTC Ausgeschlossen 10726189774: Flecken / Löcher
+2026-11-08 20:24:20 UTC Bildprüfung 10726610389: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:24:22 UTC Ausgeschlossen 10724294384: V-Ausschnitt
+2026-11-08 20:24:28 UTC Bildprüfung 10726042302: unlesbare Antwort: ```json {"merkmal": "Zopfmuster", "hat_mer (stop=max_tokens)
+2026-11-08 20:24:34 UTC Bildprüfung 10726646267: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:24:38 UTC Ausgeschlossen 10726450513: V-Ausschnitt
+2026-11-08 20:24:43 UTC Bildprüfung 10726390409: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:24:46 UTC Ausgeschlossen 10726274610: V-Ausschnitt
+2026-11-08 20:24:52 UTC Bildprüfung 10726242862: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:24:55 UTC Ausgeschlossen 10726116578: V-Ausschnitt
+2026-11-08 20:25:05 UTC Bildprüfung 10726193640: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:25:11 UTC Bildprüfung verwirft 10726594534 (10: Zopfstrick passt, aber V-Ausschnitt ist ausgeschlossen)
+2026-11-08 20:25:14 UTC Ausgeschlossen 10726550479: Kinder
+2026-11-08 20:25:17 UTC Ausgeschlossen 10726415387: V-Ausschnitt
+2026-11-08 20:25:22 UTC Bildprüfung verwirft 10726297633 (10: ohne Zopfmuster-Strick: Glatter Feinstrick ohne Zopfmuster und mit V-Ausschnitt )
+2026-11-08 20:25:28 UTC Bildprüfung 10726268000: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:25:32 UTC Ausgeschlossen 10726216524: V-Ausschnitt
+2026-11-08 20:25:38 UTC Bildprüfung 10726104150: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:25:45 UTC Bildprüfung 10726004734: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 20:25:53 UTC Bildprüfung 10719952771: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkmal": (stop=max_tokens)
+2026-11-08 20:25:53 UTC Suche „Juicy Couture“
+2026-11-08 20:25:53 UTC Juicy Couture: noch keine Beispiele
+2026-11-08 20:25:53 UTC Suche „Xiaomi 17“
+2026-11-08 20:25:57 UTC Xiaomi 17: 0 neue Kandidaten
+2026-11-08 20:25:57 UTC Suche fertig: 0 neue Deals (3 Suchen)

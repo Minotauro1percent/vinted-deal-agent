@@ -2952,74 +2952,6 @@
     "updated": 1794166308,
     "vlog": [
       {
-        "id": "10494620594",
-        "t": [
-          "fine",
-          "fonce",
-          "gris",
-          "homme",
-          "lauren",
-          "maille",
-          "polo",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10493756129",
-        "t": [
-          "ample",
-          "automne",
-          "aux",
-          "caracteristiques",
-          "chale",
-          "col",
-          "coloris",
-          "confortable",
-          "coupe",
-          "croise",
-          "dans",
-          "donnent",
-          "elegant",
-          "epaisse",
-          "epaules",
-          "fuchsia",
-          "grand",
-          "ideale",
-          "intemporel",
-          "jean",
-          "jolies",
-          "lauren",
-          "legging",
-          "longue",
-          "longues",
-          "lui",
-          "magnifique",
-          "maille",
-          "marque",
-          "oversize",
-          "plat",
-          "prises",
-          "prune",
-          "pull",
-          "ralph",
-          "ses",
-          "son",
-          "texturee",
-          "torsade",
-          "torsades",
-          "totale",
-          "tunique",
-          "violet"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10502455181",
         "t": [
           "blanc",
@@ -14769,6 +14701,35 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10726594534",
+        "t": [
+          "guter",
+          "lauren",
+          "oft",
+          "pullover",
+          "ralph"
+        ],
+        "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10726297633",
+        "t": [
+          "diesen",
+          "ich",
+          "lauren",
+          "leichten",
+          "pullover",
+          "ralph",
+          "schonen",
+          "verlasse"
+        ],
+        "c": "",
+        "ok": false,
         "w": 1
       }
     ]
