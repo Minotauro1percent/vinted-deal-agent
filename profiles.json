@@ -2935,31 +2935,6 @@
     "updated": 1794131007,
     "vlog": [
       {
-        "id": "10482048219",
-        "t": [
-          "lauren",
-          "polo",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10492631171",
-        "t": [
-          "lauren",
-          "pullover",
-          "ralph",
-          "schoner",
-          "wurde"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10491280259",
         "t": [
           "authentic",
@@ -14697,6 +14672,31 @@
           "vendita"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10714519181",
+        "t": [
+          "lana",
+          "maglione",
+          "uomo",
+          "volte"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10713562959",
+        "t": [
+          "alto",
+          "collo",
+          "maglione",
+          "mai",
+          "messo"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
