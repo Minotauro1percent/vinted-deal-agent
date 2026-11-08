@@ -2952,50 +2952,6 @@
     "updated": 1794152266,
     "vlog": [
       {
-        "id": "10490237337",
-        "t": [
-          "accrocs",
-          "afin",
-          "aucune",
-          "blanc",
-          "chic",
-          "col",
-          "colrond",
-          "confortable",
-          "contacter",
-          "convient",
-          "disponibles",
-          "enfant",
-          "est",
-          "facile",
-          "habille",
-          "informations",
-          "inte",
-          "intemp",
-          "lauren",
-          "maille",
-          "marque",
-          "polo",
-          "poloralphlauren",
-          "preppy",
-          "puissiez",
-          "pull",
-          "que",
-          "ralph",
-          "raye",
-          "rond",
-          "rouge",
-          "sont",
-          "souhaitez",
-          "tache",
-          "verifier",
-          "vous"
-        ],
-        "c": "Kinder Pullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10482070063",
         "t": [
           "freuen",
@@ -14697,6 +14653,19 @@
           "pullover"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10721562796",
+        "t": [
+          "lauren",
+          "longsleeve",
+          "polo",
+          "ralph",
+          "shirt"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
