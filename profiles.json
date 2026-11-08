@@ -2952,16 +2952,6 @@
     "updated": 1794173296,
     "vlog": [
       {
-        "id": "10503182928",
-        "t": [
-          "hiver",
-          "pulls"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10503175197",
         "t": [
           "blu",
@@ -14732,6 +14722,18 @@
           "prime",
           "ralph",
           "viole"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10728337878",
+        "t": [
+          "cotone",
+          "lauren",
+          "maglioncino",
+          "ralph"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,

@@ -1,2 +1,31 @@
-2026-11-08 22:14:11 UTC Telegram: 0 neue Nachricht(en)
-2026-11-08 22:14:11 UTC Keine Suche fällig
+2026-11-08 22:18:21 UTC Telegram: 0 neue Nachricht(en)
+2026-11-08 22:18:21 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-08 22:18:21 UTC Suche „RalphLauren“
+2026-11-08 22:18:30 UTC RalphLauren: 84 neu, 43 in der Vorauswahl (Schwelle 0.50), 14 per Lernmodell aussortiert, Bild-Budget 111
+2026-11-08 22:18:34 UTC Ausgeschlossen 10727837966: Kinder
+2026-11-08 22:18:41 UTC Bildprüfung 10728399788: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:18:54 UTC Bildprüfung 10727046197: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:00 UTC Bildprüfung 10727980957: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:12 UTC Bildprüfung 10726604718: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:18 UTC Bildprüfung 10727946576: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:21 UTC Ausgeschlossen 10727828074: V-Ausschnitt
+2026-11-08 22:19:24 UTC Ausgeschlossen 10728201884: V-Ausschnitt
+2026-11-08 22:19:30 UTC Bildprüfung 10728190782: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:34 UTC Ausgeschlossen 10728145102: Flecken / Löcher
+2026-11-08 22:19:40 UTC Bildprüfung 10728015293: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:47 UTC Bildprüfung 10727701235: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:54 UTC Bildprüfung 10727772678: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:19:57 UTC Ausgeschlossen 10728245892: Flecken / Löcher
+2026-11-08 22:20:05 UTC Bildprüfung 10728311504: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:20:09 UTC Ausgeschlossen 10727738259: V-Ausschnitt
+2026-11-08 22:20:20 UTC Bildprüfung 10727723155: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:20:23 UTC Ausgeschlossen 10728413948: V-Ausschnitt
+2026-11-08 22:20:26 UTC Ausgeschlossen 10728376959: V-Ausschnitt
+2026-11-08 22:20:32 UTC Bildprüfung 10728177488: unlesbare Antwort:  (stop=max_tokens)
+2026-11-08 22:20:37 UTC Ausgeschlossen 10727761668: V-Ausschnitt
+2026-11-08 22:20:44 UTC Bildprüfung verwirft 10728337878 (15: ohne Zopfmuster: Glatter Strick ohne Zopfmuster, sonst passend)
+2026-11-08 22:20:44 UTC Suche „Juicy Couture“
+2026-11-08 22:20:44 UTC Juicy Couture: noch keine Beispiele
+2026-11-08 22:20:44 UTC Suche „Xiaomi 17“
+2026-11-08 22:20:49 UTC Xiaomi 17: 2 neue Kandidaten
+2026-11-08 22:20:49 UTC Suche fertig: 0 neue Deals (3 Suchen)
