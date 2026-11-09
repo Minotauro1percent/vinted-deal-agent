@@ -2952,22 +2952,6 @@
     "updated": 1794237305,
     "vlog": [
       {
-        "id": "10505823339",
-        "t": [
-          "bellissimo",
-          "cachemire",
-          "lauren",
-          "maglione",
-          "polo",
-          "ralph",
-          "trecce",
-          "verde"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10506528591",
         "t": [
           "blau",
@@ -14704,6 +14688,20 @@
           "volte"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10736854060",
+        "t": [
+          "donna",
+          "girocollo",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
