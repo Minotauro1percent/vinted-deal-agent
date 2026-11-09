@@ -2952,20 +2952,6 @@
     "updated": 1794222905,
     "vlog": [
       {
-        "id": "10503061335",
-        "t": [
-          "guter",
-          "kein",
-          "lauren",
-          "polo",
-          "ralph",
-          "sweater"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10503515055",
         "t": [
           "bateau",
@@ -14709,6 +14695,23 @@
           "carino",
           "comodo",
           "maglione"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10733651967",
+        "t": [
+          "difetti",
+          "lauren",
+          "lino",
+          "materiale",
+          "misure",
+          "polo",
+          "privo",
+          "pullover",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
