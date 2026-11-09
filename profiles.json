@@ -2952,33 +2952,6 @@
     "updated": 1794229982,
     "vlog": [
       {
-        "id": "10503515055",
-        "t": [
-          "bateau",
-          "col",
-          "composition",
-          "coton",
-          "disponibles",
-          "ensemble",
-          "femme",
-          "lauren",
-          "maille",
-          "pull",
-          "pullfemme",
-          "pullrouge",
-          "ralph",
-          "ralphlauren",
-          "rouge",
-          "tailles",
-          "torsade",
-          "torsadee",
-          "torsades"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10505740297",
         "t": [
           "defaut",
@@ -14715,6 +14688,23 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10735352377",
+        "t": [
+          "blu",
+          "colore",
+          "lauren",
+          "maglione",
+          "ralph",
+          "scuro",
+          "secondo",
+          "una",
+          "veste"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
