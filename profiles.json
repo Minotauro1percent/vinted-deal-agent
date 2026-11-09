@@ -2952,46 +2952,6 @@
     "updated": 1794240793,
     "vlog": [
       {
-        "id": "10506528591",
-        "t": [
-          "blau",
-          "detail",
-          "dunkles",
-          "farblich",
-          "knopf",
-          "kragen",
-          "lauren",
-          "melden",
-          "polo",
-          "pullover",
-          "ralph",
-          "steht"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10507327104",
-        "t": [
-          "beim",
-          "dieses",
-          "direkt",
-          "eigentlich",
-          "guter",
-          "lauren",
-          "loch",
-          "naht",
-          "ralph",
-          "sehen",
-          "sweater",
-          "unter"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10507313972",
         "t": [
           "autunnale",
@@ -14702,6 +14662,32 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10737630508",
+        "t": [
+          "lauren",
+          "polo",
+          "ralph"
+        ],
+        "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10737721564",
+        "t": [
+          "angenehm",
+          "eher",
+          "fallt",
+          "lauren",
+          "mangel",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
       }

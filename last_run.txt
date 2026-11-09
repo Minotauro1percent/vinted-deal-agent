@@ -1,2 +1,39 @@
-2026-11-09 16:59:29 UTC Telegram: 0 neue Nachricht(en)
-2026-11-09 16:59:29 UTC Keine Suche fällig
+2026-11-09 17:03:43 UTC Telegram: 0 neue Nachricht(en)
+2026-11-09 17:03:43 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-09 17:03:43 UTC Suche „RalphLauren“
+2026-11-09 17:03:52 UTC RalphLauren: 146 neu, 82 in der Vorauswahl (Schwelle 0.50), 29 per Lernmodell aussortiert, Bild-Budget 18
+2026-11-09 17:03:55 UTC Ausgeschlossen 10737717477: V-Ausschnitt
+2026-11-09 17:03:58 UTC Ausgeschlossen 10737532656: V-Ausschnitt
+2026-11-09 17:04:09 UTC Bildprüfung 10737981306: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:04:18 UTC Bildprüfung 10737534602: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:04:22 UTC Ausgeschlossen 10737665788: V-Ausschnitt
+2026-11-09 17:04:25 UTC Ausgeschlossen 10737514354: V-Ausschnitt
+2026-11-09 17:04:31 UTC Bildprüfung 10737881221: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:04:41 UTC Bildprüfung 10726753258: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:04:51 UTC Bildprüfung 10737916702: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:04:58 UTC Bildprüfung 10737758139: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:05:07 UTC Bildprüfung 10737513504: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:05:10 UTC Ausgeschlossen 10737860474: V-Ausschnitt
+2026-11-09 17:05:16 UTC Bildprüfung 10737564693: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:05:22 UTC Ausgeschlossen 10737769797: V-Ausschnitt
+2026-11-09 17:05:31 UTC Bildprüfung 10737586732: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:05:37 UTC Bildprüfung 10737549838: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:05:41 UTC Ausgeschlossen 10737970238: Flecken / Löcher
+2026-11-09 17:05:48 UTC Ausgeschlossen 10737861214: V-Ausschnitt
+2026-11-09 17:05:52 UTC Ausgeschlossen 10737723935: V-Ausschnitt
+2026-11-09 17:05:58 UTC Bildprüfung 10737559419: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:06:08 UTC Bildprüfung 10737542643: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:06:15 UTC Bildprüfung 10737722453: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:06:21 UTC Bildprüfung 10737956426: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:06:27 UTC Bildprüfung verwirft 10737630508 (10: ohne Zopfmuster: V-Ausschnitt (Ausschlusskriterium) und glatter Strick statt Zop)
+2026-11-09 17:06:30 UTC Ausgeschlossen 10737697073: V-Ausschnitt
+2026-11-09 17:06:39 UTC Bildprüfung 10737534355: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 17:06:42 UTC Ausgeschlossen 10737875597: V-Ausschnitt
+2026-11-09 17:06:52 UTC Bildprüfung 10737696724: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkmal (stop=max_tokens)
+2026-11-09 17:06:58 UTC Bildprüfung verwirft 10737721564 (20: Zopfstrick und Logo passen, aber V-Ausschnitt ist ausgeschlossen)
+2026-11-09 17:06:58 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-09 17:06:58 UTC Suche „Juicy Couture“
+2026-11-09 17:06:58 UTC Juicy Couture: noch keine Beispiele
+2026-11-09 17:06:58 UTC Suche „Xiaomi 17“
+2026-11-09 17:07:03 UTC Xiaomi 17: 4 neue Kandidaten
+2026-11-09 17:07:06 UTC Suche fertig: 0 neue Deals (3 Suchen)
