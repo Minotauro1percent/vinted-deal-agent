@@ -371,7 +371,7 @@
     "type": "lernen",
     "category": "kleidung",
     "active": true,
-    "maxPrice": 0,
+    "maxPrice": 15.0,
     "minCondition": "Gut",
     "vision": true,
     "strictness": 1,
