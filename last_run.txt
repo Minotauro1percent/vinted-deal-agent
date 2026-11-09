@@ -1,2 +1,35 @@
-2026-11-09 15:03:51 UTC Telegram: 0 neue Nachricht(en)
-2026-11-09 15:03:51 UTC Keine Suche fällig
+2026-11-09 15:08:01 UTC Telegram: 0 neue Nachricht(en)
+2026-11-09 15:08:01 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-09 15:08:01 UTC Suche „RalphLauren“
+2026-11-09 15:08:10 UTC RalphLauren: 142 neu, 71 in der Vorauswahl (Schwelle 0.50), 36 per Lernmodell aussortiert, Bild-Budget 15
+2026-11-09 15:08:17 UTC Bildprüfung 10731931697: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:08:23 UTC Bildprüfung 10685958586: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:08:26 UTC Ausgeschlossen 10736259493: V-Ausschnitt
+2026-11-09 15:08:30 UTC Ausgeschlossen 10735882158: Flecken / Löcher
+2026-11-09 15:08:34 UTC Ausgeschlossen 10735712657: V-Ausschnitt
+2026-11-09 15:08:42 UTC Bildprüfung 10736259015: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:08:45 UTC Ausgeschlossen 10735688305: Flecken / Löcher
+2026-11-09 15:08:48 UTC Ausgeschlossen 10685486436: Flecken / Löcher
+2026-11-09 15:08:54 UTC Bildprüfung 10735831909: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:08:57 UTC Ausgeschlossen 10735675653: V-Ausschnitt
+2026-11-09 15:09:00 UTC Ausgeschlossen 10736195721: V-Ausschnitt
+2026-11-09 15:09:09 UTC Bildprüfung 10736193212: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:09:21 UTC Bildprüfung 10735906997: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:09:27 UTC Bildprüfung 10735953086: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:09:29 UTC Ausgeschlossen 10735839801: V-Ausschnitt
+2026-11-09 15:09:33 UTC Ausgeschlossen 10735808359: V-Ausschnitt
+2026-11-09 15:09:40 UTC Bildprüfung 10736098116: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:09:44 UTC Ausgeschlossen 10736168351: Ohne Ärmel / Weste
+2026-11-09 15:09:47 UTC Ausgeschlossen 10735779855: Kinder
+2026-11-09 15:09:53 UTC Bildprüfung 10736223658: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:10:09 UTC Ausgeschlossen 10735901146: V-Ausschnitt
+2026-11-09 15:10:15 UTC Bildprüfung 10735740036: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:10:21 UTC Bildprüfung 10735704152: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:10:25 UTC Ausgeschlossen 10735585908: V-Ausschnitt
+2026-11-09 15:10:31 UTC Bildprüfung 10736000329: unlesbare Antwort:  (stop=max_tokens)
+2026-11-09 15:10:40 UTC Bildprüfung verwirft 10736242355 (12: )
+2026-11-09 15:10:44 UTC Suche „Juicy Couture“
+2026-11-09 15:10:44 UTC Juicy Couture: noch keine Beispiele
+2026-11-09 15:10:44 UTC Suche „Xiaomi 17“
+2026-11-09 15:10:49 UTC Xiaomi 17: 3 neue Kandidaten
+2026-11-09 15:10:52 UTC Suche fertig: 0 neue Deals (3 Suchen)

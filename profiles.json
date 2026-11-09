@@ -2952,21 +2952,6 @@
     "updated": 1794233612,
     "vlog": [
       {
-        "id": "10505740297",
-        "t": [
-          "defaut",
-          "homme",
-          "lauren",
-          "petit",
-          "pull",
-          "ralph",
-          "seul"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10505823339",
         "t": [
           "bellissimo",
@@ -14705,6 +14690,21 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10736242355",
+        "t": [
+          "maglia",
+          "nuova",
+          "poche",
+          "quasi",
+          "stato",
+          "usata",
+          "volte"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
         "w": 1
       }
     ]
