@@ -2952,43 +2952,6 @@
     "updated": 1794212194,
     "vlog": [
       {
-        "id": "10503175197",
-        "t": [
-          "blu",
-          "brand",
-          "chiusura",
-          "colore",
-          "dettagli",
-          "elegante",
-          "esitare",
-          "finale",
-          "fresche",
-          "giornate",
-          "lauren",
-          "libero",
-          "maglione",
-          "misure",
-          "non",
-          "pari",
-          "perfetto",
-          "piu",
-          "polo",
-          "ralph",
-          "scrivermi",
-          "segni",
-          "sentiti",
-          "senza",
-          "stesso",
-          "tempo",
-          "ulteriori",
-          "usura",
-          "visibili"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10503061335",
         "t": [
           "guter",
@@ -14736,6 +14699,18 @@
           "ralph"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10731589892",
+        "t": [
+          "abbastanza",
+          "carino",
+          "comodo",
+          "maglione"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
