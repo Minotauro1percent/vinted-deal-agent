@@ -2952,35 +2952,6 @@
     "updated": 1794334435,
     "vlog": [
       {
-        "id": "10510040080",
-        "t": [
-          "accroc",
-          "bleu",
-          "col",
-          "encore",
-          "est",
-          "general",
-          "lauren",
-          "legerement",
-          "nickel",
-          "nouveau",
-          "pop",
-          "proprietaire",
-          "pull",
-          "ralph",
-          "reste",
-          "royal",
-          "sans",
-          "tache",
-          "torsade",
-          "tout",
-          "use"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10509976162",
         "t": [
           "arriere",
@@ -14624,6 +14595,18 @@
           "maglioncino",
           "polo",
           "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10750540318",
+        "t": [
+          "pisello",
+          "polo",
+          "shirt",
+          "verde"
         ],
         "c": "Herren Sweater",
         "ok": false,
