@@ -1,2 +1,28 @@
-2026-11-10 01:09:09 UTC Telegram: 0 neue Nachricht(en)
-2026-11-10 01:09:10 UTC Keine Suche fällig
+2026-11-10 01:22:41 UTC Telegram: 0 neue Nachricht(en)
+2026-11-10 01:22:41 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-10 01:22:41 UTC Suche „RalphLauren“
+2026-11-10 01:22:52 UTC RalphLauren: 49 neu, 41 in der Vorauswahl (Schwelle 0.50), 5 per Lernmodell aussortiert, Bild-Budget 7
+2026-11-10 01:23:00 UTC Ausgeschlossen 10738735043: V-Ausschnitt
+2026-11-10 01:23:06 UTC Bildprüfung 10742452639: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 01:23:10 UTC Ausgeschlossen 10742281323: Flecken / Löcher
+2026-11-10 01:23:17 UTC Ausgeschlossen 10741923490: V-Ausschnitt
+2026-11-10 01:23:27 UTC Bildprüfung 10742649194: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 01:23:33 UTC Bildprüfung 10742596014: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 01:23:36 UTC Ausgeschlossen 10742247798: V-Ausschnitt
+2026-11-10 01:23:42 UTC Bildprüfung 10742248395: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 01:23:47 UTC Ausgeschlossen 10742943915: V-Ausschnitt
+2026-11-10 01:23:50 UTC Ausgeschlossen 10743261014: Flecken / Löcher
+2026-11-10 01:24:02 UTC Ausgeschlossen 10742547337: V-Ausschnitt
+2026-11-10 01:24:16 UTC Ausgeschlossen 10742635442: V-Ausschnitt
+2026-11-10 01:24:19 UTC Ausgeschlossen 10742666768: V-Ausschnitt
+2026-11-10 01:24:31 UTC Ausgeschlossen 10743048237: V-Ausschnitt
+2026-11-10 01:24:38 UTC Bildprüfung 10743712330: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 01:24:44 UTC Ausgeschlossen 10743594974: Kinder
+2026-11-10 01:24:50 UTC Bildprüfung 10742995857: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 01:25:00 UTC Bildprüfung 10742186336: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 01:25:00 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-10 01:25:00 UTC Suche „Juicy Couture“
+2026-11-10 01:25:00 UTC Juicy Couture: noch keine Beispiele
+2026-11-10 01:25:00 UTC Suche „Xiaomi 17“
+2026-11-10 01:25:05 UTC Xiaomi 17: 0 neue Kandidaten
+2026-11-10 01:25:05 UTC Suche fertig: 0 neue Deals (3 Suchen)
