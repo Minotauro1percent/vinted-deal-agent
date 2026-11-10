@@ -2952,70 +2952,6 @@
     "updated": 1794316687,
     "vlog": [
       {
-        "id": "10507591523",
-        "t": [
-          "acceso",
-          "bellissimo",
-          "blu",
-          "capo",
-          "come",
-          "gilet",
-          "iconico",
-          "lauren",
-          "logo",
-          "maglia",
-          "manica",
-          "maniche",
-          "mezza",
-          "modificato",
-          "nasceva",
-          "navy",
-          "originariamente",
-          "professionista",
-          "ralph",
-          "ricamato",
-          "rimuovendo",
-          "rosa",
-          "sarta",
-          "stato",
-          "trasformarlo",
-          "trecce",
-          "una"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10508330935",
-        "t": [
-          "44cm",
-          "52cm",
-          "achete",
-          "convient",
-          "coton",
-          "environ",
-          "epais",
-          "etiquette",
-          "exactes",
-          "fr34",
-          "grand",
-          "habituellement",
-          "mais",
-          "malheureusement",
-          "moi",
-          "plutot",
-          "pomme",
-          "pull",
-          "trop",
-          "vert",
-          "vinted"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10510040080",
         "t": [
           "accroc",
@@ -14664,6 +14600,32 @@
           "viskose"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10748264683",
+        "t": [
+          "buonissime",
+          "lauren",
+          "maglione",
+          "misure",
+          "ralph",
+          "rosso"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10748768651",
+        "t": [
+          "lauren",
+          "maglioncino",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
