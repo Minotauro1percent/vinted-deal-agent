@@ -1,2 +1,28 @@
-2026-11-10 18:03:41 UTC Telegram: 0 neue Nachricht(en)
-2026-11-10 18:03:41 UTC Keine Suche fällig
+2026-11-10 18:07:51 UTC Telegram: 0 neue Nachricht(en)
+2026-11-10 18:07:51 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-10 18:07:51 UTC Suche „RalphLauren“
+2026-11-10 18:08:01 UTC RalphLauren: 43 neu, 28 in der Vorauswahl (Schwelle 0.50), 5 per Lernmodell aussortiert, Bild-Budget 21
+2026-11-10 18:08:07 UTC Bildprüfung 10750075981: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:08:12 UTC Ausgeschlossen 10750241783: V-Ausschnitt
+2026-11-10 18:08:17 UTC Ausgeschlossen 10750141536: V-Ausschnitt
+2026-11-10 18:08:20 UTC Ausgeschlossen 10750303361: V-Ausschnitt
+2026-11-10 18:08:26 UTC Bildprüfung 10750198999: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:08:31 UTC Ausgeschlossen 10750127581: V-Ausschnitt
+2026-11-10 18:08:34 UTC Ausgeschlossen 10750279954: V-Ausschnitt
+2026-11-10 18:08:39 UTC Bildprüfung 10750166270: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:08:42 UTC Ausgeschlossen 10750173150: V-Ausschnitt
+2026-11-10 18:08:50 UTC Ausgeschlossen 10750349432: V-Ausschnitt
+2026-11-10 18:08:54 UTC Ausgeschlossen 10750178300: V-Ausschnitt
+2026-11-10 18:09:00 UTC Bildprüfung 10750025767: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:09:04 UTC Ausgeschlossen 10750096788: V-Ausschnitt
+2026-11-10 18:09:13 UTC Bildprüfung 10750171123: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:09:16 UTC Ausgeschlossen 10726373089: V-Ausschnitt
+2026-11-10 18:09:22 UTC Bildprüfung 10750133750: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:09:31 UTC Bildprüfung 10750226618: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:09:37 UTC Bildprüfung 10750236896: unlesbare Antwort:  (stop=max_tokens)
+2026-11-10 18:09:41 UTC Ausgeschlossen 10750212828: V-Ausschnitt
+2026-11-10 18:09:41 UTC Suche „Juicy Couture“
+2026-11-10 18:09:41 UTC Juicy Couture: noch keine Beispiele
+2026-11-10 18:09:41 UTC Suche „Xiaomi 17“
+2026-11-10 18:09:44 UTC Xiaomi 17: 1 neue Kandidaten
+2026-11-10 18:09:44 UTC Suche fertig: 0 neue Deals (3 Suchen)
