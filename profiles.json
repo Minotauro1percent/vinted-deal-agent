@@ -2952,18 +2952,6 @@
     "updated": 1794416933,
     "vlog": [
       {
-        "id": "10519466434",
-        "t": [
-          "lauren",
-          "pulli",
-          "ralph",
-          "schoner"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10519478667",
         "t": [
           "hey",
@@ -14538,6 +14526,39 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10766873316",
+        "t": [
+          "adatto",
+          "alla",
+          "alta",
+          "bellissimo",
+          "blu",
+          "difetti",
+          "gia",
+          "lauren",
+          "maglione",
+          "metto",
+          "misure",
+          "navy",
+          "non",
+          "novo",
+          "pari",
+          "perfetto",
+          "polo",
+          "presenta",
+          "presenti",
+          "prodotto",
+          "qualita",
+          "ralph",
+          "sono",
+          "stagione",
+          "vendita"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": false,
         "w": 1
       }
     ]
