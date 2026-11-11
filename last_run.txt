@@ -1,2 +1,27 @@
-2026-11-11 09:48:00 UTC Telegram: 0 neue Nachricht(en)
-2026-11-11 09:48:00 UTC Keine Suche fällig
+2026-11-11 09:52:12 UTC Telegram: 1 neue Nachricht(en)
+2026-11-11 09:52:12 UTC Befehl /nightmode ['aus']
+2026-11-11 09:52:12 UTC Suche „RalphLauren“
+2026-11-11 09:52:21 UTC RalphLauren: 103 neu, 49 in der Vorauswahl (Schwelle 0.50), 22 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-11 09:52:27 UTC Bildprüfung 10759229605: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 09:52:30 UTC Ausgeschlossen 10759180050: V-Ausschnitt
+2026-11-11 09:52:33 UTC Ausgeschlossen 10759137585: V-Ausschnitt
+2026-11-11 09:52:38 UTC Ausgeschlossen 10759078995: V-Ausschnitt
+2026-11-11 09:52:44 UTC Bildprüfung 10758926963: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 09:52:48 UTC Ausgeschlossen 10759211950: Ohne Ärmel / Weste
+2026-11-11 09:52:58 UTC Bildprüfung 10759335186: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 09:53:05 UTC Ausgeschlossen 10758979138: V-Ausschnitt
+2026-11-11 09:53:12 UTC Bildprüfung 10759298405: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 09:53:18 UTC Ausgeschlossen 10759127308: V-Ausschnitt
+2026-11-11 09:53:21 UTC Ausgeschlossen 10759337462: Kinder
+2026-11-11 09:53:32 UTC Ausgeschlossen 10758956878: V-Ausschnitt
+2026-11-11 09:53:38 UTC Bildprüfung 10758863462: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 09:53:42 UTC Ausgeschlossen 10758820427: Flecken / Löcher
+2026-11-11 09:53:49 UTC Bildprüfung 10759080950: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 09:53:52 UTC Ausgeschlossen 10758996919: V-Ausschnitt
+2026-11-11 09:53:55 UTC Ausgeschlossen 10759049427: V-Ausschnitt
+2026-11-11 09:54:00 UTC Bildprüfung verwirft 10758767213 (5: )
+2026-11-11 09:54:11 UTC Ausgeschlossen 10759137712: Flecken / Löcher
+2026-11-11 09:54:17 UTC Bildprüfung 10759197747: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 09:54:17 UTC Suche „Juicy Couture“
+2026-11-11 09:54:17 UTC Juicy Couture: noch keine Beispiele
+2026-11-11 09:54:17 UTC Suche fertig: 0 neue Deals (2 Suchen)

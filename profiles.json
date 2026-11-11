@@ -2952,26 +2952,6 @@
     "updated": 1794388718,
     "vlog": [
       {
-        "id": "10512020405",
-        "t": [
-          "attaches",
-          "col",
-          "cotelee",
-          "epais",
-          "homme",
-          "lauren",
-          "maille",
-          "ouvrir",
-          "peuvent",
-          "pull",
-          "qui",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10510335552",
         "t": [
           "bleu",
@@ -14582,6 +14562,21 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10758767213",
+        "t": [
+          "anche",
+          "cipria",
+          "donna",
+          "maglioncino",
+          "rosa",
+          "una",
+          "veste"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
