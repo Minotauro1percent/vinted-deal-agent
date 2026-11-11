@@ -2952,21 +2952,6 @@
     "updated": 1794419193,
     "vlog": [
       {
-        "id": "10519478667",
-        "t": [
-          "hey",
-          "ich",
-          "lauren",
-          "polo",
-          "pulli",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10520712858",
         "t": [
           "beige",
@@ -14558,6 +14543,30 @@
           "vendita"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10767408352",
+        "t": [
+          "armeln",
+          "damen",
+          "etikett",
+          "hohem",
+          "kariert",
+          "karierter",
+          "kragen",
+          "lauren",
+          "laut",
+          "ralph",
+          "rippbundchen",
+          "rot",
+          "saum",
+          "schwarz",
+          "schwarzen",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
