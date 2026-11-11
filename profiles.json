@@ -2952,30 +2952,6 @@
     "updated": 1794404710,
     "vlog": [
       {
-        "id": "10517396123",
-        "t": [
-          "accetto",
-          "cotone",
-          "difetto",
-          "effettuo",
-          "grazie",
-          "inpost",
-          "lauren",
-          "locker",
-          "maglione",
-          "nessuno",
-          "non",
-          "polo",
-          "ralph",
-          "resi",
-          "spedizioni",
-          "tramite"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10519466434",
         "t": [
           "lauren",
@@ -14548,6 +14524,20 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10762967160",
+        "t": [
+          "lauren",
+          "passt",
+          "polo",
+          "ralph",
+          "schwarz",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
