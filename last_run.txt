@@ -1,2 +1,26 @@
-2026-11-11 02:05:10 UTC Telegram: 0 neue Nachricht(en)
-2026-11-11 02:05:10 UTC Keine Suche fällig
+2026-11-11 02:09:21 UTC Telegram: 0 neue Nachricht(en)
+2026-11-11 02:09:21 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
+2026-11-11 02:09:21 UTC Suche „RalphLauren“
+2026-11-11 02:09:30 UTC RalphLauren: 137 neu, 94 in der Vorauswahl (Schwelle 0.50), 38 per Lernmodell aussortiert, Bild-Budget 7
+2026-11-11 02:09:32 UTC Ausgeschlossen 10754659592: Flecken / Löcher
+2026-11-11 02:09:36 UTC Ausgeschlossen 10754333872: Flecken / Löcher
+2026-11-11 02:09:40 UTC Ausgeschlossen 10754762078: V-Ausschnitt
+2026-11-11 02:09:51 UTC Bildprüfung 10754635714: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 02:10:00 UTC Bildprüfung 10754502119: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 02:10:07 UTC Ausgeschlossen 10754575704: Flecken / Löcher
+2026-11-11 02:10:16 UTC Ausgeschlossen 10754486034: V-Ausschnitt
+2026-11-11 02:10:22 UTC Bildprüfung 10754487011: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 02:10:29 UTC Ausgeschlossen 10754356289: Flecken / Löcher
+2026-11-11 02:10:32 UTC Ausgeschlossen 10754489806: V-Ausschnitt
+2026-11-11 02:10:41 UTC Ausgeschlossen 10754341306: V-Ausschnitt
+2026-11-11 02:10:47 UTC Bildprüfung 10754736591: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 02:10:49 UTC Ausgeschlossen 10754573971: V-Ausschnitt
+2026-11-11 02:10:56 UTC Bildprüfung 10754475052: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 02:11:02 UTC Bildprüfung 10754361581: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 02:11:08 UTC Bildprüfung 10754376781: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 02:11:08 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-11 02:11:08 UTC Suche „Juicy Couture“
+2026-11-11 02:11:08 UTC Juicy Couture: noch keine Beispiele
+2026-11-11 02:11:08 UTC Suche „Xiaomi 17“
+2026-11-11 02:11:13 UTC Xiaomi 17: 4 neue Kandidaten
+2026-11-11 02:11:13 UTC Suche fertig: 0 neue Deals (3 Suchen)
