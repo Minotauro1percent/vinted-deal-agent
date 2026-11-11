@@ -2952,37 +2952,6 @@
     "updated": 1794363326,
     "vlog": [
       {
-        "id": "10510654285",
-        "t": [
-          "blanc",
-          "col",
-          "compte",
-          "defaut",
-          "devant",
-          "empiecement",
-          "est",
-          "homme",
-          "lauren",
-          "lavage",
-          "merci",
-          "noter",
-          "part",
-          "polo",
-          "prendre",
-          "presente",
-          "ralph",
-          "regarder",
-          "rond",
-          "shirt",
-          "sweat",
-          "sweet",
-          "tache"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10512020405",
         "t": [
           "attaches",
@@ -14597,6 +14566,19 @@
           "kleiner",
           "polo",
           "strickpullo"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10755784855",
+        "t": [
+          "lauren",
+          "lila",
+          "pullover",
+          "ralph",
+          "zopfmuster"
         ],
         "c": "Damen Strickpullover",
         "ok": true,
