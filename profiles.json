@@ -2952,25 +2952,6 @@
     "updated": 1794398254,
     "vlog": [
       {
-        "id": "10513372753",
-        "t": [
-          "avez",
-          "bonjour",
-          "car",
-          "est",
-          "lauren",
-          "noir",
-          "polo",
-          "questions",
-          "ralph",
-          "rouge",
-          "vous"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10515117013",
         "t": [
           "24h",
@@ -14569,6 +14550,25 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10761160186",
+        "t": [
+          "col",
+          "corps",
+          "est",
+          "laurent",
+          "pres",
+          "pull",
+          "qui",
+          "ralph",
+          "roule",
+          "sport",
+          "sports"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
