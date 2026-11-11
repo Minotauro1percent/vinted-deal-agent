@@ -2952,34 +2952,6 @@
     "updated": 1794403007,
     "vlog": [
       {
-        "id": "10519774302",
-        "t": [
-          "bleu",
-          "bonjour",
-          "brode",
-          "caractere",
-          "clair",
-          "col",
-          "coupe",
-          "degage",
-          "gris",
-          "lauren",
-          "logo",
-          "par",
-          "pull",
-          "ralph",
-          "roule",
-          "seduire",
-          "sera",
-          "son",
-          "vert",
-          "vous"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10517396123",
         "t": [
           "accetto",
@@ -14551,6 +14523,31 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10762431829",
+        "t": [
+          "blu",
+          "cable",
+          "colore",
+          "cotone",
+          "cotton",
+          "girocollo",
+          "knit",
+          "lauren",
+          "logo",
+          "maglione",
+          "modello",
+          "morbido",
+          "polo",
+          "ralph",
+          "sweater",
+          "trecce",
+          "verde"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
