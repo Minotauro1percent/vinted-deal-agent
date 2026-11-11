@@ -2952,28 +2952,6 @@
     "updated": 1794391110,
     "vlog": [
       {
-        "id": "10510335552",
-        "t": [
-          "bleu",
-          "dimensions",
-          "droite",
-          "gris",
-          "lauren",
-          "marque",
-          "marques",
-          "peinture",
-          "pull",
-          "ralph",
-          "ralphlauren",
-          "rayures",
-          "taillem",
-          "totale"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10512875828",
         "t": [
           "cotton",
@@ -14576,6 +14554,20 @@
           "veste"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10759409539",
+        "t": [
+          "guten",
+          "herren",
+          "lauren",
+          "pullover",
+          "ralph",
+          "steht"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
