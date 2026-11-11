@@ -2952,18 +2952,6 @@
     "updated": 1794401879,
     "vlog": [
       {
-        "id": "10517644858",
-        "t": [
-          "guter",
-          "lauren",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10519774302",
         "t": [
           "bleu",
@@ -14520,6 +14508,46 @@
           "lauren",
           "maglione",
           "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10762180436",
+        "t": [
+          "autumn",
+          "beautiful",
+          "because",
+          "been",
+          "cable",
+          "care",
+          "classic",
+          "colour",
+          "cream",
+          "design",
+          "embroidered",
+          "has",
+          "have",
+          "knit",
+          "label",
+          "lauren",
+          "logo",
+          "measurements",
+          "navy",
+          "polo",
+          "pure",
+          "ralph",
+          "refer",
+          "removed",
+          "sensitive",
+          "skin",
+          "soft",
+          "sweater",
+          "timeless",
+          "warm",
+          "winter",
+          "wool"
         ],
         "c": "Damen Strickpullover",
         "ok": true,

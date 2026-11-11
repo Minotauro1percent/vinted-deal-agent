@@ -1,2 +1,10 @@
-2026-11-11 12:57:59 UTC Telegram: 0 neue Nachricht(en)
-2026-11-11 12:57:59 UTC Keine Suche fällig
+2026-11-11 13:02:10 UTC Telegram: 0 neue Nachricht(en)
+2026-11-11 13:02:11 UTC Suche „RalphLauren“
+2026-11-11 13:02:19 UTC RalphLauren: 33 neu, 20 in der Vorauswahl (Schwelle 0.50), 9 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-11 13:02:30 UTC Bildprüfung ok 10762180436 (93: Zopfstrick-Rundhals mit kleinem Pony-Logo, passt zu Beispielen)
+2026-11-11 13:02:33 UTC Ausgeschlossen 10762147670: Flecken / Löcher
+2026-11-11 13:02:51 UTC Bildprüfung 10762117315: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 13:03:02 UTC Bildprüfung 10762204417: unlesbare Antwort:  (stop=max_tokens)
+2026-11-11 13:03:05 UTC Suche „Juicy Couture“
+2026-11-11 13:03:05 UTC Juicy Couture: noch keine Beispiele
+2026-11-11 13:03:05 UTC Suche fertig: 1 neue Deals (2 Suchen)
