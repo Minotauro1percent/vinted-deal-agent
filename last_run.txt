@@ -1,12 +1,2 @@
-2026-11-11 10:29:41 UTC Telegram: 0 neue Nachricht(en)
-2026-11-11 10:29:41 UTC Suche „RalphLauren“
-2026-11-11 10:29:50 UTC RalphLauren: 34 neu, 17 in der Vorauswahl (Schwelle 0.50), 8 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-11 10:29:57 UTC Bildprüfung 10759848233: unlesbare Antwort:  (stop=max_tokens)
-2026-11-11 10:30:04 UTC Ausgeschlossen 10759786787: V-Ausschnitt
-2026-11-11 10:30:07 UTC Ausgeschlossen 10759772670: V-Ausschnitt
-2026-11-11 10:30:14 UTC Bildprüfung 10759858709: unlesbare Antwort:  (stop=max_tokens)
-2026-11-11 10:30:20 UTC Bildprüfung 10759850051: unlesbare Antwort:  (stop=max_tokens)
-2026-11-11 10:30:23 UTC Details übersprungen (10759865978): HTTP 404 für https://www.vinted.at/items/10759865978-pull-ralph-lauren-beige
-2026-11-11 10:30:26 UTC Suche „Juicy Couture“
-2026-11-11 10:30:26 UTC Juicy Couture: noch keine Beispiele
-2026-11-11 10:30:26 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-11 10:34:38 UTC Telegram: 0 neue Nachricht(en)
+2026-11-11 10:34:38 UTC Keine Suche fällig
