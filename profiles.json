@@ -2952,24 +2952,6 @@
     "updated": 1794421440,
     "vlog": [
       {
-        "id": "10520712858",
-        "t": [
-          "beige",
-          "gutem",
-          "hellbraun",
-          "lauren",
-          "melden",
-          "polo",
-          "pullover",
-          "ralph",
-          "schonen",
-          "schoner"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10521857107",
         "t": [
           "angenehmer",
@@ -14565,6 +14547,19 @@
           "schwarz",
           "schwarzen",
           "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10768151079",
+        "t": [
+          "donna",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
