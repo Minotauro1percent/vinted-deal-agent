@@ -2952,19 +2952,6 @@
     "updated": 1794396592,
     "vlog": [
       {
-        "id": "10512875828",
-        "t": [
-          "cotton",
-          "knit",
-          "lauren",
-          "polo",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10513372753",
         "t": [
           "avez",
@@ -14569,6 +14556,19 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10760875121",
+        "t": [
+          "joli",
+          "lauren",
+          "polo",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
