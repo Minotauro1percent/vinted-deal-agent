@@ -2952,64 +2952,6 @@
     "updated": 1794400747,
     "vlog": [
       {
-        "id": "10515117013",
-        "t": [
-          "24h",
-          "authentique",
-          "brode",
-          "casualstyle",
-          "chiclook",
-          "classicfashion",
-          "classiclook",
-          "col",
-          "colrond",
-          "comfortwear",
-          "coton",
-          "dailyoutfit",
-          "dailywear",
-          "essentialwear",
-          "everydayfashion",
-          "fashion",
-          "fashionable",
-          "fashiond",
-          "homme",
-          "hommedailywear",
-          "hommesfashion",
-          "la260",
-          "lauren",
-          "logo",
-          "logobrode",
-          "maille",
-          "marron",
-          "mode",
-          "modernstyle",
-          "polo",
-          "premiumfashion",
-          "premiumwear",
-          "pull",
-          "pullralphlauren",
-          "qualitywear",
-          "ralph",
-          "rond",
-          "rouge",
-          "smartcasual",
-          "streetstyle",
-          "stylishdaily",
-          "stylishlook",
-          "tache",
-          "taillexl",
-          "timelessfashion",
-          "trendylook",
-          "urbanstyle",
-          "versatilestyle",
-          "vetement",
-          "wardrobe"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10517644858",
         "t": [
           "guter",
@@ -14569,6 +14511,18 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10761903494",
+        "t": [
+          "donna",
+          "lauren",
+          "maglione",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
