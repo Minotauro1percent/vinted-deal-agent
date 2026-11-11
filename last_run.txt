@@ -1,11 +1,2 @@
-2026-11-11 11:43:28 UTC Telegram: 0 neue Nachricht(en)
-2026-11-11 11:43:28 UTC Suche „RalphLauren“
-2026-11-11 11:43:36 UTC RalphLauren: 35 neu, 21 in der Vorauswahl (Schwelle 0.50), 11 per Lernmodell aussortiert, Bild-Budget 10
-2026-11-11 11:43:43 UTC Bildprüfung 10758024475: unlesbare Antwort:  (stop=max_tokens)
-2026-11-11 11:43:49 UTC Bildprüfung 10701310762: unlesbare Antwort:  (stop=max_tokens)
-2026-11-11 11:43:52 UTC Details übersprungen (10760911294): HTTP 404 für https://www.vinted.at/items/10760911294-t-shirt-polo-ralph-lauren-polo-bear-m
-2026-11-11 11:44:06 UTC Ausgeschlossen 10760878613: V-Ausschnitt
-2026-11-11 11:44:12 UTC Bildprüfung 10760886479: unlesbare Antwort:  (stop=max_tokens)
-2026-11-11 11:44:16 UTC Suche „Juicy Couture“
-2026-11-11 11:44:16 UTC Juicy Couture: noch keine Beispiele
-2026-11-11 11:44:16 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-11 11:48:27 UTC Telegram: 0 neue Nachricht(en)
+2026-11-11 11:48:27 UTC Keine Suche fällig
