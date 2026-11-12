@@ -11,7 +11,7 @@
   "vision_daily_max": 400,
   "vision_min": 60,
   "learn_max_per_run": 5,
-  "night_mode": false,
+  "night_mode": true,
   "night_max": 1,
   "night_from": "",
   "night_to": ""
