@@ -2952,59 +2952,6 @@
     "updated": 1794516660,
     "vlog": [
       {
-        "id": "10657329896",
-        "t": [
-          "alltagliche",
-          "auffallige",
-          "auffalligen",
-          "beige",
-          "besondere",
-          "boho",
-          "creme",
-          "den",
-          "details",
-          "durch",
-          "fransen",
-          "fur",
-          "grobstrick",
-          "ihm",
-          "interesse",
-          "jeans",
-          "kombinieren",
-          "langarm",
-          "lasst",
-          "lauren",
-          "melden",
-          "neutrale",
-          "optik",
-          "outfits",
-          "passt",
-          "perfekt",
-          "piece",
-          "pullover",
-          "ralph",
-          "schlichten",
-          "schonen",
-          "schones",
-          "seine",
-          "seiten",
-          "sich",
-          "statement",
-          "stoffhosen",
-          "strickoptik",
-          "strickpullover",
-          "uberzeugt",
-          "verleihen",
-          "vielseitig",
-          "wunderschoner",
-          "zeitlosen",
-          "zeitloser"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10656568206",
         "t": [
           "authentique",
@@ -14556,6 +14503,18 @@
           "polo"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10784045889",
+        "t": [
+          "enfants",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
       }
