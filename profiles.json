@@ -2952,23 +2952,6 @@
     "updated": 1794499522,
     "vlog": [
       {
-        "id": "10546863693",
-        "t": [
-          "ancora",
-          "buone",
-          "cotone",
-          "elasticizzato",
-          "lauren",
-          "maglione",
-          "polo",
-          "ralph",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10547433719",
         "t": [
           "coton",
@@ -14569,6 +14552,23 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10745679710",
+        "t": [
+          "armel",
+          "fotos",
+          "guter",
+          "lauren",
+          "pullover",
+          "raffinierte",
+          "ralph",
+          "schoner",
+          "wollweiss"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
