@@ -2952,28 +2952,6 @@
     "updated": 1794471905,
     "vlog": [
       {
-        "id": "10544610111",
-        "t": [
-          "animaux",
-          "attention",
-          "bordeaux",
-          "lauren",
-          "malgre",
-          "marque",
-          "mon",
-          "peut",
-          "poils",
-          "pull",
-          "que",
-          "quelques",
-          "ralph",
-          "reste"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10544953866",
         "t": [
           "aber",
@@ -14467,6 +14445,21 @@
           "wunderschones"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10774440965",
+        "t": [
+          "agnello",
+          "blu",
+          "lana",
+          "lauren",
+          "maglione",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
       }
