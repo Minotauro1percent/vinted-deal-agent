@@ -2952,19 +2952,6 @@
     "updated": 1794486327,
     "vlog": [
       {
-        "id": "10544759983",
-        "t": [
-          "lauren",
-          "maglione",
-          "polo",
-          "ralph",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10544757332",
         "t": [
           "ausgeblichen",
@@ -14475,6 +14462,23 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10776931797",
+        "t": [
+          "aber",
+          "armel",
+          "baumwolle",
+          "bleichfleck",
+          "lauren",
+          "letztes",
+          "polo",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
