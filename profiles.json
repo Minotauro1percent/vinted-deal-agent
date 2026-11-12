@@ -2952,25 +2952,6 @@
     "updated": 1794481907,
     "vlog": [
       {
-        "id": "10544931715",
-        "t": [
-          "aber",
-          "dunner",
-          "eher",
-          "geschnitten",
-          "hellblauer",
-          "lauren",
-          "pullover",
-          "ralph",
-          "stabiler",
-          "stoff",
-          "weiblich"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10544821290",
         "t": [
           "aber",
@@ -14459,6 +14440,17 @@
           "strickpullover"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10776119408",
+        "t": [
+          "getragener",
+          "guter",
+          "strickpullover"
+        ],
+        "c": "",
         "ok": false,
         "w": 1
       }
