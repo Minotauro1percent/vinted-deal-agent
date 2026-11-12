@@ -2952,23 +2952,6 @@
     "updated": 1794505236,
     "vlog": [
       {
-        "id": "10553739254",
-        "t": [
-          "brode",
-          "classe",
-          "coton",
-          "envoie",
-          "logo",
-          "marine",
-          "pull",
-          "ralph",
-          "vert"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10543615653",
         "t": [
           "acha",
@@ -14587,6 +14570,22 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10781322282",
+        "t": [
+          "contattatemi",
+          "donna",
+          "info",
+          "lauren",
+          "maglione",
+          "pure",
+          "qualsiasi",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
