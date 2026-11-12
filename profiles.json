@@ -2952,47 +2952,6 @@
     "updated": 1794516074,
     "vlog": [
       {
-        "id": "10656128570",
-        "t": [
-          "beaucoup",
-          "car",
-          "couture",
-          "est",
-          "excellent",
-          "grand",
-          "laine",
-          "lauren",
-          "merinos",
-          "moi",
-          "partant",
-          "pull",
-          "ralph",
-          "total",
-          "trop",
-          "vert"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10656518029",
-        "t": [
-          "authentique",
-          "defaut",
-          "dore",
-          "envoie",
-          "lauren",
-          "noir",
-          "pull",
-          "ralph",
-          "sans"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10657329896",
         "t": [
           "alltagliche",
@@ -14568,6 +14527,35 @@
           "uber"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10783871930",
+        "t": [
+          "lauren",
+          "logo",
+          "polo",
+          "pullover",
+          "ralph",
+          "rotem",
+          "schwarz",
+          "strickpullover"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10783907869",
+        "t": [
+          "fallt",
+          "kleiner",
+          "langarm",
+          "paar",
+          "polo"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
