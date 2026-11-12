@@ -2952,19 +2952,6 @@
     "updated": 1794481354,
     "vlog": [
       {
-        "id": "10544953866",
-        "t": [
-          "aber",
-          "gutem",
-          "lauren",
-          "ralph",
-          "sweatshirt"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10544931715",
         "t": [
           "aber",
@@ -14460,6 +14447,18 @@
           "ralph"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10776021051",
+        "t": [
+          "lauren",
+          "ralph",
+          "schwarzer",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
