@@ -2952,28 +2952,6 @@
     "updated": 1794506456,
     "vlog": [
       {
-        "id": "10554693154",
-        "t": [
-          "bleu",
-          "brode",
-          "deteint",
-          "est",
-          "homme",
-          "lauren",
-          "logo",
-          "malgre",
-          "orange",
-          "partie",
-          "petite",
-          "pull",
-          "qui",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10556229671",
         "t": [
           "pull",
@@ -14543,6 +14521,17 @@
           "pull",
           "ralph",
           "s13"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10781584577",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
