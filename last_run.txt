@@ -1,2 +1,27 @@
-2026-11-12 17:50:21 UTC Telegram: 0 neue Nachricht(en)
-2026-11-12 17:50:22 UTC Keine Suche fällig
+2026-11-12 17:54:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-12 17:54:34 UTC Suche „RalphLauren“
+2026-11-12 17:54:42 UTC RalphLauren: 48 neu, 28 in der Vorauswahl (Schwelle 0.50), 5 per Lernmodell aussortiert, Bild-Budget 13
+2026-11-12 17:54:47 UTC Ausgeschlossen 10781373701: V-Ausschnitt
+2026-11-12 17:54:50 UTC Ausgeschlossen 10781430071: V-Ausschnitt
+2026-11-12 17:54:58 UTC Bildprüfung 10779266311: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:55:04 UTC Bildprüfung 10779474894: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:55:11 UTC Bildprüfung 10779078388: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:55:14 UTC Ausgeschlossen 10781450224: Ohne Ärmel / Weste
+2026-11-12 17:55:17 UTC Ausgeschlossen 10781433150: V-Ausschnitt
+2026-11-12 17:55:23 UTC Bildprüfung 10781402996: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:55:27 UTC Ausgeschlossen 10781454591: V-Ausschnitt
+2026-11-12 17:55:33 UTC Bildprüfung 10781431745: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:55:39 UTC Bildprüfung 10781509612: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:55:46 UTC Ausgeschlossen 10781453945: V-Ausschnitt
+2026-11-12 17:55:57 UTC Bildprüfung 10781491252: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:56:03 UTC Bildprüfung 10781467366: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:56:10 UTC Bildprüfung verwirft 10781455789 (5: ohne Zopfstrickmuster: Rippstrick statt Zopfmuster, kein Logo sichtbar, 3/4-Ärme)
+2026-11-12 17:56:18 UTC Bildprüfung 10781450378: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:56:24 UTC Bildprüfung 10781436282: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:56:30 UTC Bildprüfung verwirft 10781437452 (5: ohne Zopfstrick-Muster: Streifen-Lochmuster statt Zopfmuster; kein sichtbares Lo)
+2026-11-12 17:56:33 UTC Ausgeschlossen 10781476635: Flecken / Löcher
+2026-11-12 17:56:37 UTC Ausgeschlossen 10781532226: V-Ausschnitt
+2026-11-12 17:56:44 UTC Bildprüfung 10781428692: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:56:44 UTC Suche „Juicy Couture“
+2026-11-12 17:56:44 UTC Juicy Couture: noch keine Beispiele
+2026-11-12 17:56:44 UTC Suche fertig: 0 neue Deals (2 Suchen)

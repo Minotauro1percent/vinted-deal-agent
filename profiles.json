@@ -2952,70 +2952,6 @@
     "updated": 1794505822,
     "vlog": [
       {
-        "id": "10543615653",
-        "t": [
-          "acha",
-          "afin",
-          "annee",
-          "brode",
-          "cable",
-          "categorie",
-          "col",
-          "coloris",
-          "composition",
-          "coton",
-          "coupe",
-          "droite",
-          "env",
-          "femme",
-          "general",
-          "joli",
-          "knit",
-          "lauren",
-          "logo",
-          "lrl",
-          "maille",
-          "marque",
-          "modele",
-          "monogramme",
-          "peps",
-          "permettre",
-          "plat",
-          "pleine",
-          "poitrine",
-          "preppy",
-          "pull",
-          "ralph",
-          "rond",
-          "rose",
-          "sont",
-          "torsade",
-          "torsadee",
-          "toute",
-          "verifier",
-          "vert",
-          "vif",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
-        "id": "10552929373",
-        "t": [
-          "dunkelblauer",
-          "lauren",
-          "pullover",
-          "ralph",
-          "schoner"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10554693154",
         "t": [
           "bleu",
@@ -14586,6 +14522,30 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10781455789",
+        "t": [
+          "a20",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10781437452",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "s13"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
