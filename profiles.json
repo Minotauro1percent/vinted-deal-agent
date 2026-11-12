@@ -2952,38 +2952,6 @@
     "updated": 1794508231,
     "vlog": [
       {
-        "id": "10553211855",
-        "t": [
-          "bienvenus",
-          "blanc",
-          "blanches",
-          "blane",
-          "bleu",
-          "cles",
-          "col",
-          "horizontales",
-          "jumper",
-          "lauren",
-          "lots",
-          "maille",
-          "marine",
-          "mots",
-          "offres",
-          "polo",
-          "pull",
-          "ralph",
-          "raye",
-          "rayures",
-          "rond",
-          "rouge",
-          "sweater",
-          "xxl"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10555610713",
         "t": [
           "brode",
@@ -14527,6 +14495,42 @@
           "pullover"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10782003361",
+        "t": [
+          "24h",
+          "48h",
+          "achete",
+          "ajustes",
+          "article",
+          "bas",
+          "col",
+          "demande",
+          "effectuer",
+          "fait",
+          "faites",
+          "fois",
+          "frais",
+          "homme",
+          "lauren",
+          "moi",
+          "occupe",
+          "port",
+          "produit",
+          "produits",
+          "pull",
+          "que",
+          "ralph",
+          "rond",
+          "souhaitez",
+          "turquoise",
+          "vert",
+          "vous"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
