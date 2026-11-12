@@ -2952,19 +2952,6 @@
     "updated": 1794507051,
     "vlog": [
       {
-        "id": "10556229671",
-        "t": [
-          "pull",
-          "ralphlauren",
-          "sans",
-          "taches",
-          "trous"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10555766393",
         "t": [
           "brand",
@@ -14534,6 +14521,20 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10781814314",
+        "t": [
+          "gris",
+          "homme",
+          "lauren",
+          "polo",
+          "pull",
+          "ralph"
+        ],
+        "c": "",
         "ok": false,
         "w": 1
       }
