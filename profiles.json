@@ -2952,23 +2952,6 @@
     "updated": 1794507658,
     "vlog": [
       {
-        "id": "10555766393",
-        "t": [
-          "brand",
-          "chez",
-          "gray",
-          "gris",
-          "lauren",
-          "pull",
-          "ralph",
-          "ralphlauren",
-          "sweater"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10553211855",
         "t": [
           "bienvenus",
@@ -14535,6 +14518,15 @@
           "ralph"
         ],
         "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10781851489",
+        "t": [
+          "pullover"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
