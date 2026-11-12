@@ -2952,36 +2952,6 @@
     "updated": 1794508796,
     "vlog": [
       {
-        "id": "10555610713",
-        "t": [
-          "brode",
-          "col",
-          "contacter",
-          "coton",
-          "davantage",
-          "deux",
-          "envoie",
-          "est",
-          "gauche",
-          "imperfection",
-          "informations",
-          "lauren",
-          "logo",
-          "niveau",
-          "petit",
-          "pull",
-          "ralph",
-          "reste",
-          "rouge",
-          "souhaitez",
-          "taches",
-          "vous"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10639563876",
         "t": [
           "cotone",
@@ -14532,6 +14502,18 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10782112134",
+        "t": [
+          "eng",
+          "geschnitten",
+          "grau",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
