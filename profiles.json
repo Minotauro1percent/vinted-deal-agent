@@ -2952,22 +2952,6 @@
     "updated": 1794517239,
     "vlog": [
       {
-        "id": "10656568206",
-        "t": [
-          "authentique",
-          "defaut",
-          "envoie",
-          "kaki",
-          "lauren",
-          "pull",
-          "ralph",
-          "sans"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10656236299",
         "t": [
           "fois",
@@ -14516,6 +14500,25 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10784307927",
+        "t": [
+          "angenehm",
+          "bauwolle",
+          "blau",
+          "edler",
+          "hellem",
+          "lauren",
+          "logo",
+          "organgenem",
+          "pullover",
+          "ralph",
+          "warm"
+        ],
+        "c": "",
+        "ok": true,
         "w": 1
       }
     ]
