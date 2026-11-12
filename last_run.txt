@@ -1,4 +1,12 @@
-2026-11-12 08:51:44 UTC Telegram: 0 neue Nachricht(en)
-2026-11-12 08:51:44 UTC Suche „Xiaomi 17“
-2026-11-12 08:51:50 UTC Xiaomi 17: 1 neue Kandidaten
-2026-11-12 08:51:50 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-11-12 08:56:03 UTC Telegram: 0 neue Nachricht(en)
+2026-11-12 08:56:03 UTC Suche „RalphLauren“
+2026-11-12 08:56:13 UTC RalphLauren: 30 neu, 9 in der Vorauswahl (Schwelle 0.50), 3 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-12 08:56:16 UTC Ausgeschlossen 10774616659: V-Ausschnitt
+2026-11-12 08:56:19 UTC Ausgeschlossen 10774616473: V-Ausschnitt
+2026-11-12 08:56:27 UTC Bildprüfung 10774660733: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 08:56:33 UTC Bildprüfung 10774596876: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 08:56:36 UTC Ausgeschlossen 10774628543: V-Ausschnitt
+2026-11-12 08:56:40 UTC Ausgeschlossen 10774625376: V-Ausschnitt
+2026-11-12 08:56:40 UTC Suche „Juicy Couture“
+2026-11-12 08:56:40 UTC Juicy Couture: noch keine Beispiele
+2026-11-12 08:56:40 UTC Suche fertig: 0 neue Deals (2 Suchen)
