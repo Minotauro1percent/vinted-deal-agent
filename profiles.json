@@ -2952,24 +2952,6 @@
     "updated": 1794501181,
     "vlog": [
       {
-        "id": "10547433719",
-        "t": [
-          "coton",
-          "dimensions",
-          "lauren",
-          "lin",
-          "livraison",
-          "matiere",
-          "ralph",
-          "rose",
-          "shirt",
-          "tee"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10547233801",
         "t": [
           "bleu",
@@ -14569,6 +14551,25 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10780276278",
+        "t": [
+          "blu",
+          "cui",
+          "intrecciato",
+          "lana",
+          "lauren",
+          "lavatrice",
+          "maglione",
+          "ralph",
+          "ristretto",
+          "una",
+          "veste"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
