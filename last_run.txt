@@ -1,2 +1,17 @@
-2026-11-12 17:01:07 UTC Telegram: 0 neue Nachricht(en)
-2026-11-12 17:01:07 UTC Keine Suche fällig
+2026-11-12 17:05:20 UTC Telegram: 0 neue Nachricht(en)
+2026-11-12 17:05:20 UTC Suche „RalphLauren“
+2026-11-12 17:05:29 UTC RalphLauren: 42 neu, 25 in der Vorauswahl (Schwelle 0.50), 6 per Lernmodell aussortiert, Bild-Budget 13
+2026-11-12 17:05:36 UTC Bildprüfung 10780742684: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:05:39 UTC Ausgeschlossen 10780803525: V-Ausschnitt
+2026-11-12 17:05:49 UTC Bildprüfung 10780803546: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:05:52 UTC Ausgeschlossen 10780736030: V-Ausschnitt
+2026-11-12 17:05:55 UTC Ausgeschlossen 10780809702: V-Ausschnitt
+2026-11-12 17:05:58 UTC Ausgeschlossen 10780729508: V-Ausschnitt
+2026-11-12 17:06:05 UTC Bildprüfung 10780771838: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:06:18 UTC Ausgeschlossen 10780740075: Flecken / Löcher
+2026-11-12 17:06:23 UTC Ausgeschlossen 10780700749: Flecken / Löcher
+2026-11-12 17:06:27 UTC Ausgeschlossen 10780757409: V-Ausschnitt
+2026-11-12 17:06:38 UTC Ausgeschlossen 10780806013: V-Ausschnitt
+2026-11-12 17:06:38 UTC Suche „Juicy Couture“
+2026-11-12 17:06:38 UTC Juicy Couture: noch keine Beispiele
+2026-11-12 17:06:38 UTC Suche fertig: 0 neue Deals (2 Suchen)
