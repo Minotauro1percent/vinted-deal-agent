@@ -2952,19 +2952,6 @@
     "updated": 1794509951,
     "vlog": [
       {
-        "id": "10639563876",
-        "t": [
-          "cotone",
-          "lauren",
-          "maglione",
-          "ralph",
-          "verde"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10656102260",
         "t": [
           "hiver",
@@ -14511,6 +14498,21 @@
           "geschnitten",
           "grau",
           "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10782507861",
+        "t": [
+          "indossato",
+          "lauren",
+          "maglioncino",
+          "mai",
+          "polo",
+          "ralph",
+          "sbagliata"
         ],
         "c": "Damen Strickpullover",
         "ok": true,
