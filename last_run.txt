@@ -1,2 +1,10 @@
-2026-11-12 15:37:37 UTC Telegram: 0 neue Nachricht(en)
-2026-11-12 15:37:37 UTC Keine Suche fällig
+2026-11-12 15:41:48 UTC Telegram: 0 neue Nachricht(en)
+2026-11-12 15:41:49 UTC Suche „RalphLauren“
+2026-11-12 15:41:58 UTC RalphLauren: 26 neu, 15 in der Vorauswahl (Schwelle 0.50), 8 per Lernmodell aussortiert, Bild-Budget 12
+2026-11-12 15:42:05 UTC Bildprüfung 10779571606: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 15:42:05 UTC Details übersprungen (10779580217): HTTP 404 für https://www.vinted.at/items/10779580217-polo-color-giallo-senape
+2026-11-12 15:42:12 UTC Ausgeschlossen 10779596728: V-Ausschnitt
+2026-11-12 15:42:23 UTC Ausgeschlossen 10779509129: V-Ausschnitt
+2026-11-12 15:42:23 UTC Suche „Juicy Couture“
+2026-11-12 15:42:23 UTC Juicy Couture: noch keine Beispiele
+2026-11-12 15:42:23 UTC Suche fertig: 0 neue Deals (2 Suchen)
