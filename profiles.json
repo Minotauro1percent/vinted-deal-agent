@@ -2952,20 +2952,6 @@
     "updated": 1794504039,
     "vlog": [
       {
-        "id": "10552972628",
-        "t": [
-          "buone",
-          "cotone",
-          "difetti",
-          "girocollo",
-          "maglione",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 2
-      },
-      {
         "id": "10553437213",
         "t": [
           "femme",
@@ -14523,6 +14509,29 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10780978505",
+        "t": [
+          "ancora",
+          "cardigan",
+          "comprato",
+          "cotone",
+          "dovrebbe",
+          "essere",
+          "etichetta",
+          "etichettato",
+          "filo",
+          "golf",
+          "louren",
+          "negozio",
+          "normale",
+          "originale",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]

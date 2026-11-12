@@ -1,2 +1,19 @@
-2026-11-12 17:20:39 UTC Telegram: 0 neue Nachricht(en)
-2026-11-12 17:20:39 UTC Keine Suche fällig
+2026-11-12 17:24:55 UTC Telegram: 0 neue Nachricht(en)
+2026-11-12 17:24:55 UTC Suche „RalphLauren“
+2026-11-12 17:25:04 UTC RalphLauren: 50 neu, 31 in der Vorauswahl (Schwelle 0.50), 11 per Lernmodell aussortiert, Bild-Budget 13
+2026-11-12 17:25:07 UTC Ausgeschlossen 10781085768: V-Ausschnitt
+2026-11-12 17:25:13 UTC Bildprüfung verwirft 10780978505 (5: )
+2026-11-12 17:25:27 UTC Bildprüfung 10712977459: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:25:30 UTC Ausgeschlossen 10780985859: V-Ausschnitt
+2026-11-12 17:25:33 UTC Ausgeschlossen 10781048600: V-Ausschnitt
+2026-11-12 17:25:37 UTC Ausgeschlossen 10781036052: V-Ausschnitt
+2026-11-12 17:25:43 UTC Bildprüfung 10771362030: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:25:50 UTC Ausgeschlossen 10781026153: Flecken / Löcher
+2026-11-12 17:26:00 UTC Bildprüfung 10780981647: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:26:06 UTC Bildprüfung 10781023176: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:26:12 UTC Details übersprungen (10780975417): HTTP 404 für https://www.vinted.at/items/10780975417-pull-femme
+2026-11-12 17:26:19 UTC Bildprüfung 10781072692: unlesbare Antwort:  (stop=max_tokens)
+2026-11-12 17:26:22 UTC Ausgeschlossen 10781059859: V-Ausschnitt
+2026-11-12 17:26:25 UTC Suche „Juicy Couture“
+2026-11-12 17:26:25 UTC Juicy Couture: noch keine Beispiele
+2026-11-12 17:26:25 UTC Suche fertig: 0 neue Deals (2 Suchen)
