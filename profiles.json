@@ -2952,19 +2952,6 @@
     "updated": 1794608145,
     "vlog": [
       {
-        "id": "10659333201",
-        "t": [
-          "bleu",
-          "homme",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658857841",
         "t": [
           "48h",
@@ -14643,6 +14630,18 @@
       {
         "id": "10797686321",
         "t": [
+          "plusieurs",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10798035060",
+        "t": [
+          "fois",
           "plusieurs",
           "pull",
           "ralph"
