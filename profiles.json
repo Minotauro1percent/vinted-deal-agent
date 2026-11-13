@@ -2952,22 +2952,6 @@
     "updated": 1794597708,
     "vlog": [
       {
-        "id": "10659235890",
-        "t": [
-          "bouloche",
-          "demander",
-          "infos",
-          "lauren",
-          "mais",
-          "pull",
-          "ralph",
-          "ralphlauren"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659228699",
         "t": [
           "lauren",
@@ -14594,6 +14578,18 @@
           "wurde"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10796043779",
+        "t": [
+          "femme",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "",
         "ok": false,
         "w": 1
       }
