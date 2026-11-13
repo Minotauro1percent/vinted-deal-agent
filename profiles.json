@@ -2952,21 +2952,6 @@
     "updated": 1794568108,
     "vlog": [
       {
-        "id": "10658380212",
-        "t": [
-          "grau",
-          "grauer",
-          "herren",
-          "lauren",
-          "polo",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658627527",
         "t": [
           "approfittane",
@@ -14578,6 +14563,23 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10789343210",
+        "t": [
+          "47cm",
+          "65cm",
+          "68cm",
+          "bleu",
+          "coton",
+          "epaules",
+          "fixe",
+          "pull",
+          "torsade"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
