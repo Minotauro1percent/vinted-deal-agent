@@ -1,4 +1,25 @@
-2026-11-13 12:14:14 UTC Telegram: 0 neue Nachricht(en)
-2026-11-13 12:14:14 UTC Suche „Xiaomi 17“
-2026-11-13 12:14:18 UTC Xiaomi 17: 2 neue Kandidaten
-2026-11-13 12:14:18 UTC Suche fertig: 0 neue Deals (1 Suchen)
+2026-11-13 12:18:31 UTC Telegram: 0 neue Nachricht(en)
+2026-11-13 12:18:31 UTC Suche „RalphLauren“
+2026-11-13 12:18:41 UTC RalphLauren: 34 neu, 27 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-13 12:18:47 UTC Bildprüfung 10790243610: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 12:18:50 UTC Ausgeschlossen 10790164627: V-Ausschnitt
+2026-11-13 12:18:55 UTC Bildprüfung 10790162735: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 12:19:01 UTC Bildprüfung verwirft 10790132842 (5: )
+2026-11-13 12:19:07 UTC Bildprüfung 10790137737: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 12:19:13 UTC Ausgeschlossen 10790151483: V-Ausschnitt
+2026-11-13 12:19:19 UTC Ausgeschlossen 10790180931: V-Ausschnitt
+2026-11-13 12:19:22 UTC Ausgeschlossen 10790164263: V-Ausschnitt
+2026-11-13 12:19:25 UTC Ausgeschlossen 10790147763: V-Ausschnitt
+2026-11-13 12:19:36 UTC Bildprüfung 10790140507: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 12:19:45 UTC Ausgeschlossen 10790145275: V-Ausschnitt
+2026-11-13 12:19:49 UTC Ausgeschlossen 10790134526: Flecken / Löcher
+2026-11-13 12:19:55 UTC Bildprüfung 10790123907: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 12:19:58 UTC Ausgeschlossen 10790195365: V-Ausschnitt
+2026-11-13 12:20:02 UTC Ausgeschlossen 10790197274: V-Ausschnitt
+2026-11-13 12:20:05 UTC Ausgeschlossen 10790182009: Flecken / Löcher
+2026-11-13 12:20:11 UTC Bildprüfung 10790187199: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 12:20:15 UTC Ausgeschlossen 10790232647: V-Ausschnitt
+2026-11-13 12:20:22 UTC Bildprüfung 10790219510: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 12:20:22 UTC Suche „Juicy Couture“
+2026-11-13 12:20:22 UTC Juicy Couture: noch keine Beispiele
+2026-11-13 12:20:22 UTC Suche fertig: 0 neue Deals (2 Suchen)
