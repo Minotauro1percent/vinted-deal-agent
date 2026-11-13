@@ -2952,22 +2952,6 @@
     "updated": 1794525668,
     "vlog": [
       {
-        "id": "10656592552",
-        "t": [
-          "authentique",
-          "beige",
-          "defaut",
-          "envoie",
-          "lauren",
-          "pull",
-          "ralph",
-          "sans"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10656664710",
         "t": [
           "bequem",
@@ -14565,6 +14549,42 @@
           "scollo",
           "stile",
           "traspirante"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10785026549",
+        "t": [
+          "alto",
+          "ape",
+          "caldo",
+          "cappuccio",
+          "collo",
+          "comodo",
+          "coulisse",
+          "cozy",
+          "donna",
+          "effetto",
+          "fit",
+          "fondo",
+          "grigio",
+          "lauren",
+          "lavorazione",
+          "logo",
+          "lunga",
+          "maglione",
+          "manica",
+          "morbido",
+          "nido",
+          "oversize",
+          "pelle",
+          "perfetto",
+          "piccolo",
+          "ralph",
+          "sul",
+          "waffle"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
