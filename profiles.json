@@ -2952,30 +2952,6 @@
     "updated": 1794593787,
     "vlog": [
       {
-        "id": "10659081590",
-        "t": [
-          "anche",
-          "ancora",
-          "blu",
-          "cucitura",
-          "inutilizzo",
-          "lauren",
-          "maglioncino",
-          "manica",
-          "marino",
-          "piccolissima",
-          "poco",
-          "presente",
-          "punta",
-          "ralph",
-          "sulla",
-          "una"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659091406",
         "t": [
           "48h",
@@ -14649,6 +14625,24 @@
           "maglione",
           "pull",
           "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10794448310",
+        "t": [
+          "borgogna",
+          "cappuccio",
+          "cotone",
+          "firmato",
+          "lauren",
+          "maglio",
+          "maglione",
+          "perfette",
+          "ralph",
+          "small"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
