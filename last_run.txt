@@ -1,2 +1,14 @@
-2026-11-13 19:40:03 UTC Telegram: 0 neue Nachricht(en)
-2026-11-13 19:40:03 UTC Keine Suche fällig
+2026-11-13 19:44:14 UTC Telegram: 0 neue Nachricht(en)
+2026-11-13 19:44:14 UTC Suche „RalphLauren“
+2026-11-13 19:44:25 UTC RalphLauren: 24 neu, 12 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 8
+2026-11-13 19:44:32 UTC Bildprüfung 10796235788: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 19:44:39 UTC Details übersprungen (10796256703): HTTP 404 für https://www.vinted.at/items/10796256703-ralph-lauren-original-kurzarmpulli-schwarz
+2026-11-13 19:44:44 UTC Bildprüfung 10796283447: unlesbare Antwort: {"merkmal": "Zopfstrickmuster", "h (stop=max_tokens)
+2026-11-13 19:44:47 UTC Ausgeschlossen 10796231376: Flecken / Löcher
+2026-11-13 19:44:53 UTC Bildprüfung verwirft 10796276094 (20: )
+2026-11-13 19:45:00 UTC Bildprüfung 10796260164: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkmal (stop=max_tokens)
+2026-11-13 19:45:06 UTC Bildprüfung 10796270175: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 19:45:13 UTC Bildprüfung 10715512145: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 19:45:13 UTC Suche „Juicy Couture“
+2026-11-13 19:45:13 UTC Juicy Couture: noch keine Beispiele
+2026-11-13 19:45:13 UTC Suche fertig: 0 neue Deals (2 Suchen)
