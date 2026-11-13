@@ -2952,33 +2952,6 @@
     "updated": 1794596585,
     "vlog": [
       {
-        "id": "10658991109",
-        "t": [
-          "48h",
-          "article",
-          "avez",
-          "ceux",
-          "contacter",
-          "defauts",
-          "dernieres",
-          "dimensions",
-          "indiquees",
-          "lauren",
-          "presente",
-          "pull",
-          "questions",
-          "ralph",
-          "seront",
-          "shopping",
-          "sont",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659235890",
         "t": [
           "bouloche",
@@ -14608,6 +14581,20 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10795748749",
+        "t": [
+          "fotos",
+          "lauren",
+          "masse",
+          "pullover",
+          "ralph",
+          "wurde"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
