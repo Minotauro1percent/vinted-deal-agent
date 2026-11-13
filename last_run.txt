@@ -1,25 +1,2 @@
-2026-11-13 16:24:39 UTC Telegram: 0 neue Nachricht(en)
-2026-11-13 16:24:40 UTC Suche „RalphLauren“
-2026-11-13 16:24:47 UTC RalphLauren: 61 neu, 37 in der Vorauswahl (Schwelle 0.50), 11 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-13 16:24:54 UTC Bildprüfung 10793433070: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:24:59 UTC Bildprüfung 10776357970: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:25:05 UTC Bildprüfung 10793475311: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:25:12 UTC Bildprüfung 10793478243: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:25:14 UTC Ausgeschlossen 10793392118: V-Ausschnitt
-2026-11-13 16:25:18 UTC Ausgeschlossen 10793480471: Flecken / Löcher
-2026-11-13 16:25:27 UTC Ausgeschlossen 10793199388: V-Ausschnitt
-2026-11-13 16:25:30 UTC Ausgeschlossen 10793408233: V-Ausschnitt
-2026-11-13 16:25:33 UTC Ausgeschlossen 10793500737: Kinder
-2026-11-13 16:25:36 UTC Ausgeschlossen 10793423744: V-Ausschnitt
-2026-11-13 16:25:39 UTC Ausgeschlossen 10793449707: V-Ausschnitt
-2026-11-13 16:25:41 UTC Ausgeschlossen 10793537831: V-Ausschnitt
-2026-11-13 16:25:41 UTC Details übersprungen (10793511827): HTTP 404 für https://www.vinted.at/items/10793511827-cardigans-ralph-lauren
-2026-11-13 16:25:54 UTC Bildprüfung verwirft 10793438656 (10: )
-2026-11-13 16:26:07 UTC Ausgeschlossen 10793530554: Flecken / Löcher
-2026-11-13 16:26:11 UTC Ausgeschlossen 10793270323: Kinder
-2026-11-13 16:26:16 UTC Bildprüfung 10793353945: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:26:22 UTC Bildprüfung 10793260985: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:26:28 UTC Bildprüfung 10793238274: unlesbare Antwort: { (stop=max_tokens)
-2026-11-13 16:26:28 UTC Suche „Juicy Couture“
-2026-11-13 16:26:28 UTC Juicy Couture: noch keine Beispiele
-2026-11-13 16:26:28 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-13 16:30:44 UTC Telegram: 0 neue Nachricht(en)
+2026-11-13 16:30:44 UTC Keine Suche fällig
