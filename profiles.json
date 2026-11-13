@@ -2952,18 +2952,6 @@
     "updated": 1794589188,
     "vlog": [
       {
-        "id": "10658920643",
-        "t": [
-          "carrure",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658901469",
         "t": [
           "48h",
@@ -14588,6 +14576,45 @@
           "ralph",
           "usee",
           "visible"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10793581634",
+        "t": [
+          "abeille",
+          "bateau",
+          "chic",
+          "coloris",
+          "cotes",
+          "coton",
+          "creme",
+          "decontracte",
+          "details",
+          "ecru",
+          "elegant",
+          "encolure",
+          "fentes",
+          "fois",
+          "gaufree",
+          "lauren",
+          "leger",
+          "maille",
+          "marque",
+          "matiere",
+          "minimaliste",
+          "nid",
+          "pull",
+          "pullfemme",
+          "pullfin",
+          "quelques",
+          "ralph",
+          "ralphlauren",
+          "taille36",
+          "tailles",
+          "texturee"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
