@@ -2952,49 +2952,6 @@
     "updated": 1794592596,
     "vlog": [
       {
-        "id": "10658901506",
-        "t": [
-          "cotone",
-          "donna",
-          "lana",
-          "lauren",
-          "maglione",
-          "merino",
-          "perfette",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10658889147",
-        "t": [
-          "48h",
-          "article",
-          "avez",
-          "ceux",
-          "contacter",
-          "defauts",
-          "dernieres",
-          "dimensions",
-          "indiquees",
-          "lauren",
-          "presente",
-          "pull",
-          "questions",
-          "ralph",
-          "seront",
-          "shopping",
-          "sont",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659038375",
         "t": [
           "48h",
@@ -14652,6 +14609,60 @@
           "vintedseller",
           "vintedshop",
           "violet"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10794879950",
+        "t": [
+          "48h",
+          "boatneck",
+          "chic",
+          "contact",
+          "dolman",
+          "elegant",
+          "everyday",
+          "featuring",
+          "fine",
+          "infos",
+          "knit",
+          "knitted",
+          "lauren",
+          "looks",
+          "measurements",
+          "metallic",
+          "minimalist",
+          "more",
+          "mustard",
+          "outfits",
+          "pullover",
+          "ralph",
+          "ribbed",
+          "sleeves",
+          "sweater",
+          "texture",
+          "threaded",
+          "timeless",
+          "trim",
+          "wear",
+          "wide",
+          "yellow"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10794816445",
+        "t": [
+          "donna",
+          "girocollo",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
