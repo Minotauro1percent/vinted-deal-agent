@@ -2952,33 +2952,6 @@
     "updated": 1794593167,
     "vlog": [
       {
-        "id": "10659038375",
-        "t": [
-          "48h",
-          "article",
-          "avez",
-          "ceux",
-          "contacter",
-          "defauts",
-          "dernieres",
-          "dimensions",
-          "indiquees",
-          "lauren",
-          "presente",
-          "pull",
-          "questions",
-          "ralph",
-          "seront",
-          "shopping",
-          "sont",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659081590",
         "t": [
           "anche",
@@ -14659,6 +14632,19 @@
         "t": [
           "donna",
           "girocollo",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10794952041",
+        "t": [
+          "donna",
           "lauren",
           "maglione",
           "pull",
