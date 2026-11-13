@@ -1,13 +1,2 @@
-2026-11-13 07:53:39 UTC Telegram: 1 neue Nachricht(en)
-2026-11-13 07:53:39 UTC Befehl /nightmode ['aus']
-2026-11-13 07:53:40 UTC Suche „RalphLauren“
-2026-11-13 07:53:48 UTC RalphLauren: 34 neu, 14 in der Vorauswahl (Schwelle 0.50), 7 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-13 07:53:55 UTC Bildprüfung 10787569863: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 07:53:59 UTC Ausgeschlossen 10787544425: Flecken / Löcher
-2026-11-13 07:54:03 UTC Ausgeschlossen 10787432567: V-Ausschnitt
-2026-11-13 07:54:12 UTC Bildprüfung 10787493713: unlesbare Antwort: {"merkmal": "Zopf (stop=max_tokens)
-2026-11-13 07:54:16 UTC Ausgeschlossen 10787524972: Flecken / Löcher
-2026-11-13 07:54:22 UTC Bildprüfung 10787413003: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 07:54:22 UTC Suche „Juicy Couture“
-2026-11-13 07:54:22 UTC Juicy Couture: noch keine Beispiele
-2026-11-13 07:54:22 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-13 07:58:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-13 07:58:34 UTC Keine Suche fällig
