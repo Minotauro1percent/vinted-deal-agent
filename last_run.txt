@@ -1,4 +1,14 @@
-2026-11-13 10:03:29 UTC Telegram: 0 neue Nachricht(en)
-2026-11-13 10:03:30 UTC Suche „RalphLauren“
-2026-11-13 10:03:30 UTC Vinted blockiert: HTTP 403
-2026-11-13 10:03:30 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-13 10:07:41 UTC Telegram: 0 neue Nachricht(en)
+2026-11-13 10:07:42 UTC Suche „RalphLauren“
+2026-11-13 10:07:51 UTC RalphLauren: 36 neu, 22 in der Vorauswahl (Schwelle 0.50), 8 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-13 10:07:55 UTC Ausgeschlossen 10788703323: V-Ausschnitt
+2026-11-13 10:08:01 UTC Ausgeschlossen 10788580229: Flecken / Löcher
+2026-11-13 10:08:07 UTC Ausgeschlossen 10788713250: Kinder
+2026-11-13 10:08:19 UTC Ausgeschlossen 10788629742: V-Ausschnitt
+2026-11-13 10:08:22 UTC Ausgeschlossen 10788631263: V-Ausschnitt
+2026-11-13 10:08:31 UTC Bildprüfung 10788599265: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 10:08:43 UTC Bildprüfung 10788679608: unlesbare Antwort:  (stop=max_tokens)
+2026-11-13 10:08:50 UTC Ausgeschlossen 10788664353: V-Ausschnitt
+2026-11-13 10:08:50 UTC Suche „Juicy Couture“
+2026-11-13 10:08:50 UTC Juicy Couture: noch keine Beispiele
+2026-11-13 10:08:50 UTC Suche fertig: 0 neue Deals (2 Suchen)
