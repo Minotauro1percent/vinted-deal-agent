@@ -1,22 +1,2 @@
-2026-11-13 16:10:14 UTC Telegram: 0 neue Nachricht(en)
-2026-11-13 16:10:14 UTC Suche „Xiaomi 17“
-2026-11-13 16:10:19 UTC Xiaomi 17: 5 neue Kandidaten
-2026-11-13 16:10:19 UTC Suche „RalphLauren“
-2026-11-13 16:10:27 UTC RalphLauren: 42 neu, 28 in der Vorauswahl (Schwelle 0.50), 8 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-13 16:10:33 UTC Bildprüfung 10793356320: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:10:39 UTC Bildprüfung 10793285285: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:10:45 UTC Bildprüfung 10793278897: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:10:49 UTC Ausgeschlossen 10793308772: Flecken / Löcher
-2026-11-13 16:10:52 UTC Ausgeschlossen 10793277984: V-Ausschnitt
-2026-11-13 16:10:58 UTC Bildprüfung 10793316239: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:11:02 UTC Ausgeschlossen 10793236092: V-Ausschnitt
-2026-11-13 16:11:02 UTC Details übersprungen (10793293947): HTTP 404 für https://www.vinted.at/items/10793293947-ralph-lauren-pullover-men-gr-xl
-2026-11-13 16:11:09 UTC Bildprüfung 10793254397: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:11:17 UTC Bildprüfung 10793334133: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:11:23 UTC Bildprüfung 10793220243: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:11:34 UTC Bildprüfung 10793265020: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:11:47 UTC Bildprüfung 10793319298: unlesbare Antwort:  (stop=max_tokens)
-2026-11-13 16:11:47 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
-2026-11-13 16:11:47 UTC Suche „Juicy Couture“
-2026-11-13 16:11:47 UTC Juicy Couture: noch keine Beispiele
-2026-11-13 16:11:47 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-13 16:16:05 UTC Telegram: 0 neue Nachricht(en)
+2026-11-13 16:16:05 UTC Keine Suche fällig
