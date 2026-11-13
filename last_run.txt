@@ -1,10 +1,2 @@
-2026-11-13 10:17:19 UTC Telegram: 0 neue Nachricht(en)
-2026-11-13 10:17:19 UTC Suche „RalphLauren“
-2026-11-13 10:17:29 UTC RalphLauren: 20 neu, 10 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 10
-2026-11-13 10:17:33 UTC Ausgeschlossen 10788795389: V-Ausschnitt
-2026-11-13 10:17:39 UTC Bildprüfung fehlgeschlagen: Claude-API 503: 
-2026-11-13 10:17:43 UTC Bildprüfung fehlgeschlagen: Claude-API 503: 
-2026-11-13 10:17:51 UTC Bildprüfung fehlgeschlagen: Claude-API 503: credential validation failed
-2026-11-13 10:18:01 UTC Suche „Juicy Couture“
-2026-11-13 10:18:01 UTC Juicy Couture: noch keine Beispiele
-2026-11-13 10:18:01 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-13 10:22:12 UTC Telegram: 0 neue Nachricht(en)
+2026-11-13 10:22:13 UTC Keine Suche fällig
