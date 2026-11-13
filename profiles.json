@@ -2952,18 +2952,6 @@
     "updated": 1794605967,
     "vlog": [
       {
-        "id": "10658949873",
-        "t": [
-          "lauren",
-          "polo",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659333201",
         "t": [
           "bleu",
@@ -14649,6 +14637,17 @@
           "preppy"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10797686321",
+        "t": [
+          "plusieurs",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
