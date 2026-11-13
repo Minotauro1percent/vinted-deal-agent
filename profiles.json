@@ -2952,33 +2952,6 @@
     "updated": 1794595440,
     "vlog": [
       {
-        "id": "10659053410",
-        "t": [
-          "48h",
-          "article",
-          "avez",
-          "ceux",
-          "contacter",
-          "defauts",
-          "dernieres",
-          "dimensions",
-          "indiquees",
-          "lauren",
-          "presente",
-          "pull",
-          "questions",
-          "ralph",
-          "seront",
-          "shopping",
-          "sont",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658991109",
         "t": [
           "48h",
@@ -14620,6 +14593,21 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10795522816",
+        "t": [
+          "aber",
+          "dunkelblau",
+          "eher",
+          "fallt",
+          "lauren",
+          "ralph",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
