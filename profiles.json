@@ -2952,43 +2952,6 @@
     "updated": 1794573230,
     "vlog": [
       {
-        "id": "10658745495",
-        "t": [
-          "abbinare",
-          "ben",
-          "che",
-          "classici",
-          "colore",
-          "difetti",
-          "elegante",
-          "evidenti",
-          "facile",
-          "girocollo",
-          "grigio",
-          "jeans",
-          "lauren",
-          "logo",
-          "maglioncino",
-          "modello",
-          "pantaloni",
-          "petto",
-          "piu",
-          "pochissimo",
-          "polo",
-          "ralph",
-          "ricamato",
-          "semplice",
-          "senza",
-          "sia",
-          "sul",
-          "tenuto",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658741495",
         "t": [
           "lauren",
@@ -14595,6 +14558,19 @@
           "magliaralphlauren",
           "magliaxl",
           "maglieria"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10790389155",
+        "t": [
+          "lana",
+          "lauren",
+          "maglioncino",
+          "merino",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
