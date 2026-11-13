@@ -2952,27 +2952,6 @@
     "updated": 1794566423,
     "vlog": [
       {
-        "id": "10656962132",
-        "t": [
-          "calda",
-          "caldo",
-          "cotone",
-          "lauren",
-          "maglia",
-          "originale",
-          "paio",
-          "perfetta",
-          "pesante",
-          "polo",
-          "ralph",
-          "usata",
-          "volte"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658380212",
         "t": [
           "grau",
@@ -14587,6 +14566,17 @@
           "vinted"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10789076305",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
