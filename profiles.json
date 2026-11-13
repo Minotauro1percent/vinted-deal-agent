@@ -2952,33 +2952,6 @@
     "updated": 1794586565,
     "vlog": [
       {
-        "id": "10658880793",
-        "t": [
-          "48h",
-          "article",
-          "avez",
-          "ceux",
-          "contacter",
-          "defauts",
-          "dernieres",
-          "dimensions",
-          "indiquees",
-          "lauren",
-          "presente",
-          "pull",
-          "questions",
-          "ralph",
-          "seront",
-          "shopping",
-          "sont",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658853975",
         "t": [
           "48h",
@@ -14613,6 +14586,18 @@
           "tonalita"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10793438656",
+        "t": [
+          "a20",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
