@@ -2952,35 +2952,6 @@
     "updated": 1794579912,
     "vlog": [
       {
-        "id": "10658786820",
-        "t": [
-          "48h",
-          "article",
-          "avez",
-          "calvin",
-          "ceux",
-          "contacter",
-          "defauts",
-          "dernieres",
-          "dimensions",
-          "indiquees",
-          "klein",
-          "lauren",
-          "presente",
-          "pull",
-          "questions",
-          "ralph",
-          "seront",
-          "shopping",
-          "sont",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10658774751",
         "t": [
           "48h",
@@ -14599,6 +14570,21 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10791932581",
+        "t": [
+          "equivalent",
+          "est",
+          "etiquette",
+          "lauren",
+          "mais",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
