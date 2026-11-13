@@ -2952,21 +2952,6 @@
     "updated": 1794540138,
     "vlog": [
       {
-        "id": "10656664710",
-        "t": [
-          "bequem",
-          "echt",
-          "fallt",
-          "lauren",
-          "mangel",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10651700241",
         "t": [
           "antracite",
@@ -14587,6 +14572,21 @@
           "waffle"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10786677916",
+        "t": [
+          "bien",
+          "coupe",
+          "fois",
+          "lauren",
+          "pull",
+          "ralph",
+          "unisexe"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
