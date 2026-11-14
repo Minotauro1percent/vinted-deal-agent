@@ -2952,20 +2952,6 @@
     "updated": 1794680124,
     "vlog": [
       {
-        "id": "10666014030",
-        "t": [
-          "collo",
-          "donna",
-          "lauren",
-          "maglione",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665994383",
         "t": [
           "donna",
@@ -14560,6 +14546,18 @@
           "girocollo",
           "lauren",
           "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10809879834",
+        "t": [
+          "a20",
+          "lauren",
           "pull",
           "ralph"
         ],
