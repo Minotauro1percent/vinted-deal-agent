@@ -2952,19 +2952,6 @@
     "updated": 1794676086,
     "vlog": [
       {
-        "id": "10665250048",
-        "t": [
-          "imitazione",
-          "lana",
-          "lauren",
-          "maglia",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665606839",
         "t": [
           "anni",
@@ -14534,6 +14521,18 @@
       },
       {
         "id": "10808450750",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "s33"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10808323739",
         "t": [
           "lauren",
           "pull",
