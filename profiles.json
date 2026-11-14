@@ -2952,38 +2952,6 @@
     "updated": 1794678410,
     "vlog": [
       {
-        "id": "10665686857",
-        "t": [
-          "arancione",
-          "cotone",
-          "lauren",
-          "maglione",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10665961955",
-        "t": [
-          "envoinl",
-          "fois",
-          "lauren",
-          "marine",
-          "mis",
-          "petit",
-          "polo",
-          "ralph",
-          "seulement",
-          "sweat",
-          "taulle"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665695162",
         "t": [
           "blauer",
@@ -14557,6 +14525,39 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10809429973",
+        "t": [
+          "aber",
+          "anfangs",
+          "gekauf",
+          "gelb",
+          "gesehen",
+          "habe",
+          "lauren",
+          "mich",
+          "ofter",
+          "pullover",
+          "ralph",
+          "satt",
+          "selbst",
+          "vinted"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10809156191",
+        "t": [
+          "lauren",
+          "maglioncino",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
