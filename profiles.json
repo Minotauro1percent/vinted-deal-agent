@@ -2952,18 +2952,6 @@
     "updated": 1794649627,
     "vlog": [
       {
-        "id": "10659544434",
-        "t": [
-          "fur",
-          "passend",
-          "polo",
-          "pullover"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10659523669",
         "t": [
           "fur",
@@ -14629,6 +14617,52 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10801595758",
+        "t": [
+          "aber",
+          "als",
+          "batik",
+          "baumwolle",
+          "blau",
+          "dadurch",
+          "dann",
+          "dem",
+          "den",
+          "dieses",
+          "echt",
+          "ergab",
+          "etikett",
+          "etwas",
+          "gefarbt",
+          "gehalten",
+          "gelb",
+          "gibt",
+          "grun",
+          "habe",
+          "hat",
+          "ich",
+          "ihn",
+          "intensiver",
+          "lauren",
+          "mochte",
+          "nie",
+          "pullover",
+          "ralph",
+          "sich",
+          "sport",
+          "steht",
+          "strickpullover",
+          "trage",
+          "uberall",
+          "war",
+          "was",
+          "weitergeben"
+        ],
+        "c": "",
+        "ok": false,
         "w": 1
       }
     ]
