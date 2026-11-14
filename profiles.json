@@ -2952,25 +2952,6 @@
     "updated": 1794650791,
     "vlog": [
       {
-        "id": "10659629661",
-        "t": [
-          "fehlt",
-          "gewaschen",
-          "guten",
-          "handwasche",
-          "kann",
-          "lauren",
-          "pflegeetikett",
-          "polo",
-          "pullover",
-          "ralph",
-          "werden"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659815247",
         "t": [
           "boutons",
@@ -14631,6 +14612,21 @@
           "maglia"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10801819210",
+        "t": [
+          "camicia",
+          "lauren",
+          "lunghe",
+          "maniche",
+          "polo",
+          "ralph",
+          "righe"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
