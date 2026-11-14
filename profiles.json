@@ -2952,17 +2952,6 @@
     "updated": 1794684495,
     "vlog": [
       {
-        "id": "10666119197",
-        "t": [
-          "donna",
-          "maglione",
-          "polo"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10666141547",
         "t": [
           "bordeaux",
@@ -14592,6 +14581,19 @@
           "ralph"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10810867348",
+        "t": [
+          "blu",
+          "lambswool",
+          "lauren",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
       }
