@@ -1,12 +1,2 @@
-2026-11-14 08:56:52 UTC Telegram: 0 neue Nachricht(en)
-2026-11-14 08:56:52 UTC Suche „RalphLauren“
-2026-11-14 08:57:02 UTC RalphLauren: 21 neu, 11 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-14 08:57:04 UTC Ausgeschlossen 10800953879: V-Ausschnitt
-2026-11-14 08:57:10 UTC Bildprüfung verwirft 10800976853 (10: )
-2026-11-14 08:57:10 UTC Details übersprungen (10800933230): HTTP 404 für https://www.vinted.at/items/10800933230-polo-manches-longues-ralph-lauren
-2026-11-14 08:57:17 UTC Bildprüfung 10800951560: unlesbare Antwort:  (stop=max_tokens)
-2026-11-14 08:57:20 UTC Ausgeschlossen 10800914430: V-Ausschnitt
-2026-11-14 08:57:23 UTC Ausgeschlossen 10800985776: V-Ausschnitt
-2026-11-14 08:57:25 UTC Suche „Juicy Couture“
-2026-11-14 08:57:25 UTC Juicy Couture: noch keine Beispiele
-2026-11-14 08:57:25 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-14 09:01:43 UTC Telegram: 0 neue Nachricht(en)
+2026-11-14 09:01:43 UTC Keine Suche fällig
