@@ -2952,28 +2952,6 @@
     "updated": 1794651358,
     "vlog": [
       {
-        "id": "10659815247",
-        "t": [
-          "boutons",
-          "camionneur",
-          "pull"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10664062947",
-        "t": [
-          "femme",
-          "hiver",
-          "pulls"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10664092472",
         "t": [
           "coton",
@@ -14625,6 +14603,33 @@
           "polo",
           "ralph",
           "righe"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10801876490",
+        "t": [
+          "armel",
+          "lauren",
+          "moosgrun",
+          "pullover",
+          "ralph",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10801876430",
+        "t": [
+          "aber",
+          "aufdruck",
+          "mangel",
+          "polo",
+          "sweater"
         ],
         "c": "Herren Sweater",
         "ok": false,
