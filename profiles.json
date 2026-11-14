@@ -2952,59 +2952,6 @@
     "updated": 1794650199,
     "vlog": [
       {
-        "id": "10659523669",
-        "t": [
-          "fur",
-          "klassisch",
-          "passend",
-          "polo",
-          "pullover"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
-        "id": "10659572523",
-        "t": [
-          "casualchic",
-          "chic",
-          "col",
-          "contacter",
-          "elegant",
-          "envoie",
-          "fermeture",
-          "full",
-          "fullzip",
-          "hashtags",
-          "informations",
-          "integrale",
-          "intemporel",
-          "jean",
-          "lauren",
-          "marque",
-          "merci",
-          "modehomme",
-          "mondial",
-          "montant",
-          "pantalon",
-          "polo",
-          "poloralphlauren",
-          "quotidien",
-          "ralph",
-          "ralphlauren",
-          "relais",
-          "roule",
-          "taillel",
-          "uniquement",
-          "zip",
-          "zippee"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659629661",
         "t": [
           "fehlt",
@@ -14662,6 +14609,28 @@
           "weitergeben"
         ],
         "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10801620880",
+        "t": [
+          "lauren",
+          "pullover",
+          "ralph",
+          "zopfstrickmuster"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10801659561",
+        "t": [
+          "cotone",
+          "maglia"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
