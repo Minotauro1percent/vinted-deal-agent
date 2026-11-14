@@ -2952,21 +2952,6 @@
     "updated": 1794652524,
     "vlog": [
       {
-        "id": "10664092472",
-        "t": [
-          "coton",
-          "cotone",
-          "lauren",
-          "pullover",
-          "ralph",
-          "ralphlauren",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10664014386",
         "t": [
           "avez",
@@ -14632,6 +14617,19 @@
           "sweater"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10802179412",
+        "t": [
+          "blauer",
+          "lauren",
+          "oversize",
+          "ralph",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
