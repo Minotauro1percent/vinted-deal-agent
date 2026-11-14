@@ -2952,31 +2952,6 @@
     "updated": 1794663467,
     "vlog": [
       {
-        "id": "10664720789",
-        "t": [
-          "abeille",
-          "chic",
-          "decontracte",
-          "elegant",
-          "general",
-          "intemporel",
-          "lauren",
-          "nid",
-          "niddabeille",
-          "oldmoney",
-          "pull",
-          "pullrl",
-          "ralph",
-          "ralphlauren",
-          "taillel",
-          "texture",
-          "vinted"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10664838602",
         "t": [
           "agreable",
@@ -14669,6 +14644,27 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10804938812",
+        "t": [
+          "ascella",
+          "blu",
+          "classico",
+          "colore",
+          "cotone",
+          "lauren",
+          "lunghezza",
+          "maglia",
+          "maglione",
+          "ralph",
+          "spalle",
+          "stato",
+          "tipo"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
