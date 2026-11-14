@@ -2952,22 +2952,6 @@
     "updated": 1794654855,
     "vlog": [
       {
-        "id": "10664014386",
-        "t": [
-          "avez",
-          "blanc",
-          "contacter",
-          "lauren",
-          "pull",
-          "questions",
-          "ralph",
-          "vous"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10663855976",
         "t": [
           "bianco",
@@ -14631,6 +14615,21 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10802770298",
+        "t": [
+          "lauren",
+          "mangel",
+          "pink",
+          "polo",
+          "pullover",
+          "ralph",
+          "selten"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
