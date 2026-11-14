@@ -2952,18 +2952,6 @@
     "updated": 1794692668,
     "vlog": [
       {
-        "id": "10665811094",
-        "t": [
-          "a10",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10666485931",
         "t": [
           "angehabt",
@@ -14627,6 +14615,22 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10775979645",
+        "t": [
+          "femme",
+          "lauren",
+          "long",
+          "marron",
+          "polo",
+          "poloralphlauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
