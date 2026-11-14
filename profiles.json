@@ -2952,30 +2952,6 @@
     "updated": 1794673777,
     "vlog": [
       {
-        "id": "10665056107",
-        "t": [
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10665376018",
-        "t": [
-          "bonjour",
-          "lauren",
-          "maille",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665391520",
         "t": [
           "collo",
@@ -14500,6 +14476,33 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10808110345",
+        "t": [
+          "dunkelblauer",
+          "lauren",
+          "melden",
+          "ralph",
+          "selten",
+          "strickpulli"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10808133209",
+        "t": [
+          "donna",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
