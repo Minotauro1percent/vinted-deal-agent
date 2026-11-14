@@ -1,20 +1,2 @@
-2026-11-14 11:08:40 UTC Telegram: 0 neue Nachricht(en)
-2026-11-14 11:08:40 UTC Suche „Xiaomi 17“
-2026-11-14 11:08:44 UTC Xiaomi 17: 2 neue Kandidaten
-2026-11-14 11:08:48 UTC Suche „RalphLauren“
-2026-11-14 11:08:57 UTC RalphLauren: 44 neu, 26 in der Vorauswahl (Schwelle 0.50), 8 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-14 11:09:00 UTC Ausgeschlossen 10802555140: V-Ausschnitt
-2026-11-14 11:09:06 UTC Bildprüfung 10802615822: unlesbare Antwort: {"mer (stop=max_tokens)
-2026-11-14 11:09:09 UTC Ausgeschlossen 10802570610: V-Ausschnitt
-2026-11-14 11:09:14 UTC Bildprüfung 10802668271: unlesbare Antwort:  (stop=max_tokens)
-2026-11-14 11:09:21 UTC Ausgeschlossen 10802638914: V-Ausschnitt
-2026-11-14 11:09:33 UTC Bildprüfung 10802688714: unlesbare Antwort:  (stop=max_tokens)
-2026-11-14 11:09:36 UTC Ausgeschlossen 10802596303: Flecken / Löcher
-2026-11-14 11:09:39 UTC Ausgeschlossen 10802677407: V-Ausschnitt
-2026-11-14 11:09:55 UTC Bildprüfung 10802620295: unlesbare Antwort:  (stop=max_tokens)
-2026-11-14 11:09:58 UTC Ausgeschlossen 10802574391: V-Ausschnitt
-2026-11-14 11:10:00 UTC Ausgeschlossen 10802464259: V-Ausschnitt
-2026-11-14 11:10:03 UTC Ausgeschlossen 10802625958: V-Ausschnitt
-2026-11-14 11:10:03 UTC Suche „Juicy Couture“
-2026-11-14 11:10:03 UTC Juicy Couture: noch keine Beispiele
-2026-11-14 11:10:03 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-14 11:14:15 UTC Telegram: 0 neue Nachricht(en)
+2026-11-14 11:14:15 UTC Keine Suche fällig
