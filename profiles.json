@@ -2952,35 +2952,6 @@
     "updated": 1794662366,
     "vlog": [
       {
-        "id": "10647173921",
-        "t": [
-          "blu",
-          "colore",
-          "cotone",
-          "loren",
-          "maglione",
-          "misura",
-          "navy",
-          "ralph",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10663753569",
-        "t": [
-          "gris",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10664720789",
         "t": [
           "abeille",
@@ -14672,6 +14643,32 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10804650047",
+        "t": [
+          "polo",
+          "strickpullover"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10804629094",
+        "t": [
+          "angezogen",
+          "flohmarkt",
+          "gekauft",
+          "lauren",
+          "nie",
+          "pullover",
+          "ralph",
+          "selbst"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
