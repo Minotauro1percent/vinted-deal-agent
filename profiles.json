@@ -2952,33 +2952,6 @@
     "updated": 1794642110,
     "vlog": [
       {
-        "id": "10658857841",
-        "t": [
-          "48h",
-          "article",
-          "avez",
-          "ceux",
-          "contacter",
-          "defauts",
-          "dernieres",
-          "dimensions",
-          "indiquees",
-          "lauren",
-          "presente",
-          "pull",
-          "questions",
-          "ralph",
-          "seront",
-          "shopping",
-          "sont",
-          "visibles",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659237307",
         "t": [
           "lauren",
@@ -14647,6 +14620,17 @@
           "ralph"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10800415663",
+        "t": [
+          "lauren",
+          "maglione",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
