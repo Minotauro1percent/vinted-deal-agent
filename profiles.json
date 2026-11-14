@@ -2952,30 +2952,6 @@
     "updated": 1794675499,
     "vlog": [
       {
-        "id": "10665365453",
-        "t": [
-          "fois",
-          "lauren",
-          "pull",
-          "quelques",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10665464426",
-        "t": [
-          "laurent",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665250048",
         "t": [
           "imitazione",
@@ -14541,6 +14517,30 @@
           "scuro"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10808459443",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "s33"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10808450750",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "s33"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
