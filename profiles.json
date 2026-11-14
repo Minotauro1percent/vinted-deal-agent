@@ -2952,17 +2952,6 @@
     "updated": 1794671435,
     "vlog": [
       {
-        "id": "10665063061",
-        "t": [
-          "petit",
-          "pull",
-          "teeshirt"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665220286",
         "t": [
           "lauren",
@@ -14479,6 +14468,44 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10806744652",
+        "t": [
+          "basic",
+          "brust",
+          "chic",
+          "dezentes",
+          "elegant",
+          "grau",
+          "grauer",
+          "hochwertiges",
+          "klassiker",
+          "klassischer",
+          "kombinieren",
+          "lasst",
+          "lauren",
+          "logo",
+          "polo",
+          "pullover",
+          "ralph",
+          "reiter",
+          "rundhalsausschnitt",
+          "schone",
+          "sich",
+          "sportlich",
+          "stilvoller",
+          "strickoptik",
+          "toniges",
+          "vielseitig",
+          "weiche",
+          "zeitlosem",
+          "zeitloser",
+          "zopfmuster"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
