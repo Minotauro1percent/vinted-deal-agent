@@ -2952,27 +2952,6 @@
     "updated": 1794689396,
     "vlog": [
       {
-        "id": "10666141356",
-        "t": [
-          "che",
-          "guardate",
-          "lauren",
-          "macchietta",
-          "maglione",
-          "piccola",
-          "poiche",
-          "polo",
-          "presenta",
-          "ralph",
-          "segnalato",
-          "ultima",
-          "una"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10665811094",
         "t": [
           "a10",
@@ -14602,6 +14581,52 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10811853586",
+        "t": [
+          "100silk",
+          "bouloche",
+          "brode",
+          "cable",
+          "cableknit",
+          "chic",
+          "col",
+          "coloris",
+          "epaules",
+          "general",
+          "homme",
+          "knit",
+          "lauren",
+          "legerement",
+          "logo",
+          "luxury",
+          "maille",
+          "marron",
+          "money",
+          "old",
+          "oldmoney",
+          "polo",
+          "poloralphlauren",
+          "pony",
+          "preppy",
+          "pull",
+          "pulltorsade",
+          "quiet",
+          "quietluxury",
+          "ralph",
+          "ralphlauren",
+          "rond",
+          "soie",
+          "taupe",
+          "torsade",
+          "torsadee",
+          "unisexe",
+          "vert"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
