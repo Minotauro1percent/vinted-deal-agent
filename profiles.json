@@ -2952,22 +2952,6 @@
     "updated": 1794646362,
     "vlog": [
       {
-        "id": "10659237307",
-        "t": [
-          "lauren",
-          "maglia",
-          "marrone",
-          "misure",
-          "polo",
-          "pullover",
-          "ralph",
-          "spessa"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10645294401",
         "t": [
           "excellent",
@@ -14631,6 +14615,21 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10800976853",
+        "t": [
+          "lana",
+          "lauren",
+          "misure",
+          "polo",
+          "pregiata",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
       }
