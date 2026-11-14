@@ -2952,18 +2952,6 @@
     "updated": 1794688288,
     "vlog": [
       {
-        "id": "10666141547",
-        "t": [
-          "bordeaux",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10666141356",
         "t": [
           "che",
@@ -14594,6 +14582,25 @@
           "ralph"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10811889814",
+        "t": [
+          "blau",
+          "dunkles",
+          "fit",
+          "frauen",
+          "fur",
+          "manner",
+          "nie",
+          "polo",
+          "slim",
+          "teiler",
+          "zwei"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
