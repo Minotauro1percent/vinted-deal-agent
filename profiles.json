@@ -2952,21 +2952,6 @@
     "updated": 1794672033,
     "vlog": [
       {
-        "id": "10665220286",
-        "t": [
-          "lauren",
-          "maglione",
-          "piccolo",
-          "piu",
-          "ralph",
-          "una",
-          "veste"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10665283388",
         "t": [
           "agreable",
@@ -14506,6 +14491,19 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10807591625",
+        "t": [
+          "blau",
+          "lauren",
+          "pullover",
+          "ralph",
+          "selten"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
         "w": 1
       }
     ]
