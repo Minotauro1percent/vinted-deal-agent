@@ -2952,76 +2952,6 @@
     "updated": 1794664598,
     "vlog": [
       {
-        "id": "10664799854",
-        "t": [
-          "alta",
-          "bellissimo",
-          "blu",
-          "cavallino",
-          "colore",
-          "difetto",
-          "gia",
-          "iconico",
-          "lauren",
-          "maglione",
-          "metto",
-          "misure",
-          "navyi",
-          "nessun",
-          "non",
-          "pari",
-          "polo",
-          "presenta",
-          "prodotto",
-          "qualita",
-          "ralph",
-          "rosso",
-          "vendita"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10664797157",
-        "t": [
-          "amateurs",
-          "associer",
-          "belles",
-          "bien",
-          "bleu",
-          "chic",
-          "chino",
-          "classique",
-          "conserve",
-          "decontracte",
-          "decouvrir",
-          "dressing",
-          "elegant",
-          "excellent",
-          "facile",
-          "grand",
-          "incontournable",
-          "indiquee",
-          "intemporel",
-          "jean",
-          "jeter",
-          "lauren",
-          "logo",
-          "mais",
-          "marine",
-          "marque",
-          "mieux",
-          "mon",
-          "pull",
-          "ralph",
-          "rouge"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10664894894",
         "t": [
           "allie",
@@ -14645,6 +14575,28 @@
           "uber"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10805235335",
+        "t": [
+          "cardigan",
+          "lauren",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10805389111",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
