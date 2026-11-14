@@ -2952,49 +2952,6 @@
     "updated": 1794678976,
     "vlog": [
       {
-        "id": "10665695162",
-        "t": [
-          "blauer",
-          "dunn",
-          "lauren",
-          "longsleeve",
-          "melden",
-          "polo",
-          "pullover",
-          "ralph",
-          "steht",
-          "strickpullover"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10665925827",
-        "t": [
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10666112796",
-        "t": [
-          "collo",
-          "donna",
-          "lauren",
-          "maglione",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10666014030",
         "t": [
           "collo",
@@ -14558,6 +14515,56 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10809503615",
+        "t": [
+          "blu",
+          "comodo",
+          "elasticizzato",
+          "lauren",
+          "maglione",
+          "pesante",
+          "polsi",
+          "ralph",
+          "scuro",
+          "vita"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10809527052",
+        "t": [
+          "alone",
+          "basso",
+          "dietro",
+          "donna",
+          "girocollo",
+          "lauren",
+          "maglione",
+          "piccolo",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10809495231",
+        "t": [
+          "donna",
+          "girocollo",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
