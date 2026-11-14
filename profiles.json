@@ -2952,29 +2952,6 @@
     "updated": 1794673221,
     "vlog": [
       {
-        "id": "10665283388",
-        "t": [
-          "agreable",
-          "bleu",
-          "bordeau",
-          "brode",
-          "camioneur",
-          "chine",
-          "coton",
-          "jersey",
-          "lauren",
-          "leger",
-          "logo",
-          "matiere",
-          "portet",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665056107",
         "t": [
           "lauren",
@@ -14504,6 +14481,25 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10807958648",
+        "t": [
+          "dem",
+          "falsche",
+          "gibt",
+          "kauf",
+          "kontaktieren",
+          "naht",
+          "pullover",
+          "rucken",
+          "sehen",
+          "vor",
+          "weisser"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
