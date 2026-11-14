@@ -2952,24 +2952,6 @@
     "updated": 1794648001,
     "vlog": [
       {
-        "id": "10659501444",
-        "t": [
-          "contient",
-          "cosy",
-          "dimensions",
-          "est",
-          "etiquette",
-          "hiver",
-          "laine",
-          "mais",
-          "noel",
-          "pull"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10659544434",
         "t": [
           "fur",
@@ -14627,6 +14609,23 @@
           "pullover",
           "ralph",
           "schwarzer"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10801245567",
+        "t": [
+          "baumwolle",
+          "etwas",
+          "farbverlust",
+          "lauren",
+          "leichter",
+          "pilling",
+          "pullover",
+          "ralph",
+          "schwarz"
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
