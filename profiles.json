@@ -2952,29 +2952,6 @@
     "updated": 1794674935,
     "vlog": [
       {
-        "id": "10665367384",
-        "t": [
-          "cou",
-          "est",
-          "imperfections",
-          "indemne",
-          "lauren",
-          "legeres",
-          "mais",
-          "problemes",
-          "pull",
-          "quelques",
-          "ralph",
-          "reste",
-          "sans",
-          "tous",
-          "vers"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665365453",
         "t": [
           "fois",
@@ -14549,6 +14526,21 @@
           "zusammen"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10808312051",
+        "t": [
+          "blu",
+          "colore",
+          "lauren",
+          "leggero",
+          "maglione",
+          "ralph",
+          "scuro"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
