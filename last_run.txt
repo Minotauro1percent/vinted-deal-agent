@@ -1,4 +1,6 @@
-2026-11-14 03:53:44 UTC Telegram: 0 neue Nachricht(en)
-2026-11-14 03:53:45 UTC Suche „RalphLauren“
-2026-11-14 03:53:45 UTC Vinted blockiert: HTTP 403
-2026-11-14 03:53:45 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-14 03:57:55 UTC Telegram: 0 neue Nachricht(en)
+2026-11-14 03:57:55 UTC Suche „RalphLauren“
+2026-11-14 03:58:04 UTC RalphLauren: 2 neu, 0 in der Vorauswahl (Schwelle 0.50), Bild-Budget 7
+2026-11-14 03:58:04 UTC Suche „Juicy Couture“
+2026-11-14 03:58:04 UTC Juicy Couture: noch keine Beispiele
+2026-11-14 03:58:04 UTC Suche fertig: 0 neue Deals (2 Suchen)
