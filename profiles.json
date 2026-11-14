@@ -2952,21 +2952,6 @@
     "updated": 1794677832,
     "vlog": [
       {
-        "id": "10665606839",
-        "t": [
-          "anni",
-          "armadio",
-          "conservato",
-          "inutilizzo",
-          "laurena",
-          "maglione",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10665686857",
         "t": [
           "arancione",
@@ -14540,6 +14525,37 @@
           "s33"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10809164941",
+        "t": [
+          "basic",
+          "daher",
+          "deinen",
+          "dunkelblaues",
+          "easy",
+          "fur",
+          "jacke",
+          "jeans",
+          "kleiner",
+          "kombinierbar",
+          "lauren",
+          "offenen",
+          "ralph",
+          "reiterstickerei",
+          "rucknahme",
+          "schlichtes",
+          "shirt",
+          "shorts",
+          "stockholm",
+          "stockholmstyle",
+          "unter",
+          "weisse",
+          "weisser"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
