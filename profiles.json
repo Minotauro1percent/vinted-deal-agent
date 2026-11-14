@@ -2952,21 +2952,6 @@
     "updated": 1794658835,
     "vlog": [
       {
-        "id": "10664329990",
-        "t": [
-          "bleu",
-          "bordeau",
-          "fois",
-          "logo",
-          "pull",
-          "quelques",
-          "zip"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10664477765",
         "t": [
           "acquistare",
@@ -14697,6 +14682,31 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10803695018",
+        "t": [
+          "fabric",
+          "have",
+          "holes",
+          "know",
+          "lambs",
+          "lambswool",
+          "lauren",
+          "let",
+          "pullover",
+          "questions",
+          "ralph",
+          "rather",
+          "shown",
+          "small",
+          "thick",
+          "wool",
+          "you"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
