@@ -2952,24 +2952,6 @@
     "updated": 1794742203,
     "vlog": [
       {
-        "id": "10667106710",
-        "t": [
-          "lauren",
-          "lavare",
-          "lavarlo",
-          "maglione",
-          "non",
-          "ralph",
-          "solo",
-          "tempo",
-          "trattato",
-          "trecciato"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10667300541",
         "t": [
           "convient",
@@ -14610,6 +14592,17 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10819034560",
+        "t": [
+          "maglioncino",
+          "polo",
+          "uomo"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
