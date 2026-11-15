@@ -2952,33 +2952,6 @@
     "updated": 1794766942,
     "vlog": [
       {
-        "id": "10668180199",
-        "t": [
-          "48h",
-          "chaud",
-          "faites",
-          "femme",
-          "hiver",
-          "lauren",
-          "lots",
-          "mon",
-          "noir",
-          "peux",
-          "profil",
-          "proposer",
-          "pull",
-          "ralph",
-          "reduction",
-          "similaires",
-          "tient",
-          "torsade",
-          "vous"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10668050756",
         "t": [
           "allure",
@@ -14650,6 +14623,22 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10828286252",
+        "t": [
+          "gutem",
+          "lauren",
+          "pullover",
+          "ralph",
+          "schwarzer",
+          "selten",
+          "strickpullover",
+          "wurde"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
