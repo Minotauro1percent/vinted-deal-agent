@@ -2952,18 +2952,6 @@
     "updated": 1794742812,
     "vlog": [
       {
-        "id": "10667300541",
-        "t": [
-          "convient",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10666945975",
         "t": [
           "bleu",
@@ -14600,6 +14588,15 @@
           "maglioncino",
           "polo",
           "uomo"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10819102097",
+        "t": [
+          "strickpulli"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
