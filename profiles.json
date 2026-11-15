@@ -2952,33 +2952,6 @@
     "updated": 1794768612,
     "vlog": [
       {
-        "id": "10668404530",
-        "t": [
-          "auffalligen",
-          "befindet",
-          "brust",
-          "design",
-          "gebrauchsspuren",
-          "guten",
-          "klassisches",
-          "lauren",
-          "logo",
-          "nutzung",
-          "oft",
-          "polo",
-          "pullover",
-          "ralph",
-          "rotem",
-          "schwarz",
-          "selten",
-          "sich",
-          "wurde"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10668400769",
         "t": [
           "felpa",
@@ -14607,6 +14580,21 @@
           "weiss"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10828833235",
+        "t": [
+          "articolo",
+          "cotone",
+          "due",
+          "maglione",
+          "polo",
+          "ralph",
+          "volte"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
