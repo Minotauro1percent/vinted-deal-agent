@@ -2952,25 +2952,6 @@
     "updated": 1794760887,
     "vlog": [
       {
-        "id": "10667814117",
-        "t": [
-          "chaud",
-          "chemises",
-          "envoyer",
-          "hiver",
-          "info",
-          "lauren",
-          "message",
-          "moi",
-          "ralph",
-          "tien",
-          "vendre"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667822211",
         "t": [
           "lauren",
@@ -14647,6 +14628,16 @@
           "oldmoney",
           "originale",
           "orlo"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10825987753",
+        "t": [
+          "hiver",
+          "pulls"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
