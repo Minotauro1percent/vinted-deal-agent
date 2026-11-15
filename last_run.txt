@@ -1,2 +1,19 @@
-2026-11-15 13:59:13 UTC Telegram: 0 neue Nachricht(en)
-2026-11-15 13:59:13 UTC Keine Suche fällig
+2026-11-15 14:03:26 UTC Telegram: 0 neue Nachricht(en)
+2026-11-15 14:03:26 UTC Suche „Xiaomi 17“
+2026-11-15 14:03:32 UTC Xiaomi 17: 3 neue Kandidaten
+2026-11-15 14:03:36 UTC Suche „RalphLauren“
+2026-11-15 14:03:44 UTC RalphLauren: 76 neu, 49 in der Vorauswahl (Schwelle 0.50), 7 per Lernmodell aussortiert, Bild-Budget 7
+2026-11-15 14:03:54 UTC Bildprüfung 10822077296: unlesbare Antwort:  (stop=max_tokens)
+2026-11-15 14:04:01 UTC Bildprüfung 10822090085: unlesbare Antwort:  (stop=max_tokens)
+2026-11-15 14:04:07 UTC Bildprüfung 10820939408: unlesbare Antwort:  (stop=max_tokens)
+2026-11-15 14:04:13 UTC Bildprüfung 10822047481: unlesbare Antwort:  (stop=max_tokens)
+2026-11-15 14:04:16 UTC Ausgeschlossen 10822163716: V-Ausschnitt
+2026-11-15 14:04:22 UTC Bildprüfung 10821644818: unlesbare Antwort:  (stop=max_tokens)
+2026-11-15 14:04:28 UTC Bildprüfung 10822091662: unlesbare Antwort:  (stop=max_tokens)
+2026-11-15 14:04:32 UTC Ausgeschlossen 10822111593: V-Ausschnitt
+2026-11-15 14:04:36 UTC Ausgeschlossen 10822078115: V-Ausschnitt
+2026-11-15 14:04:43 UTC Bildprüfung 10822036940: unlesbare Antwort:  (stop=max_tokens)
+2026-11-15 14:04:43 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
+2026-11-15 14:04:43 UTC Suche „Juicy Couture“
+2026-11-15 14:04:43 UTC Juicy Couture: noch keine Beispiele
+2026-11-15 14:04:43 UTC Suche fertig: 0 neue Deals (3 Suchen)
