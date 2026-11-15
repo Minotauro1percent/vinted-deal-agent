@@ -2952,19 +2952,6 @@
     "updated": 1794741004,
     "vlog": [
       {
-        "id": "10666819077",
-        "t": [
-          "lauren",
-          "perfekter",
-          "pullover",
-          "ralph",
-          "selten"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667093919",
         "t": [
           "chemise",
@@ -14609,6 +14596,20 @@
           "rarement"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10818584754",
+        "t": [
+          "dunkelblaues",
+          "grau",
+          "lauren",
+          "logo",
+          "pullover",
+          "ralph"
+        ],
+        "c": "",
         "ok": false,
         "w": 1
       }
