@@ -2952,17 +2952,6 @@
     "updated": 1794763612,
     "vlog": [
       {
-        "id": "10667822211",
-        "t": [
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667651720",
         "t": [
           "herren",
@@ -14638,6 +14627,26 @@
         "t": [
           "hiver",
           "pulls"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10826921147",
+        "t": [
+          "70m",
+          "alta",
+          "blue",
+          "indossato",
+          "lauren",
+          "leggero",
+          "navy",
+          "peeling",
+          "ralph",
+          "sweater",
+          "tessuto",
+          "wool"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
