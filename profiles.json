@@ -2952,44 +2952,6 @@
     "updated": 1794736035,
     "vlog": [
       {
-        "id": "10666746888",
-        "t": [
-          "bleu",
-          "dimensions",
-          "lauren",
-          "livraison",
-          "logo",
-          "lyocell",
-          "marine",
-          "matiere",
-          "nylon",
-          "pull",
-          "ralph",
-          "soie",
-          "torsade"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10666746590",
-        "t": [
-          "article",
-          "blanc",
-          "cet",
-          "confortable",
-          "elegant",
-          "hiver",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10666872817",
         "t": [
           "lauren",
@@ -14615,6 +14577,37 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10817154796",
+        "t": [
+          "aber",
+          "geschnitten",
+          "gestrickt",
+          "lauren",
+          "oversize",
+          "pullover",
+          "ralph",
+          "wenig"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10817042380",
+        "t": [
+          "comme",
+          "fois",
+          "lauren",
+          "meme",
+          "pull",
+          "ralph",
+          "utilise"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
