@@ -2952,65 +2952,6 @@
     "updated": 1794753456,
     "vlog": [
       {
-        "id": "10667211364",
-        "t": [
-          "bleu",
-          "boutonnage",
-          "boutons",
-          "brode",
-          "chic",
-          "chronopost",
-          "col",
-          "cotele",
-          "cotelees",
-          "coton",
-          "decontracte",
-          "details",
-          "dore",
-          "dores",
-          "ecusson",
-          "elegant",
-          "expedition",
-          "femme",
-          "finitions",
-          "habille",
-          "jean",
-          "jeans",
-          "jour",
-          "lauren",
-          "laurenjeansco",
-          "lendemain",
-          "longues",
-          "maille",
-          "marine",
-          "marque",
-          "meme",
-          "modefemme",
-          "modele",
-          "mondial",
-          "montant",
-          "pantalon",
-          "patte",
-          "pull",
-          "pullbleumarine",
-          "pullcolmontant",
-          "pullfemme",
-          "raffine",
-          "ralph",
-          "ralphlauren",
-          "relay",
-          "stylechic",
-          "superbe",
-          "vendeestock",
-          "via",
-          "vinted",
-          "vintedpro"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667455695",
         "t": [
           "caldo",
@@ -14615,6 +14556,17 @@
           "zweiteiliges"
         ],
         "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10822932689",
+        "t": [
+          "lauren",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": true,
         "w": 1
       }
