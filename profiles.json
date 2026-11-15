@@ -2952,23 +2952,6 @@
     "updated": 1794755173,
     "vlog": [
       {
-        "id": "10667546597",
-        "t": [
-          "acquistare",
-          "ascolto",
-          "dimostra",
-          "lauren",
-          "maglione",
-          "non",
-          "offerte",
-          "originale",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667608717",
         "t": [
           "all",
@@ -14639,6 +14622,23 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10823559149",
+        "t": [
+          "bleu",
+          "etiquette",
+          "lauren",
+          "lisible",
+          "mais",
+          "non",
+          "pull",
+          "ralph",
+          "torsade"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
