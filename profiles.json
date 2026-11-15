@@ -2952,19 +2952,6 @@
     "updated": 1794745212,
     "vlog": [
       {
-        "id": "10666945975",
-        "t": [
-          "bleu",
-          "lauren",
-          "presque",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667277998",
         "t": [
           "artikel",
@@ -14599,6 +14586,19 @@
           "strickpulli"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10819881022",
+        "t": [
+          "hier",
+          "langarm",
+          "lauren",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
