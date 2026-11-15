@@ -2952,33 +2952,6 @@
     "updated": 1794754017,
     "vlog": [
       {
-        "id": "10667455695",
-        "t": [
-          "caldo",
-          "indossato",
-          "lauren",
-          "maglione",
-          "paio",
-          "polo",
-          "ralph",
-          "volte"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10667365289",
-        "t": [
-          "kragenpullover",
-          "lauren",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667532893",
         "t": [
           "ape",
@@ -14568,6 +14541,52 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10823176084",
+        "t": [
+          "brust",
+          "cremeweiss",
+          "design",
+          "fur",
+          "gebrauchter",
+          "gesticktem",
+          "guter",
+          "herbst",
+          "klassischem",
+          "lauren",
+          "logo",
+          "perfekt",
+          "ralph",
+          "schoner",
+          "strickpullover",
+          "winter",
+          "zeitloses",
+          "zopfmuster"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10823203067",
+        "t": [
+          "bateau",
+          "blanc",
+          "bleu",
+          "col",
+          "coton",
+          "hivernaux",
+          "lauren",
+          "long",
+          "marine",
+          "motif",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
