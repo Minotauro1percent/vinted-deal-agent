@@ -2952,28 +2952,6 @@
     "updated": 1794732676,
     "vlog": [
       {
-        "id": "10666431549",
-        "t": [
-          "envoie",
-          "est",
-          "etiquette",
-          "indiquee",
-          "lauren",
-          "mais",
-          "merci",
-          "noir",
-          "petit",
-          "ralph",
-          "soigneux",
-          "sweat",
-          "utiliser",
-          "vinted"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10666253445",
         "t": [
           "imitazione",
@@ -14613,6 +14591,18 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10816390047",
+        "t": [
+          "creme",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
