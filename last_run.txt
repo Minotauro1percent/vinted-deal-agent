@@ -1,2 +1,6 @@
-2026-11-15 22:16:35 UTC Telegram: 0 neue Nachricht(en)
-2026-11-15 22:16:35 UTC Keine Suche fällig
+2026-11-15 22:20:46 UTC Telegram: 0 neue Nachricht(en)
+2026-11-15 22:20:47 UTC Suche „RalphLauren“
+2026-11-15 22:20:47 UTC RalphLauren: Bildprüfung gerade nicht möglich (Tageslimit) – Suche wartet
+2026-11-15 22:20:47 UTC Suche „Juicy Couture“
+2026-11-15 22:20:47 UTC Juicy Couture: noch keine Beispiele
+2026-11-15 22:20:47 UTC Suche fertig: 0 neue Deals (2 Suchen)
