@@ -2952,18 +2952,6 @@
     "updated": 1794735465,
     "vlog": [
       {
-        "id": "10666746431",
-        "t": [
-          "dupe",
-          "frauen",
-          "polo",
-          "pullover"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10666746888",
         "t": [
           "bleu",
@@ -14602,6 +14590,30 @@
           "ralph"
         ],
         "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10816914612",
+        "t": [
+          "authentique",
+          "bleu",
+          "cachemire",
+          "coloris",
+          "esselle",
+          "fois",
+          "habille",
+          "invisible",
+          "lauren",
+          "matiere",
+          "petite",
+          "pull",
+          "ralph",
+          "reparation",
+          "sinon",
+          "violet"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
