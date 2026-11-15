@@ -1,2 +1,9 @@
-2026-11-15 07:58:08 UTC Telegram: 0 neue Nachricht(en)
-2026-11-15 07:58:09 UTC Keine Suche fällig
+2026-11-15 08:02:19 UTC Telegram: 0 neue Nachricht(en)
+2026-11-15 08:02:19 UTC Suche „Xiaomi 17“
+2026-11-15 08:02:23 UTC Xiaomi 17: 1 neue Kandidaten
+2026-11-15 08:02:27 UTC Suche „RalphLauren“
+2026-11-15 08:02:35 UTC RalphLauren: 12 neu, 3 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-15 08:02:38 UTC Ausgeschlossen 10815950648: V-Ausschnitt
+2026-11-15 08:02:39 UTC Suche „Juicy Couture“
+2026-11-15 08:02:39 UTC Juicy Couture: noch keine Beispiele
+2026-11-15 08:02:39 UTC Suche fertig: 0 neue Deals (3 Suchen)
