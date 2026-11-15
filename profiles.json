@@ -2952,29 +2952,6 @@
     "updated": 1794747012,
     "vlog": [
       {
-        "id": "10667250703",
-        "t": [
-          "528g",
-          "abonnes",
-          "coton",
-          "creme",
-          "femme",
-          "lauren",
-          "nico528g",
-          "pourfemme",
-          "pull",
-          "pullcolv",
-          "pullhiver",
-          "pulltommyhilfiger",
-          "ralph",
-          "tommyhilfiger",
-          "trace"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10667211364",
         "t": [
           "bleu",
@@ -14596,6 +14573,49 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10820525770",
+        "t": [
+          "angesagten",
+          "befinden",
+          "beide",
+          "beige",
+          "beschadigungen",
+          "besondere",
+          "besteht",
+          "bildern",
+          "braun",
+          "dabei",
+          "den",
+          "design",
+          "details",
+          "entnehmen",
+          "farben",
+          "gehalten",
+          "gehort",
+          "gewollt",
+          "guten",
+          "halsausschnitt",
+          "handelt",
+          "hinweis",
+          "ich",
+          "kleidungsstucke",
+          "polo",
+          "pullover",
+          "retro",
+          "schones",
+          "set",
+          "shirt",
+          "sich",
+          "teile",
+          "teiliges",
+          "weitere",
+          "zweiteiliges"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
