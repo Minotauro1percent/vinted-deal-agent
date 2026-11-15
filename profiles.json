@@ -2952,22 +2952,6 @@
     "updated": 1794724254,
     "vlog": [
       {
-        "id": "10666485931",
-        "t": [
-          "angehabt",
-          "guter",
-          "lauren",
-          "paar",
-          "ralph",
-          "schoner",
-          "strickpulli",
-          "stricktop"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10666401910",
         "t": [
           "acostine",
@@ -14630,6 +14614,58 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10815549882",
+        "t": [
+          "1m75",
+          "24h",
+          "article",
+          "autentico",
+          "authentic",
+          "authentique",
+          "basic",
+          "classicstyle",
+          "col",
+          "colrond",
+          "directement",
+          "emballage",
+          "envio",
+          "expedie",
+          "fashionmen",
+          "fastshipping",
+          "g106",
+          "gris",
+          "jumper",
+          "lauren",
+          "livraison",
+          "maglione",
+          "mensfashion",
+          "menstyle",
+          "mensurations",
+          "originale",
+          "polo",
+          "poloralphlauren",
+          "pull",
+          "pullover",
+          "ralph",
+          "ralphlauren",
+          "ralphlaurenvintage",
+          "rapido",
+          "rond",
+          "sont",
+          "streetwear",
+          "sudadera",
+          "sueter",
+          "sweat",
+          "usa",
+          "vintagepolo",
+          "visibles",
+          "wardrobeessential"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
