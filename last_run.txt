@@ -1,16 +1,2 @@
-2026-11-15 16:17:48 UTC Telegram: 0 neue Nachricht(en)
-2026-11-15 16:17:48 UTC Suche „RalphLauren“
-2026-11-15 16:17:56 UTC RalphLauren: 87 neu, 50 in der Vorauswahl (Schwelle 0.50), 13 per Lernmodell aussortiert, Bild-Budget 5
-2026-11-15 16:17:59 UTC Ausgeschlossen 10825186324: V-Ausschnitt
-2026-11-15 16:18:05 UTC Ausgeschlossen 10813249380: V-Ausschnitt
-2026-11-15 16:18:16 UTC Bildprüfung 10825228286: unlesbare Antwort:  (stop=max_tokens)
-2026-11-15 16:18:23 UTC Bildprüfung 10825370832: unlesbare Antwort:  (stop=max_tokens)
-2026-11-15 16:18:28 UTC Bildprüfung 10825245707: unlesbare Antwort:  (stop=max_tokens)
-2026-11-15 16:18:31 UTC Ausgeschlossen 10825208259: V-Ausschnitt
-2026-11-15 16:18:31 UTC Details übersprungen (10825283844): HTTP 404 für https://www.vinted.at/items/10825283844-ralph-lauren-pullover
-2026-11-15 16:18:38 UTC Bildprüfung 10825306507: unlesbare Antwort:  (stop=max_tokens)
-2026-11-15 16:18:44 UTC Bildprüfung 10825369910: unlesbare Antwort:  (stop=max_tokens)
-2026-11-15 16:18:44 UTC RalphLauren: Bild-Budget dieses Laufs aufgebraucht – Rest im nächsten Lauf
-2026-11-15 16:18:44 UTC Suche „Juicy Couture“
-2026-11-15 16:18:44 UTC Juicy Couture: noch keine Beispiele
-2026-11-15 16:18:44 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-15 16:22:56 UTC Telegram: 0 neue Nachricht(en)
+2026-11-15 16:22:56 UTC Keine Suche fällig
