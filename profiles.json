@@ -2952,23 +2952,6 @@
     "updated": 1794746411,
     "vlog": [
       {
-        "id": "10667277998",
-        "t": [
-          "artikel",
-          "bildern",
-          "blauem",
-          "den",
-          "logo",
-          "melden",
-          "polo",
-          "pullover",
-          "rot"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10667250703",
         "t": [
           "528g",
@@ -14597,6 +14580,19 @@
           "lauren",
           "polo",
           "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10820341290",
+        "t": [
+          "club",
+          "melden",
+          "polo",
+          "selten",
+          "sweater"
         ],
         "c": "Herren Sweater",
         "ok": false,
