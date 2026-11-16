@@ -2952,23 +2952,6 @@
     "updated": 1794858094,
     "vlog": [
       {
-        "id": "10672016602",
-        "t": [
-          "boheme",
-          "ecru",
-          "femme",
-          "franges",
-          "lauren",
-          "maille",
-          "pull",
-          "ralph",
-          "y2k"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672092415",
         "t": [
           "acquistare",
@@ -14684,6 +14667,18 @@
           "ralph"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10844685294",
+        "t": [
+          "clara",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
