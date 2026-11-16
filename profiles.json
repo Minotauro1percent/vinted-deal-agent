@@ -2952,33 +2952,6 @@
     "updated": 1794807587,
     "vlog": [
       {
-        "id": "10668568682",
-        "t": [
-          "alltag",
-          "brust",
-          "den",
-          "design",
-          "dunkelblauer",
-          "fur",
-          "klassischen",
-          "kleinen",
-          "lauren",
-          "logo",
-          "muster",
-          "perfekt",
-          "polo",
-          "ralph",
-          "schoner",
-          "strickpullover",
-          "winter",
-          "zeitlose",
-          "zopf"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10668627674",
         "t": [
           "auffalligen",
@@ -14649,6 +14622,23 @@
           "vintageralphlauren"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10834991354",
+        "t": [
+          "cadeaux",
+          "col",
+          "lauren",
+          "main",
+          "noel",
+          "pull",
+          "ralph",
+          "rond",
+          "seconde"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
