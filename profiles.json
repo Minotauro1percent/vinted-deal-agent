@@ -2952,40 +2952,6 @@
     "updated": 1794823525,
     "vlog": [
       {
-        "id": "10669325836",
-        "t": [
-          "gern",
-          "getragener",
-          "lauren",
-          "pulli",
-          "pullover",
-          "quarterzip",
-          "ralph",
-          "selten"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10669561925",
-        "t": [
-          "andover",
-          "color",
-          "cotone",
-          "crema",
-          "girocollo",
-          "lauren",
-          "maglione",
-          "panna",
-          "polo",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10669538294",
         "t": [
           "alpine",
@@ -14653,6 +14619,33 @@
           "torsadee"
         ],
         "c": "",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10836682287",
+        "t": [
+          "golf",
+          "grigio",
+          "intramontabile",
+          "lauren",
+          "ralph",
+          "trecce"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10836660998",
+        "t": [
+          "colore",
+          "grigio",
+          "lurenn",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": true,
         "w": 1
       }
