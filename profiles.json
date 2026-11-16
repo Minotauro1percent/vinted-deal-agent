@@ -2952,44 +2952,6 @@
     "updated": 1794857476,
     "vlog": [
       {
-        "id": "10671969216",
-        "t": [
-          "blanc",
-          "col",
-          "defaut",
-          "femme",
-          "lauren",
-          "montant",
-          "noir",
-          "petit",
-          "pull",
-          "ralph",
-          "rouge",
-          "sportswear",
-          "zippe"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10671972544",
-        "t": [
-          "lauren",
-          "maglione",
-          "ore",
-          "polo",
-          "qualita",
-          "ralph",
-          "sconto",
-          "spedisco",
-          "striscie"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672016602",
         "t": [
           "boheme",
@@ -14698,6 +14660,31 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10844567736",
+        "t": [
+          "defauts",
+          "lauren",
+          "plusieurs",
+          "pull",
+          "ralph",
+          "rose"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10843882895",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
         "w": 1
       }
     ]
