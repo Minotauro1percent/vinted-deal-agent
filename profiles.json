@@ -2952,21 +2952,6 @@
     "updated": 1794818112,
     "vlog": [
       {
-        "id": "10669159097",
-        "t": [
-          "entfernen",
-          "fussel",
-          "lassen",
-          "pullover",
-          "ralphlauren",
-          "roller",
-          "sich"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10669188533",
         "t": [
           "color",
@@ -14658,6 +14643,23 @@
           "sweatshirt",
           "trui",
           "women"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10835612747",
+        "t": [
+          "ganze",
+          "lassiger",
+          "macht",
+          "nochmal",
+          "pullover",
+          "schlitzen",
+          "schoner",
+          "seitlichen",
+          "toller"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
