@@ -1,11 +1,2 @@
-2026-11-16 07:47:40 UTC Telegram: 0 neue Nachricht(en)
-2026-11-16 07:47:40 UTC Suche „RalphLauren“
-2026-11-16 07:47:50 UTC RalphLauren: 10 neu, 9 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 8
-2026-11-16 07:47:55 UTC Ausgeschlossen 10835323112: V-Ausschnitt
-2026-11-16 07:48:10 UTC Bildprüfung ok 10835304749 (92: Zopfmuster, Rundhals, Pony-Logo; keine Ausschlusskriterien erkennbar)
-2026-11-16 07:48:18 UTC Bildprüfung verwirft 10835321638 (5: ohne Zopfmuster: Glatter Strick ohne Zopfmuster, kein sichtbares Logo)
-2026-11-16 07:48:25 UTC Bildprüfung verwirft 10835317580 (5: ohne Zopfmuster-Strick: Glatter Strick, Kapuze, V-Ausschnitt, kein sichtbares Lo)
-2026-11-16 07:48:32 UTC Bildprüfung verwirft 10835313184 (8: )
-2026-11-16 07:48:32 UTC Suche „Juicy Couture“
-2026-11-16 07:48:32 UTC Juicy Couture: noch keine Beispiele
-2026-11-16 07:48:32 UTC Suche fertig: 1 neue Deals (2 Suchen)
+2026-11-16 07:52:45 UTC Telegram: 0 neue Nachricht(en)
+2026-11-16 07:52:45 UTC Keine Suche fällig
