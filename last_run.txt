@@ -1,2 +1,23 @@
-2026-11-16 17:37:14 UTC Telegram: 0 neue Nachricht(en)
-2026-11-16 17:37:14 UTC Keine Suche fällig
+2026-11-16 17:41:25 UTC Telegram: 0 neue Nachricht(en)
+2026-11-16 17:41:25 UTC Suche „RalphLauren“
+2026-11-16 17:41:33 UTC RalphLauren: 52 neu, 26 in der Vorauswahl (Schwelle 0.50), 6 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-16 17:41:37 UTC Ausgeschlossen 10842781151: V-Ausschnitt
+2026-11-16 17:41:41 UTC Ausgeschlossen 10835051664: V-Ausschnitt
+2026-11-16 17:41:47 UTC Bildprüfung 10842693514: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:41:54 UTC Ausgeschlossen 10842702893: Kinder
+2026-11-16 17:42:01 UTC Ausgeschlossen 10842718685: Flecken / Löcher
+2026-11-16 17:42:04 UTC Ausgeschlossen 10842721019: V-Ausschnitt
+2026-11-16 17:42:07 UTC Ausgeschlossen 10835065953: V-Ausschnitt
+2026-11-16 17:42:16 UTC Bildprüfung 10842765748: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:42:22 UTC Bildprüfung 10842782985: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:42:28 UTC Bildprüfung 10842742854: unlesbare Antwort: {"merkmal": "Zopfmuster-Strick", "hat_merkm (stop=max_tokens)
+2026-11-16 17:42:33 UTC Bildprüfung verwirft 10842677792 (15: )
+2026-11-16 17:42:39 UTC Bildprüfung 10842747861: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:42:46 UTC Bildprüfung 10842762824: unlesbare Antwort: {"merkmal": "Zopfmuster (Strick)", "hat_merkmal": true, "score": (stop=max_tokens)
+2026-11-16 17:42:49 UTC Ausgeschlossen 10842657499: V-Ausschnitt
+2026-11-16 17:42:56 UTC Bildprüfung 10842637292: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:43:02 UTC Bildprüfung 10842741816: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:43:08 UTC Bildprüfung 10842702974: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:43:08 UTC Suche „Juicy Couture“
+2026-11-16 17:43:08 UTC Juicy Couture: noch keine Beispiele
+2026-11-16 17:43:08 UTC Suche fertig: 0 neue Deals (2 Suchen)
