@@ -1,2 +1,12 @@
-2026-11-16 09:11:05 UTC Telegram: 0 neue Nachricht(en)
-2026-11-16 09:11:05 UTC Keine Suche fällig
+2026-11-16 09:15:22 UTC Telegram: 0 neue Nachricht(en)
+2026-11-16 09:15:22 UTC Suche „RalphLauren“
+2026-11-16 09:15:31 UTC RalphLauren: 17 neu, 8 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 8
+2026-11-16 09:15:36 UTC Bildprüfung ok 10835936798 (90: Zopfmuster, Rundhals, Polo-Logo; kein Ausschlusskriterium erkennbar)
+2026-11-16 09:15:37 UTC Details übersprungen (10835940016): HTTP 404 für https://www.vinted.at/items/10835940016-polo-gr-s
+2026-11-16 09:15:43 UTC Bildprüfung 10835912057: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 09:15:47 UTC Ausgeschlossen 10835928770: V-Ausschnitt
+2026-11-16 09:15:53 UTC Bildprüfung 10835920992: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 09:15:59 UTC Bildprüfung 10835910233: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 09:15:59 UTC Suche „Juicy Couture“
+2026-11-16 09:15:59 UTC Juicy Couture: noch keine Beispiele
+2026-11-16 09:15:59 UTC Suche fertig: 1 neue Deals (2 Suchen)
