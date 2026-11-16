@@ -2952,32 +2952,6 @@
     "updated": 1794862646,
     "vlog": [
       {
-        "id": "10647878727",
-        "t": [
-          "den",
-          "dhl",
-          "fallt",
-          "gekauft",
-          "gls",
-          "habe",
-          "hermes",
-          "klein",
-          "lauren",
-          "leider",
-          "mangel",
-          "mir",
-          "moin",
-          "pullover",
-          "ralph",
-          "selber",
-          "versende",
-          "vinted"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672167506",
         "t": [
           "acquistare",
@@ -14678,6 +14652,16 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10845345063",
+        "t": [
+          "herren",
+          "pullover"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
