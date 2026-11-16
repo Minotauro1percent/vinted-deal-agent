@@ -1,2 +1,19 @@
-2026-11-16 12:48:13 UTC Telegram: 0 neue Nachricht(en)
-2026-11-16 12:48:14 UTC Keine Suche fällig
+2026-11-16 12:52:26 UTC Telegram: 0 neue Nachricht(en)
+2026-11-16 12:52:26 UTC Suche „RalphLauren“
+2026-11-16 12:52:35 UTC RalphLauren: 30 neu, 19 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 9
+2026-11-16 12:52:42 UTC Bildprüfung 10838490455: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:52:49 UTC Bildprüfung 10838418381: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:52:55 UTC Bildprüfung 10838448190: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:53:02 UTC Bildprüfung 10838456996: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:53:02 UTC Details übersprungen (10838428206): HTTP 404 für https://www.vinted.at/items/10838428206-pull-ralph-lauren-col-rond-cremebeige-logo-bleu-marine-l-homme
+2026-11-16 12:53:11 UTC Bildprüfung 10838428173: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:53:14 UTC Ausgeschlossen 10838461376: V-Ausschnitt
+2026-11-16 12:53:23 UTC Bildprüfung 10838434888: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:53:26 UTC Ausgeschlossen 10838477136: V-Ausschnitt
+2026-11-16 12:53:30 UTC Ausgeschlossen 10838482999: V-Ausschnitt
+2026-11-16 12:53:37 UTC Ausgeschlossen 10838007679: V-Ausschnitt
+2026-11-16 12:53:47 UTC Bildprüfung 10838433739: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:53:53 UTC Bildprüfung 10838486509: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 12:53:53 UTC Suche „Juicy Couture“
+2026-11-16 12:53:53 UTC Juicy Couture: noch keine Beispiele
+2026-11-16 12:53:53 UTC Suche fertig: 0 neue Deals (2 Suchen)
