@@ -2952,18 +2952,6 @@
     "updated": 1794851832,
     "vlog": [
       {
-        "id": "10670325924",
-        "t": [
-          "hiver",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10670332860",
         "t": [
           "defaut",
@@ -14652,6 +14640,23 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10842954659",
+        "t": [
+          "bereits",
+          "etikett",
+          "gekauft",
+          "guten",
+          "habe",
+          "hat",
+          "kein",
+          "pullover",
+          "secondhand"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
