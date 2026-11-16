@@ -2952,29 +2952,6 @@
     "updated": 1794861502,
     "vlog": [
       {
-        "id": "10672094727",
-        "t": [
-          "fallt",
-          "gekauft",
-          "getragenen",
-          "habe",
-          "ich",
-          "ihn",
-          "klein",
-          "lauren",
-          "meinen",
-          "pullover",
-          "ralph",
-          "selbst",
-          "uber",
-          "vinted",
-          "weiss"
-        ],
-        "c": "",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10672125670",
         "t": [
           "acquistare",
@@ -14681,6 +14658,24 @@
           "rocken"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10845647717",
+        "t": [
+          "bear",
+          "femme",
+          "fois",
+          "laurent",
+          "mis",
+          "normal",
+          "polo",
+          "pull",
+          "quelques",
+          "ralph"
+        ],
+        "c": "",
         "ok": false,
         "w": 1
       }
