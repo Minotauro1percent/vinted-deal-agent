@@ -2952,56 +2952,6 @@
     "updated": 1794830539,
     "vlog": [
       {
-        "id": "10669776917",
-        "t": [
-          "angenehmen",
-          "angenehmer",
-          "brust",
-          "collar",
-          "den",
-          "design",
-          "dezente",
-          "durch",
-          "elegantem",
-          "fur",
-          "goldene",
-          "klassischem",
-          "klassischen",
-          "knopfen",
-          "knopfverschluss",
-          "kombinierbar",
-          "lassiges",
-          "lauren",
-          "logo",
-          "moglich",
-          "money",
-          "old",
-          "oldmoney",
-          "olivgrun",
-          "perfekt",
-          "polo",
-          "poloralphlauren",
-          "pullover",
-          "ralph",
-          "ralphlauren",
-          "schalkragen",
-          "sein",
-          "shawl",
-          "shawlcollar",
-          "sicherer",
-          "stoff",
-          "streetwear",
-          "stylischer",
-          "tragekomfort",
-          "uberzeugt",
-          "vielseitig",
-          "zeitloses"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10669792758",
         "t": [
           "alltagslook",
@@ -14696,6 +14646,20 @@
           "pullovermode"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10837835705",
+        "t": [
+          "guter",
+          "langarm",
+          "lauren",
+          "ralph",
+          "selten",
+          "shirt"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
