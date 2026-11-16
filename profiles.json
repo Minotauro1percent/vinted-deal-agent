@@ -2952,19 +2952,6 @@
     "updated": 1794846394,
     "vlog": [
       {
-        "id": "10670002238",
-        "t": [
-          "donc",
-          "lauren",
-          "pull",
-          "ralph",
-          "terrifie"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10670017723",
         "t": [
           "bleu",
@@ -14690,6 +14677,18 @@
           "ralph",
           "respirante",
           "sigles"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10841646514",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "s13"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
