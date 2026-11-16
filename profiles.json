@@ -2952,18 +2952,6 @@
     "updated": 1794847398,
     "vlog": [
       {
-        "id": "10670017723",
-        "t": [
-          "bleu",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10668367425",
         "t": [
           "aderente",
@@ -14689,6 +14677,28 @@
           "pull",
           "ralph",
           "s13"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10841905723",
+        "t": [
+          "41cm",
+          "65cm",
+          "composition",
+          "coton",
+          "dimensions",
+          "epaisse",
+          "hauteur",
+          "lauren",
+          "lin",
+          "matiere",
+          "nylon",
+          "pull",
+          "ralph",
+          "sans"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
