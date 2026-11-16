@@ -2952,41 +2952,6 @@
     "updated": 1794828311,
     "vlog": [
       {
-        "id": "10669538294",
-        "t": [
-          "alpine",
-          "colore",
-          "del",
-          "heather",
-          "lauren",
-          "marchio",
-          "mezza",
-          "oliva",
-          "polo",
-          "pullover",
-          "quarter",
-          "ralph",
-          "verde",
-          "zip"
-        ],
-        "c": "",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10669694080",
-        "t": [
-          "bianco",
-          "difetti",
-          "lauren",
-          "maglioncino",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10669738308",
         "t": [
           "bleu",
@@ -14647,6 +14612,40 @@
         ],
         "c": "Herren Strickpullover für den Winter",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10837381922",
+        "t": [
+          "fallt",
+          "getragenen",
+          "guten",
+          "lauren",
+          "mein",
+          "polo",
+          "pullover",
+          "ralph",
+          "reiter",
+          "strickpullover",
+          "wenig"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10836829607",
+        "t": [
+          "indossato",
+          "maglioncino",
+          "maglione",
+          "poche",
+          "splendido",
+          "uomo",
+          "volte"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
