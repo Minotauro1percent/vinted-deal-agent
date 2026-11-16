@@ -13,6 +13,6 @@
   "learn_max_per_run": 5,
   "night_mode": false,
   "night_max": 1,
-  "night_from": "",
-  "night_to": ""
+  "night_from": "23:00",
+  "night_to": "06:00"
 }
