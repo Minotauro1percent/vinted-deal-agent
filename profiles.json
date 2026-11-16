@@ -2952,16 +2952,6 @@
     "updated": 1794842414,
     "vlog": [
       {
-        "id": "10669999963",
-        "t": [
-          "lauren",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10670002238",
         "t": [
           "donc",
@@ -14660,6 +14650,48 @@
           "ralphlauren"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10840743452",
+        "t": [
+          "assortir",
+          "beige",
+          "boutonnage",
+          "boutonne",
+          "boutons",
+          "col",
+          "confortable",
+          "cotele",
+          "cotelee",
+          "coton",
+          "douce",
+          "ecru",
+          "epaisse",
+          "facile",
+          "ferme",
+          "gros",
+          "intemporel",
+          "jeans",
+          "joli",
+          "lauren",
+          "lrl",
+          "maille",
+          "marque",
+          "matiere",
+          "modele",
+          "montant",
+          "par",
+          "patte",
+          "possede",
+          "pull",
+          "rabattable",
+          "ralph",
+          "respirante",
+          "sigles"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
