@@ -1,2 +1,25 @@
-2026-11-16 17:02:51 UTC Telegram: 0 neue Nachricht(en)
-2026-11-16 17:02:51 UTC Keine Suche fällig
+2026-11-16 17:07:03 UTC Telegram: 0 neue Nachricht(en)
+2026-11-16 17:07:03 UTC Suche „RalphLauren“
+2026-11-16 17:07:11 UTC RalphLauren: 55 neu, 31 in der Vorauswahl (Schwelle 0.50), 7 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-16 17:07:15 UTC Ausgeschlossen 10842134820: Flecken / Löcher
+2026-11-16 17:07:22 UTC Bildprüfung 10842236554: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:07:30 UTC Bildprüfung 10842228235: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:07:33 UTC Ausgeschlossen 10842142163: Kinder
+2026-11-16 17:07:36 UTC Ausgeschlossen 10842115736: V-Ausschnitt
+2026-11-16 17:07:40 UTC Ausgeschlossen 10842171563: V-Ausschnitt
+2026-11-16 17:07:47 UTC Bildprüfung 10842135447: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:07:56 UTC Bildprüfung 10842097043: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:08:02 UTC Bildprüfung 10842231371: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:08:05 UTC Ausgeschlossen 10842233242: V-Ausschnitt
+2026-11-16 17:08:18 UTC Bildprüfung 10842121812: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:08:24 UTC Bildprüfung 10842087287: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:08:33 UTC Bildprüfung 10842126159: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:08:38 UTC Bildprüfung 10842211664: unlesbare Antwort:  (stop=max_tokens)
+2026-11-16 17:08:39 UTC Details übersprungen (10842220714): HTTP 404 für https://www.vinted.at/items/10842220714-pull-ralph
+2026-11-16 17:08:42 UTC Ausgeschlossen 10842125515: V-Ausschnitt
+2026-11-16 17:08:45 UTC Ausgeschlossen 10827617333: Flecken / Löcher
+2026-11-16 17:08:49 UTC Ausgeschlossen 10842132423: V-Ausschnitt
+2026-11-16 17:08:52 UTC Ausgeschlossen 10842071919: Flecken / Löcher
+2026-11-16 17:08:52 UTC Suche „Juicy Couture“
+2026-11-16 17:08:52 UTC Juicy Couture: noch keine Beispiele
+2026-11-16 17:08:52 UTC Suche fertig: 0 neue Deals (2 Suchen)
