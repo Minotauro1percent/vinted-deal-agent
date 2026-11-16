@@ -2952,20 +2952,6 @@
     "updated": 1794815565,
     "vlog": [
       {
-        "id": "10669058446",
-        "t": [
-          "gris",
-          "lauren",
-          "maille",
-          "maron",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10669159097",
         "t": [
           "entfernen",
@@ -14613,6 +14599,39 @@
       },
       {
         "id": "10835313184",
+        "t": [
+          "camisola",
+          "damen",
+          "dames",
+          "donna",
+          "excellent",
+          "felpa",
+          "femme",
+          "jersey",
+          "lauren",
+          "laurenralphlauren",
+          "maglione",
+          "magnifique",
+          "mikael28500",
+          "mujer",
+          "mulher",
+          "oldmoney",
+          "pull",
+          "pullover",
+          "ralph",
+          "sudadera",
+          "sweat",
+          "sweater",
+          "sweatshirt",
+          "trui",
+          "women"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10835332674",
         "t": [
           "camisola",
           "damen",
