@@ -2952,23 +2952,6 @@
     "updated": 1794924144,
     "vlog": [
       {
-        "id": "10673034515",
-        "t": [
-          "epais",
-          "hiver",
-          "lauren",
-          "mannequin",
-          "marine",
-          "pull",
-          "ralph",
-          "tissu",
-          "violet"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672971174",
         "t": [
           "adapte",
@@ -14573,6 +14556,18 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10853675070",
+        "t": [
+          "cashmere",
+          "lauren",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
