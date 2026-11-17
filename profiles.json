@@ -2952,28 +2952,6 @@
     "updated": 1794911353,
     "vlog": [
       {
-        "id": "10672365687",
-        "t": [
-          "ascella",
-          "collo",
-          "cuciture",
-          "delle",
-          "elegante",
-          "lana",
-          "lauren",
-          "lunghezza",
-          "maglione",
-          "piccole",
-          "polo",
-          "presenta",
-          "ralph",
-          "sul"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672254582",
         "t": [
           "camisola",
@@ -14650,6 +14628,17 @@
           "schwarz"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10850975133",
+        "t": [
+          "lauren",
+          "maglioncino",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
