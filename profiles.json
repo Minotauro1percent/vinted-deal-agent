@@ -2952,18 +2952,6 @@
     "updated": 1794915214,
     "vlog": [
       {
-        "id": "10672484693",
-        "t": [
-          "lauren",
-          "polo",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672541977",
         "t": [
           "anche",
@@ -14603,6 +14591,19 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10851753603",
+        "t": [
+          "bleu",
+          "coton",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
         "w": 1
       }
     ]
