@@ -2952,25 +2952,6 @@
     "updated": 1794916944,
     "vlog": [
       {
-        "id": "10672639612",
-        "t": [
-          "azzurro",
-          "colore",
-          "cotton",
-          "girocollo",
-          "lauren",
-          "maglione",
-          "originale",
-          "polvere",
-          "prima",
-          "ralph",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672723607",
         "t": [
           "bordeaux",
@@ -14626,6 +14607,30 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10852161954",
+        "t": [
+          "achtung",
+          "beim",
+          "eingelaufen",
+          "etwas",
+          "fallt",
+          "grober",
+          "kleiner",
+          "lauren",
+          "material",
+          "nun",
+          "pullover",
+          "ralph",
+          "stoff",
+          "strickpullover",
+          "waschen",
+          "weisser"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
