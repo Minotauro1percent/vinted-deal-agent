@@ -2952,20 +2952,6 @@
     "updated": 1794942115,
     "vlog": [
       {
-        "id": "10674020866",
-        "t": [
-          "beige",
-          "blanc",
-          "chemise",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674038731",
         "t": [
           "blanc",
@@ -14685,6 +14671,42 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10858239515",
+        "t": [
+          "agreable",
+          "bouton",
+          "boutons",
+          "chic",
+          "classique",
+          "col",
+          "confortable",
+          "cosy",
+          "coton",
+          "decoratifs",
+          "detail",
+          "douce",
+          "elegant",
+          "epaules",
+          "femme",
+          "intemporel",
+          "lauren",
+          "manque",
+          "matiere",
+          "motif",
+          "niveau",
+          "noir",
+          "pull",
+          "quotidien",
+          "raffine",
+          "ralph",
+          "rond",
+          "torsade"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
