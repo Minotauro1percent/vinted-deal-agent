@@ -2952,18 +2952,6 @@
     "updated": 1794931663,
     "vlog": [
       {
-        "id": "10673561603",
-        "t": [
-          "bil",
-          "guter",
-          "herren",
-          "pullover"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10673714077",
         "t": [
           "bianco",
@@ -14624,6 +14612,19 @@
           "ralph"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10855564830",
+        "t": [
+          "lauren",
+          "main",
+          "polo",
+          "ralph",
+          "seconde"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
