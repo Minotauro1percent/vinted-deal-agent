@@ -2952,22 +2952,6 @@
     "updated": 1794929313,
     "vlog": [
       {
-        "id": "10673507855",
-        "t": [
-          "caldo",
-          "cotone",
-          "giorno",
-          "indossato",
-          "lauren",
-          "pullover",
-          "ralph",
-          "solo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10673561603",
         "t": [
           "bil",
@@ -14625,6 +14609,21 @@
           "vintedfrance"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10855052951",
+        "t": [
+          "100a",
+          "armadio",
+          "dose",
+          "lauren",
+          "maglia",
+          "polo",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
