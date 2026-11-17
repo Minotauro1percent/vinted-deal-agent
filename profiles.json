@@ -2952,36 +2952,6 @@
     "updated": 1794941533,
     "vlog": [
       {
-        "id": "10673955373",
-        "t": [
-          "avio",
-          "blu",
-          "carta",
-          "cavallo",
-          "colore",
-          "cotone",
-          "del",
-          "firmato",
-          "giallo",
-          "girocollo",
-          "iconico",
-          "lauren",
-          "logo",
-          "maglione",
-          "originale",
-          "petto",
-          "polo",
-          "pullover",
-          "ralph",
-          "ricamato",
-          "sul",
-          "zucchero"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674020866",
         "t": [
           "beige",
@@ -14698,6 +14668,22 @@
           "riportate"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10858154948",
+        "t": [
+          "aber",
+          "drin",
+          "lauren",
+          "polo",
+          "pullover",
+          "ralph",
+          "schoner",
+          "steht"
+        ],
+        "c": "Damen Strickpullover",
         "ok": true,
         "w": 1
       }
