@@ -1,8 +1,2 @@
-2026-11-17 04:07:36 UTC Telegram: 0 neue Nachricht(en)
-2026-11-17 04:07:36 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
-2026-11-17 04:07:36 UTC Suche „RalphLauren“
-2026-11-17 04:07:45 UTC RalphLauren: 6 neu, 4 in der Vorauswahl (Schwelle 0.50), Bild-Budget 7
-2026-11-17 04:07:48 UTC Ausgeschlossen 10848819189: Flecken / Löcher
-2026-11-17 04:07:58 UTC Bildprüfung ok 10847183565 (92: Zopfstrick mit Rundhals und Pony-Logo, wie die Beispiele)
-2026-11-17 04:07:59 UTC Nachtmodus: Limit für diese Stunde erreicht – restliche Suchen in der nächsten Stunde
-2026-11-17 04:07:59 UTC Suche fertig: 1 neue Deals (3 Suchen)
+2026-11-17 04:12:15 UTC Telegram: 0 neue Nachricht(en)
+2026-11-17 04:12:15 UTC Keine Suche fällig
