@@ -2952,21 +2952,6 @@
     "updated": 1794918086,
     "vlog": [
       {
-        "id": "10672723607",
-        "t": [
-          "bordeaux",
-          "lauren",
-          "lino",
-          "misure",
-          "polo",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672612741",
         "t": [
           "altre",
@@ -14631,6 +14616,20 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10852344472",
+        "t": [
+          "arancione",
+          "donna",
+          "lana",
+          "lauren",
+          "maglione",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
