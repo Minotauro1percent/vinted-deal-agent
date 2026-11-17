@@ -2952,39 +2952,6 @@
     "updated": 1794907426,
     "vlog": [
       {
-        "id": "10672287578",
-        "t": [
-          "camisola",
-          "damen",
-          "dames",
-          "donna",
-          "excellent",
-          "felpa",
-          "femme",
-          "jersey",
-          "lauren",
-          "laurenralphlauren",
-          "maglione",
-          "magnifique",
-          "mikael28500",
-          "mujer",
-          "mulher",
-          "oldmoney",
-          "pull",
-          "pullover",
-          "ralph",
-          "sudadera",
-          "sweat",
-          "sweater",
-          "sweatshirt",
-          "trui",
-          "women"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672282642",
         "t": [
           "abeille",
@@ -14660,6 +14627,33 @@
       },
       {
         "id": "10850251932",
+        "t": [
+          "48h",
+          "article",
+          "avez",
+          "ceux",
+          "contacter",
+          "defauts",
+          "dernieres",
+          "dimensions",
+          "indiquees",
+          "lauren",
+          "presente",
+          "pull",
+          "questions",
+          "ralph",
+          "seront",
+          "shopping",
+          "sont",
+          "visibles",
+          "vous"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10850317091",
         "t": [
           "48h",
           "article",
