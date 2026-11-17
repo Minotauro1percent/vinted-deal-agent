@@ -2952,60 +2952,6 @@
     "updated": 1794926504,
     "vlog": [
       {
-        "id": "10673139811",
-        "t": [
-          "fils",
-          "general",
-          "lauren",
-          "niveau",
-          "poignets",
-          "polo",
-          "pull",
-          "quelques",
-          "ralph"
-        ],
-        "c": "",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10673204279",
-        "t": [
-          "coton",
-          "depart",
-          "lauren",
-          "marque",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10673172059",
-        "t": [
-          "benissimo",
-          "caldo",
-          "donna",
-          "elle",
-          "felpato",
-          "girocollo",
-          "misura",
-          "perfetto",
-          "ragazza",
-          "stampa",
-          "stato",
-          "tascone",
-          "tenuto",
-          "veste",
-          "vestito"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10673272832",
         "t": [
           "hiver",
@@ -14589,6 +14535,75 @@
           "weinrot"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10854266232",
+        "t": [
+          "chest",
+          "contrasting",
+          "cotton",
+          "crewneck",
+          "cuffs",
+          "embroidered",
+          "excellent",
+          "featuring",
+          "flat",
+          "forest",
+          "green",
+          "inner",
+          "knit",
+          "lauren",
+          "length",
+          "logo",
+          "long",
+          "measurements",
+          "neck",
+          "orange",
+          "pit",
+          "polo",
+          "poloralphlauren",
+          "pony",
+          "ralph",
+          "ralphlauren",
+          "ribbed",
+          "shirt",
+          "shoulder",
+          "sleeve",
+          "taping",
+          "thermal",
+          "waffle",
+          "waffleknit",
+          "width"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10854254948",
+        "t": [
+          "guter",
+          "lauren",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10840407528",
+        "t": [
+          "authentique",
+          "femme",
+          "lauren",
+          "orange",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
