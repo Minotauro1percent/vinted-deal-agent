@@ -2952,88 +2952,6 @@
     "updated": 1794912453,
     "vlog": [
       {
-        "id": "10672254582",
-        "t": [
-          "camisola",
-          "damen",
-          "dames",
-          "donna",
-          "excellent",
-          "felpa",
-          "femme",
-          "jersey",
-          "lauren",
-          "laurenralphlauren",
-          "maglione",
-          "magnifique",
-          "mikael28500",
-          "mujer",
-          "mulher",
-          "oldmoney",
-          "pull",
-          "pullover",
-          "ralph",
-          "sudadera",
-          "sweat",
-          "sweater",
-          "sweatshirt",
-          "trui",
-          "women"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10672267035",
-        "t": [
-          "abeille",
-          "camisola",
-          "damen",
-          "dames",
-          "donna",
-          "excellent",
-          "felpa",
-          "femme",
-          "jersey",
-          "lauren",
-          "laurenralphlauren",
-          "maglione",
-          "magnifique",
-          "mikael28500",
-          "mujer",
-          "mulher",
-          "nid",
-          "oldmoney",
-          "pull",
-          "pullover",
-          "ralph",
-          "sudadera",
-          "sweat",
-          "sweater",
-          "sweatshirt",
-          "trui",
-          "women"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10672180383",
-        "t": [
-          "agreable",
-          "compose",
-          "lauren",
-          "ralph",
-          "shirt",
-          "soie"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672484693",
         "t": [
           "lauren",
@@ -14640,6 +14558,51 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10851258446",
+        "t": [
+          "cotone",
+          "lauren",
+          "maglione",
+          "polo",
+          "ralph",
+          "rosso"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10851288817",
+        "t": [
+          "girocollo",
+          "pullover"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10851133614",
+        "t": [
+          "ausgewaschen",
+          "bisschen",
+          "blau",
+          "kauf",
+          "lauren",
+          "mangel",
+          "pullover",
+          "ralph",
+          "sonst",
+          "strickpullover",
+          "system",
+          "weiteren",
+          "wurde"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
