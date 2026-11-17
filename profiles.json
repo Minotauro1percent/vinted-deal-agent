@@ -2952,45 +2952,6 @@
     "updated": 1794916381,
     "vlog": [
       {
-        "id": "10672565850",
-        "t": [
-          "associer",
-          "aussi",
-          "bien",
-          "brique",
-          "brode",
-          "chic",
-          "col",
-          "cotelees",
-          "dans",
-          "emblematique",
-          "facile",
-          "finitions",
-          "habille",
-          "intemporel",
-          "jean",
-          "joli",
-          "lauren",
-          "logo",
-          "maille",
-          "marque",
-          "pantalon",
-          "petit",
-          "poitrine",
-          "polo",
-          "pull",
-          "ralph",
-          "rond",
-          "rouge",
-          "rouille",
-          "terracotta",
-          "texturee"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672639612",
         "t": [
           "azzurro",
@@ -14644,6 +14605,24 @@
           "garde",
           "gaufree",
           "geborduurd"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10852039013",
+        "t": [
+          "ampio",
+          "chiaro",
+          "color",
+          "cotone",
+          "grigio",
+          "lauren",
+          "maglione",
+          "oversize",
+          "polo",
+          "ralph"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
