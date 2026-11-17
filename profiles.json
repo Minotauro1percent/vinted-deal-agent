@@ -2952,63 +2952,6 @@
     "updated": 1794936322,
     "vlog": [
       {
-        "id": "10673701667",
-        "t": [
-          "abbinare",
-          "classico",
-          "elegante",
-          "facilissimo",
-          "firmato",
-          "intramontabile",
-          "lauren",
-          "logo",
-          "maglione",
-          "misure",
-          "nelle",
-          "nero",
-          "poco",
-          "polo",
-          "ralph",
-          "ricamato",
-          "vedi",
-          "veste"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10673742664",
-        "t": [
-          "blu",
-          "lauren",
-          "piccolo",
-          "pullover",
-          "ralph",
-          "spalle",
-          "veste"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10673901607",
-        "t": [
-          "beige",
-          "cotele",
-          "lauren",
-          "maille",
-          "polo",
-          "pull",
-          "ralph",
-          "xxl"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10673936859",
         "t": [
           "cotone",
@@ -14674,6 +14617,82 @@
           "subliminari"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10856704464",
+        "t": [
+          "abbinamento",
+          "alta",
+          "ama",
+          "ampio",
+          "barchetta",
+          "capo",
+          "chi",
+          "colori",
+          "contrasto",
+          "curato",
+          "dal",
+          "dei",
+          "donna",
+          "fantasie",
+          "femminile",
+          "gusto",
+          "jeans",
+          "lauren",
+          "leggermente",
+          "linea",
+          "lunghe",
+          "maglia",
+          "maglioncino",
+          "maniche",
+          "modello",
+          "nere",
+          "neri",
+          "oppure",
+          "orizzontali",
+          "pantaloni",
+          "particolare",
+          "perfetta",
+          "personalita",
+          "pieno",
+          "piu",
+          "ralph",
+          "rende",
+          "retro",
+          "righe",
+          "sagomata",
+          "scollo",
+          "semplice",
+          "stivaletti",
+          "taglio",
+          "turchesi",
+          "vita"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10856713794",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10856689384",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
