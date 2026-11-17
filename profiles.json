@@ -2952,24 +2952,6 @@
     "updated": 1794885164,
     "vlog": [
       {
-        "id": "10672181483",
-        "t": [
-          "alto",
-          "beige",
-          "collo",
-          "lauren",
-          "lungh",
-          "maglione",
-          "ralph",
-          "spalle",
-          "uomo",
-          "zip"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10647932894",
         "t": [
           "lauren",
@@ -14672,6 +14654,19 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10847183565",
+        "t": [
+          "leider",
+          "pullover",
+          "schoner",
+          "vorhanden",
+          "zettel"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
