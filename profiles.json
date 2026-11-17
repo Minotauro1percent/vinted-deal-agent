@@ -2952,40 +2952,6 @@
     "updated": 1794949957,
     "vlog": [
       {
-        "id": "10673948070",
-        "t": [
-          "bleu",
-          "lauren",
-          "presque",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10674227026",
-        "t": [
-          "befindet",
-          "daher",
-          "guten",
-          "hier",
-          "ich",
-          "lauren",
-          "meinen",
-          "oft",
-          "pullover",
-          "ralph",
-          "sich",
-          "stelle",
-          "wurde"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10673962133",
         "t": [
           "abbigliamento",
@@ -14756,6 +14722,72 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10860977063",
+        "t": [
+          "bandes",
+          "bandescontrastees",
+          "blanc",
+          "bordures",
+          "brode",
+          "chic",
+          "col",
+          "colcotele",
+          "contrastees",
+          "cotele",
+          "cotelees",
+          "coton",
+          "decoloration",
+          "effets",
+          "homme",
+          "jacket",
+          "lael858",
+          "lauren",
+          "leger",
+          "livraison",
+          "menswear",
+          "modehomme",
+          "ootd",
+          "poches",
+          "pocheszippees",
+          "poitrine",
+          "poney",
+          "ralph",
+          "ralphlauren",
+          "raye",
+          "rayees",
+          "soignee",
+          "sportswear",
+          "sportswearchic",
+          "streetwear",
+          "sweat",
+          "sweatzippe",
+          "track",
+          "trackjacket",
+          "veste",
+          "vetementhomme",
+          "zippe",
+          "zippee",
+          "zippees"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10860954359",
+        "t": [
+          "fallt",
+          "klein",
+          "loren",
+          "polo",
+          "pulli",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
