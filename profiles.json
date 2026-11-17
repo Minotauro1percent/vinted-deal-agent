@@ -2952,62 +2952,6 @@
     "updated": 1794878308,
     "vlog": [
       {
-        "id": "10672180974",
-        "t": [
-          "all",
-          "altissima",
-          "arricchito",
-          "autunnali",
-          "ben",
-          "caldo",
-          "capo",
-          "casualchic",
-          "cce",
-          "classe",
-          "colore",
-          "completare",
-          "confortevole",
-          "conservato",
-          "elega",
-          "elegante",
-          "firmato",
-          "generali",
-          "intenso",
-          "invernali",
-          "knitwear",
-          "lauren",
-          "laurenralphlauren",
-          "lavorazione",
-          "lunghe",
-          "maglia",
-          "maglione",
-          "maniche",
-          "morbido",
-          "nte",
-          "over",
-          "pertetto",
-          "petite",
-          "pulito",
-          "qualita",
-          "raffinata",
-          "ralph",
-          "ralphlauren",
-          "rotondo",
-          "scollo",
-          "tagliapetite",
-          "tessuto",
-          "tocco",
-          "tre",
-          "trecce",
-          "una",
-          "versatile",
-          "viola"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10672181483",
         "t": [
           "alto",
@@ -14715,6 +14659,19 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10847853144",
+        "t": [
+          "fois",
+          "lauren",
+          "pull",
+          "quelque",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
         "w": 1
       }
     ]
