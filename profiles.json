@@ -2952,21 +2952,6 @@
     "updated": 1794933985,
     "vlog": [
       {
-        "id": "10673609027",
-        "t": [
-          "acquistare",
-          "ascolto",
-          "lauren",
-          "maglione",
-          "non",
-          "offerte",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10673701667",
         "t": [
           "abbinare",
@@ -14674,6 +14659,21 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10856195186",
+        "t": [
+          "magione",
+          "maglia",
+          "ordinary",
+          "polo",
+          "pololandro",
+          "striscie",
+          "subliminari"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
