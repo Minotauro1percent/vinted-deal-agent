@@ -2952,19 +2952,6 @@
     "updated": 1794940954,
     "vlog": [
       {
-        "id": "10673936859",
-        "t": [
-          "cotone",
-          "lauren",
-          "maglione",
-          "polo",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10673955373",
         "t": [
           "avio",
@@ -14694,6 +14681,24 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10858004211",
+        "t": [
+          "caldo",
+          "grigio",
+          "loren",
+          "maglione",
+          "misure",
+          "morbido",
+          "polo",
+          "ralph",
+          "ricamo",
+          "riportate"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
