@@ -2952,18 +2952,6 @@
     "updated": 1794947218,
     "vlog": [
       {
-        "id": "10674080838",
-        "t": [
-          "guter",
-          "lauten",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10673948070",
         "t": [
           "bleu",
@@ -14753,6 +14741,18 @@
           "primaverile",
           "ralph",
           "ralphlauren"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10859515545",
+        "t": [
+          "lauren",
+          "melden",
+          "ralph",
+          "strick"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
