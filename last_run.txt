@@ -1,25 +1,2 @@
-2026-11-18 18:57:21 UTC Telegram: 0 neue Nachricht(en)
-2026-11-18 18:57:21 UTC Suche „RalphLauren“
-2026-11-18 18:57:29 UTC RalphLauren: 59 neu, 32 in der Vorauswahl (Schwelle 0.50), 10 per Lernmodell aussortiert, Bild-Budget 14
-2026-11-18 18:57:33 UTC Ausgeschlossen 10872147204: Flecken / Löcher
-2026-11-18 18:57:39 UTC Bildprüfung verwirft 10872249484 (18: )
-2026-11-18 18:57:46 UTC Bildprüfung 10872215039: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:57:52 UTC Bildprüfung 10872142442: unlesbare Antwort: {"merkmal": "Rundhals-Z (stop=max_tokens)
-2026-11-18 18:57:55 UTC Ausgeschlossen 10872195613: V-Ausschnitt
-2026-11-18 18:58:04 UTC Bildprüfung verwirft 10872263258 (8: ohne Zopfmuster-Strick: Glatter Strick ohne Zopfmuster, kein sichtbares Logo)
-2026-11-18 18:58:08 UTC Ausgeschlossen 10872232203: V-Ausschnitt
-2026-11-18 18:58:17 UTC Bildprüfung 10872285294: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:58:23 UTC Bildprüfung 10872254592: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:58:27 UTC Ausgeschlossen 10872152017: V-Ausschnitt
-2026-11-18 18:58:30 UTC Ausgeschlossen 10872207654: Flecken / Löcher
-2026-11-18 18:58:35 UTC Bildprüfung 10872267996: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:58:42 UTC Bildprüfung 10872207601: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:58:49 UTC Bildprüfung 10872195722: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:58:56 UTC Bildprüfung 10872022281: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:59:02 UTC Ausgeschlossen 10872198725: V-Ausschnitt
-2026-11-18 18:59:08 UTC Bildprüfung 10872256552: unlesbare Antwort:  (stop=max_tokens)
-2026-11-18 18:59:12 UTC Ausgeschlossen 10872140506: Flecken / Löcher
-2026-11-18 18:59:15 UTC Ausgeschlossen 10872180408: V-Ausschnitt
-2026-11-18 18:59:15 UTC Suche „Juicy Couture“
-2026-11-18 18:59:15 UTC Juicy Couture: noch keine Beispiele
-2026-11-18 18:59:15 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-18 19:03:27 UTC Telegram: 0 neue Nachricht(en)
+2026-11-18 19:03:27 UTC Keine Suche fällig
