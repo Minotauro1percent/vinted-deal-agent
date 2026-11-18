@@ -2952,23 +2952,6 @@
     "updated": 1795008922,
     "vlog": [
       {
-        "id": "10674498934",
-        "t": [
-          "armel",
-          "beim",
-          "etwas",
-          "kragen",
-          "lauren",
-          "polo",
-          "pullover",
-          "ralph",
-          "verfarbt"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674691047",
         "t": [
           "blue",
@@ -14762,6 +14745,19 @@
           "ralph"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10867423622",
+        "t": [
+          "bequem",
+          "grau",
+          "meliert",
+          "rundhals",
+          "strickpullover"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
