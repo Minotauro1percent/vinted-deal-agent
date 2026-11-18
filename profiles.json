@@ -2952,22 +2952,6 @@
     "updated": 1795039536,
     "vlog": [
       {
-        "id": "10675417586",
-        "t": [
-          "coste",
-          "cotone",
-          "invernale",
-          "maglia",
-          "maglione",
-          "pesante",
-          "poche",
-          "volte"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675421970",
         "t": [
           "capuche",
@@ -14712,6 +14696,25 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10875147849",
+        "t": [
+          "angegeben",
+          "deshalb",
+          "fallt",
+          "grau",
+          "habe",
+          "ich",
+          "klein",
+          "melden",
+          "paar",
+          "polo",
+          "recht"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
