@@ -2952,41 +2952,6 @@
     "updated": 1794974803,
     "vlog": [
       {
-        "id": "10674005032",
-        "t": [
-          "kaki",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
-        "id": "10674286894",
-        "t": [
-          "blu",
-          "colore",
-          "maglia",
-          "righe"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10673980040",
-        "t": [
-          "donna",
-          "maglione",
-          "poco"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10673963362",
         "t": [
           "acquisti",
@@ -14765,6 +14730,64 @@
           "ralph"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10865393691",
+        "t": [
+          "beautiful",
+          "cashmere",
+          "lauren",
+          "makes",
+          "mohair",
+          "ralph",
+          "silhouette",
+          "wool"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10865780347",
+        "t": [
+          "100x100",
+          "anni",
+          "bimbo",
+          "cotone",
+          "loren",
+          "maglia",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10815619207",
+        "t": [
+          "basique",
+          "brode",
+          "chic",
+          "chine",
+          "expedition",
+          "gris",
+          "grischine",
+          "lauren",
+          "logo",
+          "longues",
+          "oldmoney",
+          "polo",
+          "poloralphlauren",
+          "preppy",
+          "ralph",
+          "ralphlauren",
+          "ralphlaurenhomme",
+          "shirt",
+          "tshirtmancheslongues"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
