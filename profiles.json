@@ -2952,17 +2952,6 @@
     "updated": 1795022627,
     "vlog": [
       {
-        "id": "10675080704",
-        "t": [
-          "maille",
-          "passee",
-          "pull"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675062500",
         "t": [
           "adatta",
@@ -14778,6 +14767,18 @@
           "ralph",
           "realise",
           "supply"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10870872963",
+        "t": [
+          "lauren",
+          "maglione",
+          "perfette",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
