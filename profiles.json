@@ -2952,16 +2952,6 @@
     "updated": 1795032675,
     "vlog": [
       {
-        "id": "10675221969",
-        "t": [
-          "maglia",
-          "nera"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675300958",
         "t": [
           "aber",
@@ -14726,6 +14716,19 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10867409710",
+        "t": [
+          "jaune",
+          "lauren",
+          "pull",
+          "ralph",
+          "torsade"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
