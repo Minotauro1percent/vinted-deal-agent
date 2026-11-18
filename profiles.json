@@ -2952,18 +2952,6 @@
     "updated": 1795029177,
     "vlog": [
       {
-        "id": "10674781811",
-        "t": [
-          "jumper",
-          "lauren",
-          "polo",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675163287",
         "t": [
           "lauren",
@@ -14723,6 +14711,20 @@
           "strick"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10872544697",
+        "t": [
+          "beige",
+          "damen",
+          "lauren",
+          "polo",
+          "pullover",
+          "ralph"
+        ],
+        "c": "",
         "ok": false,
         "w": 1
       }
