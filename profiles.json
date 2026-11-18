@@ -2952,54 +2952,6 @@
     "updated": 1795018043,
     "vlog": [
       {
-        "id": "10674681002",
-        "t": [
-          "camisola",
-          "damen",
-          "dames",
-          "donna",
-          "excellent",
-          "felpa",
-          "femme",
-          "jersey",
-          "lauren",
-          "laurenralphlauren",
-          "maglione",
-          "magnifique",
-          "mikael28500",
-          "mujer",
-          "mulher",
-          "oldmoney",
-          "pull",
-          "pullover",
-          "ralph",
-          "sudadera",
-          "sweat",
-          "sweater",
-          "sweatshirt",
-          "trui",
-          "women"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10674698444",
-        "t": [
-          "erhalten",
-          "fallt",
-          "fur",
-          "kleiner",
-          "lauren",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674502697",
         "t": [
           "camisola",
@@ -14740,6 +14692,61 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10869705712",
+        "t": [
+          "agreable",
+          "avez",
+          "bas",
+          "besoin",
+          "bleu",
+          "chic",
+          "col",
+          "correspond",
+          "cotes",
+          "coton",
+          "decontracte",
+          "details",
+          "douce",
+          "fentes",
+          "finitions",
+          "lacets",
+          "lauren",
+          "maille",
+          "mailles",
+          "marine",
+          "marque",
+          "matiere",
+          "petites",
+          "pompons",
+          "pull",
+          "questions",
+          "ralph",
+          "saisons",
+          "soin",
+          "supplementaires",
+          "texturees",
+          "toutes",
+          "vous"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10869634357",
+        "t": [
+          "donna",
+          "girocollo",
+          "lauren",
+          "maglione",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
