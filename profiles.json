@@ -2952,34 +2952,6 @@
     "updated": 1795002717,
     "vlog": [
       {
-        "id": "10674365572",
-        "t": [
-          "absoluter",
-          "dem",
-          "edle",
-          "eleganten",
-          "feinstrickpullover",
-          "halsausschnitt",
-          "hingucker",
-          "knopfe",
-          "knopfleiste",
-          "lauren",
-          "maritimen",
-          "pullover",
-          "ralph",
-          "strahlenden",
-          "strickpullover",
-          "touch",
-          "verleiht",
-          "weiss",
-          "wunderschoner",
-          "zeitloser"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674298614",
         "t": [
           "erhaltenen",
@@ -14740,6 +14712,21 @@
           "ralph",
           "una",
           "visibile"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10866027471",
+        "t": [
+          "fois",
+          "lauren",
+          "petit",
+          "poli",
+          "pull",
+          "quelques",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": true,
