@@ -1,2 +1,22 @@
-2026-11-18 15:47:13 UTC Telegram: 0 neue Nachricht(en)
-2026-11-18 15:47:13 UTC Keine Suche fällig
+2026-11-18 15:51:24 UTC Telegram: 0 neue Nachricht(en)
+2026-11-18 15:51:24 UTC Suche „RalphLauren“
+2026-11-18 15:51:34 UTC RalphLauren: 35 neu, 22 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 13
+2026-11-18 15:51:40 UTC Bildprüfung 10869415116: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:51:47 UTC Bildprüfung 10869384086: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:51:47 UTC Details übersprungen (10869387291): HTTP 404 für https://www.vinted.at/items/10869387291-polo-ralph-lauren-pullover-i-sweater-i-hoodie-l-grau
+2026-11-18 15:51:49 UTC Ausgeschlossen 10869309245: V-Ausschnitt
+2026-11-18 15:51:56 UTC Bildprüfung 10869392188: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:51:58 UTC Ausgeschlossen 10869316729: V-Ausschnitt
+2026-11-18 15:52:08 UTC Bildprüfung 10869388647: unlesbare Antwort: {"merkmal": "Zopfm (stop=max_tokens)
+2026-11-18 15:52:15 UTC Ausgeschlossen 10869338881: V-Ausschnitt
+2026-11-18 15:52:18 UTC Ausgeschlossen 10869363956: V-Ausschnitt
+2026-11-18 15:52:24 UTC Bildprüfung 10869406842: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:52:31 UTC Bildprüfung 10869372996: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:52:37 UTC Bildprüfung 10869360198: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:52:44 UTC Bildprüfung 10869357966: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:52:50 UTC Bildprüfung 10869303468: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:52:54 UTC Ausgeschlossen 10869436674: V-Ausschnitt
+2026-11-18 15:52:59 UTC Bildprüfung 10869299331: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 15:53:06 UTC Suche „Juicy Couture“
+2026-11-18 15:53:06 UTC Juicy Couture: noch keine Beispiele
+2026-11-18 15:53:06 UTC Suche fertig: 0 neue Deals (2 Suchen)
