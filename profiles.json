@@ -2952,42 +2952,6 @@
     "updated": 1794956818,
     "vlog": [
       {
-        "id": "10673962133",
-        "t": [
-          "abbigliamento",
-          "aggiuntive",
-          "classico",
-          "esitate",
-          "girocollo",
-          "informazione",
-          "lauren",
-          "lunghe",
-          "maglioncino",
-          "maglionedonna",
-          "maglioneuomo",
-          "maniche",
-          "modello",
-          "nero",
-          "non",
-          "oldmoneystyle",
-          "perfetto",
-          "polo",
-          "poloralphlauren",
-          "preppystyle",
-          "qualsiasi",
-          "ralph",
-          "ralphlauren",
-          "ralphlaurensweater",
-          "scrivermi",
-          "versatile",
-          "vintagestyle",
-          "vinteditalia"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674005032",
         "t": [
           "kaki",
@@ -14788,6 +14752,20 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10860743333",
+        "t": [
+          "fallt",
+          "klein",
+          "loren",
+          "polo",
+          "pulli",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
         "w": 1
       }
     ]
