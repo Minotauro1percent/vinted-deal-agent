@@ -2952,21 +2952,6 @@
     "updated": 1795003249,
     "vlog": [
       {
-        "id": "10674298614",
-        "t": [
-          "erhaltenen",
-          "klein",
-          "marco",
-          "meinem",
-          "partner",
-          "polo",
-          "pullover"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674419768",
         "t": [
           "lauren",
@@ -14730,6 +14715,19 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10866086260",
+        "t": [
+          "ideali",
+          "lauren",
+          "polo",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
