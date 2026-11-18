@@ -1,4 +1,11 @@
-2026-11-18 14:21:54 UTC Telegram-Fehler getUpdates 502 {"ok":false,"error_code":502,"description":"Bad Gateway"}
-2026-11-18 14:21:54 UTC getUpdates fehlgeschlagen: {"ok":false,"error_code":502,"description":"Bad Gateway"}
-2026-11-18 14:21:54 UTC Telegram: 0 neue Nachricht(en)
-2026-11-18 14:21:55 UTC Keine Suche fällig
+2026-11-18 14:26:15 UTC Telegram: 0 neue Nachricht(en)
+2026-11-18 14:26:15 UTC Suche „RalphLauren“
+2026-11-18 14:26:23 UTC RalphLauren: 36 neu, 15 in der Vorauswahl (Schwelle 0.50), 7 per Lernmodell aussortiert, Bild-Budget 12
+2026-11-18 14:26:33 UTC Bildprüfung 10868089338: unlesbare Antwort:  (stop=max_tokens)
+2026-11-18 14:26:36 UTC Ausgeschlossen 10868036153: V-Ausschnitt
+2026-11-18 14:26:43 UTC Ausgeschlossen 10868090356: Flecken / Löcher
+2026-11-18 14:26:47 UTC Ausgeschlossen 10868067967: V-Ausschnitt
+2026-11-18 14:26:50 UTC Ausgeschlossen 10868022927: V-Ausschnitt
+2026-11-18 14:26:53 UTC Suche „Juicy Couture“
+2026-11-18 14:26:53 UTC Juicy Couture: noch keine Beispiele
+2026-11-18 14:26:53 UTC Suche fertig: 0 neue Deals (2 Suchen)
