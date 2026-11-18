@@ -2952,30 +2952,6 @@
     "updated": 1795015686,
     "vlog": [
       {
-        "id": "10674802617",
-        "t": [
-          "adesso",
-          "causa",
-          "contattami",
-          "del",
-          "era",
-          "info",
-          "lauren",
-          "lavaggio",
-          "lavato",
-          "leggermente",
-          "maglione",
-          "qualsiasi",
-          "ralph",
-          "ristretto",
-          "sanificato",
-          "una"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674701041",
         "t": [
           "camisola",
@@ -14761,6 +14737,20 @@
           "polo",
           "pullover",
           "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10869142166",
+        "t": [
+          "laureen",
+          "polo",
+          "pullover",
+          "ralph",
+          "schwarz",
+          "weiss"
         ],
         "c": "Herren Sweater",
         "ok": false,
