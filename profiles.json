@@ -2952,25 +2952,6 @@
     "updated": 1795034415,
     "vlog": [
       {
-        "id": "10675300958",
-        "t": [
-          "aber",
-          "daher",
-          "einmal",
-          "erikett",
-          "gewaschen",
-          "glitzer",
-          "lauren",
-          "nie",
-          "ralph",
-          "rollkragen",
-          "strickpullover"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675290109",
         "t": [
           "maglioncino"
@@ -14729,6 +14710,51 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10873708075",
+        "t": [
+          "aux",
+          "bas",
+          "besoin",
+          "bleu",
+          "bonplan",
+          "bords",
+          "bordscotes",
+          "brode",
+          "broderie",
+          "chic",
+          "chronopost",
+          "classic",
+          "col",
+          "colrond",
+          "cotes",
+          "coton",
+          "cotonpima",
+          "douce",
+          "finitions",
+          "homme",
+          "lauren",
+          "maille",
+          "mondial",
+          "orange",
+          "par",
+          "pima",
+          "poignets",
+          "poitrine",
+          "poney",
+          "pull",
+          "ralph",
+          "ralphlauren",
+          "relay",
+          "renseignements",
+          "rond",
+          "stylecasual",
+          "vinted"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
