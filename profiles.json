@@ -2952,63 +2952,6 @@
     "updated": 1795036949,
     "vlog": [
       {
-        "id": "10648522746",
-        "t": [
-          "altre",
-          "armadio",
-          "avere",
-          "beige",
-          "blu",
-          "camicia",
-          "capo",
-          "chiaro",
-          "classico",
-          "collo",
-          "costine",
-          "davanti",
-          "dettaglio",
-          "etichetta",
-          "fondo",
-          "girocollo",
-          "guarda",
-          "immagini",
-          "informazioni",
-          "jeans",
-          "lauren",
-          "lievi",
-          "maglione",
-          "militare",
-          "misure",
-          "nell",
-          "nella",
-          "oliva",
-          "pantaloni",
-          "perfetto",
-          "petto",
-          "piccolo",
-          "polo",
-          "polsini",
-          "pony",
-          "ralph",
-          "ricamato",
-          "scrivimi",
-          "scuro",
-          "segni",
-          "segno",
-          "sopra",
-          "sul",
-          "tutte",
-          "una",
-          "utilizzo",
-          "valutarne",
-          "verde",
-          "visibile"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675417586",
         "t": [
           "coste",
@@ -14756,6 +14699,18 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10874336857",
+        "t": [
+          "lauren",
+          "pulli",
+          "ralph",
+          "selten"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
