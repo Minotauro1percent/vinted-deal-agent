@@ -2952,47 +2952,6 @@
     "updated": 1795027987,
     "vlog": [
       {
-        "id": "10674688461",
-        "t": [
-          "cropped",
-          "grun",
-          "gutem",
-          "lauren",
-          "melden",
-          "polo",
-          "ralph",
-          "wolle",
-          "wollpullover"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10674872891",
-        "t": [
-          "angenehmer",
-          "brust",
-          "fur",
-          "grun",
-          "gruner",
-          "gutem",
-          "klassischer",
-          "kuhlere",
-          "lauren",
-          "logo",
-          "polo",
-          "pullover",
-          "ralph",
-          "rotem",
-          "stoff",
-          "tage"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10674781811",
         "t": [
           "jumper",
@@ -14735,6 +14694,35 @@
           "wurde"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10872249484",
+        "t": [
+          "baumwolle",
+          "dunner",
+          "grau",
+          "lauren",
+          "mangel",
+          "polo",
+          "pulli",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10872263258",
+        "t": [
+          "angenehm",
+          "lauren",
+          "pullover",
+          "ralph",
+          "strick"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
