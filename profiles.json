@@ -2952,19 +2952,6 @@
     "updated": 1795022044,
     "vlog": [
       {
-        "id": "10675005722",
-        "t": [
-          "maglione",
-          "piccolo",
-          "polo",
-          "rosso",
-          "veste"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10675080704",
         "t": [
           "maille",
@@ -14763,6 +14750,36 @@
           "petit"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10870655291",
+        "t": [
+          "50cm",
+          "54cm",
+          "60cm",
+          "chaud",
+          "denin",
+          "doux",
+          "epaules",
+          "excellent",
+          "gris",
+          "hauteur",
+          "laine",
+          "lauren",
+          "motif",
+          "multicolores",
+          "perles",
+          "petites",
+          "poitrine",
+          "polyester",
+          "pull",
+          "ralph",
+          "realise",
+          "supply"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
