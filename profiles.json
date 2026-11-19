@@ -2952,18 +2952,6 @@
     "updated": 1795097535,
     "vlog": [
       {
-        "id": "10675836629",
-        "t": [
-          "lauren",
-          "pul",
-          "ralph",
-          "reserver"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10676078343",
         "t": [
           "bleu",
@@ -14673,6 +14661,36 @@
           "vestibilita"
         ],
         "c": "",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10881722695",
+        "t": [
+          "ascella",
+          "bianca",
+          "caratteristiche",
+          "cotone",
+          "cucitura",
+          "dettagli",
+          "fine",
+          "fondo",
+          "lauren",
+          "lunghezza",
+          "maglietta",
+          "manica",
+          "misure",
+          "petto",
+          "polsino",
+          "ralph",
+          "ralphlauren",
+          "shirt",
+          "spalla",
+          "spalle",
+          "totale",
+          "uomo"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
