@@ -2952,31 +2952,6 @@
     "updated": 1795088153,
     "vlog": [
       {
-        "id": "10675696138",
-        "t": [
-          "apposita",
-          "lama",
-          "lana",
-          "lauren",
-          "macchinetta",
-          "maglione",
-          "merino",
-          "misto",
-          "pallini",
-          "polo",
-          "poter",
-          "presenta",
-          "ralph",
-          "solo",
-          "sulla",
-          "superficie",
-          "togliere"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675794302",
         "t": [
           "90sstyle",
@@ -14732,6 +14707,21 @@
           "lauren",
           "pulli",
           "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10879632285",
+        "t": [
+          "felpa",
+          "nuova",
+          "pochissimo",
+          "polo",
+          "praticamente",
+          "sport",
+          "utilizzata"
         ],
         "c": "Herren Sweater",
         "ok": false,
