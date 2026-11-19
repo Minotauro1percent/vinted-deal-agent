@@ -2952,40 +2952,6 @@
     "updated": 1795100960,
     "vlog": [
       {
-        "id": "10648752777",
-        "t": [
-          "girocollo",
-          "lana",
-          "lauren",
-          "merinos",
-          "pullover",
-          "ralph",
-          "righe",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10676033756",
-        "t": [
-          "angenehm",
-          "ansonsten",
-          "guten",
-          "lauren",
-          "leichte",
-          "pullover",
-          "ralph",
-          "verfarbung",
-          "vorhanden",
-          "weiss"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10675981561",
         "t": [
           "ape",
@@ -14699,6 +14665,31 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10882367784",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10882310359",
+        "t": [
+          "femme",
+          "joli",
+          "lauren",
+          "pull",
+          "ralph",
+          "tricolore"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
