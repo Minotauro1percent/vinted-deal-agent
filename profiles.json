@@ -2952,23 +2952,6 @@
     "updated": 1795118274,
     "vlog": [
       {
-        "id": "10676244486",
-        "t": [
-          "boutons",
-          "chale",
-          "col",
-          "coton",
-          "lauren",
-          "laurens",
-          "ralph",
-          "rouge",
-          "sweat"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10676398631",
         "t": [
           "aufgestickt",
@@ -14676,6 +14659,22 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10886418561",
+        "t": [
+          "56cm",
+          "70cm",
+          "achsen",
+          "angehabt",
+          "lange",
+          "melden",
+          "pullover",
+          "schoner"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
