@@ -2952,15 +2952,6 @@
     "updated": 1795079271,
     "vlog": [
       {
-        "id": "10675691394",
-        "t": [
-          "longue"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675642359",
         "t": [
           "girocollo",
@@ -14735,6 +14726,17 @@
           "ralph"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10878114865",
+        "t": [
+          "aber",
+          "pullover",
+          "steht"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
