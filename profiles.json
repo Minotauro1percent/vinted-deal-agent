@@ -2952,20 +2952,6 @@
     "updated": 1795082072,
     "vlog": [
       {
-        "id": "10675642359",
-        "t": [
-          "girocollo",
-          "lana",
-          "maglia",
-          "perfette",
-          "pochissimo",
-          "uomo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675673080",
         "t": [
           "homme",
@@ -14737,6 +14723,17 @@
           "steht"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10878547443",
+        "t": [
+          "lauren",
+          "maglia",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
