@@ -2952,21 +2952,6 @@
     "updated": 1795073914,
     "vlog": [
       {
-        "id": "10675570715",
-        "t": [
-          "dunkelblauer",
-          "dunkelrotem",
-          "lauren",
-          "logo",
-          "ralph",
-          "rundhalsausschnittt",
-          "strickpullover"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675691394",
         "t": [
           "longue"
@@ -14737,6 +14722,19 @@
           "uomo"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10877518649",
+        "t": [
+          "bleu",
+          "lauren",
+          "marine",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
       }
