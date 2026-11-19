@@ -2952,20 +2952,6 @@
     "updated": 1795098655,
     "vlog": [
       {
-        "id": "10676078343",
-        "t": [
-          "bleu",
-          "laurens",
-          "noir",
-          "pull",
-          "raph",
-          "rayure"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10648752777",
         "t": [
           "girocollo",
@@ -14692,6 +14678,27 @@
         ],
         "c": "Herren Sweater",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10881880563",
+        "t": [
+          "eher",
+          "geschnitten",
+          "hufte",
+          "lauren",
+          "minimales",
+          "obere",
+          "pilling",
+          "pullover",
+          "ralph",
+          "rot",
+          "schaden",
+          "schones",
+          "selten"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
