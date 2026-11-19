@@ -2952,25 +2952,6 @@
     "updated": 1795115437,
     "vlog": [
       {
-        "id": "10676215134",
-        "t": [
-          "arm",
-          "blauen",
-          "dem",
-          "etwas",
-          "geben",
-          "gewisse",
-          "guter",
-          "lauren",
-          "pullover",
-          "ralph",
-          "streifen"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10676244486",
         "t": [
           "boutons",
@@ -14682,6 +14663,17 @@
           "pull",
           "ralph",
           "roule"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10885736327",
+        "t": [
+          "lauren",
+          "maglione",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
