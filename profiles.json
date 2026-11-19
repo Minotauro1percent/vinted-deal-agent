@@ -2952,36 +2952,6 @@
     "updated": 1795126002,
     "vlog": [
       {
-        "id": "10676599378",
-        "t": [
-          "acqua",
-          "bellissimo",
-          "capo",
-          "chiaro",
-          "color",
-          "contrasto",
-          "cotone",
-          "firmato",
-          "iconico",
-          "lauren",
-          "lilla",
-          "maglione",
-          "originale",
-          "pastello",
-          "petto",
-          "pony",
-          "ralph",
-          "ricamato",
-          "sul",
-          "trecce",
-          "verde",
-          "viola"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10676502094",
         "t": [
           "50cm",
@@ -14618,6 +14588,20 @@
           "striped",
           "weather",
           "winter"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10888076018",
+        "t": [
+          "ascella",
+          "d25",
+          "lauren",
+          "lunghezza",
+          "pullover",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
