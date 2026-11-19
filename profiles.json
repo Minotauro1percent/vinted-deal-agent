@@ -2952,57 +2952,6 @@
     "updated": 1795104888,
     "vlog": [
       {
-        "id": "10675998437",
-        "t": [
-          "48h",
-          "bleue",
-          "cette",
-          "hiver",
-          "lauren",
-          "livraison",
-          "marine",
-          "polo",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10676008522",
-        "t": [
-          "ape",
-          "arancione",
-          "ascella",
-          "blu",
-          "buone",
-          "come",
-          "cotone",
-          "girocollo",
-          "lauren",
-          "lavorazione",
-          "logo",
-          "lunghe",
-          "lunghezza",
-          "maniche",
-          "misure",
-          "modello",
-          "navy",
-          "nido",
-          "petto",
-          "polo",
-          "pullover",
-          "ralph",
-          "ricamato",
-          "spalle",
-          "sul",
-          "tessuto"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675602420",
         "t": [
           "acquisto",
@@ -14662,6 +14611,32 @@
         "t": [
           "damenpullover",
           "melden"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10883198166",
+        "t": [
+          "biete",
+          "grun",
+          "hollister",
+          "rollkragenpullover",
+          "turkis",
+          "zopfmuster"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10883219792",
+        "t": [
+          "a20",
+          "lauren",
+          "pull",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
