@@ -2952,24 +2952,6 @@
     "updated": 1795111367,
     "vlog": [
       {
-        "id": "10676210401",
-        "t": [
-          "armadio",
-          "evergreen",
-          "fucsia",
-          "lauren",
-          "maglioncino",
-          "nell",
-          "poco",
-          "poiche",
-          "ralph",
-          "stato"
-        ],
-        "c": "",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10676275765",
         "t": [
           "agreable",
@@ -14669,6 +14651,54 @@
           "weiche"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10884801780",
+        "t": [
+          "abbinare",
+          "agnello",
+          "autunnale",
+          "caldo",
+          "cavallino",
+          "classico",
+          "colore",
+          "contattarmi",
+          "dal",
+          "design",
+          "eleganti",
+          "esitate",
+          "grigio",
+          "ideale",
+          "informazioni",
+          "intramontabile",
+          "invernale",
+          "jeans",
+          "lambswool",
+          "lana",
+          "lauren",
+          "logo",
+          "maglione",
+          "marca",
+          "materiale",
+          "modello",
+          "morbido",
+          "non",
+          "pantaloni",
+          "perfetto",
+          "petto",
+          "polo",
+          "pura",
+          "raffinato",
+          "ralph",
+          "ricamato",
+          "stagione",
+          "stile",
+          "sul",
+          "ulteriori"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
