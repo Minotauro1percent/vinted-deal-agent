@@ -2952,17 +2952,6 @@
     "updated": 1795087062,
     "vlog": [
       {
-        "id": "10675816979",
-        "t": [
-          "grigio",
-          "maglione",
-          "scuro"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675696138",
         "t": [
           "apposita",
@@ -14734,6 +14723,18 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10879484601",
+        "t": [
+          "dunkelgruner",
+          "lauren",
+          "pulli",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
+        "ok": false,
         "w": 1
       }
     ]
