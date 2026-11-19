@@ -2952,45 +2952,6 @@
     "updated": 1795095324,
     "vlog": [
       {
-        "id": "10672832680",
-        "t": [
-          "3mal",
-          "daher",
-          "dunner",
-          "etwas",
-          "fallt",
-          "langlicher",
-          "lauren",
-          "pullover",
-          "ralph",
-          "strick",
-          "uberhaupt",
-          "verkauft",
-          "wenn",
-          "wird",
-          "wurde"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": true,
-        "w": 1
-      },
-      {
-        "id": "10675710902",
-        "t": [
-          "beschreibung",
-          "hellblau",
-          "herren",
-          "lauren",
-          "masse",
-          "nichtraucherhaushalt",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10675919799",
         "t": [
           "maglione",
@@ -14673,6 +14634,29 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10881069308",
+        "t": [
+          "pill",
+          "pull",
+          "raphlauren"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10881090563",
+        "t": [
+          "conviens",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
