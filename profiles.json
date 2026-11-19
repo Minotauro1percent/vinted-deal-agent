@@ -2952,21 +2952,6 @@
     "updated": 1795114848,
     "vlog": [
       {
-        "id": "10676249632",
-        "t": [
-          "bouton",
-          "boutons",
-          "col",
-          "laine",
-          "lauren",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10676215134",
         "t": [
           "arm",
@@ -14685,6 +14670,20 @@
           "ralph"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10881772096",
+        "t": [
+          "col",
+          "lauren",
+          "petite",
+          "pull",
+          "ralph",
+          "roule"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
