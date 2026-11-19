@@ -2952,39 +2952,6 @@
     "updated": 1795119397,
     "vlog": [
       {
-        "id": "10676398631",
-        "t": [
-          "aufgestickt",
-          "baumwolle",
-          "bucher",
-          "dem",
-          "den",
-          "einwandfrei",
-          "fur",
-          "getragenen",
-          "grun",
-          "ich",
-          "inkl",
-          "klassischen",
-          "lauren",
-          "perfekt",
-          "pinken",
-          "pinker",
-          "pullover",
-          "ralph",
-          "reiter",
-          "rucknahme",
-          "strickpullover",
-          "warensendung",
-          "winter",
-          "zopfmuster",
-          "zopfstrick"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10676410890",
         "t": [
           "pochissimo",
@@ -14675,6 +14642,19 @@
           "schoner"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10886226737",
+        "t": [
+          "blanc",
+          "lauren",
+          "pull",
+          "ralph",
+          "taile"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
