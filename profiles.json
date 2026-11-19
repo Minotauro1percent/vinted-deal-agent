@@ -2952,41 +2952,6 @@
     "updated": 1795102076,
     "vlog": [
       {
-        "id": "10675981561",
-        "t": [
-          "ape",
-          "arancione",
-          "ascella",
-          "blu",
-          "buone",
-          "come",
-          "cotone",
-          "girocollo",
-          "lauren",
-          "lavorazione",
-          "logo",
-          "lunghe",
-          "lunghezza",
-          "maniche",
-          "misure",
-          "modello",
-          "nido",
-          "originale",
-          "petto",
-          "polo",
-          "pullover",
-          "ralph",
-          "ricamato",
-          "royal",
-          "spalle",
-          "sul",
-          "tessuto"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675998437",
         "t": [
           "48h",
@@ -14687,6 +14652,16 @@
           "pull",
           "ralph",
           "tricolore"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10882592461",
+        "t": [
+          "damenpullover",
+          "melden"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
