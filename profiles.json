@@ -2952,16 +2952,6 @@
     "updated": 1795096414,
     "vlog": [
       {
-        "id": "10675919799",
-        "t": [
-          "maglione",
-          "polo"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675836629",
         "t": [
           "lauren",
@@ -14657,6 +14647,33 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10881304501",
+        "t": [
+          "comoda",
+          "davanti",
+          "filato",
+          "grosso",
+          "lana",
+          "lauren",
+          "maglione",
+          "mai",
+          "misura",
+          "polo",
+          "punto",
+          "ralph",
+          "resto",
+          "riparare",
+          "sul",
+          "tessuto",
+          "utilizzato",
+          "vedi",
+          "vestibilita"
+        ],
+        "c": "",
+        "ok": false,
         "w": 1
       }
     ]
