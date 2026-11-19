@@ -2952,21 +2952,6 @@
     "updated": 1795105492,
     "vlog": [
       {
-        "id": "10675602420",
-        "t": [
-          "acquisto",
-          "errata",
-          "lauren",
-          "maglioncino",
-          "misura",
-          "polo",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10676130470",
         "t": [
           "blu",
@@ -14636,6 +14621,17 @@
           "a20",
           "lauren",
           "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10883392933",
+        "t": [
+          "lauren",
+          "maglione",
           "ralph"
         ],
         "c": "Damen Strickpullover",
