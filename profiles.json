@@ -2952,17 +2952,6 @@
     "updated": 1795068123,
     "vlog": [
       {
-        "id": "10675548535",
-        "t": [
-          "matiere",
-          "mis",
-          "presque"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10675570715",
         "t": [
           "dunkelblauer",
@@ -14731,6 +14720,21 @@
           "turquoise",
           "vert",
           "vous"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10877182761",
+        "t": [
+          "cotone",
+          "girocollo",
+          "lauren",
+          "maglioncino",
+          "polo",
+          "ralph",
+          "uomo"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
