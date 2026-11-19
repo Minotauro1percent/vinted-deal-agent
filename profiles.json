@@ -2952,23 +2952,6 @@
     "updated": 1795046712,
     "vlog": [
       {
-        "id": "10675421970",
-        "t": [
-          "capuche",
-          "dimensions",
-          "etiquette",
-          "lauren",
-          "mais",
-          "petit",
-          "pull",
-          "ralph",
-          "superbe"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10675548535",
         "t": [
           "matiere",
@@ -14715,6 +14698,42 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10875073422",
+        "t": [
+          "24h",
+          "48h",
+          "achete",
+          "ajustes",
+          "article",
+          "bas",
+          "col",
+          "demande",
+          "effectuer",
+          "fait",
+          "faites",
+          "fois",
+          "frais",
+          "homme",
+          "lauren",
+          "moi",
+          "occupe",
+          "port",
+          "produit",
+          "produits",
+          "pull",
+          "que",
+          "ralph",
+          "rond",
+          "souhaitez",
+          "turquoise",
+          "vert",
+          "vous"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
