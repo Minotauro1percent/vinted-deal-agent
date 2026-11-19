@@ -2952,25 +2952,6 @@
     "updated": 1795123810,
     "vlog": [
       {
-        "id": "10676457834",
-        "t": [
-          "aderente",
-          "bordeaux",
-          "che",
-          "colore",
-          "lauren",
-          "maglione",
-          "perfette",
-          "polo",
-          "praticamente",
-          "ralph",
-          "veste"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": true,
-        "w": 2
-      },
-      {
         "id": "10676599378",
         "t": [
           "acqua",
@@ -14623,6 +14604,22 @@
           "steht"
         ],
         "c": "Herren Sweater",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10887532521",
+        "t": [
+          "fall",
+          "lauren",
+          "patterned",
+          "pullover",
+          "ralph",
+          "striped",
+          "weather",
+          "winter"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
