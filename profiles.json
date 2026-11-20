@@ -2952,20 +2952,6 @@
     "updated": 1795201837,
     "vlog": [
       {
-        "id": "10678539785",
-        "t": [
-          "lauren",
-          "polo",
-          "pullover",
-          "ralph",
-          "schoner",
-          "strickpullover"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678681669",
         "t": [
           "acceso",
@@ -14673,6 +14659,19 @@
         ],
         "c": "",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10898434327",
+        "t": [
+          "clair",
+          "gris",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
         "w": 1
       }
     ]
