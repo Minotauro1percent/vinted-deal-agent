@@ -2952,20 +2952,6 @@
     "updated": 1795201278,
     "vlog": [
       {
-        "id": "10678585494",
-        "t": [
-          "aber",
-          "genutzter",
-          "guten",
-          "lauren",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678539785",
         "t": [
           "lauren",
@@ -14673,6 +14659,20 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10898364239",
+        "t": [
+          "fashion",
+          "lauren",
+          "over",
+          "pull",
+          "ralph",
+          "ralphlauren"
+        ],
+        "c": "",
+        "ok": true,
         "w": 1
       }
     ]
