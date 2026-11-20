@@ -2952,23 +2952,6 @@
     "updated": 1795176554,
     "vlog": [
       {
-        "id": "10676854335",
-        "t": [
-          "come",
-          "cotone",
-          "lauren",
-          "lunghezza",
-          "maglione",
-          "maniche",
-          "misure",
-          "ralph",
-          "spalle"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10676784794",
         "t": [
           "lauren",
@@ -14648,6 +14631,29 @@
           "wunderschoner"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10892988955",
+        "t": [
+          "brode",
+          "chaps",
+          "embroidered",
+          "jumper",
+          "knitwear",
+          "lauren",
+          "legere",
+          "oversized",
+          "pull",
+          "pullover",
+          "ralph",
+          "ralphlauren",
+          "trace",
+          "usure",
+          "vwtpkmx009"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
         "w": 1
       }
