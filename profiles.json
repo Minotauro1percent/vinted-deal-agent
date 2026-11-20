@@ -2952,83 +2952,6 @@
     "updated": 1795203447,
     "vlog": [
       {
-        "id": "10678681669",
-        "t": [
-          "acceso",
-          "bellissimo",
-          "colore",
-          "fucsia",
-          "girocollo",
-          "iconico",
-          "intrecciata",
-          "lauren",
-          "lavorazione",
-          "logo",
-          "lunghe",
-          "maglione",
-          "maniche",
-          "originale",
-          "petto",
-          "polo",
-          "ralph",
-          "ricamato",
-          "sul",
-          "trecce"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
-        "id": "10678846131",
-        "t": [
-          "ancora",
-          "ascella",
-          "bello",
-          "blu",
-          "capo",
-          "chiaramente",
-          "chiaro",
-          "classico",
-          "colore",
-          "come",
-          "del",
-          "generali",
-          "giocatore",
-          "girocollo",
-          "grande",
-          "grigio",
-          "iconico",
-          "indossare",
-          "lauren",
-          "leggero",
-          "logo",
-          "maglione",
-          "melange",
-          "modello",
-          "morbido",
-          "mostrato",
-          "ogni",
-          "perfetto",
-          "petto",
-          "piccolo",
-          "polo",
-          "presenta",
-          "ralph",
-          "rammendo",
-          "ricamato",
-          "segno",
-          "sotto",
-          "stagione",
-          "sul",
-          "uomo",
-          "usura"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678998653",
         "t": [
           "lauren",
@@ -14672,6 +14595,32 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10898752003",
+        "t": [
+          "grigio",
+          "lauren",
+          "logo",
+          "marrone",
+          "polo",
+          "pullover",
+          "ralph"
+        ],
+        "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10898817896",
+        "t": [
+          "lauren",
+          "maglione",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
