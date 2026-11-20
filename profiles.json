@@ -2952,19 +2952,6 @@
     "updated": 1795180412,
     "vlog": [
       {
-        "id": "10676858603",
-        "t": [
-          "lang",
-          "lauren",
-          "oversize",
-          "pullover",
-          "ralph"
-        ],
-        "c": "",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10676781850",
         "t": [
           "lauren",
@@ -14656,6 +14643,17 @@
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10893656641",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": true,
         "w": 1
       }
     ]
