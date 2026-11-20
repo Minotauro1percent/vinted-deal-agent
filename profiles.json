@@ -2952,21 +2952,6 @@
     "updated": 1795157693,
     "vlog": [
       {
-        "id": "10676502094",
-        "t": [
-          "50cm",
-          "bas",
-          "cachemire",
-          "laine",
-          "mode",
-          "pull",
-          "utilise"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10676552106",
         "t": [
           "gelber",
@@ -14604,6 +14589,27 @@
           "ralph"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10890257821",
+        "t": [
+          "firmato",
+          "lauren",
+          "manca",
+          "misure",
+          "perfette",
+          "pesante",
+          "polo",
+          "pullover",
+          "quadratino",
+          "ralph",
+          "una",
+          "vedi",
+          "verde"
+        ],
+        "c": "Herren Strickpullover für den Winter",
         "ok": false,
         "w": 1
       }
