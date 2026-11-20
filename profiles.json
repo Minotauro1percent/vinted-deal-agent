@@ -2952,28 +2952,6 @@
     "updated": 1795191612,
     "vlog": [
       {
-        "id": "10677301966",
-        "t": [
-          "design",
-          "fur",
-          "lauren",
-          "logo",
-          "outfits",
-          "perfekt",
-          "polo",
-          "pullover",
-          "ralph",
-          "rotem",
-          "schlichtes",
-          "schwarz",
-          "schwarzer",
-          "streetwear"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10677416284",
         "t": [
           "bianco",
@@ -14788,6 +14766,20 @@
           "tipico",
           "tirato",
           "ultima"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10896183757",
+        "t": [
+          "donna",
+          "lauren",
+          "maglione",
+          "maniche",
+          "pull",
+          "ralph"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
