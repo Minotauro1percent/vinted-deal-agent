@@ -2952,29 +2952,6 @@
     "updated": 1795200160,
     "vlog": [
       {
-        "id": "10678479815",
-        "t": [
-          "danke",
-          "guten",
-          "ich",
-          "innen",
-          "interesse",
-          "lauren",
-          "melden",
-          "polo",
-          "pullover",
-          "qualitat",
-          "ralph",
-          "schon",
-          "sie",
-          "warm",
-          "wenn"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678585494",
         "t": [
           "aber",
@@ -14681,6 +14658,18 @@
           "maglione",
           "pull",
           "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10898013648",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "s30"
         ],
         "c": "Damen Strickpullover",
         "ok": false,
