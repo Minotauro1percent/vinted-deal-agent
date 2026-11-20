@@ -1,2 +1,15 @@
-2026-11-20 10:09:37 UTC Telegram: 0 neue Nachricht(en)
-2026-11-20 10:09:38 UTC Keine Suche fällig
+2026-11-20 10:13:49 UTC Telegram: 0 neue Nachricht(en)
+2026-11-20 10:13:50 UTC Suche „RalphLauren“
+2026-11-20 10:13:57 UTC RalphLauren: 32 neu, 16 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-20 10:14:03 UTC Bildprüfung 10891579706: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 10:14:09 UTC Bildprüfung verwirft 10891634824 (12: ohne Zopfmuster: Halbzip-Stehkragen und glatter Strick statt Zopfmuster, wie bei)
+2026-11-20 10:14:15 UTC Bildprüfung verwirft 10891613750 (25: )
+2026-11-20 10:14:21 UTC Bildprüfung 10891674846: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 10:14:28 UTC Ausgeschlossen 10891610268: Flecken / Löcher
+2026-11-20 10:14:31 UTC Ausgeschlossen 10891584668: V-Ausschnitt
+2026-11-20 10:14:31 UTC Details übersprungen (10891558015): HTTP 404 für https://www.vinted.at/items/10891558015-pullover-half-zip
+2026-11-20 10:14:40 UTC Bildprüfung 10891675346: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 10:14:43 UTC Ausgeschlossen 10891622635: V-Ausschnitt
+2026-11-20 10:14:45 UTC Suche „Juicy Couture“
+2026-11-20 10:14:45 UTC Juicy Couture: noch keine Beispiele
+2026-11-20 10:14:45 UTC Suche fertig: 0 neue Deals (2 Suchen)
