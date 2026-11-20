@@ -2952,57 +2952,6 @@
     "updated": 1795198417,
     "vlog": [
       {
-        "id": "10678141120",
-        "t": [
-          "alle",
-          "armeln",
-          "blick",
-          "blue",
-          "brust",
-          "bundchen",
-          "den",
-          "details",
-          "dunkelblau",
-          "edlen",
-          "elastische",
-          "erhalten",
-          "features",
-          "gepflegter",
-          "hat",
-          "hellem",
-          "herren",
-          "hier",
-          "innenband",
-          "kategorie",
-          "klassischem",
-          "knit",
-          "lauren",
-          "logos",
-          "longsleeve",
-          "navy",
-          "optik",
-          "originales",
-          "player",
-          "polo",
-          "ralph",
-          "rundhalsausschnitt",
-          "schone",
-          "shirt",
-          "stickerei",
-          "stoff",
-          "struktur",
-          "sweater",
-          "thermal",
-          "waffelstrick",
-          "waffelstruktur",
-          "waffle",
-          "weisse"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678424165",
         "t": [
           "acceptees",
@@ -14723,6 +14672,17 @@
         "id": "10897426349",
         "t": [
           "coton",
+          "lauren",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10897592935",
+        "t": [
           "lauren",
           "pull",
           "ralph"
