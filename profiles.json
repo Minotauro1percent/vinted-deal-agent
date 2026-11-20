@@ -2952,19 +2952,6 @@
     "updated": 1795187121,
     "vlog": [
       {
-        "id": "10677202019",
-        "t": [
-          "girocollo",
-          "lauren",
-          "mai",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10677184580",
         "t": [
           "caballero",
@@ -14726,6 +14713,28 @@
           "wurde",
           "zopfmuster",
           "zopfpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10895155629",
+        "t": [
+          "cotton",
+          "eher",
+          "etikett",
+          "gelber",
+          "lauren",
+          "nettes",
+          "polo",
+          "ralpg",
+          "ruckenlange",
+          "steht",
+          "strickpulli",
+          "tendieren",
+          "wurde",
+          "zopfmuster"
         ],
         "c": "Damen Strickpullover",
         "ok": true,
