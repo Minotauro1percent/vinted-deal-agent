@@ -2952,17 +2952,6 @@
     "updated": 1795170506,
     "vlog": [
       {
-        "id": "10676732612",
-        "t": [
-          "filo",
-          "maglia",
-          "unisex"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10676486966",
         "t": [
           "chat",
@@ -14617,6 +14606,23 @@
           "rond"
         ],
         "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10891862564",
+        "t": [
+          "accroc",
+          "derriere",
+          "gris",
+          "juste",
+          "lauren",
+          "longues",
+          "petit",
+          "pull",
+          "ralph"
+        ],
+        "c": "Herren Sweater",
         "ok": false,
         "w": 1
       }
