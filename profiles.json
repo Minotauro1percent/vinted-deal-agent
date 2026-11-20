@@ -2952,18 +2952,6 @@
     "updated": 1795205159,
     "vlog": [
       {
-        "id": "10678925976",
-        "t": [
-          "lauren",
-          "orange",
-          "pull",
-          "ralph"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678925202",
         "t": [
           "fois",
@@ -14623,6 +14611,29 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10899098394",
+        "t": [
+          "damen",
+          "dann",
+          "etwas",
+          "geleitet",
+          "habe",
+          "ich",
+          "ihn",
+          "immer",
+          "kein",
+          "problem",
+          "reingesteckt",
+          "strickpullover",
+          "unten",
+          "vorne",
+          "war"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
         "w": 1
       }
     ]
