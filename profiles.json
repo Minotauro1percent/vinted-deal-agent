@@ -2952,26 +2952,6 @@
     "updated": 1795192178,
     "vlog": [
       {
-        "id": "10677416284",
-        "t": [
-          "bianco",
-          "caldo",
-          "comodo",
-          "consigliato",
-          "davvero",
-          "lauren",
-          "maglione",
-          "panna",
-          "polo",
-          "ralph",
-          "tiene",
-          "veste"
-        ],
-        "c": "Herren Strickpullover für den Winter",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10677659654",
         "t": [
           "lauren",
@@ -14778,6 +14758,17 @@
           "lauren",
           "maglione",
           "maniche",
+          "pull",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10896241159",
+        "t": [
+          "lauren",
           "pull",
           "ralph"
         ],
