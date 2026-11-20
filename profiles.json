@@ -2952,20 +2952,6 @@
     "updated": 1795188285,
     "vlog": [
       {
-        "id": "10677184580",
-        "t": [
-          "caballero",
-          "coudieres",
-          "envoie",
-          "gris",
-          "pull",
-          "similicuir"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10677334588",
         "t": [
           "cotton",
@@ -14738,6 +14724,21 @@
         ],
         "c": "Damen Strickpullover",
         "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10895477368",
+        "t": [
+          "lauren",
+          "misure",
+          "polo",
+          "pullover",
+          "ralph",
+          "vedi",
+          "verde"
+        ],
+        "c": "Herren Strickpullover für den Winter",
+        "ok": false,
         "w": 1
       }
     ]
