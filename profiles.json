@@ -2952,53 +2952,6 @@
     "updated": 1795182060,
     "vlog": [
       {
-        "id": "10676972841",
-        "t": [
-          "come",
-          "condizini",
-          "lauren",
-          "longsleeve",
-          "lunghezza",
-          "majiche",
-          "misure",
-          "over",
-          "perfetta",
-          "questa",
-          "ralph",
-          "spalle",
-          "stagione",
-          "una",
-          "veste"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10676954897",
-        "t": [
-          "geworden",
-          "klein",
-          "lauren",
-          "mir",
-          "pullover",
-          "ralph"
-        ],
-        "c": "Herren Sweater",
-        "ok": false,
-        "w": 1
-      },
-      {
-        "id": "10676895426",
-        "t": [
-          "maglia",
-          "maglioni"
-        ],
-        "c": "Damen Strickpullover",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10677134720",
         "t": [
           "lauren",
@@ -14653,6 +14606,50 @@
           "ralph"
         ],
         "c": "Herren Pullover mit Rundhalsausschnitt",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10894060989",
+        "t": [
+          "lauren",
+          "pink",
+          "ralph",
+          "strickpullover"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10894089503",
+        "t": [
+          "eher",
+          "frauen",
+          "fur",
+          "geschnitten",
+          "klein",
+          "lauren",
+          "pullover",
+          "ralph",
+          "tauscht"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10891229356",
+        "t": [
+          "blanc",
+          "doux",
+          "longues",
+          "pull",
+          "raye",
+          "rayures",
+          "rose"
+        ],
+        "c": "Damen Strickpullover",
         "ok": false,
         "w": 1
       }
