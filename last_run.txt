@@ -1,8 +1,2 @@
-2026-11-20 07:33:46 UTC Telegram: 0 neue Nachricht(en)
-2026-11-20 07:33:46 UTC Suche „RalphLauren“
-2026-11-20 07:33:55 UTC RalphLauren: 6 neu, 3 in der Vorauswahl (Schwelle 0.50), 1 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-20 07:33:55 UTC Details übersprungen (10890375397): HTTP 404 für https://www.vinted.at/items/10890375397-polo-torsade-ralph-lauren
-2026-11-20 07:34:02 UTC Bildprüfung 10890428030: unlesbare Antwort:  (stop=max_tokens)
-2026-11-20 07:34:02 UTC Suche „Juicy Couture“
-2026-11-20 07:34:02 UTC Juicy Couture: noch keine Beispiele
-2026-11-20 07:34:02 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-20 07:38:19 UTC Telegram: 0 neue Nachricht(en)
+2026-11-20 07:38:19 UTC Keine Suche fällig
