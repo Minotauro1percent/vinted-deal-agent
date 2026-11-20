@@ -2952,18 +2952,6 @@
     "updated": 1795204013,
     "vlog": [
       {
-        "id": "10678998653",
-        "t": [
-          "lauren",
-          "magnifique",
-          "pull",
-          "ralph"
-        ],
-        "c": "",
-        "ok": true,
-        "w": 1
-      },
-      {
         "id": "10678925976",
         "t": [
           "lauren",
@@ -14620,6 +14608,20 @@
           "ralph"
         ],
         "c": "Herren Strickpullover für den Winter",
+        "ok": true,
+        "w": 1
+      },
+      {
+        "id": "10898874261",
+        "t": [
+          "donna",
+          "lauren",
+          "maglioncino",
+          "perfette",
+          "polo",
+          "ralph"
+        ],
+        "c": "Damen Strickpullover",
         "ok": true,
         "w": 1
       }
