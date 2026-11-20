@@ -2952,20 +2952,6 @@
     "updated": 1795196724,
     "vlog": [
       {
-        "id": "10678024885",
-        "t": [
-          "lana",
-          "lauren",
-          "maglione",
-          "polo",
-          "ralph",
-          "rosso"
-        ],
-        "c": "Herren Pullover mit Rundhalsausschnitt",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678149493",
         "t": [
           "age",
@@ -14772,6 +14758,18 @@
           "seitenschlitzen",
           "selten",
           "verkaufen"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10897288799",
+        "t": [
+          "lauren",
+          "pull",
+          "ralph",
+          "s18"
         ],
         "c": "Damen Strickpullover",
         "ok": false,

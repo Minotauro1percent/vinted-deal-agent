@@ -1,2 +1,19 @@
-2026-11-20 17:45:24 UTC Telegram: 0 neue Nachricht(en)
-2026-11-20 17:45:24 UTC Keine Suche fällig
+2026-11-20 17:49:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-20 17:49:35 UTC Suche „RalphLauren“
+2026-11-20 17:49:43 UTC RalphLauren: 37 neu, 21 in der Vorauswahl (Schwelle 0.50), 3 per Lernmodell aussortiert, Bild-Budget 11
+2026-11-20 17:49:49 UTC Bildprüfung 10897257232: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 17:49:50 UTC Details übersprungen (10897391398): HTTP 404 für https://www.vinted.at/items/10897391398-pullover-girocollo-polo
+2026-11-20 17:49:53 UTC Ausgeschlossen 10897380895: V-Ausschnitt
+2026-11-20 17:49:58 UTC Bildprüfung 10897317895: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 17:50:04 UTC Bildprüfung 10897385102: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 17:50:13 UTC Bildprüfung verwirft 10897288799 (5: )
+2026-11-20 17:50:23 UTC Bildprüfung 10897387440: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 17:50:29 UTC Ausgeschlossen 10897338359: V-Ausschnitt
+2026-11-20 17:50:33 UTC Ausgeschlossen 10897367641: Flecken / Löcher
+2026-11-20 17:50:36 UTC Ausgeschlossen 10897267315: V-Ausschnitt
+2026-11-20 17:50:45 UTC Bildprüfung 10897317175: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 17:50:47 UTC Ausgeschlossen 10897272688: Flecken / Löcher
+2026-11-20 17:50:57 UTC Bildprüfung 10897389356: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 17:50:57 UTC Suche „Juicy Couture“
+2026-11-20 17:50:57 UTC Juicy Couture: noch keine Beispiele
+2026-11-20 17:50:57 UTC Suche fertig: 0 neue Deals (2 Suchen)
