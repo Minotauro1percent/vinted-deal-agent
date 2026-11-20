@@ -2952,20 +2952,6 @@
     "updated": 1795206842,
     "vlog": [
       {
-        "id": "10678925202",
-        "t": [
-          "fois",
-          "lauren",
-          "loren",
-          "pull",
-          "quelque",
-          "ralph"
-        ],
-        "c": "",
-        "ok": false,
-        "w": 1
-      },
-      {
         "id": "10678964653",
         "t": [
           "donna",
@@ -14634,6 +14620,23 @@
         ],
         "c": "Damen Strickpullover",
         "ok": false,
+        "w": 1
+      },
+      {
+        "id": "10899477996",
+        "t": [
+          "cachemire",
+          "est",
+          "lauren",
+          "mais",
+          "petit",
+          "plutot",
+          "pull",
+          "ralph",
+          "realite"
+        ],
+        "c": "Damen Strickpullover",
+        "ok": true,
         "w": 1
       }
     ]
