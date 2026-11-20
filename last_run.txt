@@ -1,10 +1,19 @@
-2026-11-20 11:45:52 UTC Telegram: 0 neue Nachricht(en)
-2026-11-20 11:45:53 UTC Suche „RalphLauren“
-2026-11-20 11:46:01 UTC RalphLauren: 24 neu, 8 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 10
-2026-11-20 11:46:07 UTC Bildprüfung 10892657973: unlesbare Antwort:  (stop=max_tokens)
-2026-11-20 11:46:14 UTC Ausgeschlossen 10892678493: V-Ausschnitt
-2026-11-20 11:46:17 UTC Ausgeschlossen 10892650699: V-Ausschnitt
-2026-11-20 11:46:26 UTC Bildprüfung verwirft 10892599296 (8: )
-2026-11-20 11:46:26 UTC Suche „Juicy Couture“
-2026-11-20 11:46:26 UTC Juicy Couture: noch keine Beispiele
-2026-11-20 11:46:26 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-20 11:54:46 UTC Telegram: 0 neue Nachricht(en)
+2026-11-20 11:54:46 UTC Suche „Xiaomi 17“
+2026-11-20 11:54:52 UTC Xiaomi 17: 4 neue Kandidaten
+2026-11-20 11:54:52 UTC Suche „RalphLauren“
+2026-11-20 11:55:02 UTC RalphLauren: 32 neu, 17 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-20 11:55:08 UTC Bildprüfung 10892697040: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 11:55:13 UTC Ausgeschlossen 10892781742: Flecken / Löcher
+2026-11-20 11:55:18 UTC Bildprüfung 10892765049: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 11:55:24 UTC Bildprüfung 10892717240: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 11:55:31 UTC Bildprüfung 10892689733: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 11:55:34 UTC Ausgeschlossen 10892727865: V-Ausschnitt
+2026-11-20 11:55:41 UTC Bildprüfung 10892694961: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 11:55:46 UTC Bildprüfung 10892766381: unlesbare Antwort:  (stop=max_tokens)
+2026-11-20 11:55:50 UTC Ausgeschlossen 10892693902: V-Ausschnitt
+2026-11-20 11:55:57 UTC Ausgeschlossen 10892705331: V-Ausschnitt
+2026-11-20 11:56:00 UTC Ausgeschlossen 10892697786: Kinder
+2026-11-20 11:56:03 UTC Suche „Juicy Couture“
+2026-11-20 11:56:03 UTC Juicy Couture: noch keine Beispiele
+2026-11-20 11:56:03 UTC Suche fertig: 0 neue Deals (3 Suchen)
