@@ -1,14 +1,4 @@
-2026-11-21 00:02:40 UTC Telegram: 0 neue Nachricht(en)
-2026-11-21 00:02:40 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
-2026-11-21 00:02:40 UTC Suche „RalphLauren“
-2026-11-21 00:02:50 UTC RalphLauren: 21 neu, 11 in der Vorauswahl (Schwelle 0.50), 5 per Lernmodell aussortiert, Bild-Budget 6
-2026-11-21 00:02:54 UTC Ausgeschlossen 10900908037: Flecken / Löcher
-2026-11-21 00:03:01 UTC Ausgeschlossen 10901065401: V-Ausschnitt
-2026-11-21 00:03:06 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChF6NZGzSZnAfSUHNpbaM"}
-2026-11-21 00:03:10 UTC Ausgeschlossen 10901131039: V-Ausschnitt
-2026-11-21 00:03:13 UTC Ausgeschlossen 10901189298: Flecken / Löcher
-2026-11-21 00:03:13 UTC Suche „Juicy Couture“
-2026-11-21 00:03:13 UTC Juicy Couture: noch keine Beispiele
-2026-11-21 00:03:13 UTC Suche „Xiaomi 17“
-2026-11-21 00:03:18 UTC Xiaomi 17: 0 neue Kandidaten
-2026-11-21 00:03:18 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-21 00:07:34 UTC Telegram-Fehler getUpdates 502 {"ok":false,"error_code":502,"description":"Bad Gateway"}
+2026-11-21 00:07:34 UTC getUpdates fehlgeschlagen: {"ok":false,"error_code":502,"description":"Bad Gateway"}
+2026-11-21 00:07:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-21 00:07:34 UTC Keine Suche fällig
