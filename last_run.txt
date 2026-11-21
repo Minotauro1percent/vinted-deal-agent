@@ -1,2 +1,14 @@
-2026-11-21 19:00:03 UTC Telegram: 0 neue Nachricht(en)
-2026-11-21 19:00:03 UTC Keine Suche fällig
+2026-11-21 19:04:19 UTC Telegram: 0 neue Nachricht(en)
+2026-11-21 19:04:19 UTC Suche „RalphLauren“
+2026-11-21 19:04:19 UTC 429 – warte 60 s
+2026-11-21 19:05:19 UTC 429 – warte 60 s
+2026-11-21 19:06:20 UTC 429 – warte 60 s
+2026-11-21 19:07:20 UTC Suchanfrage übersprungen (pull ralph lauren): Vinted antwortet nicht sauber: https://www.vinted.at/catalog?search_text=pull+ralph+lauren&order=newest_first&currency=EUR&price_to=24
+2026-11-21 19:07:20 UTC 429 – warte 60 s
+2026-11-21 19:08:20 UTC 429 – warte 60 s
+2026-11-21 19:09:20 UTC 429 – warte 60 s
+2026-11-21 19:10:20 UTC Suchanfrage übersprungen (ralph lauren pullover): Vinted antwortet nicht sauber: https://www.vinted.at/catalog?search_text=ralph+lauren+pullover&order=newest_first&currency=EUR&price_to=24
+2026-11-21 19:10:20 UTC RalphLauren: 0 neu, 0 in der Vorauswahl (Schwelle 0.50), Bild-Budget 35
+2026-11-21 19:10:20 UTC Suche „Juicy Couture“
+2026-11-21 19:10:20 UTC Juicy Couture: noch keine Beispiele
+2026-11-21 19:10:20 UTC Suche fertig: 0 neue Deals (2 Suchen)
