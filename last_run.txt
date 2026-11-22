@@ -1,2 +1,20 @@
-2026-11-22 16:28:34 UTC Telegram: 0 neue Nachricht(en)
-2026-11-22 16:28:34 UTC Keine Suche fällig
+2026-11-22 16:32:46 UTC Telegram: 0 neue Nachricht(en)
+2026-11-22 16:32:46 UTC Suche „RalphLauren“
+2026-11-22 16:32:55 UTC RalphLauren: 56 neu, 32 in der Vorauswahl (Schwelle 0.50), 12 per Lernmodell aussortiert, Bild-Budget 22
+2026-11-22 16:32:58 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHfYKiRjndwzXoaqukQ"}
+2026-11-22 16:33:01 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHfmnLWBnZq159WdNf2"}
+2026-11-22 16:33:05 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHg33cfARQzR7uwzeq3"}
+2026-11-22 16:33:08 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHgHvZuyYPxnERynjYq"}
+2026-11-22 16:33:13 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHgegjH7s4TuR1hd82k"}
+2026-11-22 16:33:17 UTC Ausgeschlossen 10926802527: V-Ausschnitt
+2026-11-22 16:33:21 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHhDCL7b2ZbM1wFezmk"}
+2026-11-22 16:33:24 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHhS9hXzV3Utjr1VTnV"}
+2026-11-22 16:33:40 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHidkUqCdhuefBGXnLN"}
+2026-11-22 16:33:40 UTC Details übersprungen (10926805410): HTTP 404 für https://www.vinted.at/items/10926805410-gillet-ralph-lauren
+2026-11-22 16:33:45 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHiy17gEnu1xW5gKP2N"}
+2026-11-22 16:33:51 UTC Ausgeschlossen 10926777783: V-Ausschnitt
+2026-11-22 16:33:55 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJHjhMJaxR2LsqNhwswX"}
+2026-11-22 16:34:01 UTC Ausgeschlossen 10926851490: V-Ausschnitt
+2026-11-22 16:34:01 UTC Suche „Juicy Couture“
+2026-11-22 16:34:01 UTC Juicy Couture: noch keine Beispiele
+2026-11-22 16:34:01 UTC Suche fertig: 0 neue Deals (2 Suchen)
