@@ -1,17 +1,2 @@
-2026-11-22 18:37:25 UTC Telegram: 0 neue Nachricht(en)
-2026-11-22 18:37:25 UTC Suche „RalphLauren“
-2026-11-22 18:37:34 UTC RalphLauren: 56 neu, 24 in der Vorauswahl (Schwelle 0.50), 11 per Lernmodell aussortiert, Bild-Budget 31
-2026-11-22 18:37:37 UTC Ausgeschlossen 10929333383: V-Ausschnitt
-2026-11-22 18:37:41 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTB8siD2ab3N3EJJWQk"}
-2026-11-22 18:37:45 UTC Ausgeschlossen 10929285220: V-Ausschnitt
-2026-11-22 18:37:51 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTBuESrqbJGu7DikC2F"}
-2026-11-22 18:37:55 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTCB4h76Qx5Mmjt7B9z"}
-2026-11-22 18:37:59 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTCSD2UBZxJYL7sg1cT"}
-2026-11-22 18:38:02 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTChHP5YcBtUHeCL7dQ"}
-2026-11-22 18:38:05 UTC Ausgeschlossen 10929404477: Ohne Ärmel / Weste
-2026-11-22 18:38:08 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTD7eqVrgVJyi39qwQz"}
-2026-11-22 18:38:11 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTDLNpTLEGKidrbQ9rc"}
-2026-11-22 18:38:18 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJTDpgR2AJip7o75Vnvg"}
-2026-11-22 18:38:18 UTC Suche „Juicy Couture“
-2026-11-22 18:38:18 UTC Juicy Couture: noch keine Beispiele
-2026-11-22 18:38:18 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-22 18:42:28 UTC Telegram: 0 neue Nachricht(en)
+2026-11-22 18:42:28 UTC Keine Suche fällig
