@@ -1,2 +1,15 @@
-2026-11-22 18:04:58 UTC Telegram: 0 neue Nachricht(en)
-2026-11-22 18:04:58 UTC Keine Suche fällig
+2026-11-22 18:09:10 UTC Telegram: 0 neue Nachricht(en)
+2026-11-22 18:09:10 UTC Suche „RalphLauren“
+2026-11-22 18:09:19 UTC RalphLauren: 47 neu, 22 in der Vorauswahl (Schwelle 0.50), 8 per Lernmodell aussortiert, Bild-Budget 28
+2026-11-22 18:09:23 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJR1xbLcPmJLosTMtpMW"}
+2026-11-22 18:09:27 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJR2GBWExNmzPaiQ94hW"}
+2026-11-22 18:09:30 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJR2VGKNmntQqRDHMKV8"}
+2026-11-22 18:09:36 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJR2uScXEG7b1SNxatU9"}
+2026-11-22 18:09:39 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJR3A8eeGjPReM6NpWYL"}
+2026-11-22 18:09:42 UTC Ausgeschlossen 10928867545: V-Ausschnitt
+2026-11-22 18:09:46 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJR3dDpMLd7qfNwCTRD8"}
+2026-11-22 18:09:49 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJR3sbmTq19DGzQvUWsZ"}
+2026-11-22 18:09:55 UTC Ausgeschlossen 10928798955: V-Ausschnitt
+2026-11-22 18:10:05 UTC Suche „Juicy Couture“
+2026-11-22 18:10:05 UTC Juicy Couture: noch keine Beispiele
+2026-11-22 18:10:05 UTC Suche fertig: 0 neue Deals (2 Suchen)
