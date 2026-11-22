@@ -1,2 +1,17 @@
-2026-11-22 17:36:52 UTC Telegram: 0 neue Nachricht(en)
-2026-11-22 17:36:52 UTC Keine Suche fällig
+2026-11-22 17:41:03 UTC Telegram: 0 neue Nachricht(en)
+2026-11-22 17:41:03 UTC Suche „RalphLauren“
+2026-11-22 17:41:14 UTC RalphLauren: 52 neu, 35 in der Vorauswahl (Schwelle 0.50), 15 per Lernmodell aussortiert, Bild-Budget 26
+2026-11-22 17:41:18 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJNskJxRSVj1KR4xuWxd"}
+2026-11-22 17:41:21 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJNsxoHhUtxucym6DNyR"}
+2026-11-22 17:41:25 UTC Ausgeschlossen 10928159326: V-Ausschnitt
+2026-11-22 17:41:27 UTC Ausgeschlossen 10911958807: Flecken / Löcher
+2026-11-22 17:41:38 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJNuFbc5Up6XZLCgCWMW"}
+2026-11-22 17:41:46 UTC Ausgeschlossen 10928323760: V-Ausschnitt
+2026-11-22 17:41:53 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJNvJXkAeL8vHWXstFMf"}
+2026-11-22 17:41:59 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJNvnkdrZ6e8qDX6LarY"}
+2026-11-22 17:42:02 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJNw2CWEdYLrBcyMh17o"}
+2026-11-22 17:42:12 UTC Ausgeschlossen 10928156439: V-Ausschnitt
+2026-11-22 17:42:19 UTC Ausgeschlossen 10928224402: Flecken / Löcher
+2026-11-22 17:42:22 UTC Suche „Juicy Couture“
+2026-11-22 17:42:22 UTC Juicy Couture: noch keine Beispiele
+2026-11-22 17:42:22 UTC Suche fertig: 0 neue Deals (2 Suchen)
