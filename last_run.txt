@@ -1,2 +1,16 @@
-2026-11-22 16:58:17 UTC Telegram: 0 neue Nachricht(en)
-2026-11-22 16:58:18 UTC Keine Suche fällig
+2026-11-22 17:02:28 UTC Telegram: 0 neue Nachricht(en)
+2026-11-22 17:02:28 UTC Suche „RalphLauren“
+2026-11-22 17:02:38 UTC RalphLauren: 64 neu, 29 in der Vorauswahl (Schwelle 0.50), 16 per Lernmodell aussortiert, Bild-Budget 23
+2026-11-22 17:02:41 UTC Ausgeschlossen 10927533055: V-Ausschnitt
+2026-11-22 17:02:45 UTC Ausgeschlossen 10927536343: Flecken / Löcher
+2026-11-22 17:02:52 UTC Ausgeschlossen 10927368690: V-Ausschnitt
+2026-11-22 17:02:59 UTC Ausgeschlossen 10927516593: V-Ausschnitt
+2026-11-22 17:03:04 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJKxdS13xXs389g7xZZL"}
+2026-11-22 17:03:07 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJKxrfEacfPUoVNVaGjt"}
+2026-11-22 17:03:10 UTC Ausgeschlossen 10927435843: V-Ausschnitt
+2026-11-22 17:03:13 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJKyKigDizQpnR1n81V4"}
+2026-11-22 17:03:16 UTC Ausgeschlossen 10927446764: V-Ausschnitt
+2026-11-22 17:03:23 UTC Ausgeschlossen 10927520256: V-Ausschnitt
+2026-11-22 17:03:23 UTC Suche „Juicy Couture“
+2026-11-22 17:03:23 UTC Juicy Couture: noch keine Beispiele
+2026-11-22 17:03:23 UTC Suche fertig: 0 neue Deals (2 Suchen)
