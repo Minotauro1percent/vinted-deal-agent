@@ -1,38 +1,6 @@
-2026-11-22 14:51:46 UTC Telegram: 0 neue Nachricht(en)
-2026-11-22 14:51:47 UTC Suche „Xiaomi 17“
-2026-11-22 14:51:52 UTC Xiaomi 17: 19 neue Kandidaten
-2026-11-22 14:52:13 UTC Suche „RalphLauren“
-2026-11-22 14:52:24 UTC RalphLauren: 143 neu, 70 in der Vorauswahl (Schwelle 0.50), 27 per Lernmodell aussortiert, Bild-Budget 17
-2026-11-22 14:52:27 UTC Ausgeschlossen 10923039425: V-Ausschnitt
-2026-11-22 14:52:30 UTC Ausgeschlossen 10922704816: V-Ausschnitt
-2026-11-22 14:52:35 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA1YGN6FBkBmjHPThzb"}
-2026-11-22 14:52:38 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA1mHhsz45yRVMGjY8r"}
-2026-11-22 14:52:42 UTC Ausgeschlossen 10922958413: Flecken / Löcher
-2026-11-22 14:52:49 UTC Ausgeschlossen 10923199859: Flecken / Löcher
-2026-11-22 14:52:52 UTC Ausgeschlossen 10922699253: V-Ausschnitt
-2026-11-22 14:52:55 UTC Ausgeschlossen 10922981072: Kinder
-2026-11-22 14:52:58 UTC Ausgeschlossen 10918959485: V-Ausschnitt
-2026-11-22 14:53:08 UTC Ausgeschlossen 10923048078: Kinder
-2026-11-22 14:53:12 UTC Ausgeschlossen 10923198483: Flecken / Löcher
-2026-11-22 14:53:14 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA4SLFySsBUSTBsyFaF"}
-2026-11-22 14:53:21 UTC Ausgeschlossen 10922968057: V-Ausschnitt
-2026-11-22 14:53:25 UTC Ausgeschlossen 10922916434: V-Ausschnitt
-2026-11-22 14:53:27 UTC Ausgeschlossen 10922847055: V-Ausschnitt
-2026-11-22 14:53:30 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA5cVyeMsBLPSnyvAnK"}
-2026-11-22 14:53:33 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA5o6heDa1nK9JtCwUK"}
-2026-11-22 14:53:38 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA6CKTdNtUURTcAmqzB"}
-2026-11-22 14:53:42 UTC Ausgeschlossen 10923051384: V-Ausschnitt
-2026-11-22 14:53:45 UTC Ausgeschlossen 10923093267: V-Ausschnitt
-2026-11-22 14:53:51 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA78o9xurduqbtXAsv1"}
-2026-11-22 14:54:06 UTC Ausgeschlossen 10923334022: V-Ausschnitt
-2026-11-22 14:54:09 UTC Ausgeschlossen 10923145263: Kinder
-2026-11-22 14:54:15 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA8tF6WRFoocHS3y65j"}
-2026-11-22 14:54:18 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJA98Pu4xPFeprzaXfHB"}
-2026-11-22 14:54:21 UTC Ausgeschlossen 10923192558: V-Ausschnitt
-2026-11-22 14:54:30 UTC Ausgeschlossen 10923093094: V-Ausschnitt
-2026-11-22 14:54:33 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJAAD4xg2CJiipUumSSc"}
-2026-11-22 14:54:37 UTC Ausgeschlossen 10923105584: Flecken / Löcher
-2026-11-22 14:54:39 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJAAiVXmcD7J4kqCnhAQ"}
-2026-11-22 14:54:39 UTC Suche „Juicy Couture“
-2026-11-22 14:54:39 UTC Juicy Couture: noch keine Beispiele
-2026-11-22 14:54:39 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-22 14:58:53 UTC Telegram: 0 neue Nachricht(en)
+2026-11-22 14:58:53 UTC Suche „RalphLauren“
+2026-11-22 14:59:03 UTC RalphLauren: 5 neu, 4 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 17
+2026-11-22 14:59:09 UTC Suche „Juicy Couture“
+2026-11-22 14:59:09 UTC Juicy Couture: noch keine Beispiele
+2026-11-22 14:59:09 UTC Suche fertig: 0 neue Deals (2 Suchen)
