@@ -1,24 +1,2 @@
-2026-11-22 16:22:47 UTC Telegram: 0 neue Nachricht(en)
-2026-11-22 16:22:47 UTC Suche „RalphLauren“
-2026-11-22 16:22:57 UTC RalphLauren: 58 neu, 41 in der Vorauswahl (Schwelle 0.50), 15 per Lernmodell aussortiert, Bild-Budget 21
-2026-11-22 16:23:01 UTC Ausgeschlossen 10926512304: Flecken / Löcher
-2026-11-22 16:23:03 UTC Ausgeschlossen 10926604625: V-Ausschnitt
-2026-11-22 16:23:11 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGvEaRRnk4LCyz8ji8J"}
-2026-11-22 16:23:14 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGvTT5jKcPC4PMc3BAa"}
-2026-11-22 16:23:18 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGvk6BoYEWFRAQUTarV"}
-2026-11-22 16:23:21 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGvzEF54UqMshyUNe7X"}
-2026-11-22 16:23:25 UTC Ausgeschlossen 10926520558: V-Ausschnitt
-2026-11-22 16:23:34 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGwxDUXk9MSg9pq53M6"}
-2026-11-22 16:23:43 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGxdKiEGLKhTZx7cSGk"}
-2026-11-22 16:23:46 UTC Ausgeschlossen 10926589536: V-Ausschnitt
-2026-11-22 16:23:50 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGy8c6BEmyZttE6bQFh"}
-2026-11-22 16:24:04 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGz8uj4VELNtj66UaHv"}
-2026-11-22 16:24:07 UTC Ausgeschlossen 10923480955: Flecken / Löcher
-2026-11-22 16:24:10 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGzdf6ZQHn5Hyd4BYRH"}
-2026-11-22 16:24:14 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJGzuHxBoGngvy8k6rYR"}
-2026-11-22 16:24:17 UTC Ausgeschlossen 10926619620: V-Ausschnitt
-2026-11-22 16:24:20 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJH1M4Vg9ygutvmnPMWM"}
-2026-11-22 16:24:23 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChJH1Xqe5kxJMyKViqSfS"}
-2026-11-22 16:24:23 UTC Suche „Juicy Couture“
-2026-11-22 16:24:23 UTC Juicy Couture: noch keine Beispiele
-2026-11-22 16:24:23 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-22 16:28:34 UTC Telegram: 0 neue Nachricht(en)
+2026-11-22 16:28:34 UTC Keine Suche fällig
