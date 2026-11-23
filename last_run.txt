@@ -1,2 +1,17 @@
-2026-11-23 20:42:42 UTC Telegram: 0 neue Nachricht(en)
-2026-11-23 20:42:42 UTC Keine Suche fällig
+2026-11-23 20:46:59 UTC Telegram: 0 neue Nachricht(en)
+2026-11-23 20:47:00 UTC Suche „RalphLauren“
+2026-11-23 20:47:09 UTC RalphLauren: 27 neu, 15 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 62
+2026-11-23 20:47:13 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWrw7kWhTvaJDAFfyRj"}
+2026-11-23 20:47:17 UTC Ausgeschlossen 10945627474: V-Ausschnitt
+2026-11-23 20:47:20 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWsVURjCQ6qUaNBniQJ"}
+2026-11-23 20:47:23 UTC Ausgeschlossen 10945665373: Flecken / Löcher
+2026-11-23 20:47:27 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWsyAZMooxvFpZcaFso"}
+2026-11-23 20:47:30 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWtE7USWnWAnaouQTjt"}
+2026-11-23 20:47:35 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWtY7CdpSjMwj8G1hiK"}
+2026-11-23 20:47:38 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWtmizqVU5PL2qNzRGe"}
+2026-11-23 20:47:42 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWu5fke61x3wRSnTQtE"}
+2026-11-23 20:47:46 UTC Ausgeschlossen 10941161453: V-Ausschnitt
+2026-11-23 20:47:50 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLWuiDgYGSXvT29kRCK1"}
+2026-11-23 20:47:50 UTC Suche „Juicy Couture“
+2026-11-23 20:47:50 UTC Juicy Couture: noch keine Beispiele
+2026-11-23 20:47:50 UTC Suche fertig: 0 neue Deals (2 Suchen)
