@@ -1,10 +1,2 @@
-2026-11-23 01:59:38 UTC Telegram: 0 neue Nachricht(en)
-2026-11-23 01:59:38 UTC Nachtmodus: 3 Suche(n), noch 1 Artikel in dieser Stunde
-2026-11-23 01:59:38 UTC Suche „RalphLauren“
-2026-11-23 01:59:46 UTC RalphLauren: 13 neu, 6 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 7
-2026-11-23 01:59:51 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChK2tk9jYs7tpRt6s4cpH"}
-2026-11-23 01:59:53 UTC Suche „Juicy Couture“
-2026-11-23 01:59:53 UTC Juicy Couture: noch keine Beispiele
-2026-11-23 01:59:53 UTC Suche „Xiaomi 17“
-2026-11-23 01:59:58 UTC Xiaomi 17: 2 neue Kandidaten
-2026-11-23 02:00:00 UTC Suche fertig: 0 neue Deals (3 Suchen)
+2026-11-23 02:04:14 UTC Telegram: 0 neue Nachricht(en)
+2026-11-23 02:04:14 UTC Keine Suche fällig
