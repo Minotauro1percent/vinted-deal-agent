@@ -1,2 +1,16 @@
-2026-11-23 17:12:44 UTC Telegram: 0 neue Nachricht(en)
-2026-11-23 17:12:45 UTC Keine Suche fällig
+2026-11-23 17:16:56 UTC Telegram: 0 neue Nachricht(en)
+2026-11-23 17:16:56 UTC Suche „RalphLauren“
+2026-11-23 17:17:05 UTC RalphLauren: 29 neu, 16 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 24
+2026-11-23 17:17:08 UTC Ausgeschlossen 10941981570: Flecken / Löcher
+2026-11-23 17:17:11 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLEr1GQ1sUqiFByaDodq"}
+2026-11-23 17:17:14 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLErDLRqDfg2V9TVchqC"}
+2026-11-23 17:17:17 UTC Ausgeschlossen 10941975506: Flecken / Löcher
+2026-11-23 17:17:21 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLErm1vYJ5oipKaT3FHS"}
+2026-11-23 17:17:25 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLEs3zNtCKCsdrKFgyrL"}
+2026-11-23 17:17:29 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLEsJSnRgxLhPK7mQWsw"}
+2026-11-23 17:17:32 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLEsX44Rk8TpDe8e1kjx"}
+2026-11-23 17:17:42 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLEtGMZBUKt66FfkHoXT"}
+2026-11-23 17:17:45 UTC Ausgeschlossen 10941855078: V-Ausschnitt
+2026-11-23 17:17:45 UTC Suche „Juicy Couture“
+2026-11-23 17:17:45 UTC Juicy Couture: noch keine Beispiele
+2026-11-23 17:17:45 UTC Suche fertig: 0 neue Deals (2 Suchen)
