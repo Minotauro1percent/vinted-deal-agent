@@ -1,2 +1,12 @@
-2026-11-23 15:50:33 UTC Telegram: 0 neue Nachricht(en)
-2026-11-23 15:50:34 UTC Keine Suche fällig
+2026-11-23 15:54:46 UTC Telegram: 0 neue Nachricht(en)
+2026-11-23 15:54:46 UTC Suche „RalphLauren“
+2026-11-23 15:54:56 UTC RalphLauren: 30 neu, 17 in der Vorauswahl (Schwelle 0.50), 10 per Lernmodell aussortiert, Bild-Budget 20
+2026-11-23 15:54:59 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChL8aRQ4KXvjnEis7CCGA"}
+2026-11-23 15:55:02 UTC Ausgeschlossen 10941092007: Flecken / Löcher
+2026-11-23 15:55:05 UTC Ausgeschlossen 10941067886: Kinder
+2026-11-23 15:55:11 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChL8bNB7rZdeJuNw36vDd"}
+2026-11-23 15:55:15 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChL8beeKdNP3jdA2YH3Uk"}
+2026-11-23 15:55:18 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChL8bs99EftTfeayuvmfm"}
+2026-11-23 15:55:18 UTC Suche „Juicy Couture“
+2026-11-23 15:55:18 UTC Juicy Couture: noch keine Beispiele
+2026-11-23 15:55:18 UTC Suche fertig: 0 neue Deals (2 Suchen)
