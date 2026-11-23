@@ -1,16 +1,2 @@
-2026-11-23 19:51:07 UTC Telegram: 0 neue Nachricht(en)
-2026-11-23 19:51:07 UTC Suche „RalphLauren“
-2026-11-23 19:51:15 UTC RalphLauren: 49 neu, 25 in der Vorauswahl (Schwelle 0.50), 13 per Lernmodell aussortiert, Bild-Budget 45
-2026-11-23 19:51:19 UTC Ausgeschlossen 10944797768: V-Ausschnitt
-2026-11-23 19:51:23 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLSc2iTiF4Va7wGJB9Go"}
-2026-11-23 19:51:30 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLScXyrfvDqZsGKBmGbN"}
-2026-11-23 19:51:34 UTC Ausgeschlossen 10944850721: Kinder
-2026-11-23 19:51:37 UTC Ausgeschlossen 10944785319: V-Ausschnitt
-2026-11-23 19:51:40 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLSdFhLWKXLnMtEBytwf"}
-2026-11-23 19:51:43 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLSdSuXxbmHy7eJvzumK"}
-2026-11-23 19:51:46 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLSdj67PKEYH7DJ8Y6Zw"}
-2026-11-23 19:51:49 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLSdukoqp7BsZgijLkT9"}
-2026-11-23 19:51:52 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChLSeAiymi2HHFY4LDLuX"}
-2026-11-23 19:51:52 UTC Suche „Juicy Couture“
-2026-11-23 19:51:52 UTC Juicy Couture: noch keine Beispiele
-2026-11-23 19:51:52 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-23 19:56:02 UTC Telegram: 0 neue Nachricht(en)
+2026-11-23 19:56:02 UTC Keine Suche fällig
