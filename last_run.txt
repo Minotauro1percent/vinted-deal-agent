@@ -1,2 +1,27 @@
-2026-11-23 03:45:20 UTC Telegram: 0 neue Nachricht(en)
-2026-11-23 03:45:21 UTC Keine Suche fällig
+2026-11-23 09:43:05 UTC Telegram: 0 neue Nachricht(en)
+2026-11-23 09:43:05 UTC Suche „Xiaomi 17“
+2026-11-23 09:43:09 UTC Xiaomi 17: 0 neue Kandidaten
+2026-11-23 09:43:09 UTC Suche „RalphLauren“
+2026-11-23 09:43:18 UTC RalphLauren: 143 neu, 53 in der Vorauswahl (Schwelle 0.50), 23 per Lernmodell aussortiert, Bild-Budget 11
+2026-11-23 09:43:21 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeEoCuogvZbim14UgTr"}
+2026-11-23 09:43:25 UTC Ausgeschlossen 10936696800: V-Ausschnitt
+2026-11-23 09:43:32 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeFaiNDPcH56PeifAHm"}
+2026-11-23 09:43:38 UTC Ausgeschlossen 10936544104: V-Ausschnitt
+2026-11-23 09:43:41 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeGFsJvYuQQHYG2BKtP"}
+2026-11-23 09:43:44 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeGTXnnUeVwmvVGgtzr"}
+2026-11-23 09:43:47 UTC Ausgeschlossen 10936521912: Ohne Ärmel / Weste
+2026-11-23 09:43:51 UTC Ausgeschlossen 10936516082: Flecken / Löcher
+2026-11-23 09:44:00 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeHfTRnRnrtq7w5xZv5"}
+2026-11-23 09:44:03 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeHsgPF2BR4r39ndM46"}
+2026-11-23 09:44:07 UTC Ausgeschlossen 10936440583: V-Ausschnitt
+2026-11-23 09:44:10 UTC Ausgeschlossen 10936516759: Kinder
+2026-11-23 09:44:20 UTC Ausgeschlossen 10936774390: V-Ausschnitt
+2026-11-23 09:44:24 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeKQaXDccsAUvi88Kc1"}
+2026-11-23 09:44:33 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeL6vusg5Pg2eWVCJrV"}
+2026-11-23 09:44:37 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeLLbCKfCCqqtyAo1Zm"}
+2026-11-23 09:44:45 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKeLxwydXsWsAU6tMhoH"}
+2026-11-23 09:44:52 UTC Ausgeschlossen 10936463616: Kinder
+2026-11-23 09:44:57 UTC Ausgeschlossen 10936585201: V-Ausschnitt
+2026-11-23 09:44:57 UTC Suche „Juicy Couture“
+2026-11-23 09:44:57 UTC Juicy Couture: noch keine Beispiele
+2026-11-23 09:44:57 UTC Suche fertig: 0 neue Deals (3 Suchen)
