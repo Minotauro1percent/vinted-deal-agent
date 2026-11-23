@@ -1,2 +1,11 @@
-2026-11-23 12:22:14 UTC Telegram: 0 neue Nachricht(en)
-2026-11-23 12:22:14 UTC Keine Suche fällig
+2026-11-23 12:26:27 UTC Telegram: 0 neue Nachricht(en)
+2026-11-23 12:26:27 UTC Suche „RalphLauren“
+2026-11-23 12:26:36 UTC RalphLauren: 25 neu, 11 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 13
+2026-11-23 12:26:43 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKrhHcppaQjsA4Rqc5M1"}
+2026-11-23 12:26:46 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKrhYZkc6w8N32GcQRb3"}
+2026-11-23 12:26:52 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChKri19ALRsz3HDXceaCw"}
+2026-11-23 12:26:56 UTC Ausgeschlossen 10938671995: V-Ausschnitt
+2026-11-23 12:26:56 UTC Details übersprungen (10938668186): HTTP 404 für https://www.vinted.at/items/10938668186-pull-ralph-lauren
+2026-11-23 12:26:56 UTC Suche „Juicy Couture“
+2026-11-23 12:26:56 UTC Juicy Couture: noch keine Beispiele
+2026-11-23 12:26:56 UTC Suche fertig: 0 neue Deals (2 Suchen)
