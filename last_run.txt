@@ -1,2 +1,20 @@
-2026-11-24 15:28:44 UTC Telegram: 0 neue Nachricht(en)
-2026-11-24 15:28:45 UTC Keine Suche fällig
+2026-11-24 15:33:03 UTC Telegram: 0 neue Nachricht(en)
+2026-11-24 15:33:03 UTC Suche „RalphLauren“
+2026-11-24 15:33:11 UTC RalphLauren: 64 neu, 28 in der Vorauswahl (Schwelle 0.50), 11 per Lernmodell aussortiert, Bild-Budget 19
+2026-11-24 15:33:18 UTC Ausgeschlossen 10954392724: Kinder
+2026-11-24 15:33:23 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMzjqo6BzRznFePHixqZ"}
+2026-11-24 15:33:27 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMzk62MBWth5B2uL5tYx"}
+2026-11-24 15:33:30 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMzkM5TiRQBgRL88MqAo"}
+2026-11-24 15:33:34 UTC Ausgeschlossen 10954181393: V-Ausschnitt
+2026-11-24 15:33:37 UTC Ausgeschlossen 10954390359: V-Ausschnitt
+2026-11-24 15:33:41 UTC Ausgeschlossen 10954142518: V-Ausschnitt
+2026-11-24 15:33:43 UTC Ausgeschlossen 10954440557: Kinder
+2026-11-24 15:33:47 UTC Ausgeschlossen 10954432160: V-Ausschnitt
+2026-11-24 15:33:51 UTC Ausgeschlossen 10954224950: Flecken / Löcher
+2026-11-24 15:33:54 UTC Ausgeschlossen 10954338666: V-Ausschnitt
+2026-11-24 15:33:59 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMznStmwFub87EhYJN5y"}
+2026-11-24 15:34:10 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMzoJFdod7JCpFzubq6j"}
+2026-11-24 15:34:13 UTC Ausgeschlossen 10954315877: V-Ausschnitt
+2026-11-24 15:34:13 UTC Suche „Juicy Couture“
+2026-11-24 15:34:13 UTC Juicy Couture: noch keine Beispiele
+2026-11-24 15:34:13 UTC Suche fertig: 0 neue Deals (2 Suchen)
