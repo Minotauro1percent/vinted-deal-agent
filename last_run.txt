@@ -1,2 +1,12 @@
-2026-11-24 13:47:42 UTC Telegram: 0 neue Nachricht(en)
-2026-11-24 13:47:42 UTC Keine Suche fällig
+2026-11-24 13:51:54 UTC Telegram: 0 neue Nachricht(en)
+2026-11-24 13:51:54 UTC Suche „Xiaomi 17“
+2026-11-24 13:51:59 UTC Xiaomi 17: 4 neue Kandidaten
+2026-11-24 13:52:06 UTC Suche „RalphLauren“
+2026-11-24 13:52:16 UTC RalphLauren: 16 neu, 10 in der Vorauswahl (Schwelle 0.50), 5 per Lernmodell aussortiert, Bild-Budget 15
+2026-11-24 13:52:19 UTC Ausgeschlossen 10953087267: V-Ausschnitt
+2026-11-24 13:52:22 UTC Ausgeschlossen 10953073756: V-Ausschnitt
+2026-11-24 13:52:26 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMs3MpQhHmBZt9xuNTG6"}
+2026-11-24 13:52:33 UTC Ausgeschlossen 10953034626: V-Ausschnitt
+2026-11-24 13:52:33 UTC Suche „Juicy Couture“
+2026-11-24 13:52:33 UTC Juicy Couture: noch keine Beispiele
+2026-11-24 13:52:33 UTC Suche fertig: 0 neue Deals (3 Suchen)
