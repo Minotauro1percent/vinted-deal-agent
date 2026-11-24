@@ -1,8 +1,2 @@
-2026-11-24 07:11:00 UTC Telegram: 0 neue Nachricht(en)
-2026-11-24 07:11:00 UTC Suche „RalphLauren“
-2026-11-24 07:11:09 UTC RalphLauren: 9 neu, 4 in der Vorauswahl (Schwelle 0.50), 2 per Lernmodell aussortiert, Bild-Budget 9
-2026-11-24 07:11:13 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMLSo8Shcc2afA2aLxpA"}
-2026-11-24 07:11:16 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChMLT58sLSB9fsXZ4jgwG"}
-2026-11-24 07:11:16 UTC Suche „Juicy Couture“
-2026-11-24 07:11:16 UTC Juicy Couture: noch keine Beispiele
-2026-11-24 07:11:16 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-24 07:15:28 UTC Telegram: 0 neue Nachricht(en)
+2026-11-24 07:15:28 UTC Keine Suche fällig
