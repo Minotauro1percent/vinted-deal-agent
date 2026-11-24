@@ -1,10 +1,2 @@
-2026-11-24 21:29:40 UTC Telegram: 0 neue Nachricht(en)
-2026-11-24 21:29:40 UTC Suche „RalphLauren“
-2026-11-24 21:29:48 UTC RalphLauren: 15 neu, 10 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 89
-2026-11-24 21:29:52 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNTvXMHCWCL8scAYaFzd"}
-2026-11-24 21:29:55 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNTvjz2rXjdWCRcmpbqz"}
-2026-11-24 21:30:06 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChNTwY6TQUwamQMYNqswc"}
-2026-11-24 21:30:06 UTC Details übersprungen (10959358111): HTTP 404 für https://www.vinted.at/items/10959358111-felpa-polo-ralph-lauren-taglia-m
-2026-11-24 21:30:06 UTC Suche „Juicy Couture“
-2026-11-24 21:30:06 UTC Juicy Couture: noch keine Beispiele
-2026-11-24 21:30:06 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-24 21:34:19 UTC Telegram: 0 neue Nachricht(en)
+2026-11-24 21:34:19 UTC Keine Suche fällig
