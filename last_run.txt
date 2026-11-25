@@ -1,2 +1,17 @@
-2026-11-25 09:31:45 UTC Telegram: 0 neue Nachricht(en)
-2026-11-25 09:31:45 UTC Keine Suche fällig
+2026-11-25 09:35:57 UTC Telegram: 0 neue Nachricht(en)
+2026-11-25 09:35:58 UTC Suche „RalphLauren“
+2026-11-25 09:36:08 UTC RalphLauren: 33 neu, 17 in der Vorauswahl (Schwelle 0.50), 4 per Lernmodell aussortiert, Bild-Budget 10
+2026-11-25 09:36:13 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPRK1wVxvXEE4gJ85fkv"}
+2026-11-25 09:36:20 UTC Ausgeschlossen 10963122885: V-Ausschnitt
+2026-11-25 09:36:29 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPRLBxXpVwW3ZJKWsvwg"}
+2026-11-25 09:36:33 UTC Ausgeschlossen 10963137943: V-Ausschnitt
+2026-11-25 09:36:37 UTC Ausgeschlossen 10963137513: Flecken / Löcher
+2026-11-25 09:36:41 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPRM64rSc5jXNQ9XP2Ci"}
+2026-11-25 09:36:44 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPRMKefb2giqtnrFL4LR"}
+2026-11-25 09:36:47 UTC Ausgeschlossen 10963127121: V-Ausschnitt
+2026-11-25 09:36:50 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPRMmPUNNLjMMktga8DD"}
+2026-11-25 09:36:55 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPRN8BdHEJ4wASLc47XT"}
+2026-11-25 09:36:59 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPRNQcqKF5KJwjkLbDcX"}
+2026-11-25 09:36:59 UTC Suche „Juicy Couture“
+2026-11-25 09:36:59 UTC Juicy Couture: noch keine Beispiele
+2026-11-25 09:36:59 UTC Suche fertig: 0 neue Deals (2 Suchen)
