@@ -1,2 +1,16 @@
-2026-11-25 15:07:12 UTC Telegram: 0 neue Nachricht(en)
-2026-11-25 15:07:12 UTC Keine Suche fällig
+2026-11-25 15:11:24 UTC Telegram: 0 neue Nachricht(en)
+2026-11-25 15:11:24 UTC Suche „RalphLauren“
+2026-11-25 15:11:33 UTC RalphLauren: 29 neu, 12 in der Vorauswahl (Schwelle 0.50), 1 per Lernmodell aussortiert, Bild-Budget 18
+2026-11-25 15:11:37 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPrtSmp1bGFfQVxWWwv1"}
+2026-11-25 15:11:41 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPrtjepgdZS87nfjpRam"}
+2026-11-25 15:11:43 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPrtw79CVGNGnETv2mzz"}
+2026-11-25 15:11:47 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPruBRcyywRTA5Hiz5V4"}
+2026-11-25 15:11:54 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPruiJjgFmaeHkVsCCzZ"}
+2026-11-25 15:11:57 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPruy1mY13PABHkAmp9W"}
+2026-11-25 15:12:01 UTC Ausgeschlossen 10967126438: Kinder
+2026-11-25 15:12:05 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPrvYWfG94ykicqUNAok"}
+2026-11-25 15:12:09 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChPrvqC1RjYPZ6MrhQFb3"}
+2026-11-25 15:12:12 UTC Ausgeschlossen 10967118728: Flecken / Löcher
+2026-11-25 15:12:12 UTC Suche „Juicy Couture“
+2026-11-25 15:12:12 UTC Juicy Couture: noch keine Beispiele
+2026-11-25 15:12:12 UTC Suche fertig: 0 neue Deals (2 Suchen)
