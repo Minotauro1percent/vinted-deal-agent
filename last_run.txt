@@ -1,17 +1,2 @@
-2026-11-26 13:54:41 UTC Telegram: 0 neue Nachricht(en)
-2026-11-26 13:54:42 UTC Suche „RalphLauren“
-2026-11-26 13:54:51 UTC RalphLauren: 30 neu, 21 in der Vorauswahl (Schwelle 0.50), 8 per Lernmodell aussortiert, Bild-Budget 15
-2026-11-26 13:54:54 UTC Ausgeschlossen 10978499723: Flecken / Löcher
-2026-11-26 13:54:58 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRerLzcLf9A3RYhHdTum"}
-2026-11-26 13:55:01 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRera89GYcjNSCHASxX8"}
-2026-11-26 13:55:11 UTC Ausgeschlossen 10978538111: V-Ausschnitt
-2026-11-26 13:55:13 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChResWzuNziKnshGqeVAL"}
-2026-11-26 13:55:17 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChResnQrGPU5EUnNFSnhx"}
-2026-11-26 13:55:20 UTC Ausgeschlossen 10978189698: V-Ausschnitt
-2026-11-26 13:55:22 UTC Ausgeschlossen 10978537267: V-Ausschnitt
-2026-11-26 13:55:25 UTC Ausgeschlossen 10978515871: V-Ausschnitt
-2026-11-26 13:55:28 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRetd3pLpMCtRwzbGAa3"}
-2026-11-26 13:55:31 UTC Bildprüfung fehlgeschlagen: Claude-API 401: {"type":"error","error":{"type":"authentication_error","message":"invalid x-api-key"},"request_id":"req_011ChRetpa6vTVcADLshrjAz"}
-2026-11-26 13:55:31 UTC Suche „Juicy Couture“
-2026-11-26 13:55:31 UTC Juicy Couture: noch keine Beispiele
-2026-11-26 13:55:31 UTC Suche fertig: 0 neue Deals (2 Suchen)
+2026-11-26 13:59:43 UTC Telegram: 0 neue Nachricht(en)
+2026-11-26 13:59:44 UTC Keine Suche fällig
